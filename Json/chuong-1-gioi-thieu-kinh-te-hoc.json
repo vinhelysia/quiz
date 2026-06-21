@@ -1,0 +1,769 @@
+{
+  "chapter_id": "chuong-1",
+  "title": "Chương 1 - Giới thiệu về kinh tế học",
+  "source_file": "CHUONG 1 - GIOI THIEU VE KINH TE HOC - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "1-001",
+      "topic": "Sự khan hiếm",
+      "difficulty": "easy",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question": "Trong kinh tế học, sự khan hiếm xuất hiện khi nào?",
+      "options": {
+        "A": "Khi mọi nhu cầu của con người đều đã được đáp ứng",
+        "B": "Khi nhu cầu vô hạn vượt quá nguồn lực hữu hạn",
+        "C": "Chỉ khi một quốc gia rơi vào nghèo đói",
+        "D": "Khi nền kinh tế không sử dụng tiền"
+      },
+      "correct_answer": "B",
+      "explanation": "Sự khan hiếm là tình trạng nhu cầu và mong muốn không giới hạn vượt quá nguồn lực hữu hạn có thể dùng để đáp ứng chúng. Sự khan hiếm không đồng nghĩa với nghèo đói."
+    },
+    {
+      "id": "1-002",
+      "topic": "Khái niệm kinh tế học",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Kinh tế học nghiên cứu vấn đề cốt lõi nào?",
+      "options": {
+        "A": "Cách xã hội phân bổ nguồn lực hữu hạn để đáp ứng nhu cầu vô hạn",
+        "B": "Cách tạo ra nguồn tài nguyên thiên nhiên vô hạn",
+        "C": "Chỉ cách doanh nghiệp tối đa hóa doanh thu",
+        "D": "Chỉ cách chính phủ thu thuế"
+      },
+      "correct_answer": "A",
+      "explanation": "Kinh tế học nghiên cứu cách xã hội quản lý và phân bổ các nguồn lực hữu hạn nhằm đáp ứng nhu cầu, mong muốn vô hạn một cách hiệu quả."
+    },
+    {
+      "id": "1-003",
+      "topic": "Nguồn lực kinh tế",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Yếu tố nào sau đây không được bài giảng liệt kê là một nguồn lực hoặc ràng buộc của hoạt động kinh tế?",
+      "options": {
+        "A": "Công nghệ",
+        "B": "Nguồn nhân lực",
+        "C": "Vốn vật chất",
+        "D": "Nhu cầu vô hạn đã được thỏa mãn hoàn toàn"
+      },
+      "correct_answer": "D",
+      "explanation": "Hoạt động kinh tế bị ràng buộc bởi công nghệ và các nguồn lực như tài nguyên thiên nhiên, nhân lực, vốn vật chất, vốn tài chính và năng lực kinh doanh."
+    },
+    {
+      "id": "1-004",
+      "topic": "Nguồn lực kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        2
+      ],
+      "question": "Phân biệt vốn vật chất và vốn tài chính như thế nào?",
+      "options": {
+        "A": "Vốn vật chất là tiền; vốn tài chính là máy móc",
+        "B": "Vốn vật chất là nhà máy, máy móc; vốn tài chính là tiền dùng để mua vốn vật chất",
+        "C": "Cả hai đều chỉ là tài nguyên thiên nhiên",
+        "D": "Cả hai đều chỉ khả năng lao động của con người"
+      },
+      "correct_answer": "B",
+      "explanation": "Vốn vật chất gồm nhà máy, máy móc và thiết bị dùng để sản xuất; vốn tài chính là tiền dùng để mua vốn vật chất."
+    },
+    {
+      "id": "1-005",
+      "topic": "Ba câu hỏi kinh tế cơ bản",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Bộ ba câu hỏi cơ bản mà mọi nền kinh tế phải giải quyết là gì?",
+      "options": {
+        "A": "Sản xuất cái gì, sản xuất như thế nào, sản xuất cho ai",
+        "B": "Thu thuế gì, thu bao nhiêu, thu khi nào",
+        "C": "Nhập khẩu gì, xuất khẩu gì, dùng đồng tiền nào",
+        "D": "Tiêu dùng gì, tiết kiệm gì, vay ở đâu"
+      },
+      "correct_answer": "A",
+      "explanation": "Sự khan hiếm buộc nền kinh tế phải quyết định sản xuất cái gì, bằng cách nào và phân phối sản phẩm cho ai."
+    },
+    {
+      "id": "1-006",
+      "topic": "Kinh tế học thực chứng",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Đặc điểm nào phù hợp nhất với kinh tế học thực chứng?",
+      "options": {
+        "A": "Đưa ra nhận định chủ quan về điều xã hội nên làm",
+        "B": "Mô tả, giải thích và dự báo hiện tượng kinh tế một cách khách quan",
+        "C": "Chỉ nghiên cứu các vấn đề đạo đức",
+        "D": "Không sử dụng dữ liệu thực tế"
+      },
+      "correct_answer": "B",
+      "explanation": "Kinh tế học thực chứng sử dụng lý thuyết, mô hình và bằng chứng để mô tả, giải thích hoặc dự báo hiện tượng kinh tế."
+    },
+    {
+      "id": "1-007",
+      "topic": "Kinh tế học chuẩn tắc",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Kinh tế học chuẩn tắc thường trả lời loại câu hỏi nào?",
+      "options": {
+        "A": "Điều gì đang xảy ra?",
+        "B": "Hiện tượng có thể đo lường bằng dữ liệu nào?",
+        "C": "Nên làm như thế nào?",
+        "D": "Giá thị trường hiện tại là bao nhiêu?"
+      },
+      "correct_answer": "C",
+      "explanation": "Kinh tế học chuẩn tắc chứa đánh giá chủ quan và đưa ra khuyến nghị về điều cá nhân, xã hội hoặc chính phủ nên làm."
+    },
+    {
+      "id": "1-008",
+      "topic": "Thực chứng và chuẩn tắc",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Phát biểu nào là phát biểu thực chứng?",
+      "options": {
+        "A": "Chính phủ nên giảm tốc độ lạm phát",
+        "B": "Nên miễn học phí cho tất cả các cấp học",
+        "C": "Lạm phát tăng khi chính phủ in quá nhiều tiền",
+        "D": "Lương tối thiểu ở hai khu vực nên bằng nhau"
+      },
+      "correct_answer": "C",
+      "explanation": "Đây là phát biểu mô tả quan hệ có thể kiểm chứng bằng dữ liệu. Các phương án còn lại chứa từ 'nên' và mang tính khuyến nghị."
+    },
+    {
+      "id": "1-009",
+      "topic": "Thực chứng và chuẩn tắc",
+      "difficulty": "medium",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Phát biểu nào là phát biểu chuẩn tắc?",
+      "options": {
+        "A": "Thuế xăng tăng làm thay đổi hành vi tiêu dùng",
+        "B": "Chính phủ nên miễn học phí cho tất cả các cấp học",
+        "C": "Tỷ lệ thất nghiệp năm nay cao hơn năm trước",
+        "D": "Hạn ngạch nhập khẩu làm giảm lượng xe nhập khẩu"
+      },
+      "correct_answer": "B",
+      "explanation": "Phát biểu dùng đánh giá và khuyến nghị về điều chính phủ nên làm nên thuộc kinh tế học chuẩn tắc."
+    },
+    {
+      "id": "1-010",
+      "topic": "Nguyên lý 1 - Sự đánh đổi",
+      "difficulty": "easy",
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "question": "Vì sao con người luôn phải đối mặt với sự đánh đổi?",
+      "options": {
+        "A": "Vì nguồn lực khan hiếm nên đạt mục tiêu này thường phải từ bỏ mục tiêu khác",
+        "B": "Vì tất cả hàng hóa đều miễn phí",
+        "C": "Vì nhu cầu của con người có giới hạn",
+        "D": "Vì mọi lựa chọn đều cho kết quả giống nhau"
+      },
+      "correct_answer": "A",
+      "explanation": "Sự khan hiếm khiến mỗi quyết định sử dụng nguồn lực cho một mục tiêu đồng nghĩa với việc giảm khả năng đạt một mục tiêu khác."
+    },
+    {
+      "id": "1-011",
+      "topic": "Hiệu quả và công bằng",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Trong bài giảng, hiệu quả được hiểu là gì?",
+      "options": {
+        "A": "Mọi người nhận được thu nhập bằng nhau",
+        "B": "Xã hội đạt được nhiều nhất từ các nguồn lực khan hiếm",
+        "C": "Chính phủ chi tiêu toàn bộ ngân sách",
+        "D": "Doanh nghiệp không có lợi nhuận"
+      },
+      "correct_answer": "B",
+      "explanation": "Hiệu quả là trạng thái xã hội tối đa hóa giá trị đạt được từ một lượng nguồn lực cho trước."
+    },
+    {
+      "id": "1-012",
+      "topic": "Hiệu quả và công bằng",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Vì sao chính sách tăng công bằng đôi khi có thể làm giảm hiệu quả?",
+      "options": {
+        "A": "Phân phối lại thu nhập có thể làm giảm động cơ làm việc và sản xuất",
+        "B": "Công bằng luôn làm tài nguyên tăng vô hạn",
+        "C": "Công bằng làm mọi mức giá trở về $0$",
+        "D": "Hiệu quả và công bằng là hai khái niệm hoàn toàn giống nhau"
+      },
+      "correct_answer": "A",
+      "explanation": "Phân phối lại từ người giàu sang người nghèo có thể tăng công bằng nhưng làm giảm phần thưởng cho lao động hoặc đầu tư, từ đó giảm hiệu quả."
+    },
+    {
+      "id": "1-013",
+      "topic": "Nguyên lý 2 - Chi phí cơ hội",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Chi phí cơ hội của một lựa chọn là gì?",
+      "options": {
+        "A": "Tổng số tiền đang có",
+        "B": "Giá trị của phương án thay thế tốt nhất bị từ bỏ",
+        "C": "Chỉ các khoản chi được ghi trên hóa đơn",
+        "D": "Mọi lợi ích thu được từ lựa chọn"
+      },
+      "correct_answer": "B",
+      "explanation": "Chi phí cơ hội là giá trị cao nhất bị mất đi khi lựa chọn một hoạt động thay cho phương án tốt nhất khác."
+    },
+    {
+      "id": "1-014",
+      "topic": "Chi phí cơ hội",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        8
+      ],
+      "question": "Bạn dùng $1$ tỷ đồng mua nhà thay vì gửi ngân hàng với lãi suất $10\\%$/năm. Chỉ xét tiền lãi bị bỏ lỡ, chi phí cơ hội sau một năm là bao nhiêu?",
+      "options": {
+        "A": "$10$ triệu đồng",
+        "B": "$50$ triệu đồng",
+        "C": "$100$ triệu đồng",
+        "D": "$1$ tỷ đồng"
+      },
+      "correct_answer": "C",
+      "explanation": "Tiền lãi bị bỏ lỡ là $1{,}000{,}000{,}000\\times10\\%=100{,}000{,}000$ đồng. Đây là một phần chi phí cơ hội của quyết định mua nhà."
+    },
+    {
+      "id": "1-015",
+      "topic": "Nguyên lý 3 - Phân tích cận biên",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question": "Theo nguyên tắc phân tích cận biên, một người duy lý nên thực hiện thêm một đơn vị hoạt động khi nào?",
+      "options": {
+        "A": "$MB>MC$",
+        "B": "$MB<MC$",
+        "C": "$MB=0$ trong mọi trường hợp",
+        "D": "$MC$ không thể xác định"
+      },
+      "correct_answer": "A",
+      "explanation": "Nên thực hiện thêm khi lợi ích biên $MB$ lớn hơn chi phí biên $MC$. Điểm tối ưu thường đạt quanh điều kiện $MB=MC$."
+    },
+    {
+      "id": "1-016",
+      "topic": "Nguyên lý 3 - Phân tích cận biên",
+      "difficulty": "easy",
+      "source_pages": [
+        8,
+        9,
+        10
+      ],
+      "question": "Thay đổi cận biên là gì?",
+      "options": {
+        "A": "Một thay đổi nhỏ quanh trạng thái hiện tại",
+        "B": "Xóa bỏ toàn bộ hoạt động hiện tại",
+        "C": "Một quyết định không có chi phí",
+        "D": "Một thay đổi chỉ xảy ra trong kinh tế vĩ mô"
+      },
+      "correct_answer": "A",
+      "explanation": "Cận biên có nghĩa là lân cận; thay đổi cận biên là sự điều chỉnh nhỏ so với trạng thái hoặc kế hoạch hiện tại."
+    },
+    {
+      "id": "1-017",
+      "topic": "Nguyên lý 4 - Động cơ khuyến khích",
+      "difficulty": "easy",
+      "source_pages": [
+        10
+      ],
+      "question": "Ví dụ nào thể hiện con người phản ứng với động cơ khuyến khích?",
+      "options": {
+        "A": "Giá xăng tăng khiến người tiêu dùng mua xe tiết kiệm nhiên liệu hơn",
+        "B": "Nguồn lực trở nên vô hạn khi giá tăng",
+        "C": "Thuế thuốc lá tăng nhưng hành vi không thể thay đổi",
+        "D": "Người tiêu dùng không quan tâm đến chi phí và lợi ích"
+      },
+      "correct_answer": "A",
+      "explanation": "Giá xăng cao làm tăng chi phí sử dụng xe tiêu hao nhiều nhiên liệu, tạo động cơ chuyển sang xe tiết kiệm nhiên liệu."
+    },
+    {
+      "id": "1-018",
+      "topic": "Hiệu ứng rắn hổ mang",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Hiệu ứng rắn hổ mang mô tả hiện tượng nào?",
+      "options": {
+        "A": "Một chính sách khuyến khích tạo hậu quả ngoài dự kiến và làm vấn đề tồi tệ hơn",
+        "B": "Mọi hình thức thưởng đều đạt đúng mục tiêu",
+        "C": "Thương mại luôn làm giảm chuyên môn hóa",
+        "D": "Giá cả luôn cố định khi chính phủ can thiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Khi động cơ được thiết kế sai, con người có thể điều chỉnh hành vi để nhận thưởng theo cách đi ngược mục tiêu ban đầu, khiến vấn đề nghiêm trọng hơn."
+    },
+    {
+      "id": "1-019",
+      "topic": "Nguyên lý 5 - Lợi ích từ thương mại",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Vì sao thương mại có thể làm các bên đều có lợi?",
+      "options": {
+        "A": "Cho phép chuyên môn hóa và trao đổi để có hàng hóa với chi phí tốt hơn",
+        "B": "Buộc mỗi người tự sản xuất tất cả hàng hóa mình cần",
+        "C": "Loại bỏ hoàn toàn sự khan hiếm",
+        "D": "Làm cho mọi hàng hóa có cùng một mức giá"
+      },
+      "correct_answer": "A",
+      "explanation": "Chuyên môn hóa giúp mỗi bên tập trung vào hoạt động phù hợp rồi trao đổi, nhờ đó có thể tiêu dùng nhiều hơn so với tự cung tự cấp."
+    },
+    {
+      "id": "1-020",
+      "topic": "Nguyên lý 6 - Thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Thị trường được định nghĩa như thế nào trong bài giảng?",
+      "options": {
+        "A": "Chỉ là một tòa nhà dùng để bán hàng",
+        "B": "Nơi một nhóm người mua và người bán tương tác với nhau",
+        "C": "Chỉ là cơ quan quản lý nhà nước",
+        "D": "Một hệ thống không có giá cả"
+      },
+      "correct_answer": "B",
+      "explanation": "Thị trường là cơ chế hoặc nơi người mua và người bán tương tác, không nhất thiết phải là một địa điểm vật lý cụ thể."
+    },
+    {
+      "id": "1-021",
+      "topic": "Bàn tay vô hình",
+      "difficulty": "medium",
+      "source_pages": [
+        13,
+        14
+      ],
+      "question": "Theo ý tưởng 'bàn tay vô hình' của Adam Smith, điều gì có thể xảy ra khi hộ gia đình và doanh nghiệp theo đuổi lợi ích riêng trong thị trường?",
+      "options": {
+        "A": "Các quyết định phân tán có thể góp phần thúc đẩy phúc lợi kinh tế",
+        "B": "Mọi thất bại thị trường tự động biến mất",
+        "C": "Chính phủ không bao giờ cần tồn tại",
+        "D": "Nguồn lực không còn khan hiếm"
+      },
+      "correct_answer": "A",
+      "explanation": "Tín hiệu giá và tương tác thị trường có thể phối hợp hành vi vì lợi ích riêng để phân bổ nguồn lực và thúc đẩy phúc lợi chung."
+    },
+    {
+      "id": "1-022",
+      "topic": "Nguyên lý 7 - Vai trò chính phủ",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Thất bại thị trường là gì?",
+      "options": {
+        "A": "Thị trường tự nó không phân bổ nguồn lực một cách hiệu quả",
+        "B": "Một doanh nghiệp có doanh thu giảm",
+        "C": "Người mua quyết định tiết kiệm",
+        "D": "Mọi mức giá đều tăng cùng lúc"
+      },
+      "correct_answer": "A",
+      "explanation": "Thất bại thị trường xảy ra khi cơ chế thị trường tự do không tạo ra kết quả phân bổ nguồn lực hiệu quả."
+    },
+    {
+      "id": "1-023",
+      "topic": "Ngoại tác",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Nhà máy gây ô nhiễm ảnh hưởng đến cư dân xung quanh là ví dụ của hiện tượng nào?",
+      "options": {
+        "A": "Ngoại tác",
+        "B": "Chi phí chìm",
+        "C": "Chuyên môn hóa",
+        "D": "Tăng năng suất"
+      },
+      "correct_answer": "A",
+      "explanation": "Ngoại tác là ảnh hưởng của hoạt động sản xuất hoặc tiêu dùng lên người ngoài cuộc mà giá thị trường có thể chưa phản ánh đầy đủ."
+    },
+    {
+      "id": "1-024",
+      "topic": "Sức mạnh thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Sức mạnh thị trường là khả năng nào?",
+      "options": {
+        "A": "Một chủ thể hoặc nhóm nhỏ chủ thể có thể ảnh hưởng đáng kể đến giá thị trường",
+        "B": "Mọi người mua đều có thu nhập bằng nhau",
+        "C": "Chính phủ sản xuất toàn bộ hàng hóa",
+        "D": "Doanh nghiệp không thể thay đổi sản lượng"
+      },
+      "correct_answer": "A",
+      "explanation": "Độc quyền là ví dụ điển hình khi một người bán có khả năng tác động đáng kể lên giá cả thị trường."
+    },
+    {
+      "id": "1-025",
+      "topic": "Vai trò chính phủ",
+      "difficulty": "easy",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Đâu là nhóm lý do cần chính phủ được nêu trong bài giảng?",
+      "options": {
+        "A": "Bảo vệ quyền sở hữu, thúc đẩy hiệu quả và thúc đẩy bình đẳng",
+        "B": "Xóa bỏ mọi lựa chọn cá nhân",
+        "C": "Làm cho tất cả nguồn lực trở nên miễn phí",
+        "D": "Thay thế toàn bộ hộ gia đình và doanh nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Chính phủ thực thi quyền sở hữu, xử lý một số thất bại thị trường để tăng hiệu quả và dùng chính sách thuế, an sinh để tác động đến bình đẳng."
+    },
+    {
+      "id": "1-026",
+      "topic": "Nguyên lý 8 - Mức sống và năng suất",
+      "difficulty": "easy",
+      "source_pages": [
+        16,
+        17
+      ],
+      "question": "Yếu tố quan trọng nhất quyết định mức sống của một quốc gia là gì?",
+      "options": {
+        "A": "Năng suất sản xuất hàng hóa và dịch vụ",
+        "B": "Diện tích quốc gia",
+        "C": "Số lượng loại tiền đang lưu hành",
+        "D": "Số giờ nghỉ lễ"
+      },
+      "correct_answer": "A",
+      "explanation": "Mức sống phụ thuộc chủ yếu vào năng suất, tức lượng hàng hóa và dịch vụ mà một người lao động có thể sản xuất."
+    },
+    {
+      "id": "1-027",
+      "topic": "Năng suất",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "Theo bài giảng, năng suất của người lao động phụ thuộc chủ yếu vào yếu tố nào?",
+      "options": {
+        "A": "Thiết bị, kỹ năng và công nghệ hiện có",
+        "B": "Chỉ số lượng tiền giấy được in",
+        "C": "Chỉ số lượng người tiêu dùng",
+        "D": "Chỉ mức thuế tiêu dùng"
+      },
+      "correct_answer": "A",
+      "explanation": "Thiết bị sản xuất, vốn nhân lực và công nghệ giúp người lao động tạo ra nhiều sản phẩm, dịch vụ hơn trong một đơn vị thời gian."
+    },
+    {
+      "id": "1-028",
+      "topic": "Nguyên lý 9 - Tiền và lạm phát",
+      "difficulty": "easy",
+      "source_pages": [
+        17,
+        18
+      ],
+      "question": "Trong dài hạn, việc lượng tiền tăng trưởng quá mức thường dẫn đến điều gì?",
+      "options": {
+        "A": "Mức giá chung tăng và giá trị đồng tiền giảm",
+        "B": "Mọi mức giá giảm về $0$",
+        "C": "Năng suất tự động tăng gấp đôi",
+        "D": "Sự khan hiếm biến mất"
+      },
+      "correct_answer": "A",
+      "explanation": "Khi lượng tiền tăng quá nhanh so với lượng hàng hóa và dịch vụ, mức giá chung có xu hướng tăng, gây lạm phát và làm sức mua đồng tiền giảm."
+    },
+    {
+      "id": "1-029",
+      "topic": "Nguyên lý 10 - Lạm phát và thất nghiệp",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Trong ngắn hạn, xã hội thường đối mặt với sự đánh đổi nào?",
+      "options": {
+        "A": "Giữa lạm phát và thất nghiệp",
+        "B": "Giữa tiền và hàng hóa công cộng",
+        "C": "Giữa vi mô và vĩ mô",
+        "D": "Giữa vốn vật chất và vốn tài chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong khoảng thời gian ngắn, nhiều chính sách làm lạm phát và thất nghiệp biến động theo hai hướng đối nghịch."
+    },
+    {
+      "id": "1-030",
+      "topic": "Các hệ thống kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        18,
+        19
+      ],
+      "question": "Nền kinh tế hỗn hợp được mô tả như thế nào?",
+      "options": {
+        "A": "Cơ chế thị trường xác định nhiều mức giá, sản lượng và chính phủ điều tiết bằng luật cùng chính sách",
+        "B": "Chính phủ quyết định tuyệt đối mọi hoạt động và không có thị trường",
+        "C": "Không có bất kỳ sự can thiệp nào của chính phủ",
+        "D": "Chỉ hộ gia đình được phép sản xuất"
+      },
+      "correct_answer": "A",
+      "explanation": "Kinh tế hỗn hợp kết hợp cơ chế thị trường với vai trò điều tiết của chính phủ thông qua luật pháp và chính sách tài chính, tiền tệ."
+    },
+    {
+      "id": "1-031",
+      "topic": "Sơ đồ chu chuyển kinh tế",
+      "difficulty": "easy",
+      "source_pages": [
+        19,
+        20
+      ],
+      "question": "Hai nhóm ra quyết định trong mô hình chu chuyển đơn giản là ai?",
+      "options": {
+        "A": "Hộ gia đình và doanh nghiệp",
+        "B": "Ngân hàng và trường học",
+        "C": "Chính phủ và nước ngoài",
+        "D": "Người lao động và máy móc"
+      },
+      "correct_answer": "A",
+      "explanation": "Mô hình đơn giản trong bài giảng gồm hai chủ thể là hộ gia đình và doanh nghiệp, tương tác qua hai loại thị trường."
+    },
+    {
+      "id": "1-032",
+      "topic": "Thị trường hàng hóa và dịch vụ",
+      "difficulty": "medium",
+      "source_pages": [
+        19,
+        20
+      ],
+      "question": "Trong thị trường hàng hóa và dịch vụ, vai trò của hộ gia đình và doanh nghiệp là gì?",
+      "options": {
+        "A": "Hộ gia đình bán, doanh nghiệp mua",
+        "B": "Doanh nghiệp bán, hộ gia đình mua",
+        "C": "Cả hai chỉ bán yếu tố sản xuất",
+        "D": "Cả hai không thực hiện giao dịch"
+      },
+      "correct_answer": "B",
+      "explanation": "Doanh nghiệp sản xuất và bán hàng hóa, dịch vụ; hộ gia đình dùng thu nhập để mua và tiêu dùng chúng."
+    },
+    {
+      "id": "1-033",
+      "topic": "Thị trường yếu tố sản xuất",
+      "difficulty": "medium",
+      "source_pages": [
+        19,
+        20
+      ],
+      "question": "Trong thị trường các yếu tố sản xuất, phát biểu nào đúng?",
+      "options": {
+        "A": "Hộ gia đình bán hoặc cho thuê yếu tố sản xuất; doanh nghiệp mua hoặc thuê",
+        "B": "Doanh nghiệp bán lao động cho hộ gia đình",
+        "C": "Hộ gia đình chỉ mua hàng hóa cuối cùng và không sở hữu nguồn lực",
+        "D": "Không có dòng thu nhập giữa hai chủ thể"
+      },
+      "correct_answer": "A",
+      "explanation": "Hộ gia đình sở hữu lao động, đất đai và vốn, cung cấp chúng cho doanh nghiệp để nhận lương, tiền thuê, tiền lãi hoặc lợi nhuận."
+    },
+    {
+      "id": "1-034",
+      "topic": "Yếu tố sản xuất",
+      "difficulty": "easy",
+      "source_pages": [
+        20
+      ],
+      "question": "Nhóm nào chỉ gồm các yếu tố sản xuất được liệt kê trong sơ đồ chu chuyển?",
+      "options": {
+        "A": "Lao động, đất đai và vốn",
+        "B": "Giá cả, lạm phát và thất nghiệp",
+        "C": "Doanh thu, chi tiêu và thuế",
+        "D": "Hàng hóa, dịch vụ và tiền mặt"
+      },
+      "correct_answer": "A",
+      "explanation": "Yếu tố sản xuất là các nguồn lực dùng để tạo ra hàng hóa, dịch vụ, gồm lao động, đất đai và vốn như nhà xưởng, máy móc."
+    },
+    {
+      "id": "1-035",
+      "topic": "Đường giới hạn khả năng sản xuất",
+      "difficulty": "easy",
+      "source_pages": [
+        21
+      ],
+      "question": "Đường giới hạn khả năng sản xuất $PPF$ biểu thị điều gì?",
+      "options": {
+        "A": "Các phối hợp sản lượng tối đa có thể sản xuất với nguồn lực và công nghệ hiện có",
+        "B": "Mọi phối hợp hàng hóa mà người tiêu dùng mong muốn",
+        "C": "Chỉ các mức giá cân bằng của thị trường",
+        "D": "Tổng lượng tiền trong nền kinh tế"
+      },
+      "correct_answer": "A",
+      "explanation": "$PPF$ cho biết những phối hợp đầu ra tối đa nền kinh tế có thể tạo ra khi sử dụng hết nguồn lực với công nghệ hiện có."
+    },
+    {
+      "id": "1-036",
+      "topic": "Chi phí cơ hội trên PPF",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "Trên bảng $PPF$, điểm $A=(0,100)$ và $B=(50,90)$. Chi phí cơ hội của việc tăng sản lượng $X$ từ $0$ lên $50$ là bao nhiêu đơn vị $Y$?",
+      "options": {
+        "A": "$5$ đơn vị $Y$",
+        "B": "$10$ đơn vị $Y$",
+        "C": "$50$ đơn vị $Y$",
+        "D": "$90$ đơn vị $Y$"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi chuyển từ $A$ sang $B$, $X$ tăng $50$ nhưng $Y$ giảm từ $100$ xuống $90$, nên chi phí cơ hội là $\\Delta Y=10$."
+    },
+    {
+      "id": "1-037",
+      "topic": "Chi phí cơ hội trên PPF",
+      "difficulty": "hard",
+      "source_pages": [
+        21
+      ],
+      "question": "Trên bảng $PPF$, chuyển từ $B=(50,90)$ sang $C=(100,75)$. Chi phí cơ hội trung bình của mỗi đơn vị $X$ tăng thêm là bao nhiêu đơn vị $Y$?",
+      "options": {
+        "A": "$0.2$ đơn vị $Y$",
+        "B": "$0.3$ đơn vị $Y$",
+        "C": "$3$ đơn vị $Y$",
+        "D": "$15$ đơn vị $Y$"
+      },
+      "correct_answer": "B",
+      "explanation": "Sản lượng $X$ tăng $\\Delta X=50$, còn $Y$ giảm $|\\Delta Y|=15$. Vì vậy $OC_X=\\frac{|\\Delta Y|}{\\Delta X}=\\frac{15}{50}=0.3$ đơn vị $Y$ cho mỗi đơn vị $X$."
+    },
+    {
+      "id": "1-038",
+      "topic": "Chi phí cơ hội tăng dần",
+      "difficulty": "hard",
+      "source_pages": [
+        21,
+        22
+      ],
+      "question": "Bảng $PPF$ có các điểm $A(0,100)$, $B(50,90)$, $C(100,75)$, $D(150,50)$ và $E(200,0)$. Dãy chi phí cơ hội của mỗi $50$ đơn vị $X$ tăng thêm là dãy nào?",
+      "options": {
+        "A": "$10,15,25,50$ đơn vị $Y$",
+        "B": "$50,25,15,10$ đơn vị $Y$",
+        "C": "$10,10,10,10$ đơn vị $Y$",
+        "D": "$50,50,50,50$ đơn vị $Y$"
+      },
+      "correct_answer": "A",
+      "explanation": "Lượng $Y$ phải từ bỏ lần lượt là $100-90=10$, $90-75=15$, $75-50=25$ và $50-0=50$. Dãy tăng dần phản ánh $PPF$ lõm về gốc tọa độ."
+    },
+    {
+      "id": "1-039",
+      "topic": "Các điểm trên PPF",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "Một điểm nằm phía trong đường $PPF$ thường biểu thị trạng thái nào?",
+      "options": {
+        "A": "Khả thi nhưng nguồn lực chưa được sử dụng hiệu quả hoặc chưa sử dụng hết",
+        "B": "Không thể đạt được với nguồn lực hiện có",
+        "C": "Luôn là trạng thái tăng trưởng kinh tế",
+        "D": "Sản xuất hiệu quả tối đa"
+      },
+      "correct_answer": "A",
+      "explanation": "Điểm trong $PPF$ có thể sản xuất được nhưng chưa tận dụng hết nguồn lực. Điểm trên đường là hiệu quả; điểm ngoài đường chưa thể đạt với nguồn lực và công nghệ hiện tại."
+    },
+    {
+      "id": "1-040",
+      "topic": "Tăng trưởng kinh tế và PPF",
+      "difficulty": "easy",
+      "source_pages": [
+        22
+      ],
+      "question": "Tăng trưởng kinh tế được thể hiện như thế nào trên đồ thị $PPF$?",
+      "options": {
+        "A": "Đường $PPF$ dịch ra xa gốc tọa độ",
+        "B": "Đường $PPF$ dịch vào gần gốc tọa độ",
+        "C": "Đường $PPF$ trở thành trục tung",
+        "D": "Mọi điểm trên $PPF$ trở về $(0,0)$"
+      },
+      "correct_answer": "A",
+      "explanation": "Nguồn lực tăng hoặc công nghệ tiến bộ làm nền kinh tế có thể sản xuất nhiều hơn, khiến $PPF$ dịch chuyển ra ngoài."
+    },
+    {
+      "id": "1-041",
+      "topic": "Kinh tế vi mô",
+      "difficulty": "easy",
+      "source_pages": [
+        22,
+        23
+      ],
+      "question": "Kinh tế vi mô tập trung nghiên cứu đối tượng nào?",
+      "options": {
+        "A": "Hành vi của từng người tiêu dùng, doanh nghiệp và từng thị trường riêng lẻ",
+        "B": "Toàn bộ nền kinh tế thông qua GDP và lạm phát",
+        "C": "Chỉ quan hệ kinh tế quốc tế",
+        "D": "Chỉ chính sách tiền tệ quốc gia"
+      },
+      "correct_answer": "A",
+      "explanation": "Kinh tế vi mô nghiên cứu hành vi và quyết định của từng đơn vị riêng lẻ, cùng sự hình thành giá cả trên từng thị trường."
+    },
+    {
+      "id": "1-042",
+      "topic": "Kinh tế vĩ mô",
+      "difficulty": "easy",
+      "source_pages": [
+        23
+      ],
+      "question": "Biến số nào thuộc phạm vi nghiên cứu của kinh tế vĩ mô?",
+      "options": {
+        "A": "Giá của một mẫu xe máy cụ thể",
+        "B": "Sản lượng của một doanh nghiệp gạo",
+        "C": "Tỷ lệ lạm phát của cả nền kinh tế",
+        "D": "Số công nhân của một nhà máy"
+      },
+      "correct_answer": "C",
+      "explanation": "Kinh tế vĩ mô xem xét các biến tổng thể như GDP, tăng trưởng, mức giá chung, lạm phát, thất nghiệp và cán cân thương mại."
+    },
+    {
+      "id": "1-043",
+      "topic": "Phân biệt vi mô và vĩ mô",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        23
+      ],
+      "question": "Cặp vấn đề nào được phân loại đúng?",
+      "options": {
+        "A": "Giá gạo: vĩ mô; tỷ lệ lạm phát: vi mô",
+        "B": "Sản lượng một doanh nghiệp: vi mô; GDP quốc gia: vĩ mô",
+        "C": "Tỷ lệ thất nghiệp quốc gia: vi mô; việc làm trong một ngành: vĩ mô",
+        "D": "Cả giá một sản phẩm và mức giá chung đều chỉ thuộc vi mô"
+      },
+      "correct_answer": "B",
+      "explanation": "Đơn vị hoặc thị trường riêng lẻ thuộc vi mô; các đại lượng tổng hợp của toàn nền kinh tế như GDP thuộc vĩ mô."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+:root {
+  /* Color palette */
+  --text: #3f3a52;
+  --text-h: #14101f;
+  --text-muted: #6f6884;
+  --bg: #f6f5fb;
+  --bg-elev: #ffffff;
+  --border: #e6e3f0;
+  --border-strong: #d3cee3;
+  --accent: #6d4aff;
+  --accent-hover: #5a37eb;
+  --accent-bg: rgba(109, 74, 255, 0.1);
+  --accent-border: rgba(109, 74, 255, 0.45);
+  --correct: #1f9d57;
+  --correct-bg: rgba(31, 157, 87, 0.12);
+  --correct-border: rgba(31, 157, 87, 0.45);
+  --wrong: #d83a3a;
+  --wrong-bg: rgba(216, 58, 58, 0.1);
+  --wrong-border: rgba(216, 58, 58, 0.45);
+  --warn: #c9791f;
+  --shadow: rgba(38, 26, 80, 0.08) 0 10px 24px -8px,
+    rgba(38, 26, 80, 0.05) 0 3px 8px -4px;
+  --radius: 14px;
+  --radius-sm: 9px;
+
+  /* Typography */
+  --sans: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif;
+  --mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  font: 17px/1.6 var(--sans);
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 720px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #b9b3cc;
+    --text-h: #f4f1ff;
+    --text-muted: #8f88a6;
+    --bg: #14111f;
+    --bg-elev: #1d1830;
+    --border: #2c2640;
+    --border-strong: #3a3354;
+    --accent: #9a80ff;
+    --accent-hover: #ad96ff;
+    --accent-bg: rgba(154, 128, 255, 0.16);
+    --accent-border: rgba(154, 128, 255, 0.5);
+    --correct: #4cc77c;
+    --correct-bg: rgba(76, 199, 124, 0.16);
+    --correct-border: rgba(76, 199, 124, 0.5);
+    --wrong: #f06868;
+    --wrong-bg: rgba(240, 104, 104, 0.16);
+    --wrong-border: rgba(240, 104, 104, 0.5);
+    --warn: #e9a64a;
+    --shadow: rgba(0, 0, 0, 0.45) 0 14px 28px -10px,
+      rgba(0, 0, 0, 0.35) 0 4px 10px -4px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--sans);
+  color: var(--text-h);
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.1rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.05rem;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button {
+  font-family: inherit;
+}

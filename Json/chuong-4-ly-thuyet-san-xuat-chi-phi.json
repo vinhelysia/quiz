@@ -1,0 +1,864 @@
+{
+  "chapter_id": "chuong-4",
+  "title": "Chương 4 - Lý thuyết sản xuất và chi phí",
+  "source_file": "CHUONG 4 - LÝ THUYẾT SẢN XUẤT & CHI PHÍ - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "4-001",
+      "topic": "Hoạt động sản xuất",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Theo bài giảng, hoạt động sản xuất là gì?",
+      "options": {
+        "A": "Lao động phối hợp các nguồn lực sản xuất để tạo ra sản phẩm đầu ra",
+        "B": "Chỉ là hoạt động mua bán sản phẩm trên thị trường",
+        "C": "Chỉ là quá trình tích lũy vốn bằng tiền",
+        "D": "Việc phân phối lại thu nhập giữa các hộ gia đình"
+      },
+      "correct_answer": "A",
+      "explanation": "Hoạt động sản xuất phối hợp lao động với các đầu vào như nguyên liệu và vốn, thông qua công nghệ, để tạo ra sản lượng đầu ra."
+    },
+    {
+      "id": "4-002",
+      "topic": "Hàm sản xuất",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Hàm sản xuất $Q=f(L,K)$ cho biết điều gì?",
+      "options": {
+        "A": "Mức chi phí nhỏ nhất tại mỗi mức sản lượng",
+        "B": "Sản lượng tối đa có thể tạo ra từ các phối hợp lao động và vốn với công nghệ nhất định",
+        "C": "Doanh thu tối đa doanh nghiệp có thể đạt được",
+        "D": "Mức giá bán tối ưu của sản phẩm"
+      },
+      "correct_answer": "B",
+      "explanation": "Hàm sản xuất mô tả quan hệ giữa đầu vào và mức sản lượng tối đa có thể sản xuất với một trình độ công nghệ nhất định, trong đó $L\\ge 0$ và $K\\ge 0$."
+    },
+    {
+      "id": "4-003",
+      "topic": "Ngắn hạn và dài hạn",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        8
+      ],
+      "question": "Phân biệt đúng nhất giữa sản xuất ngắn hạn và dài hạn là gì?",
+      "options": {
+        "A": "Ngắn hạn có ít nhất một đầu vào cố định; dài hạn mọi đầu vào đều có thể thay đổi",
+        "B": "Ngắn hạn mọi đầu vào đều thay đổi; dài hạn mọi đầu vào đều cố định",
+        "C": "Ngắn hạn không có sản lượng; dài hạn mới có sản lượng",
+        "D": "Sự khác biệt chỉ phụ thuộc vào số ngày theo lịch"
+      },
+      "correct_answer": "A",
+      "explanation": "Ngắn hạn là khoảng thời gian có ít nhất một yếu tố sản xuất không đổi, nên quy mô cố định nhưng sản lượng có thể thay đổi. Trong dài hạn, tất cả đầu vào và quy mô đều có thể thay đổi."
+    },
+    {
+      "id": "4-004",
+      "topic": "Năng suất trung bình và năng suất biên",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Cặp công thức nào đúng đối với lao động?",
+      "options": {
+        "A": "$AP_L=\\frac{L}{Q}$ và $MP_L=\\frac{\\Delta L}{\\Delta Q}$",
+        "B": "$AP_L=\\frac{Q}{L}$ và $MP_L=\\frac{\\Delta Q}{\\Delta L}$",
+        "C": "$AP_L=Q-L$ và $MP_L=Q+L$",
+        "D": "$AP_L=Q\\times L$ và $MP_L=\\frac{Q}{K}$"
+      },
+      "correct_answer": "B",
+      "explanation": "Năng suất trung bình là sản lượng trên một đơn vị lao động, $AP_L=\\frac{Q}{L}$. Năng suất biên là phần sản lượng tăng thêm khi lao động tăng một đơn vị, $MP_L=\\frac{\\Delta Q}{\\Delta L}$."
+    },
+    {
+      "id": "4-005",
+      "topic": "Hàm năng suất",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Với hàm sản xuất $Q=2X^2+5X+10$, hàm năng suất trung bình $AP_X$ và năng suất biên $MP_X$ là gì?",
+      "options": {
+        "A": "$AP_X=2X+5+\\frac{10}{X}$; $MP_X=4X+5$",
+        "B": "$AP_X=4X+5$; $MP_X=2X+5+\\frac{10}{X}$",
+        "C": "$AP_X=2X^2+5X$; $MP_X=10$",
+        "D": "$AP_X=2X+5$; $MP_X=4X+15$"
+      },
+      "correct_answer": "A",
+      "explanation": "$AP_X=\\frac{Q}{X}=2X+5+\\frac{10}{X}$ và $MP_X=\\frac{dQ}{dX}=4X+5$."
+    },
+    {
+      "id": "4-006",
+      "topic": "Tính năng suất biên",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Khi lao động tăng từ $2$ lên $3$ người và sản lượng tăng từ $10$ lên $18$ áo len, năng suất biên của người lao động thứ ba bằng bao nhiêu?",
+      "options": {
+        "A": "$3$ áo",
+        "B": "$4$ áo",
+        "C": "$8$ áo",
+        "D": "$18$ áo"
+      },
+      "correct_answer": "C",
+      "explanation": "$MP_L=\\frac{18-10}{3-2}=8$ áo cho một lao động tăng thêm."
+    },
+    {
+      "id": "4-007",
+      "topic": "Quan hệ giữa năng suất biên và trung bình",
+      "difficulty": "medium",
+      "source_pages": [
+        7
+      ],
+      "question": "Một cơ sở có $10$ lao động tạo ra $200$ sản phẩm. Lao động thứ $11$ có $MP_L=15$. Sau khi thuê thêm người này, $AP_L$ thay đổi thế nào?",
+      "options": {
+        "A": "Tăng vì $MP_L>AP_L$ ban đầu",
+        "B": "Giảm vì $MP_L<AP_L$ ban đầu",
+        "C": "Không đổi vì sản lượng vẫn dương",
+        "D": "Đạt cực đại vì $MP_L=0$"
+      },
+      "correct_answer": "B",
+      "explanation": "$AP_L$ ban đầu là $\\frac{200}{10}=20$. Vì năng suất biên của lao động mới là $15<20$, năng suất trung bình giảm; thực tế $AP_L'=\\frac{215}{11}\\approx19.55$."
+    },
+    {
+      "id": "4-008",
+      "topic": "Tổng sản phẩm và sản phẩm biên",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Quan hệ nào giữa $MP_L$ và tổng sản phẩm $TP$ là đúng?",
+      "options": {
+        "A": "$MP_L>0$ thì $TP$ giảm",
+        "B": "$MP_L=0$ thì $TP$ đạt cực đại",
+        "C": "$MP_L<0$ thì $TP$ tăng",
+        "D": "$MP_L$ không liên quan đến độ dốc của $TP$"
+      },
+      "correct_answer": "B",
+      "explanation": "$MP_L$ là độ thay đổi của $TP$ khi lao động thay đổi. Vì vậy $MP_L>0$ làm $TP$ tăng, $MP_L=0$ ứng với $TP$ cực đại và $MP_L<0$ làm $TP$ giảm."
+    },
+    {
+      "id": "4-009",
+      "topic": "Quan hệ giữa $MP_L$ và $AP_L$",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Tại điểm năng suất trung bình của lao động đạt cực đại, quan hệ nào đúng?",
+      "options": {
+        "A": "$MP_L=0$",
+        "B": "$MP_L>AP_L$",
+        "C": "$MP_L=AP_L$",
+        "D": "$MP_L<0$"
+      },
+      "correct_answer": "C",
+      "explanation": "Khi $MP_L>AP_L$, $AP_L$ tăng; khi $MP_L<AP_L$, $AP_L$ giảm. Do đó tại cực đại của $AP_L$ có $MP_L=AP_L$."
+    },
+    {
+      "id": "4-010",
+      "topic": "Các giai đoạn sản xuất ngắn hạn",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Trong bảng sản xuất có $Q=22$ tại $L=8$ và $Q=21$ tại $L=9$. Lao động thứ $9$ thuộc giai đoạn nào và có $MP_L$ bằng bao nhiêu?",
+      "options": {
+        "A": "Giai đoạn 1; $MP_L=1$",
+        "B": "Giai đoạn 2; $MP_L=0$",
+        "C": "Giai đoạn 3; $MP_L=-1$",
+        "D": "Giai đoạn 3; $MP_L=-21$"
+      },
+      "correct_answer": "C",
+      "explanation": "$MP_L=21-22=-1$. Sản phẩm biên âm và tổng sản phẩm giảm nên đây là giai đoạn 3."
+    },
+    {
+      "id": "4-011",
+      "topic": "Quy luật năng suất biên giảm dần",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Nội dung cốt lõi của quy luật năng suất biên giảm dần là gì?",
+      "options": {
+        "A": "Khi tất cả đầu vào cùng tăng, sản lượng luôn giảm",
+        "B": "Khi tăng dần một đầu vào biến đổi trong khi các đầu vào khác cố định, sản phẩm biên cuối cùng có xu hướng giảm",
+        "C": "Mỗi lao động mới luôn tạo ra sản lượng âm",
+        "D": "Công nghệ tốt hơn luôn làm sản phẩm biên giảm"
+      },
+      "correct_answer": "B",
+      "explanation": "Trong ngắn hạn, khi một yếu tố như lao động tăng còn vốn cố định, sau một mức nhất định sự chật chội và cản trở làm sản phẩm biên của đầu vào biến đổi giảm dần."
+    },
+    {
+      "id": "4-012",
+      "topic": "Đường đẳng lượng",
+      "difficulty": "easy",
+      "source_pages": [
+        7,
+        9
+      ],
+      "question": "Đường đẳng lượng là tập hợp những điểm nào?",
+      "options": {
+        "A": "Các phối hợp $K$ và $L$ có cùng tổng chi phí",
+        "B": "Các phối hợp $K$ và $L$ tạo ra cùng một mức sản lượng",
+        "C": "Các mức sản lượng có cùng doanh thu",
+        "D": "Các mức giá đầu vào có cùng tỷ lệ"
+      },
+      "correct_answer": "B",
+      "explanation": "Mỗi đường đẳng lượng biểu diễn các kết hợp vốn và lao động khác nhau cùng tạo ra một mức sản lượng như nhau."
+    },
+    {
+      "id": "4-013",
+      "topic": "Đặc điểm đường đẳng lượng",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Nhóm đặc điểm nào đúng với các đường đẳng lượng thông thường trong bài giảng?",
+      "options": {
+        "A": "Dốc lên, cắt nhau và lõm về gốc tọa độ",
+        "B": "Dốc xuống về bên phải, không cắt nhau và lồi về gốc tọa độ",
+        "C": "Luôn nằm ngang và có cùng tung độ gốc",
+        "D": "Luôn thẳng đứng và có độ dốc bằng $0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Bài giảng nêu ba đặc điểm: đường đẳng lượng dốc xuống về bên phải, các đường không cắt nhau và lồi về phía gốc tọa độ."
+    },
+    {
+      "id": "4-014",
+      "topic": "Tỷ lệ thay thế kỹ thuật biên",
+      "difficulty": "hard",
+      "source_pages": [
+        9
+      ],
+      "question": "Công thức độ dốc của đường đẳng lượng và tỷ lệ thay thế kỹ thuật biên được trình bày như thế nào?",
+      "options": {
+        "A": "$MRTS=-\\frac{\\Delta K}{\\Delta L}=-\\frac{MP_L}{MP_K}$",
+        "B": "$MRTS=\\frac{\\Delta Q}{\\Delta L}=MP_L$",
+        "C": "$MRTS=-\\frac{\\Delta L}{\\Delta Q}=-AP_L$",
+        "D": "$MRTS=\\frac{P_L}{P_K}=TC$"
+      },
+      "correct_answer": "A",
+      "explanation": "Dọc một đường đẳng lượng, sản lượng không đổi nên độ dốc phản ánh lượng vốn phải giảm khi tăng lao động: $MRTS=-\\frac{\\Delta K}{\\Delta L}=-\\frac{MP_L}{MP_K}$."
+    },
+    {
+      "id": "4-015",
+      "topic": "Đầu vào thay thế hoàn toàn",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        10
+      ],
+      "question": "Với hai đầu vào thay thế hoàn toàn, dạng hàm sản xuất và đặc điểm của $MRTS$ là gì?",
+      "options": {
+        "A": "$Q=\\min(x_1,x_2)$ và $MRTS=0$",
+        "B": "$Q=ax_1+bx_2$ và $MRTS$ không đổi",
+        "C": "$Q=x_1x_2$ và $MRTS$ luôn tăng",
+        "D": "$Q=a+x_1^2+x_2^2$ và $MRTS$ không xác định"
+      },
+      "correct_answer": "B",
+      "explanation": "Đầu vào thay thế hoàn toàn cho đường đẳng lượng dạng đường thẳng. Bài giảng biểu diễn bằng $Q=ax_1+bx_2$ và $MRTS$ là hằng số."
+    },
+    {
+      "id": "4-016",
+      "topic": "Đầu vào bổ sung hoàn toàn",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Trường hợp công nhân vệ sinh và chổi minh họa loại đầu vào nào?",
+      "options": {
+        "A": "Thay thế hoàn toàn với $Q=ax_1+bx_2$",
+        "B": "Bổ sung hoàn toàn với $Q=\\min(x_1,x_2)$",
+        "C": "Đầu vào độc lập với $Q=x_1+x_2^2$",
+        "D": "Đầu vào cố định với $Q=0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Công nhân vệ sinh và chổi phải được dùng theo cặp phù hợp, nên là các đầu vào bổ sung hoàn toàn. Bài giảng dùng $Q=\\min(x_1,x_2)$ và đường đẳng lượng hình chữ $L$."
+    },
+    {
+      "id": "4-017",
+      "topic": "Đường đẳng phí",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Phương trình đường đẳng phí khi giá lao động là $w$, giá vốn là $r$ và ngân sách là $C$ là gì?",
+      "options": {
+        "A": "$C=wL+rK$",
+        "B": "$C=\\frac{L}{w}+\\frac{K}{r}$",
+        "C": "$C=wK+rL$ trong mọi quy ước",
+        "D": "$C=Q-L-K$"
+      },
+      "correct_answer": "A",
+      "explanation": "Tổng chi phí mua hai đầu vào bằng $C=wL+rK$. Viết theo $K$ ta có $K=-\\frac{w}{r}L+\\frac{C}{r}$."
+    },
+    {
+      "id": "4-018",
+      "topic": "Độ dốc và giao điểm đường đẳng phí",
+      "difficulty": "hard",
+      "source_pages": [
+        11
+      ],
+      "question": "Cho $C=600$, $w=20$ và $r=30$. Độ dốc, hoành độ gốc và tung độ gốc của đường đẳng phí lần lượt là gì?",
+      "options": {
+        "A": "$-\\frac{2}{3}$; $30$ đơn vị $L$; $20$ đơn vị $K$",
+        "B": "$-\\frac{3}{2}$; $20$ đơn vị $L$; $30$ đơn vị $K$",
+        "C": "$\\frac{2}{3}$; $20$ đơn vị $L$; $30$ đơn vị $K$",
+        "D": "$-1$; $600$ đơn vị $L$; $600$ đơn vị $K$"
+      },
+      "correct_answer": "A",
+      "explanation": "Từ $K=-\\frac{w}{r}L+\\frac{C}{r}$, độ dốc là $-\\frac{20}{30}=-\\frac{2}{3}$. Khi $K=0$, $L=\\frac{C}{w}=30$; khi $L=0$, $K=\\frac{C}{r}=20$."
+    },
+    {
+      "id": "4-019",
+      "topic": "Phối hợp đầu vào tối ưu",
+      "difficulty": "hard",
+      "source_pages": [
+        11,
+        12,
+        13
+      ],
+      "question": "Điều kiện cân bằng biên để tối đa hóa sản lượng với chi phí cho trước hoặc tối thiểu hóa chi phí với sản lượng cho trước là gì?",
+      "options": {
+        "A": "$\\frac{MP_L}{P_L}=\\frac{MP_K}{P_K}$",
+        "B": "$MP_L+MP_K=P_L+P_K$",
+        "C": "$\\frac{P_L}{MP_L}=P_K+MP_K$",
+        "D": "$MP_L=MP_K=0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Doanh nghiệp phân bổ ngân sách sao cho sản phẩm biên trên mỗi đồng chi cho các đầu vào bằng nhau: $\\frac{MP_L}{P_L}=\\frac{MP_K}{P_K}$, cùng với ràng buộc $TC=P_LL+P_KK$."
+    },
+    {
+      "id": "4-020",
+      "topic": "Tiếp xúc đẳng lượng - đẳng phí",
+      "difficulty": "medium",
+      "source_pages": [
+        11,
+        12
+      ],
+      "question": "Trên đồ thị đẳng lượng - đẳng phí, phối hợp đầu vào tối ưu nội bộ thường nằm ở đâu?",
+      "options": {
+        "A": "Tại giao điểm tùy ý của hai đường đẳng phí",
+        "B": "Tại điểm tiếp xúc giữa đường đẳng lượng và đường đẳng phí phù hợp",
+        "C": "Luôn tại gốc tọa độ",
+        "D": "Luôn tại tung độ gốc của đường đẳng phí"
+      },
+      "correct_answer": "B",
+      "explanation": "Điểm tiếp xúc đạt đường đẳng lượng cao nhất với ngân sách cho trước, hoặc đường đẳng phí thấp nhất với sản lượng cho trước. Tại đó độ dốc hai đường bằng nhau."
+    },
+    {
+      "id": "4-021",
+      "topic": "Hiệu suất theo quy mô",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        12
+      ],
+      "question": "Nếu tất cả đầu vào tăng theo tỷ lệ $a$ còn sản lượng tăng theo tỷ lệ $b$, trường hợp $a<b$ biểu thị điều gì?",
+      "options": {
+        "A": "Năng suất giảm dần theo quy mô",
+        "B": "Năng suất không đổi theo quy mô",
+        "C": "Năng suất tăng dần theo quy mô",
+        "D": "Sản lượng tuyệt đối giảm"
+      },
+      "correct_answer": "C",
+      "explanation": "Khi đầu ra tăng theo tỷ lệ lớn hơn đầu vào, tức $b>a$, doanh nghiệp có hiệu suất hay năng suất tăng dần theo quy mô; chi phí sản xuất theo quy mô có xu hướng giảm."
+    },
+    {
+      "id": "4-022",
+      "topic": "Vận dụng hiệu suất theo quy mô",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Một quán tăng vốn từ $10$ triệu lên $20$ triệu, trong khi lượng bán tăng từ $1000$ lên $1800$ ly mỗi tháng. Theo bài giảng, đây là trường hợp nào?",
+      "options": {
+        "A": "Năng suất tăng dần theo quy mô",
+        "B": "Năng suất không đổi theo quy mô",
+        "C": "Năng suất giảm dần theo quy mô",
+        "D": "Không thể so sánh vì đầu ra vẫn tăng"
+      },
+      "correct_answer": "C",
+      "explanation": "Đầu vào tăng $100\\%$, còn đầu ra chỉ tăng $80\\%$. Vì tỷ lệ tăng đầu ra nhỏ hơn tỷ lệ tăng đầu vào nên năng suất giảm dần theo quy mô."
+    },
+    {
+      "id": "4-023",
+      "topic": "Hàm Cobb-Douglas",
+      "difficulty": "hard",
+      "source_pages": [
+        9
+      ],
+      "question": "Với hàm Cobb-Douglas $Q=AK^{0.4}L^{0.7}$, hiệu suất theo quy mô thuộc loại nào?",
+      "options": {
+        "A": "Giảm dần vì $0.4<1$",
+        "B": "Không đổi vì mỗi số mũ nhỏ hơn $1$",
+        "C": "Tăng dần vì $0.4+0.7>1$",
+        "D": "Không xác định vì thiếu giá đầu vào"
+      },
+      "correct_answer": "C",
+      "explanation": "Với $Q=AK^{\\alpha}L^{\\beta}$, tổng số mũ quyết định hiệu suất theo quy mô. Ở đây $\\alpha+\\beta=0.4+0.7=1.1>1$, nên hiệu suất tăng dần theo quy mô."
+    },
+    {
+      "id": "4-024",
+      "topic": "Doanh thu, chi phí và lợi nhuận",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Công thức lợi nhuận tổng quát trong bài giảng là gì?",
+      "options": {
+        "A": "$\\pi=TR-TC$",
+        "B": "$\\pi=TR+TC$",
+        "C": "$\\pi=\\frac{TC}{TR}$",
+        "D": "$\\pi=TC-TR$"
+      },
+      "correct_answer": "A",
+      "explanation": "Lợi nhuận là phần còn lại của doanh nghiệp sau khi thanh toán chi phí, nên $\\pi=TR-TC$."
+    },
+    {
+      "id": "4-025",
+      "topic": "Chi phí hiện và chi phí ẩn",
+      "difficulty": "easy",
+      "source_pages": [
+        15,
+        16
+      ],
+      "question": "Phát biểu nào phân biệt đúng chi phí hiện và chi phí ẩn?",
+      "options": {
+        "A": "Chi phí hiện được chi trả trực tiếp bằng tiền; chi phí ẩn là giá trị cơ hội của nguồn lực do doanh nghiệp sở hữu",
+        "B": "Chi phí hiện luôn khó nhận diện hơn chi phí ẩn",
+        "C": "Chi phí ẩn luôn được ghi đầy đủ trong sổ sách kế toán",
+        "D": "Chỉ kế toán mới quan tâm đến cả hai loại chi phí"
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí hiện là khoản doanh nghiệp thực trả và có thể nhận diện rõ. Chi phí ẩn không tạo giao dịch tiền mặt nhưng phản ánh cơ hội sử dụng nguồn lực bị từ bỏ; nhà kinh tế quan tâm cả hai."
+    },
+    {
+      "id": "4-026",
+      "topic": "Chi phí cơ hội",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Giám đốc rút $200$ triệu đồng tiền gửi đang hưởng lãi $10\\%$/năm để trả lương. Theo ví dụ, chi phí hiện và chi phí ẩn trong một năm lần lượt là bao nhiêu?",
+      "options": {
+        "A": "$200$ triệu đồng và $10$ triệu đồng",
+        "B": "$200$ triệu đồng và $20$ triệu đồng",
+        "C": "$20$ triệu đồng và $200$ triệu đồng",
+        "D": "$220$ triệu đồng và $0$ đồng"
+      },
+      "correct_answer": "B",
+      "explanation": "Khoản trả lương $200$ triệu đồng là chi phí hiện. Tiền lãi bị từ bỏ là chi phí ẩn: $200\\times10\\%=20$ triệu đồng. Tổng chi phí kinh tế liên quan là $220$ triệu đồng."
+    },
+    {
+      "id": "4-027",
+      "topic": "Chi phí chìm",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Một khoản đã chi trong quá khứ và không thể thu hồi nên được xử lý thế nào khi ra quyết định hiện tại?",
+      "options": {
+        "A": "Xem là chi phí chìm và không để nó chi phối quyết định hiện tại",
+        "B": "Luôn cộng gấp đôi vào chi phí biên",
+        "C": "Xem là chi phí ẩn trong tương lai",
+        "D": "Luôn tiếp tục dự án để thu hồi khoản đã chi"
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí chìm là chi phí đã phát sinh và không thể thu hồi. Vì các phương án hiện tại không thay đổi được khoản này, doanh nghiệp không nên dựa vào nó để lựa chọn."
+    },
+    {
+      "id": "4-028",
+      "topic": "Lợi nhuận kế toán và lợi nhuận kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        16,
+        17,
+        18
+      ],
+      "question": "Cặp công thức nào đúng?",
+      "options": {
+        "A": "$\\pi_{KT}=TR-EC$ và $\\pi_{KTe}=TR-(EC+IC)=\\pi_{KT}-IC$",
+        "B": "$\\pi_{KT}=TR+EC$ và $\\pi_{KTe}=TR+IC$",
+        "C": "$\\pi_{KT}=IC-TR$ và $\\pi_{KTe}=EC-TR$",
+        "D": "$\\pi_{KT}=\\pi_{KTe}+EC+IC$"
+      },
+      "correct_answer": "A",
+      "explanation": "Ký hiệu $EC$ là chi phí hiện và $IC$ là chi phí ẩn. Lợi nhuận kế toán trừ chi phí hiện, còn lợi nhuận kinh tế trừ toàn bộ chi phí kinh tế $EC+IC$."
+    },
+    {
+      "id": "4-029",
+      "topic": "Tính lợi nhuận kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Quán cà phê của Vân có doanh thu $360$ triệu đồng, chi phí hiện $240$ triệu đồng và thu nhập đi làm bị từ bỏ $144$ triệu đồng mỗi năm. Lợi nhuận kế toán và lợi nhuận kinh tế là bao nhiêu?",
+      "options": {
+        "A": "$120$ triệu đồng và $-24$ triệu đồng",
+        "B": "$120$ triệu đồng và $24$ triệu đồng",
+        "C": "$360$ triệu đồng và $120$ triệu đồng",
+        "D": "$-24$ triệu đồng và $120$ triệu đồng"
+      },
+      "correct_answer": "A",
+      "explanation": "$\\pi_{KT}=360-240=120$ triệu đồng. $\\pi_{KTe}=360-240-144=-24$ triệu đồng, hay $120-144=-24$ triệu đồng."
+    },
+    {
+      "id": "4-030",
+      "topic": "Vận dụng lợi nhuận kinh tế",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "Kỹ sư âm thanh có doanh thu $970{,}000$ USD, chi phí hoạt động $555{,}000$ USD, lãi vay $45{,}000$ USD, bỏ lương $175{,}000$ USD và dùng $100{,}000$ USD tiền tiết kiệm có thể sinh lời $15\\%$/năm. Lợi nhuận kinh tế là bao nhiêu?",
+      "options": {
+        "A": "$180{,}000$ USD",
+        "B": "$195{,}000$ USD",
+        "C": "$370{,}000$ USD",
+        "D": "$415{,}000$ USD"
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí hiện là $555{,}000+45{,}000=600{,}000$ USD. Chi phí ẩn là $175{,}000+100{,}000\\times15\\%=190{,}000$ USD. Do đó $\\pi_{KTe}=970{,}000-600{,}000-190{,}000=180{,}000$ USD; lợi nhuận kinh tế dương."
+    },
+    {
+      "id": "4-031",
+      "topic": "Chi phí cố định và biến đổi",
+      "difficulty": "easy",
+      "source_pages": [
+        19
+      ],
+      "question": "Trong ngắn hạn, phát biểu nào đúng về $TFC$, $TVC$ và $TC$?",
+      "options": {
+        "A": "$TFC$ thay đổi theo sản lượng, còn $TVC$ không đổi",
+        "B": "$TFC$ không đổi theo sản lượng, $TVC$ thay đổi theo sản lượng và $TC=TFC+TVC$",
+        "C": "$TC=TFC-TVC$",
+        "D": "$TVC=0$ tại mọi mức sản lượng"
+      },
+      "correct_answer": "B",
+      "explanation": "Chi phí cố định không đổi khi sản lượng thay đổi trong ngắn hạn; chi phí biến đổi thay đổi theo sản lượng. Tổng chi phí là $TC=TFC+TVC$."
+    },
+    {
+      "id": "4-032",
+      "topic": "Các chỉ tiêu chi phí trung bình",
+      "difficulty": "easy",
+      "source_pages": [
+        18,
+        19
+      ],
+      "question": "Cặp quan hệ nào đúng?",
+      "options": {
+        "A": "$AFC=\\frac{TFC}{Q}$, $AVC=\\frac{TVC}{Q}$ và $AC=AFC+AVC$",
+        "B": "$AFC=TFC\\times Q$, $AVC=TVC\\times Q$ và $AC=AFC-AVC$",
+        "C": "$AFC=\\frac{Q}{TFC}$, $AVC=\\frac{Q}{TVC}$ và $AC=MC$ ở mọi mức $Q$",
+        "D": "$AC=TC\\times Q$ và $AFC=AVC$"
+      },
+      "correct_answer": "A",
+      "explanation": "$AFC=\\frac{TFC}{Q}$, $AVC=\\frac{TVC}{Q}$ và $AC=\\frac{TC}{Q}=AFC+AVC$."
+    },
+    {
+      "id": "4-033",
+      "topic": "Chi phí biên",
+      "difficulty": "easy",
+      "source_pages": [
+        19
+      ],
+      "question": "Chi phí biên $MC$ được xác định bằng công thức nào?",
+      "options": {
+        "A": "$MC=\\frac{\\Delta TC}{\\Delta Q}=\\frac{\\Delta TVC}{\\Delta Q}$",
+        "B": "$MC=\\frac{TFC}{Q}$",
+        "C": "$MC=TC+TVC$",
+        "D": "$MC=\\frac{Q}{\\Delta TC}$"
+      },
+      "correct_answer": "A",
+      "explanation": "$MC$ là thay đổi tổng chi phí khi sản lượng tăng thêm một đơn vị. Vì $TFC$ không đổi trong ngắn hạn, $\\Delta TC=\\Delta TVC$, nên hai biểu thức bằng nhau."
+    },
+    {
+      "id": "4-034",
+      "topic": "Bảng chi phí ngắn hạn",
+      "difficulty": "hard",
+      "source_pages": [
+        20
+      ],
+      "question": "Trong Ví dụ 5, tại $Q=20$ có $TFC=200$ và $TVC=280$. Khi $Q=10$, $TC=350$. Giá trị $TC$, $AC$, $AVC$, $AFC$ tại $Q=20$ và $MC$ của đoạn từ $10$ đến $20$ lần lượt là gì?",
+      "options": {
+        "A": "$480;24;14;10;13$",
+        "B": "$480;14;24;10;130$",
+        "C": "$280;14;4;10;13$",
+        "D": "$480;24;10;14;15$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TC=200+280=480$, $AC=\\frac{480}{20}=24$, $AVC=\\frac{280}{20}=14$, $AFC=\\frac{200}{20}=10$, và $MC=\\frac{480-350}{20-10}=13$."
+    },
+    {
+      "id": "4-035",
+      "topic": "Hoàn thiện bảng chi phí",
+      "difficulty": "hard",
+      "source_pages": [
+        20
+      ],
+      "question": "Trong Ví dụ 6, tại $Q=40$ có $TC=660$ và $TFC=100$. Từ $Q=40$ đến $Q=50$, $MC=25$. Tại $Q=50$, $TC$ và $TVC$ là bao nhiêu?",
+      "options": {
+        "A": "$TC=685$, $TVC=585$",
+        "B": "$TC=910$, $TVC=810$",
+        "C": "$TC=1250$, $TVC=1150$",
+        "D": "$TC=660$, $TVC=560$"
+      },
+      "correct_answer": "B",
+      "explanation": "$MC=\\frac{\\Delta TC}{\\Delta Q}=25$ nên $\\Delta TC=25\\times(50-40)=250$. Do đó $TC_{50}=660+250=910$ và $TVC_{50}=910-100=810$."
+    },
+    {
+      "id": "4-036",
+      "topic": "Tính chi phí từ bảng",
+      "difficulty": "medium",
+      "source_pages": [
+        20
+      ],
+      "question": "Trong Ví dụ 7, $TC=490$ tại $Q=20$ và $TC=580$ tại $Q=30$. Chi phí biên trên khoảng này bằng bao nhiêu?",
+      "options": {
+        "A": "$9$",
+        "B": "$90$",
+        "C": "$19.33$",
+        "D": "$29$"
+      },
+      "correct_answer": "A",
+      "explanation": "$MC=\\frac{580-490}{30-20}=\\frac{90}{10}=9$ trên mỗi đơn vị sản lượng."
+    },
+    {
+      "id": "4-037",
+      "topic": "Chi phí và năng suất lao động",
+      "difficulty": "hard",
+      "source_pages": [
+        21
+      ],
+      "question": "Trong Ví dụ 8, tiền công là $30$ USD/người/ngày, $FC=500$ USD; sản lượng tăng từ $80$ lên $160$ khi lao động tăng từ $2$ lên $3$. $MP_L$, $VC$, $TC$, $ATC$ tại $L=3$ và $MC$ của phần sản lượng tăng thêm là gì?",
+      "options": {
+        "A": "$80;90;590;3.6875;0.375$",
+        "B": "$160;30;530;3.3125;30$",
+        "C": "$80;60;560;7;0.6$",
+        "D": "$3;90;590;196.67;10$"
+      },
+      "correct_answer": "A",
+      "explanation": "$MP_L=160-80=80$, $VC=3\\times30=90$, $TC=500+90=590$, $ATC=\\frac{590}{160}=3.6875$, và $MC=\\frac{30}{80}=0.375$ USD mỗi sản phẩm."
+    },
+    {
+      "id": "4-038",
+      "topic": "Suy ra các hàm chi phí",
+      "difficulty": "hard",
+      "source_pages": [
+        21
+      ],
+      "question": "Cho $TC=2Q^3-20Q^2+100Q+2500$. Hàm $MC$ và $AVC$ là gì?",
+      "options": {
+        "A": "$MC=6Q^2-40Q+100$ và $AVC=2Q^2-20Q+100$",
+        "B": "$MC=2Q^2-20Q+100$ và $AVC=6Q^2-40Q+100$",
+        "C": "$MC=6Q^2-40Q+2600$ và $AVC=2Q^2-20Q$",
+        "D": "$MC=\\frac{2500}{Q}$ và $AVC=2Q^3-20Q^2+100Q$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TFC=2500$ và $TVC=2Q^3-20Q^2+100Q$. Vì vậy $AVC=\\frac{TVC}{Q}=2Q^2-20Q+100$, còn $MC=\\frac{dTC}{dQ}=6Q^2-40Q+100$."
+    },
+    {
+      "id": "4-039",
+      "topic": "Tích phân chi phí biên",
+      "difficulty": "hard",
+      "source_pages": [
+        21
+      ],
+      "question": "Cho $MC=3Q^2+5Q+80$ và $TFC=2000$. Hàm tổng chi phí $TC$ là gì?",
+      "options": {
+        "A": "$TC=Q^3+\\frac{5}{2}Q^2+80Q+2000$",
+        "B": "$TC=6Q+5+2000$",
+        "C": "$TC=3Q^3+5Q^2+80Q+2000$",
+        "D": "$TC=Q^3+5Q^2+80+2000Q$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TVC=\\int(3Q^2+5Q+80)\\,dQ=Q^3+\\frac{5}{2}Q^2+80Q$, với $TVC(0)=0$. Cộng $TFC=2000$ được $TC=Q^3+\\frac{5}{2}Q^2+80Q+2000$."
+    },
+    {
+      "id": "4-040",
+      "topic": "Đồ thị tổng chi phí",
+      "difficulty": "medium",
+      "source_pages": [
+        22
+      ],
+      "question": "Trên đồ thị chi phí ngắn hạn, quan hệ hình học nào đúng giữa $TC$, $TVC$ và $TFC$?",
+      "options": {
+        "A": "$TC$ và $TVC$ cách nhau theo phương đứng một khoảng không đổi bằng $TFC$",
+        "B": "$TC$ luôn nằm dưới $TVC$",
+        "C": "$TFC$ dốc lên cùng tốc độ với $TVC$",
+        "D": "$TC$ bắt đầu từ gốc tọa độ dù $TFC>0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Vì $TC=TFC+TVC$ và $TFC$ không đổi, khoảng cách thẳng đứng giữa hai đường $TC$ và $TVC$ luôn bằng $TFC$; đường $TFC$ nằm ngang."
+    },
+    {
+      "id": "4-041",
+      "topic": "Quan hệ chi phí biên và chi phí trung bình",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        24
+      ],
+      "question": "Phát biểu nào đúng về quan hệ giữa $MC$, $AC$ và $AVC$?",
+      "options": {
+        "A": "$MC<AC$ làm $AC$ tăng",
+        "B": "$MC>AVC$ làm $AVC$ tăng; $MC=AC$ tại cực tiểu của $AC$",
+        "C": "$MC=AVC$ tại cực đại của $AVC$",
+        "D": "$MC$ không bao giờ cắt $AC$ hoặc $AVC$"
+      },
+      "correct_answer": "B",
+      "explanation": "Đại lượng biên nằm trên đại lượng trung bình sẽ kéo trung bình tăng và nằm dưới sẽ kéo trung bình giảm. Vì thế $MC$ cắt $AVC$ và $AC$ tại các điểm cực tiểu tương ứng."
+    },
+    {
+      "id": "4-042",
+      "topic": "Quan hệ năng suất và chi phí",
+      "difficulty": "hard",
+      "source_pages": [
+        23
+      ],
+      "question": "Khi giá lao động $P_L$ không đổi, quan hệ giữa chi phí và năng suất lao động là gì?",
+      "options": {
+        "A": "$MC=\\frac{P_L}{MP_L}$ và $AVC=\\frac{P_L}{AP_L}$",
+        "B": "$MC=P_LMP_L$ và $AVC=P_LAP_L$",
+        "C": "$MC=\\frac{MP_L}{P_L}$ và $AVC=\\frac{AP_L}{P_L}$",
+        "D": "$MC=AVC=P_L$ tại mọi mức sản lượng"
+      },
+      "correct_answer": "A",
+      "explanation": "$MC=\\frac{\\Delta VC}{\\Delta Q}=\\frac{P_L\\Delta L}{\\Delta Q}=\\frac{P_L}{MP_L}$ và $AVC=\\frac{P_LL}{Q}=\\frac{P_L}{AP_L}$. Do đó năng suất tăng thì chi phí tương ứng giảm."
+    },
+    {
+      "id": "4-043",
+      "topic": "Tính chi phí biên từ tiền lương",
+      "difficulty": "hard",
+      "source_pages": [
+        24
+      ],
+      "question": "Tiền lương mỗi lao động là $40$. Khi lao động tăng từ $50$ lên $55$, sản lượng tăng từ $2000$ lên $2475$. Chi phí biên tại phần sản lượng tăng thêm bằng bao nhiêu?",
+      "options": {
+        "A": "$\\frac{40}{95}\\approx0.421$",
+        "B": "$40\\times95=3800$",
+        "C": "$\\frac{475}{200}=2.375$",
+        "D": "$\\frac{200}{475}\\approx0.211$"
+      },
+      "correct_answer": "A",
+      "explanation": "$MP_L=\\frac{2475-2000}{55-50}=\\frac{475}{5}=95$. Vì thế $MC=\\frac{P_L}{MP_L}=\\frac{40}{95}\\approx0.421$ đơn vị tiền trên một sản phẩm."
+    },
+    {
+      "id": "4-044",
+      "topic": "Chi phí dài hạn",
+      "difficulty": "easy",
+      "source_pages": [
+        25
+      ],
+      "question": "Phát biểu nào đúng về chi phí sản xuất trong dài hạn?",
+      "options": {
+        "A": "Mọi đầu vào đều biến đổi nên không có chi phí cố định theo cách phân loại dài hạn",
+        "B": "Mọi đầu vào đều cố định nên $LTC=0$",
+        "C": "$LAC$ luôn bằng $SAC$ của một quy mô bất kỳ",
+        "D": "$LMC$ luôn bằng $0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong dài hạn doanh nghiệp có thể thay đổi mọi đầu vào và quy mô, nên bài giảng xem toàn bộ chi phí dài hạn là biến đổi, không có chi phí cố định."
+    },
+    {
+      "id": "4-045",
+      "topic": "Đường chi phí trung bình dài hạn",
+      "difficulty": "medium",
+      "source_pages": [
+        25
+      ],
+      "question": "Đường $LAC$ có ý nghĩa và quan hệ nào với các đường $SAC$?",
+      "options": {
+        "A": "$LAC$ là chi phí trung bình cao nhất và cắt mọi $SAC$",
+        "B": "$LAC$ là chi phí trung bình thấp nhất có thể đạt tại mỗi mức sản lượng và là đường bao của các $SAC$",
+        "C": "$LAC$ chỉ tồn tại khi doanh nghiệp có một quy mô",
+        "D": "$LAC$ luôn nằm ngang"
+      },
+      "correct_answer": "B",
+      "explanation": "$LAC=\\frac{LTC}{Q}$ biểu thị chi phí trung bình thấp nhất có thể có tại mỗi mức sản lượng khi doanh nghiệp được chọn quy mô, nên nó là đường bao của các đường $SAC$."
+    },
+    {
+      "id": "4-046",
+      "topic": "Quan hệ $LMC$ và $LAC$",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Quan hệ nào đúng giữa chi phí biên dài hạn và chi phí trung bình dài hạn?",
+      "options": {
+        "A": "$LMC<LAC$ thì $LAC$ tăng",
+        "B": "$LMC>LAC$ thì $LAC$ giảm",
+        "C": "$LMC=LAC$ tại điểm cực tiểu của $LAC$",
+        "D": "$LMC$ không thể cắt $LAC$"
+      },
+      "correct_answer": "C",
+      "explanation": "$LMC<LAC$ kéo $LAC$ giảm, $LMC>LAC$ kéo $LAC$ tăng, nên $LMC=LAC$ tại điểm cực tiểu của $LAC$."
+    },
+    {
+      "id": "4-047",
+      "topic": "Quy mô sản xuất tối ưu",
+      "difficulty": "hard",
+      "source_pages": [
+        26,
+        27,
+        28
+      ],
+      "question": "Tại quy mô sản xuất tối ưu $Q^*$ trong bài giảng, quan hệ nào đúng?",
+      "options": {
+        "A": "$SAC_{\\min}=SMC=LAC_{\\min}=LMC$",
+        "B": "$SAC_{\\max}=SMC=LAC_{\\max}=LMC$",
+        "C": "$SAC=LAC$ nhưng $SMC$ và $LMC$ không liên quan",
+        "D": "$LAC=0$ và $LMC<0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Quy mô tối ưu là nơi $SAC$ tiếp xúc $LAC$ tại cực tiểu của cả hai. Tại $Q^*$, bốn đường gặp nhau theo $SAC_{\\min}=SMC=LAC_{\\min}=LMC$. Vùng $LAC$ giảm thể hiện tính kinh tế theo quy mô, còn vùng $LAC$ tăng thể hiện tính phi kinh tế theo quy mô."
+    },
+    {
+      "id": "4-048",
+      "topic": "Công thức chi phí dài hạn",
+      "difficulty": "easy",
+      "source_pages": [
+        25
+      ],
+      "question": "Cặp công thức nào đúng cho chi phí trung bình và chi phí biên dài hạn?",
+      "options": {
+        "A": "$LAC=\\frac{LTC}{Q}$ và $LMC=\\frac{\\Delta LTC}{\\Delta Q}$",
+        "B": "$LAC=LTC\\times Q$ và $LMC=\\frac{Q}{\\Delta LTC}$",
+        "C": "$LAC=\\frac{Q}{LTC}$ và $LMC=LTC+Q$",
+        "D": "$LAC=LMC=LTC$ tại mọi mức sản lượng"
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí trung bình dài hạn là chi phí dài hạn trên một đơn vị sản lượng, $LAC=\\frac{LTC}{Q}$. Chi phí biên dài hạn là phần thay đổi của tổng chi phí dài hạn khi sản lượng thay đổi, $LMC=\\frac{\\Delta LTC}{\\Delta Q}$."
+    },
+    {
+      "id": "4-049",
+      "topic": "Lựa chọn quy mô trong sản xuất",
+      "difficulty": "hard",
+      "source_pages": [
+        27,
+        28
+      ],
+      "question": "Tại một mức sản lượng mà doanh nghiệp đã chọn quy mô dài hạn hợp lý nhưng không nhất thiết là quy mô tối ưu $Q^*$, điều kiện tiếp xúc nào được bài giảng nêu?",
+      "options": {
+        "A": "$SAC=LAC$ và $SMC=LMC$",
+        "B": "$SAC=SMC=0$",
+        "C": "$SAC>LAC$ và $SMC=0$",
+        "D": "$SAC<LAC$ và $LMC=0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Ở quy mô hợp lý cho một mức sản lượng đã chọn, $SAC$ tiếp xúc $LAC$ nên $SAC=LAC$, đồng thời độ dốc của hai tổng chi phí tương ứng cho $SMC=LMC$. Chỉ tại $Q^*$ mới có thêm điều kiện cả $SAC$ và $LAC$ cùng đạt cực tiểu."
+    }
+  ]
+}

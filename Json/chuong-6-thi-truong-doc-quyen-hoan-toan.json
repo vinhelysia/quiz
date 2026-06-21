@@ -1,0 +1,880 @@
+{
+  "chapter_id": "chuong-6",
+  "title": "Chương 6 - Thị trường độc quyền hoàn toàn",
+  "source_file": "CHUONG 6 - THI TRUONG DOC QUYEN HOAN TOAN - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "6-001",
+      "topic": "Đặc điểm thị trường độc quyền hoàn toàn",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đặc điểm nào mô tả đúng nhất thị trường độc quyền hoàn toàn?",
+      "options": {
+        "A": "Có duy nhất một người bán và rất nhiều người mua",
+        "B": "Có rất nhiều người bán và chỉ một người mua",
+        "C": "Có một vài người bán cùng cung cấp sản phẩm đồng nhất",
+        "D": "Có rất nhiều người bán, không doanh nghiệp nào tác động được đến giá"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng xác định thị trường độc quyền hoàn toàn có duy nhất một người bán trong khi có rất nhiều người mua."
+    },
+    {
+      "id": "6-002",
+      "topic": "Sản phẩm độc quyền",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Sản phẩm trong thị trường độc quyền hoàn toàn có đặc điểm nào?",
+      "options": {
+        "A": "Đồng nhất và có rất nhiều sản phẩm thay thế gần",
+        "B": "Riêng biệt và không có sản phẩm thay thế gần",
+        "C": "Luôn là hàng hóa nông nghiệp",
+        "D": "Luôn được bán với giá bằng chi phí biên"
+      },
+      "correct_answer": "B",
+      "explanation": "Sản phẩm độc quyền là sản phẩm riêng biệt, không có sản phẩm thay thế gần."
+    },
+    {
+      "id": "6-003",
+      "topic": "Sức mạnh thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question": "Vì sao doanh nghiệp độc quyền được gọi là người quyết định giá?",
+      "options": {
+        "A": "Vì doanh nghiệp là người bán duy nhất và có sức mạnh thị trường",
+        "B": "Vì đường cầu của doanh nghiệp nằm ngang",
+        "C": "Vì chính phủ luôn ấn định mọi mức giá cho doanh nghiệp",
+        "D": "Vì doanh nghiệp có thể bán mọi sản lượng ở cùng một mức giá"
+      },
+      "correct_answer": "A",
+      "explanation": "Chỉ có một doanh nghiệp nên doanh nghiệp độc quyền có sức mạnh thị trường và có thể tác động lên giá bán."
+    },
+    {
+      "id": "6-004",
+      "topic": "Đường cầu của doanh nghiệp độc quyền",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Đường cầu đối với doanh nghiệp độc quyền hoàn toàn có hình dạng và ý nghĩa nào?",
+      "options": {
+        "A": "Nằm ngang và chỉ là một phần rất nhỏ của đường cầu thị trường",
+        "B": "Thẳng đứng và không phụ thuộc vào giá",
+        "C": "Dốc xuống và cũng chính là đường cầu thị trường",
+        "D": "Dốc lên và cũng chính là đường chi phí biên"
+      },
+      "correct_answer": "C",
+      "explanation": "Vì chỉ có một người bán, đường cầu của doanh nghiệp cũng là đường cầu thị trường và dốc xuống."
+    },
+    {
+      "id": "6-005",
+      "topic": "Độc quyền tự nhiên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Theo bài giảng, độc quyền tự nhiên xuất hiện do nguyên nhân nào?",
+      "options": {
+        "A": "Chi phí trung bình dốc xuống do hiệu quả kinh tế theo quy mô",
+        "B": "Chi phí trung bình luôn tăng khi sản lượng tăng",
+        "C": "Không tồn tại rào cản gia nhập ngành",
+        "D": "Sản phẩm có vô số sản phẩm thay thế gần"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng gắn độc quyền tự nhiên với hiệu quả kinh tế theo quy mô, khi chi phí trung bình dốc xuống."
+    },
+    {
+      "id": "6-006",
+      "topic": "Nguồn lực độc quyền",
+      "difficulty": "medium",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question": "Cơ chế nào có thể biến việc kiểm soát đầu vào thành vị trí độc quyền?",
+      "options": {
+        "A": "Kiểm soát đầu vào làm tăng chi phí, giúp đối thủ dễ gia nhập hơn",
+        "B": "Kiểm soát đầu vào giúp giảm chi phí, hạ giá để loại đối thủ và trở thành người bán duy nhất",
+        "C": "Kiểm soát đầu vào làm đường cầu trở nên nằm ngang",
+        "D": "Kiểm soát đầu vào tự động xóa bỏ mọi quy định pháp lý"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo slide, doanh nghiệp kiểm soát yếu tố đầu vào có thể giảm chi phí, hạ giá bán, loại bỏ đối thủ và cuối cùng trở thành người bán duy nhất."
+    },
+    {
+      "id": "6-007",
+      "topic": "Bằng sáng chế và bản quyền",
+      "difficulty": "easy",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question": "Bằng phát minh sáng chế và bản quyền tạo vị trí độc quyền như thế nào?",
+      "options": {
+        "A": "Cho phép nhà sản xuất độc quyền vĩnh viễn đối với mọi sản phẩm",
+        "B": "Cho phép nhà sản xuất có vị trí độc quyền đối với sản phẩm hoặc quy trình mới trong một thời gian nhất định",
+        "C": "Bắt buộc mọi doanh nghiệp phải chia sẻ công nghệ ngay lập tức",
+        "D": "Loại bỏ hoàn toàn quyền sở hữu trí tuệ"
+      },
+      "correct_answer": "B",
+      "explanation": "Luật sáng chế và bản quyền bảo hộ sản phẩm hoặc quy trình công nghệ mới trong một khoảng thời gian nhất định."
+    },
+    {
+      "id": "6-008",
+      "topic": "Độc quyền do chính phủ tạo ra",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Trường hợp nào là độc quyền hợp pháp do quy định của chính phủ?",
+      "options": {
+        "A": "Một doanh nghiệp là đơn vị duy nhất được cấp phép kinh doanh một dịch vụ",
+        "B": "Nhiều doanh nghiệp tự do gia nhập và bán sản phẩm đồng nhất",
+        "C": "Một doanh nghiệp có đường cầu nằm ngang",
+        "D": "Mọi doanh nghiệp đều không cần giấy phép"
+      },
+      "correct_answer": "A",
+      "explanation": "Doanh nghiệp có thể trở thành độc quyền hợp pháp nếu là doanh nghiệp duy nhất được cấp phép sản xuất, kinh doanh một sản phẩm hoặc dịch vụ."
+    },
+    {
+      "id": "6-009",
+      "topic": "Rào cản gia nhập",
+      "difficulty": "medium",
+      "source_pages": [
+        1,
+        2
+      ],
+      "question": "Nhóm nào chỉ gồm các rào cản hoặc nguồn gốc độc quyền được nêu trong bài?",
+      "options": {
+        "A": "Sở hữu nguồn tài nguyên; quy định của chính phủ; bản quyền; hiệu quả kinh tế theo quy mô",
+        "B": "Nhiều sản phẩm thay thế; tự do gia nhập; đường cầu nằm ngang",
+        "C": "Thông tin hoàn hảo; nhiều người bán; sản phẩm đồng nhất",
+        "D": "Chi phí biên không đổi; giá bằng doanh thu biên; không có giấy phép"
+      },
+      "correct_answer": "A",
+      "explanation": "Đây là bốn nhóm rào cản hoặc nguyên nhân độc quyền được liệt kê trên các slide đầu."
+    },
+    {
+      "id": "6-010",
+      "topic": "So sánh các cấu trúc thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Cặp cấu trúc thị trường - số lượng doanh nghiệp nào đúng theo bảng so sánh?",
+      "options": {
+        "A": "Cạnh tranh hoàn hảo - một; độc quyền nhóm - nhiều",
+        "B": "Cạnh tranh độc quyền - một vài; độc quyền hoàn toàn - nhiều",
+        "C": "Cạnh tranh hoàn hảo - nhiều; độc quyền nhóm - một vài",
+        "D": "Độc quyền nhóm - một; độc quyền hoàn toàn - một vài"
+      },
+      "correct_answer": "C",
+      "explanation": "Bảng ghi cạnh tranh hoàn hảo và cạnh tranh độc quyền có nhiều doanh nghiệp, độc quyền nhóm có một vài doanh nghiệp, độc quyền hoàn toàn có một doanh nghiệp."
+    },
+    {
+      "id": "6-011",
+      "topic": "So sánh sản phẩm giữa các thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Phát biểu nào khớp với bảng phân loại sản phẩm?",
+      "options": {
+        "A": "Cạnh tranh hoàn hảo có sản phẩm đồng nhất; cạnh tranh độc quyền có sản phẩm khác biệt",
+        "B": "Cạnh tranh độc quyền có sản phẩm đồng nhất; độc quyền hoàn toàn có nhiều sản phẩm thay thế tốt",
+        "C": "Độc quyền nhóm chỉ có sản phẩm đồng nhất, không thể có khác biệt",
+        "D": "Mọi cấu trúc thị trường đều có sản phẩm giống hệt nhau"
+      },
+      "correct_answer": "A",
+      "explanation": "Bảng nêu sản phẩm cạnh tranh hoàn hảo là đồng nhất, cạnh tranh độc quyền có khác biệt, độc quyền nhóm có thể đồng nhất hoặc khác biệt, còn độc quyền hoàn toàn là duy nhất và không có sản phẩm thay thế tốt."
+    },
+    {
+      "id": "6-012",
+      "topic": "Khả năng kiểm soát giá",
+      "difficulty": "medium",
+      "source_pages": [
+        2,
+        3
+      ],
+      "question": "Phát biểu nào đúng về khả năng kiểm soát giá trong bảng các loại thị trường?",
+      "options": {
+        "A": "Doanh nghiệp cạnh tranh hoàn hảo quyết định giá thị trường",
+        "B": "Doanh nghiệp độc quyền hoàn toàn quyết định giá, còn nhóm doanh nghiệp quyết định trong độc quyền nhóm",
+        "C": "Doanh nghiệp cạnh tranh độc quyền luôn kiểm soát hoàn toàn giá",
+        "D": "Không cấu trúc thị trường nào có khả năng tác động lên giá"
+      },
+      "correct_answer": "B",
+      "explanation": "Bảng ghi doanh nghiệp độc quyền hoàn toàn quyết định giá và nhóm doanh nghiệp có vai trò quyết định trong độc quyền nhóm."
+    },
+    {
+      "id": "6-013",
+      "topic": "Tổng doanh thu",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Công thức tổng doanh thu của doanh nghiệp là gì?",
+      "options": {
+        "A": "$TR=P+Q$",
+        "B": "$TR=P-Q$",
+        "C": "$TR=P\\times Q$",
+        "D": "$TR=\\frac{P}{Q}$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tổng doanh thu bằng giá bán nhân sản lượng: $TR=P\\times Q$."
+    },
+    {
+      "id": "6-014",
+      "topic": "Doanh thu trung bình",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Vì $TR=P\\times Q$, doanh thu trung bình của doanh nghiệp độc quyền là bao nhiêu?",
+      "options": {
+        "A": "$AR=\\frac{TR}{Q}=P$",
+        "B": "$AR=TR\\times Q$",
+        "C": "$AR=P-Q$",
+        "D": "$AR=MC$"
+      },
+      "correct_answer": "A",
+      "explanation": "$AR=\\frac{TR}{Q}=\\frac{P\\times Q}{Q}=P$, vì vậy đường $AR$ cũng chính là đường cầu."
+    },
+    {
+      "id": "6-015",
+      "topic": "Doanh thu biên",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Nếu đường cầu tuyến tính có dạng $P=aQ+b$, doanh thu biên có dạng nào?",
+      "options": {
+        "A": "$MR=aQ+b$",
+        "B": "$MR=2aQ+b$",
+        "C": "$MR=aQ+2b$",
+        "D": "$MR=2aQ+2b$"
+      },
+      "correct_answer": "B",
+      "explanation": "$TR=PQ=aQ^2+bQ$, nên $MR=\\frac{dTR}{dQ}=2aQ+b$."
+    },
+    {
+      "id": "6-016",
+      "topic": "Đồ thị đường cầu và doanh thu biên",
+      "difficulty": "medium",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Trên đồ thị cầu tuyến tính của doanh nghiệp độc quyền, quan hệ giữa đường $MR$ và đường cầu là gì?",
+      "options": {
+        "A": "$MR$ có cùng tung độ gốc và độ dốc gấp đôi đường cầu nên nằm dưới đường cầu",
+        "B": "$MR$ trùng hoàn toàn với đường cầu ở mọi sản lượng",
+        "C": "$MR$ nằm ngang trong khi đường cầu dốc xuống",
+        "D": "$MR$ có độ dốc bằng một nửa đường cầu và nằm trên đường cầu"
+      },
+      "correct_answer": "A",
+      "explanation": "Với $P=aQ+b$, đường $MR=2aQ+b$ có cùng tung độ gốc $b$ nhưng hệ số góc có độ lớn gấp đôi, nên nằm dưới đường cầu khi $Q>0$."
+    },
+    {
+      "id": "6-017",
+      "topic": "Bảng doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Theo bảng doanh thu, tại $Q=6$ và $P=5$, các giá trị $TR$, $MR$, $AR$ lần lượt là bao nhiêu?",
+      "options": {
+        "A": "$30,0,5$",
+        "B": "$30,5,0$",
+        "C": "$11,0,5$",
+        "D": "$25,-2,5$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TR=P\\times Q=5\\times6=30$; bảng cho $MR=0$ và $AR=P=5$."
+    },
+    {
+      "id": "6-018",
+      "topic": "Bảng doanh thu",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Theo bảng, khi sản lượng tăng từ $Q=6$ lên $Q=7$, tổng doanh thu thay đổi thế nào?",
+      "options": {
+        "A": "Tăng từ $30$ lên $32$ nên $MR=2$",
+        "B": "Giữ nguyên ở $30$ nên $MR=0$",
+        "C": "Giảm từ $30$ xuống $28$ nên $MR=-2$",
+        "D": "Giảm từ $30$ xuống $24$ nên $MR=-6$"
+      },
+      "correct_answer": "C",
+      "explanation": "Bảng cho $TR_6=30$ và $TR_7=28$, nên doanh thu biên của đơn vị thứ bảy là $MR=28-30=-2$."
+    },
+    {
+      "id": "6-019",
+      "topic": "Quan hệ giữa giá, AR và MR",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Quan hệ nào đúng đối với doanh nghiệp độc quyền không phân biệt giá?",
+      "options": {
+        "A": "$P=MR>AR$",
+        "B": "$P=AR>MR$",
+        "C": "$MR=AR>P$",
+        "D": "$P<MR=AR$"
+      },
+      "correct_answer": "B",
+      "explanation": "Doanh thu trung bình bằng giá, $P=AR$, còn doanh thu biên nằm dưới đường cầu nên $P=AR>MR$."
+    },
+    {
+      "id": "6-020",
+      "topic": "Đồ thị tổng doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Khi không phân biệt giá, đường tổng doanh thu $TR$ của doanh nghiệp độc quyền biến thiên thế nào theo sản lượng?",
+      "options": {
+        "A": "Luôn tăng tuyến tính",
+        "B": "Luôn giảm",
+        "C": "Tăng, đạt cực đại rồi giảm",
+        "D": "Không đổi ở mọi sản lượng"
+      },
+      "correct_answer": "C",
+      "explanation": "Đồ thị trên slide cho thấy $TR$ tăng khi $MR>0$, đạt cực đại khi $MR=0$, rồi giảm khi $MR<0$."
+    },
+    {
+      "id": "6-021",
+      "topic": "Doanh thu biên và độ co giãn cầu",
+      "difficulty": "hard",
+      "source_pages": [
+        4
+      ],
+      "question": "Công thức liên hệ $MR$, $P$ và độ co giãn của cầu theo giá $E_D$ được trình bày là gì?",
+      "options": {
+        "A": "$MR=P\\left(1+\\frac{1}{E_D}\\right)$",
+        "B": "$MR=P\\left(1-E_D\\right)$",
+        "C": "$MR=\\frac{P}{E_D+1}$",
+        "D": "$MR=P+E_D$"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng dùng công thức $MR=P\\left(1+\\frac{1}{E_D}\\right)$, trong đó $E_D$ mang dấu âm theo quy tắc định giá được trình bày."
+    },
+    {
+      "id": "6-022",
+      "topic": "Độ co giãn cầu và doanh thu biên",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Nếu $|E_D|=\\infty$, quan hệ giữa $MR$ và $P$ là gì?",
+      "options": {
+        "A": "$MR=0$",
+        "B": "$MR=P$",
+        "C": "$MR<0$",
+        "D": "$MR=2P$"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi $|E_D|=\\infty$, thành phần $\\frac{1}{E_D}$ tiến về $0$, nên $MR=P$."
+    },
+    {
+      "id": "6-023",
+      "topic": "Độ co giãn và tổng doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Trong miền cầu co giãn, $|E_D|>1$, dấu của $MR$ và chiều biến động của $TR$ là gì?",
+      "options": {
+        "A": "$MR>0$ và $TR$ tăng",
+        "B": "$MR=0$ và $TR$ cực đại",
+        "C": "$MR<0$ và $TR$ giảm",
+        "D": "$MR=P$ và $TR$ không đổi"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng nêu $|E_D|>1\\Rightarrow MR>0\\Rightarrow TR$ tăng."
+    },
+    {
+      "id": "6-024",
+      "topic": "Độ co giãn và tổng doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Trong miền cầu kém co giãn, $|E_D|<1$, điều gì xảy ra?",
+      "options": {
+        "A": "$MR>0$ và $TR$ tăng",
+        "B": "$MR=0$ và $TR$ cực đại",
+        "C": "$MR<0$ và $TR$ giảm",
+        "D": "$MR=P$"
+      },
+      "correct_answer": "C",
+      "explanation": "Bài giảng nêu $|E_D|<1\\Rightarrow MR<0\\Rightarrow TR$ giảm."
+    },
+    {
+      "id": "6-025",
+      "topic": "Miền hoạt động của doanh nghiệp độc quyền",
+      "difficulty": "hard",
+      "source_pages": [
+        4,
+        6
+      ],
+      "question": "Vì sao doanh nghiệp độc quyền tối đa hóa lợi nhuận với $MC>0$ không chọn điểm trên đoạn cầu có $|E_D|<1$?",
+      "options": {
+        "A": "Vì tại đó $MR<0$, không thể thỏa $MR=MC>0$",
+        "B": "Vì tại đó $MR=P>0$",
+        "C": "Vì tại đó $TR$ luôn bằng $0$",
+        "D": "Vì tại đó đường cầu nằm ngang"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong miền $|E_D|<1$, $MR<0$. Nếu $MC>0$, điều kiện $MR=MC$ không thể xảy ra; vì vậy doanh nghiệp hoạt động trên đoạn cầu co giãn, $|E_D|>1$."
+    },
+    {
+      "id": "6-026",
+      "topic": "Tối đa hóa lợi nhuận",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Điều kiện xác định sản lượng tối đa hóa lợi nhuận của doanh nghiệp độc quyền là gì?",
+      "options": {
+        "A": "$P=MC$",
+        "B": "$AR=AC$",
+        "C": "$MR=MC$",
+        "D": "$TR=TC=0$"
+      },
+      "correct_answer": "C",
+      "explanation": "Với $\\pi=TR-TC$, điều kiện bậc nhất $\\frac{d\\pi}{dQ}=0$ cho $MR=MC$."
+    },
+    {
+      "id": "6-027",
+      "topic": "Đồ thị tối đa hóa lợi nhuận",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Trên đồ thị $TR$ và $TC$, tại sản lượng tối đa hóa lợi nhuận, quan hệ giữa hai độ dốc là gì?",
+      "options": {
+        "A": "Độ dốc $TR$ lớn hơn vô hạn so với độ dốc $TC$",
+        "B": "Độ dốc $TR$ bằng độ dốc $TC$",
+        "C": "Cả hai độ dốc đều bắt buộc bằng $0$",
+        "D": "Độ dốc $TR$ luôn âm còn độ dốc $TC$ luôn dương"
+      },
+      "correct_answer": "B",
+      "explanation": "Độ dốc của $TR$ là $MR$, độ dốc của $TC$ là $MC$; hai độ dốc bằng nhau tại điểm $MR=MC$."
+    },
+    {
+      "id": "6-028",
+      "topic": "Doanh nghiệp độc quyền bị lỗ",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Theo đồ thị trường hợp bị lỗ, doanh nghiệp độc quyền lựa chọn thế nào trong ngắn hạn?",
+      "options": {
+        "A": "Chọn $Q_1$ thỏa $MR=MC$ để tối thiểu hóa lỗ",
+        "B": "Luôn chọn $Q=0$ bất kể giá và chi phí",
+        "C": "Chọn sản lượng tại đó $P=MR$",
+        "D": "Tăng sản lượng cho đến khi $MR<0$ càng nhiều càng tốt"
+      },
+      "correct_answer": "A",
+      "explanation": "Slide nêu doanh nghiệp chọn $Q_1$ thỏa $MR=MC$ để lỗ tối thiểu và trường hợp lỗ chỉ được xét trong ngắn hạn."
+    },
+    {
+      "id": "6-029",
+      "topic": "Độc quyền và cạnh tranh hoàn hảo",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Cặp quan hệ nào phân biệt đúng doanh nghiệp cạnh tranh hoàn hảo và doanh nghiệp độc quyền?",
+      "options": {
+        "A": "Cạnh tranh hoàn hảo: $P=AR=MR$; độc quyền: $P=AR>MR$",
+        "B": "Cạnh tranh hoàn hảo: $P>MR$; độc quyền: $P=MR$",
+        "C": "Cả hai đều luôn có $P=AR=MR$",
+        "D": "Cả hai đều có đường cầu thị trường dốc xuống trùng với đường cầu doanh nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Doanh nghiệp cạnh tranh hoàn hảo nhận giá nên $P=AR=MR$; doanh nghiệp độc quyền đối diện cầu dốc xuống nên $P=AR>MR$."
+    },
+    {
+      "id": "6-030",
+      "topic": "Đường cung của doanh nghiệp",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Phát biểu nào đúng về đường cung trong hai cấu trúc thị trường?",
+      "options": {
+        "A": "Cả hai đều không có đường cung",
+        "B": "Độc quyền có đường cung là đoạn $MC$, cạnh tranh hoàn hảo không có đường cung",
+        "C": "Cạnh tranh hoàn hảo có đường cung là đoạn $MC$, còn độc quyền không có đường cung",
+        "D": "Đường cung của cả hai đều là đường cầu"
+      },
+      "correct_answer": "C",
+      "explanation": "Slide so sánh ghi doanh nghiệp cạnh tranh hoàn hảo có đường cung là đoạn $MC$, còn doanh nghiệp độc quyền không có đường cung."
+    },
+    {
+      "id": "6-031",
+      "topic": "Tổn thất vô ích và quan hệ giá - chi phí biên",
+      "difficulty": "hard",
+      "source_pages": [
+        1,
+        5,
+        6
+      ],
+      "question": "Tại sản lượng tối đa hóa lợi nhuận của doanh nghiệp độc quyền, quan hệ nào tạo ra chênh lệch giữa mức giá người mua trả và chi phí biên?",
+      "options": {
+        "A": "$P=MR=MC$",
+        "B": "$P=AR>MR=MC$, nên $P>MC$",
+        "C": "$P<MR=MC$",
+        "D": "$P=0<MC$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tại tối ưu, $MR=MC$; với độc quyền, $P=AR>MR$. Do đó $P>MC$, quan hệ gắn với nội dung tổn thất vô ích do độc quyền được liệt kê trong bài."
+    },
+    {
+      "id": "6-032",
+      "topic": "Ví dụ 1 - Hàm chi phí",
+      "difficulty": "hard",
+      "source_pages": [
+        6
+      ],
+      "question": "Trong Ví dụ 1, $AVC=0{,}03Q^2-4Q+10$ và $TFC=400$. Hàm $TC$ và $MC$ đúng là gì?",
+      "options": {
+        "A": "$TC=0{,}03Q^3-4Q^2+10Q+400$ và $MC=0{,}09Q^2-8Q+10$",
+        "B": "$TC=0{,}03Q^2-4Q+410$ và $MC=0{,}06Q-4$",
+        "C": "$TC=0{,}03Q^3+4Q^2+10Q+400$ và $MC=0{,}09Q^2+8Q+10$",
+        "D": "$TC=0{,}03Q^3-4Q^2+400$ và $MC=0{,}09Q^2-8Q$"
+      },
+      "correct_answer": "A",
+      "explanation": "$VC=AVC\\times Q=0{,}03Q^3-4Q^2+10Q$. Vì vậy $TC=VC+TFC=0{,}03Q^3-4Q^2+10Q+400$ và $MC=\\frac{dTC}{dQ}=0{,}09Q^2-8Q+10$."
+    },
+    {
+      "id": "6-033",
+      "topic": "Ví dụ 1 - Tối đa hóa lợi nhuận",
+      "difficulty": "hard",
+      "source_pages": [
+        6
+      ],
+      "question": "Dùng đúng dữ liệu Ví dụ 1: $P=80-0{,}04Q$ và $MC=0{,}09Q^2-8Q+10$. Sản lượng và giá tối đa hóa lợi nhuận xấp xỉ là bao nhiêu?",
+      "options": {
+        "A": "$Q^*\\approx7{,}96$, $P^*\\approx79{,}68$",
+        "B": "$Q^*\\approx96{,}09$, $P^*\\approx76{,}16$",
+        "C": "$Q^*=100$, $P^*=40$",
+        "D": "$Q^*=0$, $P^*=80$"
+      },
+      "correct_answer": "B",
+      "explanation": "$MR=80-0{,}08Q$. Giải $MR=MC$ cho $0{,}09Q^2-7{,}92Q-70=0$; nghiệm dương là $Q^*\\approx96{,}09$. Thay vào cầu được $P^*=80-0{,}04Q^*\\approx76{,}16$."
+    },
+    {
+      "id": "6-034",
+      "topic": "Ví dụ 1 - Lợi nhuận",
+      "difficulty": "hard",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo đúng các hàm đã cho ở Ví dụ 1, tại $Q^*\\approx96{,}09$ và $P^*\\approx76{,}16$, lợi nhuận xấp xỉ bằng bao nhiêu?",
+      "options": {
+        "A": "$-113{,}91$",
+        "B": "$770$",
+        "C": "$8125$",
+        "D": "$16273{,}32$"
+      },
+      "correct_answer": "D",
+      "explanation": "Theo đúng biểu thức trên slide, $TR=P^*Q^*\\approx7318{,}15$ và $TC=0{,}03(Q^*)^3-4(Q^*)^2+10Q^*+400\\approx-8955{,}17$. Do đó $\\pi=TR-TC\\approx16273{,}32$."
+    },
+    {
+      "id": "6-035",
+      "topic": "Ví dụ 2 - Hàm chi phí",
+      "difficulty": "medium",
+      "source_pages": [
+        7
+      ],
+      "question": "Với $TC=Q^2+18Q+580$ ở Ví dụ 2, cặp hàm nào đúng?",
+      "options": {
+        "A": "$MC=Q+18$ và $AVC=2Q+18$",
+        "B": "$MC=2Q+18$ và $AC=Q+18+\\frac{580}{Q}$",
+        "C": "$MC=2Q+580$ và $AFC=18$",
+        "D": "$MC=Q^2+18$ và $AC=2Q+18$"
+      },
+      "correct_answer": "B",
+      "explanation": "$MC=\\frac{dTC}{dQ}=2Q+18$; còn $AC=\\frac{TC}{Q}=Q+18+\\frac{580}{Q}$."
+    },
+    {
+      "id": "6-036",
+      "topic": "Ví dụ 2 - Tối đa hóa lợi nhuận",
+      "difficulty": "hard",
+      "source_pages": [
+        7
+      ],
+      "question": "Ví dụ 2 có $P=108-0{,}5Q$ và $TC=Q^2+18Q+580$. Bộ kết quả tối đa hóa lợi nhuận nào đúng?",
+      "options": {
+        "A": "$Q^*=30$, $P^*=93$, $\\pi_{max}=770$",
+        "B": "$Q^*=90$, $P^*=63$, $\\pi_{max}=770$",
+        "C": "$Q^*=108$, $P^*=54$, $\\pi_{max}=5832$",
+        "D": "$Q^*=45$, $P^*=85{,}5$, $\\pi_{max}=580$"
+      },
+      "correct_answer": "A",
+      "explanation": "$MR=108-Q$ và $MC=2Q+18$. Từ $MR=MC$ có $Q^*=30$; khi đó $P^*=93$ và $\\pi=93\\times30-(30^2+18\\times30+580)=770$."
+    },
+    {
+      "id": "6-037",
+      "topic": "Ví dụ 2 - Tối đa hóa doanh thu",
+      "difficulty": "hard",
+      "source_pages": [
+        7
+      ],
+      "question": "Trong Ví dụ 2, nếu doanh nghiệp tối đa hóa doanh thu thay vì lợi nhuận, kết quả là gì?",
+      "options": {
+        "A": "$Q=30$, $P=93$, $TR=2.790$",
+        "B": "$Q=54$, $P=81$, $TR=4.374$",
+        "C": "$Q=108$, $P=54$, $TR_{max}=5832$",
+        "D": "$Q=216$, $P=0$, $TR=0$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tối đa hóa doanh thu yêu cầu $MR=108-Q=0$, nên $Q=108$. Khi đó $P=108-0{,}5\\times108=54$ và $TR_{max}=54\\times108=5832$."
+    },
+    {
+      "id": "6-038",
+      "topic": "Ví dụ 3 - Suy ra đường cầu",
+      "difficulty": "hard",
+      "source_pages": [
+        3,
+        7
+      ],
+      "question": "Ví dụ 3 cho $MR=100-0{,}8Q$. Giả sử đường cầu tuyến tính, đường cầu tương ứng là gì?",
+      "options": {
+        "A": "$P=100-0{,}8Q$",
+        "B": "$P=100-0{,}4Q$",
+        "C": "$P=50-0{,}8Q$",
+        "D": "$P=200-0{,}4Q$"
+      },
+      "correct_answer": "B",
+      "explanation": "Với $P=aQ+b$ thì $MR=2aQ+b$. Do $MR=100-0{,}8Q$, suy ra $b=100$ và $a=-0{,}4$, nên $P=100-0{,}4Q$."
+    },
+    {
+      "id": "6-039",
+      "topic": "Ví dụ 3 - Tối đa hóa lợi nhuận",
+      "difficulty": "hard",
+      "source_pages": [
+        7
+      ],
+      "question": "Ví dụ 3 có $MR=100-0{,}8Q$ và $TC=2Q^2+40Q+800$. Kết quả tại $MR=MC$ là gì?",
+      "options": {
+        "A": "$Q^*=12{,}5$, $P^*=95$, $\\pi=-425$",
+        "B": "$Q^*=25$, $P^*=90$, $\\pi=425$",
+        "C": "$Q^*=75$, $P^*=70$, $\\pi=800$",
+        "D": "$Q^*=125$, $P^*=50$, $\\pi=6250$"
+      },
+      "correct_answer": "A",
+      "explanation": "$MC=4Q+40$. Giải $100-0{,}8Q=4Q+40$ được $Q^*=12{,}5$; từ cầu $P=100-0{,}4Q$ có $P^*=95$. Khi đó $\\pi=95\\times12{,}5-[2(12{,}5)^2+40(12{,}5)+800]=-425$."
+    },
+    {
+      "id": "6-040",
+      "topic": "Ví dụ 3 - Tối đa hóa doanh thu",
+      "difficulty": "hard",
+      "source_pages": [
+        7
+      ],
+      "question": "Nếu doanh nghiệp ở Ví dụ 3 tối đa hóa doanh thu, bộ kết quả nào đúng?",
+      "options": {
+        "A": "$Q=12{,}5$, $P=95$, $TR=1.187{,}5$",
+        "B": "$Q=50$, $P=80$, $TR=4.000$",
+        "C": "$Q=100$, $P=60$, $TR=6.000$",
+        "D": "$Q=125$, $P=50$, $TR_{max}=6250$"
+      },
+      "correct_answer": "D",
+      "explanation": "$MR=0$ cho $100-0{,}8Q=0\\Rightarrow Q=125$. Từ $P=100-0{,}4Q$, suy ra $P=50$ và $TR_{max}=125\\times50=6250$."
+    },
+    {
+      "id": "6-041",
+      "topic": "Ví dụ 4 - Tối đa hóa lợi nhuận",
+      "difficulty": "hard",
+      "source_pages": [
+        8
+      ],
+      "question": "Ví dụ 4 có $TC=60Q+2000$ và $P=150-0{,}2Q$. Giá, sản lượng và lợi nhuận tối đa là bao nhiêu?",
+      "options": {
+        "A": "$P^*=60$, $Q^*=450$, $\\pi=2000$",
+        "B": "$P^*=105$, $Q^*=225$, $\\pi=8125$",
+        "C": "$P^*=150$, $Q^*=0$, $\\pi=0$",
+        "D": "$P^*=75$, $Q^*=375$, $\\pi=5625$"
+      },
+      "correct_answer": "B",
+      "explanation": "$MR=150-0{,}4Q$ và $MC=60$. Từ $MR=MC$ có $Q^*=225$, suy ra $P^*=150-0{,}2\\times225=105$. Lợi nhuận là $105\\times225-(60\\times225+2000)=8125$."
+    },
+    {
+      "id": "6-042",
+      "topic": "Chỉ số Lerner",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Công thức và miền giá trị của chỉ số Lerner trong bài giảng là gì?",
+      "options": {
+        "A": "$L=\\frac{P-MC}{P}$, với $0\\le L<1$",
+        "B": "$L=\\frac{MC-P}{P}$, với $L>1$",
+        "C": "$L=\\frac{P}{MC}$, với $L=0$",
+        "D": "$L=P-MR$, với $L<0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Chỉ số Lerner đo sức mạnh độc quyền: $L=\\frac{P-MC}{P}$ và bài giảng ghi $0\\le L<1$."
+    },
+    {
+      "id": "6-043",
+      "topic": "Chỉ số Lerner và cấu trúc thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Chỉ số Lerner phản ánh sự khác nhau giữa cạnh tranh hoàn hảo và độc quyền như thế nào?",
+      "options": {
+        "A": "Cạnh tranh hoàn hảo có $MC=P$ nên $L=0$; độc quyền có $MC<P$ nên $L>0$",
+        "B": "Cạnh tranh hoàn hảo có $L=1$; độc quyền có $L=0$",
+        "C": "Cả hai luôn có $L=0$",
+        "D": "Độc quyền có $MC>P$ nên $L<0$"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong cạnh tranh hoàn hảo, $MC=P$ nên doanh nghiệp không có sức mạnh thị trường theo chỉ số này. Trong độc quyền, $MC<P$ nên $L>0$; $L$ càng gần $1$ thì sức mạnh độc quyền càng cao."
+    },
+    {
+      "id": "6-044",
+      "topic": "Tính chỉ số Lerner",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Một doanh nghiệp độc quyền bán với $P=100$ và có $MC=60$. Chỉ số Lerner bằng bao nhiêu?",
+      "options": {
+        "A": "$0{,}25$",
+        "B": "$0{,}4$",
+        "C": "$0{,}6$",
+        "D": "$1{,}5$"
+      },
+      "correct_answer": "B",
+      "explanation": "$L=\\frac{P-MC}{P}=\\frac{100-60}{100}=0{,}4$."
+    },
+    {
+      "id": "6-045",
+      "topic": "Quy tắc định giá và độ co giãn",
+      "difficulty": "hard",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo quy tắc định giá trên slide, quan hệ giữa chỉ số Lerner và độ co giãn cầu theo giá là gì?",
+      "options": {
+        "A": "$L=E_D$",
+        "B": "$L=\\frac{1}{E_D}$",
+        "C": "$L=-\\frac{1}{E_D}$",
+        "D": "$L=1+E_D$"
+      },
+      "correct_answer": "C",
+      "explanation": "Từ $MR=MC$ và $MR=P\\left(1+\\frac{1}{E_D}\\right)$ suy ra $\\frac{P-MC}{P}=-\\frac{1}{E_D}$, tức $L=-\\frac{1}{E_D}$. Khi độ co giãn theo trị tuyệt đối lớn hơn, sức mạnh độc quyền giảm."
+    },
+    {
+      "id": "6-046",
+      "topic": "Tối đa hóa doanh thu",
+      "difficulty": "easy",
+      "source_pages": [
+        4,
+        7
+      ],
+      "question": "Điều kiện để doanh nghiệp độc quyền tối đa hóa tổng doanh thu là gì?",
+      "options": {
+        "A": "$MR=MC$",
+        "B": "$MR=0$",
+        "C": "$P=MC$",
+        "D": "$AC=AVC$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tổng doanh thu đạt cực đại tại sản lượng $Q_M$ khi độ dốc của $TR$ bằng $MR=0$; doanh nghiệp bán sản lượng $Q_M$ với giá $P_M$."
+    },
+    {
+      "id": "6-047",
+      "topic": "Phân biệt giá",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Nhóm điều kiện nào cần thiết để doanh nghiệp độc quyền thực hiện phân biệt giá theo bài giảng?",
+      "options": {
+        "A": "Mức độ độc quyền cao; độ co giãn cầu theo giá khác nhau giữa các thị trường; các thị trường tách biệt",
+        "B": "Nhiều người bán; sản phẩm đồng nhất; tự do mua bán lại giữa các thị trường",
+        "C": "Đường cầu nằm ngang; doanh nghiệp không có sức mạnh thị trường; mọi khách hàng giống nhau",
+        "D": "Giá luôn bằng chi phí biên; các thị trường hòa lẫn hoàn toàn"
+      },
+      "correct_answer": "A",
+      "explanation": "Ba điều kiện được nêu là mức độ độc quyền rất cao, độ co giãn cầu theo giá khác nhau và các thị trường tách biệt, không lẫn vào nhau."
+    },
+    {
+      "id": "6-048",
+      "topic": "Phân biệt giá cấp một",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Trong phân biệt giá cấp một, doanh nghiệp định giá và lựa chọn sản lượng như thế nào?",
+      "options": {
+        "A": "Mỗi khách hàng trả đúng mức sẵn lòng chi trả; $MR$ trùng với đường cầu và doanh nghiệp sản xuất đến $Q_3$",
+        "B": "Mọi khách hàng trả cùng $P^*$ và doanh nghiệp chỉ sản xuất $Q_1$",
+        "C": "Mỗi khối lượng hàng có một giá nhưng không phụ thuộc khách hàng",
+        "D": "Mỗi thị trường có một giá và luôn thỏa $P_1=P_2$"
+      },
+      "correct_answer": "A",
+      "explanation": "Phân biệt giá cấp một thu đúng mức sẵn lòng chi trả của từng khách hàng. Trên đồ thị, $MR$ trùng với cầu và sản lượng tăng từ mức một giá $Q^*$ đến $Q_3$."
+    },
+    {
+      "id": "6-049",
+      "topic": "Phân biệt giá cấp hai và cấp ba",
+      "difficulty": "hard",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question": "Phát biểu nào phân biệt đúng phân biệt giá cấp hai và cấp ba?",
+      "options": {
+        "A": "Cấp hai định giá theo từng khối lượng; cấp ba định giá theo từng thị trường và thỏa $MR_1=MR_2=\\cdots=MR_n=MR_T$",
+        "B": "Cấp hai định giá theo từng khách hàng; cấp ba áp dụng một giá duy nhất",
+        "C": "Cấp hai và cấp ba đều yêu cầu $P_1=P_2=\\cdots=P_n$",
+        "D": "Cấp hai định giá theo thị trường; cấp ba định giá đúng mức sẵn lòng chi trả của từng cá nhân"
+      },
+      "correct_answer": "A",
+      "explanation": "Cấp hai áp dụng giá khác nhau cho các khối lượng hoặc khối hàng. Cấp ba tách các thị trường, phân bổ sao cho $MR_1=MR_2=\\cdots=MR_n=MR_T$ và $Q_T=Q_1+Q_2+\\cdots+Q_n$."
+    },
+    {
+      "id": "6-050",
+      "topic": "Sự can thiệp của chính phủ",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Các hình thức chính phủ can thiệp vào thị trường độc quyền được nêu trên slide cuối là gì?",
+      "options": {
+        "A": "Chỉ trợ cấp theo sản lượng",
+        "B": "Định giá bán tối đa; đánh thuế khoán; đánh thuế theo sản lượng",
+        "C": "Chỉ quốc hữu hóa doanh nghiệp",
+        "D": "Bãi bỏ mọi quy định và mọi loại thuế"
+      },
+      "correct_answer": "B",
+      "explanation": "Slide cuối liệt kê định giá bán tối đa (khống chế giá) và hai cách đánh thuế: thuế không theo sản lượng (thuế khoán) và thuế theo sản lượng."
+    }
+  ]
+}

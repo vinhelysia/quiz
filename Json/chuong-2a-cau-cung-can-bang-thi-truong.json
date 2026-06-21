@@ -1,0 +1,824 @@
+{
+  "chapter_id": "chuong-2a",
+  "title": "Chương 2A - Cầu, cung và cân bằng thị trường",
+  "source_file": "CHUONG 2A - CAU, CUNG VA CAN BANG THI TRUONG - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "2a-001",
+      "topic": "Khái niệm thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Theo bài giảng, thị trường được hiểu là gì?",
+      "options": {
+        "A": "Một địa điểm vật lý duy nhất nơi hàng hóa được trưng bày",
+        "B": "Tập hợp người mua và người bán tác động qua lại, dẫn đến khả năng trao đổi hàng hóa và dịch vụ",
+        "C": "Một cơ quan nhà nước quy định mọi mức giá",
+        "D": "Chỉ gồm những người mua có thu nhập cao"
+      },
+      "correct_answer": "B",
+      "explanation": "Thị trường là tập hợp những người mua và người bán tác động qua lại lẫn nhau, từ đó tạo ra khả năng trao đổi hàng hóa và dịch vụ."
+    },
+    {
+      "id": "2a-002",
+      "topic": "Các loại thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Loại nào sau đây KHÔNG nằm trong bốn loại thị trường được liệt kê ở bài giảng?",
+      "options": {
+        "A": "Thị trường cạnh tranh hoàn hảo",
+        "B": "Thị trường cạnh tranh độc quyền",
+        "C": "Thị trường độc quyền nhóm",
+        "D": "Thị trường kế hoạch hóa tập trung"
+      },
+      "correct_answer": "D",
+      "explanation": "Bài giảng liệt kê cạnh tranh hoàn hảo, cạnh tranh độc quyền, độc quyền nhóm và độc quyền hoàn hảo; không liệt kê thị trường kế hoạch hóa tập trung."
+    },
+    {
+      "id": "2a-003",
+      "topic": "Khái niệm cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Cầu của một hàng hóa là gì?",
+      "options": {
+        "A": "Số lượng người tiêu dùng sẵn lòng mua tại các mức giá khác nhau trong một khoảng thời gian xác định, khi các yếu tố khác không đổi",
+        "B": "Tổng số hàng hóa đã được sản xuất, không phụ thuộc vào giá",
+        "C": "Số lượng người tiêu dùng mong muốn nhưng không cần có khả năng mua",
+        "D": "Số tiền tối đa mà doanh nghiệp muốn thu"
+      },
+      "correct_answer": "A",
+      "explanation": "Định nghĩa cầu gắn số lượng người tiêu dùng sẵn lòng mua với các mức giá khác nhau, trong một thời gian xác định và với giả định các yếu tố khác không đổi."
+    },
+    {
+      "id": "2a-004",
+      "topic": "Sẵn lòng trả",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Để mong muốn về một sản phẩm trở thành cầu của cá nhân, người đó phải thỏa điều kiện nào?",
+      "options": {
+        "A": "Chỉ cần thích sản phẩm",
+        "B": "Chỉ cần biết giá sản phẩm",
+        "C": "Vừa muốn mua vừa có khả năng mua",
+        "D": "Phải từng mua sản phẩm trước đó"
+      },
+      "correct_answer": "C",
+      "explanation": "Sẵn lòng trả (WTP) bao gồm cả mong muốn mua và khả năng mua; thiếu một trong hai thì chưa hình thành cầu của cá nhân."
+    },
+    {
+      "id": "2a-005",
+      "topic": "Hàm cầu tổng quát",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Trong hàm cầu tổng quát $Q_x^D=f(P_{x,t},I,P_s,P_c,P_{x,t+i},N_b,\\mathrm{Taste})$, ký hiệu $P_c$ biểu thị yếu tố nào?",
+      "options": {
+        "A": "Giá hàng hóa bổ sung",
+        "B": "Giá hàng hóa thay thế",
+        "C": "Giá kỳ vọng của hàng hóa $x$ trong tương lai",
+        "D": "Thu nhập bình quân"
+      },
+      "correct_answer": "A",
+      "explanation": "Theo chú giải của bài giảng, $P_c$ là giá mặt hàng bổ sung; $P_s$ mới là giá mặt hàng thay thế."
+    },
+    {
+      "id": "2a-006",
+      "topic": "Hàm cầu tổng quát",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Khi giả định các yếu tố khác không đổi, hàm cầu được rút gọn thành biểu thức nào?",
+      "options": {
+        "A": "$Q^D=f(I)$",
+        "B": "$Q^D=f(P)$",
+        "C": "$P=f(N_b)$",
+        "D": "$Q^S=f(P)$"
+      },
+      "correct_answer": "B",
+      "explanation": "Giữ các yếu tố ngoài giá không đổi cho phép biểu diễn lượng cầu như một hàm của chính giá hàng hóa: $Q^D=f(P)$."
+    },
+    {
+      "id": "2a-007",
+      "topic": "Biểu cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo biểu cầu trong bài, khi giá là $6{,}000$ ngàn đồng/tấn thì lượng cầu là bao nhiêu?",
+      "options": {
+        "A": "$80$ tấn/tháng",
+        "B": "$90$ tấn/tháng",
+        "C": "$100$ tấn/tháng",
+        "D": "$120$ tấn/tháng"
+      },
+      "correct_answer": "C",
+      "explanation": "Dòng tương ứng trong biểu cầu cho $P=6{,}000$ và $Q^D=100$ tấn/tháng."
+    },
+    {
+      "id": "2a-008",
+      "topic": "Đường cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Đường cầu dốc xuống thể hiện quan hệ nào, khi các yếu tố khác không đổi?",
+      "options": {
+        "A": "Giá thấp hơn đi kèm lượng cầu lớn hơn",
+        "B": "Giá cao hơn đi kèm lượng cầu lớn hơn",
+        "C": "Giá thay đổi nhưng lượng cầu luôn không đổi",
+        "D": "Giá và lượng cầu không có quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Độ dốc xuống của đường cầu phản ánh quan hệ nghịch biến giữa giá $P$ và lượng cầu $Q^D$."
+    },
+    {
+      "id": "2a-009",
+      "topic": "Hàm số cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Với hàm cầu tuyến tính $Q^D=aP+b$, điều kiện nào của hệ số $a$ phù hợp với quy luật cầu?",
+      "options": {
+        "A": "$a>0$",
+        "B": "$a=0$",
+        "C": "$a<0$",
+        "D": "$a=1$"
+      },
+      "correct_answer": "C",
+      "explanation": "Lượng cầu và giá nghịch biến nên độ dốc $a=\\frac{\\Delta Q^D}{\\Delta P}$ phải âm, tức $a<0$."
+    },
+    {
+      "id": "2a-010",
+      "topic": "Hàm cầu nghịch đảo",
+      "difficulty": "hard",
+      "source_pages": [
+        4
+      ],
+      "question": "Nếu $Q^D=aP+b$ với $a<0$ và hàm nghịch đảo là $P=a'Q^D+b'$, quan hệ giữa $a$ và $a'$ là gì?",
+      "options": {
+        "A": "$a'=a$",
+        "B": "$a'=\\frac{1}{a}$",
+        "C": "$a'=-a$",
+        "D": "$a'=b$"
+      },
+      "correct_answer": "B",
+      "explanation": "Bài giảng nêu $a=\\frac{1}{a'}=\\frac{\\Delta Q^D}{\\Delta P}<0$, do đó $a'=\\frac{1}{a}$."
+    },
+    {
+      "id": "2a-011",
+      "topic": "Quy luật cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Nếu giá của chính hàng hóa tăng và các yếu tố khác không đổi, lượng cầu thay đổi thế nào?",
+      "options": {
+        "A": "Tăng",
+        "B": "Giảm",
+        "C": "Không đổi",
+        "D": "Đường cầu dịch sang phải"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo quy luật cầu, $P\\uparrow \\Rightarrow Q^D\\downarrow$; đây là sự di chuyển dọc theo đường cầu, không phải dịch chuyển đường cầu."
+    },
+    {
+      "id": "2a-012",
+      "topic": "Khái niệm cung",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Cung của một hàng hóa là gì?",
+      "options": {
+        "A": "Số lượng người bán sẵn lòng bán tương ứng với các mức giá khác nhau trong một khoảng thời gian xác định",
+        "B": "Số lượng người mua sẵn lòng mua tại một mức giá duy nhất",
+        "C": "Toàn bộ tồn kho của doanh nghiệp bất kể doanh nghiệp có muốn bán hay không",
+        "D": "Lợi nhuận mà doanh nghiệp kỳ vọng"
+      },
+      "correct_answer": "A",
+      "explanation": "Định nghĩa cung gắn số lượng người bán sẵn lòng bán với các mức giá khác nhau trong một khoảng thời gian xác định."
+    },
+    {
+      "id": "2a-013",
+      "topic": "Biểu cung",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Theo biểu cung trong bài, tại $P=5{,}500$ ngàn đồng/tấn, lượng cung bằng bao nhiêu?",
+      "options": {
+        "A": "$60$ tấn/tháng",
+        "B": "$80$ tấn/tháng",
+        "C": "$100$ tấn/tháng",
+        "D": "$120$ tấn/tháng"
+      },
+      "correct_answer": "B",
+      "explanation": "Biểu cung cho thấy tại $P=5{,}500$, lượng cung $Q^S=80$ tấn/tháng."
+    },
+    {
+      "id": "2a-014",
+      "topic": "Hàm số cung",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Với hàm cung tuyến tính $Q^S=cP+d$, điều kiện nào phù hợp với đường cung dốc lên?",
+      "options": {
+        "A": "$c<0$",
+        "B": "$c=0$",
+        "C": "$c>0$",
+        "D": "$d>0$ là điều kiện duy nhất"
+      },
+      "correct_answer": "C",
+      "explanation": "Đường cung dốc lên nên $c=\\frac{\\Delta Q^S}{\\Delta P}>0$. Hệ số chặn $d$ không quyết định dấu của độ dốc."
+    },
+    {
+      "id": "2a-015",
+      "topic": "Quy luật cung",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo quy luật cung, khi giá hàng hóa giảm và các yếu tố khác không đổi thì điều gì xảy ra?",
+      "options": {
+        "A": "$Q^S$ tăng",
+        "B": "$Q^S$ giảm",
+        "C": "Đường cung dịch sang phải",
+        "D": "Đường cầu dịch sang trái"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá và lượng cung đồng biến: $P\\downarrow \\Rightarrow Q^S\\downarrow$. Đây là trượt dọc trên một đường cung."
+    },
+    {
+      "id": "2a-016",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        6,
+        7
+      ],
+      "question": "Điều kiện định lượng tại điểm cân bằng thị trường là gì?",
+      "options": {
+        "A": "$Q^D>Q^S$",
+        "B": "$Q^D<Q^S$",
+        "C": "$Q^D=Q^S$",
+        "D": "$P=0$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại giao điểm đường cầu và đường cung, lượng cầu bằng lượng cung: $Q^D=Q^S$."
+    },
+    {
+      "id": "2a-017",
+      "topic": "Đặc điểm cân bằng",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Đặc điểm nào KHÔNG đúng tại giá cân bằng thị trường?",
+      "options": {
+        "A": "Không có thiếu hụt hàng hóa",
+        "B": "Không có dư thừa hàng hóa",
+        "C": "Không có áp lực làm thay đổi giá",
+        "D": "Lượng cầu luôn lớn hơn lượng cung"
+      },
+      "correct_answer": "D",
+      "explanation": "Tại cân bằng, $Q^D=Q^S$, nên không có thiếu hụt, dư thừa hay áp lực nội tại làm giá thay đổi."
+    },
+    {
+      "id": "2a-018",
+      "topic": "Cơ chế thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        16
+      ],
+      "question": "Khi giá thị trường cao hơn giá cân bằng, cơ chế điều chỉnh nào xảy ra?",
+      "options": {
+        "A": "Thiếu hụt xuất hiện và giá có xu hướng tăng",
+        "B": "Dư thừa xuất hiện và giá có xu hướng giảm",
+        "C": "Dư thừa xuất hiện và giá tiếp tục tăng",
+        "D": "Không có chênh lệch giữa lượng cung và lượng cầu"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi $P>P_e$, lượng cung lớn hơn lượng cầu nên thị trường dư thừa; sức ép bán làm giá giảm về mức cân bằng."
+    },
+    {
+      "id": "2a-019",
+      "topic": "Cơ chế thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        16
+      ],
+      "question": "Khi giá thị trường thấp hơn giá cân bằng, nhận định nào đúng?",
+      "options": {
+        "A": "$Q^S>Q^D$ và giá giảm",
+        "B": "$Q^D>Q^S$ và giá tăng",
+        "C": "$Q^D=Q^S$ và giá không đổi",
+        "D": "$Q^D<Q^S$ và giá tăng"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi $P<P_e$, lượng cầu vượt lượng cung, tạo thiếu hụt và gây áp lực làm giá tăng."
+    },
+    {
+      "id": "2a-020",
+      "topic": "Thay đổi lượng cầu và thay đổi cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question": "Phát biểu nào phân biệt đúng thay đổi lượng cầu và thay đổi cầu?",
+      "options": {
+        "A": "Thay đổi lượng cầu là dịch chuyển đường cầu; thay đổi cầu là trượt dọc đường cầu",
+        "B": "Cả hai đều luôn do giá của chính hàng hóa gây ra",
+        "C": "Thay đổi lượng cầu là trượt dọc đường cầu; thay đổi cầu là dịch chuyển toàn bộ đường cầu",
+        "D": "Hai khái niệm hoàn toàn giống nhau"
+      },
+      "correct_answer": "C",
+      "explanation": "Giá của chính hàng hóa làm thay đổi lượng cầu và tạo sự di chuyển dọc đường cầu; yếu tố ngoài giá làm thay đổi cầu và dịch chuyển đường cầu."
+    },
+    {
+      "id": "2a-021",
+      "topic": "Các yếu tố làm thay đổi cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Yếu tố nào sau đây làm dịch chuyển đường cầu theo bài giảng?",
+      "options": {
+        "A": "Giá của chính hàng hóa",
+        "B": "Thu nhập của người tiêu dùng",
+        "C": "Lượng cầu hiện tại dọc đường cầu",
+        "D": "Tọa độ của điểm đang xét trên cùng đường cầu"
+      },
+      "correct_answer": "B",
+      "explanation": "Thu nhập là yếu tố ngoài giá làm thay đổi cầu. Giá của chính hàng hóa chỉ làm thay đổi $Q^D$ dọc theo đường cầu hiện có."
+    },
+    {
+      "id": "2a-022",
+      "topic": "Hàng hóa thay thế",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Táo và cam là hàng hóa thay thế. Nếu giá táo tăng, cầu cam thay đổi thế nào?",
+      "options": {
+        "A": "Giảm, đường cầu cam dịch trái",
+        "B": "Tăng, đường cầu cam dịch phải",
+        "C": "Không đổi",
+        "D": "Chỉ lượng cung cam giảm"
+      },
+      "correct_answer": "B",
+      "explanation": "Với hàng hóa thay thế, giá hàng A và cầu hàng B biến động cùng chiều. Giá táo tăng làm người mua chuyển sang cam, nên cầu cam tăng."
+    },
+    {
+      "id": "2a-023",
+      "topic": "Hàng hóa bổ sung",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Xe hơi và xăng là hàng hóa bổ sung. Nếu giá xăng giảm, cầu xe hơi thay đổi thế nào?",
+      "options": {
+        "A": "Tăng, đường cầu xe hơi dịch phải",
+        "B": "Giảm, đường cầu xe hơi dịch trái",
+        "C": "Không đổi vì giá xe hơi không đổi",
+        "D": "Lượng cung xe hơi giảm dọc đường cung"
+      },
+      "correct_answer": "A",
+      "explanation": "Giá của một hàng hóa bổ sung và cầu hàng hóa kia biến động ngược chiều. Giá xăng giảm làm việc sử dụng xe rẻ hơn nên cầu xe hơi tăng."
+    },
+    {
+      "id": "2a-024",
+      "topic": "Hàng hóa thông thường và thứ cấp",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Quan hệ nào đúng với hàng hóa thứ cấp theo bảng trong bài?",
+      "options": {
+        "A": "Thu nhập tăng thì cầu tăng",
+        "B": "Thu nhập tăng thì cầu giảm",
+        "C": "Thu nhập giảm thì cầu giảm",
+        "D": "Cầu không phụ thuộc thu nhập"
+      },
+      "correct_answer": "B",
+      "explanation": "Đối với hàng hóa thứ cấp, thu nhập và cầu biến động ngược chiều: $I\\uparrow \\Rightarrow D\\downarrow$ và ngược lại."
+    },
+    {
+      "id": "2a-025",
+      "topic": "Vận dụng thay đổi cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Yếu tố nào sau đây làm cầu xe Honda giảm?",
+      "options": {
+        "A": "Giá xe Honda tăng",
+        "B": "Thu nhập của người tiêu dùng giảm, giả sử xe Honda là hàng hóa thông thường",
+        "C": "Giá xe Yamaha tăng",
+        "D": "Người tiêu dùng thích đi xe Honda hơn"
+      },
+      "correct_answer": "B",
+      "explanation": "Với hàng hóa thông thường, thu nhập giảm làm cầu giảm. Giá Honda tăng chỉ làm giảm lượng cầu; giá Yamaha tăng hoặc thị hiếu Honda tăng đều làm cầu Honda tăng."
+    },
+    {
+      "id": "2a-026",
+      "topic": "Vận dụng thay đổi cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Yếu tố nào làm cầu bắp rang bơ tại rạp tăng theo ví dụ của bài giảng?",
+      "options": {
+        "A": "Giá vé xem phim giảm",
+        "B": "Thu nhập người tiêu dùng tăng, nếu bắp rang bơ là hàng hóa thông thường",
+        "C": "Người tiêu dùng thích đi xem phim ở rạp hơn",
+        "D": "Cả A, B và C"
+      },
+      "correct_answer": "D",
+      "explanation": "Vé xem phim và bắp rang là hàng bổ sung nên giá vé giảm làm cầu bắp rang tăng; thu nhập và thị hiếu tăng cũng làm cầu tăng theo giả định trong ví dụ."
+    },
+    {
+      "id": "2a-027",
+      "topic": "Thay đổi lượng cung và thay đổi cung",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Khi giá của chính hàng hóa thay đổi, điều gì xảy ra nếu các yếu tố khác không đổi?",
+      "options": {
+        "A": "Đường cung nhất thiết dịch chuyển",
+        "B": "Có sự trượt dọc trên đường cung và lượng cung thay đổi",
+        "C": "Cầu thị trường luôn dịch chuyển",
+        "D": "Số doanh nghiệp trong ngành luôn thay đổi"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá của chính hàng hóa ảnh hưởng đến lượng cung $Q^S$, tạo chuyển động dọc đường cung; nó không làm đường cung $S$ dịch chuyển."
+    },
+    {
+      "id": "2a-028",
+      "topic": "Các yếu tố làm thay đổi cung",
+      "difficulty": "easy",
+      "source_pages": [
+        12,
+        13
+      ],
+      "question": "Yếu tố nào sau đây KHÔNG được bài giảng liệt kê là yếu tố làm dịch chuyển đường cung?",
+      "options": {
+        "A": "Trình độ công nghệ",
+        "B": "Giá yếu tố đầu vào",
+        "C": "Số doanh nghiệp trong ngành",
+        "D": "Thu nhập của người tiêu dùng"
+      },
+      "correct_answer": "D",
+      "explanation": "Thu nhập người tiêu dùng là yếu tố của cầu. Các yếu tố cung gồm công nghệ, giá đầu vào, giá kỳ vọng, số doanh nghiệp, thuế/trợ cấp và điều kiện tự nhiên."
+    },
+    {
+      "id": "2a-029",
+      "topic": "Dịch chuyển đường cung",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Nếu giá các yếu tố đầu vào giảm, các yếu tố khác không đổi, đường cung dịch chuyển thế nào?",
+      "options": {
+        "A": "Sang phải vì cung tăng",
+        "B": "Sang trái vì cung giảm",
+        "C": "Không dịch chuyển; chỉ trượt dọc",
+        "D": "Đường cầu dịch sang phải"
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí đầu vào giảm làm sản xuất có lợi hơn, cung tăng và đường cung dịch sang phải."
+    },
+    {
+      "id": "2a-030",
+      "topic": "Vận dụng thay đổi cung",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Yếu tố nào làm cung lúa tăng?",
+      "options": {
+        "A": "Giá lúa tăng",
+        "B": "Điều kiện thời tiết bất lợi",
+        "C": "Giá giống và giá lao động giảm",
+        "D": "Công nghệ sản xuất lạc hậu"
+      },
+      "correct_answer": "C",
+      "explanation": "Giá giống và lao động giảm làm giảm chi phí đầu vào nên cung lúa tăng. Giá lúa tăng chỉ làm tăng lượng cung; thời tiết bất lợi và công nghệ lạc hậu làm cung giảm."
+    },
+    {
+      "id": "2a-031",
+      "topic": "Vận dụng thay đổi cung",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Yếu tố nào làm cung xe hơi Honda giảm?",
+      "options": {
+        "A": "Thu nhập người tiêu dùng giảm",
+        "B": "Giá xe Toyota giảm",
+        "C": "Giá xăng tăng",
+        "D": "Không có yếu tố nào trong A, B, C trực tiếp làm thay đổi cung xe Honda"
+      },
+      "correct_answer": "D",
+      "explanation": "Các phương án A, B, C chủ yếu tác động đến cầu xe Honda hoặc cầu xe nói chung, không phải các yếu tố ngoài giá làm dịch chuyển cung xe Honda."
+    },
+    {
+      "id": "2a-032",
+      "topic": "Thay đổi cân bằng do cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        17
+      ],
+      "question": "Khi cầu tăng còn cung không đổi, giá và lượng cân bằng mới thay đổi thế nào?",
+      "options": {
+        "A": "Giá giảm, lượng giảm",
+        "B": "Giá tăng, lượng tăng",
+        "C": "Giá tăng, lượng giảm",
+        "D": "Giá giảm, lượng tăng"
+      },
+      "correct_answer": "B",
+      "explanation": "Đường cầu dịch phải tạo thiếu hụt tại giá cũ; quá trình điều chỉnh đưa thị trường đến cân bằng mới có giá và lượng đều cao hơn."
+    },
+    {
+      "id": "2a-033",
+      "topic": "Thay đổi cân bằng do cung",
+      "difficulty": "medium",
+      "source_pages": [
+        15,
+        18
+      ],
+      "question": "Khi cung tăng còn cầu không đổi, giá và lượng cân bằng mới thay đổi thế nào?",
+      "options": {
+        "A": "Giá giảm, lượng tăng",
+        "B": "Giá tăng, lượng tăng",
+        "C": "Giá giảm, lượng giảm",
+        "D": "Giá tăng, lượng giảm"
+      },
+      "correct_answer": "A",
+      "explanation": "Đường cung dịch phải tạo dư thừa tại giá cũ; cân bằng mới có giá thấp hơn và lượng giao dịch cao hơn."
+    },
+    {
+      "id": "2a-034",
+      "topic": "Đọc bảng cân bằng",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Trong bảng cân bằng có $Q^D=(130,110,90,70,50)$ và $Q^S=(50,70,90,110,130)$ tương ứng với $P=(1,2,3,4,5)$, điểm cân bằng là gì?",
+      "options": {
+        "A": "$P_e=2,\\ Q_e=70$",
+        "B": "$P_e=3,\\ Q_e=90$",
+        "C": "$P_e=4,\\ Q_e=110$",
+        "D": "$P_e=5,\\ Q_e=130$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tại $P=3$, hai bảng cùng cho $Q^D=Q^S=90$, nên $P_e=3$ và $Q_e=90$."
+    },
+    {
+      "id": "2a-035",
+      "topic": "Tính cân bằng từ hàm trực tiếp",
+      "difficulty": "hard",
+      "source_pages": [
+        16
+      ],
+      "question": "Cho $Q^S=0.5P-20$ và $Q^D=-1.5P+100$. Giá và lượng cân bằng là bao nhiêu?",
+      "options": {
+        "A": "$P_e=40,\\ Q_e=20$",
+        "B": "$P_e=50,\\ Q_e=5$",
+        "C": "$P_e=60,\\ Q_e=10$",
+        "D": "$P_e=80,\\ Q_e=20$"
+      },
+      "correct_answer": "C",
+      "explanation": "Đặt $Q^S=Q^D$: $0.5P-20=-1.5P+100 \\Rightarrow 2P=120 \\Rightarrow P_e=60$. Thay lại được $Q_e=0.5(60)-20=10$."
+    },
+    {
+      "id": "2a-036",
+      "topic": "Tính cân bằng từ hàm nghịch đảo",
+      "difficulty": "hard",
+      "source_pages": [
+        16
+      ],
+      "question": "Cho $P=2Q^S+20$ và $P=-Q^D+110$. Giá và lượng cân bằng là bao nhiêu?",
+      "options": {
+        "A": "$P_e=70,\\ Q_e=25$",
+        "B": "$P_e=80,\\ Q_e=30$",
+        "C": "$P_e=90,\\ Q_e=35$",
+        "D": "$P_e=110,\\ Q_e=0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tại cân bằng, đặt $Q^S=Q^D=Q$: $2Q+20=-Q+110 \\Rightarrow 3Q=90 \\Rightarrow Q_e=30$. Khi đó $P_e=2(30)+20=80$."
+    },
+    {
+      "id": "2a-037",
+      "topic": "Tính thiếu hụt",
+      "difficulty": "hard",
+      "source_pages": [
+        16
+      ],
+      "question": "Với $P=2Q^S+20$ và $P=-Q^D+110$, nếu giá thị trường là $P=50$ thì thị trường ở trạng thái nào và chênh lệch bao nhiêu?",
+      "options": {
+        "A": "Dư thừa $45$ đơn vị",
+        "B": "Thiếu hụt $45$ đơn vị",
+        "C": "Thiếu hụt $15$ đơn vị",
+        "D": "Cân bằng"
+      },
+      "correct_answer": "B",
+      "explanation": "Từ hàm cung, $Q^S=\\frac{50-20}{2}=15$. Từ hàm cầu, $Q^D=110-50=60$. Vì $Q^D-Q^S=45$, thị trường thiếu hụt $45$ đơn vị."
+    },
+    {
+      "id": "2a-038",
+      "topic": "Lập hàm từ bảng",
+      "difficulty": "hard",
+      "source_pages": [
+        17
+      ],
+      "question": "Từ bảng $P=(10,20,30)$, $Q^D=(200,180,160)$ và $Q^S=(40,80,120)$, cặp hàm tuyến tính nào đúng?",
+      "options": {
+        "A": "$Q^D=220-2P$ và $Q^S=4P$",
+        "B": "$Q^D=200-2P$ và $Q^S=40+4P$",
+        "C": "$Q^D=220+2P$ và $Q^S=-4P$",
+        "D": "$Q^D=20P$ và $Q^S=4P+40$"
+      },
+      "correct_answer": "A",
+      "explanation": "Mỗi khi $P$ tăng $10$, $Q^D$ giảm $20$ nên hệ số dốc là $-2$ và hệ số chặn là $220$; $Q^S$ tăng $40$ nên hệ số dốc là $4$ và đi qua gốc."
+    },
+    {
+      "id": "2a-039",
+      "topic": "Tính cân bằng từ bảng",
+      "difficulty": "hard",
+      "source_pages": [
+        17
+      ],
+      "question": "Với các hàm suy ra từ bảng là $Q^D=220-2P$ và $Q^S=4P$, cân bằng thị trường là gì?",
+      "options": {
+        "A": "$P_e=30,\\ Q_e=120$",
+        "B": "$P_e=\\frac{100}{3},\\ Q_e=\\frac{400}{3}$",
+        "C": "$P_e=\\frac{110}{3},\\ Q_e=\\frac{440}{3}$",
+        "D": "$P_e=40,\\ Q_e=160$"
+      },
+      "correct_answer": "C",
+      "explanation": "Giải $220-2P=4P$ được $6P=220$, nên $P_e=\\frac{110}{3}$. Khi đó $Q_e=4P_e=\\frac{440}{3}$."
+    },
+    {
+      "id": "2a-040",
+      "topic": "Tính cân bằng từ biểu cầu và biểu cung",
+      "difficulty": "hard",
+      "source_pages": [
+        3,
+        5
+      ],
+      "question": "Từ hai bảng ở bài giảng suy ra $Q^D=220-0.02P$ và $Q^S=0.04P-140$. Giá và lượng cân bằng là bao nhiêu?",
+      "options": {
+        "A": "$P_e=5{,}500,\\ Q_e=90$",
+        "B": "$P_e=6{,}000,\\ Q_e=100$",
+        "C": "$P_e=6{,}500,\\ Q_e=110$",
+        "D": "$P_e=7{,}000,\\ Q_e=120$"
+      },
+      "correct_answer": "B",
+      "explanation": "Đặt $220-0.02P=0.04P-140$ được $360=0.06P$, nên $P_e=6{,}000$. Thay vào một trong hai hàm cho $Q_e=100$."
+    },
+    {
+      "id": "2a-041",
+      "topic": "Ba bước phân tích cân bằng",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Trình tự đúng của ba bước phân tích sự thay đổi cân bằng là gì?",
+      "options": {
+        "A": "Tính lợi nhuận; xác định thuế; vẽ đường chi phí",
+        "B": "Xác định sự kiện tác động đến cung/cầu; xác định hướng dịch chuyển; dùng đồ thị suy ra giá và lượng cân bằng mới",
+        "C": "Xác định giá cũ; giữ nguyên mọi đường; kết luận giá không đổi",
+        "D": "Dịch chuyển cả hai đường; chọn hướng ngẫu nhiên; tính doanh thu"
+      },
+      "correct_answer": "B",
+      "explanation": "Bài giảng yêu cầu lần lượt xác định đường bị tác động, xác định hướng dịch chuyển, rồi dùng đồ thị cung cầu để suy ra thay đổi của giá và lượng cân bằng."
+    },
+    {
+      "id": "2a-042",
+      "topic": "Tình huống cầu xe hơi",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Trong thị trường xe hơi, giá xăng giảm làm cân bằng thay đổi thế nào, nếu cung xe hơi không đổi?",
+      "options": {
+        "A": "Cầu xe hơi giảm; giá và lượng xe hơi đều giảm",
+        "B": "Cầu xe hơi tăng; giá và lượng xe hơi đều tăng",
+        "C": "Cung xe hơi tăng; giá giảm và lượng tăng",
+        "D": "Lượng cầu xe hơi giảm dọc đường cầu"
+      },
+      "correct_answer": "B",
+      "explanation": "Xăng và xe hơi là hàng bổ sung. Giá xăng giảm làm cầu xe hơi dịch phải; với cung không đổi, giá và lượng cân bằng xe hơi đều tăng."
+    },
+    {
+      "id": "2a-043",
+      "topic": "Tình huống cung xe hơi",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Công nghệ mới làm tăng năng suất và giảm chi phí sản xuất xe hơi. Nếu cầu không đổi, kết quả cân bằng là gì?",
+      "options": {
+        "A": "Cung giảm; giá tăng, lượng giảm",
+        "B": "Cung tăng; giá giảm, lượng tăng",
+        "C": "Cầu tăng; giá và lượng cùng tăng",
+        "D": "Giá và lượng đều không đổi"
+      },
+      "correct_answer": "B",
+      "explanation": "Công nghệ tốt hơn làm cung xe hơi dịch sang phải. Tại cân bằng mới, giá giảm và sản lượng tăng."
+    },
+    {
+      "id": "2a-044",
+      "topic": "Tình huống chi phí đầu vào",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Tiền thuê lao động sản xuất nước giải khát Coca tăng lên. Nếu cầu không đổi, giá và lượng cân bằng thay đổi thế nào?",
+      "options": {
+        "A": "Giá tăng, lượng giảm",
+        "B": "Giá giảm, lượng tăng",
+        "C": "Giá và lượng đều tăng",
+        "D": "Giá và lượng đều giảm"
+      },
+      "correct_answer": "A",
+      "explanation": "Tiền thuê lao động là chi phí đầu vào. Chi phí tăng làm cung giảm, đường cung dịch trái, nên giá cân bằng tăng còn lượng cân bằng giảm."
+    },
+    {
+      "id": "2a-045",
+      "topic": "Cung và cầu đồng thời thay đổi",
+      "difficulty": "hard",
+      "source_pages": [
+        18,
+        19
+      ],
+      "question": "Nếu cả cung và cầu đều tăng, kết luận nào luôn đúng theo các đồ thị trong bài?",
+      "options": {
+        "A": "Lượng cân bằng tăng; giá cân bằng có thể tăng, giảm hoặc không đổi tùy mức dịch chuyển tương đối",
+        "B": "Giá và lượng cân bằng chắc chắn cùng tăng",
+        "C": "Giá cân bằng chắc chắn giảm còn lượng không đổi",
+        "D": "Lượng cân bằng chắc chắn giảm"
+      },
+      "correct_answer": "A",
+      "explanation": "Khi $D$ và $S$ cùng dịch phải, lượng cân bằng tăng. Giá tăng nếu cầu tăng tương đối nhiều, giảm nếu cung tăng tương đối nhiều, và không đổi nếu tác động cân bằng nhau."
+    },
+    {
+      "id": "2a-046",
+      "topic": "Tình huống giá xe Toyota",
+      "difficulty": "hard",
+      "source_pages": [
+        19
+      ],
+      "question": "Trường hợp nào làm giá cân bằng xe hơi Toyota tăng rõ ràng theo phân tích cung-cầu?",
+      "options": {
+        "A": "Thu nhập người tiêu dùng giảm, giả sử Toyota là hàng hóa thông thường",
+        "B": "Tiền lương lao động sản xuất xe hơi tăng",
+        "C": "Chính phủ giảm thuế đánh vào xe hơi",
+        "D": "Giá xe BMW giảm"
+      },
+      "correct_answer": "B",
+      "explanation": "Tiền lương sản xuất tăng làm chi phí đầu vào tăng, cung Toyota giảm và giá cân bằng tăng. Các phương án còn lại làm cầu giảm hoặc cung tăng, gây sức ép giảm giá."
+    },
+    {
+      "id": "2a-047",
+      "topic": "Nhà cung cấp rời thị trường",
+      "difficulty": "hard",
+      "source_pages": [
+        20
+      ],
+      "question": "Nếu một nhà cung cấp xe máy chính rời thị trường Việt Nam, trong điều kiện cầu không đổi, tác động dự kiến là gì?",
+      "options": {
+        "A": "Cung thị trường tăng, giá giảm, lượng bán tăng và các nhà cung cấp còn lại kém có cơ hội sinh lời hơn",
+        "B": "Cung thị trường giảm, giá tăng, lượng bán giảm và các nhà cung cấp còn lại có thể có cơ hội sinh lời cao hơn",
+        "C": "Cầu thị trường giảm, giá và lượng đều giảm nhưng cung không đổi",
+        "D": "Không tác động đến giá, lượng hay các nhà cung cấp còn lại"
+      },
+      "correct_answer": "B",
+      "explanation": "Số doanh nghiệp giảm làm đường cung thị trường dịch trái. Với cầu không đổi, giá cân bằng tăng và lượng cân bằng giảm; giá cao hơn và cạnh tranh ít hơn có thể cải thiện cơ hội sinh lời của các nhà cung cấp còn lại."
+    }
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "chapter_id": "chuong-5",
+  "title": "Chương 5 - Thị trường cạnh tranh hoàn hảo",
+  "source_file": "CHUONG 5 - THI TRUONG CANH TRANH HOAN HAO - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "5-001",
+      "topic": "Đặc điểm thị trường cạnh tranh hoàn hảo",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Đâu là nhóm đặc điểm đầy đủ nhất của thị trường cạnh tranh hoàn hảo?",
+      "options": {
+        "A": "Nhiều người mua và người bán, sản phẩm đồng nhất, thông tin hoàn hảo, tự do gia nhập hoặc rời bỏ trong dài hạn",
+        "B": "Một người bán, sản phẩm không có hàng thay thế tốt, rào cản gia nhập cao",
+        "C": "Một vài doanh nghiệp, sản phẩm đồng nhất và nhóm doanh nghiệp quyết định giá",
+        "D": "Nhiều doanh nghiệp, sản phẩm khác biệt và mỗi doanh nghiệp tự quyết định giá"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng nêu bốn đặc điểm chính: rất nhiều người mua và người bán, sản phẩm đồng nhất, thông tin hoàn hảo và doanh nghiệp có thể tự do gia nhập hoặc rời bỏ thị trường trong dài hạn."
+    },
+    {
+      "id": "5-002",
+      "topic": "Thị phần của doanh nghiệp",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Vì sao một doanh nghiệp cạnh tranh hoàn hảo không thể tự mình chi phối giá thị trường?",
+      "options": {
+        "A": "Vì doanh nghiệp bị cấm thay đổi sản lượng",
+        "B": "Vì doanh nghiệp chỉ chiếm một thị phần rất nhỏ trong số rất nhiều doanh nghiệp",
+        "C": "Vì chỉ có một người mua trên thị trường",
+        "D": "Vì sản phẩm của doanh nghiệp không có hàng thay thế"
+      },
+      "correct_answer": "B",
+      "explanation": "Mỗi doanh nghiệp rất nhỏ so với toàn thị trường nên thay đổi sản lượng của riêng doanh nghiệp không đủ để quyết định giá thị trường."
+    },
+    {
+      "id": "5-003",
+      "topic": "Sản phẩm đồng nhất",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Trong thị trường cạnh tranh hoàn hảo, 'sản phẩm đồng nhất' có ý nghĩa gì?",
+      "options": {
+        "A": "Mỗi doanh nghiệp bán một sản phẩm hoàn toàn khác biệt",
+        "B": "Chỉ một doanh nghiệp được quyền bán sản phẩm",
+        "C": "Người mua xem sản phẩm của các doanh nghiệp là giống nhau",
+        "D": "Sản phẩm không thể thay thế cho nhau"
+      },
+      "correct_answer": "C",
+      "explanation": "Do sản phẩm giống hệt nhau, người mua có thể chuyển sang doanh nghiệp khác nếu một doanh nghiệp đòi giá cao hơn giá thị trường."
+    },
+    {
+      "id": "5-004",
+      "topic": "Thông tin hoàn hảo",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Hệ quả trực tiếp của thông tin hoàn hảo được nhấn mạnh trong bài giảng là gì?",
+      "options": {
+        "A": "Doanh nghiệp có thể che giấu giá để bán cao hơn",
+        "B": "Chỉ người bán biết chất lượng sản phẩm",
+        "C": "Giá thị trường không thể hình thành",
+        "D": "Người mua và người bán giao dịch đúng giá thị trường"
+      },
+      "correct_answer": "D",
+      "explanation": "Khi thông tin hoàn hảo, các bên biết điều kiện thị trường và thực hiện mua bán đúng giá."
+    },
+    {
+      "id": "5-005",
+      "topic": "Gia nhập và rời bỏ thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Trong dài hạn, doanh nghiệp trong thị trường cạnh tranh hoàn hảo có đặc điểm nào về việc gia nhập và rời bỏ ngành?",
+      "options": {
+        "A": "Có thể tự do gia nhập hoặc rời bỏ thị trường",
+        "B": "Không doanh nghiệp mới nào được gia nhập",
+        "C": "Doanh nghiệp chỉ được gia nhập khi giá bằng $0$",
+        "D": "Doanh nghiệp đang hoạt động không được rời bỏ ngành"
+      },
+      "correct_answer": "A",
+      "explanation": "Không có rào cản gia nhập hoặc rời bỏ đáng kể trong dài hạn là một đặc trưng của thị trường cạnh tranh hoàn hảo."
+    },
+    {
+      "id": "5-006",
+      "topic": "Các loại thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "question": "Ghép loại thị trường với số lượng doanh nghiệp nào là đúng theo bảng trong bài giảng?",
+      "options": {
+        "A": "Cạnh tranh hoàn hảo: một; cạnh tranh độc quyền: một vài; độc quyền nhóm: nhiều; độc quyền hoàn toàn: nhiều",
+        "B": "Cạnh tranh hoàn hảo: nhiều; cạnh tranh độc quyền: nhiều; độc quyền nhóm: một vài; độc quyền hoàn toàn: một",
+        "C": "Cạnh tranh hoàn hảo: một vài; cạnh tranh độc quyền: một; độc quyền nhóm: nhiều; độc quyền hoàn toàn: nhiều",
+        "D": "Cả bốn loại thị trường đều chỉ có một doanh nghiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "Bảng phân loại lần lượt ghi: nhiều, nhiều, một vài và một doanh nghiệp cho bốn cấu trúc thị trường nêu trên."
+    },
+    {
+      "id": "5-007",
+      "topic": "Khả năng kiểm soát giá",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Phát biểu nào đúng về khả năng kiểm soát giá trong các loại thị trường?",
+      "options": {
+        "A": "Doanh nghiệp cạnh tranh hoàn hảo quyết định giá; doanh nghiệp độc quyền hoàn toàn không kiểm soát giá",
+        "B": "Mọi doanh nghiệp trong mọi cấu trúc thị trường đều không kiểm soát giá",
+        "C": "Doanh nghiệp cạnh tranh hoàn hảo không kiểm soát giá; doanh nghiệp độc quyền hoàn toàn quyết định giá",
+        "D": "Chỉ người tiêu dùng trong độc quyền nhóm quyết định giá"
+      },
+      "correct_answer": "C",
+      "explanation": "Bảng của bài giảng ghi doanh nghiệp cạnh tranh hoàn hảo không có khả năng kiểm soát giá, còn doanh nghiệp độc quyền hoàn toàn quyết định giá."
+    },
+    {
+      "id": "5-008",
+      "topic": "Nhận diện cấu trúc thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "question": "Cặp ví dụ nào được bài giảng xếp tương ứng với cạnh tranh hoàn hảo và độc quyền hoàn toàn?",
+      "options": {
+        "A": "Điện, nước sạch và lúa, bắp, đậu",
+        "B": "Điện thoại thông minh và quần áo",
+        "C": "Nhà hàng và gạo",
+        "D": "Lúa, bắp, đậu và điện, nước sạch"
+      },
+      "correct_answer": "D",
+      "explanation": "Bảng dùng lúa, bắp, đậu làm ví dụ cạnh tranh hoàn hảo và điện, nước sạch làm ví dụ độc quyền hoàn toàn."
+    },
+    {
+      "id": "5-009",
+      "topic": "Cung thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        3,
+        14
+      ],
+      "question": "Cung thị trường tại một mức giá được xác định như thế nào từ cung của các doanh nghiệp?",
+      "options": {
+        "A": "Cộng theo chiều ngang lượng cung của tất cả doanh nghiệp tại mức giá đó",
+        "B": "Cộng theo chiều dọc các mức giá của doanh nghiệp",
+        "C": "Lấy lượng cung lớn nhất rồi bỏ qua các doanh nghiệp còn lại",
+        "D": "Lấy trung bình cộng của mọi mức giá và sản lượng"
+      },
+      "correct_answer": "A",
+      "explanation": "Đường cung ngành là tổng theo chiều ngang các đường cung doanh nghiệp, tức $Q_S=\\sum_i q_i$ tại mỗi mức giá."
+    },
+    {
+      "id": "5-010",
+      "topic": "Tổng hợp cung thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Hai nhà sản xuất có $q_A=\\frac{1}{10}P-4$ và $q_B=\\frac{1}{5}P-5$. Khi cả hai đều sản xuất, hàm cung thị trường là gì?",
+      "options": {
+        "A": "$Q_S=\\frac{1}{10}P-9$",
+        "B": "$Q_S=\\frac{3}{10}P-9$",
+        "C": "$Q_S=\\frac{3}{10}P+1$",
+        "D": "$Q_S=\\frac{1}{2}P-20$"
+      },
+      "correct_answer": "B",
+      "explanation": "Cộng theo chiều ngang: $Q_S=q_A+q_B=(\\frac{1}{10}+\\frac{1}{5})P-(4+5)=\\frac{3}{10}P-9$."
+    },
+    {
+      "id": "5-011",
+      "topic": "Cung thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Có $50$ nhà sản xuất giống nhau, mỗi nhà sản xuất có $q_s=\\frac{1}{100}P-2$. Hàm cung thị trường là gì?",
+      "options": {
+        "A": "$Q_S=\\frac{1}{100}P-100$",
+        "B": "$Q_S=2P-100$",
+        "C": "$Q_S=\\frac{1}{2}P-100$",
+        "D": "$Q_S=\\frac{1}{2}P-2$"
+      },
+      "correct_answer": "C",
+      "explanation": "$Q_S=50q_s=50(\\frac{1}{100}P-2)=\\frac{1}{2}P-100$."
+    },
+    {
+      "id": "5-012",
+      "topic": "Cầu thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Có $100$ người tiêu dùng giống nhau, mỗi người có $q_d=-\\frac{1}{50}P+8$. Hàm cầu thị trường là gì?",
+      "options": {
+        "A": "$Q_D=-\\frac{1}{2}P+800$",
+        "B": "$Q_D=-2P+8$",
+        "C": "$Q_D=2P+800$",
+        "D": "$Q_D=-2P+800$"
+      },
+      "correct_answer": "D",
+      "explanation": "$Q_D=100q_d=100(-\\frac{1}{50}P+8)=-2P+800$."
+    },
+    {
+      "id": "5-013",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "hard",
+      "source_pages": [
+        4
+      ],
+      "question": "Với $Q_S=\\frac{1}{2}P-100$ và $Q_D=-2P+800$, điểm cân bằng thị trường là gì?",
+      "options": {
+        "A": "$P^*=360,\\ Q^*=80$",
+        "B": "$P^*=80,\\ Q^*=360$",
+        "C": "$P^*=300,\\ Q^*=50$",
+        "D": "$P^*=400,\\ Q^*=100$"
+      },
+      "correct_answer": "A",
+      "explanation": "Cho $Q_S=Q_D$: $\\frac{1}{2}P-100=-2P+800$, nên $\\frac{5}{2}P=900$ và $P^*=360$. Thay vào cung được $Q^*=\\frac{1}{2}(360)-100=80$."
+    },
+    {
+      "id": "5-014",
+      "topic": "Doanh nghiệp chấp nhận giá",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Doanh nghiệp trong thị trường cạnh tranh hoàn hảo được gọi là người chấp nhận giá vì lý do nào?",
+      "options": {
+        "A": "Doanh nghiệp luôn đặt giá cao hơn giá thị trường",
+        "B": "Giá do thị trường quyết định, doanh nghiệp lựa chọn sản lượng tại giá đó",
+        "C": "Doanh nghiệp và người mua mặc cả để tạo một giá riêng cho từng đơn vị",
+        "D": "Nhà nước quy định mọi mức sản lượng của doanh nghiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "Doanh nghiệp quá nhỏ để ảnh hưởng giá và bán sản phẩm đồng nhất nên phải chấp nhận mức giá do cung cầu toàn thị trường xác định."
+    },
+    {
+      "id": "5-015",
+      "topic": "Đường cầu của doanh nghiệp",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Đường cầu đối với một doanh nghiệp cạnh tranh hoàn hảo có hình dạng nào?",
+      "options": {
+        "A": "Đường thẳng đứng và hoàn toàn không co giãn",
+        "B": "Đường dốc xuống giống đường cầu toàn thị trường",
+        "C": "Đường nằm ngang tại mức giá thị trường và co giãn hoàn toàn",
+        "D": "Đường dốc lên trùng với chi phí biên"
+      },
+      "correct_answer": "C",
+      "explanation": "Doanh nghiệp có thể bán lượng mình lựa chọn tại giá thị trường nhưng không thể bán với giá cao hơn, nên đường cầu riêng là đường nằm ngang."
+    },
+    {
+      "id": "5-016",
+      "topic": "Đường cầu của doanh nghiệp",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Nếu một doanh nghiệp cạnh tranh hoàn hảo tăng giá cao hơn giá thị trường trong khi sản phẩm đồng nhất, điều gì xảy ra theo bài giảng?",
+      "options": {
+        "A": "Doanh nghiệp bán được nhiều hơn vì giá là tín hiệu chất lượng",
+        "B": "Toàn bộ thị trường lập tức tăng giá theo doanh nghiệp",
+        "C": "Sản lượng của đối thủ bắt buộc giảm về $0$",
+        "D": "Người tiêu dùng chuyển sang mua từ các đối thủ cạnh tranh"
+      },
+      "correct_answer": "D",
+      "explanation": "Vì sản phẩm giống hệt nhau và có nhiều người bán, người mua không có lý do trả giá cao hơn cho doanh nghiệp này."
+    },
+    {
+      "id": "5-017",
+      "topic": "Giá và sản lượng của doanh nghiệp",
+      "difficulty": "easy",
+      "source_pages": [
+        4,
+        5
+      ],
+      "question": "Khi doanh nghiệp cạnh tranh hoàn hảo thay đổi sản lượng $Q$, giả định nào về giá $P$ được dùng để lập đường tổng doanh thu?",
+      "options": {
+        "A": "$P$ không đổi",
+        "B": "$P$ luôn bằng $0$",
+        "C": "$P$ tăng đúng bằng $Q$",
+        "D": "$P$ giảm nhanh hơn $Q$"
+      },
+      "correct_answer": "A",
+      "explanation": "Doanh nghiệp là người chấp nhận giá nên xem $P$ là hằng số khi lựa chọn $Q$."
+    },
+    {
+      "id": "5-018",
+      "topic": "Tổng doanh thu",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Công thức tổng doanh thu của doanh nghiệp là gì?",
+      "options": {
+        "A": "$TR=P+Q$",
+        "B": "$TR=P\\times Q$",
+        "C": "$TR=\\frac{P}{Q}$",
+        "D": "$TR=TC-P$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tổng doanh thu bằng giá bán mỗi đơn vị nhân với số đơn vị bán ra: $TR=P\\times Q$."
+    },
+    {
+      "id": "5-019",
+      "topic": "Doanh thu trung bình",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Đối với doanh nghiệp cạnh tranh hoàn hảo, doanh thu trung bình $AR$ bằng gì?",
+      "options": {
+        "A": "$AR=TR\\times Q$",
+        "B": "$AR=P-Q$",
+        "C": "$AR=\\frac{TR}{Q}=P$",
+        "D": "$AR=TC-Q$"
+      },
+      "correct_answer": "C",
+      "explanation": "$AR=\\frac{TR}{Q}=\\frac{P\\times Q}{Q}=P$."
+    },
+    {
+      "id": "5-020",
+      "topic": "Doanh thu biên",
+      "difficulty": "medium",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Công thức nào mô tả đúng doanh thu biên $MR$?",
+      "options": {
+        "A": "$MR=\\frac{\\Delta Q}{\\Delta TR}=\\frac{dQ}{dTR}$",
+        "B": "$MR=TR+TC$",
+        "C": "$MR=\\frac{TC}{Q}$",
+        "D": "$MR=\\frac{\\Delta TR}{\\Delta Q}=\\frac{dTR}{dQ}$"
+      },
+      "correct_answer": "D",
+      "explanation": "Doanh thu biên là phần tổng doanh thu tăng thêm khi bán thêm một đơn vị sản lượng, nên $MR=\\frac{\\Delta TR}{\\Delta Q}$ và trong dạng liên tục là $\\frac{dTR}{dQ}$."
+    },
+    {
+      "id": "5-021",
+      "topic": "Quan hệ giữa cầu và doanh thu",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Quan hệ nào đúng đối với doanh nghiệp cạnh tranh hoàn hảo?",
+      "options": {
+        "A": "$MR=AR=P=d$",
+        "B": "$MR>AR>P$ với mọi $Q$",
+        "C": "$MR=0$ còn $AR=P$",
+        "D": "$MR=MC=AC$ tại mọi mức sản lượng"
+      },
+      "correct_answer": "A",
+      "explanation": "Vì $P$ không đổi, mỗi đơn vị bán thêm làm $TR$ tăng đúng bằng $P$; do đó đường $MR$, $AR$ và đường cầu $d$ của doanh nghiệp trùng nhau tại giá $P$."
+    },
+    {
+      "id": "5-022",
+      "topic": "Bảng doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Nếu giá không đổi ở $P=3$ và doanh nghiệp tăng sản lượng từ $Q=5$ lên $Q=6$, bộ giá trị $(TR_6,AR_6,MR_6)$ là gì?",
+      "options": {
+        "A": "$(15,3,6)$",
+        "B": "$(18,3,3)$",
+        "C": "$(18,6,3)$",
+        "D": "$(9,3,3)$"
+      },
+      "correct_answer": "B",
+      "explanation": "$TR_6=3\\times6=18$, $AR_6=\\frac{18}{6}=3$ và $MR_6=TR_6-TR_5=18-15=3$."
+    },
+    {
+      "id": "5-023",
+      "topic": "Đồ thị tổng doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Đồ thị $TR$ theo $Q$ của doanh nghiệp cạnh tranh hoàn hảo có đặc điểm nào?",
+      "options": {
+        "A": "Là đường nằm ngang, có độ dốc bằng $0$",
+        "B": "Là đường thẳng đứng tại sản lượng cân bằng",
+        "C": "Là đường thẳng qua gốc tọa độ, có độ dốc không đổi bằng $P=MR$",
+        "D": "Là đường chữ U và có độ dốc bằng $AC$"
+      },
+      "correct_answer": "C",
+      "explanation": "Do $TR=P\\times Q$ với $P$ không đổi, $TR$ là đường thẳng qua gốc và $\\frac{dTR}{dQ}=P=MR$."
+    },
+    {
+      "id": "5-024",
+      "topic": "Lợi nhuận",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Công thức nào biểu diễn đúng lợi nhuận của doanh nghiệp?",
+      "options": {
+        "A": "$\\pi=TR+TC=(P+AC)Q$",
+        "B": "$\\pi=TC-TR=(AC-P)Q$ trong mọi cách định nghĩa",
+        "C": "$\\pi=P-AC-Q$",
+        "D": "$\\pi=TR-TC=(P-AC)Q$"
+      },
+      "correct_answer": "D",
+      "explanation": "$\\pi=TR-TC=P Q-AC\\,Q=(P-AC)Q$."
+    },
+    {
+      "id": "5-025",
+      "topic": "Lời, lỗ và hòa vốn",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Phân loại nào đúng tại mức sản lượng doanh nghiệp đang xét?",
+      "options": {
+        "A": "$P>AC$: có lời; $P=AC$: hòa vốn; $P<AC$: bị lỗ",
+        "B": "$P>AC$: bị lỗ; $P=AC$: có lời; $P<AC$: hòa vốn",
+        "C": "$P=AC$: đóng cửa bắt buộc; $P<AC$: luôn có lời",
+        "D": "Quan hệ giữa $P$ và $AC$ không liên quan đến lợi nhuận"
+      },
+      "correct_answer": "A",
+      "explanation": "Từ $\\pi=(P-AC)Q$, dấu của lợi nhuận phụ thuộc vào dấu của $P-AC$."
+    },
+    {
+      "id": "5-026",
+      "topic": "Tối đa hóa lợi nhuận",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        8
+      ],
+      "question": "Điều kiện bậc nhất để doanh nghiệp lựa chọn sản lượng tối ưu trong bài giảng là gì?",
+      "options": {
+        "A": "$TR=TC$",
+        "B": "$MR=MC$",
+        "C": "$AR=AC$ trong mọi trường hợp",
+        "D": "$MC=0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì $\\pi=TR-TC$, điều kiện $\\frac{d\\pi}{dQ}=0$ cho $\\frac{dTR}{dQ}-\\frac{dTC}{dQ}=0$, tức $MR=MC$. Với doanh nghiệp cạnh tranh hoàn hảo, điều kiện này là $MC=MR=P$."
+    },
+    {
+      "id": "5-027",
+      "topic": "Điều chỉnh sản lượng",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Doanh nghiệp nên điều chỉnh sản lượng thế nào khi so sánh $MR$ và $MC$?",
+      "options": {
+        "A": "$MR>MC$: giảm $Q$; $MR<MC$: tăng $Q$",
+        "B": "$MR>MC$: đóng cửa; $MR<MC$: tăng giá",
+        "C": "$MR>MC$: tăng $Q$; $MR<MC$: giảm $Q$",
+        "D": "Luôn giữ nguyên $Q$ bất kể $MR$ và $MC$"
+      },
+      "correct_answer": "C",
+      "explanation": "Nếu đơn vị tăng thêm mang doanh thu biên lớn hơn chi phí biên thì tăng sản lượng làm lợi nhuận tăng; nếu $MR<MC$ thì cần giảm sản lượng."
+    },
+    {
+      "id": "5-028",
+      "topic": "Tối đa hóa lợi nhuận - Ví dụ 3",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Giá thị trường là $P=200$ và doanh nghiệp có $TC=q^2+20q+800$. Sản lượng tối đa hóa lợi nhuận là bao nhiêu?",
+      "options": {
+        "A": "$q^*=100$",
+        "B": "$q^*=180$",
+        "C": "$q^*=200$",
+        "D": "$q^*=90$"
+      },
+      "correct_answer": "D",
+      "explanation": "$MC=\\frac{dTC}{dq}=2q+20$. Đặt $MC=P$: $2q+20=200$, suy ra $q^*=90$."
+    },
+    {
+      "id": "5-029",
+      "topic": "Tối đa hóa lợi nhuận - Ví dụ 3",
+      "difficulty": "hard",
+      "source_pages": [
+        8
+      ],
+      "question": "Với $P=200$, $TC=q^2+20q+800$ và $q^*=90$, lợi nhuận tối đa bằng bao nhiêu?",
+      "options": {
+        "A": "$7{,}300$",
+        "B": "$8{,}100$",
+        "C": "$10{,}700$",
+        "D": "$18{,}000$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TR=200\\times90=18{,}000$ và $TC=90^2+20\\times90+800=10{,}700$. Do đó $\\pi=18{,}000-10{,}700=7{,}300$."
+    },
+    {
+      "id": "5-030",
+      "topic": "Tối thiểu hóa lỗ",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Một doanh nghiệp đang bị lỗ trong ngắn hạn nên tiếp tục sản xuất khi điều kiện nào được thỏa mãn tại một mức sản lượng thích hợp?",
+      "options": {
+        "A": "$TR<TVC$, tương đương $P<AVC$",
+        "B": "$TR\\ge TVC$, tương đương $P\\ge AVC$",
+        "C": "$TR=0$ và $P=0$",
+        "D": "$TFC=0$ là điều kiện duy nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi doanh thu ít nhất bù được chi phí biến đổi, tiếp tục sản xuất giúp doanh nghiệp bù một phần hoặc toàn bộ chi phí cố định; doanh nghiệp vẫn chọn $MC=MR=P$."
+    },
+    {
+      "id": "5-031",
+      "topic": "Điểm đóng cửa",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "question": "Quy tắc đóng cửa trong ngắn hạn là gì?",
+      "options": {
+        "A": "Đóng cửa nếu $P>AC_{\\min}$; khi đóng cửa, lợi nhuận bằng $TFC$",
+        "B": "Đóng cửa nếu $P=MC$; khi đóng cửa, lỗ bằng $TVC$",
+        "C": "Đóng cửa nếu $P<AVC_{\\min}$; khi đóng cửa, khoản lỗ bằng $TFC$",
+        "D": "Đóng cửa bất cứ khi nào $P<AC$, không cần xét $AVC$"
+      },
+      "correct_answer": "C",
+      "explanation": "Nếu giá thấp hơn chi phí biến đổi trung bình tối thiểu thì doanh thu không bù được chi phí biến đổi. Doanh nghiệp ngưng sản xuất và chịu chi phí cố định $TFC$."
+    },
+    {
+      "id": "5-032",
+      "topic": "Điểm hòa vốn",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Tại điểm hòa vốn của doanh nghiệp cạnh tranh hoàn hảo, quan hệ nào đúng?",
+      "options": {
+        "A": "$P=AVC_{\\min}$ và lợi nhuận luôn dương",
+        "B": "$P<AVC_{\\min}$ và doanh nghiệp tiếp tục sản xuất",
+        "C": "$TR=0$ và $TC=0$",
+        "D": "$P=AC_{\\min}$ và tại sản lượng tối ưu có $MC=MR=P$"
+      },
+      "correct_answer": "D",
+      "explanation": "Hòa vốn nghĩa là $TR=TC$ hay $P=AC$; điểm hòa vốn trong phân tích đường chi phí nằm tại $AC_{\\min}$, đồng thời thỏa $MC=MR=P$."
+    },
+    {
+      "id": "5-033",
+      "topic": "Đồ thị lỗ trong ngắn hạn",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        11
+      ],
+      "question": "Tại $q^*$ thỏa $MC=MR=P$, nếu $AVC<P<AC$ thì diện tích hình chữ nhật biểu diễn khoản lỗ có độ lớn bằng gì?",
+      "options": {
+        "A": "$(AC-P)q^*$",
+        "B": "$(P-AVC)q^*$",
+        "C": "$Pq^*$",
+        "D": "$MC\\times AC$"
+      },
+      "correct_answer": "A",
+      "explanation": "Lợi nhuận là $(P-AC)q^*<0$, nên độ lớn khoản lỗ là $(AC-P)q^*$. Do $P>AVC$, doanh nghiệp vẫn bù được toàn bộ $TVC$ và một phần $TFC$."
+    },
+    {
+      "id": "5-034",
+      "topic": "Quyết định sản xuất trong ngắn hạn",
+      "difficulty": "hard",
+      "source_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "question": "Một doanh nghiệp có $AVC_{\\min}=40$, $AC_{\\min}=70$ và giá thị trường $P=55$. Quyết định phù hợp trong ngắn hạn là gì?",
+      "options": {
+        "A": "Đóng cửa vì $P<AC_{\\min}$",
+        "B": "Tiếp tục sản xuất tại mức $MC=MR=P$ dù bị lỗ",
+        "C": "Hòa vốn vì $P>AVC_{\\min}$",
+        "D": "Có lợi nhuận vì $P>AVC_{\\min}$"
+      },
+      "correct_answer": "B",
+      "explanation": "Ta có $AVC_{\\min}<P<AC_{\\min}$. Doanh nghiệp bị lỗ nhưng doanh thu vẫn bù được chi phí biến đổi và một phần chi phí cố định, nên tiếp tục sản xuất trong ngắn hạn."
+    },
+    {
+      "id": "5-035",
+      "topic": "Cân bằng thị trường - Ví dụ 4",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Thị trường có $P_S=0{,}5Q+20$ và $P_D=-1{,}5Q+220$. Điểm cân bằng là gì?",
+      "options": {
+        "A": "$Q^*=70,\\ P^*=100$",
+        "B": "$Q^*=80,\\ P^*=60$",
+        "C": "$Q^*=100,\\ P^*=70$",
+        "D": "$Q^*=120,\\ P^*=80$"
+      },
+      "correct_answer": "C",
+      "explanation": "Đặt $P_S=P_D$: $0{,}5Q+20=-1{,}5Q+220$, nên $2Q=200$ và $Q^*=100$. Khi đó $P^*=0{,}5(100)+20=70$."
+    },
+    {
+      "id": "5-036",
+      "topic": "Quyết định doanh nghiệp - Ví dụ 4",
+      "difficulty": "hard",
+      "source_pages": [
+        12
+      ],
+      "question": "Tại giá cân bằng $P=70$, một doanh nghiệp có $TC=900+20q+q^2$. Phương án nào nêu đúng sản lượng, lợi nhuận và quyết định ngắn hạn?",
+      "options": {
+        "A": "$q^*=50$, $\\pi=275$, tiếp tục sản xuất",
+        "B": "$q^*=25$, $\\pi=-900$, đóng cửa",
+        "C": "$q^*=70$, $\\pi=0$, hòa vốn",
+        "D": "$q^*=25$, $\\pi=-275$, tiếp tục sản xuất"
+      },
+      "correct_answer": "D",
+      "explanation": "$MC=20+2q$. Từ $MC=P$ có $q^*=25$. Khi đó $TR=1{,}750$, $TC=900+500+625=2{,}025$, nên $\\pi=-275$. Vì $AVC=20+q=45<P=70$, doanh nghiệp tiếp tục sản xuất."
+    },
+    {
+      "id": "5-037",
+      "topic": "Đóng cửa và hòa vốn - Ví dụ 4",
+      "difficulty": "hard",
+      "source_pages": [
+        12
+      ],
+      "question": "Với $TC=900+20q+q^2$, mức giá đóng cửa và mức giá hòa vốn lần lượt là bao nhiêu?",
+      "options": {
+        "A": "$P_{\\text{đóng cửa}}=20$, $P_{\\text{hòa vốn}}=80$",
+        "B": "$P_{\\text{đóng cửa}}=30$, $P_{\\text{hòa vốn}}=70$",
+        "C": "$P_{\\text{đóng cửa}}=70$, $P_{\\text{hòa vốn}}=20$",
+        "D": "$P_{\\text{đóng cửa}}=0$, $P_{\\text{hòa vốn}}=900$"
+      },
+      "correct_answer": "A",
+      "explanation": "$AVC=20+q$ có giá trị thấp nhất tiến tới $20$. Còn $AC=\\frac{900}{q}+20+q$ nhỏ nhất khi $q=30$, nên $AC_{\\min}=30+20+30=80$."
+    },
+    {
+      "id": "5-038",
+      "topic": "Đường cung ngắn hạn của doanh nghiệp",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Đường cung ngắn hạn của doanh nghiệp cạnh tranh hoàn hảo là phần nào của đường chi phí biên?",
+      "options": {
+        "A": "Toàn bộ đường $AC$",
+        "B": "Phần đường $MC$ nằm phía trên $AVC_{\\min}$",
+        "C": "Phần đường $AVC$ nằm dưới $MC$",
+        "D": "Đường cầu thị trường"
+      },
+      "correct_answer": "B",
+      "explanation": "Ở mỗi giá đủ bù $AVC$, doanh nghiệp chọn lượng sao cho $P=MC$. Nếu $P<AVC_{\\min}$ thì doanh nghiệp ngưng sản xuất, vì vậy cung ngắn hạn là phần $MC$ phía trên điểm đóng cửa."
+    },
+    {
+      "id": "5-039",
+      "topic": "Các hàm chi phí - Ví dụ 5",
+      "difficulty": "hard",
+      "source_pages": [
+        13
+      ],
+      "question": "Doanh nghiệp có $TC=Q^2+20Q+2025$. Nhóm hàm chi phí nào đúng?",
+      "options": {
+        "A": "$TFC=20$, $TVC=Q^2+2025$, $AVC=Q+2025$, $MC=Q+20$",
+        "B": "$TFC=2025Q$, $TVC=Q^2+20Q$, $AVC=Q^2+20Q$, $MC=2Q$",
+        "C": "$TFC=2025$, $TVC=Q^2+20Q$, $AVC=Q+20$, $MC=2Q+20$",
+        "D": "$TFC=0$, $TVC=TC$, $AVC=2Q+20$, $MC=Q+20$"
+      },
+      "correct_answer": "C",
+      "explanation": "Khoản không phụ thuộc $Q$ là $TFC=2025$; $TVC=Q^2+20Q$. Do đó $AVC=\\frac{TVC}{Q}=Q+20$ và $MC=\\frac{dTC}{dQ}=2Q+20$."
+    },
+    {
+      "id": "5-040",
+      "topic": "Tối đa hóa lợi nhuận - Ví dụ 5",
+      "difficulty": "hard",
+      "source_pages": [
+        13,
+        14
+      ],
+      "question": "Với $TC=Q^2+20Q+2025$ và $P=180$, doanh nghiệp sản xuất bao nhiêu và đạt lợi nhuận tối đa bao nhiêu?",
+      "options": {
+        "A": "$Q^*=90$, $\\pi_{\\max}=2{,}025$",
+        "B": "$Q^*=80$, $\\pi_{\\max}=10{,}025$",
+        "C": "$Q^*=160$, $\\pi_{\\max}=4{,}375$",
+        "D": "$Q^*=80$, $\\pi_{\\max}=4{,}375$"
+      },
+      "correct_answer": "D",
+      "explanation": "$MC=2Q+20=180$ cho $Q^*=80$. $TR=180\\times80=14{,}400$ và $TC=80^2+20\\times80+2025=10{,}025$, nên $\\pi_{\\max}=4{,}375$."
+    },
+    {
+      "id": "5-041",
+      "topic": "Tình huống giá - Ví dụ 5",
+      "difficulty": "hard",
+      "source_pages": [
+        13,
+        14
+      ],
+      "question": "Với $TC=Q^2+20Q+2025$, kết luận nào đúng khi lần lượt xét $P=50$, $P=130$ và $P=18$?",
+      "options": {
+        "A": "$P=50$: sản xuất và lỗ; $P=130$: sản xuất và có lời; $P=18$: đóng cửa",
+        "B": "$P=50$: đóng cửa; $P=130$: hòa vốn; $P=18$: sản xuất và lỗ",
+        "C": "Cả ba mức giá đều làm doanh nghiệp đóng cửa",
+        "D": "Cả ba mức giá đều đem lại lợi nhuận dương"
+      },
+      "correct_answer": "A",
+      "explanation": "$AVC_{\\min}=20$ và $AC_{\\min}=110$. Với $P=50$, $Q=15$ và $\\pi=-1{,}800$ nhưng doanh nghiệp vẫn sản xuất. Với $P=130$, $Q=55$ và $\\pi=1{,}000$. Với $P=18<20$, doanh nghiệp đóng cửa và lỗ $TFC=2{,}025$."
+    },
+    {
+      "id": "5-042",
+      "topic": "Đường cung ngắn hạn của ngành",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Đường cung ngắn hạn của ngành cạnh tranh hoàn hảo được hình thành như thế nào?",
+      "options": {
+        "A": "Là tổng theo chiều dọc các đường $AC$ của doanh nghiệp",
+        "B": "Là tổng theo chiều ngang các đường cung ngắn hạn của doanh nghiệp",
+        "C": "Luôn trùng với đường cầu thị trường",
+        "D": "Chỉ lấy đường cung của doanh nghiệp lớn nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Tại mỗi mức giá, lượng cung ngành bằng tổng lượng mà tất cả doanh nghiệp sẵn sàng cung: $Q_S=\\sum_i q_i$."
+    },
+    {
+      "id": "5-043",
+      "topic": "Cung ngành - Ví dụ 6",
+      "difficulty": "hard",
+      "source_pages": [
+        14
+      ],
+      "question": "Hai doanh nghiệp có $q_A=\\frac{1}{10}P-20$ và $q_B=\\frac{1}{20}P-30$. Tại $P=800$, tổng lượng cung thị trường là bao nhiêu?",
+      "options": {
+        "A": "$Q_S=50$",
+        "B": "$Q_S=90$",
+        "C": "$Q_S=70$",
+        "D": "$Q_S=120$"
+      },
+      "correct_answer": "C",
+      "explanation": "$q_A=\\frac{800}{10}-20=60$ và $q_B=\\frac{800}{20}-30=10$. Vì vậy $Q_S=q_A+q_B=70$."
+    },
+    {
+      "id": "5-044",
+      "topic": "Tối đa hóa lợi nhuận - Ví dụ 7",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Một doanh nghiệp có $TC=10{,}000+Q^2$ và giá sản phẩm $P=600$. Sản lượng tối ưu và lợi nhuận là gì?",
+      "options": {
+        "A": "$Q^*=600$, $\\pi=10{,}000$",
+        "B": "$Q^*=300$, $\\pi=90{,}000$",
+        "C": "$Q^*=200$, $\\pi=80{,}000$",
+        "D": "$Q^*=300$, $\\pi=80{,}000$"
+      },
+      "correct_answer": "D",
+      "explanation": "$MC=2Q$. Cho $MC=P$ được $Q^*=300$. Khi đó $TR=600\\times300=180{,}000$, $TC=10{,}000+300^2=100{,}000$, nên $\\pi=80{,}000$."
+    },
+    {
+      "id": "5-045",
+      "topic": "Cung và cầu thị trường - Ví dụ 8",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Có $100$ người sản xuất với $q_s=\\frac{1}{50}P-10$ và $200$ người tiêu dùng với $q_d=-\\frac{1}{100}P+50$. Cặp hàm cung, cầu thị trường nào đúng?",
+      "options": {
+        "A": "$Q_S=2P-1000$, $Q_D=-2P+10{,}000$",
+        "B": "$Q_S=\\frac{1}{2}P-1000$, $Q_D=-2P+5000$",
+        "C": "$Q_S=2P-10$, $Q_D=-P+10{,}000$",
+        "D": "$Q_S=100P-1000$, $Q_D=-200P+50$"
+      },
+      "correct_answer": "A",
+      "explanation": "$Q_S=100(\\frac{1}{50}P-10)=2P-1000$ và $Q_D=200(-\\frac{1}{100}P+50)=-2P+10{,}000$."
+    },
+    {
+      "id": "5-046",
+      "topic": "Cân bằng thị trường - Ví dụ 8",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Với $Q_S=2P-1000$ và $Q_D=-2P+10{,}000$, điểm cân bằng thị trường là gì?",
+      "options": {
+        "A": "$P^*=4{,}500$, $Q^*=2{,}750$",
+        "B": "$P^*=2{,}750$, $Q^*=4{,}500$",
+        "C": "$P^*=2{,}250$, $Q^*=3{,}500$",
+        "D": "$P^*=3{,}000$, $Q^*=5{,}000$"
+      },
+      "correct_answer": "B",
+      "explanation": "Cân bằng khi $2P-1000=-2P+10{,}000$, nên $4P=11{,}000$ và $P^*=2{,}750$. Khi đó $Q^*=2(2{,}750)-1000=4{,}500$."
+    },
+    {
+      "id": "5-047",
+      "topic": "Cân bằng thị trường - Ví dụ 9",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Thị trường bánh mì có $Q_D=850-10P$ và $Q_S=10P-250$. Giá và lượng cân bằng là gì?",
+      "options": {
+        "A": "$P^*=50$, $Q^*=350$",
+        "B": "$P^*=60$, $Q^*=250$",
+        "C": "$P^*=55$, $Q^*=300$",
+        "D": "$P^*=300$, $Q^*=55$"
+      },
+      "correct_answer": "C",
+      "explanation": "$850-10P=10P-250$ cho $20P=1100$, nên $P^*=55$. Thay vào một trong hai hàm được $Q^*=300$."
+    },
+    {
+      "id": "5-048",
+      "topic": "Điểm đóng cửa - Ví dụ 9",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Doanh nghiệp có $AVC=60-0{,}08Q+0{,}0001Q^2$. Mức giá đóng cửa là bao nhiêu?",
+      "options": {
+        "A": "$40$",
+        "B": "$55$",
+        "C": "$60$",
+        "D": "$44$"
+      },
+      "correct_answer": "D",
+      "explanation": "Điểm cực tiểu thỏa $\\frac{dAVC}{dQ}=-0{,}08+0{,}0002Q=0$, nên $Q=400$. Khi đó $AVC_{\\min}=60-0{,}08(400)+0{,}0001(400)^2=44$."
+    },
+    {
+      "id": "5-049",
+      "topic": "Sản lượng và lợi nhuận - Ví dụ 9",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Tại giá thị trường $P=55$, doanh nghiệp có $AVC=60-0{,}08Q+0{,}0001Q^2$ và $TFC=2{,}500$. Sản lượng tối ưu và lợi nhuận là gì?",
+      "options": {
+        "A": "$Q^*=500$, $\\pi=2{,}500$",
+        "B": "$Q^*=400$, $\\pi=4{,}400$",
+        "C": "$Q^*=\\frac{100}{3}$, $\\pi=2{,}500$",
+        "D": "$Q^*=300$, $\\pi=-2{,}500$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TVC=60Q-0{,}08Q^2+0{,}0001Q^3$, nên $MC=60-0{,}16Q+0{,}0003Q^2$. Giải $MC=55$ cho hai nghiệm $Q=\\frac{100}{3}$ và $Q=500$; nghiệm $Q=500$ nằm trên nhánh $MC$ tăng và cho cực đại lợi nhuận. Khi đó $AVC=45$, nên $\\pi=(P-AVC)Q-TFC=(55-45)500-2{,}500=2{,}500$."
+    }
+  ]
+}

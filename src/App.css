@@ -1,0 +1,596 @@
+/* ---------- App shell ---------- */
+.app {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 28px 20px 64px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.app-header h1 {
+  font-size: 1.6rem;
+}
+
+.app-header .subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 0.98rem;
+  font-weight: 600;
+  padding: 11px 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text-h);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.05s,
+    opacity 0.15s;
+}
+
+.btn:hover {
+  border-color: var(--border-strong);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.btn-ghost {
+  background: transparent;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-sm {
+  padding: 7px 12px;
+  font-size: 0.9rem;
+}
+
+/* ---------- Cards & sections ---------- */
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 14px;
+}
+
+/* ---------- Home: chapter grid ---------- */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.chapter-card {
+  text-align: left;
+  font: inherit;
+  background: var(--bg-elev);
+  color: var(--text-h);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.15s, transform 0.05s, box-shadow 0.15s;
+}
+
+.chapter-card:hover {
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow);
+}
+
+.chapter-card:active {
+  transform: translateY(1px);
+}
+
+.chapter-card .chapter-title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.chapter-card .chapter-meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.chapter-card.selected {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+/* ---------- Form controls ---------- */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field > label,
+.control-label {
+  font-weight: 600;
+  color: var(--text-h);
+  font-size: 0.92rem;
+}
+
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+}
+
+.check,
+.radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.check input,
+.radio input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--bg-elev);
+}
+
+.seg label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+}
+
+.seg input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.seg input:checked + span {
+  color: #fff;
+}
+
+.seg label:has(input:checked) {
+  background: var(--accent);
+  color: #fff;
+}
+
+.seg label:has(input:checked) span {
+  color: #fff;
+}
+
+input[type='number'],
+input[type='text'],
+select {
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elev);
+  color: var(--text-h);
+  width: 100%;
+  max-width: 160px;
+}
+
+select {
+  max-width: 100%;
+}
+
+option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 200px;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+}
+
+.controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* ---------- Tags & badges ---------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  background: var(--bg-elev);
+}
+
+.badge-easy {
+  color: #1f9d57;
+  border-color: var(--correct-border);
+  background: var(--correct-bg);
+}
+
+.badge-medium {
+  color: var(--warn);
+  border-color: rgba(201, 121, 31, 0.4);
+  background: rgba(201, 121, 31, 0.1);
+}
+
+.badge-hard {
+  color: var(--wrong);
+  border-color: var(--wrong-border);
+  background: var(--wrong-bg);
+}
+
+/* ---------- Quiz screen ---------- */
+.quiz-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.progress-track {
+  height: 8px;
+  width: 100%;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+
+.timer {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text-h);
+}
+
+.timer.warn {
+  color: var(--warn);
+}
+
+.question-card {
+  padding: 24px;
+}
+
+.question-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  color: var(--text-h);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elev);
+  color: var(--text-h);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.option:hover {
+  border-color: var(--accent-border);
+}
+
+.option-key {
+  flex: 0 0 28px;
+  height: 28px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.option.selected {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.option.correct {
+  border-color: var(--correct-border);
+  background: var(--correct-bg);
+}
+
+.option.correct .option-key {
+  background: var(--correct);
+  color: #fff;
+  border-color: var(--correct);
+}
+
+.option.wrong {
+  border-color: var(--wrong-border);
+  background: var(--wrong-bg);
+}
+
+.option.wrong .option-key {
+  background: var(--wrong);
+  color: #fff;
+  border-color: var(--wrong);
+}
+
+.option.disabled {
+  cursor: default;
+}
+
+.explanation {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  color: var(--text-h);
+  font-size: 0.96rem;
+}
+
+.explanation .label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.quiz-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* ---------- Results ---------- */
+.score-hero {
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.score-hero .score {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.score-hero .score-total {
+  color: var(--text-muted);
+  font-size: 1.4rem;
+}
+
+.score-hero .percent {
+  font-size: 1.2rem;
+  color: var(--text-h);
+  margin-top: 6px;
+}
+
+.review-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  margin-bottom: 12px;
+  background: var(--bg-elev);
+}
+
+.review-item .review-q {
+  font-weight: 600;
+  color: var(--text-h);
+  margin-bottom: 8px;
+}
+
+.review-item .review-line {
+  font-size: 0.92rem;
+  margin-bottom: 4px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.review-item .ok {
+  color: var(--correct);
+  font-weight: 700;
+}
+
+.review-item .bad {
+  color: var(--wrong);
+  font-weight: 700;
+}
+
+/* ---------- History ---------- */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elev);
+  font-size: 0.92rem;
+  flex-wrap: wrap;
+}
+
+.history-row .h-title {
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.history-row .h-meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.empty-state {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 8px 0;
+}
+
+/* ---------- Alerts ---------- */
+.alert {
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+}
+
+.alert-error {
+  background: var(--wrong-bg);
+  border-color: var(--wrong-border);
+  color: var(--wrong);
+}
+
+.alert-info {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--text-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ---------- KaTeX tweaks ---------- */
+.katex {
+  font-size: 1.05em;
+}
+
+.math-block {
+  display: block;
+  margin: 10px 0;
+  overflow-x: auto;
+}
+
+.math-block .katex-display {
+  margin: 0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  .app {
+    padding: 20px 14px 48px;
+  }
+
+  .quiz-nav {
+    flex-direction: column-reverse;
+  }
+
+  .quiz-nav .btn {
+    width: 100%;
+  }
+
+  .score-hero .score {
+    font-size: 2.4rem;
+  }
+}

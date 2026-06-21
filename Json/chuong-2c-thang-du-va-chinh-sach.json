@@ -1,0 +1,882 @@
+{
+  "chapter_id": "chuong-2c",
+  "title": "Chương 2C - Thặng dư tiêu dùng, thặng dư sản xuất và chính sách của Chính phủ",
+  "source_file": "CHUONG 2C - THANG DU TD, THANG DU SX & CHINH SACH CUA CHINH PHU - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "2c-001",
+      "topic": "Thặng dư tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "question": "Thặng dư tiêu dùng $(CS)$ của một người mua được xác định như thế nào?",
+      "options": {
+        "A": "Giá thực trả trừ mức sẵn lòng trả",
+        "B": "Mức sẵn lòng trả trừ giá thực trả",
+        "C": "Giá thực trả cộng mức sẵn lòng trả",
+        "D": "Doanh thu của người bán trừ chi phí"
+      },
+      "correct_answer": "B",
+      "explanation": "Thặng dư tiêu dùng là lợi ích người mua nhận được: $CS=WTP-P$, trong đó $WTP$ là mức sẵn lòng trả và $P$ là giá thực tế."
+    },
+    {
+      "id": "2c-002",
+      "topic": "Thặng dư sản xuất",
+      "difficulty": "easy",
+      "source_pages": [
+        1,
+        2,
+        9
+      ],
+      "question": "Thặng dư sản xuất $(PS)$ của một đơn vị hàng hóa bằng đại lượng nào?",
+      "options": {
+        "A": "Giá bán thực tế trừ giá sẵn lòng bán",
+        "B": "Giá sẵn lòng bán trừ giá bán thực tế",
+        "C": "Giá bán thực tế cộng chi phí sản xuất",
+        "D": "Mức sẵn lòng trả của người mua trừ thuế"
+      },
+      "correct_answer": "A",
+      "explanation": "$PS=P-MC$, trong đó mức giá sẵn lòng bán thấp nhất được phản ánh bởi chi phí và đường cung."
+    },
+    {
+      "id": "2c-003",
+      "topic": "Giá sẵn lòng trả",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Giá sẵn lòng trả $(WTP)$ là gì?",
+      "options": {
+        "A": "Số tiền tối thiểu người mua muốn nhận",
+        "B": "Số tiền tối đa người mua chấp nhận trả cho hàng hóa",
+        "C": "Mức thuế tối đa Chính phủ thu",
+        "D": "Chi phí thấp nhất của người bán"
+      },
+      "correct_answer": "B",
+      "explanation": "$WTP$ đo giá trị tối đa mà người mua gán cho hàng hóa và sẵn lòng thanh toán."
+    },
+    {
+      "id": "2c-004",
+      "topic": "Đồ thị thặng dư",
+      "difficulty": "easy",
+      "source_pages": [
+        1,
+        3,
+        7,
+        9
+      ],
+      "question": "Trên đồ thị cung - cầu, thặng dư tiêu dùng của thị trường là vùng nào?",
+      "options": {
+        "A": "Vùng dưới đường cung và trên trục lượng",
+        "B": "Vùng dưới đường giá và trên đường cung",
+        "C": "Vùng dưới đường cầu và trên đường giá thị trường",
+        "D": "Toàn bộ vùng nằm bên phải lượng cân bằng"
+      },
+      "correct_answer": "C",
+      "explanation": "Đường cầu phản ánh $WTP$; chênh lệch giữa đường cầu và mức giá thực trả tạo thành $CS$."
+    },
+    {
+      "id": "2c-005",
+      "topic": "Giá sẵn lòng trả",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Mai, Lan, Cúc và Trúc có $WTP$ lần lượt là $400$, $350$, $150$ và $50$ nghìn đồng. Nếu giá vé là $200$ nghìn đồng, ai sẽ mua vé?",
+      "options": {
+        "A": "Chỉ Mai",
+        "B": "Mai và Lan",
+        "C": "Mai, Lan và Cúc",
+        "D": "Cả bốn người"
+      },
+      "correct_answer": "B",
+      "explanation": "Người mua tham gia khi $WTP\\ge P$. Chỉ Mai và Lan có $WTP$ lớn hơn mức giá $200$ nghìn đồng."
+    },
+    {
+      "id": "2c-006",
+      "topic": "Tính thặng dư tiêu dùng",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Với dữ liệu $WTP$ ở câu trước và giá vé $P=200$ nghìn đồng, tổng thặng dư tiêu dùng là bao nhiêu?",
+      "options": {
+        "A": "$150$ nghìn đồng",
+        "B": "$200$ nghìn đồng",
+        "C": "$350$ nghìn đồng",
+        "D": "$750$ nghìn đồng"
+      },
+      "correct_answer": "C",
+      "explanation": "$CS=(400-200)+(350-200)=350$ nghìn đồng. Cúc và Trúc không mua nên không tạo thặng dư."
+    },
+    {
+      "id": "2c-007",
+      "topic": "Giá sẵn lòng bán",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Giá sẵn lòng bán thấp nhất của nhà sản xuất thường được xác định bởi yếu tố nào?",
+      "options": {
+        "A": "Chi phí sản xuất hàng hóa",
+        "B": "Mức sẵn lòng trả của người mua",
+        "C": "Thặng dư tiêu dùng",
+        "D": "Thu nhập của mọi hộ gia đình"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhà sản xuất chỉ chấp nhận bán khi mức giá ít nhất bù được chi phí sản xuất; đường cung phản ánh mức giá sẵn lòng bán."
+    },
+    {
+      "id": "2c-008",
+      "topic": "Tính thặng dư sản xuất",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Ba nhà sản xuất có chi phí làm một ổ bánh mì lần lượt là $1000$, $1200$ và $2000$ đồng. Nếu giá thị trường là $1500$ đồng, kết luận nào đúng?",
+      "options": {
+        "A": "Chỉ nhà sản xuất có chi phí $1000$ đồng bán, tổng $PS=500$ đồng",
+        "B": "Hai nhà sản xuất có chi phí $1000$ và $1200$ đồng bán, tổng $PS=800$ đồng",
+        "C": "Cả ba nhà sản xuất bán, tổng $PS=800$ đồng",
+        "D": "Không ai bán vì giá thấp hơn $2000$ đồng"
+      },
+      "correct_answer": "B",
+      "explanation": "Hai người có chi phí không vượt quá giá sẽ bán. Tổng thặng dư là $(1500-1000)+(1500-1200)=800$ đồng."
+    },
+    {
+      "id": "2c-009",
+      "topic": "Hiệu quả thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Công thức tổng phúc lợi xã hội trong mô hình cơ bản là gì?",
+      "options": {
+        "A": "$TS=CS-PS$",
+        "B": "$TS=CS+PS$",
+        "C": "$TS=P\\times Q$",
+        "D": "$TS=CS+Tax$"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi chưa xét các thành phần khác, tổng thặng dư hay tổng phúc lợi xã hội là $TS=CS+PS$."
+    },
+    {
+      "id": "2c-010",
+      "topic": "Hiệu quả thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Tại cân bằng của thị trường cạnh tranh, phát biểu nào đúng theo bài giảng?",
+      "options": {
+        "A": "$CS$, $PS$ và $TS$ đồng thời bằng $0$",
+        "B": "Tổng phúc lợi xã hội đạt mức cao nhất",
+        "C": "Lượng cung luôn lớn hơn lượng cầu",
+        "D": "Chính phủ luôn phải mua hàng dư thừa"
+      },
+      "correct_answer": "B",
+      "explanation": "Cân bằng cạnh tranh phân bổ hàng hóa cho những người mua và người bán phù hợp, làm tổng thặng dư xã hội đạt mức tối đa."
+    },
+    {
+      "id": "2c-011",
+      "topic": "Giá trần",
+      "difficulty": "easy",
+      "source_pages": [
+        2,
+        4
+      ],
+      "question": "Giá trần là gì?",
+      "options": {
+        "A": "Mức giá thấp nhất người bán được phép nhận",
+        "B": "Mức giá cao nhất được phép bán hàng hóa hoặc dịch vụ",
+        "C": "Giá cân bằng tự do trong mọi trường hợp",
+        "D": "Khoản trợ cấp tối đa cho người mua"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trần $(P_{max})$ là mức giá tối đa do Chính phủ quy định nhằm bảo vệ người mua."
+    },
+    {
+      "id": "2c-012",
+      "topic": "Giá trần",
+      "difficulty": "easy",
+      "source_pages": [
+        4,
+        5
+      ],
+      "question": "Điều kiện để giá trần có tính ràng buộc là gì?",
+      "options": {
+        "A": "$P_{max}>P_0$",
+        "B": "$P_{max}=P_0+Tax$",
+        "C": "$P_{max}<P_0$",
+        "D": "$P_{max}=0$ trong mọi thị trường"
+      },
+      "correct_answer": "C",
+      "explanation": "Giá trần chỉ làm thay đổi cân bằng khi được đặt thấp hơn giá cân bằng thị trường tự do $P_0$."
+    },
+    {
+      "id": "2c-013",
+      "topic": "Hệ quả của giá trần",
+      "difficulty": "medium",
+      "source_pages": [
+        2,
+        4
+      ],
+      "question": "Một giá trần có tính ràng buộc thường dẫn đến kết quả nào?",
+      "options": {
+        "A": "$Q_D<Q_S$ và dư thừa",
+        "B": "$Q_D>Q_S$ và thiếu hụt",
+        "C": "$Q_D=Q_S$ ở mọi mức giá",
+        "D": "Chất lượng hàng hóa chắc chắn tăng"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá thấp làm lượng cầu tăng và lượng cung giảm, tạo thiếu hụt $Q_D-Q_S$; có thể xuất hiện phân phối phi giá và thị trường chợ đen."
+    },
+    {
+      "id": "2c-014",
+      "topic": "Bài toán giá trần",
+      "difficulty": "hard",
+      "source_pages": [
+        5
+      ],
+      "question": "Cho $Q_D=-0.2P+100$ và $Q_S=1.8P-20$. Cân bằng thị trường là bao nhiêu?",
+      "options": {
+        "A": "$P_0=40,\\ Q_0=52$",
+        "B": "$P_0=50,\\ Q_0=90$",
+        "C": "$P_0=60,\\ Q_0=88$",
+        "D": "$P_0=80,\\ Q_0=84$"
+      },
+      "correct_answer": "C",
+      "explanation": "Giải $-0.2P+100=1.8P-20$ được $P_0=60$; thay vào một trong hai hàm được $Q_0=88$."
+    },
+    {
+      "id": "2c-015",
+      "topic": "Bài toán giá trần",
+      "difficulty": "hard",
+      "source_pages": [
+        5
+      ],
+      "question": "Với thị trường ở câu trước, Chính phủ đặt $P_{max}=40$. Lượng cầu, lượng cung và mức thiếu hụt là bao nhiêu?",
+      "options": {
+        "A": "$Q_D=52,\\ Q_S=92$, dư thừa $40$",
+        "B": "$Q_D=92,\\ Q_S=52$, thiếu hụt $40$",
+        "C": "$Q_D=88,\\ Q_S=88$, không thiếu hụt",
+        "D": "$Q_D=100,\\ Q_S=20$, thiếu hụt $80$"
+      },
+      "correct_answer": "B",
+      "explanation": "$Q_D=-0.2(40)+100=92$, $Q_S=1.8(40)-20=52$. Thiếu hụt bằng $92-52=40$ đơn vị."
+    },
+    {
+      "id": "2c-016",
+      "topic": "Tổn thất vô ích do giá trần",
+      "difficulty": "hard",
+      "source_pages": [
+        2,
+        5
+      ],
+      "question": "Với $Q_D=-0.2P+100$, $Q_S=1.8P-20$ và $P_{max}=40$, giả sử chỉ $Q_S=52$ đơn vị được giao dịch. Tổn thất vô ích $(DWL)$ bằng bao nhiêu?",
+      "options": {
+        "A": "$720$",
+        "B": "$1800$",
+        "C": "$3600$",
+        "D": "$7200$"
+      },
+      "correct_answer": "C",
+      "explanation": "Hàm cầu ngược là $P_D=500-5Q$, hàm cung ngược là $P_S=\\frac{Q+20}{1.8}$. Tại $Q=52$, khoảng cách là $240-40=200$. Do đó $DWL=\\frac{1}{2}(88-52)200=3600$."
+    },
+    {
+      "id": "2c-017",
+      "topic": "Giá trần có và không ràng buộc",
+      "difficulty": "hard",
+      "source_pages": [
+        5
+      ],
+      "question": "Cho $Q_D=-1.4P+300$ và $Q_S=0.6P-60$. Cân bằng thị trường là bao nhiêu?",
+      "options": {
+        "A": "$P_0=110,\\ Q_0=6$",
+        "B": "$P_0=150,\\ Q_0=90$",
+        "C": "$P_0=180,\\ Q_0=48$",
+        "D": "$P_0=200,\\ Q_0=20$"
+      },
+      "correct_answer": "C",
+      "explanation": "Từ $-1.4P+300=0.6P-60$ suy ra $2P=360$, nên $P_0=180$ và $Q_0=48$."
+    },
+    {
+      "id": "2c-018",
+      "topic": "Giá trần không ràng buộc",
+      "difficulty": "hard",
+      "source_pages": [
+        5
+      ],
+      "question": "Với thị trường ở câu trước, nếu đặt giá trần $P_{max}=200$, kết quả nào đúng?",
+      "options": {
+        "A": "Giá trần ràng buộc, giá giao dịch là $200$",
+        "B": "Giá trần không ràng buộc, thị trường vẫn cân bằng tại $P=180$ và $Q=48$",
+        "C": "Thị trường thiếu hụt $40$ đơn vị",
+        "D": "Không có giao dịch"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì $P_{max}=200>P_0=180$, quy định không hạn chế mức giá cân bằng. Nếu chỉ xét riêng mức giá $200$ thì có dư thừa, nhưng thị trường sẽ trở về cân bằng $180$."
+    },
+    {
+      "id": "2c-019",
+      "topic": "Giá trần ràng buộc",
+      "difficulty": "hard",
+      "source_pages": [
+        5
+      ],
+      "question": "Với $Q_D=-1.4P+300$ và $Q_S=0.6P-60$, nếu $P_{max}=110$ thì điều gì xảy ra?",
+      "options": {
+        "A": "$Q_D=6,\\ Q_S=146$, dư thừa $140$",
+        "B": "$Q_D=146,\\ Q_S=6$, thiếu hụt $140$ và giá pháp lý là $110$",
+        "C": "$Q_D=Q_S=48$",
+        "D": "$Q_D=300,\\ Q_S=60$"
+      },
+      "correct_answer": "B",
+      "explanation": "$Q_D=-1.4(110)+300=146$ và $Q_S=0.6(110)-60=6$. Giá trần ràng buộc tạo thiếu hụt $140$ đơn vị."
+    },
+    {
+      "id": "2c-020",
+      "topic": "Giá sàn",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Giá sàn là gì?",
+      "options": {
+        "A": "Mức giá thấp nhất được phép mua bán do Chính phủ quy định",
+        "B": "Mức giá cao nhất người mua được phép trả",
+        "C": "Mức thuế tối thiểu trên mỗi sản phẩm",
+        "D": "Giá cân bằng của mọi thị trường"
+      },
+      "correct_answer": "A",
+      "explanation": "Giá sàn $(P_{min})$ là mức giá tối thiểu nhằm bảo vệ người bán hoặc người lao động."
+    },
+    {
+      "id": "2c-021",
+      "topic": "Giá sàn",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Giá sàn có tính ràng buộc khi nào?",
+      "options": {
+        "A": "$P_{min}<P_0$",
+        "B": "$P_{min}>P_0$",
+        "C": "$P_{min}=0$",
+        "D": "$P_{min}=P_{max}$ trong mọi trường hợp"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá sàn chỉ có hiệu lực khi cao hơn mức giá cân bằng thị trường tự do."
+    },
+    {
+      "id": "2c-022",
+      "topic": "Hệ quả của giá sàn",
+      "difficulty": "medium",
+      "source_pages": [
+        5,
+        6,
+        7
+      ],
+      "question": "Một giá sàn có tính ràng buộc thường tạo ra điều gì?",
+      "options": {
+        "A": "$Q_D>Q_S$ và thiếu hụt",
+        "B": "$Q_D<Q_S$ và dư thừa",
+        "C": "$Q_D=Q_S$ ở mọi mức giá",
+        "D": "Người bán luôn bán hết hàng mà không cần Chính phủ mua"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá cao làm lượng cầu giảm, lượng cung tăng, nên xuất hiện lượng dư thừa $Q_S-Q_D$. Trong thị trường lao động, điều tương tự biểu hiện thành thất nghiệp."
+    },
+    {
+      "id": "2c-023",
+      "topic": "Hiệu lực của giá sàn",
+      "difficulty": "medium",
+      "source_pages": [
+        5,
+        7
+      ],
+      "question": "Nếu muốn duy trì một giá sàn ràng buộc trên thị trường nông sản, Chính phủ thường phải làm gì với lượng hàng dư thừa?",
+      "options": {
+        "A": "Mua lượng hàng dư thừa",
+        "B": "Buộc người bán giảm giá dưới giá sàn",
+        "C": "Cấm mọi hoạt động sản xuất",
+        "D": "Tăng lượng cầu bằng cách nâng giá thêm"
+      },
+      "correct_answer": "A",
+      "explanation": "Nếu Chính phủ không mua hoặc xử lý lượng dư thừa, người bán khó duy trì giao dịch ở mức giá sàn và chính sách có thể mất hiệu lực."
+    },
+    {
+      "id": "2c-024",
+      "topic": "Bài toán giá sàn",
+      "difficulty": "hard",
+      "source_pages": [
+        12
+      ],
+      "question": "Cho $Q_D=-0.2P+80$ và $Q_S=0.8P-10$. Giá và lượng cân bằng là bao nhiêu?",
+      "options": {
+        "A": "$P_0=80,\\ Q_0=64$",
+        "B": "$P_0=90,\\ Q_0=62$",
+        "C": "$P_0=100,\\ Q_0=60$",
+        "D": "$P_0=110,\\ Q_0=58$"
+      },
+      "correct_answer": "B",
+      "explanation": "Giải $-0.2P+80=0.8P-10$ được $P_0=90$; khi đó $Q_0=62$."
+    },
+    {
+      "id": "2c-025",
+      "topic": "Bài toán giá sàn",
+      "difficulty": "hard",
+      "source_pages": [
+        12
+      ],
+      "question": "Với thị trường ở câu trước, nếu $P_{min}=100$ thì lượng cầu, lượng cung và lượng dư thừa bằng bao nhiêu?",
+      "options": {
+        "A": "$Q_D=60,\\ Q_S=70$, dư thừa $10$",
+        "B": "$Q_D=70,\\ Q_S=60$, thiếu hụt $10$",
+        "C": "$Q_D=Q_S=62$",
+        "D": "$Q_D=80,\\ Q_S=10$, thiếu hụt $70$"
+      },
+      "correct_answer": "A",
+      "explanation": "$Q_D=-0.2(100)+80=60$, $Q_S=0.8(100)-10=70$, nên dư thừa $70-60=10$ đơn vị."
+    },
+    {
+      "id": "2c-026",
+      "topic": "Chi ngân sách mua hàng dư thừa",
+      "difficulty": "hard",
+      "source_pages": [
+        12
+      ],
+      "question": "Nếu Chính phủ mua hết $10$ đơn vị dư thừa ở mức giá sàn $P_{min}=100$, số tiền phải chi là bao nhiêu?",
+      "options": {
+        "A": "$100$",
+        "B": "$500$",
+        "C": "$1000$",
+        "D": "$7000$"
+      },
+      "correct_answer": "C",
+      "explanation": "Chi ngân sách là $G=P_{min}(Q_S-Q_D)=100(70-60)=1000$."
+    },
+    {
+      "id": "2c-027",
+      "topic": "Tổn thất xã hội do giá sàn",
+      "difficulty": "hard",
+      "source_pages": [
+        7,
+        12
+      ],
+      "question": "Với $Q_D=-0.2P+80$, $Q_S=0.8P-10$, $P_{min}=100$ và Chính phủ mua toàn bộ hàng dư thừa nhưng hàng mua không tạo lợi ích tiêu dùng, tổn thất phúc lợi bằng bao nhiêu?",
+      "options": {
+        "A": "$212.5$",
+        "B": "$500$",
+        "C": "$772.5$",
+        "D": "$950$"
+      },
+      "correct_answer": "D",
+      "explanation": "Hàm cầu ngược $P_D=400-5Q$, cung ngược $P_S=1.25Q+12.5$. Phúc lợi cân bằng là $12012.5$. Sau chính sách, lợi ích của $60$ đơn vị được tiêu dùng trừ chi phí sản xuất $70$ đơn vị là $11062.5$, nên $DWL=950$."
+    },
+    {
+      "id": "2c-028",
+      "topic": "Đường cầu và WTP biên",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question": "Trong tình huống đường cầu của bài giảng, mức sẵn lòng trả của người tiêu dùng biên tại $Q=10$ là bao nhiêu?",
+      "options": {
+        "A": "$20$",
+        "B": "$25$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "correct_answer": "C",
+      "explanation": "Từ đồ thị đường cầu, tại $Q=10$ ta đọc được $P=30$, chính là $WTP$ của người mua biên."
+    },
+    {
+      "id": "2c-029",
+      "topic": "Tính thặng dư tiêu dùng bằng diện tích",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question": "Đường cầu cắt trục giá tại $40$. Khi $P=30$, lượng cầu là $10$. Thặng dư tiêu dùng bằng bao nhiêu?",
+      "options": {
+        "A": "$25$",
+        "B": "$50$",
+        "C": "$100$",
+        "D": "$200$"
+      },
+      "correct_answer": "B",
+      "explanation": "$CS=\\frac{1}{2}(40-30)(10-0)=50$."
+    },
+    {
+      "id": "2c-030",
+      "topic": "Thay đổi thặng dư tiêu dùng",
+      "difficulty": "hard",
+      "source_pages": [
+        8,
+        9
+      ],
+      "question": "Khi giá giảm từ $30$ xuống $20$, lượng cầu tăng từ $10$ lên $20$. Phần $CS$ tăng cho người mua hiện tại và người mua mới lần lượt là bao nhiêu?",
+      "options": {
+        "A": "$50$ và $100$",
+        "B": "$100$ và $50$",
+        "C": "$100$ và $100$",
+        "D": "$150$ và $50$"
+      },
+      "correct_answer": "B",
+      "explanation": "Người mua hiện tại tiết kiệm $(30-20)10=100$. Người mua mới nhận tam giác thặng dư $\\frac{1}{2}(30-20)(20-10)=50$."
+    },
+    {
+      "id": "2c-031",
+      "topic": "Đường cung và chi phí biên",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Trong tình huống đường cung của bài giảng, chi phí của người bán biên tại $Q=10$ là bao nhiêu?",
+      "options": {
+        "A": "$10$",
+        "B": "$20$",
+        "C": "$30$",
+        "D": "$40$"
+      },
+      "correct_answer": "B",
+      "explanation": "Từ đồ thị đường cung, tại $Q=10$ mức giá sẵn lòng bán hay chi phí biên là $P=20$."
+    },
+    {
+      "id": "2c-032",
+      "topic": "Tính thặng dư sản xuất bằng diện tích",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Đường cung đi qua gốc tọa độ. Khi $P=20$, lượng cung là $10$. Tổng thặng dư sản xuất bằng bao nhiêu?",
+      "options": {
+        "A": "$50$",
+        "B": "$100$",
+        "C": "$150$",
+        "D": "$200$"
+      },
+      "correct_answer": "B",
+      "explanation": "$PS=\\frac{1}{2}(20-0)(10-0)=100$."
+    },
+    {
+      "id": "2c-033",
+      "topic": "Thay đổi thặng dư sản xuất",
+      "difficulty": "hard",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Khi giá tăng từ $20$ lên $30$, lượng cung tăng từ $10$ lên $15$. Phần $PS$ tăng cho nhà sản xuất hiện hữu và nhà sản xuất mới lần lượt bằng bao nhiêu?",
+      "options": {
+        "A": "$25$ và $100$",
+        "B": "$50$ và $50$",
+        "C": "$100$ và $25$",
+        "D": "$100$ và $50$"
+      },
+      "correct_answer": "C",
+      "explanation": "Nhà sản xuất hiện hữu nhận thêm $(30-20)10=100$. Phần của nhà sản xuất mới là $\\frac{1}{2}(30-20)(15-10)=25$."
+    },
+    {
+      "id": "2c-034",
+      "topic": "Cân bằng và thặng dư",
+      "difficulty": "hard",
+      "source_pages": [
+        11
+      ],
+      "question": "Cho $P_D=-0.5Q+180$ và $P_S=1.5Q+20$. Cân bằng cùng $CS$ và $PS$ là phương án nào?",
+      "options": {
+        "A": "$Q_0=60,\\ P_0=150,\\ CS=900,\\ PS=3900$",
+        "B": "$Q_0=80,\\ P_0=140,\\ CS=1600,\\ PS=4800$",
+        "C": "$Q_0=100,\\ P_0=130,\\ CS=2500,\\ PS=5500$",
+        "D": "$Q_0=80,\\ P_0=120,\\ CS=2400,\\ PS=4000$"
+      },
+      "correct_answer": "B",
+      "explanation": "Giải $-0.5Q+180=1.5Q+20$ được $Q_0=80$, $P_0=140$. Khi đó $CS=\\frac12(180-140)80=1600$ và $PS=\\frac12(140-20)80=4800$."
+    },
+    {
+      "id": "2c-035",
+      "topic": "Thay đổi thặng dư sản xuất",
+      "difficulty": "hard",
+      "source_pages": [
+        11
+      ],
+      "question": "Với $P_S=1.5Q+20$, khi giá giảm từ $140$ xuống $110$, lượng cung giảm từ $80$ xuống $60$. $PS$ mới và tổng phần $PS$ giảm là bao nhiêu?",
+      "options": {
+        "A": "$PS_{mới}=1800$, giảm $3000$",
+        "B": "$PS_{mới}=2400$, giảm $2400$",
+        "C": "$PS_{mới}=2700$, giảm $2100$",
+        "D": "$PS_{mới}=3000$, giảm $1800$"
+      },
+      "correct_answer": "C",
+      "explanation": "$PS_{mới}=\\frac12(110-20)60=2700$. So với $PS_0=4800$, tổng mức giảm là $2100$, gồm $1800$ của người bán còn lại và $300$ của người bán rời thị trường."
+    },
+    {
+      "id": "2c-036",
+      "topic": "Khái niệm thuế",
+      "difficulty": "easy",
+      "source_pages": [
+        12,
+        14
+      ],
+      "question": "Thuế được hiểu là gì?",
+      "options": {
+        "A": "Khoản đóng góp hoàn toàn tự nguyện",
+        "B": "Khoản trích nộp bắt buộc khi đủ điều kiện nhằm tạo ngân sách và điều tiết kinh tế - xã hội",
+        "C": "Khoản vay không hoàn lại của doanh nghiệp",
+        "D": "Khoản thặng dư của người mua"
+      },
+      "correct_answer": "B",
+      "explanation": "Thuế là nghĩa vụ bắt buộc của tổ chức hoặc cá nhân đối với Nhà nước, dùng để xây dựng ngân sách và thực hiện các mục tiêu điều tiết."
+    },
+    {
+      "id": "2c-037",
+      "topic": "Tác động của thuế gián tiếp",
+      "difficulty": "medium",
+      "source_pages": [
+        13,
+        14,
+        15,
+        18
+      ],
+      "question": "Thuế đơn vị đánh vào người bán thường gây ra tổ hợp tác động nào?",
+      "options": {
+        "A": "Sản lượng tăng, giá người mua giảm, giá người bán nhận tăng",
+        "B": "Sản lượng giảm, giá người mua trả tăng, giá người bán nhận giảm",
+        "C": "Sản lượng và cả hai mức giá đều không đổi",
+        "D": "Sản lượng giảm nhưng người mua và người bán không chia sẻ gánh nặng"
+      },
+      "correct_answer": "B",
+      "explanation": "Thuế tạo ra khoảng chênh $t=P_D-P_S$, làm giảm lượng giao dịch; người mua trả cao hơn còn người bán nhận thấp hơn."
+    },
+    {
+      "id": "2c-038",
+      "topic": "Gánh nặng thuế",
+      "difficulty": "medium",
+      "source_pages": [
+        13,
+        15,
+        16
+      ],
+      "question": "Nguyên tắc chung về phân chia gánh nặng thuế là gì?",
+      "options": {
+        "A": "Bên co giãn nhiều hơn luôn chịu thuế nhiều hơn",
+        "B": "Bên co giãn ít hơn chịu phần thuế nhiều hơn",
+        "C": "Người bị ghi tên nộp thuế luôn chịu toàn bộ thuế",
+        "D": "Người mua và người bán luôn chia thuế đúng $50\\%-50\\%$"
+      },
+      "correct_answer": "B",
+      "explanation": "Bên ít co giãn khó thay đổi hành vi hoặc rời thị trường hơn, nên phải gánh phần lớn hơn của khoản thuế."
+    },
+    {
+      "id": "2c-039",
+      "topic": "Trường hợp gánh thuế cực đoan",
+      "difficulty": "medium",
+      "source_pages": [
+        16,
+        17
+      ],
+      "question": "Khi cầu hoàn toàn không co giãn $(E_D=0)$ và cung co giãn hoàn toàn $(E_S=\\infty)$, ai chịu toàn bộ thuế?",
+      "options": {
+        "A": "Người tiêu dùng",
+        "B": "Nhà sản xuất",
+        "C": "Chính phủ",
+        "D": "Mỗi bên chịu một nửa"
+      },
+      "correct_answer": "A",
+      "explanation": "Người mua không thể điều chỉnh lượng cầu trong khi người bán có thể phản ứng hoàn toàn, nên toàn bộ thuế được chuyển sang người tiêu dùng."
+    },
+    {
+      "id": "2c-040",
+      "topic": "Trường hợp gánh thuế cực đoan",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Khi cung hoàn toàn không co giãn $(E_S=0)$ và cầu co giãn hoàn toàn $(E_D=\\infty)$, ai chịu toàn bộ thuế?",
+      "options": {
+        "A": "Người tiêu dùng",
+        "B": "Nhà sản xuất",
+        "C": "Chính phủ",
+        "D": "Không ai chịu thuế"
+      },
+      "correct_answer": "B",
+      "explanation": "Nhà sản xuất không thể điều chỉnh lượng cung còn người mua có thể rời thị trường hoàn toàn, nên nhà sản xuất chịu toàn bộ thuế."
+    },
+    {
+      "id": "2c-041",
+      "topic": "Nguồn thu thuế",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "Công thức tính tổng số tiền thuế Chính phủ thu được là gì?",
+      "options": {
+        "A": "$T=(P_D+P_S)Q_T$",
+        "B": "$T=(P_D-P_S)Q_T$",
+        "C": "$T=(Q_0-Q_T)P_0$",
+        "D": "$T=P_D-P_S-Q_T$"
+      },
+      "correct_answer": "B",
+      "explanation": "Thuế trên mỗi đơn vị là $t=P_D-P_S$, vì vậy tổng thu thuế là $T=tQ_T=(P_D-P_S)Q_T$."
+    },
+    {
+      "id": "2c-042",
+      "topic": "Tính tương đương của thuế",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Thuế đánh vào người bán và thuế đánh vào người mua có tác động thị trường như thế nào?",
+      "options": {
+        "A": "Hoàn toàn khác nhau vì người ghi tên nộp thuế chịu toàn bộ thuế",
+        "B": "Tương đương về giá cân bằng, lượng giao dịch và phân chia gánh nặng",
+        "C": "Thuế người mua luôn làm sản lượng tăng",
+        "D": "Thuế người bán không tạo tổn thất vô ích"
+      },
+      "correct_answer": "B",
+      "explanation": "Về kết quả kinh tế, một khoản thuế đơn vị tạo cùng độ chênh giữa giá người mua trả và giá người bán nhận bất kể pháp luật quy định bên nào nộp."
+    },
+    {
+      "id": "2c-043",
+      "topic": "Bài toán thuế",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "Cho $P_D=-1.5Q+160$ và $P_S=0.5Q+20$. Cân bằng trước thuế là bao nhiêu?",
+      "options": {
+        "A": "$Q_0=60,\\ P_0=70$",
+        "B": "$Q_0=65,\\ P_0=62.5$",
+        "C": "$Q_0=70,\\ P_0=55$",
+        "D": "$Q_0=80,\\ P_0=40$"
+      },
+      "correct_answer": "C",
+      "explanation": "Giải $-1.5Q+160=0.5Q+20$ được $2Q=140$, nên $Q_0=70$ và $P_0=55$."
+    },
+    {
+      "id": "2c-044",
+      "topic": "Cân bằng sau thuế",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "Với thị trường ở câu trước, Chính phủ đánh thuế $t=10$ trên mỗi sản phẩm. Cân bằng mới là phương án nào?",
+      "options": {
+        "A": "$Q_T=60,\\ P_D=70,\\ P_S=60$",
+        "B": "$Q_T=65,\\ P_D=62.5,\\ P_S=52.5$",
+        "C": "$Q_T=70,\\ P_D=60,\\ P_S=50$",
+        "D": "$Q_T=75,\\ P_D=47.5,\\ P_S=37.5$"
+      },
+      "correct_answer": "B",
+      "explanation": "Điều kiện sau thuế là $P_D-P_S=10$. Giải $(-1.5Q+160)-(0.5Q+20)=10$ được $Q_T=65$, $P_D=62.5$ và $P_S=52.5$."
+    },
+    {
+      "id": "2c-045",
+      "topic": "Phân chia gánh nặng và thu thuế",
+      "difficulty": "hard",
+      "source_pages": [
+        17,
+        18
+      ],
+      "question": "Trong bài toán thuế $t=10$ ở trên, kết luận nào đúng?",
+      "options": {
+        "A": "Người mua chịu $2.5$, người bán chịu $7.5$, thu thuế $650$",
+        "B": "Người mua chịu $5$, người bán chịu $5$, thu thuế $700$",
+        "C": "Người mua chịu $7.5$, người bán chịu $2.5$, thu thuế $650$",
+        "D": "Người mua chịu $10$, người bán chịu $0$, thu thuế $600$"
+      },
+      "correct_answer": "C",
+      "explanation": "So với $P_0=55$, người mua trả thêm $62.5-55=7.5$, người bán nhận ít hơn $55-52.5=2.5$. Tổng thu là $T=10\\times65=650$."
+    },
+    {
+      "id": "2c-046",
+      "topic": "Suy ra thuế từ sản lượng sau thuế",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "Vẫn với $P_D=-1.5Q+160$ và $P_S=0.5Q+20$, nếu sản lượng sau thuế là $Q_T=60$ thì thuế trên mỗi sản phẩm bằng bao nhiêu?",
+      "options": {
+        "A": "$10$",
+        "B": "$15$",
+        "C": "$20$",
+        "D": "$30$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại $Q=60$, $P_D=-1.5(60)+160=70$ và $P_S=0.5(60)+20=50$. Do đó $t=P_D-P_S=20$."
+    },
+    {
+      "id": "2c-047",
+      "topic": "Tổn thất vô ích do thuế",
+      "difficulty": "hard",
+      "source_pages": [
+        13,
+        18
+      ],
+      "question": "Trong bài toán có thuế $t=10$, sản lượng giảm từ $Q_0=70$ xuống $Q_T=65$. Tổn thất vô ích bằng bao nhiêu?",
+      "options": {
+        "A": "$20$",
+        "B": "$25$",
+        "C": "$50$",
+        "D": "$250$"
+      },
+      "correct_answer": "B",
+      "explanation": "$DWL$ là diện tích tam giác: $DWL=\\frac12 t(Q_0-Q_T)=\\frac12(10)(70-65)=25$."
+    },
+    {
+      "id": "2c-048",
+      "topic": "Tác động của trợ cấp",
+      "difficulty": "medium",
+      "source_pages": [
+        12,
+        13
+      ],
+      "question": "Trợ cấp trên mỗi đơn vị sản phẩm thường tác động thế nào đến thị trường?",
+      "options": {
+        "A": "Sản lượng giảm, giá người mua tăng, giá người bán nhận giảm",
+        "B": "Sản lượng tăng, giá người mua giảm, giá người bán nhận tăng",
+        "C": "Sản lượng không đổi và Chính phủ thu thêm ngân sách",
+        "D": "Chỉ người mua được lợi trong mọi trường hợp"
+      },
+      "correct_answer": "B",
+      "explanation": "Trợ cấp tạo khoảng chênh có lợi giữa giá người bán nhận và giá người mua trả, làm lượng giao dịch tăng. Lợi ích được chia cho cả hai bên."
+    },
+    {
+      "id": "2c-049",
+      "topic": "Phân chia lợi ích trợ cấp",
+      "difficulty": "medium",
+      "source_pages": [
+        12,
+        13
+      ],
+      "question": "Lợi ích của trợ cấp được phân chia giữa người mua và người bán theo nguyên tắc nào?",
+      "options": {
+        "A": "Bên co giãn ít hơn nhận phần lợi ích lớn hơn",
+        "B": "Bên co giãn nhiều hơn luôn nhận toàn bộ trợ cấp",
+        "C": "Chỉ bên được ghi tên nhận trợ cấp mới hưởng lợi",
+        "D": "Hai bên luôn nhận đúng bằng nhau"
+      },
+      "correct_answer": "A",
+      "explanation": "Tương tự gánh nặng thuế, phân chia lợi ích trợ cấp phụ thuộc vào độ co giãn; bên ít co giãn hơn thường nhận phần lợi ích lớn hơn, trong khi trợ cấp vẫn có thể tạo $DWL$."
+    }
+  ]
+}

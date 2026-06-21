@@ -1,0 +1,820 @@
+{
+  "chapter_id": "chuong-3",
+  "title": "Chương 3 - Lý thuyết hành vi người tiêu dùng",
+  "source_file": "CHUONG 3 - LÝ THUYẾT HÀNH VI NGƯỜI TIÊU DÙNG - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "3-001",
+      "topic": "Giả định của lý thuyết tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Nội dung nào không thuộc các giả định được nêu trong bài giảng?",
+      "options": {
+        "A": "Thu nhập của người tiêu dùng là vô hạn",
+        "B": "Tất cả sản phẩm có thể chia nhỏ",
+        "C": "Người tiêu dùng lựa chọn hợp lý",
+        "D": "Mức thỏa mãn có thể định lượng và đo lường"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng giả định mức thỏa mãn đo lường được, sản phẩm chia nhỏ được và người tiêu dùng lựa chọn hợp lý; không giả định thu nhập vô hạn."
+    },
+    {
+      "id": "3-002",
+      "topic": "Độ thỏa dụng",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Độ thỏa dụng (utility) là gì?",
+      "options": {
+        "A": "Số tiền phải trả cho hàng hóa",
+        "B": "Mức hài lòng, thỏa mãn từ việc sử dụng hàng hóa, dịch vụ",
+        "C": "Tổng thu nhập của người tiêu dùng",
+        "D": "Số lượng hàng hóa được sản xuất"
+      },
+      "correct_answer": "B",
+      "explanation": "Độ thỏa dụng, hữu dụng hay lợi ích là mức độ hài lòng, thỏa mãn mà người tiêu dùng nhận được khi sử dụng hàng hóa, dịch vụ."
+    },
+    {
+      "id": "3-003",
+      "topic": "Tổng hữu dụng",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Phát biểu nào đúng về tổng hữu dụng $TU$?",
+      "options": {
+        "A": "$TU$ chỉ phụ thuộc vào giá",
+        "B": "$TU$ luôn giống nhau đối với mọi người",
+        "C": "$TU$ là tổng lợi ích đạt được khi tiêu dùng hàng hóa, dịch vụ",
+        "D": "$TU$ luôn giảm khi lượng tiêu dùng tăng"
+      },
+      "correct_answer": "C",
+      "explanation": "$TU$ là tổng lợi ích người tiêu dùng nhận được. Hữu dụng mang tính chủ quan vì sở thích của mỗi người khác nhau."
+    },
+    {
+      "id": "3-004",
+      "topic": "Đồ thị tổng hữu dụng",
+      "difficulty": "medium",
+      "source_pages": [
+        2
+      ],
+      "question": "Trên đồ thị hàng thiết yếu, điểm bão hòa biểu thị trạng thái nào?",
+      "options": {
+        "A": "Thu nhập của người tiêu dùng bằng $0$",
+        "B": "$TU=0$ với mọi lượng tiêu dùng",
+        "C": "Giá hàng hóa đạt cực đại",
+        "D": "$TU$ đạt cực đại tại một lượng tiêu dùng nhất định"
+      },
+      "correct_answer": "D",
+      "explanation": "Đối với hàng thiết yếu trong đồ thị bài giảng, tồn tại điểm bão hòa, tại đó tổng hữu dụng đạt cực đại."
+    },
+    {
+      "id": "3-005",
+      "topic": "Hữu dụng biên",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Hữu dụng biên $MU$ đo lường điều gì?",
+      "options": {
+        "A": "Phần thay đổi của $TU$ khi tiêu dùng thêm một đơn vị sản phẩm",
+        "B": "Tổng chi tiêu cho mọi sản phẩm",
+        "C": "Giá của đơn vị sản phẩm cuối cùng",
+        "D": "Thu nhập tăng thêm của người tiêu dùng"
+      },
+      "correct_answer": "A",
+      "explanation": "$MU$ là mức thay đổi trong tổng hữu dụng khi tiêu dùng thêm một đơn vị sản phẩm trong mỗi đơn vị thời gian."
+    },
+    {
+      "id": "3-006",
+      "topic": "Công thức hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Cặp công thức nào đúng cho hữu dụng biên của $X$?",
+      "options": {
+        "A": "$MU_X=U_Xx$ trong cả hai trường hợp",
+        "B": "Hàm rời rạc: $MU_X=\\frac{\\Delta U_X}{\\Delta x}$; hàm liên tục: $MU_X=\\frac{\\partial U}{\\partial x}$",
+        "C": "$MU_X=\\frac{x}{U_X}$",
+        "D": "$MU_X=P_Xx$"
+      },
+      "correct_answer": "B",
+      "explanation": "Với dữ liệu rời rạc dùng tỷ số thay đổi $\\frac{\\Delta U_X}{\\Delta x}$; với hàm liên tục dùng đạo hàm riêng $\\frac{\\partial U}{\\partial x}$."
+    },
+    {
+      "id": "3-007",
+      "topic": "Bảng tổng hữu dụng và hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Trong bảng $x=1,2,3,4,5$ và $U_X=9,16,21,24,25$, hữu dụng biên của đơn vị thứ tư là bao nhiêu?",
+      "options": {
+        "A": "$1$",
+        "B": "$5$",
+        "C": "$3$",
+        "D": "$24$"
+      },
+      "correct_answer": "C",
+      "explanation": "$MU_4=U(4)-U(3)=24-21=3$."
+    },
+    {
+      "id": "3-008",
+      "topic": "Quy luật hữu dụng biên giảm dần",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Quy luật hữu dụng biên giảm dần phát biểu như thế nào?",
+      "options": {
+        "A": "$MU$ không liên quan đến lượng tiêu dùng",
+        "B": "$MU$ luôn tăng cùng lượng tiêu dùng",
+        "C": "$TU$ luôn bằng $MU$",
+        "D": "$MU$ có xu hướng giảm khi lượng hàng hóa được tiêu dùng nhiều hơn trong một thời điểm nhất định"
+      },
+      "correct_answer": "D",
+      "explanation": "Khi tiêu dùng thêm ngày càng nhiều một hàng hóa trong một thời điểm nhất định, lợi ích tăng thêm từ mỗi đơn vị có xu hướng giảm."
+    },
+    {
+      "id": "3-009",
+      "topic": "Quan hệ giữa TU và MU",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Quan hệ nào giữa $TU$ và $MU$ là đúng?",
+      "options": {
+        "A": "$MU=0$ thì $TU$ cực đại; $MU>0$ thì $TU$ tăng; $MU<0$ thì $TU$ giảm",
+        "B": "$MU=0$ thì $TU=0$",
+        "C": "$MU<0$ thì $TU$ tăng",
+        "D": "$MU>0$ thì $TU$ giảm"
+      },
+      "correct_answer": "A",
+      "explanation": "$MU$ là phần thay đổi của $TU$, nên dấu của $MU$ quyết định chiều biến động của $TU$; tại điểm bão hòa $MU=0$ và $TU$ đạt cực đại."
+    },
+    {
+      "id": "3-010",
+      "topic": "Tính hữu dụng biên từ bảng",
+      "difficulty": "hard",
+      "source_pages": [
+        4,
+        5
+      ],
+      "question": "Bảng cho $y=(0,2,5,8,10)$ và $U_Y=(0,20,44,62,70)$. Dãy $MU_Y$ bình quân trên các khoảng liên tiếp là gì?",
+      "options": {
+        "A": "$20,24,18,8$",
+        "B": "$10,8,6,4$",
+        "C": "$10,12,9,4$",
+        "D": "$20,8,6,8$"
+      },
+      "correct_answer": "B",
+      "explanation": "Áp dụng $MU_Y=\\frac{\\Delta U_Y}{\\Delta y}$: $\\frac{20}{2}=10$, $\\frac{24}{3}=8$, $\\frac{18}{3}=6$, $\\frac{8}{2}=4$."
+    },
+    {
+      "id": "3-011",
+      "topic": "Tính tổng hữu dụng từ hữu dụng biên",
+      "difficulty": "hard",
+      "source_pages": [
+        5
+      ],
+      "question": "Bảng cho $y=(0,1,3,5,6)$ và $MU_Y=(0,9,7,5,3)$, trong đó mỗi $MU_Y$ áp dụng cho khoảng tăng lượng tương ứng. Nếu $U_Y(0)=0$, thì $U_Y(6)$ bằng bao nhiêu?",
+      "options": {
+        "A": "$24$",
+        "B": "$33$",
+        "C": "$36$",
+        "D": "$45$"
+      },
+      "correct_answer": "C",
+      "explanation": "$U_Y(6)=9(1-0)+7(3-1)+5(5-3)+3(6-5)=9+14+10+3=36$."
+    },
+    {
+      "id": "3-012",
+      "topic": "Đạo hàm hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Cho $U(x)=-\\frac{2}{3}x^2+95x$. Hàm $MU_X$ là gì?",
+      "options": {
+        "A": "$MU_X=95x$",
+        "B": "$MU_X=-\\frac{2}{3}x+95$",
+        "C": "$MU_X=-\\frac{4}{3}x^2+95$",
+        "D": "$MU_X=-\\frac{4}{3}x+95$"
+      },
+      "correct_answer": "D",
+      "explanation": "$MU_X=U'(x)=-\\frac{2}{3}\\cdot2x+95=-\\frac{4}{3}x+95$."
+    },
+    {
+      "id": "3-013",
+      "topic": "Đạo hàm riêng của hàm hữu dụng",
+      "difficulty": "hard",
+      "source_pages": [
+        6
+      ],
+      "question": "Cho $U(x,y)=1.25x^{1/3}y^{2/3}$. Cặp hữu dụng biên đúng là gì?",
+      "options": {
+        "A": "$MU_X=\\frac{5}{12}x^{-2/3}y^{2/3}$ và $MU_Y=\\frac{5}{6}x^{1/3}y^{-1/3}$",
+        "B": "$MU_X=1.25x^{1/3}$ và $MU_Y=1.25y^{2/3}$",
+        "C": "$MU_X=\\frac{5}{6}x^{-2/3}y^{2/3}$ và $MU_Y=\\frac{5}{12}x^{1/3}y^{-1/3}$",
+        "D": "$MU_X=MU_Y=1.25$"
+      },
+      "correct_answer": "A",
+      "explanation": "Lấy đạo hàm riêng: $1.25\\cdot\\frac13=\\frac{5}{12}$ và $1.25\\cdot\\frac23=\\frac56$."
+    },
+    {
+      "id": "3-014",
+      "topic": "Sở thích hoàn chỉnh",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Sở thích hoàn chỉnh có nghĩa là gì?",
+      "options": {
+        "A": "Mọi rổ hàng hóa có giá bằng nhau",
+        "B": "Người tiêu dùng đánh giá, so sánh và xếp hạng được các rổ hàng hóa",
+        "C": "Người tiêu dùng luôn chọn rổ rẻ nhất",
+        "D": "Người tiêu dùng không thể bàng quan giữa hai rổ"
+      },
+      "correct_answer": "B",
+      "explanation": "Tính hoàn chỉnh đòi hỏi người tiêu dùng có thể nói thích rổ này hơn, thích rổ kia hơn hoặc bàng quan giữa hai rổ."
+    },
+    {
+      "id": "3-015",
+      "topic": "Tính bắc cầu của sở thích",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Nếu người tiêu dùng thích $A$ hơn $B$ và thích $B$ hơn $C$, tính bắc cầu cho kết luận nào?",
+      "options": {
+        "A": "Bàng quan giữa $A$ và $C$",
+        "B": "Thích $C$ hơn $A$",
+        "C": "Thích $A$ hơn $C$",
+        "D": "Không thể so sánh $A$ và $C$"
+      },
+      "correct_answer": "C",
+      "explanation": "Theo tính bắc cầu, $A\\succ B$ và $B\\succ C$ suy ra $A\\succ C$."
+    },
+    {
+      "id": "3-016",
+      "topic": "Giả định thích nhiều hơn ít",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Giả định “người tiêu dùng thích nhiều hơn ít” trong bài áp dụng cho loại hàng nào?",
+      "options": {
+        "A": "Chỉ hàng không thể chia nhỏ",
+        "B": "Hàng xấu",
+        "C": "Chỉ hàng miễn phí",
+        "D": "Hàng tốt"
+      },
+      "correct_answer": "D",
+      "explanation": "Bài giảng nói rõ hàng được xét là hàng tốt, nên với các yếu tố khác không đổi, nhiều hàng hơn được ưa thích hơn ít hàng."
+    },
+    {
+      "id": "3-017",
+      "topic": "So sánh các rổ hàng",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        8
+      ],
+      "question": "Với $A=(20,30)$, $E=(30,40)$ và $G=(10,20)$, thứ tự ưa thích phù hợp với giả định thích nhiều hơn ít là gì?",
+      "options": {
+        "A": "$E\\succ A\\succ G$",
+        "B": "$G\\succ A\\succ E$",
+        "C": "$A\\succ E\\succ G$",
+        "D": "$E\\sim A\\sim G$"
+      },
+      "correct_answer": "A",
+      "explanation": "$E$ có nhiều cả $X$ lẫn $Y$ hơn $A$, còn $A$ có nhiều cả hai hàng hơn $G$, nên $E\\succ A\\succ G$."
+    },
+    {
+      "id": "3-018",
+      "topic": "Đường đẳng ích",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Đường đẳng ích (đường bàng quan) là gì?",
+      "options": {
+        "A": "Tập hợp các rổ có cùng chi phí",
+        "B": "Tập hợp các rổ hàng khác nhau tạo cùng mức thỏa mãn",
+        "C": "Tập hợp các mức giá thị trường",
+        "D": "Tập hợp các rổ có cùng số lượng $X$"
+      },
+      "correct_answer": "B",
+      "explanation": "Mọi rổ nằm trên cùng một đường đẳng ích đem lại lợi ích bằng nhau cho người tiêu dùng."
+    },
+    {
+      "id": "3-019",
+      "topic": "Bản đồ đường đẳng ích",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Trên bản đồ đường đẳng ích trong bài, thứ tự mức hữu dụng là gì?",
+      "options": {
+        "A": "$U_1=U_2=U_3$",
+        "B": "$U_1>U_2>U_3$",
+        "C": "$U_3>U_2>U_1$",
+        "D": "$U_2>U_1>U_3$"
+      },
+      "correct_answer": "C",
+      "explanation": "Đường nằm xa gốc tọa độ hơn biểu thị rổ có nhiều hàng tốt hơn và mức hữu dụng cao hơn; hình ghi $U_3>U_2>U_1$."
+    },
+    {
+      "id": "3-020",
+      "topic": "Tính chất đường đẳng ích",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Tổ hợp nào nêu đúng ba tính chất của đường đẳng ích thông thường trong bài?",
+      "options": {
+        "A": "Thẳng đứng, trùng nhau, lõm về gốc",
+        "B": "Dốc lên, cắt nhau, lõm về gốc",
+        "C": "Nằm ngang, song song với trục hoành, cắt nhau",
+        "D": "Dốc xuống, không cắt nhau, lồi về gốc tọa độ"
+      },
+      "correct_answer": "D",
+      "explanation": "Ba tính chất được liệt kê là dốc xuống từ trái sang phải, không cắt nhau và có mặt lồi hướng về gốc tọa độ."
+    },
+    {
+      "id": "3-021",
+      "topic": "Độ dốc đường đẳng ích",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Vì sao đường đẳng ích của hai hàng tốt phải dốc xuống?",
+      "options": {
+        "A": "Muốn tăng một hàng mà giữ hữu dụng không đổi phải giảm bớt hàng kia",
+        "B": "Vì giá hai hàng luôn bằng nhau",
+        "C": "Vì thu nhập luôn giảm",
+        "D": "Vì hữu dụng của cả hai hàng đều âm"
+      },
+      "correct_answer": "A",
+      "explanation": "Nếu cả hai hàng cùng tăng thì rổ mới được ưa thích hơn, không còn cùng mức hữu dụng; do đó tăng một hàng phải bớt hàng kia."
+    },
+    {
+      "id": "3-022",
+      "topic": "Các đường đẳng ích không cắt nhau",
+      "difficulty": "hard",
+      "source_pages": [
+        9
+      ],
+      "question": "Nếu hai đường đẳng ích cắt nhau, điều gì bị mâu thuẫn?",
+      "options": {
+        "A": "Phương trình ngân sách không còn tuyến tính",
+        "B": "Cùng một rổ tại giao điểm phải đại diện cho hai mức hữu dụng khác nhau và dẫn đến xếp hạng không nhất quán",
+        "C": "Giá hai hàng buộc phải bằng nhau",
+        "D": "Thu nhập buộc phải bằng $0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Một rổ tại giao điểm không thể đồng thời thuộc hai mức hữu dụng khác nhau; kết hợp với tính bắc cầu và thích nhiều hơn ít sẽ tạo mâu thuẫn."
+    },
+    {
+      "id": "3-023",
+      "topic": "Độ lồi và MRS giảm dần",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        10
+      ],
+      "question": "Mặt lồi của đường đẳng ích hướng về gốc tọa độ phản ánh quy luật nào?",
+      "options": {
+        "A": "$TU$ luôn âm",
+        "B": "$MRS$ tăng vô hạn",
+        "C": "$MRS$ giảm dần",
+        "D": "Giá tương đối không đổi"
+      },
+      "correct_answer": "C",
+      "explanation": "Bài giảng liên hệ dạng lồi về gốc với tỷ lệ thay thế biên giảm dần khi di chuyển dọc đường đẳng ích."
+    },
+    {
+      "id": "3-024",
+      "topic": "Tỷ lệ thay thế biên",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "$MRS_{XY}$ biểu thị điều gì?",
+      "options": {
+        "A": "Tổng lượng $X$ và $Y$",
+        "B": "Số tiền chi thêm cho cả $X$ và $Y$",
+        "C": "Tỷ lệ thu nhập trên giá",
+        "D": "Lượng $Y$ người tiêu dùng sẵn sàng từ bỏ để có thêm một đơn vị $X$ mà hữu dụng không đổi"
+      },
+      "correct_answer": "D",
+      "explanation": "$MRS$ đo mức sẵn sàng thay thế giữa hai hàng hóa dọc cùng một đường đẳng ích."
+    },
+    {
+      "id": "3-025",
+      "topic": "Công thức MRS",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        10
+      ],
+      "question": "Theo quy ước độ lớn dùng trong bài, công thức nào đúng?",
+      "options": {
+        "A": "$MRS_{XY}=-\\frac{\\Delta Y}{\\Delta X}$",
+        "B": "$MRS_{XY}=\\frac{\\Delta X}{\\Delta Y}$",
+        "C": "$MRS_{XY}=\\Delta X+\\Delta Y$",
+        "D": "$MRS_{XY}=P_X+P_Y$"
+      },
+      "correct_answer": "A",
+      "explanation": "Đường đẳng ích dốc xuống nên $\\frac{\\Delta Y}{\\Delta X}<0$; thêm dấu âm cho độ lớn $MRS$ dương."
+    },
+    {
+      "id": "3-026",
+      "topic": "Tính MRS từ bảng",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Các rổ cùng hữu dụng là $A=(3,10)$ và $B=(4,6)$. $MRS_{XY}$ khi chuyển từ $A$ sang $B$ bằng bao nhiêu?",
+      "options": {
+        "A": "$2$",
+        "B": "$4$",
+        "C": "$3$",
+        "D": "$6$"
+      },
+      "correct_answer": "B",
+      "explanation": "$MRS_{XY}=-\\frac{6-10}{4-3}=4$. Người tiêu dùng từ bỏ $4$ đơn vị $Y$ để thêm $1$ đơn vị $X$."
+    },
+    {
+      "id": "3-027",
+      "topic": "Quy luật MRS giảm dần",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Trên đồ thị bài giảng, $MRS_{XY}$ giữa $AB$ là $6$, còn giữa $DE$ là $2$. Kết quả này minh họa điều gì?",
+      "options": {
+        "A": "$MRS$ tăng dần",
+        "B": "$MRS$ luôn bằng $0$",
+        "C": "$MRS$ giảm dần khi đi xuống dọc đường đẳng ích",
+        "D": "$MRS$ không phụ thuộc vào vị trí"
+      },
+      "correct_answer": "C",
+      "explanation": "Khi $X$ nhiều dần và $Y$ ít dần, người tiêu dùng sẵn sàng từ bỏ ngày càng ít $Y$ để có thêm $X$: $6$ giảm xuống $2$."
+    },
+    {
+      "id": "3-028",
+      "topic": "Hàng hóa thay thế hoàn hảo",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Đường đẳng ích của hai hàng thay thế hoàn hảo có dạng nào?",
+      "options": {
+        "A": "Các đường tròn đồng tâm",
+        "B": "Các đường chữ L",
+        "C": "Các đường thẳng đứng",
+        "D": "Các đường thẳng dốc xuống với $MRS_{XY}$ không đổi"
+      },
+      "correct_answer": "D",
+      "explanation": "Với hai hàng thay thế hoàn hảo, tỷ lệ thay thế không đổi nên đường đẳng ích là đường thẳng có độ dốc không đổi."
+    },
+    {
+      "id": "3-029",
+      "topic": "Hàng hóa bổ sung hoàn hảo",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Đường đẳng ích của hai hàng bổ sung hoàn hảo như giày trái và giày phải có dạng nào?",
+      "options": {
+        "A": "Chữ L",
+        "B": "Đường thẳng dốc xuống",
+        "C": "Parabol",
+        "D": "Đường nằm ngang duy nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "Hai hàng được dùng theo cặp cố định nên tăng riêng một loại không làm tăng hữu dụng; các đường đẳng ích có dạng chữ L."
+    },
+    {
+      "id": "3-030",
+      "topic": "Đường ngân sách",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Đường ngân sách là tập hợp những rổ hàng nào?",
+      "options": {
+        "A": "Các rổ đem lại cùng hữu dụng",
+        "B": "Các rổ mua được khi chi tiêu toàn bộ thu nhập",
+        "C": "Các rổ có cùng số lượng hàng",
+        "D": "Các rổ luôn nằm ngoài khả năng mua"
+      },
+      "correct_answer": "B",
+      "explanation": "Đường ngân sách gồm các phối hợp hàng hóa, dịch vụ người tiêu dùng mua được với cùng mức chi tiêu bằng toàn bộ thu nhập."
+    },
+    {
+      "id": "3-031",
+      "topic": "Phương trình đường ngân sách",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Từ $xP_X+yP_Y=I$, dạng biểu diễn $y$ theo $x$ là gì?",
+      "options": {
+        "A": "$y=I-P_X-P_Yx$",
+        "B": "$y=\\frac{I}{P_X}-\\frac{P_Y}{P_X}x$",
+        "C": "$y=\\frac{I}{P_Y}-\\frac{P_X}{P_Y}x$",
+        "D": "$y=\\frac{P_X}{I}+\\frac{P_Y}{I}x$"
+      },
+      "correct_answer": "C",
+      "explanation": "Chuyển $xP_X$ sang vế phải rồi chia hai vế cho $P_Y$ được $y=\\frac{I}{P_Y}-\\frac{P_X}{P_Y}x$."
+    },
+    {
+      "id": "3-032",
+      "topic": "Đồ thị đường ngân sách",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Với $P_X=1$, $P_Y=2$, $I=80$, hai điểm chặn của đường ngân sách là gì?",
+      "options": {
+        "A": "Cả hai đều tại $40$",
+        "B": "Chặn trục $x$ tại $40$, chặn trục $y$ tại $80$",
+        "C": "Cả hai đều tại $80$",
+        "D": "Chặn trục $x$ tại $80$, chặn trục $y$ tại $40$"
+      },
+      "correct_answer": "D",
+      "explanation": "$x_{max}=\\frac{I}{P_X}=80$ và $y_{max}=\\frac{I}{P_Y}=40$."
+    },
+    {
+      "id": "3-033",
+      "topic": "Lập phương trình ngân sách",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Người tiêu dùng có $I=200$, $P_X=5$, $P_Y=4$. Phương trình nào mô tả đúng đường ngân sách và độ dốc của nó?",
+      "options": {
+        "A": "$5x+4y=200$, độ dốc $-\\frac54=-1.25$",
+        "B": "$4x+5y=200$, độ dốc $-\\frac45$",
+        "C": "$5x+4y=40$, độ dốc $-5$",
+        "D": "$x+y=200$, độ dốc $1$"
+      },
+      "correct_answer": "A",
+      "explanation": "Ràng buộc là $5x+4y=200$; viết $y=50-1.25x$ nên độ dốc bằng $-\\frac{P_X}{P_Y}=-\\frac54$."
+    },
+    {
+      "id": "3-034",
+      "topic": "Độ dốc và độ xa của đường ngân sách",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Nhận định nào đúng?",
+      "options": {
+        "A": "Độ dốc chỉ phụ thuộc thu nhập",
+        "B": "Độ dốc phụ thuộc giá hai hàng và phản ánh giá tương đối; độ xa phụ thuộc thu nhập và giá",
+        "C": "Độ xa chỉ phụ thuộc sở thích",
+        "D": "Cả độ dốc lẫn độ xa không phụ thuộc giá"
+      },
+      "correct_answer": "B",
+      "explanation": "Độ dốc là $-P_X/P_Y$; các điểm chặn $I/P_X$ và $I/P_Y$ cho thấy vị trí của đường phụ thuộc cả thu nhập lẫn giá."
+    },
+    {
+      "id": "3-035",
+      "topic": "Thay đổi thu nhập",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Khi thu nhập tăng còn $P_X,P_Y$ không đổi, đường ngân sách thay đổi thế nào?",
+      "options": {
+        "A": "Xoay quanh điểm chặn trục $x$",
+        "B": "Dịch chuyển song song vào trong",
+        "C": "Dịch chuyển song song ra ngoài",
+        "D": "Không thay đổi"
+      },
+      "correct_answer": "C",
+      "explanation": "Hai điểm chặn đều tăng cùng tỷ lệ trong khi độ dốc $-P_X/P_Y$ không đổi, nên đường ngân sách dịch song song ra ngoài."
+    },
+    {
+      "id": "3-036",
+      "topic": "Thay đổi giá",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Nếu chỉ giá $X$ tăng, đường ngân sách thay đổi thế nào?",
+      "options": {
+        "A": "Không đổi độ dốc",
+        "B": "Dịch chuyển song song ra ngoài",
+        "C": "Xoay ra ngoài quanh điểm chặn trên trục $x$",
+        "D": "Xoay vào trong quanh điểm chặn trên trục $y$"
+      },
+      "correct_answer": "D",
+      "explanation": "$I/P_X$ giảm còn $I/P_Y$ không đổi, nên điểm chặn trục $x$ dịch vào và đường xoay quanh điểm chặn trục $y$."
+    },
+    {
+      "id": "3-037",
+      "topic": "Tính tác động của thay đổi giá",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Trong hình có $I=80$, $P_Y=2$. Khi $P_X$ tăng từ $1$ lên $2$, hai điểm chặn mới là gì?",
+      "options": {
+        "A": "$x_{max}=40$, $y_{max}=40$",
+        "B": "$x_{max}=80$, $y_{max}=20$",
+        "C": "$x_{max}=160$, $y_{max}=40$",
+        "D": "$x_{max}=40$, $y_{max}=80$"
+      },
+      "correct_answer": "A",
+      "explanation": "$x_{max}=I/P_X=80/2=40$ và $y_{max}=I/P_Y=80/2=40$. Điểm chặn $y$ giữ nguyên."
+    },
+    {
+      "id": "3-038",
+      "topic": "Lựa chọn tối ưu",
+      "difficulty": "easy",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Trong trường hợp nghiệm nội, phối hợp tiêu dùng tối ưu nằm ở đâu?",
+      "options": {
+        "A": "Mọi điểm bên trong đường ngân sách",
+        "B": "Điểm đường ngân sách tiếp xúc với đường đẳng ích cao nhất có thể đạt",
+        "C": "Giao điểm hai đường đẳng ích",
+        "D": "Luôn tại gốc tọa độ"
+      },
+      "correct_answer": "B",
+      "explanation": "Tại điểm tiếp xúc, người tiêu dùng đạt đường đẳng ích cao nhất trong giới hạn thu nhập."
+    },
+    {
+      "id": "3-039",
+      "topic": "Điều kiện tiếp xúc tối ưu",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Điều kiện độ dốc tại phối hợp tối ưu là gì?",
+      "options": {
+        "A": "$MRS_{XY}=\\frac{I}{P_X+P_Y}$",
+        "B": "$MRS_{XY}=P_X+P_Y$",
+        "C": "$MRS_{XY}=\\frac{P_X}{P_Y}$",
+        "D": "$MRS_{XY}=0$ trong mọi trường hợp"
+      },
+      "correct_answer": "C",
+      "explanation": "Độ lớn độ dốc đường đẳng ích là $MRS_{XY}$, còn độ lớn độ dốc đường ngân sách là $P_X/P_Y$; tại tiếp xúc chúng bằng nhau."
+    },
+    {
+      "id": "3-040",
+      "topic": "MRS và hữu dụng biên",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Từ $MU_X\\Delta x+MU_Y\\Delta y=0$ trên cùng một đường đẳng ích, suy ra công thức nào?",
+      "options": {
+        "A": "$MRS_{XY}=MU_XMU_Y$",
+        "B": "$MRS_{XY}=MU_X+MU_Y$",
+        "C": "$MRS_{XY}=\\frac{MU_Y}{MU_X}$",
+        "D": "$MRS_{XY}=-\\frac{\\Delta y}{\\Delta x}=\\frac{MU_X}{MU_Y}$"
+      },
+      "correct_answer": "D",
+      "explanation": "Chuyển vế cho $MU_X\\Delta x=-MU_Y\\Delta y$, rồi chia cho $MU_Y\\Delta x$ được $MU_X/MU_Y=-\\Delta y/\\Delta x=MRS_{XY}$."
+    },
+    {
+      "id": "3-041",
+      "topic": "Nguyên tắc cân bằng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Nguyên tắc cân bằng biên tại tối ưu được viết như thế nào?",
+      "options": {
+        "A": "$\\frac{MU_X}{P_X}=\\frac{MU_Y}{P_Y}$",
+        "B": "$MU_XP_X=MU_YP_Y$",
+        "C": "$MU_X+P_X=MU_Y+P_Y$",
+        "D": "$\\frac{MU_X}{MU_Y}=\\frac{P_Y}{P_X}$"
+      },
+      "correct_answer": "A",
+      "explanation": "Hữu dụng biên trên mỗi đồng chi cho các hàng phải bằng nhau: $MU_X/P_X=MU_Y/P_Y$. Điều này tương đương $MU_X/MU_Y=P_X/P_Y$."
+    },
+    {
+      "id": "3-042",
+      "topic": "Giải bài toán tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Để tìm nghiệm tối ưu nội cho hai hàng hóa, cần giải hệ gồm hai điều kiện nào?",
+      "options": {
+        "A": "$x+y=I$ và $MU_X+MU_Y=0$",
+        "B": "$xP_X+yP_Y=I$ và $\\frac{MU_X}{P_X}=\\frac{MU_Y}{P_Y}$",
+        "C": "$P_X=P_Y$ và $x=y$",
+        "D": "$TU=0$ và $MU=0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Hệ gồm ràng buộc ngân sách và điều kiện tối ưu/cân bằng biên."
+    },
+    {
+      "id": "3-043",
+      "topic": "Tối đa hóa hữu dụng",
+      "difficulty": "hard",
+      "source_pages": [
+        17
+      ],
+      "question": "Với $I=200$, $P_X=4$, $P_Y=2$, $U(x,y)=xy$, rổ tối ưu là rổ nào?",
+      "options": {
+        "A": "$(x,y)=(20,60)$",
+        "B": "$(x,y)=(50,25)$",
+        "C": "$(x,y)=(25,50)$",
+        "D": "$(x,y)=(40,20)$"
+      },
+      "correct_answer": "C",
+      "explanation": "$MU_X=y$, $MU_Y=x$. Điều kiện $y/4=x/2$ cho $y=2x$. Thế vào $4x+2y=200$ được $8x=200$, nên $x=25$, $y=50$."
+    },
+    {
+      "id": "3-044",
+      "topic": "Bài tập tối ưu vận dụng",
+      "difficulty": "hard",
+      "source_pages": [
+        17
+      ],
+      "question": "Cho $TU=(4X-8)Y$, $I=30$, $P_X=3$, $P_Y=6$. Rổ tối ưu nội là gì?",
+      "options": {
+        "A": "$(X,Y)=(4,3)$",
+        "B": "$(X,Y)=(2,4)$",
+        "C": "$(X,Y)=(8,1)$",
+        "D": "$(X,Y)=(6,2)$"
+      },
+      "correct_answer": "D",
+      "explanation": "$MU_X=4Y$, $MU_Y=4X-8$. Từ $\\frac{4Y}{3}=\\frac{4X-8}{6}$ suy ra $X=2Y+2$. Ngân sách $3X+6Y=30$ hay $X+2Y=10$ cho $Y=2$, $X=6$."
+    },
+    {
+      "id": "3-045",
+      "topic": "Đường cầu cá nhân",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "Theo đồ thị cầu cá nhân, khi giá giảm từ $8$ nghìn đồng xuống $4$ nghìn đồng, lượng cầu thay đổi thế nào?",
+      "options": {
+        "A": "Tăng từ $55$ lên $125$ sản phẩm",
+        "B": "Giảm từ $125$ xuống $55$ sản phẩm",
+        "C": "Tăng từ $55$ lên $80$ sản phẩm",
+        "D": "Không đổi ở $55$ sản phẩm"
+      },
+      "correct_answer": "A",
+      "explanation": "Điểm $A$ là $(Q,P)=(55,8)$ và điểm $B$ là $(125,4)$, thể hiện giá giảm thì lượng cầu tăng."
+    },
+    {
+      "id": "3-046",
+      "topic": "Cầu thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Trong thị trường có hai cá nhân $A$ và $B$, tại giá $6$ nghìn đồng, lượng cầu của họ lần lượt là $90$ và $60$. Lượng cầu thị trường bằng bao nhiêu?",
+      "options": {
+        "A": "$30$",
+        "B": "$150$",
+        "C": "$90$",
+        "D": "$5400$"
+      },
+      "correct_answer": "B",
+      "explanation": "Cầu thị trường là tổng theo chiều ngang các cầu cá nhân tại cùng mức giá: $Q_D=90+60=150$."
+    },
+    {
+      "id": "3-047",
+      "topic": "Bảng cầu cá nhân và cầu thị trường",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "Theo bảng cầu, khi giá giảm từ $8$ xuống $4$ nghìn đồng, lượng cầu thị trường tăng bao nhiêu sản phẩm?",
+      "options": {
+        "A": "$55$",
+        "B": "$95$",
+        "C": "$110$",
+        "D": "$205$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại giá $8$, cầu thị trường là $55+40=95$; tại giá $4$, cầu là $125+80=205$. Mức tăng là $205-95=110$ sản phẩm."
+    }
+  ]
+}

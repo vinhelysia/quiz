@@ -1,0 +1,620 @@
+{
+  "chapter_id": "chuong-2b",
+  "title": "Chương 2B - Độ co giãn của cầu, cung và ứng dụng",
+  "source_file": "CHUONG 2B - DO CO GIAN CỦA CAU, CUNG VA UNG DUNG - SV.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "2b-001",
+      "topic": "Khái niệm độ co giãn",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Độ co giãn trong kinh tế học dùng để đo lường điều gì?",
+      "options": {
+        "A": "Mức giá tuyệt đối của một hàng hóa",
+        "B": "Mức độ phản ứng của một yếu tố trước sự thay đổi của yếu tố khác",
+        "C": "Tổng chi phí sản xuất của doanh nghiệp",
+        "D": "Số lượng người mua trên thị trường"
+      },
+      "correct_answer": "B",
+      "explanation": "Độ co giãn đo mức độ phản ứng của lượng cầu hoặc lượng cung khi một yếu tố tác động đến chúng thay đổi."
+    },
+    {
+      "id": "2b-002",
+      "topic": "Độ co giãn của cầu theo giá",
+      "difficulty": "easy",
+      "source_pages": [
+        2,
+        3
+      ],
+      "question": "Công thức tổng quát của độ co giãn của cầu theo giá là công thức nào?",
+      "options": {
+        "A": "$E_D=\\frac{\\%\\Delta P}{\\%\\Delta Q_D}$",
+        "B": "$E_D=\\%\\Delta Q_D+\\%\\Delta P$",
+        "C": "$E_D=\\frac{\\%\\Delta Q_D}{\\%\\Delta P}$",
+        "D": "$E_D=P\\times Q_D$"
+      },
+      "correct_answer": "C",
+      "explanation": "Độ co giãn của cầu theo giá được tính bằng phần trăm thay đổi của lượng cầu chia cho phần trăm thay đổi của giá: $E_D=\\frac{\\%\\Delta Q_D}{\\%\\Delta P}$."
+    },
+    {
+      "id": "2b-003",
+      "topic": "Độ co giãn của cầu theo giá",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Trong trường hợp thông thường, vì sao $E_D$ mang dấu âm?",
+      "options": {
+        "A": "Vì giá và lượng cầu luôn cùng chiều",
+        "B": "Vì giá và lượng cầu có quan hệ nghịch biến",
+        "C": "Vì lượng cầu không bao giờ thay đổi",
+        "D": "Vì giá luôn giảm"
+      },
+      "correct_answer": "B",
+      "explanation": "Theo luật cầu, giá và lượng cầu thay đổi ngược chiều nên $\\Delta P$ và $\\Delta Q_D$ trái dấu, làm $E_D<0$."
+    },
+    {
+      "id": "2b-004",
+      "topic": "Ý nghĩa hệ số co giãn",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Nếu $E_D=-0.5$, khi giá tăng $1\\%$ thì lượng cầu thay đổi như thế nào, với các yếu tố khác không đổi?",
+      "options": {
+        "A": "Tăng $0.5\\%$",
+        "B": "Giảm $0.5\\%$",
+        "C": "Giảm $2\\%$",
+        "D": "Không đổi"
+      },
+      "correct_answer": "B",
+      "explanation": "$E_D=-0.5$ nghĩa là giá tăng $1\\%$ làm lượng cầu giảm $0.5\\%$."
+    },
+    {
+      "id": "2b-005",
+      "topic": "Co giãn điểm",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Công thức co giãn điểm của cầu theo giá tại một điểm trên hàm cầu $Q_D=f(P)$ là gì?",
+      "options": {
+        "A": "$E_D=\\frac{dQ_D}{dP}\\cdot\\frac{P}{Q_D}$",
+        "B": "$E_D=\\frac{dP}{dQ_D}\\cdot\\frac{P}{Q_D}$",
+        "C": "$E_D=\\frac{dQ_D}{dP}\\cdot\\frac{Q_D}{P}$",
+        "D": "$E_D=P+Q_D$"
+      },
+      "correct_answer": "A",
+      "explanation": "Co giãn điểm được tính bởi $E_D=Q_D'(P)\\frac{P}{Q_D}=\\frac{dQ_D}{dP}\\frac{P}{Q_D}$."
+    },
+    {
+      "id": "2b-006",
+      "topic": "Co giãn khoảng",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Khi giá và lượng cầu thay đổi khá lớn giữa hai điểm, công thức co giãn khoảng phù hợp là công thức nào?",
+      "options": {
+        "A": "$E_D=\\frac{Q_1-Q_0}{P_1-P_0}$",
+        "B": "$E_D=\\frac{Q_1-Q_0}{P_1-P_0}\\cdot\\frac{P_1+P_0}{Q_1+Q_0}$",
+        "C": "$E_D=\\frac{P_1-P_0}{Q_1-Q_0}\\cdot\\frac{P_1+P_0}{Q_1+Q_0}$",
+        "D": "$E_D=\\frac{P_1Q_1}{P_0Q_0}$"
+      },
+      "correct_answer": "B",
+      "explanation": "Công thức trung điểm dùng giá và lượng trung bình: $E_D=\\frac{Q_1-Q_0}{P_1-P_0}\\frac{P_1+P_0}{Q_1+Q_0}$."
+    },
+    {
+      "id": "2b-007",
+      "topic": "Co giãn khoảng",
+      "difficulty": "hard",
+      "source_pages": [
+        4
+      ],
+      "question": "Giá giảm từ $220$ xuống $180$, lượng cầu tăng từ $1200$ lên $1600$. Theo phương pháp trung điểm, $E_D$ xấp xỉ bằng bao nhiêu?",
+      "options": {
+        "A": "$-0.70$",
+        "B": "$-1.00$",
+        "C": "$-1.43$",
+        "D": "$1.43$"
+      },
+      "correct_answer": "C",
+      "explanation": "$E_D=\\frac{1600-1200}{180-220}\\cdot\\frac{180+220}{1600+1200}=-10\\cdot\\frac{400}{2800}\\approx-1.43$."
+    },
+    {
+      "id": "2b-008",
+      "topic": "Phân loại độ co giãn của cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Nếu $|E_D|>1$, cầu được phân loại như thế nào?",
+      "options": {
+        "A": "Cầu co giãn nhiều",
+        "B": "Cầu co giãn ít",
+        "C": "Cầu co giãn đơn vị",
+        "D": "Cầu hoàn toàn không co giãn"
+      },
+      "correct_answer": "A",
+      "explanation": "$|E_D|>1$ nghĩa là phần trăm thay đổi lượng cầu lớn hơn phần trăm thay đổi giá, nên người mua phản ứng mạnh."
+    },
+    {
+      "id": "2b-009",
+      "topic": "Phân loại độ co giãn của cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Trường hợp nào thể hiện cầu co giãn đơn vị?",
+      "options": {
+        "A": "$|E_D|=0$",
+        "B": "$0<|E_D|<1$",
+        "C": "$|E_D|=1$",
+        "D": "$|E_D|=\\infty$"
+      },
+      "correct_answer": "C",
+      "explanation": "Cầu co giãn đơn vị khi phần trăm thay đổi lượng cầu bằng phần trăm thay đổi giá, tức $|E_D|=1$."
+    },
+    {
+      "id": "2b-010",
+      "topic": "Các dạng đường cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        6,
+        7
+      ],
+      "question": "Đường cầu nằm ngang biểu thị trường hợp nào?",
+      "options": {
+        "A": "Cầu hoàn toàn không co giãn, $E_D=0$",
+        "B": "Cầu co giãn đơn vị, $|E_D|=1$",
+        "C": "Cầu hoàn toàn co giãn, $|E_D|=\\infty$",
+        "D": "Cầu co giãn ít, $|E_D|<1$"
+      },
+      "correct_answer": "C",
+      "explanation": "Với đường cầu nằm ngang, một thay đổi rất nhỏ của giá có thể làm lượng cầu thay đổi tùy ý, nên $|E_D|=\\infty$."
+    },
+    {
+      "id": "2b-011",
+      "topic": "Các dạng đường cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Đường cầu thẳng đứng có hệ số co giãn theo giá bằng bao nhiêu?",
+      "options": {
+        "A": "$E_D=-1$",
+        "B": "$E_D=0$",
+        "C": "$E_D=1$",
+        "D": "$|E_D|=\\infty$"
+      },
+      "correct_answer": "B",
+      "explanation": "Đường cầu thẳng đứng cho thấy lượng cầu không đổi khi giá thay đổi, nên $\\%\\Delta Q_D=0$ và $E_D=0$."
+    },
+    {
+      "id": "2b-012",
+      "topic": "Đường cầu tuyến tính",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Trên một đường cầu tuyến tính dốc xuống, khi di chuyển từ phần trên xuống phần dưới của đường cầu thì $|E_D|$ thay đổi thế nào?",
+      "options": {
+        "A": "Tăng dần",
+        "B": "Giảm dần",
+        "C": "Luôn bằng $1$",
+        "D": "Không đổi vì độ dốc không đổi"
+      },
+      "correct_answer": "B",
+      "explanation": "Độ dốc của đường cầu tuyến tính không đổi nhưng tỷ số $P/Q_D$ giảm khi đi xuống, vì vậy $|E_D|$ giảm dần."
+    },
+    {
+      "id": "2b-013",
+      "topic": "Yếu tố ảnh hưởng đến độ co giãn của cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Yếu tố nào sau đây thường làm cầu co giãn nhiều hơn theo giá?",
+      "options": {
+        "A": "Hàng hóa có ít sản phẩm thay thế",
+        "B": "Hàng hóa là nhu yếu phẩm",
+        "C": "Người mua có nhiều thời gian điều chỉnh hành vi",
+        "D": "Chi tiêu cho hàng hóa chiếm tỷ trọng rất nhỏ trong thu nhập"
+      },
+      "correct_answer": "C",
+      "explanation": "Thời gian điều chỉnh càng dài, người mua càng dễ tìm phương án thay thế nên cầu thường co giãn nhiều hơn."
+    },
+    {
+      "id": "2b-014",
+      "topic": "Yếu tố ảnh hưởng đến độ co giãn của cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Cặp đặc điểm nào phù hợp nhất với hàng hóa có $|E_D|<1$?",
+      "options": {
+        "A": "Nhiều sản phẩm thay thế và được định nghĩa hẹp",
+        "B": "Hàng xa xỉ và chiếm tỷ trọng chi tiêu lớn",
+        "C": "Ít sản phẩm thay thế và là hàng thiết yếu",
+        "D": "Thời gian điều chỉnh dài và có nhiều sản phẩm thay thế"
+      },
+      "correct_answer": "C",
+      "explanation": "Hàng thiết yếu và ít có khả năng thay thế khiến lượng cầu phản ứng yếu trước thay đổi của giá."
+    },
+    {
+      "id": "2b-015",
+      "topic": "Độ co giãn và doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Biết tổng doanh thu $TR=P\\times Q$. Nếu $|E_D|>1$, để tăng $TR$ người bán nên làm gì?",
+      "options": {
+        "A": "Tăng giá",
+        "B": "Giảm giá",
+        "C": "Giữ nguyên giá vì doanh thu luôn cố định",
+        "D": "Ngừng bán sản phẩm"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi cầu co giãn nhiều, tỷ lệ tăng lượng bán do giảm giá lớn hơn tỷ lệ giảm giá, nên $TR$ tăng."
+    },
+    {
+      "id": "2b-016",
+      "topic": "Độ co giãn và doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Nếu $|E_D|<1$, giá và tổng doanh thu $TR$ có quan hệ như thế nào?",
+      "options": {
+        "A": "Nghịch biến",
+        "B": "Đồng biến",
+        "C": "Không có quan hệ",
+        "D": "$TR$ luôn bằng $0$"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi cầu co giãn ít, giá tăng theo tỷ lệ lớn hơn mức giảm của lượng cầu, nên $TR$ tăng; giá và $TR$ đồng biến."
+    },
+    {
+      "id": "2b-017",
+      "topic": "Độ co giãn và doanh thu",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Tại điểm có $|E_D|=1$, phát biểu nào đúng?",
+      "options": {
+        "A": "$TR$ thay đổi cùng chiều với giá",
+        "B": "$TR$ thay đổi ngược chiều với giá",
+        "C": "$TR$ đạt cực đại và không đổi đối với một thay đổi giá nhỏ quanh điểm đó",
+        "D": "$TR$ luôn bằng chi phí"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại mức co giãn đơn vị, tác động của thay đổi giá và lượng bán bù nhau; trên đường cầu tuyến tính, đây là vị trí $TR$ cực đại."
+    },
+    {
+      "id": "2b-018",
+      "topic": "Bài toán doanh thu",
+      "difficulty": "hard",
+      "source_pages": [
+        9
+      ],
+      "question": "Một cửa hàng bán $200$ bánh/ngày với giá $10{,}000$ đồng. Khi giá tăng lên $12{,}000$ đồng, lượng bán giảm còn $150$ bánh/ngày. Theo phương pháp trung điểm, kết luận nào đúng?",
+      "options": {
+        "A": "$E_D\\approx-0.64$ và doanh thu tăng",
+        "B": "$E_D\\approx-1.57$ và doanh thu giảm",
+        "C": "$E_D=-1$ và doanh thu không đổi",
+        "D": "$E_D\\approx1.57$ và doanh thu tăng"
+      },
+      "correct_answer": "B",
+      "explanation": "$E_D=\\frac{-50/175}{2000/11000}\\approx-1.57$. Doanh thu giảm từ $10{,}000\\times200=2{,}000{,}000$ xuống $12{,}000\\times150=1{,}800{,}000$ đồng/ngày."
+    },
+    {
+      "id": "2b-019",
+      "topic": "Độ co giãn của cầu theo thu nhập",
+      "difficulty": "easy",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Công thức của độ co giãn của cầu theo thu nhập là gì?",
+      "options": {
+        "A": "$E_I=\\frac{\\%\\Delta I}{\\%\\Delta Q_D}$",
+        "B": "$E_I=\\frac{\\%\\Delta Q_D}{\\%\\Delta I}$",
+        "C": "$E_I=\\frac{\\%\\Delta Q_D}{\\%\\Delta P}$",
+        "D": "$E_I=I\\times Q_D$"
+      },
+      "correct_answer": "B",
+      "explanation": "$E_I$ đo phần trăm thay đổi lượng cầu khi thu nhập $I$ thay đổi $1\\%$: $E_I=\\frac{\\%\\Delta Q_D}{\\%\\Delta I}$."
+    },
+    {
+      "id": "2b-020",
+      "topic": "Phân loại hàng hóa theo thu nhập",
+      "difficulty": "easy",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Nếu $E_I<0$, hàng hóa được phân loại là gì?",
+      "options": {
+        "A": "Hàng hóa thông thường",
+        "B": "Hàng hóa cao cấp",
+        "C": "Hàng hóa thứ cấp",
+        "D": "Hàng hóa thay thế"
+      },
+      "correct_answer": "C",
+      "explanation": "$E_I<0$ cho thấy thu nhập và lượng cầu thay đổi ngược chiều, đây là đặc điểm của hàng hóa thứ cấp."
+    },
+    {
+      "id": "2b-021",
+      "topic": "Phân loại hàng hóa theo thu nhập",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        11,
+        12
+      ],
+      "question": "Thu nhập giảm $25\\%$ làm lượng cầu hàng hóa $A$ giảm $10\\%$. $E_I$ và loại hàng hóa tương ứng là gì?",
+      "options": {
+        "A": "$E_I=0.4$, hàng hóa thiết yếu",
+        "B": "$E_I=-0.4$, hàng hóa thứ cấp",
+        "C": "$E_I=2.5$, hàng hóa cao cấp",
+        "D": "$E_I=0$, hàng hóa không liên quan"
+      },
+      "correct_answer": "A",
+      "explanation": "$E_I=\\frac{-10\\%}{-25\\%}=0.4$. Vì $0<E_I<1$, $A$ là hàng hóa thông thường thiết yếu."
+    },
+    {
+      "id": "2b-022",
+      "topic": "Phân loại hàng hóa theo thu nhập",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Thu nhập tăng $18\\%$ làm lượng cầu hàng hóa $B$ giảm $5\\%$. Kết luận nào đúng?",
+      "options": {
+        "A": "$E_I\\approx0.28$, hàng thiết yếu",
+        "B": "$E_I\\approx-0.28$, hàng thứ cấp",
+        "C": "$E_I=3.6$, hàng cao cấp",
+        "D": "$E_I=-3.6$, hàng bổ sung"
+      },
+      "correct_answer": "B",
+      "explanation": "$E_I=\\frac{-5\\%}{18\\%}\\approx-0.28<0$, vì vậy $B$ là hàng hóa thứ cấp."
+    },
+    {
+      "id": "2b-023",
+      "topic": "Phân loại hàng hóa theo thu nhập",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Thu nhập tăng $25\\%$ làm lượng cầu hàng hóa $C$ tăng $30\\%$. $C$ thuộc loại hàng hóa nào?",
+      "options": {
+        "A": "Hàng thứ cấp vì $E_I=-1.2$",
+        "B": "Hàng thiết yếu vì $E_I=0.83$",
+        "C": "Hàng cao cấp vì $E_I=1.2$",
+        "D": "Hàng không liên quan vì $E_I=0$"
+      },
+      "correct_answer": "C",
+      "explanation": "$E_I=\\frac{30\\%}{25\\%}=1.2>1$, nên $C$ là hàng hóa cao cấp hay xa xỉ."
+    },
+    {
+      "id": "2b-024",
+      "topic": "Độ co giãn chéo của cầu",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        12
+      ],
+      "question": "Công thức độ co giãn chéo của cầu đối với hai hàng hóa $X$ và $Y$ là gì?",
+      "options": {
+        "A": "$E_{XY}=\\frac{\\%\\Delta Q_X}{\\%\\Delta P_Y}$",
+        "B": "$E_{XY}=\\frac{\\%\\Delta P_X}{\\%\\Delta Q_Y}$",
+        "C": "$E_{XY}=\\frac{\\%\\Delta Q_X}{\\%\\Delta I}$",
+        "D": "$E_{XY}=P_XQ_Y$"
+      },
+      "correct_answer": "A",
+      "explanation": "$E_{XY}$ đo mức thay đổi của lượng cầu hàng hóa $X$ khi giá hàng hóa $Y$ thay đổi: $E_{XY}=\\frac{\\%\\Delta Q_X}{\\%\\Delta P_Y}$."
+    },
+    {
+      "id": "2b-025",
+      "topic": "Quan hệ giữa các hàng hóa",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Nếu $E_{XY}<0$, quan hệ giữa $X$ và $Y$ là gì?",
+      "options": {
+        "A": "Hai hàng hóa thay thế",
+        "B": "Hai hàng hóa bổ sung",
+        "C": "Hai hàng hóa không liên quan",
+        "D": "Hai hàng hóa thứ cấp"
+      },
+      "correct_answer": "B",
+      "explanation": "$E_{XY}<0$ nghĩa là giá $Y$ và lượng cầu $X$ thay đổi ngược chiều, đặc trưng của hai hàng hóa bổ sung."
+    },
+    {
+      "id": "2b-026",
+      "topic": "Bài toán độ co giãn chéo",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Giá hàng hóa $X$ giảm $10\\%$ làm lượng cầu hàng hóa $Y$ tăng $20\\%$. Hệ số co giãn chéo của cầu $Y$ theo giá $X$ và quan hệ giữa hai hàng hóa là gì?",
+      "options": {
+        "A": "$E_{YX}=2$, hai hàng hóa thay thế",
+        "B": "$E_{YX}=-2$, hai hàng hóa bổ sung",
+        "C": "$E_{YX}=-0.5$, hai hàng hóa bổ sung",
+        "D": "$E_{YX}=0$, hai hàng hóa không liên quan"
+      },
+      "correct_answer": "B",
+      "explanation": "$E_{YX}=\\frac{20\\%}{-10\\%}=-2<0$, nên $X$ và $Y$ là hai hàng hóa bổ sung."
+    },
+    {
+      "id": "2b-027",
+      "topic": "Bài toán độ co giãn chéo",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Giá bột giặt Omo tăng $15\\%$ làm lượng cầu bột giặt Tide tăng $10\\%$. Kết luận nào đúng?",
+      "options": {
+        "A": "$E_{Tide,Omo}\\approx0.67$, Omo và Tide là hàng hóa thay thế",
+        "B": "$E_{Tide,Omo}\\approx-0.67$, Omo và Tide là hàng hóa bổ sung",
+        "C": "$E_{Tide,Omo}=1.5$, hai hàng hóa không liên quan",
+        "D": "$E_{Tide,Omo}=0$, hai hàng hóa thay thế hoàn toàn"
+      },
+      "correct_answer": "A",
+      "explanation": "$E_{Tide,Omo}=\\frac{10\\%}{15\\%}\\approx0.67>0$, nên hai nhãn bột giặt là hàng hóa thay thế."
+    },
+    {
+      "id": "2b-028",
+      "topic": "Độ co giãn của cung theo giá",
+      "difficulty": "easy",
+      "source_pages": [
+        13,
+        14
+      ],
+      "question": "Công thức độ co giãn của cung theo giá là gì?",
+      "options": {
+        "A": "$E_S=\\frac{\\%\\Delta Q_S}{\\%\\Delta P}$",
+        "B": "$E_S=\\frac{\\%\\Delta P}{\\%\\Delta Q_S}$",
+        "C": "$E_S=\\frac{\\%\\Delta Q_D}{\\%\\Delta I}$",
+        "D": "$E_S=P-Q_S$"
+      },
+      "correct_answer": "A",
+      "explanation": "$E_S$ bằng phần trăm thay đổi lượng cung chia cho phần trăm thay đổi giá. Trong trường hợp thông thường, $E_S>0$ vì $P$ và $Q_S$ đồng biến."
+    },
+    {
+      "id": "2b-029",
+      "topic": "Độ co giãn của cung theo giá",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Giá sữa tăng $20\\%$ làm lượng sữa cung ứng tăng $25\\%$. $E_S$ bằng bao nhiêu và cung thuộc loại nào?",
+      "options": {
+        "A": "$E_S=0.8$, cung co giãn ít",
+        "B": "$E_S=1$, cung co giãn đơn vị",
+        "C": "$E_S=1.25$, cung co giãn nhiều",
+        "D": "$E_S=-1.25$, cung co giãn nhiều"
+      },
+      "correct_answer": "C",
+      "explanation": "$E_S=\\frac{25\\%}{20\\%}=1.25>1$, nên cung co giãn nhiều."
+    },
+    {
+      "id": "2b-030",
+      "topic": "Các dạng đường cung",
+      "difficulty": "easy",
+      "source_pages": [
+        15,
+        16
+      ],
+      "question": "Ghép dạng đường cung với hệ số co giãn nào là đúng?",
+      "options": {
+        "A": "Đường cung thẳng đứng: $E_S=\\infty$",
+        "B": "Đường cung nằm ngang: $E_S=0$",
+        "C": "Đường cung thẳng đứng: $E_S=0$",
+        "D": "Đường cung dốc lên luôn có $E_S=1$"
+      },
+      "correct_answer": "C",
+      "explanation": "Đường cung thẳng đứng cho thấy lượng cung không phản ứng với giá nên $E_S=0$; đường cung nằm ngang có $E_S=\\infty$."
+    },
+    {
+      "id": "2b-031",
+      "topic": "Cân bằng và co giãn điểm",
+      "difficulty": "hard",
+      "source_pages": [
+        14
+      ],
+      "question": "Cho $Q_D=-0.5P+200$ và $Q_S=1.5P-10$. Giá và lượng cân bằng thị trường là bao nhiêu?",
+      "options": {
+        "A": "$P^*=95,\\ Q^*=152.5$",
+        "B": "$P^*=100,\\ Q^*=150$",
+        "C": "$P^*=105,\\ Q^*=147.5$",
+        "D": "$P^*=110,\\ Q^*=145$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại cân bằng, $-0.5P+200=1.5P-10$, suy ra $2P=210$, nên $P^*=105$ và $Q^*=147.5$."
+    },
+    {
+      "id": "2b-032",
+      "topic": "Cân bằng và co giãn điểm",
+      "difficulty": "hard",
+      "source_pages": [
+        14
+      ],
+      "question": "Với $Q_D=-0.5P+200$, tại điểm cân bằng $P^*=105$ và $Q^*=147.5$, độ co giãn điểm của cầu xấp xỉ bằng bao nhiêu?",
+      "options": {
+        "A": "$E_D\\approx-0.36$",
+        "B": "$E_D\\approx-1.07$",
+        "C": "$E_D\\approx0.36$",
+        "D": "$E_D\\approx-2.81$"
+      },
+      "correct_answer": "A",
+      "explanation": "$E_D=\\frac{dQ_D}{dP}\\frac{P}{Q_D}=-0.5\\cdot\\frac{105}{147.5}\\approx-0.36$. Cầu co giãn ít tại điểm này."
+    },
+    {
+      "id": "2b-033",
+      "topic": "Cân bằng và co giãn điểm",
+      "difficulty": "hard",
+      "source_pages": [
+        14
+      ],
+      "question": "Với $Q_S=1.5P-10$, tại $P^*=105$ và $Q^*=147.5$, độ co giãn điểm của cung xấp xỉ bằng bao nhiêu?",
+      "options": {
+        "A": "$E_S\\approx0.36$",
+        "B": "$E_S\\approx0.71$",
+        "C": "$E_S\\approx1.07$",
+        "D": "$E_S\\approx2.14$"
+      },
+      "correct_answer": "C",
+      "explanation": "$E_S=\\frac{dQ_S}{dP}\\frac{P}{Q_S}=1.5\\cdot\\frac{105}{147.5}\\approx1.07$, nên cung co giãn nhiều tại điểm cân bằng."
+    },
+    {
+      "id": "2b-034",
+      "topic": "Trạng thái thị trường",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Tại mức giá $P=50$, thị trường có $Q_D=120$ và $Q_S=90$. Trạng thái thị trường là gì?",
+      "options": {
+        "A": "Dư cung $30$ đơn vị",
+        "B": "Thiếu hụt $30$ đơn vị",
+        "C": "Cân bằng tại $Q=105$",
+        "D": "Thiếu hụt $210$ đơn vị"
+      },
+      "correct_answer": "B",
+      "explanation": "Vì $Q_D-Q_S=120-90=30>0$, lượng cầu vượt lượng cung nên thị trường thiếu hụt $30$ đơn vị."
+    },
+    {
+      "id": "2b-035",
+      "topic": "Yếu tố ảnh hưởng đến độ co giãn của cung",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Điều kiện nào thường làm cung co giãn nhiều hơn theo giá?",
+      "options": {
+        "A": "Thời gian điều chỉnh ngắn và hàng hóa không thể dự trữ",
+        "B": "Người bán rất khó thay đổi sản lượng",
+        "C": "Thời gian điều chỉnh dài, hàng hóa dự trữ được và sản lượng dễ thay đổi",
+        "D": "Lượng cung bị cố định hoàn toàn"
+      },
+      "correct_answer": "C",
+      "explanation": "Trong dài hạn, khi hàng hóa có thể dự trữ và người bán dễ thay đổi sản lượng, lượng cung phản ứng mạnh hơn trước thay đổi giá nên $E_S$ cao hơn."
+    }
+  ]
+}
