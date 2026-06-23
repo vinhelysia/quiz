@@ -508,7 +508,20 @@
         "D": "Đường cầu dịch sang phải"
       },
       "correct_answer": "A",
-      "explanation": "Chi phí đầu vào giảm làm sản xuất có lợi hơn, cung tăng và đường cung dịch sang phải."
+      "explanation": "Chi phí đầu vào giảm làm sản xuất có lợi hơn, cung tăng và đường cung dịch sang phải.",
+      "figure": {
+        "type": "econ_chart",
+        "xLabel": "Q",
+        "yLabel": "P",
+        "domain": [0, 70],
+        "range": [0, 70],
+        "primitives": [
+          { "kind": "line", "from": [0, 60], "to": [60, 0], "label": "D", "color": "var(--demand-color)" },
+          { "kind": "line", "from": [0, 15], "to": [60, 45], "label": "S1", "color": "var(--supply-color)" },
+          { "kind": "line", "from": [0, 0],  "to": [60, 30], "label": "S2", "color": "var(--supply-color)", "dash": "dashed" },
+          { "kind": "arrow", "from": [25, 27.5], "to": [37, 27.5], "label": "Shift" }
+        ]
+      }
     },
     {
       "id": "2a-030",

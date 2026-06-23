@@ -356,7 +356,23 @@
         "D": "Luôn tại tung độ gốc của đường đẳng phí"
       },
       "correct_answer": "B",
-      "explanation": "Điểm tiếp xúc đạt đường đẳng lượng cao nhất với ngân sách cho trước, hoặc đường đẳng phí thấp nhất với sản lượng cho trước. Tại đó độ dốc hai đường bằng nhau."
+      "explanation": "Điểm tiếp xúc đạt đường đẳng lượng cao nhất với ngân sách cho trước, hoặc đường đẳng phí thấp nhất với sản lượng cho trước. Tại đó độ dốc hai đường bằng nhau.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Đồ thị đẳng lượng - đẳng phí",
+        "xLabel": "L",
+        "yLabel": "K",
+        "domain": [0, 100],
+        "range": [0, 100],
+        "primitives": [
+          { "kind": "line", "from": [0, 80], "to": [80, 0], "label": "Đẳng phí (TC)", "color": "var(--budget-color)" },
+          { "kind": "curve", "preset": "indifference", "label": "Q", "color": "var(--curve-color)", "id": "isoquant" },
+          { "kind": "point", "at": [40, 40], "label": "A (Tối ưu)", "labelPos": "ne", "dashed": true }
+        ],
+        "presetParams": {
+          "utility": 1600
+        }
+      }
     },
     {
       "id": "4-021",
@@ -719,7 +735,16 @@
         "D": "$MC$ không bao giờ cắt $AC$ hoặc $AVC$"
       },
       "correct_answer": "B",
-      "explanation": "Đại lượng biên nằm trên đại lượng trung bình sẽ kéo trung bình tăng và nằm dưới sẽ kéo trung bình giảm. Vì thế $MC$ cắt $AVC$ và $AC$ tại các điểm cực tiểu tương ứng."
+      "explanation": "Đại lượng biên nằm trên đại lượng trung bình sẽ kéo trung bình tăng và nằm dưới sẽ kéo trung bình giảm. Vì thế $MC$ cắt $AVC$ và $AC$ tại các điểm cực tiểu tương ứng.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Đồ thị các đường chi phí ngắn hạn",
+        "xLabel": "Q",
+        "yLabel": "C",
+        "domain": [0, 90],
+        "range": [0, 50],
+        "preset": "cost_curves"
+      }
     },
     {
       "id": "4-042",

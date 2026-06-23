@@ -1,6 +1,7 @@
 import type { Quiz, OptionKey, Question } from '../types/quiz';
 import type { UseQuizSessionResult } from '../hooks/useQuizSession';
 import MathText from './MathText';
+import FigureView from './FigureView';
 
 interface QuizScreenProps {
   quiz: Quiz;
@@ -115,6 +116,12 @@ function QuizScreen({
         <div className="question-text">
           <MathText>{current.question}</MathText>
         </div>
+
+        {current.figure && (
+          <div className="question-figure">
+            <FigureView spec={current.figure} />
+          </div>
+        )}
 
         <div className="options" role="radiogroup" aria-label="Các đáp án">
           {OPTION_KEYS.map((k) => (

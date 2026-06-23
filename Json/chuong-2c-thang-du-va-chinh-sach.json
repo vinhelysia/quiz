@@ -84,7 +84,21 @@
         "D": "Toàn bộ vùng nằm bên phải lượng cân bằng"
       },
       "correct_answer": "C",
-      "explanation": "Đường cầu phản ánh $WTP$; chênh lệch giữa đường cầu và mức giá thực trả tạo thành $CS$."
+      "explanation": "Đường cầu phản ánh $WTP$; chênh lệch giữa đường cầu và mức giá thực trả tạo thành $CS$.",
+      "figure": {
+        "type": "econ_chart",
+        "xLabel": "Q",
+        "yLabel": "P",
+        "domain": [0, 70],
+        "range": [0, 70],
+        "preset": "supply_demand",
+        "presetParams": {
+          "demandA": 60,
+          "demandB": 1,
+          "supplyA": 0,
+          "supplyB": 1
+        }
+      }
     },
     {
       "id": "2c-005",

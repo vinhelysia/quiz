@@ -594,3 +594,23 @@ option-group {
     font-size: 2.4rem;
   }
 }
+
+/* ---------- Question Figure Container ---------- */
+.question-figure {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.figure-container {
+  width: 100%;
+  max-width: 450px;
+}
+
+.figure-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}

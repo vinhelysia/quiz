@@ -472,7 +472,22 @@
         "D": "$MRS$ không phụ thuộc vào vị trí"
       },
       "correct_answer": "C",
-      "explanation": "Khi $X$ nhiều dần và $Y$ ít dần, người tiêu dùng sẵn sàng từ bỏ ngày càng ít $Y$ để có thêm $X$: $6$ giảm xuống $2$."
+      "explanation": "Khi $X$ nhiều dần và $Y$ ít dần, người tiêu dùng sẵn sàng từ bỏ ngày càng ít $Y$ để có thêm $X$: $6$ giảm xuống $2$.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Đường đẳng ích và tỷ lệ thay thế biên (MRS)",
+        "xLabel": "X",
+        "yLabel": "Y",
+        "domain": [0, 90],
+        "range": [0, 90],
+        "primitives": [
+          { "kind": "curve", "preset": "indifference", "label": "U", "color": "var(--curve-color)" },
+          { "kind": "point", "at": [15, 60], "label": "A", "labelPos": "ne" },
+          { "kind": "point", "at": [20, 45], "label": "B", "labelPos": "ne" },
+          { "kind": "point", "at": [45, 20], "label": "D", "labelPos": "ne" },
+          { "kind": "point", "at": [60, 15], "label": "E", "labelPos": "ne" }
+        ]
+      }
     },
     {
       "id": "3-028",
@@ -557,7 +572,20 @@
         "D": "Chặn trục $x$ tại $80$, chặn trục $y$ tại $40$"
       },
       "correct_answer": "D",
-      "explanation": "$x_{max}=\\frac{I}{P_X}=80$ và $y_{max}=\\frac{I}{P_Y}=40$."
+      "explanation": "$x_{max}=\\frac{I}{P_X}=80$ và $y_{max}=\\frac{I}{P_Y}=40$.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Đường ngân sách",
+        "xLabel": "X",
+        "yLabel": "Y",
+        "domain": [0, 90],
+        "range": [0, 50],
+        "primitives": [
+          { "kind": "line", "from": [0, 40], "to": [80, 0], "label": "Ngân sách (I=80)", "id": "budget" },
+          { "kind": "point", "at": [80, 0], "label": "x_max = 80", "labelPos": "se" },
+          { "kind": "point", "at": [0, 40], "label": "y_max = 40", "labelPos": "nw" }
+        ]
+      }
     },
     {
       "id": "3-033",

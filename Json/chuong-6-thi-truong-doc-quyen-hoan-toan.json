@@ -287,7 +287,22 @@
         "D": "$MR$ có độ dốc bằng một nửa đường cầu và nằm trên đường cầu"
       },
       "correct_answer": "A",
-      "explanation": "Với $P=aQ+b$, đường $MR=2aQ+b$ có cùng tung độ gốc $b$ nhưng hệ số góc có độ lớn gấp đôi, nên nằm dưới đường cầu khi $Q>0$."
+      "explanation": "Với $P=aQ+b$, đường $MR=2aQ+b$ có cùng tung độ gốc $b$ nhưng hệ số góc có độ lớn gấp đôi, nên nằm dưới đường cầu khi $Q>0$.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Đường cầu và doanh thu biên (MR)",
+        "xLabel": "Q",
+        "yLabel": "P",
+        "domain": [0, 110],
+        "range": [0, 90],
+        "primitives": [
+          { "kind": "line", "from": [0, 80], "to": [100, 0], "label": "D (Cầu)", "color": "var(--demand-color)" },
+          { "kind": "line", "from": [0, 80], "to": [50, 0], "label": "MR", "color": "var(--curve-color)" },
+          { "kind": "point", "at": [0, 80], "label": "b", "labelPos": "nw" },
+          { "kind": "point", "at": [50, 0], "label": "b/(2|a|)", "labelPos": "se" },
+          { "kind": "point", "at": [100, 0], "label": "b/|a|", "labelPos": "se" }
+        ]
+      }
     },
     {
       "id": "6-017",

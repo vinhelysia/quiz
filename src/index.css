@@ -23,6 +23,23 @@
   --radius: 14px;
   --radius-sm: 9px;
 
+  /* Econ chart colors (Light mode) */
+  --demand-color: #1d4ed8;
+  --supply-color: #dc2626;
+  --budget-color: #059669;
+  --curve-color: #7c3aed;
+  --arrow-color: #d97706;
+  --text-color: #1f2937;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --card-bg: #ffffff;
+  --cs-fill: rgba(29, 78, 216, 0.12);
+  --ps-fill: rgba(220, 38, 38, 0.12);
+  --dwl-stroke: #9ca3af;
+  --profit-fill: rgba(16, 185, 129, 0.12);
+  --loss-fill: rgba(239, 68, 68, 0.12);
+  --welfare-fill: rgba(139, 92, 246, 0.12);
+
   /* Typography */
   --sans: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue',
     Arial, 'Noto Sans', sans-serif;
@@ -66,6 +83,23 @@
     --warn: #e9a64a;
     --shadow: rgba(0, 0, 0, 0.45) 0 14px 28px -10px,
       rgba(0, 0, 0, 0.35) 0 4px 10px -4px;
+
+    /* Econ chart colors (Dark mode override) */
+    --demand-color: #60a5fa;
+    --supply-color: #f87171;
+    --budget-color: #34d399;
+    --curve-color: #a78bfa;
+    --arrow-color: #fbbf24;
+    --text-color: #f4f1ff;
+    --text-muted: #8f88a6;
+    --border-color: #2c2640;
+    --card-bg: #1d1830;
+    --cs-fill: rgba(96, 165, 250, 0.2);
+    --ps-fill: rgba(248, 113, 113, 0.2);
+    --dwl-stroke: #8f88a6;
+    --profit-fill: rgba(52, 211, 153, 0.2);
+    --loss-fill: rgba(248, 113, 113, 0.2);
+    --welfare-fill: rgba(167, 139, 250, 0.2);
   }
 }
 

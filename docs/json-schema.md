@@ -32,6 +32,21 @@ Each object in the `questions` array must contain:
   - `options.D` (string, required)
 - `correct_answer` (string, required): The correct option key. Must be exactly `"A"`, `"B"`, `"C"`, or `"D"`.
 - `explanation` (string, required): Explanation of why the answer is correct and why other choices are incorrect.
+- `figure` (object, optional): Configuration to render inline SVG economic charts.
+  - `type` (string, optional): Must be exactly `"econ_chart"` if provided.
+  - `title` (string, optional): Title displayed above the chart.
+  - `xLabel` (string, optional): Horizontal axis label (default: `"Q"`).
+  - `yLabel` (string, optional): Vertical axis label (default: `"P"`).
+  - `domain` (array of 2 numbers, optional): Horizontal coordinate boundaries `[xMin, xMax]` (default: `[0, 100]`).
+  - `range` (array of 2 numbers, optional): Vertical coordinate boundaries `[yMin, yMax]` (default: `[0, 100]`).
+  - `preset` (string, optional): Shorthand to automatically generate standard economic diagrams. Allowed values: `"supply_demand"`, `"ppf"`, `"indifference_budget"`, `"cost_curves"`, `"monopoly"`.
+  - `presetParams` (object, optional): Parameters to customize the preset curves (e.g. `{ "demandA": 80, "demandB": 0.8 }`).
+  - `primitives` (array of objects, optional): Annotations or custom shapes to draw on the chart:
+    - **Line**: `{ "kind": "line", "from": [x1, y1], "to": [x2, y2], "label"?: string, "color"?: string, "dash"?: "solid"|"dashed", "id"?: string }`
+    - **Curve**: `{ "kind": "curve", "preset"?: "ppf"|"indifference"|"isoquant_l"|"isocost", "points"?: [[x,y],...], "label"?: string, "color"?: string, "id"?: string }`
+    - **Region**: `{ "kind": "region", "vertices": [[x,y],...], "label"?: string, "semantic"?: "consumer_surplus"|"producer_surplus"|"deadweight_loss"|"profit"|"loss"|"welfare" }`
+    - **Point**: `{ "kind": "point", "at": [x, y], "label"?: string, "labelPos"?: "ne"|"nw"|"se"|"sw", "dashed"?: boolean }`
+    - **Arrow**: `{ "kind": "arrow", "from": [x1, y1], "to": [x2, y2], "label"?: string }`
 
 ---
 
@@ -64,6 +79,55 @@ Each object in the `questions` array must contain:
       },
       "correct_answer": "C",
       "explanation": "Ta có $x + 2 = 5 \\Leftrightarrow x = 5 - 2 = 3$. Do đó C là câu trả lời đúng."
+    }
+  ]
+}
+```
+
+---
+
+## Example with a Figure
+
+```json
+{
+  "chapter_id": "chuong-test-figure",
+  "title": "Chương Test Đồ Thị",
+  "source_file": "TEST-FIGURE.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "test-fig-001",
+      "topic": "Đồ thị cung cầu",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Vùng thặng dư tiêu dùng ($CS$) nằm ở đâu?",
+      "options": {
+        "A": "Vùng dưới đường cầu và trên đường giá thực tế",
+        "B": "Vùng dưới đường giá và trên đường cung",
+        "C": "Vùng bên phải lượng cân bằng",
+        "D": "Toàn bộ đồ thị"
+      },
+      "correct_answer": "A",
+      "explanation": "Thặng dư tiêu dùng ($CS$) là phần diện tích dưới đường cầu, trên đường giá.",
+      "figure": {
+        "type": "econ_chart",
+        "xLabel": "Q",
+        "yLabel": "P",
+        "domain": [0, 70],
+        "range": [0, 70],
+        "primitives": [
+          { "kind": "line", "from": [0, 60], "to": [60, 0], "label": "D", "id": "demand" },
+          { "kind": "line", "from": [0, 0],  "to": [60, 60], "label": "S", "id": "supply" },
+          { "kind": "region", "vertices": [[0,60],[0,30],[30,30]], "semantic": "consumer_surplus" },
+          { "kind": "point", "at": [30, 30], "label": "E", "labelPos": "ne", "dashed": true }
+        ]
+      }
     }
   ]
 }

@@ -586,7 +586,30 @@
         "D": "$MC\\times AC$"
       },
       "correct_answer": "A",
-      "explanation": "Lợi nhuận là $(P-AC)q^*<0$, nên độ lớn khoản lỗ là $(AC-P)q^*$. Do $P>AVC$, doanh nghiệp vẫn bù được toàn bộ $TVC$ và một phần $TFC$."
+      "explanation": "Lợi nhuận là $(P-AC)q^*<0$, nên độ lớn khoản lỗ là $(AC-P)q^*$. Do $P>AVC$, doanh nghiệp vẫn bù được toàn bộ $TVC$ và một phần $TFC$.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Doanh nghiệp cạnh tranh hoàn hảo bị lỗ",
+        "xLabel": "q",
+        "yLabel": "P, C",
+        "domain": [0, 80],
+        "range": [0, 60],
+        "primitives": [
+          { "kind": "region", "vertices": [[0, 30], [0, 37], [45, 37], [45, 30]], "semantic": "loss" },
+          { "kind": "line", "from": [0, 30], "to": [80, 30], "label": "P = MR = d", "color": "var(--demand-color)" },
+          { "kind": "curve", "points": [
+            [5, 30], [10, 21.25], [15, 15], [20, 11.25], [25, 10], [30, 11.25], [35, 15], [40, 21.25], [45, 30], [50, 41.25], [55, 55]
+          ], "label": "MC", "color": "var(--supply-color)" },
+          { "kind": "curve", "points": [
+            [10, 47.5], [15, 43], [20, 39.5], [25, 37], [30, 35.5], [35, 35], [40, 35.5], [45, 37], [50, 39.5], [55, 43], [60, 47.5]
+          ], "label": "AC", "color": "var(--curve-color)" },
+          { "kind": "point", "at": [45, 30], "label": "E", "labelPos": "se", "dashed": true },
+          { "kind": "point", "at": [45, 37], "label": "C", "labelPos": "ne", "dashed": true },
+          { "kind": "point", "at": [0, 30], "label": "P", "labelPos": "nw" },
+          { "kind": "point", "at": [0, 37], "label": "AC", "labelPos": "nw" },
+          { "kind": "point", "at": [45, 0], "label": "q*", "labelPos": "se" }
+        ]
+      }
     },
     {
       "id": "5-034",
