@@ -1,0 +1,332 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+\title{\textbf{TỔNG HỢP CÔNG THỨC \& PHƯƠNG PHÁP GIẢI BÀI TẬP\\KINH TẾ HỌC VI MÔ (CHƯƠNG 1 - 4)}}
+\author{Hệ Thống Trắc Nghiệm Kinh Tế Học Vi Mô}
+\date{Tháng 6, Năm 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% =========================================================================
+\section{CHƯƠNG 1: GIỚI THIỆU VỀ KINH TẾ HỌC VI MÔ}
+% =========================================================================
+
+\subsection{Hệ thống công thức cốt lõi}
+\begin{enumerate}
+    \item \textbf{Chi phí cơ hội (Opportunity Cost - OC):}
+    Chi phí cơ hội của việc chọn sản xuất thêm $1$ đơn vị sản phẩm $X$ là số lượng sản phẩm $Y$ phải từ bỏ:
+    \begin{equation}
+        OC_X = \left| \frac{\Delta Y}{\Delta X} \right| = \left| \frac{Y_2 - Y_1}{X_2 - X_1} \right|
+    \end{equation}
+    Ngược lại, chi phí cơ hội của sản phẩm $Y$ là:
+    \begin{equation}
+        OC_Y = \frac{1}{OC_X} = \left| \frac{\Delta X}{\Delta Y} \right|
+    \end{equation}
+
+    \item \textbf{Đường giới hạn khả năng sản xuất (PPF):}
+    Phương trình PPF thường có dạng tuyến tính ($aX + bY = C$) hoặc phi tuyến (đường cong lồi so với gốc tọa độ, ví dụ: $X^2 + Y^2 = R^2$).
+\end{enumerate}
+
+\subsection{Dấu hiệu nhận biết dạng bài}
+\begin{itemize}
+    \item \textbf{Bài toán Chi phí cơ hội:} Đề bài cho bảng số liệu sản lượng tối đa của 2 quốc gia/2 cá nhân đối với 2 loại sản phẩm, hoặc cho phương trình sản xuất dưới dạng tuyến tính.
+    \item \textbf{Bài toán Phân tích điểm trên PPF:} Đề bài cho một phương trình PPF và yêu cầu xác định trạng thái của một phối hợp sản lượng cụ thể $(X_0, Y_0)$.
+\end{itemize}
+
+\subsection{Quy trình giải bài tập mẫu}
+
+\paragraph{Ví dụ 1 (Chi phí cơ hội):}
+Một quốc gia dùng toàn bộ tài nguyên có thể sản xuất tối đa $100$ xe máy hoặc $200$ tấn gạo. Hãy tính chi phí cơ hội để sản xuất thêm $1$ xe máy.
+\begin{itemize}
+    \item \textbf{Cách giải:} 
+    \begin{enumerate}
+        \item Tại điểm chặn 1: $(X_1, Y_1) = (100, 0)$ (chỉ sản xuất xe máy).
+        \item Tại điểm chặn 2: $(X_2, Y_2) = (0, 200)$ (chỉ sản xuất gạo).
+        \item Áp dụng công thức: $OC_{\text{xe máy}} = \left| \frac{200 - 0}{0 - 100} \right| = 2$ tấn gạo.
+    \end{enumerate}
+    \item \textbf{Ý nghĩa:} Để có thêm $1$ xe máy, quốc gia này phải đánh đổi bằng $2$ tấn gạo.
+\end{itemize}
+
+\paragraph{Ví dụ 2 (Độ hiệu quả trên đường PPF):}
+Cho phương trình PPF là $X^2 + 4Y = 100$. Hãy xác định trạng thái của phối hợp sản lượng $A(8, 8)$ và $B(6, 16)$.
+\begin{itemize}
+    \item \textbf{Cách giải:} Thế tọa độ của điểm vào vế trái của phương trình:
+    \begin{enumerate}
+        \item \textbf{Đối với điểm A (8, 8):} $VT = 8^2 + 4(8) = 64 + 32 = 96 < 100$. 
+        \\ $\Rightarrow$ Điểm A nằm \textbf{phía trong} đường PPF $\Rightarrow$ \textbf{Kém hiệu quả} (chưa tận dụng hết nguồn lực).
+        \item \textbf{Đối với điểm B (6, 16):} $VT = 6^2 + 4(16) = 36 + 64 = 100$. 
+        \\ $\Rightarrow$ Điểm B nằm \textbf{trên} đường PPF $\Rightarrow$ \textbf{Hiệu quả}.
+    \end{enumerate}
+\end{itemize}
+
+\newpage
+
+% =========================================================================
+\section{CHƯƠNG 2: CUNG - CẦU VÀ THỊ TRƯỜNG}
+% =========================================================================
+
+\subsection{Hệ thống công thức cốt lõi}
+\begin{enumerate}
+    \item \textbf{Cân bằng thị trường:}
+    \begin{equation}
+        Q_D = Q_S \implies P_0, Q_0
+    \end{equation}
+    \item \textbf{Độ co giãn của cầu theo giá ($E_D$):}
+    \begin{itemize}
+        \item \textit{Độ co giãn điểm:} $E_D = Q'_D(P) \times \frac{P}{Q}$
+        \item \textit{Độ co giãn khoảng (trung điểm):} $E_D = \frac{Q_2 - Q_1}{P_2 - P_1} \times \frac{P_1 + P_2}{Q_1 + Q_2}$
+    \end{itemize}
+    \item \textbf{Độ co giãn chéo của cầu ($E_{XY}$):}
+    \begin{equation}
+        E_{XY} = \frac{\% \Delta Q_X}{\% \Delta P_Y} = \frac{Q_{X2} - Q_{X1}}{P_{Y2} - P_{Y1}} \times \frac{P_{Y1} + P_{Y2}}{Q_{X1} + Q_{X2}}
+    \end{equation}
+    \item \textbf{Độ co giãn của cầu theo thu nhập ($E_I$):}
+    \begin{equation}
+        E_I = \frac{\% \Delta Q_D}{\% \Delta I} = \frac{Q_2 - Q_1}{I_2 - I_1} \times \frac{I_1 + I_2}{Q_1 + Q_2}
+    \end{equation}
+    \item \textbf{Thặng dư tiêu dùng (CS) và Thặng dư sản xuất (PS):}
+    \begin{itemize}
+        \item $CS = \int_{0}^{Q_0} (P_D(Q) - P_0) dQ$ (Đối với cầu tuyến tính: tam giác dưới đường cầu và trên mức giá $P_0$).
+        \item $PS = \int_{0}^{Q_0} (P_0 - P_S(Q)) dQ$ (Đối với cung tuyến tính: tam giác trên đường cung và dưới mức giá $P_0$).
+    \end{itemize}
+    \item \textbf{Chính sách thuế ($t$ trên mỗi đơn vị):}
+    \begin{equation}
+        P_D - P_S = t \quad \text{và} \quad Q_D(P_D) = Q_S(P_S)
+    \end{equation}
+    Gánh nặng thuế chia sẻ:
+    \begin{equation}
+        t_{\text{người mua}} = P_D - P_0, \quad t_{\text{người bán}} = P_0 - P_S
+    \end{equation}
+\end{enumerate}
+
+\subsection{Dấu hiệu nhận biết dạng bài}
+\begin{itemize}
+    \item \textbf{Mối quan hệ hàng hóa:} 
+    \begin{itemize}
+        \item $E_{XY} > 0$: Thay thế. $\quad E_{XY} < 0$: Bổ sung. $\quad E_{XY} = 0$: Độc lập.
+        \item $E_I < 0$: Hàng thứ cấp. $\quad E_I > 0$: Hàng thông thường (thiết yếu nếu $0 < E_I < 1$; xa xỉ nếu $E_I > 1$).
+    \end{itemize}
+    \item \textbf{Tác động của giá trần/giá sàn:}
+    \begin{itemize}
+        \item Giá trần ($P_{\text{max}}$) chỉ có hiệu lực khi $P_{\text{max}} < P_0$ (gây ra thiếu hụt lượng cung).
+        \item Giá sàn ($P_{\text{min}}$) chỉ có hiệu lực khi $P_{\text{min}} > P_0$ (gây ra dư thừa lượng cung).
+    \end{itemize}
+\end{itemize}
+
+\subsection{Quy trình giải bài tập mẫu}
+
+\paragraph{Ví dụ 1 (Độ co giãn):}
+Cho đường cầu $Q_D = 120 - 2P$. Hãy tính độ co giãn của cầu tại mức giá $P = 40$.
+\begin{itemize}
+    \item \textbf{Cách giải:}
+    \begin{enumerate}
+        \item Tính lượng cầu tương ứng: $Q = 120 - 2(40) = 40$.
+        \item Đạo hàm phương trình cầu theo giá: $Q'_D(P) = -2$.
+        \item Áp dụng công thức co giãn điểm: $E_D = -2 \times \frac{40}{40} = -2$.
+        \item \textbf{Kết luận:} Vì $\left| E_D \right| = 2 > 1$, cầu co giãn nhiều tại mức giá này. Khi giá tăng $1\%$, lượng cầu sẽ giảm $2\%$.
+    \end{enumerate}
+\end{itemize}
+
+\paragraph{Ví dụ 2 (Tác động của Thuế):}
+Cho thị trường có cung và cầu là $Q_D = 80 - P$ và $Q_S = 2P - 10$. Chính phủ đánh thuế $t = 15$ lên mỗi sản phẩm bán ra. Tìm giá người mua thực trả ($P_D$), giá người bán thực nhận ($P_S$) và sản lượng giao dịch mới ($Q_T$).
+\begin{itemize}
+    \item \textbf{Cách giải:}
+    \begin{enumerate}
+        \item Giá trị cân bằng trước thuế: $80 - P = 2P - 10 \implies P_0 = 30$, $Q_0 = 50$.
+        \item Thiết lập hệ phương trình sau thuế:
+        \begin{equation*}
+            \begin{cases}
+                P_D - P_S = 15 \implies P_D = P_S + 15\\
+                80 - P_D = 2P_S - 10
+            \end{cases}
+        \end{equation*}
+        \item Thay thế phương trình (1) vào (2):
+        \begin{equation*}
+            80 - (P_S + 15) = 2P_S - 10 \implies 65 - P_S = 2P_S - 10 \implies 3P_S = 75 \implies P_S = 25
+        \end{equation*}
+        \item Tìm các giá trị còn lại: $P_D = 25 + 15 = 40$.
+        \item Sản lượng giao dịch mới: $Q_T = 80 - 40 = 40$.
+    \end{enumerate}
+\end{itemize}
+
+\newpage
+
+% =========================================================================
+\section{CHƯƠNG 3: LÝ THUYẾT HÀNH VI NGƯỜI TIÊU DÙNG}
+% =========================================================================
+
+\subsection{Hệ thống công thức cốt lõi}
+\begin{enumerate}
+    \item \textbf{Đường ngân sách (Budget Line - BL):}
+    \begin{equation}
+        X \times P_X + Y \times P_Y = I \implies Y = \frac{I}{P_Y} - \frac{P_X}{P_Y} \times X
+    \end{equation}
+    Độ dốc của đường ngân sách là tỷ giá thị trường: $-\frac{P_X}{P_Y}$.
+    
+    \item \textbf{Tỷ lệ thay thế biên (Marginal Rate of Substitution - MRS):}
+    Thể hiện lượng $Y$ người tiêu dùng sẵn sàng từ bỏ để tiêu dùng thêm $1$ đơn vị $X$ sao cho độ thỏa dụng không đổi:
+    \begin{equation}
+        MRS_{XY} = -\frac{\Delta Y}{\Delta X} = \frac{MU_X}{MU_Y}
+    \end{equation}
+    Trong đó, hữu dụng biên ($MU$) là đạo hàm riêng của hàm tổng hữu dụng $U(X,Y)$:
+    \begin{equation}
+        MU_X = \frac{\partial U}{\partial X}, \quad MU_Y = \frac{\partial U}{\partial Y}
+    \end{equation}
+
+    \item \textbf{Tối ưu hóa lựa chọn tiêu dùng (Consumer Equilibrium):}
+    Hệ phương trình tìm rổ hàng tối ưu đạt tổng hữu dụng cực đại:
+    \begin{equation}
+        \begin{cases}
+            \frac{MU_X}{P_X} = \frac{MU_Y}{P_Y} \quad (\text{Hoặc } MRS_{XY} = \frac{P_X}{P_Y})\\
+            X \times P_X + Y \times P_Y = I
+        \end{cases}
+    \end{equation}
+\end{enumerate}
+
+\subsection{Dấu hiệu nhận biết dạng bài}
+\begin{itemize}
+    \item \textbf{Đồ thị đặc biệt:}
+    \begin{itemize}
+        \item Hàm Cobb-Douglas $U = X^a Y^b$: Đường đẳng ích cong lồi về gốc tọa độ, tối ưu hóa xảy ra tại điểm tiếp xúc trong.
+        \item Hàm thay thế hoàn hảo $U = aX + bY$: Đường đẳng ích thẳng đứng dốc xuống. Tối ưu thường là giải pháp góc (chỉ mua $X$ hoặc chỉ mua $Y$).
+        \item Hàm bổ sung hoàn hảo (Leontief) $U = \min(aX, bY)$: Đường đẳng ích dạng chữ L. Tối ưu luôn nằm trên đường góc: $aX = bY$.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Quy trình giải bài tập mẫu}
+
+\paragraph{Ví dụ (Tìm lựa chọn tiêu dùng tối ưu):}
+Người tiêu dùng có thu nhập $I = 120$ để mua hai hàng hóa $X$ và $Y$ với mức giá tương ứng là $P_X = 2$ và $P_Y = 4$. Hàm tổng hữu dụng là $U(X, Y) = X Y$. Xác định rổ hàng tiêu dùng tối ưu.
+\begin{itemize}
+    \item \textbf{Cách giải:}
+    \begin{enumerate}
+        \item Tính các hữu dụng biên: 
+        \begin{equation*}
+            MU_X = \frac{\partial (XY)}{\partial X} = Y, \quad MU_Y = \frac{\partial (XY)}{\partial Y} = X
+        \end{equation*}
+        \item Lập hệ phương trình tối ưu hóa:
+        \begin{equation*}
+            \begin{cases}
+                \frac{Y}{2} = \frac{X}{4} \implies 4Y = 2X \implies X = 2Y\\
+                2X + 4Y = 120
+            \end{cases}
+        \end{equation*}
+        \item Thay $X = 2Y$ vào phương trình ngân sách:
+        \begin{equation*}
+            2(2Y) + 4Y = 120 \implies 8Y = 120 \implies Y = 15
+        \end{equation*}
+        \item Tìm $X$: $X = 2(15) = 30$.
+        \item \textbf{Kết luận:} Rổ hàng tối ưu là $(X, Y) = (30, 15)$. Tổng thỏa dụng tối đa đạt được là $U_{\text{max}} = 30 \times 15 = 450$.
+    \end{enumerate}
+\end{itemize}
+
+\newpage
+
+% =========================================================================
+\section{CHƯƠNG 4: LÝ THUYẾT SẢN XUẤT VÀ CHI PHÍ}
+% =========================================================================
+
+\subsection{Hệ thống công thức cốt lõi}
+\begin{enumerate}
+    \item \textbf{Hàm sản xuất ngắn hạn (chỉ L thay đổi) và năng suất biên:}
+    \begin{equation}
+        AP_L = \frac{Q}{L}, \quad MP_L = \frac{\partial Q}{\partial L}
+    \end{equation}
+    \item \textbf{Tỷ lệ thay thế kỹ thuật biên (MRTS):}
+    \begin{equation}
+        MRTS_{LK} = \frac{MP_L}{MP_K}
+    \end{equation}
+    \item \textbf{Tối ưu hóa sản xuất (Chọn đầu vào tối ưu):}
+    \begin{equation}
+        \begin{cases}
+            \frac{MP_L}{P_L} = \frac{MP_K}{P_K} \quad (\text{Hoặc } MRTS_{LK} = \frac{P_L}{P_K})\\
+            TC = L \times P_L + K \times P_K
+        \end{cases}
+    \end{equation}
+    \item \textbf{Cấu trúc chi phí ngắn hạn:}
+    \begin{itemize}
+        \item \textbf{Tổng chi phí:} $TC = TFC + TVC$
+        \item \textbf{Chi phí trung bình:} $ATC = \frac{TC}{Q} = AFC + AVC$
+        \item \textbf{Chi phí cố định trung bình:} $AFC = \frac{TFC}{Q}$
+        \item \textbf{Chi phí biến đổi trung bình:} $AVC = \frac{TVC}{Q}$
+        \item \textbf{Chi phí biên ($MC$):}
+        \begin{equation}
+            MC = \frac{\partial TC}{\partial Q} = \frac{\partial TVC}{\partial Q}
+        \end{equation}
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Dấu hiệu nhận biết dạng bài}
+\begin{itemize}
+    \item \textbf{Đặc điểm các hàm chi phí trung bình và biên:}
+    \begin{itemize}
+        \item $MC$ luôn cắt $ATC$ và $AVC$ tại các điểm \textbf{cực tiểu} của hai đường này.
+        \item Tại điểm cực tiểu của $ATC$: $MC = ATC$.
+        \item Tại điểm cực tiểu của $AVC$: $MC = AVC$.
+    \end{itemize}
+    \item \textbf{Tìm hàm số:} Đề bài cho hàm tổng chi phí $TC(Q)$ dạng đa thức và yêu cầu tìm hàm chi phí biên hoặc chi phí trung bình. Nhớ phân tách số hạng tự do (không chứa $Q$) chính là $TFC$, các số hạng chứa $Q$ là $TVC$.
+\end{itemize}
+
+\subsection{Quy trình giải bài tập mẫu}
+
+\paragraph{Ví dụ 1 (Tối thiểu hóa chi phí đầu vào):}
+Một doanh nghiệp có hàm sản xuất là $Q = L K$. Giá các đầu vào lao động và vốn lần lượt là $P_L = 10$, $P_K = 20$. Doanh nghiệp muốn sản xuất $Q_0 = 200$ sản phẩm. Xác định phối hợp đầu vào tối ưu để chi phí tối thiểu.
+\begin{itemize}
+    \item \textbf{Cách giải:}
+    \begin{enumerate}
+        \item Tính năng suất biên: $MP_L = \frac{\partial (LK)}{\partial L} = K$, $MP_K = \frac{\partial (LK)}{\partial K} = L$.
+        \item Lập hệ phương trình tối ưu hóa phối hợp đầu vào:
+        \begin{equation*}
+            \begin{cases}
+                \frac{K}{10} = \frac{L}{20} \implies 20K = 10L \implies L = 2K\\
+                L \times K = 200
+            \end{cases}
+        \end{equation*}
+        \item Thế phương trình (1) vào (2):
+        \begin{equation*}
+            (2K) \times K = 200 \implies 2K^2 = 200 \implies K^2 = 100 \implies K = 10 \quad (\text{do } K > 0)
+        \end{equation*}
+        \item Tìm $L$: $L = 2(10) = 20$.
+        \item \textbf{Kết luận:} Phối hợp đầu vào tối ưu là $L = 20, K = 10$. Tổng chi phí tối thiểu là $TC = 20(10) + 10(20) = 400$ USD.
+    \end{enumerate}
+\end{itemize}
+
+\paragraph{Ví dụ 2 (Phân tích cấu trúc chi phí):}
+Cho hàm chi phí của doanh nghiệp là $TC = Q^3 - 6Q^2 + 15Q + 100$. Hãy tìm hàm $TFC$, $TVC$, $AVC$, và tìm mức sản lượng $Q$ để $AVC$ đạt cực tiểu.
+\begin{itemize}
+    \item \textbf{Cách giải:}
+    \begin{enumerate}
+        \item Tách các thành phần chi phí:
+        \begin{itemize}
+            \item Thành phần không phụ thuộc $Q$: $TFC = 100$.
+            \item Thành phần phụ thuộc $Q$: $TVC = Q^3 - 6Q^2 + 15Q$.
+        \end{itemize}
+        \item Tìm hàm $AVC$:
+        \begin{equation*}
+            AVC = \frac{TVC}{Q} = \frac{Q^3 - 6Q^2 + 15Q}{Q} = Q^2 - 6Q + 15
+        \end{equation*}
+        \item Cực tiểu hóa $AVC$:
+        Đặt đạo hàm thứ nhất của $AVC$ theo $Q$ bằng 0:
+        \begin{equation*}
+            \frac{dAVC}{dQ} = 2Q - 6 = 0 \implies Q = 3
+        \end{equation*}
+        (Đạo hàm bậc hai là $2 > 0$ nên đây là điểm cực tiểu).
+        \item \textbf{Kết luận:} $AVC$ đạt cực tiểu tại sản lượng $Q = 3$. Giá trị cực tiểu của $AVC$ là $AVC_{\text{min}} = 3^2 - 6(3) + 15 = 6$.
+    \end{enumerate}
+\end{itemize}
+
+\end{document}
