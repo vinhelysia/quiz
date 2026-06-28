@@ -86,4 +86,5 @@ export interface Quiz {
   math_format: MathFormat;
   question_type: 'single_choice';
   questions: Question[];
+  subjectId?: string;   // attached by loader, not present in JSON files
 }

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Quiz } from './types/quiz';
 import { loadBundledQuizzes } from './lib/quizLoader';
+import { SUBJECTS } from './lib/subjects';
 import {
   discardResumable,
   loadResumable,
@@ -10,10 +11,48 @@ import type {
   PersistedState,
   SessionOptions,
 } from './hooks/useQuizSession';
+import SubjectsScreen from './components/SubjectsScreen';
 import HomeScreen from './components/HomeScreen';
 import QuizScreen from './components/QuizScreen';
 import ResultsScreen from './components/ResultsScreen';
 import './App.css';
+
+// ---------------------------------------------------------------------------
+// Minimal hash router
+// ---------------------------------------------------------------------------
+
+type Route =
+  | { name: 'subjects' }
+  | { name: 'subject'; subjectId: string };
+
+function parseHash(hash: string): Route {
+  const h = hash.replace(/^#/, '');
+  const match = h.match(/^\/mon\/([^/?#]+)/);
+  if (match) return { name: 'subject', subjectId: match[1] };
+  return { name: 'subjects' };
+}
+
+function navigate(hash: string) {
+  window.location.hash = hash;
+}
+
+function useHashRoute(): Route {
+  const [route, setRoute] = useState<Route>(() =>
+    parseHash(window.location.hash),
+  );
+
+  useEffect(() => {
+    const handler = () => setRoute(parseHash(window.location.hash));
+    window.addEventListener('hashchange', handler);
+    return () => window.removeEventListener('hashchange', handler);
+  }, []);
+
+  return route;
+}
+
+// ---------------------------------------------------------------------------
+// Screen state within a subject route
+// ---------------------------------------------------------------------------
 
 type Screen = 'home' | 'quiz' | 'results';
 
@@ -25,6 +64,7 @@ interface ActiveAttempt {
 
 function App() {
   const quizzes = useMemo(() => loadBundledQuizzes(), []);
+  const route = useHashRoute();
 
   const [screen, setScreen] = useState<Screen>('home');
   const [attempt, setAttempt] = useState<ActiveAttempt | null>(null);
@@ -33,6 +73,14 @@ function App() {
   const [resumeSnapshot, setResumeSnapshot] = useState<PersistedState | null>(
     () => loadResumable(),
   );
+
+  // Reset screen state when navigating back to subjects
+  useEffect(() => {
+    if (route.name === 'subjects') {
+      setScreen('home');
+      setAttempt(null);
+    }
+  }, [route.name]);
 
   const startAttempt = useCallback(
     (quiz: Quiz, options: SessionOptions, initial?: PersistedState) => {
@@ -57,6 +105,15 @@ function App() {
     const quiz =
       quizzes.find((q) => q.chapter_id === resumeSnapshot.chapterId) ??
       rebuildQuizFromSnapshot(resumeSnapshot);
+
+    // Navigate into the right subject first (if we can find the quiz)
+    const foundQuiz = quizzes.find(
+      (q) => q.chapter_id === resumeSnapshot.chapterId,
+    );
+    if (foundQuiz?.subjectId) {
+      navigate(`#/mon/${foundQuiz.subjectId}`);
+    }
+
     startAttempt(quiz, resumeSnapshot.options, resumeSnapshot);
     setResumeSnapshot(null);
   }, [resumeSnapshot, quizzes, startAttempt]);
@@ -66,10 +123,40 @@ function App() {
     setResumeSnapshot(null);
   }, []);
 
+  // ---------------------------------------------------------------------------
+  // Routing
+  // ---------------------------------------------------------------------------
+
+  if (route.name === 'subjects') {
+    return (
+      <SubjectsScreen
+        subjects={SUBJECTS}
+        quizzes={quizzes}
+        onSelectSubject={(id) => navigate(`#/mon/${id}`)}
+        resume={resumeSnapshot ? { title: resumeSnapshot.title } : null}
+        onResume={handleResume}
+        onDiscardResume={handleDiscardResume}
+      />
+    );
+  }
+
+  // route.name === 'subject'
+  const { subjectId } = route;
+  const subjectMeta =
+    SUBJECTS.find((s) => s.id === subjectId) ?? {
+      id: subjectId,
+      title: subjectId,
+      short: subjectId,
+      description: '',
+      order: 999,
+    };
+
   if (screen === 'home' || !attempt) {
     return (
       <HomeScreen
         quizzes={quizzes}
+        subject={subjectMeta}
+        onBack={() => navigate('#/')}
         onStart={handleStart}
         resume={resumeSnapshot ? { title: resumeSnapshot.title } : null}
         onResume={handleResume}

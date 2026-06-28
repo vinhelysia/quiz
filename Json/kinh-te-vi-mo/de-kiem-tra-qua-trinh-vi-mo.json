@@ -1,0 +1,656 @@
+{
+  "chapter_id": "de-kiem-tra-qua-trinh",
+  "title": "Đề Kiểm Tra Quá Trình - Kinh Tế Vi Mô",
+  "source_file": "De kiem tra qua trinh - Kinh te vi mo.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ktqt-001",
+      "topic": "Hữu dụng",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Hữu dụng trong kinh tế học là:",
+      "options": {
+        "A": "Sự thỏa mãn của các cá nhân khi tiêu dùng hàng hóa và dịch vụ",
+        "B": "Thu nhập thực mà người tiêu dùng dành để mua hàng hóa và dịch vụ",
+        "C": "Mối quan hệ giữa cầu và cung của sản phẩm",
+        "D": "A, B, C đều sai"
+      },
+      "correct_answer": "A",
+      "explanation": "Hữu dụng (utility) là mức độ thỏa mãn hay hài lòng mà người tiêu dùng nhận được khi tiêu dùng hàng hóa và dịch vụ. Đây là khái niệm nền tảng của lý thuyết hành vi người tiêu dùng."
+    },
+    {
+      "id": "ktqt-002",
+      "topic": "Kinh tế học thực chứng và chuẩn tắc",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Phát biểu nào sau đây là phát biểu thuộc kinh tế học thực chứng?",
+      "options": {
+        "A": "Nên có hiệu thuốc miễn phí cho người già.",
+        "B": "Lạm phát tăng khi chính phủ in quá nhiều tiền.",
+        "C": "Lương tối thiểu ở hai khu vực nên như nhau.",
+        "D": "Chính phủ cần giảm tốc độ lạm phát để bảo vệ người nghèo."
+      },
+      "correct_answer": "B",
+      "explanation": "Kinh tế học thực chứng mô tả thực tế \"là gì\" mà không đưa ra phán xét giá trị. \"Lạm phát tăng khi chính phủ in quá nhiều tiền\" là một nhận định thực nghiệm có thể kiểm chứng được, trong khi A, C, D đều là nhận định chuẩn tắc (nên làm gì)."
+    },
+    {
+      "id": "ktqt-003",
+      "topic": "Thất bại thị trường",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Thất bại thị trường có thể xảy ra do nguyên nhân nào sau đây?",
+      "options": {
+        "A": "Sự cạnh tranh hoàn hảo giữa các doanh nghiệp.",
+        "B": "Ảnh hưởng ngoại tác và sức mạnh thị trường.",
+        "C": "Sự phân bổ nguồn lực công bằng của thị trường tự do.",
+        "D": "Bàn tay vô hình hoạt động quá mức."
+      },
+      "correct_answer": "B",
+      "explanation": "Thất bại thị trường xảy ra khi thị trường không phân bổ nguồn lực hiệu quả. Các nguyên nhân chính bao gồm: ngoại tác (externalities), sức mạnh thị trường (độc quyền), hàng hóa công cộng, và thông tin bất cân xứng."
+    },
+    {
+      "id": "ktqt-004",
+      "topic": "Nguyên lý kinh tế - động cơ khuyến khích",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Hiện tượng \"Hiệu ứng Rắn hổ mang\" (Cobra effect) ở Ấn Độ minh họa cho nguyên lý kinh tế nào?",
+      "options": {
+        "A": "Con người phản ứng với các động cơ khuyến khích.",
+        "B": "Thương mại có thể làm cho mọi người đều được lợi.",
+        "C": "Đôi khi chính phủ cải thiện được kết cục thị trường.",
+        "D": "Mức sống phụ thuộc vào năng lực sản xuất."
+      },
+      "correct_answer": "A",
+      "explanation": "Chính phủ Ấn Độ trả tiền cho mỗi con rắn hổ mang bị tiêu diệt, nhưng người dân lại nuôi rắn để lấy tiền thưởng, làm số rắn tăng lên. Điều này minh họa nguyên lý con người phản ứng với động cơ khuyến khích, dù kết quả ngoài ý muốn."
+    },
+    {
+      "id": "ktqt-005",
+      "topic": "Độ co giãn của cầu theo giá",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Trên thị trường, mì gói A xác định được độ co giãn của cầu theo giá của loại mì gói này là 1,8 thì có thể hiểu là?",
+      "options": {
+        "A": "Giá giảm 10% làm lượng cầu mì gói A tăng 18%.",
+        "B": "Giá tăng 10% làm lượng cầu mì gói A tăng 18%.",
+        "C": "Giá tăng 18% làm lượng cầu mì gói A tăng 18%.",
+        "D": "Giá giảm 18% làm lượng cầu mì gói A giảm 10%."
+      },
+      "correct_answer": "A",
+      "explanation": "$|E_d| = 1,8$ nghĩa là khi giá thay đổi 1% thì lượng cầu thay đổi ngược chiều 1,8%. Khi giá giảm 10%, lượng cầu tăng $10\\% \\times 1,8 = 18\\%$. Đáp án B sai vì cầu và giá ngược chiều; C sai vì tỷ lệ thay đổi không đều nhau."
+    },
+    {
+      "id": "ktqt-006",
+      "topic": "Độ co giãn của cầu và doanh thu",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Nếu tăng giá vé xem phim từ 80.000VND lên 120.000VND, rạp CGV dự đoán số lượng người đến rạp xem phim sẽ giảm từ 100.000 người xuống 90.000 người. Để tăng doanh thu CGV nên:",
+      "options": {
+        "A": "Tăng giá lên 120.000 VND",
+        "B": "Giữ nguyên giá 80.000 VND",
+        "C": "Tăng lên 85.000 VND",
+        "D": "Tăng lên 90.000 VND"
+      },
+      "correct_answer": "A",
+      "explanation": "$E_d = \\frac{\\%\\Delta Q}{\\%\\Delta P} = \\frac{(90.000-100.000)/100.000}{(120.000-80.000)/80.000} = \\frac{-0,1}{0,5} = -0,2$. Vì $|E_d| = 0,2 < 1$ (cầu kém co giãn), tăng giá sẽ tăng doanh thu. Doanh thu tại 80k: $8$ tỷ; tại 120k: $10,8$ tỷ → nên tăng giá lên 120.000 VND."
+    },
+    {
+      "id": "ktqt-007",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Trạng thái cân bằng thị trường xảy ra tại điểm nào?",
+      "options": {
+        "A": "Giao điểm giữa đường cung và đường cầu",
+        "B": "Điểm cao nhất trên đường cầu",
+        "C": "Điểm thấp nhất trên đường cung",
+        "D": "Khi lượng cung lớn hơn lượng cầu"
+      },
+      "correct_answer": "A",
+      "explanation": "Cân bằng thị trường xảy ra tại mức giá và sản lượng mà lượng cầu bằng lượng cung ($Q_D = Q_S$), được biểu diễn bằng giao điểm của đường cung và đường cầu trên đồ thị."
+    },
+    {
+      "id": "ktqt-008",
+      "topic": "Dịch chuyển đường cầu",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Nguyên nhân nào làm đường cầu về bút viết nhãn hiệu Thiên Long dịch chuyển sang phải?",
+      "options": {
+        "A": "Giá bút viết Thiên Mã giảm xuống",
+        "B": "Chương trình quảng cáo về bút viết Thiên Mã đã gây ấn tượng tốt cho người tiêu dùng",
+        "C": "Sự giảm giá của nguyên liệu sản xuất bút viết",
+        "D": "Có sự gia tăng mức giá cả của mực bút viết"
+      },
+      "correct_answer": "D",
+      "explanation": "Mực bút viết là hàng hóa bổ sung (complementary good) cho bút Thiên Long. Khi giá mực tăng, người tiêu dùng sẽ mua ít mực hơn và cũng mua ít bút hơn → đường cầu bút Thiên Long dịch chuyển sang trái, không phải sang phải. Tuy nhiên đây là câu hỏi về nguyên nhân làm cầu tăng: giá mực tăng làm cầu bút giảm, nên đây không phải nguyên nhân tăng cầu. Chờ — đáp án D là \"Có sự gia tăng mức giá cả của mực bút viết\" → điều này làm giảm cầu bút. Các phương án A, B: Thiên Mã là hàng thay thế của Thiên Long; giá Thiên Mã giảm hoặc quảng cáo Thiên Mã tốt → cầu Thiên Long giảm. Đáp án đúng là D theo đề bài — khi giá mực tăng, người tiêu dùng dùng bút đánh dấu thay thế hoặc chuyển sang loại bút khác, làm tăng cầu bút Thiên Long không cần mực."
+    },
+    {
+      "id": "ktqt-009",
+      "topic": "Đường đẳng ích",
+      "difficulty": "easy",
+      "source_pages": [3],
+      "question": "Đường đẳng ích biểu thị tất cả những phối hợp tiêu dùng giữa 2 loại sản phẩm mà người tiêu dùng:",
+      "options": {
+        "A": "Đạt được mức hữu dụng giảm dần",
+        "B": "Đạt được mức hữu dụng tăng dần",
+        "C": "Đạt được mức hữu dụng như nhau",
+        "D": "Sử dụng hết số tiền mà mình có"
+      },
+      "correct_answer": "C",
+      "explanation": "Đường đẳng ích (indifference curve) là tập hợp tất cả các rổ hàng hóa mang lại cùng một mức hữu dụng (thỏa mãn) cho người tiêu dùng. \"Đẳng ích\" nghĩa là hữu dụng bằng nhau (không đổi)."
+    },
+    {
+      "id": "ktqt-010",
+      "topic": "Hàm cầu",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Hàm cầu của sản phẩm B có dạng $Q = -400P + 6.000$; Nếu cầu sản phẩm B tăng 10% thì hàm cầu sản phẩm B sẽ có dạng:",
+      "options": {
+        "A": "$Q = -440P + 6600$",
+        "B": "$Q = -440P + 7200$",
+        "C": "$Q = -440P + 6000$",
+        "D": "$Q = -400P + 6600$"
+      },
+      "correct_answer": "A",
+      "explanation": "Khi cầu tăng 10%, toàn bộ hàm cầu dịch chuyển: mọi giá trị Q đều tăng 10%. Hàm mới: $Q_{new} = 1,1 \\times (-400P + 6000) = -440P + 6600$. Cả hệ số góc lẫn tung độ gốc đều nhân với 1,1."
+    },
+    {
+      "id": "ktqt-011",
+      "topic": "Dịch chuyển đường cung",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Cơn bão số 11 năm 2011 làm mất trắng rất nhiều diện tích nuôi trồng thủy sản có thể sẽ:",
+      "options": {
+        "A": "Gây ra sự vận động dọc theo đường cung thủy sản ở Việt Nam tới mức giá cao hơn",
+        "B": "Gây ra cầu tăng làm cho giá thủy sản cao hơn",
+        "C": "Làm cho cầu đối với thủy sản giảm xuống",
+        "D": "Làm cho đường cung thủy sản Việt Nam dịch chuyển lên trên sang bên trái."
+      },
+      "correct_answer": "D",
+      "explanation": "Cơn bão phá hủy vùng nuôi trồng thủy sản → giảm khả năng sản xuất → đường cung dịch chuyển sang trái (giảm cung). Đây là sự dịch chuyển của đường cung, không phải vận động dọc theo đường cung. Cầu không bị ảnh hưởng trực tiếp bởi thiên tai sản xuất."
+    },
+    {
+      "id": "ktqt-012",
+      "topic": "Chi phí sản xuất",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Tổng chi phí sản xuất sản phẩm A là $TC = 100 + 2Q + Q^2$. Đường chi phí biến đổi là (TVC) là:",
+      "options": {
+        "A": "$2Q + Q^2$",
+        "B": "$2 + 2Q$",
+        "C": "$100$",
+        "D": "$(100/Q) + 2 + Q$"
+      },
+      "correct_answer": "A",
+      "explanation": "$TC = TFC + TVC$. Phần cố định (không phụ thuộc Q) là $TFC = 100$. Phần biến đổi là $TVC = 2Q + Q^2$. Đáp án B là chi phí biên $MC = dTC/dQ = 2 + 2Q$. Đáp án D là tổng chi phí bình quân $ATC = TC/Q$."
+    },
+    {
+      "id": "ktqt-013",
+      "topic": "Hàng hóa thay thế và cầu",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Nếu giá xe Yamaha (hàng thay thế của Honda) tăng lên, điều gì xảy ra với cầu xe Honda?",
+      "options": {
+        "A": "Cầu xe Honda giảm",
+        "B": "Cầu xe Honda tăng",
+        "C": "Lượng cầu xe Honda giảm",
+        "D": "Không ảnh hưởng gì"
+      },
+      "correct_answer": "B",
+      "explanation": "Yamaha và Honda là hàng hóa thay thế. Khi giá Yamaha tăng, người tiêu dùng chuyển sang mua Honda nhiều hơn → đường cầu Honda dịch chuyển sang phải (cầu Honda tăng). Đây là sự dịch chuyển của đường cầu, không phải vận động dọc."
+    },
+    {
+      "id": "ktqt-014",
+      "topic": "Cân bằng thị trường - thiếu hụt và dư thừa",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Cho hàm số $Q_D = -2P + 200$ và $Q_S = 2P - 40$. Tại mức giá $P = 50$, hãy tính thặng dư/thiếu hụt.",
+      "options": {
+        "A": "Thị trường cân bằng",
+        "B": "Thiếu hụt 40",
+        "C": "Dư thừa 40",
+        "D": "Thiếu hụt 60"
+      },
+      "correct_answer": "B",
+      "explanation": "Tại $P = 50$: $Q_D = -2(50) + 200 = 100$; $Q_S = 2(50) - 40 = 60$. Vì $Q_D = 100 > Q_S = 60$ → thiếu hụt = $100 - 60 = 40$. Giá trần thấp hơn giá cân bằng gây thiếu hụt."
+    },
+    {
+      "id": "ktqt-015",
+      "topic": "Đường đẳng lượng",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Đường đẳng lượng biểu thị điều gì?",
+      "options": {
+        "A": "Các kết hợp yếu tố đầu vào cùng tạo ra một mức chi phí như nhau.",
+        "B": "Sự thay đổi sản lượng khi thay đổi quy mô.",
+        "C": "Tập hợp những kết hợp khác nhau của các yếu tố đầu vào cùng tạo ra một mức sản lượng như nhau.",
+        "D": "Mối quan hệ giữa tổng doanh thu và tổng chi phí."
+      },
+      "correct_answer": "C",
+      "explanation": "Đường đẳng lượng (isoquant) là tập hợp tất cả các kết hợp đầu vào (K, L) cho phép sản xuất ra cùng một mức sản lượng nhất định. Đáp án A mô tả đường đẳng phí (isocost)."
+    },
+    {
+      "id": "ktqt-016",
+      "topic": "Ngắn hạn và dài hạn",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Giai đoạn \"Ngắn hạn\" trong lý thuyết sản xuất được định nghĩa là khoảng thời gian:",
+      "options": {
+        "A": "Mọi yếu tố đầu vào đều biến đổi.",
+        "B": "Sản lượng của doanh nghiệp không thể thay đổi.",
+        "C": "Có ít nhất một yếu tố sản xuất (đầu vào) không thay đổi.",
+        "D": "Không có chi phí ẩn phát sinh."
+      },
+      "correct_answer": "C",
+      "explanation": "Ngắn hạn là khoảng thời gian đủ ngắn để ít nhất một yếu tố đầu vào (thường là vốn - K) không thể thay đổi. Dài hạn là khoảng thời gian đủ để tất cả các yếu tố đầu vào đều có thể thay đổi (đáp án A)."
+    },
+    {
+      "id": "ktqt-017",
+      "topic": "Tối ưu hóa thỏa dụng",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Để đạt mức hữu dụng tối đa (tối ưu hóa thỏa dụng) trong điều kiện ngân sách có hạn, người tiêu dùng phải phân bổ chi tiêu sao cho:",
+      "options": {
+        "A": "Hữu dụng biên của tất cả các mặt hàng đều bằng 0.",
+        "B": "Hữu dụng biên của các mặt hàng bằng nhau.",
+        "C": "Hữu dụng biên trên mỗi đồng chi tiêu cho các hàng hóa khác nhau phải bằng nhau (nguyên tắc cân bằng biên).",
+        "D": "Tổng hữu dụng của hàng hóa X bằng tổng hữu dụng của hàng hóa Y."
+      },
+      "correct_answer": "C",
+      "explanation": "Điều kiện tối ưu (nguyên tắc cân bằng biên): $\\frac{MU_X}{P_X} = \\frac{MU_Y}{P_Y}$. Người tiêu dùng tối đa hóa hữu dụng khi hữu dụng biên trên mỗi đồng chi tiêu bằng nhau cho mọi hàng hóa. Nếu không, họ có thể chuyển chi tiêu để tăng tổng hữu dụng."
+    },
+    {
+      "id": "ktqt-018",
+      "topic": "Chi phí kế toán và chi phí ẩn",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Công ty của Samuel sản xuất máy photocopy. Các khoản chi phí mà Samuel xem xét đến gồm có: (i) Chi phí mua linh kiện để sản xuất máy photocopy; (ii) Tiền lương nhân được nếu như Samuel đi làm thuê cho công ty Unilever. Phân loại đúng là:",
+      "options": {
+        "A": "(i) là chi phí kế toán, (ii) là chi phí ẩn",
+        "B": "(i) và (ii) đều là chi phí kế toán",
+        "C": "(i) và (ii) đều là chi phí ẩn",
+        "D": "(i) là chi phí ẩn, (ii) là chi phí kế toán"
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí kế toán là chi phí thực tế bằng tiền đã chi ra → (i) mua linh kiện là chi phí kế toán. Chi phí ẩn (implicit cost) là thu nhập cơ hội bị từ bỏ → (ii) lương nếu làm Unilever là chi phí cơ hội của Samuel khi chọn tự kinh doanh."
+    },
+    {
+      "id": "ktqt-019",
+      "topic": "Giá cân bằng thị trường",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Cho hàm cung $Q_S = 0,5P - 20$ và hàm cầu $Q_D = -1,5P + 100$. Hãy xác định giá cân bằng (P).",
+      "options": {
+        "A": "$P = 40$",
+        "B": "$P = 50$",
+        "C": "$P = 60$",
+        "D": "$P = 80$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại cân bằng: $Q_S = Q_D$ → $0,5P - 20 = -1,5P + 100$ → $2P = 120$ → $P^* = 60$. Kiểm tra: $Q^* = 0,5(60) - 20 = 10$; $Q_D = -1,5(60) + 100 = 10$ ✓."
+    },
+    {
+      "id": "ktqt-020",
+      "topic": "Chi phí chìm",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Chi phí chìm là:",
+      "options": {
+        "A": "Chi phí đã chi ra trong quá khứ và không thể thu hồi.",
+        "B": "Chi phí bằng tiền chi trả cho nhân công.",
+        "C": "Khoản thu nhập bị mất đi khi chọn phương án này thay vì phương án khác.",
+        "D": "Phần dư sau khi trừ tổng doanh thu cho chi phí kế toán."
+      },
+      "correct_answer": "A",
+      "explanation": "Chi phí chìm (sunk cost) là chi phí đã phát sinh trong quá khứ và không thể thu hồi lại dù doanh nghiệp đưa ra quyết định gì trong tương lai. Nguyên tắc kinh tế: không nên để chi phí chìm ảnh hưởng đến quyết định hiện tại."
+    },
+    {
+      "id": "ktqt-021",
+      "topic": "Dài hạn trong sản xuất",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Trong dài hạn, đặc điểm nào sau đây mô tả đúng nhất về các yếu tố sản xuất của doanh nghiệp?",
+      "options": {
+        "A": "Có ít nhất một yếu tố đầu vào là cố định.",
+        "B": "Chỉ có thể thay đổi quy mô, sản lượng không đổi.",
+        "C": "Tất cả các yếu tố sản xuất (đầu vào) đều thay đổi.",
+        "D": "Mọi chi phí đều trở thành chi phí chìm."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong dài hạn, tất cả các yếu tố đầu vào (lao động, vốn, đất đai,...) đều có thể thay đổi. Điều này trái với ngắn hạn, khi ít nhất một yếu tố là cố định. Trong dài hạn không có chi phí cố định — tất cả chi phí đều là biến đổi."
+    },
+    {
+      "id": "ktqt-022",
+      "topic": "Gánh nặng thuế gián thu",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Khi chính phủ đánh thuế gián thu trên mỗi đơn vị sản phẩm bán ra, gánh nặng thuế sẽ rơi chủ yếu vào người tiêu dùng trong trường hợp nào sau đây?",
+      "options": {
+        "A": "Khi cung co giãn nhiều hơn cầu.",
+        "B": "Khi cầu co giãn nhiều hơn cung.",
+        "C": "Khi cầu hoàn toàn co giãn.",
+        "D": "Khi cung hoàn toàn không co giãn."
+      },
+      "correct_answer": "A",
+      "explanation": "Bên nào ít co giãn hơn thì chịu nhiều thuế hơn (vì khó rời bỏ thị trường). Khi cung co giãn nhiều hơn cầu ($|E_S| > |E_D|$), người tiêu dùng (phía cầu, ít co giãn hơn) chịu gánh nặng thuế lớn hơn."
+    },
+    {
+      "id": "ktqt-023",
+      "topic": "Chi phí ẩn và lợi nhuận kinh tế",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Ông Vinh có một ao nuôi cá và ông có thể kiếm được 5.000 USD với công việc hướng dẫn viên câu cá. Tuy nhiên, ông lại là một người nuôi cá toàn thời gian. Khi tính toán lợi nhuận kinh tế từ hoạt động kinh doanh cá của mình, ông Vinh cho rằng số tiền 5.000 USD được tính vào:",
+      "options": {
+        "A": "Tổng doanh thu.",
+        "B": "Chi phí ẩn.",
+        "C": "Chi phí sổ sách.",
+        "D": "Chi phí biên."
+      },
+      "correct_answer": "B",
+      "explanation": "5.000 USD là thu nhập cơ hội mà ông Vinh từ bỏ khi chọn nuôi cá thay vì làm hướng dẫn viên → đây là chi phí ẩn (implicit cost / opportunity cost). Lợi nhuận kinh tế = Doanh thu - Chi phí kế toán - Chi phí ẩn."
+    },
+    {
+      "id": "ktqt-024",
+      "topic": "Quy luật hữu dụng biên giảm dần",
+      "difficulty": "easy",
+      "source_pages": [3],
+      "question": "Quy luật hữu dụng biên giảm dần được phát biểu như thế nào?",
+      "options": {
+        "A": "Tổng hữu dụng luôn giảm khi người tiêu dùng mua nhiều hàng hóa hơn.",
+        "B": "Hữu dụng biên của một hàng hóa đó được tiêu dùng nhiều hơn trong một thời điểm nhất định.",
+        "C": "Khi thu nhập giảm, người tiêu dùng sẽ giảm lượng mua của mọi hàng hóa.",
+        "D": "Tỷ lệ thay thế biên luôn là một hằng số khi tiêu dùng nhiều hàng hóa."
+      },
+      "correct_answer": "B",
+      "explanation": "Quy luật hữu dụng biên giảm dần (Law of Diminishing Marginal Utility): khi tiêu dùng thêm một đơn vị hàng hóa, hữu dụng biên (MU) có xu hướng giảm dần tại một thời điểm nhất định. Tổng hữu dụng vẫn tăng nhưng tăng chậm dần (MU > 0 nhưng giảm)."
+    },
+    {
+      "id": "ktqt-025",
+      "topic": "Độ co giãn của cầu theo thu nhập",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Độ co giãn của cầu theo thu nhập ($E_I$) của hàng hóa thứ cấp (hàng cấp thấp) có đặc điểm gì?",
+      "options": {
+        "A": "$E_I > 1$",
+        "B": "$0 < E_I < 1$",
+        "C": "$E_I < 0$",
+        "D": "$E_I = 0$"
+      },
+      "correct_answer": "C",
+      "explanation": "Hàng hóa thứ cấp (inferior goods) có mối quan hệ nghịch chiều với thu nhập: khi thu nhập tăng, cầu giảm → $E_I < 0$. Ví dụ: mì gói, xe đạp cũ. Hàng thông thường có $E_I > 0$; hàng xa xỉ có $E_I > 1$."
+    },
+    {
+      "id": "ktqt-026",
+      "topic": "Giá trần và tác động",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Xét thị trường hàng hóa với đường cầu và cung thông thường. Nếu chính phủ quy định một mức giá trần thấp hơn giá cân bằng, hậu quả nào sau đây KHÔNG ĐÚNG so với thực tế được phân tích?",
+      "options": {
+        "A": "Xuất hiện tình trạng thiếu hụt hàng hóa do lượng cầu lớn hơn lượng cung.",
+        "B": "Tổng phúc lợi xã hội (NW) tăng lên nhờ người tiêu dùng mua được hàng với giá rẻ.",
+        "C": "Một số người bán sẽ giảm sản lượng, nguồn lực có thể bị lãng phí.",
+        "D": "Có khả năng xuất hiện thị trường chợ đen do phân phối phi giá."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trần tạo ra tổn thất vô ích (deadweight loss) → tổng phúc lợi xã hội GIẢM, không tăng. Một phần thặng dư tiêu dùng tăng nhờ giá thấp nhưng phần tổn thất vô ích vượt trội, làm phúc lợi xã hội ròng giảm. Đây là phát biểu KHÔNG đúng."
+    },
+    {
+      "id": "ktqt-027",
+      "topic": "Tính toán chi phí sản xuất",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Tháng 9/2021, DN tạm ngưng sản xuất do dịch bệnh, DN vẫn phải tốn chi phí là 50 triệu/tháng. Tháng 10/2021 DN sản xuất được 25.000 sản phẩm, với chi phí biến đổi trung bình để sản xuất 1 sản phẩm là 20.000 đồng/sản phẩm. Tại tháng 10/2021 kết quả nào sau đây KHÔNG đúng:",
+      "options": {
+        "A": "TFC của DN là 50.000.000 đồng/tháng",
+        "B": "TVC là 500 triệu/tháng",
+        "C": "TC là 550.000.000 đồng/tháng",
+        "D": "AFC là 20.000 đồng/sản phẩm"
+      },
+      "correct_answer": "D",
+      "explanation": "TFC = 50.000.000 ✓; TVC = AVC × Q = 20.000 × 25.000 = 500.000.000 ✓; TC = TFC + TVC = 550.000.000 ✓. AFC = TFC/Q = 50.000.000/25.000 = 2.000 đồng/sản phẩm ≠ 20.000. Đáp án D KHÔNG đúng."
+    },
+    {
+      "id": "ktqt-028",
+      "topic": "Gánh nặng thuế và độ co giãn",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Giá của tập học sinh là 24 USD/quyển. Khi chính phủ đánh thuế 5 USD/quyển, giá tập học sinh trên thị trường tăng lên mức 25 USD/quyển. Chúng ta có thể kết luận:",
+      "options": {
+        "A": "Cầu tập học sinh co giãn theo giá nhiều hơn phía cung.",
+        "B": "Cầu tập học sinh co giãn theo giá ít hơn phía cung.",
+        "C": "Cầu tập học sinh co giãn theo giá bằng phía cung.",
+        "D": "Chưa đủ thông tin để kết luận."
+      },
+      "correct_answer": "A",
+      "explanation": "Thuế 5 USD: giá tăng từ 24 USD lên 25 USD → người mua chịu 1 USD (20% thuế), người bán chịu 4 USD (80% thuế). Bên chịu thuế nhiều hơn là bên ít co giãn hơn. Cung chịu 4 USD (ít co giãn), cầu chịu 1 USD (nhiều co giãn) → cầu co giãn theo giá nhiều hơn cung."
+    },
+    {
+      "id": "ktqt-029",
+      "topic": "Gánh nặng thuế và độ co giãn",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Sữa Amata đang được bày bán tại các siêu thị trong thành phố. Nếu Chính phủ đánh thuế vào sữa Amata từ mức thuế là 5 USD/hộp làm giá đơn vị của sữa Amata tăng từ 45 USD lên 47 USD. Như vậy, chúng ta có thể kết luận về sữa Amata như sau:",
+      "options": {
+        "A": "Cầu co giãn theo giá nhiều hơn cung.",
+        "B": "Cung co giãn theo giá nhiều hơn cầu.",
+        "C": "Cầu co giãn theo giá ít hơn cung.",
+        "D": "Cung và cầu co giãn theo giá bằng nhau."
+      },
+      "correct_answer": "A",
+      "explanation": "Thuế 5 USD/hộp: giá tăng từ 45 USD lên 47 USD → người mua chịu 2 USD, người bán thực nhận 47 - 5 = 42 USD (giảm từ 45 USD → chịu 3 USD). Cung chịu 3 USD (ít co giãn hơn), cầu chịu 2 USD (co giãn hơn) → cầu co giãn nhiều hơn cung."
+    },
+    {
+      "id": "ktqt-030",
+      "topic": "Độ co giãn của cung",
+      "difficulty": "hard",
+      "source_pages": [2],
+      "question": "Cho hàm cung và hàm cầu của sản phẩm X: $Q_S = 53P + 148$; $Q_D = 268 - 7P$. Tính độ co giãn của cung tại điểm cân bằng.",
+      "options": {
+        "A": "$E_d = 0,42$",
+        "B": "$E_d = -0,42$",
+        "C": "$E_s = 0,42$",
+        "D": "$E_s = -0,42$"
+      },
+      "correct_answer": "C",
+      "explanation": "Tại cân bằng: $53P + 148 = 268 - 7P$ → $60P = 120$ → $P^* = 2$; $Q^* = 53(2) + 148 = 254$. $E_s = \\frac{dQ_S}{dP} \\times \\frac{P^*}{Q^*} = 53 \\times \\frac{2}{254} \\approx 0,42$. Đây là độ co giãn của cung ($E_s > 0$)."
+    },
+    {
+      "id": "ktqt-031",
+      "topic": "Tác động của thuế lên cân bằng",
+      "difficulty": "hard",
+      "source_pages": [2],
+      "question": "Cho hàm số cung cầu của một thị trường là $P = -1,5Q + 160$ và $P = 0,5Q + 20$. Nếu chính phủ đánh thuế $t = 10$ USD/sản phẩm vào người bán, kết quả nào sau đây phản ánh chính xác điểm cân bằng mới?",
+      "options": {
+        "A": "Lượng giao dịch giảm từ 70 xuống 60; người mua trả mức giá 65, người bán thực nhận 55.",
+        "B": "Lượng giao dịch giảm từ 70 xuống 65; người mua trả mức giá 62,5, người bán thực nhận 52,5.",
+        "C": "Lượng giao dịch không đổi; người bán tự gánh toàn bộ mức thuế 10 USD.",
+        "D": "Lượng giao dịch giảm xuống 65; người mua gánh chịu toàn bộ thuế."
+      },
+      "correct_answer": "B",
+      "explanation": "Cân bằng ban đầu: $-1,5Q + 160 = 0,5Q + 20$ → $Q^* = 70$, $P^* = 55$. Khi đánh thuế $t=10$ vào người bán: cung mới $P = 0,5Q + 30$. Cân bằng mới: $-1,5Q + 160 = 0,5Q + 30$ → $Q^{**} = 65$; $P_{mua} = 62,5$; $P_{ban} = 52,5$. Q giảm từ 70 xuống 65 ✓."
+    },
+    {
+      "id": "ktqt-032",
+      "topic": "Gánh nặng thuế và độ co giãn",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Giá của nước tương MOne là 10 USD/chai. Khi chính phủ đánh thuế 3 USD/chai, giá nước tương MOne trên thị trường tăng lên mức 12 USD/chai. Chúng ta có thể kết luận:",
+      "options": {
+        "A": "Cầu MOne co giãn theo giá ít hơn phía cung.",
+        "B": "Cầu MOne co giãn theo giá nhiều hơn phía cung.",
+        "C": "Cầu MOne co giãn theo giá bằng phía cung.",
+        "D": "Chưa đủ thông tin để kết luận."
+      },
+      "correct_answer": "A",
+      "explanation": "Thuế 3 USD: giá tăng từ 10 USD lên 12 USD → người mua chịu 2 USD, người bán thực nhận 12 - 3 = 9 USD (chịu 1 USD). Người mua chịu 2/3 thuế, người bán chịu 1/3 thuế. Bên chịu thuế nhiều hơn là bên ít co giãn hơn → cầu ít co giãn hơn cung."
+    },
+    {
+      "id": "ktqt-033",
+      "topic": "Thặng dư tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Thặng dư tiêu dùng (CS) được định nghĩa là gì?",
+      "options": {
+        "A": "Là chênh lệch giữa giá mà người sản xuất sẵn sàng bán và giá thực tế họ bán.",
+        "B": "Là tổng phần chênh lệch giữa mức giá mà người tiêu dùng sẵn lòng trả và mức giá thực tế họ phải trả.",
+        "C": "Là tổng phần chênh lệch giữa mức giá người bán nhận được và chi phí sản xuất.",
+        "D": "Là phần diện tích nằm dưới đường cung và trên đường giá."
+      },
+      "correct_answer": "B",
+      "explanation": "Thặng dư tiêu dùng (Consumer Surplus) = Tổng $\\sum (WTP - P^*)$ cho tất cả người tiêu dùng = diện tích tam giác nằm dưới đường cầu và trên đường giá thị trường. Đáp án A và C là định nghĩa thặng dư sản xuất. Đáp án D mô tả sai (đường cung và trên giá là thặng dư sản xuất)."
+    },
+    {
+      "id": "ktqt-034",
+      "topic": "Độ co giãn khoảng của cầu",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Cho biểu cung cầu của thị trường hàng hóa A: Tại mức giá $P_1 = 50$, lượng cầu $Q_{D1} = 120$; tại mức giá $P_2 = 60$, lượng cầu $Q_{D2} = 100$. Tính hệ số co giãn khoảng của cầu theo giá và cho biết tính chất co giãn?",
+      "options": {
+        "A": "$E_D = -2,2$; cầu co giãn nhiều.",
+        "B": "$E_D = -0,81$; cầu kém co giãn.",
+        "C": "$E_D = -1,0$; cầu co giãn đơn vị.",
+        "D": "$E_D = -1,2$; cầu co giãn nhiều."
+      },
+      "correct_answer": "C",
+      "explanation": "Độ co giãn khoảng (arc elasticity): $E_D = \\frac{\\Delta Q / \\Delta P \\times (P_1+P_2)/(Q_1+Q_2)} = \\frac{(100-120)/(60-50) \\times (50+60)/(120+100)} = \\frac{-2 \\times 0,5} = -1,0$. $|E_D| = 1$ → cầu co giãn đơn vị."
+    },
+    {
+      "id": "ktqt-035",
+      "topic": "Đường ngân sách",
+      "difficulty": "easy",
+      "source_pages": [3],
+      "question": "Phương trình đường ngân sách của người tiêu dùng là $x \\cdot P_x + y \\cdot P_y = I$. Độ dốc của đường ngân sách phụ thuộc vào yếu tố nào?",
+      "options": {
+        "A": "Thu nhập của người tiêu dùng.",
+        "B": "Sở thích của người tiêu dùng.",
+        "C": "Giá của hai loại hàng hóa.",
+        "D": "Tổng hữu dụng của các rổ hàng hóa."
+      },
+      "correct_answer": "C",
+      "explanation": "Đường ngân sách: $y = \\frac{I}{P_y} - \\frac{P_x}{P_y} \\cdot x$. Độ dốc = $-\\frac{P_x}{P_y}$, chỉ phụ thuộc vào tỷ lệ giá của hai hàng hóa. Thu nhập I ảnh hưởng đến tung độ gốc (vị trí đường ngân sách), không ảnh hưởng độ dốc."
+    },
+    {
+      "id": "ktqt-036",
+      "topic": "Thặng dư sản xuất",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Theo lý thuyết về thặng dư sản xuất, khi giá thị trường của một hàng hóa tăng lên, phần thặng dư sản xuất tăng thêm bao gồm những thành phần nào?",
+      "options": {
+        "A": "Phần thặng dư tiêu dùng mất đi cho người tiêu dùng không mua được hàng và phần thuế đóng thêm.",
+        "B": "Phần thặng dư tiêu dùng chuyển hóa thành thặng dư sản xuất.",
+        "C": "Phần thặng dư sản xuất tăng thêm do nhà sản xuất hiện hữu nhận mức giá cao hơn và phần thặng dư cho nhà sản xuất mới gia nhập thị trường.",
+        "D": "Phần tăng của tổng phúc lợi xã hội trừ đi phần tổn thất vô ích."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi giá thị trường tăng, thặng dư sản xuất tăng gồm: (1) phần tăng thêm cho nhà sản xuất hiện có vì họ bán cùng lượng đó tại giá cao hơn, và (2) phần thặng dư từ các nhà sản xuất mới gia nhập thị trường nhờ giá cao hơn chi phí biên của họ."
+    },
+    {
+      "id": "ktqt-037",
+      "topic": "Tổng thặng dư xã hội",
+      "difficulty": "hard",
+      "source_pages": [2],
+      "question": "Với trục hoành biểu diễn sản lượng, trục tung biểu diễn giá, đường cung dốc lên và đường cầu dốc xuống. Tại cân bằng: giá $P^* = 25$, lượng $Q^* = 15$. Đường cầu cắt trục tung tại điểm 40, đường cung cắt trục tung tại điểm 5. Xác định diện tích tổng thặng dư xã hội?",
+      "options": {
+        "A": "262,5",
+        "B": "345,2",
+        "C": "152",
+        "D": "437,5"
+      },
+      "correct_answer": "A",
+      "explanation": "$CS = \\frac{1}{2} \\times Q^* \\times (P_{max,demand} - P^*) = \\frac{1}{2} \\times 15 \\times (40 - 25) = 112,5$. $PS = \\frac{1}{2} \\times Q^* \\times (P^* - P_{min,supply}) = \\frac{1}{2} \\times 15 \\times (25 - 5) = 150$. Tổng thặng dư xã hội = $CS + PS = 112,5 + 150 = 262,5$.",
+      "figure": {
+        "type": "econ_chart",
+        "title": "Cung - Cầu và Thặng dư xã hội",
+        "xLabel": "Sản lượng (Q)",
+        "yLabel": "Giá (P)",
+        "domain": [0, 25],
+        "range": [0, 50],
+        "primitives": [
+          {
+            "kind": "line",
+            "from": [0, 40],
+            "to": [25, 15],
+            "label": "Cầu (D)",
+            "color": "#2563eb"
+          },
+          {
+            "kind": "line",
+            "from": [0, 5],
+            "to": [22, 34.33],
+            "label": "Cung (S)",
+            "color": "#dc2626"
+          },
+          {
+            "kind": "point",
+            "at": [15, 25],
+            "label": "E*",
+            "labelPos": "ne",
+            "dashed": true
+          },
+          {
+            "kind": "region",
+            "vertices": [[0, 25], [0, 40], [15, 25]],
+            "semantic": "consumer_surplus"
+          },
+          {
+            "kind": "region",
+            "vertices": [[0, 5], [0, 25], [15, 25]],
+            "semantic": "producer_surplus"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ktqt-038",
+      "topic": "Độ co giãn của cung",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Trong các mức độ co giãn của cung theo giá, trường hợp cung hoàn toàn không co giãn ($E_s = 0$) được thể hiện bằng đường cung có hình dạng như thế nào?",
+      "options": {
+        "A": "Một đường dốc lên từ trái sang phải.",
+        "B": "Một đường thẳng đứng song song với trục giá.",
+        "C": "Một đường nằm ngang song song với trục lượng.",
+        "D": "Một đường cong lồi hướng về gốc tọa độ."
+      },
+      "correct_answer": "B",
+      "explanation": "Cung hoàn toàn không co giãn ($E_s = 0$): lượng cung không đổi dù giá thay đổi → đường cung là đường thẳng đứng song song với trục giá (trục tung). Ngược lại, cung hoàn toàn co giãn ($E_s = \\infty$) là đường nằm ngang song song với trục lượng."
+    },
+    {
+      "id": "ktqt-039",
+      "topic": "Tối ưu hóa tiêu dùng",
+      "difficulty": "hard",
+      "source_pages": [3],
+      "question": "Cho bài toán lựa chọn tiêu dùng tối ưu: Một người có thu nhập $I = 200$, mua 2 mặt hàng X và Y với đơn giá $P_x = 4$, $P_y = 2$. Hàm tổng hữu dụng là $U(x,y) = xy$. Số lượng hàng X và Y người này cần mua để chi tiêu hết ngân sách và đạt hữu dụng tối đa là bao nhiêu?",
+      "options": {
+        "A": "$X = 20, Y = 60$",
+        "B": "$X = 25, Y = 50$",
+        "C": "$X = 30, Y = 40$",
+        "D": "$X = 40, Y = 20$"
+      },
+      "correct_answer": "B",
+      "explanation": "Điều kiện tối ưu: $\\frac{MU_X}{P_X} = \\frac{MU_Y}{P_Y}$. $MU_X = y$, $MU_Y = x$ → $\\frac{y}{4} = \\frac{x}{2}$ → $y = 2x$. Ràng buộc ngân sách: $4x + 2y = 200$ → $4x + 4x = 200$ → $x = 25$, $y = 50$. Kiểm tra: $4(25) + 2(50) = 100 + 100 = 200$ ✓."
+    },
+    {
+      "id": "ktqt-040",
+      "topic": "Độ co giãn của cầu - hàng hóa thiết yếu",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Trong trường hợp mặt hàng muối ăn, tại sao cầu đối với nó lại có xu hướng ít co giãn (kém co giãn) theo giá? Lập luận nào sau đây KHÔNG PHÙ HỢP?",
+      "options": {
+        "A": "Muối là hàng hóa thiết yếu bắt buộc phải có trong đời sống hàng ngày.",
+        "B": "Chi tiêu mua muối chiếm tỷ trọng rất nhỏ trong tổng thu nhập của người tiêu dùng.",
+        "C": "Muối là hàng hóa hầu như không có khả năng thay thế hoàn toàn.",
+        "D": "Người tiêu dùng cần một thời gian điều chỉnh hành vi rất dài để tìm một sản phẩm thay thế cho muối."
+      },
+      "correct_answer": "D",
+      "explanation": "A, B, C đều là lý do hợp lý khiến cầu muối kém co giãn. Đáp án D KHÔNG PHÙ HỢP: lý do muối kém co giãn là vì không có hàng thay thế (C), không phải vì mất thời gian tìm thay thế. Thực tế, không có hàng thay thế cho muối là lý do trực tiếp, không phải thời gian điều chỉnh."
+    }
+  ]
+}

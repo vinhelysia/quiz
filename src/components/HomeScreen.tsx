@@ -4,9 +4,12 @@ import { parseQuizFile } from '../lib/quizLoader';
 import { clearScoreHistory, getScoreHistory } from '../lib/storage';
 import type { QuizMode, SessionOptions } from '../hooks/useQuizSession';
 import type { ScoreRecord } from '../lib/storage';
+import type { SubjectMeta } from '../lib/subjects';
 
 interface HomeScreenProps {
   quizzes: Quiz[];
+  subject: SubjectMeta;
+  onBack: () => void;
   onStart: (quiz: Quiz, options: SessionOptions) => void;
   resume: { title: string } | null;
   onResume: () => void;
@@ -37,13 +40,21 @@ function formatDate(ts: number): string {
 
 function HomeScreen({
   quizzes,
+  subject,
+  onBack,
   onStart,
   resume,
   onResume,
   onDiscardResume,
 }: HomeScreenProps) {
+  // Filter to only this subject's quizzes
+  const subjectQuizzes = useMemo(
+    () => quizzes.filter((q) => q.subjectId === subject.id),
+    [quizzes, subject.id],
+  );
+
   const [selectedId, setSelectedId] = useState<string>(
-    quizzes[0]?.chapter_id ?? '',
+    subjectQuizzes[0]?.chapter_id ?? '',
   );
   const [mode, setMode] = useState<QuizMode>('practice');
   const [shuffle, setShuffle] = useState(true);
@@ -59,8 +70,8 @@ function HomeScreen({
   );
 
   const selectedQuiz = useMemo(
-    () => quizzes.find((q) => q.chapter_id === selectedId) ?? quizzes[0],
-    [quizzes, selectedId],
+    () => subjectQuizzes.find((q) => q.chapter_id === selectedId) ?? subjectQuizzes[0],
+    [subjectQuizzes, selectedId],
   );
 
   const availableTopics = useMemo(() => {
@@ -126,11 +137,19 @@ function HomeScreen({
     <div className="app">
       <header className="app-header">
         <div>
-          <h1>Trắc nghiệm Kinh tế học</h1>
+          <h1>{subject.title}</h1>
           <p className="subtitle">
-            Luyện tập và kiểm tra kiến thức vi mô qua {quizzes.length} chương.
+            Luyện tập và kiểm tra theo từng chương.
           </p>
         </div>
+        <button
+          type="button"
+          className="btn btn-ghost btn-sm"
+          onClick={onBack}
+          aria-label="Quay lại danh sách môn"
+        >
+          ← Tất cả môn
+        </button>
       </header>
 
       {resume && (
@@ -152,7 +171,7 @@ function HomeScreen({
       <section className="card">
         <h2 className="section-title">Chọn chương</h2>
         <div className="chapter-grid">
-          {quizzes.map((q) => (
+          {subjectQuizzes.map((q) => (
             <button
               key={q.chapter_id}
               type="button"

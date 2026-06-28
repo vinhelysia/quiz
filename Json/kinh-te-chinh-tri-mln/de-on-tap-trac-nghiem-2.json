@@ -1,0 +1,1170 @@
+{
+  "chapter_id": "ktct-de-on-tap-2",
+  "title": "Đề ôn tập trắc nghiệm số 2 (77 câu)",
+  "source_file": "De trac nghiem KTCT Mac - Lenin so 2 (5 trang).pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ktct2-001",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Lao động trừu tượng là gì?",
+      "options": {
+        "A": "Là lao động không xác định được kết quả cụ thể.",
+        "B": "Là lao động của người sản xuất hàng hóa xét dưới hình thức hao phí sức lực nói chung của con người, không kể đến hình thức cụ thể của nó như thế nào.",
+        "C": "Là lao động của những người sản xuất nói chung.",
+        "D": "Cả 3 phương án kia đều đúng."
+      },
+      "correct_answer": "B",
+      "explanation": "Lao động trừu tượng là sự hao phí sức lực nói chung của con người, không kể đến hình thức cụ thể. Chính lao động trừu tượng tạo ra giá trị của hàng hóa."
+    },
+    {
+      "id": "ktct2-002",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Nhận định nào đúng trong mối quan hệ giữa tăng cường độ lao động (CĐLĐ) với giá trị hàng hoá?",
+      "options": {
+        "A": "Tăng CĐLĐ thì giá trị 1 đơn vị hàng hoá không thay đổi",
+        "B": "Giá trị 1 đơn vị hàng hoá tỷ lệ thuận với CĐLĐ",
+        "C": "Tăng CĐLĐ thì tổng giá trị hàng hoá tăng lên và giá trị 1 đơn vị hàng hoá cũng tăng lên tương ứng",
+        "D": "Tất cả các đáp án còn lại"
+      },
+      "correct_answer": "A",
+      "explanation": "Tăng cường độ lao động làm tăng số sản phẩm và tổng giá trị, nhưng hao phí lao động cho mỗi đơn vị sản phẩm không đổi nên giá trị 1 đơn vị hàng hóa không thay đổi."
+    },
+    {
+      "id": "ktct2-003",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Giá trị cá biệt của hàng hóa do yếu tố nào quyết định?",
+      "options": {
+        "A": "Hao phí lao động xã hội cần thiết quyết định.",
+        "B": "Hao phí lao động của ngành quyết định.",
+        "C": "Hao phí lao động cá biệt của người sản xuất quyết định.",
+        "D": "Tất cả các phương án còn lại"
+      },
+      "correct_answer": "C",
+      "explanation": "Giá trị cá biệt do hao phí lao động cá biệt của từng người sản xuất quyết định, còn giá trị xã hội do hao phí lao động xã hội cần thiết quyết định."
+    },
+    {
+      "id": "ktct2-004",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Tăng cường độ lao động nghĩa là gì? Chọn phương án SAI.",
+      "options": {
+        "A": "Lao động khẩn trương hơn.",
+        "B": "Lao động nặng nhọc hơn.",
+        "C": "Lao động căng thẳng hơn.",
+        "D": "Thời gian lao động được phân bổ hợp lý hơn."
+      },
+      "correct_answer": "D",
+      "explanation": "Câu hỏi yêu cầu chọn phương án SAI. Tăng cường độ lao động là làm việc khẩn trương, nặng nhọc, căng thẳng hơn (hao phí nhiều sức lực hơn trong cùng thời gian). Việc 'phân bổ thời gian hợp lý hơn' không phải nội hàm của tăng cường độ lao động nên là đáp án cần chọn."
+    },
+    {
+      "id": "ktct2-005",
+      "topic": "Quan hệ lợi ích kinh tế",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Để bảo vệ lợi ích kinh tế của mình, người sử dụng lao động đã thành lập tổ chức nào?",
+      "options": {
+        "A": "Công đoàn, Nghiệp đoàn",
+        "B": "Nghiệp đoàn, Hội nghề nghiệp",
+        "C": "Hội nghề nghiệp, Công đoàn",
+        "D": "Cơ quan nhà nước"
+      },
+      "correct_answer": "A",
+      "explanation": "Đáp án đã khoanh trong đề là A. (Lưu ý: trên thực tế công đoàn là tổ chức của người lao động; câu hỏi và đáp án nên được đối chiếu lại với tài liệu của giảng viên.)"
+    },
+    {
+      "id": "ktct2-006",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Kinh tế thị trường định hướng XHCN Việt Nam là gì?",
+      "options": {
+        "A": "Nền kinh tế vận hành theo các quy luật của thị trường có sự điều tiết của Nhà nước do Đảng Cộng sản Việt Nam lãnh đạo",
+        "B": "Nền kinh tế vận hành theo nhu cầu thị trường có sự quản lý bởi chính sách kinh tế của Nhà nước do Đảng Cộng sản Việt Nam lãnh đạo",
+        "C": "Nền kinh tế vận hành theo các quy luật kinh tế thị trường có sự điều tiết của các Tổ chức kinh tế quốc tế",
+        "D": "Nền kinh tế vận hành theo mệnh lệnh giá cả thị trường có sự điều tiết của Nhà nước do Đảng Cộng sản Việt Nam lãnh đạo"
+      },
+      "correct_answer": "A",
+      "explanation": "KTTT định hướng XHCN ở Việt Nam là nền kinh tế vận hành đầy đủ, đồng bộ theo các quy luật của thị trường, đồng thời có sự quản lý, điều tiết của Nhà nước pháp quyền XHCN do Đảng Cộng sản Việt Nam lãnh đạo."
+    },
+    {
+      "id": "ktct2-007",
+      "topic": "Quan hệ lợi ích kinh tế",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Mâu thuẫn lợi ích có thể xảy ra khi:",
+      "options": {
+        "A": "Doanh nghiệp tăng lương",
+        "B": "Doanh nghiệp giảm lương",
+        "C": "Người lao động làm việc tốt",
+        "D": "Nhà nước giảm thuế"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi doanh nghiệp giảm lương, lợi ích của người lao động bị xâm phạm, làm nảy sinh mâu thuẫn lợi ích giữa người lao động và người sử dụng lao động."
+    },
+    {
+      "id": "ktct2-008",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Biện pháp cơ bản để sản xuất giá trị thặng dư tương đối là gì?",
+      "options": {
+        "A": "Tăng giá trị sức lao động",
+        "B": "Rút ngắn ngày lao động",
+        "C": "Giảm giá trị sức lao động thông qua tăng năng suất lao động",
+        "D": "Kéo dài ngày lao động"
+      },
+      "correct_answer": "C",
+      "explanation": "Giá trị thặng dư tương đối có được nhờ tăng năng suất lao động xã hội, làm giảm giá trị sức lao động (rút ngắn thời gian lao động tất yếu), từ đó kéo dài tương đối thời gian lao động thặng dư."
+    },
+    {
+      "id": "ktct2-009",
+      "topic": "Tư bản cho vay & lợi tức",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Trong quan hệ vay mượn, ai là người phải trả lợi tức?",
+      "options": {
+        "A": "Người đi vay",
+        "B": "Người cho vay",
+        "C": "Nhà nước",
+        "D": "Ngân hàng"
+      },
+      "correct_answer": "A",
+      "explanation": "Người đi vay phải trả lợi tức cho người cho vay vì đã sử dụng lượng tiền vay của người cho vay."
+    },
+    {
+      "id": "ktct2-010",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Đâu KHÔNG phải là nhân tố ảnh hưởng đến lượng giá trị hàng hóa?",
+      "options": {
+        "A": "Năng suất lao động",
+        "B": "Cường độ lao động",
+        "C": "Mức độ phức tạp của lao động",
+        "D": "Số lượng hàng hóa cung ứng ra thị trường"
+      },
+      "correct_answer": "D",
+      "explanation": "Lượng giá trị hàng hóa chịu ảnh hưởng của năng suất lao động, cường độ lao động và mức độ phức tạp của lao động. Số lượng hàng hóa cung ứng ra thị trường tác động tới giá cả (cung - cầu), không quyết định lượng giá trị."
+    },
+    {
+      "id": "ktct2-011",
+      "topic": "Cách mạng công nghiệp & CNH",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Chuyển từ lao động thủ công sang lao động sử dụng máy móc, thực hiện cơ giới hóa sản xuất bằng việc sử dụng năng lượng nước và hơi nước là nội dung cơ bản của cuộc cách mạng công nghiệp nào?",
+      "options": {
+        "A": "Cách mạng công nghiệp lần thứ nhất.",
+        "B": "Cách mạng công nghiệp lần thứ hai.",
+        "C": "Cách mạng công nghiệp lần thứ ba.",
+        "D": "Cách mạng công nghiệp lần thứ tư."
+      },
+      "correct_answer": "A",
+      "explanation": "Cách mạng công nghiệp lần thứ nhất (cuối thế kỷ XVIII - đầu XIX) chuyển từ lao động thủ công sang cơ giới hóa, sử dụng năng lượng nước và hơi nước."
+    },
+    {
+      "id": "ktct2-012",
+      "topic": "Cách mạng công nghiệp & CNH",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Tại sao Việt Nam phải thực hiện quá trình công nghiệp hóa, hiện đại hóa?",
+      "options": {
+        "A": "Xây dựng cơ sở vật chất - kỹ thuật cho CNXH",
+        "B": "Xây dựng cơ sở chính trị cho CNXH",
+        "C": "Xây dựng cơ sở hạ tầng cho CNXH",
+        "D": "Xây dựng kiến trúc thượng tầng cho CNXH"
+      },
+      "correct_answer": "A",
+      "explanation": "Công nghiệp hóa, hiện đại hóa nhằm xây dựng cơ sở vật chất - kỹ thuật cho chủ nghĩa xã hội - nền tảng vật chất bảo đảm cho sự phát triển bền vững."
+    },
+    {
+      "id": "ktct2-013",
+      "topic": "Cách mạng công nghiệp & CNH",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Công nghiệp hóa, hiện đại hóa giúp:",
+      "options": {
+        "A": "Tăng lạm phát",
+        "B": "Tăng tiềm lực quốc phòng",
+        "C": "Tăng dân số",
+        "D": "Giảm công nghệ"
+      },
+      "correct_answer": "B",
+      "explanation": "CNH, HĐH tạo cơ sở vật chất - kỹ thuật, qua đó củng cố và tăng cường tiềm lực quốc phòng, an ninh của đất nước."
+    },
+    {
+      "id": "ktct2-014",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Vì sao C. Mác lại làm rõ 2 phạm trù tỷ suất và khối lượng giá trị thặng dư?",
+      "options": {
+        "A": "Nhằm hiểu sâu hơn bản chất của thị trường",
+        "B": "Nhằm hiểu sâu hơn bản chất của hàng hóa lao động",
+        "C": "Nhằm hiểu sâu hơn bản chất của hàng hóa",
+        "D": "Nhằm hiểu sâu hơn bản chất của giá trị thặng dư"
+      },
+      "correct_answer": "D",
+      "explanation": "Tỷ suất giá trị thặng dư (trình độ bóc lột) và khối lượng giá trị thặng dư (quy mô bóc lột) giúp làm rõ bản chất của giá trị thặng dư."
+    },
+    {
+      "id": "ktct2-015",
+      "topic": "Tư bản cho vay & lợi tức",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "So với lợi nhuận bình quân thì lợi tức phải như thế nào?",
+      "options": {
+        "A": "Bằng",
+        "B": "Lớn hơn",
+        "C": "Nhỏ hơn",
+        "D": "Lớn hơn hoặc bằng"
+      },
+      "correct_answer": "C",
+      "explanation": "Lợi tức là một phần của lợi nhuận bình quân mà người đi vay trả cho người cho vay, nên lợi tức luôn nhỏ hơn lợi nhuận bình quân ($0 < z < \\overline{p}$)."
+    },
+    {
+      "id": "ktct2-016",
+      "topic": "Địa tô",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Địa tô chênh lệch II gắn liền với yếu tố nào?",
+      "options": {
+        "A": "Đất được đầu tư, thâm canh và làm tăng độ màu mỡ của đất",
+        "B": "Mức độ màu mỡ của đất",
+        "C": "Vị trí địa lý",
+        "D": "Độc quyền ruộng đất"
+      },
+      "correct_answer": "A",
+      "explanation": "Địa tô chênh lệch II gắn với việc đầu tư thâm canh làm tăng độ màu mỡ kinh tế của đất. Còn địa tô chênh lệch I gắn với độ màu mỡ tự nhiên và vị trí địa lý thuận lợi của đất."
+    },
+    {
+      "id": "ktct2-017",
+      "topic": "Hội nhập kinh tế quốc tế",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Để nâng cao hiệu quả hội nhập cần:",
+      "options": {
+        "A": "Giảm công nghệ",
+        "B": "Nâng cao năng lực cạnh tranh",
+        "C": "Giảm sản xuất",
+        "D": "Giảm đầu tư"
+      },
+      "correct_answer": "B",
+      "explanation": "Nâng cao năng lực cạnh tranh (của nền kinh tế, doanh nghiệp và sản phẩm) là điều kiện then chốt để hội nhập kinh tế quốc tế có hiệu quả."
+    },
+    {
+      "id": "ktct2-018",
+      "topic": "Các chủ thể của thị trường",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Căn cứ để phân chia thị trường tư liệu tiêu dùng và thị trường tư liệu sản xuất là gì?",
+      "options": {
+        "A": "Căn cứ vào vai trò của các yếu tố được trao đổi, mua bán",
+        "B": "Căn cứ vào vị trí của các yếu tố được trao đổi, mua bán",
+        "C": "Căn cứ vào chức năng của các yếu tố được trao đổi, mua bán",
+        "D": "Căn cứ vào nhu cầu của các yếu tố được trao đổi, mua bán"
+      },
+      "correct_answer": "A",
+      "explanation": "Phân chia theo đối tượng (vai trò của các yếu tố) đem trao đổi: thị trường tư liệu tiêu dùng và thị trường tư liệu sản xuất."
+    },
+    {
+      "id": "ktct2-019",
+      "topic": "Các chủ thể của thị trường",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Căn cứ để phân chia thị trường tự do, thị trường có điều tiết, thị trường cạnh tranh hoàn hảo, không hoàn hảo là gì?",
+      "options": {
+        "A": "Căn cứ vào phạm vi các quan hệ.",
+        "B": "Căn cứ vào vai trò của các yếu tố được trao đổi.",
+        "C": "Căn cứ vào tính chất và cơ chế vận hành.",
+        "D": "Căn cứ vào quyết định đã ban hành."
+      },
+      "correct_answer": "C",
+      "explanation": "Dựa vào tính chất và cơ chế vận hành, thị trường được chia thành: thị trường tự do, thị trường có điều tiết, thị trường cạnh tranh hoàn hảo và cạnh tranh không hoàn hảo."
+    },
+    {
+      "id": "ktct2-020",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Tư bản đầu tư $750.000$ USD, cấu tạo hữu cơ $4/1$, $m' = 100\\%$. Tính tỷ suất lợi nhuận?",
+      "options": {
+        "A": "$10\\%$",
+        "B": "$15\\%$",
+        "C": "$20\\%$",
+        "D": "$25\\%$"
+      },
+      "correct_answer": "C",
+      "explanation": "$c + v = 750.000$ với $\\dfrac{c}{v} = \\dfrac{4}{1}$ nên $c = 600.000$, $v = 150.000$. Từ $m' = 100\\%$ suy ra $m = v = 150.000$. Tỷ suất lợi nhuận $p' = \\dfrac{m}{c+v} = \\dfrac{150.000}{750.000} = 20\\%$."
+    },
+    {
+      "id": "ktct2-021",
+      "topic": "Bài tập tính toán",
+      "difficulty": "hard",
+      "source_pages": [2],
+      "question": "Tổng tư bản đầu tư $5000$ USD, trong đó tư bản bất biến gấp $4$ lần tư bản khả biến và trình độ bóc lột công nhân là $200\\%$. Tính giá trị tổng sản phẩm?",
+      "options": {
+        "A": "$7000$ USD",
+        "B": "$8000$ USD",
+        "C": "$9000$ USD",
+        "D": "$11.000$ USD"
+      },
+      "correct_answer": "A",
+      "explanation": "$c + v = 5000$ với $c = 4v$ nên $5v = 5000 \\Rightarrow v = 1000$, $c = 4000$. Từ $m' = 200\\%$ suy ra $m = 2v = 2000$. Tổng giá trị sản phẩm $G = c + v + m = 4000 + 1000 + 2000 = 7000$ USD."
+    },
+    {
+      "id": "ktct2-022",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Tư bản ứng trước $100.000$ USD, cấu tạo hữu cơ tư bản là $4/1$, tỷ suất giá trị thặng dư là $100\\%$. Hãy xác định lượng giá trị thặng dư làm ra?",
+      "options": {
+        "A": "$10.000$ USD",
+        "B": "$15.000$ USD",
+        "C": "$20.000$ USD",
+        "D": "$25.000$ USD"
+      },
+      "correct_answer": "C",
+      "explanation": "$c + v = 100.000$ với $\\dfrac{c}{v} = \\dfrac{4}{1}$ nên $c = 80.000$, $v = 20.000$. Từ $m' = 100\\%$ suy ra $m = v = 20.000$ USD."
+    },
+    {
+      "id": "ktct2-023",
+      "topic": "Bài tập tính toán",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Tư bản cho vay $100$ triệu, lợi tức thu được $8$ triệu. Tỷ suất lợi tức là bao nhiêu?",
+      "options": {
+        "A": "$6\\%$",
+        "B": "$8\\%$",
+        "C": "$10\\%$",
+        "D": "$12\\%$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tỷ suất lợi tức $z' = \\dfrac{\\text{lợi tức}}{\\text{tư bản cho vay}} \\times 100\\% = \\dfrac{8}{100} \\times 100\\% = 8\\%$."
+    },
+    {
+      "id": "ktct2-024",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Với $G = 300.000c + 75.000v + 75.000m$, tỷ suất lợi nhuận $p'$ là bao nhiêu?",
+      "options": {
+        "A": "$10\\%$",
+        "B": "$15\\%$",
+        "C": "$20\\%$",
+        "D": "$25\\%$"
+      },
+      "correct_answer": "C",
+      "explanation": "$p' = \\dfrac{m}{c+v} \\times 100\\% = \\dfrac{75.000}{300.000 + 75.000} \\times 100\\% = \\dfrac{75.000}{375.000} \\times 100\\% = 20\\%$."
+    },
+    {
+      "id": "ktct2-025",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Vốn đầu tư $1.000.000$ USD, $c/v = 4/1$, $m' = 100\\%$. Tỷ suất lợi nhuận $p'$ là bao nhiêu?",
+      "options": {
+        "A": "$15\\%$",
+        "B": "$20\\%$",
+        "C": "$25\\%$",
+        "D": "$30\\%$"
+      },
+      "correct_answer": "B",
+      "explanation": "$c + v = 1.000.000$ với $\\dfrac{c}{v} = \\dfrac{4}{1}$ nên $c = 800.000$, $v = 200.000$. Từ $m' = 100\\%$ suy ra $m = 200.000$. $p' = \\dfrac{m}{c+v} = \\dfrac{200.000}{1.000.000} = 20\\%$."
+    },
+    {
+      "id": "ktct2-026",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Nhà máy có $100$ công nhân, mỗi công nhân được trả công $250$ USD/tháng, tỷ suất giá trị thặng dư $200\\%$ thì khối lượng giá trị thặng dư là bao nhiêu?",
+      "options": {
+        "A": "$20.000$ USD",
+        "B": "$30.000$ USD",
+        "C": "$40.000$ USD",
+        "D": "$50.000$ USD"
+      },
+      "correct_answer": "D",
+      "explanation": "Tổng tư bản khả biến $V = 100 \\times 250 = 25.000$ USD. Khối lượng giá trị thặng dư $M = m' \\times V = 200\\% \\times 25.000 = 50.000$ USD."
+    },
+    {
+      "id": "ktct2-027",
+      "topic": "Lợi nhuận & cạnh tranh",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Kết quả cạnh tranh trong nội bộ ngành là gì?",
+      "options": {
+        "A": "Hình thành giá cả thị trường của từng loại hàng hóa.",
+        "B": "Hình thành cả sản xuất của từng loại hàng hóa.",
+        "C": "Hình thành giá trị thị trường của từng loại hàng hóa.",
+        "D": "Hình thành giá trị trao đổi của từng loại hàng hóa."
+      },
+      "correct_answer": "C",
+      "explanation": "Cạnh tranh trong nội bộ ngành dẫn tới hình thành giá trị thị trường (giá trị xã hội) của từng loại hàng hóa. (Cạnh tranh giữa các ngành mới hình thành tỷ suất lợi nhuận bình quân.)"
+    },
+    {
+      "id": "ktct2-028",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [2],
+      "question": "Điều kiện ra đời và tồn tại của sản xuất hàng hóa là gì?",
+      "options": {
+        "A": "Chế độ tư hữu về tư liệu sản xuất",
+        "B": "Phân công lao động trong các gia đình xuất hiện",
+        "C": "Nhu cầu trao đổi trong xã hội tăng",
+        "D": "Phân công lao động xã hội và sự tách biệt kinh tế giữa các chủ thể sản xuất"
+      },
+      "correct_answer": "D",
+      "explanation": "Sản xuất hàng hóa ra đời và tồn tại khi có hai điều kiện: phân công lao động xã hội và sự tách biệt về kinh tế giữa các chủ thể sản xuất."
+    },
+    {
+      "id": "ktct2-029",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Nền kinh tế thị trường được định nghĩa như thế nào?",
+      "options": {
+        "A": "Là nền kinh tế vận hành theo sự điều tiết của nhà nước.",
+        "B": "Là nền kinh tế vận hành theo kế hoạch của các doanh nghiệp tư nhân.",
+        "C": "Là nền kinh tế vận hành theo cơ chế thị trường.",
+        "D": "Là nền kinh tế vận hành chủ yếu dựa trên nguồn lực tài nguyên thiên nhiên."
+      },
+      "correct_answer": "C",
+      "explanation": "Kinh tế thị trường là nền kinh tế hàng hóa phát triển cao, ở đó mọi quan hệ sản xuất và trao đổi đều được vận hành theo cơ chế thị trường."
+    },
+    {
+      "id": "ktct2-030",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "easy",
+      "source_pages": [2],
+      "question": "Trong các thành phần kinh tế, thành phần nào giữ vai trò chủ đạo?",
+      "options": {
+        "A": "Kinh tế tư nhân",
+        "B": "Kinh tế tập thể",
+        "C": "Kinh tế nhà nước",
+        "D": "Kinh tế có vốn đầu tư nước ngoài"
+      },
+      "correct_answer": "C",
+      "explanation": "Kinh tế nhà nước giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN ở Việt Nam."
+    },
+    {
+      "id": "ktct2-031",
+      "topic": "Hàng hóa sức lao động",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Tính năng đặc biệt của hàng hóa sức lao động là gì?",
+      "options": {
+        "A": "Khi sử dụng sẽ tạo ra giá trị mới lớn hơn giá trị tư bản đã đầu tư",
+        "B": "Khi sử dụng sẽ tạo ra giá trị mới lớn hơn giá trị bản thân nó",
+        "C": "Khi sử dụng sẽ tạo ra giá trị mới ngang bằng giá trị bản thân nó",
+        "D": "Khi sử dụng sẽ tạo ra giá trị sử dụng mới lớn hơn giá trị sử dụng bản thân nó"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị sử dụng đặc biệt của hàng hóa sức lao động là khi tiêu dùng nó tạo ra giá trị mới lớn hơn giá trị bản thân nó - phần dôi ra là giá trị thặng dư."
+    },
+    {
+      "id": "ktct2-032",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "easy",
+      "source_pages": [3],
+      "question": "Lao động trừu tượng là gì?",
+      "options": {
+        "A": "Lao động giản đơn chưa qua đào tạo",
+        "B": "Lao động tạo ra giá trị sử dụng hàng hóa",
+        "C": "Hao phí sức lao động nói chung của con người",
+        "D": "Lao động cụ thể gắn với sản phẩm nhất định"
+      },
+      "correct_answer": "C",
+      "explanation": "Lao động trừu tượng là sự hao phí sức lao động nói chung của con người (không kể hình thức cụ thể), tạo ra giá trị của hàng hóa."
+    },
+    {
+      "id": "ktct2-033",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Giá trị hàng hóa là gì?",
+      "options": {
+        "A": "Lao động cá biệt của người sản xuất hàng hóa kết tinh trong hàng hóa",
+        "B": "Lao động tư nhân của người sản xuất hàng hóa kết tinh trong hàng hóa",
+        "C": "Lao động cụ thể của người sản xuất hàng hóa kết tinh trong hàng hóa",
+        "D": "Lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa"
+      },
+      "correct_answer": "D",
+      "explanation": "Giá trị hàng hóa là lao động xã hội (lao động trừu tượng) của người sản xuất hàng hóa kết tinh trong hàng hóa."
+    },
+    {
+      "id": "ktct2-034",
+      "topic": "Hàng hóa sức lao động",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Giá trị hàng hoá sức lao động do bộ phận nào quyết định?",
+      "options": {
+        "A": "Giá trị tư liệu sinh hoạt cần thiết để tái sản xuất sức lao động",
+        "B": "Giá trị tư liệu sinh hoạt cần thiết nuôi con của người lao động",
+        "C": "Phí tổn đào tạo người lao động",
+        "D": "Bao gồm cả A, B, C"
+      },
+      "correct_answer": "D",
+      "explanation": "Giá trị hàng hóa sức lao động bao gồm: giá trị tư liệu sinh hoạt cần thiết để tái sản xuất sức lao động, để nuôi gia đình người lao động, và phí tổn đào tạo người lao động."
+    },
+    {
+      "id": "ktct2-035",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Nhận định nào sau đây SAI?",
+      "options": {
+        "A": "Bất cứ sản phẩm nào do lao động làm ra đều là hàng hóa",
+        "B": "Không phải sản phẩm nào của lao động cũng là hàng hóa",
+        "C": "Mọi hàng hóa đều là sản phẩm của lao động",
+        "D": "Không phải sản phẩm thỏa mãn nhu cầu con người đều là hàng hóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Câu hỏi yêu cầu chọn nhận định SAI. Không phải sản phẩm nào do lao động làm ra cũng là hàng hóa - chỉ khi sản phẩm được sản xuất để trao đổi, mua bán mới là hàng hóa. Vì vậy A là nhận định sai."
+    },
+    {
+      "id": "ktct2-036",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Theo C. Mác, để có giá trị thặng dư, nhà tư bản cần:",
+      "options": {
+        "A": "Bóc lột tối đa lao động.",
+        "B": "Đảm bảo quá trình sản xuất, lưu thông và bán được hàng hóa.",
+        "C": "Trả công cao để người lao động làm việc tốt hơn.",
+        "D": "Giảm giá trị sức lao động xuống mức thấp nhất."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị thặng dư được tạo ra trong sản xuất nhưng chỉ thực hiện được khi hàng hóa được lưu thông và bán được. Do đó nhà tư bản phải đảm bảo cả quá trình sản xuất, lưu thông và tiêu thụ hàng hóa."
+    },
+    {
+      "id": "ktct2-037",
+      "topic": "Tư bản bất biến & khả biến",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Trong quá trình sản xuất, yếu tố nào sau đây sẽ bị hao mòn?",
+      "options": {
+        "A": "Tư bản khả biến",
+        "B": "Tư bản bất biến",
+        "C": "Tư bản cố định",
+        "D": "Tư bản lưu động"
+      },
+      "correct_answer": "C",
+      "explanation": "Tư bản cố định (máy móc, thiết bị, nhà xưởng) tham gia nhiều chu kỳ sản xuất và bị hao mòn dần (hao mòn hữu hình và vô hình), chuyển dần giá trị vào sản phẩm."
+    },
+    {
+      "id": "ktct2-038",
+      "topic": "Hàng hóa sức lao động",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Điều kiện để sức lao động trở thành hàng hóa là gì?",
+      "options": {
+        "A": "Người lao động phải được mua bán; người lao động không có tư liệu sản xuất",
+        "B": "Người lao động phải được tự do; người lao động không có tư liệu sản xuất",
+        "C": "Người lao động phải được tự do mua bán; người lao động có tư liệu sản xuất",
+        "D": "Người lao động phải được tự do; người lao động không có tư liệu tiêu dùng"
+      },
+      "correct_answer": "B",
+      "explanation": "Hai điều kiện để sức lao động trở thành hàng hóa: người lao động được tự do về thân thể (tự do bán sức lao động) và bị tước đoạt hết tư liệu sản xuất nên buộc phải bán sức lao động."
+    },
+    {
+      "id": "ktct2-039",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "easy",
+      "source_pages": [3],
+      "question": "Hình thức phân phối chủ yếu trong nền kinh tế là gì?",
+      "options": {
+        "A": "Theo lao động và hiệu quả kinh tế",
+        "B": "Theo quyền lực",
+        "C": "Theo địa vị",
+        "D": "Theo nhu cầu"
+      },
+      "correct_answer": "A",
+      "explanation": "Trong nền KTTT định hướng XHCN, phân phối theo lao động và hiệu quả kinh tế là hình thức phân phối chủ yếu."
+    },
+    {
+      "id": "ktct2-040",
+      "topic": "Đối tượng & phương pháp",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Tìm đáp án SAI:",
+      "options": {
+        "A": "Chủ nghĩa trọng nông coi trọng vai trò của sản xuất nông nghiệp",
+        "B": "Chủ nghĩa trọng thương coi trọng vai trò của hoạt động thương mại",
+        "C": "Kinh tế chính trị tầm thường đi sâu vào phân tích các quan hệ xã hội trong quá trình sản xuất",
+        "D": "Kinh tế chính trị Mác - Lênin xây dựng hệ thống lý luận khoa học, toàn diện về nền kinh tế tư bản chủ nghĩa"
+      },
+      "correct_answer": "C",
+      "explanation": "Câu hỏi yêu cầu chọn đáp án SAI. Kinh tế chính trị tầm thường chỉ mô tả hời hợt các hiện tượng bề ngoài, KHÔNG đi sâu phân tích bản chất các quan hệ xã hội trong sản xuất. Vì vậy C là nhận định sai."
+    },
+    {
+      "id": "ktct2-041",
+      "topic": "Hàng hóa sức lao động",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Điều kiện để tiền tệ chuyển hóa thành tư bản là gì?",
+      "options": {
+        "A": "Sự xuất hiện của tư liệu sản xuất trong tay các nhà tư bản",
+        "B": "Sự xuất hiện các nguồn vốn đầu tư trong xã hội",
+        "C": "Sự xuất hiện hàng hóa sức lao động trong xã hội",
+        "D": "Sự xuất hiện quyền tự do kinh doanh trong nền kinh tế"
+      },
+      "correct_answer": "C",
+      "explanation": "Tiền chỉ chuyển hóa thành tư bản khi sức lao động trở thành hàng hóa - đây là chìa khóa để tiền sinh ra giá trị thặng dư."
+    },
+    {
+      "id": "ktct2-042",
+      "topic": "Tư bản bất biến & khả biến",
+      "difficulty": "medium",
+      "source_pages": [3],
+      "question": "Trong điều kiện tư bản khả biến và giá trị thặng dư không đổi, điều gì sẽ xảy ra khi tư bản bất biến được sử dụng tiết kiệm?",
+      "options": {
+        "A": "Tỷ suất lợi nhuận giảm",
+        "B": "Tỷ suất lợi nhuận tăng",
+        "C": "Tốc độ chu chuyển tư bản tăng",
+        "D": "Tốc độ chu chuyển tư bản giảm"
+      },
+      "correct_answer": "B",
+      "explanation": "$p' = \\dfrac{m}{c+v}$. Khi $m$ và $v$ không đổi, tiết kiệm tư bản bất biến $c$ làm mẫu số $(c+v)$ giảm, do đó tỷ suất lợi nhuận $p'$ tăng."
+    },
+    {
+      "id": "ktct2-043",
+      "topic": "Tích lũy tư bản",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Tái sản xuất mở rộng là quá trình sản xuất được lặp lại với quy mô...",
+      "options": {
+        "A": "Nhỏ hơn",
+        "B": "Không đổi",
+        "C": "Lớn hơn",
+        "D": "Ngang nhau"
+      },
+      "correct_answer": "C",
+      "explanation": "Tái sản xuất mở rộng là quá trình sản xuất được lặp lại với quy mô lớn hơn trước (nhờ tích lũy tư bản). Còn tái sản xuất giản đơn lặp lại với quy mô không đổi."
+    },
+    {
+      "id": "ktct2-044",
+      "topic": "Tư bản bất biến & khả biến",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Trong các yếu tố sau, yếu tố nào liên quan đến tiền công của người lao động?",
+      "options": {
+        "A": "Tư bản khả biến",
+        "B": "Tư bản bất biến",
+        "C": "Tư bản cố định",
+        "D": "Tư bản lưu động"
+      },
+      "correct_answer": "A",
+      "explanation": "Tư bản khả biến (v) là phần tư bản dùng để mua sức lao động, biểu hiện thành tiền công trả cho người lao động."
+    },
+    {
+      "id": "ktct2-045",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Giá trị thặng dư tuyệt đối được tạo ra bằng cách:",
+      "options": {
+        "A": "Kéo dài thời gian lao động trong ngày",
+        "B": "Rút ngắn thời gian tất yếu",
+        "C": "Cải tiến công nghệ",
+        "D": "Tăng năng suất lao động"
+      },
+      "correct_answer": "A",
+      "explanation": "Giá trị thặng dư tuyệt đối có được do kéo dài ngày lao động vượt quá thời gian lao động tất yếu, trong khi thời gian lao động tất yếu không đổi."
+    },
+    {
+      "id": "ktct2-046",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Thể chế kinh tế thị trường định hướng XHCN là gì?",
+      "options": {
+        "A": "Là hệ thống các quy luật kinh tế, các chủ thể tham gia thị trường vận hành nền kinh tế theo phương hướng, mục tiêu của mình",
+        "B": "Là hệ thống đường lối, chủ trương chiến lược, luật pháp, chính sách được xác lập để vận hành nền kinh tế theo phương hướng, mục tiêu đã định",
+        "C": "Là hệ thống các chủ thể tham gia thị trường, đầu tư phát triển nền kinh tế vì lợi ích của mình và của nền kinh tế",
+        "D": "Là hệ thống các quan hệ kinh tế, các quy luật kinh tế tác động, vận hành nền kinh tế theo yêu cầu thị trường trong nước và quốc tế"
+      },
+      "correct_answer": "B",
+      "explanation": "Thể chế KTTT định hướng XHCN là hệ thống đường lối, chủ trương chiến lược, luật pháp, chính sách quy định các điều kiện vận hành nền kinh tế theo phương hướng, mục tiêu đã định."
+    },
+    {
+      "id": "ktct2-047",
+      "topic": "Hội nhập kinh tế quốc tế",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Hội nhập kinh tế quốc tế giúp các nước đang phát triển tiếp cận chủ yếu với nguồn lực nào?",
+      "options": {
+        "A": "Nguồn lực bên ngoài như vốn, khoa học – công nghệ, kinh nghiệm",
+        "B": "Tài nguyên thiên nhiên",
+        "C": "Lao động giá rẻ",
+        "D": "Viện trợ nhân đạo"
+      },
+      "correct_answer": "A",
+      "explanation": "Hội nhập kinh tế quốc tế tạo điều kiện cho các nước đang phát triển tiếp cận và sử dụng các nguồn lực bên ngoài như vốn, khoa học - công nghệ, kinh nghiệm quản lý."
+    },
+    {
+      "id": "ktct2-048",
+      "topic": "Các chủ thể của thị trường",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Mục đích của các chủ thể kinh tế trong nền kinh tế thị trường là gì?",
+      "options": {
+        "A": "Tối đa hóa phúc lợi xã hội.",
+        "B": "Cải thiện chất lượng cuộc sống.",
+        "C": "Lợi nhuận tối đa.",
+        "D": "Phân bổ nguồn lực hợp lý."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong nền kinh tế thị trường, mục đích trực tiếp của các chủ thể sản xuất kinh doanh là tối đa hóa lợi nhuận."
+    },
+    {
+      "id": "ktct2-049",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Giá trị thặng dư siêu ngạch thực chất là hình thức biến tướng của gì?",
+      "options": {
+        "A": "Giá trị thặng dư tuyệt đối",
+        "B": "Giá trị thặng dư tương đối",
+        "C": "Tư bản bất biến",
+        "D": "Tư bản khả biến"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị thặng dư siêu ngạch là hình thức biến tướng của giá trị thặng dư tương đối, vì cả hai đều dựa trên cơ sở tăng năng suất lao động (siêu ngạch là năng suất cá biệt, tương đối là năng suất xã hội)."
+    },
+    {
+      "id": "ktct2-050",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Giá trị thặng dư siêu ngạch xuất hiện khi nào?",
+      "options": {
+        "A": "Giá trị hàng hóa xã hội cao hơn giá trị cá biệt",
+        "B": "Giá trị hàng hóa cá biệt thấp hơn giá trị xã hội",
+        "C": "Tư bản bất biến tăng nhanh hơn tư bản khả biến",
+        "D": "Công nhân làm thêm giờ"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị thặng dư siêu ngạch xuất hiện khi nhà tư bản có giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội (nhờ năng suất lao động cá biệt cao hơn mức trung bình)."
+    },
+    {
+      "id": "ktct2-051",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Giá trị của hàng hóa là gì?",
+      "options": {
+        "A": "Toàn bộ lợi ích mà hàng hóa mang lại cho người tiêu dùng.",
+        "B": "Lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa.",
+        "C": "Số lượng sản phẩm được sản xuất ra trong một thời gian nhất định.",
+        "D": "Khả năng trao đổi hàng hóa lấy hàng hóa khác."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị hàng hóa là lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa. (Phương án D mô tả giá trị trao đổi, là hình thức biểu hiện của giá trị.)"
+    },
+    {
+      "id": "ktct2-052",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Vì sao hàng hóa phải là sản phẩm của lao động?",
+      "options": {
+        "A": "Vì con người có nhu cầu tiêu dùng nên phải làm ra hàng hóa",
+        "B": "Vì hàng hóa phải có giá trị sử dụng nên con người làm ra hàng hóa để sống",
+        "C": "Vì hàng hóa do lao động của con người làm ra để đáp ứng nhu cầu xã hội",
+        "D": "Vì hàng hóa phải có thuộc tính giá trị, tức lao động kết tinh đem trao đổi"
+      },
+      "correct_answer": "D",
+      "explanation": "Hàng hóa phải là sản phẩm của lao động vì nó phải có thuộc tính giá trị - tức lao động xã hội kết tinh - thì mới trao đổi được. Vật không do lao động tạo ra thì không có giá trị, không phải hàng hóa."
+    },
+    {
+      "id": "ktct2-053",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [4],
+      "question": "Đối tượng nào có giá trị sử dụng mà không có giá trị?",
+      "options": {
+        "A": "Quần áo bị hư",
+        "B": "Ánh nắng mặt trời",
+        "C": "Bánh quy hết hạn",
+        "D": "Khí thải, nước thải"
+      },
+      "correct_answer": "B",
+      "explanation": "Ánh nắng mặt trời có ích (có giá trị sử dụng) nhưng không do lao động tạo ra nên không có giá trị. Đây là vật phẩm tự nhiên, không phải hàng hóa."
+    },
+    {
+      "id": "ktct2-054",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Giá trị cốt lõi của CNXH trong nền kinh tế là gì?",
+      "options": {
+        "A": "Tối đa hóa lợi nhuận",
+        "B": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
+        "C": "Tự do cạnh tranh tuyệt đối",
+        "D": "Tăng trưởng nhanh"
+      },
+      "correct_answer": "B",
+      "explanation": "Mục tiêu, giá trị cốt lõi của định hướng XHCN trong nền kinh tế là 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh'."
+    },
+    {
+      "id": "ktct2-055",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "easy",
+      "source_pages": [4],
+      "question": "Kinh tế thị trường là sản phẩm của:",
+      "options": {
+        "A": "Văn minh tư bản chủ nghĩa",
+        "B": "Văn minh công nghiệp",
+        "C": "Văn minh XHCN",
+        "D": "Văn minh nhân loại"
+      },
+      "correct_answer": "D",
+      "explanation": "Kinh tế thị trường là thành tựu phát triển chung của văn minh nhân loại, không phải sản phẩm riêng của chủ nghĩa tư bản."
+    },
+    {
+      "id": "ktct2-056",
+      "topic": "Lợi nhuận & cạnh tranh",
+      "difficulty": "hard",
+      "source_pages": [4],
+      "question": "Khi nào giá trị hàng hóa chuyển thành giá cả sản xuất?",
+      "options": {
+        "A": "Khi lợi nhuận bình quân bằng giá trị thặng dư",
+        "B": "Khi tỷ suất lợi nhuận bình quân bằng tỷ suất giá trị thặng dư",
+        "C": "Khi lợi nhuận bằng giá trị thặng dư",
+        "D": "Khi tỷ suất lợi nhuận bằng tỷ suất giá trị thặng dư"
+      },
+      "correct_answer": "A",
+      "explanation": "Đáp án đã khoanh là A. Khi hình thành tỷ suất lợi nhuận bình quân, giá trị hàng hóa chuyển hóa thành giá cả sản xuất; xét trên toàn xã hội thì tổng lợi nhuận (bình quân) bằng tổng giá trị thặng dư."
+    },
+    {
+      "id": "ktct2-057",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "medium",
+      "source_pages": [4, 5],
+      "question": "Cấu thành lượng giá trị của hàng hóa bao gồm hai bộ phận là:",
+      "options": {
+        "A": "Lao động giản đơn và lao động phức tạp.",
+        "B": "Lao động quá khứ và lao động sống.",
+        "C": "Lao động cụ thể và lao động trừu tượng.",
+        "D": "Lao động tất yếu và lao động thặng dư."
+      },
+      "correct_answer": "B",
+      "explanation": "Lượng giá trị của hàng hóa gồm: lao động quá khứ (giá trị tư liệu sản xuất đã hao phí, kết tinh từ trước - bộ phận c) và lao động sống (lao động mới của người sản xuất - bộ phận v + m)."
+    },
+    {
+      "id": "ktct2-058",
+      "topic": "Tiền tệ & lưu thông",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Điểm khác biệt lớn nhất giữa công thức H – T – H và T – H – T' là gì?",
+      "options": {
+        "A": "Quy luật giá trị trong lưu thông",
+        "B": "Các nhân tố vật chất tham gia sản xuất",
+        "C": "Các chủ thể tham gia quan hệ lưu thông",
+        "D": "Mục đích của hai nền sản xuất hàng hóa"
+      },
+      "correct_answer": "D",
+      "explanation": "Khác biệt lớn nhất là mục đích: H – T – H (lưu thông hàng hóa giản đơn) nhằm giá trị sử dụng; còn T – H – T' (lưu thông của tư bản) nhằm giá trị, cụ thể là giá trị tăng thêm (giá trị thặng dư)."
+    },
+    {
+      "id": "ktct2-059",
+      "topic": "Hàng hóa & lao động",
+      "difficulty": "hard",
+      "source_pages": [5],
+      "question": "Đối tượng nào sau đây có giá trị mà không có giá trị sử dụng?",
+      "options": {
+        "A": "Ánh nắng mặt trời",
+        "B": "Nước sông, nước biển",
+        "C": "Không khí",
+        "D": "Sản phẩm bị hư, lỗi"
+      },
+      "correct_answer": "A",
+      "explanation": "Đáp án đã khoanh trong đề là A. **Lưu ý:** theo lý thuyết, ánh nắng mặt trời có giá trị sử dụng nhưng KHÔNG có giá trị (vì không do lao động tạo ra) - tức ngược với yêu cầu đề. Vật 'có giá trị mà không có giá trị sử dụng' là sản phẩm do lao động làm ra nhưng hỏng/lỗi nên mất công dụng, tức đáp án D. Bạn nên đối chiếu lại với đáp án chính thức."
+    },
+    {
+      "id": "ktct2-060",
+      "topic": "Bài tập tính toán",
+      "difficulty": "easy",
+      "source_pages": [5],
+      "question": "Nếu $m = 60$, $v = 40$ thì tỷ suất giá trị thặng dư $m'$ là bao nhiêu?",
+      "options": {
+        "A": "$60\\%$",
+        "B": "$100\\%$",
+        "C": "$150\\%$",
+        "D": "$200\\%$"
+      },
+      "correct_answer": "C",
+      "explanation": "$m' = \\dfrac{m}{v} \\times 100\\% = \\dfrac{60}{40} \\times 100\\% = 150\\%$."
+    },
+    {
+      "id": "ktct2-061",
+      "topic": "Bài tập tính toán",
+      "difficulty": "easy",
+      "source_pages": [5],
+      "question": "Tổng tư bản đầu tư ban đầu là bao nhiêu? (Với $G = 500.000c + 300.000v + 600.000m$)",
+      "options": {
+        "A": "$1.400.000$",
+        "B": "$900.000$",
+        "C": "$1.100.000$",
+        "D": "$800.000$"
+      },
+      "correct_answer": "D",
+      "explanation": "Tổng tư bản đầu tư ban đầu $= c + v = 500.000 + 300.000 = 800.000$. (Phần $m$ là giá trị thặng dư, không thuộc tư bản ứng trước.)"
+    },
+    {
+      "id": "ktct2-062",
+      "topic": "Tư bản cho vay & lợi tức",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Tỷ suất lợi tức được tính theo công thức nào? (Z: lợi tức, TBCV: tư bản cho vay)",
+      "options": {
+        "A": "$Z' = (TBCV / Z) \\times 100\\%$",
+        "B": "$Z' = (Z / TBCV) \\times 100\\%$",
+        "C": "$Z' = (\\text{Lợi nhuận} / TBCD) \\times 100\\%$",
+        "D": "$Z' = (R / TBKB) \\times 100\\%$"
+      },
+      "correct_answer": "B",
+      "explanation": "Tỷ suất lợi tức $z' = \\dfrac{\\text{lợi tức } (Z)}{\\text{tư bản cho vay } (TBCV)} \\times 100\\%$."
+    },
+    {
+      "id": "ktct2-063",
+      "topic": "Tích lũy tư bản",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Đại lượng tư bản ứng trước ảnh hưởng tới tích lũy tư bản như thế nào?",
+      "options": {
+        "A": "Đại lượng tư bản ứng trước càng lớn thì quy mô tích lũy càng nhỏ.",
+        "B": "Đại lượng tư bản ứng trước càng nhỏ thì tích lũy càng lớn.",
+        "C": "Đại lượng tư bản ứng trước càng lớn thì quy mô tích lũy càng lớn.",
+        "D": "Không có quan hệ trực tiếp."
+      },
+      "correct_answer": "C",
+      "explanation": "Quy mô tư bản ứng trước càng lớn (các yếu tố khác không đổi) thì khối lượng giá trị thặng dư tạo ra càng lớn, do đó quy mô tích lũy tư bản càng lớn."
+    },
+    {
+      "id": "ktct2-064",
+      "topic": "Tiền tệ & lưu thông",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Hình thái giá trị mở rộng của tiền tệ thể hiện đặc điểm nào?",
+      "options": {
+        "A": "Một hàng hóa đổi lấy một hàng hóa",
+        "B": "Một hàng hóa đổi lấy nhiều hàng hóa khác",
+        "C": "Mọi hàng hóa đều quy về một hàng hóa",
+        "D": "Hàng hóa đã chuyển sang hình thái tiền tệ"
+      },
+      "correct_answer": "B",
+      "explanation": "Hình thái giá trị mở rộng (toàn bộ): giá trị của một hàng hóa được biểu hiện ở nhiều hàng hóa khác (một hàng hóa đổi lấy nhiều hàng hóa khác)."
+    },
+    {
+      "id": "ktct2-065",
+      "topic": "Tiền tệ & lưu thông",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Chức năng phương tiện cất trữ của tiền tệ nghĩa là gì?",
+      "options": {
+        "A": "Tiền giữ nguyên hình thái vật chất",
+        "B": "Tiền bị rút khỏi lưu thông để tích lũy giá trị",
+        "C": "Tiền được chuyển thành vàng, bạc",
+        "D": "Tiền dùng để đo lường giá trị"
+      },
+      "correct_answer": "B",
+      "explanation": "Với chức năng phương tiện cất trữ, tiền được rút khỏi lưu thông và cất giữ lại để tích lũy, bảo tồn giá trị (đại biểu cho của cải xã hội)."
+    },
+    {
+      "id": "ktct2-066",
+      "topic": "Lợi nhuận & cạnh tranh",
+      "difficulty": "easy",
+      "source_pages": [5],
+      "question": "Tỷ suất lợi nhuận là gì?",
+      "options": {
+        "A": "Tỷ lệ phần trăm giữa lợi nhuận và toàn bộ giá trị của tư bản ứng trước.",
+        "B": "Khoản chênh lệch giữa giá trị hàng hóa và chi phí sản xuất.",
+        "C": "Số lợi nhuận thu được sau khi bán hàng hóa.",
+        "D": "Phần giá trị thặng dư so với tư bản khả biến."
+      },
+      "correct_answer": "A",
+      "explanation": "Tỷ suất lợi nhuận $p' = \\dfrac{p}{c+v} \\times 100\\%$ - tỷ lệ phần trăm giữa lợi nhuận và toàn bộ tư bản ứng trước. (Phương án D là tỷ suất giá trị thặng dư.)"
+    },
+    {
+      "id": "ktct2-067",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Đặc điểm của quá trình sản xuất trong xí nghiệp tư bản chủ nghĩa là gì?",
+      "options": {
+        "A": "Công nhân làm việc dưới sự kiểm soát của nhà tư bản; sản phẩm thuộc sở hữu của giai cấp công nhân",
+        "B": "Công nhân làm việc dưới sự kiểm soát của nhà tư bản; sản phẩm thuộc sở hữu của nhà tư bản.",
+        "C": "Công nhân làm việc tự do; sản phẩm phân phối theo vốn góp và sức lao động",
+        "D": "Công nhân làm việc theo hợp đồng lao động; sản phẩm theo nhu cầu thị trường"
+      },
+      "correct_answer": "B",
+      "explanation": "Quá trình sản xuất TBCN có hai đặc điểm: công nhân làm việc dưới sự kiểm soát của nhà tư bản, và sản phẩm làm ra thuộc quyền sở hữu của nhà tư bản."
+    },
+    {
+      "id": "ktct2-068",
+      "topic": "Giá trị thặng dư",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Khối lượng giá trị thặng dư phản ánh điều gì?",
+      "options": {
+        "A": "Luôn lớn hơn giá trị hàng hóa, phản ánh quy mô bóc lột của nhà tư bản",
+        "B": "Luôn bằng giá trị hàng hóa, phản ánh trình độ bóc lột của nhà tư bản",
+        "C": "Luôn nhỏ hơn giá trị hàng hóa, phản ánh quy mô bóc lột của nhà tư bản",
+        "D": "Luôn nhỏ hơn giá trị hàng hóa, phản ánh hiệu quả đầu tư của nhà tư bản"
+      },
+      "correct_answer": "C",
+      "explanation": "Khối lượng giá trị thặng dư ($M = m' \\times V$) luôn nhỏ hơn tổng giá trị hàng hóa ($G = c + v + m$) và phản ánh quy mô bóc lột của nhà tư bản đối với công nhân làm thuê."
+    },
+    {
+      "id": "ktct2-069",
+      "topic": "Cách mạng công nghiệp & CNH",
+      "difficulty": "medium",
+      "source_pages": [5],
+      "question": "Cách mạng công nghiệp là bước phát triển nhảy vọt về chất của trình độ tư liệu lao động, dựa trên cơ sở đó là gì?",
+      "options": {
+        "A": "Những phát minh đột phá về tổ chức và phân công lao động xã hội",
+        "B": "Những phát minh đột phá về sử dụng máy móc và tổ chức, quản lý kinh tế",
+        "C": "Những phát minh đột phá về sử dụng cơ giới và nguyên vật liệu mới",
+        "D": "Những phát minh đột phá về kỹ thuật và công nghệ"
+      },
+      "correct_answer": "D",
+      "explanation": "Cách mạng công nghiệp là bước phát triển nhảy vọt về chất của tư liệu lao động trên cơ sở những phát minh đột phá về kỹ thuật và công nghệ."
+    },
+    {
+      "id": "ktct2-070",
+      "topic": "Hội nhập kinh tế quốc tế",
+      "difficulty": "medium",
+      "source_pages": [5, 6],
+      "question": "Nội dung chủ yếu của hội nhập kinh tế quốc tế trong phát triển ở Việt Nam là gì?",
+      "options": {
+        "A": "Chuẩn bị sẵn sàng về tư duy, về sự tham gia của toàn xã hội",
+        "B": "Hoàn thiện thể chế, nguồn nhân lực và sự am hiểu môi trường quốc tế",
+        "C": "Thực hiện đa dạng các hình thức, các mức độ hội nhập kinh tế quốc tế",
+        "D": "Cả ba đáp án trên đều đúng"
+      },
+      "correct_answer": "D",
+      "explanation": "Nội dung hội nhập kinh tế quốc tế gồm: chuẩn bị các điều kiện để hội nhập thành công (tư duy, nguồn nhân lực, thể chế, sự am hiểu môi trường quốc tế, sự tham gia của toàn xã hội) và thực hiện đa dạng các hình thức, mức độ hội nhập. Vì vậy cả ba đáp án trên đều đúng."
+    },
+    {
+      "id": "ktct2-071",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [6],
+      "question": "Một đơn vị sản xuất một ngày được $100.000$ sản phẩm với tổng giá trị $300.000$ USD. Tính giá trị một sản phẩm khi cường độ lao động giảm hai lần?",
+      "options": {
+        "A": "$4{,}5$ USD",
+        "B": "$1{,}5$ USD",
+        "C": "$3$ USD",
+        "D": "$6$ USD"
+      },
+      "correct_answer": "C",
+      "explanation": "Khi cường độ lao động tăng hay giảm thì giá trị 1 đơn vị sản phẩm KHÔNG đổi. Giá trị 1 sản phẩm $= \\dfrac{300.000}{100.000} = 3$ USD. (Cường độ lao động giảm chỉ làm giảm số sản phẩm và tổng giá trị, không đổi giá trị mỗi đơn vị.)"
+    },
+    {
+      "id": "ktct2-072",
+      "topic": "Bài tập tính toán",
+      "difficulty": "easy",
+      "source_pages": [6],
+      "question": "Từ sơ đồ $G = 600.000c + 200.000v + 700.000m$. Hãy xác định giá trị tư bản đầu tư?",
+      "options": {
+        "A": "$1.400.000$",
+        "B": "$900.000$",
+        "C": "$1.100.000$",
+        "D": "$800.000$"
+      },
+      "correct_answer": "D",
+      "explanation": "Tư bản đầu tư (tư bản ứng trước) $k = c + v = 600.000 + 200.000 = 800.000$. (Phần $m$ là giá trị thặng dư, không thuộc tư bản ứng trước.)"
+    },
+    {
+      "id": "ktct2-073",
+      "topic": "Bài tập tính toán",
+      "difficulty": "easy",
+      "source_pages": [6],
+      "question": "Từ sơ đồ $G = 300.000c + 100.000v + 200.000m$. Hãy xác định cấu tạo hữu cơ tư bản?",
+      "options": {
+        "A": "$3$",
+        "B": "$\\dfrac{4}{1}$",
+        "C": "$\\dfrac{3}{1}$",
+        "D": "$\\dfrac{1}{3}$"
+      },
+      "correct_answer": "C",
+      "explanation": "Cấu tạo hữu cơ tư bản $\\dfrac{c}{v} = \\dfrac{300.000}{100.000} = \\dfrac{3}{1}$."
+    },
+    {
+      "id": "ktct2-074",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [6],
+      "question": "Từ sơ đồ $G = 400.000c + 50.000v + 150.000m$. Hãy xác định giá trị mới do người lao động tạo ra trong quá trình sản xuất?",
+      "options": {
+        "A": "$450.000$",
+        "B": "$200.000$",
+        "C": "$150.000$",
+        "D": "$50.000$"
+      },
+      "correct_answer": "B",
+      "explanation": "Giá trị mới do người lao động tạo ra $= v + m = 50.000 + 150.000 = 200.000$. (Phần $c$ là giá trị cũ được chuyển vào sản phẩm, không phải giá trị mới.)"
+    },
+    {
+      "id": "ktct2-075",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [6],
+      "question": "Từ sơ đồ $G = 100.000c + 100.000v + 300.000m$. Hãy xác định trình độ bóc lột của tư bản?",
+      "options": {
+        "A": "$50.000$",
+        "B": "$100\\%$",
+        "C": "$300\\%$",
+        "D": "$75.000$"
+      },
+      "correct_answer": "C",
+      "explanation": "Trình độ bóc lột được xác định bằng tỷ suất giá trị thặng dư $m' = \\dfrac{m}{v} \\times 100\\% = \\dfrac{300.000}{100.000} \\times 100\\% = 300\\%$."
+    },
+    {
+      "id": "ktct2-076",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [6],
+      "question": "Trong điều kiện bình thường, khi sản xuất $100$ sản phẩm, có giá trị một sản phẩm là $20.000$ đồng. Xác định tổng giá trị sản phẩm khi năng suất lao động tăng $3$ lần?",
+      "options": {
+        "A": "$2.000.000$ đồng",
+        "B": "$4.000.000$ đồng",
+        "C": "$1.000.000$ đồng",
+        "D": "$6.000.000$ đồng"
+      },
+      "correct_answer": "A",
+      "explanation": "Tổng giá trị hàng hóa $=$ giá trị một sản phẩm $\\times$ số sản phẩm $= 20.000 \\times 100 = 2.000.000$ đồng. Khi tăng năng suất lao động, số sản phẩm tăng nhưng TỔNG giá trị hàng hóa không đổi $= 2.000.000$ đồng (chỉ giá trị mỗi đơn vị giảm)."
+    },
+    {
+      "id": "ktct2-077",
+      "topic": "Bài tập tính toán",
+      "difficulty": "medium",
+      "source_pages": [6],
+      "question": "Từ sơ đồ $G = 100.000c + 25.000v + 75.000m$. Hãy xác định lượng giá trị thặng dư tư bản hóa nếu biết tỷ suất tích lũy $60\\%$?",
+      "options": {
+        "A": "$100.000$",
+        "B": "$60.000$",
+        "C": "$45.000$",
+        "D": "$40.000$"
+      },
+      "correct_answer": "C",
+      "explanation": "Giá trị thặng dư $m = 75.000$, tỷ suất tích lũy $60\\%$. Lượng giá trị thặng dư tư bản hóa (dùng để tích lũy) $= 75.000 \\times 60\\% = 45.000$."
+    }
+  ]
+}
