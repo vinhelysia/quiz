@@ -1,0 +1,524 @@
+{
+  "chapter_id": "de-chuong-3-thay-gui",
+  "title": "Đề Chương 3 (Thầy gửi) - Kinh Tế Vi Mô",
+  "source_file": "De chuong 3 - thay gui",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "dc3-001",
+      "topic": "Độ thỏa dụng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Theo lý thuyết hành vi người tiêu dùng, \"Độ thỏa dụng\" (Utility) được định nghĩa là gì?",
+      "options": {
+        "A": "Khả năng thanh toán của người tiêu dùng trên thị trường.",
+        "B": "Mức độ hài lòng, thỏa mãn mà người tiêu dùng nhận được từ việc sử dụng hàng hóa, dịch vụ.",
+        "C": "Tổng số tiền người tiêu dùng chi tiêu cho các loại hàng hóa.",
+        "D": "Số lượng hàng hóa tối đa người tiêu dùng có thể mua được."
+      },
+      "correct_answer": "B",
+      "explanation": "Độ thỏa dụng là mức độ hài lòng hay thỏa mãn mà người tiêu dùng nhận được khi tiêu dùng hàng hóa hoặc dịch vụ."
+    },
+    {
+      "id": "dc3-002",
+      "topic": "Giả định lý thuyết hành vi người tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Yếu tố nào sau đây KHÔNG thuộc các giả định của lý thuyết hành vi người tiêu dùng?",
+      "options": {
+        "A": "Mức thỏa mãn khi tiêu dùng có thể định lượng và đo lường được.",
+        "B": "Tất cả các sản phẩm đều có thể chia nhỏ.",
+        "C": "Người tiêu dùng luôn hành động theo cảm tính và không có mục đích.",
+        "D": "Người tiêu dùng luôn có sự lựa chọn hợp lý."
+      },
+      "correct_answer": "C",
+      "explanation": "Lý thuyết hành vi người tiêu dùng giả định người tiêu dùng có lựa chọn hợp lý, có mục tiêu tối đa hóa thỏa dụng. Vì vậy phát biểu \"hành động theo cảm tính và không có mục đích\" không thuộc giả định của lý thuyết này."
+    },
+    {
+      "id": "dc3-003",
+      "topic": "Tổng hữu dụng đối với hàng hóa thiết yếu",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đối với hàng hóa thiết yếu, khi số lượng tiêu dùng ngày càng tăng thì Tổng hữu dụng ($TU$) có đặc điểm gì?",
+      "options": {
+        "A": "Tăng liên tục và không bao giờ giảm.",
+        "B": "Giảm dần ngay từ đơn vị sản phẩm đầu tiên.",
+        "C": "Luôn giữ ở một mức cố định không thay đổi.",
+        "D": "Tăng đến mức tối đa, điểm bão hòa, rồi giảm xuống."
+      },
+      "correct_answer": "D",
+      "explanation": "Khi tiêu dùng tăng, tổng hữu dụng ban đầu tăng. Tuy nhiên sau một mức nhất định, người tiêu dùng đạt điểm bão hòa. Nếu tiếp tục tiêu dùng quá mức, tổng hữu dụng có thể giảm."
+    },
+    {
+      "id": "dc3-004",
+      "topic": "Định nghĩa hữu dụng biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Hữu dụng biên ($MU$) được hiểu là gì?",
+      "options": {
+        "A": "Tổng lợi ích đạt được khi tiêu dùng toàn bộ rổ hàng hóa.",
+        "B": "Chênh lệch trong tổng hữu dụng khi tiêu dùng thêm một đơn vị sản phẩm trong một đơn vị thời gian.",
+        "C": "Tỷ lệ thay thế giữa hai hàng hóa khác nhau trên thị trường.",
+        "D": "Mức thu nhập giới hạn tối đa của người tiêu dùng."
+      },
+      "correct_answer": "B",
+      "explanation": "Hữu dụng biên là phần thay đổi trong tổng hữu dụng khi người tiêu dùng tiêu dùng thêm một đơn vị hàng hóa.\n\nCông thức:\n\n$$MU = \\frac{\\Delta TU}{\\Delta Q}$$"
+    },
+    {
+      "id": "dc3-005",
+      "topic": "Tính bắc cầu của sở thích",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Giả thiết \"Sở thích có tính bắc cầu\" có nghĩa là gì?",
+      "options": {
+        "A": "Nếu thích rổ hàng A hơn rổ hàng B, thì luôn thích B hơn A.",
+        "B": "Người tiêu dùng luôn thích số lượng hàng hóa nhiều hơn số lượng ít.",
+        "C": "Nếu thích rổ A hơn B, và thích B hơn C, thì sẽ thích A hơn C.",
+        "D": "Người tiêu dùng có thể mua bất kỳ rổ hàng nào nếu có tiền."
+      },
+      "correct_answer": "C",
+      "explanation": "Tính bắc cầu nghĩa là sở thích của người tiêu dùng có tính nhất quán. Nếu A được ưa thích hơn B và B được ưa thích hơn C, thì A cũng được ưa thích hơn C."
+    },
+    {
+      "id": "dc3-006",
+      "topic": "Đường đẳng ích",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đường đẳng ích (Indifferent curve) là tập hợp các rổ hàng hóa nào?",
+      "options": {
+        "A": "Có cùng mức chi phí mua sắm bằng nhau.",
+        "B": "Có cùng số lượng sản phẩm bằng nhau.",
+        "C": "Cùng tạo nên mức thỏa mãn, lợi ích như nhau cho người tiêu dùng.",
+        "D": "Được bán với cùng một mức giá trên thị trường."
+      },
+      "correct_answer": "C",
+      "explanation": "Đường đẳng ích biểu diễn các kết hợp hàng hóa khác nhau nhưng đem lại cùng một mức thỏa dụng cho người tiêu dùng."
+    },
+    {
+      "id": "dc3-007",
+      "topic": "Đường ngân sách",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đường ngân sách (Budget Line) cho biết điều gì?",
+      "options": {
+        "A": "Sở thích tối đa của người tiêu dùng đối với các hàng hóa.",
+        "B": "Tập hợp các kết hợp hàng hóa mang lại cùng một mức thỏa dụng.",
+        "C": "Tập hợp tất cả các kết hợp hàng hóa mà người tiêu dùng có thể mua được với toàn bộ thu nhập.",
+        "D": "Mức giá trị lớn nhất mà một hàng hóa cao cấp có thể đạt được."
+      },
+      "correct_answer": "C",
+      "explanation": "Đường ngân sách cho biết tất cả các phối hợp hàng hóa mà người tiêu dùng có thể mua khi sử dụng hết thu nhập với mức giá hàng hóa đã cho."
+    },
+    {
+      "id": "dc3-008",
+      "topic": "Phương trình đường ngân sách",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Công thức tổng quát của phương trình đường ngân sách là gì?",
+      "options": {
+        "A": "$x \\cdot P_x + y \\cdot P_y = I$.",
+        "B": "$x \\cdot P_x - y \\cdot P_y = I$.",
+        "C": "$x \\cdot P_y + y \\cdot P_x = I$.",
+        "D": "$(x+y)(P_x+P_y) = I$."
+      },
+      "correct_answer": "A",
+      "explanation": "Người tiêu dùng dùng thu nhập $I$ để mua hai hàng hóa $X$ và $Y$. Tổng chi tiêu cho hai hàng hóa bằng thu nhập:\n\n$$x \\cdot P_x + y \\cdot P_y = I$$"
+    },
+    {
+      "id": "dc3-009",
+      "topic": "Thu nhập thay đổi và đường ngân sách",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Khi thu nhập của người tiêu dùng tăng lên, giá các hàng hóa không đổi, đường ngân sách sẽ thay đổi như thế nào?",
+      "options": {
+        "A": "Thay đổi độ dốc nhưng không dịch chuyển.",
+        "B": "Dịch chuyển song song vào bên trong so với đường ngân sách ban đầu.",
+        "C": "Dịch chuyển song song ra phía ngoài so với đường ngân sách ban đầu.",
+        "D": "Xoay quanh điểm chặn trên trục tung."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi thu nhập tăng trong khi giá không đổi, người tiêu dùng có thể mua nhiều hàng hóa hơn. Vì tỷ lệ giá không đổi nên độ dốc đường ngân sách không đổi, đường ngân sách dịch chuyển song song ra ngoài."
+    },
+    {
+      "id": "dc3-010",
+      "topic": "Tối ưu hóa tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Điểm phối hợp tối ưu, đạt thỏa dụng cực đại, của người tiêu dùng xảy ra tại vị trí nào trên đồ thị?",
+      "options": {
+        "A": "Nơi đường ngân sách cắt đường đẳng ích tại 2 điểm phân biệt.",
+        "B": "Điểm nằm bên ngoài đường ngân sách.",
+        "C": "Bất kỳ điểm nào nằm trên đường đẳng ích.",
+        "D": "Điểm mà đường ngân sách tiếp xúc với đường đẳng ích cao nhất có thể."
+      },
+      "correct_answer": "D",
+      "explanation": "Người tiêu dùng đạt tối ưu khi chọn được rổ hàng nằm trên đường ngân sách và đồng thời thuộc đường đẳng ích cao nhất có thể. Trên đồ thị, đó là điểm tiếp xúc giữa đường ngân sách và đường đẳng ích."
+    },
+    {
+      "id": "dc3-011",
+      "topic": "Quan hệ giữa hữu dụng biên và tổng hữu dụng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Mối quan hệ giữa Hữu dụng biên ($MU$) và Tổng hữu dụng ($TU$) được thể hiện như thế nào khi người tiêu dùng đạt tới \"điểm bão hòa\"?",
+      "options": {
+        "A": "Khi $MU > 0$, $TU$ đạt cực đại.",
+        "B": "Khi $MU = 0$, $TU$ đạt cực đại.",
+        "C": "Khi $MU < 0$, $TU$ đạt cực đại.",
+        "D": "Khi $MU$ tăng, $TU$ đạt cực đại."
+      },
+      "correct_answer": "B",
+      "explanation": "Khi $MU > 0$, $TU$ còn tăng. Khi $MU = 0$, $TU$ đạt cực đại. Sau đó, nếu $MU < 0$ thì $TU$ bắt đầu giảm."
+    },
+    {
+      "id": "dc3-012",
+      "topic": "Tính hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Nếu lượng hàng hóa $y$ tăng từ 5 lên 8 đơn vị, tổng hữu dụng $U_y$ tương ứng tăng từ 44 lên 62. Giá trị $MU_y$ trong khoảng này là bao nhiêu?",
+      "options": {
+        "A": "8.",
+        "B": "18.",
+        "C": "6.",
+        "D": "4."
+      },
+      "correct_answer": "C",
+      "explanation": "Công thức:\n\n$$MU_y = \\frac{\\Delta U_y}{\\Delta y}$$\n\nThay số:\n\n$$\\Delta U_y = 62 - 44 = 18$$\n$$\\Delta y = 8 - 5 = 3$$\n$$MU_y = \\frac{18}{3} = 6$$\n\nVậy đáp án đúng là C."
+    },
+    {
+      "id": "dc3-013",
+      "topic": "Hàm hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Cho hàm tổng hữu dụng $U(x) = -\\frac{2}{3}x^2 + 95x$. Hàm hữu dụng biên $MU_x$ được tính là gì?",
+      "options": {
+        "A": "$-\\frac{2}{3}x + 95$.",
+        "B": "$-\\frac{4}{3}x + 95$.",
+        "C": "$-2x + 95$.",
+        "D": "$\\frac{4}{3}x - 95$."
+      },
+      "correct_answer": "B",
+      "explanation": "Hữu dụng biên là đạo hàm của tổng hữu dụng theo $x$:\n\n$$U(x) = -\\frac{2}{3}x^2 + 95x$$\n$$MU_x = \\frac{dU}{dx} = -\\frac{4}{3}x + 95$$\n\nVậy đáp án đúng là B."
+    },
+    {
+      "id": "dc3-014",
+      "topic": "Tính chất của đường đẳng ích",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đặc điểm nào sau đây KHÔNG PHẢI là tính chất của các đường đẳng ích?",
+      "options": {
+        "A": "Dốc xuống từ trái sang phải.",
+        "B": "Có mặt lồi hướng về gốc tọa độ.",
+        "C": "Các đường đẳng ích có thể cắt nhau.",
+        "D": "Càng xa gốc tọa độ, mức thỏa mãn càng cao."
+      },
+      "correct_answer": "C",
+      "explanation": "Các đường đẳng ích không thể cắt nhau. Nếu hai đường đẳng ích cắt nhau, một rổ hàng sẽ đồng thời thuộc hai mức thỏa dụng khác nhau, điều này mâu thuẫn với giả định về sở thích của người tiêu dùng."
+    },
+    {
+      "id": "dc3-015",
+      "topic": "Tỷ lệ thay thế biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Tỷ lệ thay thế biên ($MRS_{XY}$) có ý nghĩa kinh tế là gì?",
+      "options": {
+        "A": "Số tiền cần thiết để người tiêu dùng mua thêm một đơn vị hàng hóa.",
+        "B": "Mức tăng thu nhập cần có khi giá hàng hóa thay đổi.",
+        "C": "Sự chênh lệch giá cả tương đối giữa hai loại hàng hóa trên thị trường.",
+        "D": "Số lượng của một hàng hóa mà người tiêu dùng có thể từ bỏ để có thêm một đơn vị của hàng hóa khác mà lợi ích không thay đổi."
+      },
+      "correct_answer": "D",
+      "explanation": "$MRS$ cho biết người tiêu dùng sẵn sàng từ bỏ bao nhiêu đơn vị hàng hóa này để có thêm một đơn vị hàng hóa khác, trong khi tổng mức thỏa dụng vẫn giữ nguyên."
+    },
+    {
+      "id": "dc3-016",
+      "topic": "Đường đẳng ích của hàng hóa bổ sung hoàn hảo",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Hai mặt hàng bổ sung hoàn hảo, ví dụ chiếc giày trái và chiếc giày phải, có đường đẳng ích dạng như thế nào?",
+      "options": {
+        "A": "Là một đường thẳng dốc xuống với MRS là hằng số.",
+        "B": "Là đường hình chữ L, góc vuông, và $MRS_{XY} = 0$.",
+        "C": "Là một đường cong lồi liên tục.",
+        "D": "Là đường thẳng song song với trục hoành."
+      },
+      "correct_answer": "B",
+      "explanation": "Hàng hóa bổ sung hoàn hảo được tiêu dùng theo tỷ lệ cố định. Ví dụ một chiếc giày trái phải đi với một chiếc giày phải. Vì vậy đường đẳng ích có dạng hình chữ L."
+    },
+    {
+      "id": "dc3-017",
+      "topic": "Giá hàng hóa thay đổi và đường ngân sách",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Nếu giá của mặt hàng X giảm xuống và các yếu tố khác không đổi, đường ngân sách sẽ thay đổi như thế nào?",
+      "options": {
+        "A": "Dịch chuyển song song ra ngoài.",
+        "B": "Xoay vào bên trong quanh điểm chặn trên trục Y.",
+        "C": "Xoay ra bên ngoài quanh điểm chặn trên trục Y.",
+        "D": "Dịch chuyển song song vào trong."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi giá X giảm, người tiêu dùng có thể mua nhiều X hơn với cùng thu nhập. Điểm chặn trên trục X tăng, còn điểm chặn trên trục Y không đổi. Vì vậy đường ngân sách xoay ra ngoài quanh điểm chặn trên trục Y."
+    },
+    {
+      "id": "dc3-018",
+      "topic": "Điều kiện tối ưu tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Theo điều kiện lựa chọn tối ưu, người tiêu dùng đạt thỏa dụng tối đa với rổ hàng hóa khi thỏa mãn phương trình nào?",
+      "options": {
+        "A": "$MRS_{XY} = P_y / P_x$.",
+        "B": "$MRS_{XY} = P_x - P_y$.",
+        "C": "$MRS_{XY} = P_x \\times P_y$.",
+        "D": "$MRS_{XY} = P_x / P_y$."
+      },
+      "correct_answer": "D",
+      "explanation": "Tại điểm tối ưu, độ dốc của đường đẳng ích bằng độ dốc của đường ngân sách. Do đó:\n\n$$MRS_{XY} = \\frac{P_x}{P_y}$$\n\nĐiều này cũng tương đương với điều kiện cân bằng biên:\n\n$$\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y}$$"
+    },
+    {
+      "id": "dc3-019",
+      "topic": "Nguyên tắc cân bằng biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Nguyên tắc \"cân bằng biên\" trong lựa chọn tối ưu của người tiêu dùng chỉ ra rằng cần phân bổ ngân sách sao cho:",
+      "options": {
+        "A": "Số lượng mua của tất cả các hàng hóa phải bằng nhau.",
+        "B": "Hữu dụng biên với mỗi đồng chi tiêu cho các hàng hóa khác nhau phải bằng nhau, $\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y}$.",
+        "C": "Mức chi tiêu tài chính cho từng loại hàng hóa phải bằng nhau.",
+        "D": "Hữu dụng biên của mọi mặt hàng tiêu dùng phải bằng nhau, $MU_x = $MU_y$."
+      },
+      "correct_answer": "B",
+      "explanation": "Người tiêu dùng tối đa hóa thỏa dụng khi mỗi đồng chi cho các hàng hóa khác nhau đem lại mức hữu dụng biên bằng nhau.\n\nĐiều kiện:\n\n$$\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y}$$"
+    },
+    {
+      "id": "dc3-020",
+      "topic": "Đường cầu thị trường",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đường cầu thị trường của một hàng hóa cụ thể được xây dựng bằng phương pháp nào?",
+      "options": {
+        "A": "Cộng theo chiều dọc các đường cầu cá nhân.",
+        "B": "Lấy mức trung bình cộng của các lượng cầu cá nhân.",
+        "C": "Cộng theo chiều ngang, cộng lượng cầu, của các đường cầu cá nhân, $Q_D = q_A + q_B$.",
+        "D": "Bằng đúng với đường cầu của cá nhân có mức thu nhập cao nhất."
+      },
+      "correct_answer": "C",
+      "explanation": "Đường cầu thị trường được xây dựng bằng cách cộng lượng cầu của tất cả người tiêu dùng tại từng mức giá. Đây là phép cộng theo chiều ngang."
+    },
+    {
+      "id": "dc3-021",
+      "topic": "Tính hữu dụng biên và quy luật hữu dụng biên giảm dần",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Tổng hữu dụng khi ăn đĩa thứ 4, thứ 5 và thứ 6 lần lượt là 10, 10 và 9. Điều này cho thấy hữu dụng biên của đĩa thứ 6 là bao nhiêu và minh chứng cho quy luật nào?",
+      "options": {
+        "A": "MU = 0, thể hiện người đó vừa đạt điểm bão hòa.",
+        "B": "MU = 9, thể hiện tổng hữu dụng vẫn đang tiếp tục tăng.",
+        "C": "MU = -1, thể hiện quy luật tổng hữu dụng tăng dần.",
+        "D": "MU = -1, thể hiện quy luật hữu dụng biên giảm dần, người tiêu dùng vượt quá điểm bão hòa gây cảm giác khó chịu."
+      },
+      "correct_answer": "D",
+      "explanation": "Công thức:\n\n$$MU_6 = TU_6 - TU_5$$\n\nThay số:\n\n$$MU_6 = 9 - 10 = -1$$\n\n$MU$ âm cho thấy việc tiêu dùng thêm làm tổng hữu dụng giảm, tức người tiêu dùng đã vượt quá điểm bão hòa. Đây là biểu hiện của quy luật hữu dụng biên giảm dần."
+    },
+    {
+      "id": "dc3-022",
+      "topic": "Đạo hàm riêng hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Cho hàm tổng hữu dụng $U(x,y) = 1.25x^{1/3}y^{2/3}$. Hàm hữu dụng biên của mặt hàng Y là gì?",
+      "options": {
+        "A": "$\\frac{2.5}{3}x^{1/3}y^{-1/3}$.",
+        "B": "$\\frac{1.25}{3}x^{-2/3}y^{2/3}$.",
+        "C": "$\\frac{2.5}{3}x^{-1/3}y^{1/3}$.",
+        "D": "$1.25x^{1/3}y^{-1/3}$."
+      },
+      "correct_answer": "A",
+      "explanation": "Hàm hữu dụng:\n$$U(x,y) = 1.25x^{1/3}y^{2/3}$$\n\nHữu dụng biên của Y là đạo hàm riêng theo $y$:\n$$MU_y = \\frac{\\partial U}{\\partial y} = 1.25 \\times \\frac{2}{3} \\times x^{1/3}y^{-1/3} = \\frac{2.5}{3}x^{1/3}y^{-1/3}$$\n\nVậy đáp án đúng là A."
+    },
+    {
+      "id": "dc3-023",
+      "topic": "Xây dựng phương trình đường ngân sách",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Một người tiêu dùng có thu nhập $I = 200$, mua 2 mặt hàng X và Y với đơn giá $P_x = 5$ và $P_y = 4$. Phương trình đường ngân sách viết dưới dạng hàm số $y = f(x)$ là gì?",
+      "options": {
+        "A": "y = 40 - 0.8x.",
+        "B": "y = 50 - 0.8x.",
+        "C": "y = 50 - 1.25x.",
+        "D": "y = 40 - 1.25x."
+      },
+      "correct_answer": "C",
+      "explanation": "Phương trình ngân sách:\n$$P_x \\cdot x + P_y \\cdot y = I$$\n\nThay số:\n$$5x + 4y = 200$$\n\nChuyển về dạng $y = f(x)$:\n$$4y = 200 - 5x \\Leftrightarrow y = 50 - 1.25x$$\n\nVậy đáp án đúng là C."
+    },
+    {
+      "id": "dc3-024",
+      "topic": "Mặt lồi của đường đẳng ích",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Tính chất \"mặt lồi của đường đẳng ích hướng về gốc tọa độ\" xuất phát từ nguyên lý cốt lõi nào trong kinh tế học vi mô?",
+      "options": {
+        "A": "Quy luật tổng hữu dụng tăng dần.",
+        "B": "Quy luật tỷ lệ thay thế biên MRS giảm dần.",
+        "C": "Giả thiết sở thích có tính hoàn chỉnh.",
+        "D": "Giả thiết sở thích có tính bắc cầu."
+      },
+      "correct_answer": "B",
+      "explanation": "Đường đẳng ích lồi về gốc tọa độ vì tỷ lệ thay thế biên giảm dần. Khi người tiêu dùng có càng nhiều một hàng hóa, họ sẵn sàng từ bỏ ít hàng hóa còn lại hơn để có thêm một đơn vị hàng hóa đó."
+    },
+    {
+      "id": "dc3-025",
+      "topic": "Thiết lập mối quan hệ tối ưu",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Cho thu nhập $I = 200$, giá $P_x = 4, P_y = 2$ và hàm hữu dụng $U(x,y) = xy$. Dựa vào điều kiện tối ưu $\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y}$, người tiêu dùng sẽ thiết lập mối quan hệ phân bổ số lượng hàng hóa X và Y như thế nào?",
+      "options": {
+        "A": "y = 2x.",
+        "B": "x = 2y.",
+        "C": "y = 4x.",
+        "D": "x = y."
+      },
+      "correct_answer": "A",
+      "explanation": "Hàm hữu dụng: $U = xy$\n\nTa có:\n$$MU_x = y$$\n$$MU_y = x$$\n\nĐiều kiện tối ưu:\n$$\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y} \\Leftrightarrow \\frac{y}{4} = \\frac{x}{2} \\Leftrightarrow y = 2x$$\n\nVậy đáp án đúng là A."
+    },
+    {
+      "id": "dc3-026",
+      "topic": "Xác định phối hợp tối ưu",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Tiếp nối dữ kiện từ Câu 25, $I = 200$, $P_x = 4, P_y = 2, U = xy$, điều kiện $y = 2x$. Phối hợp tối ưu (X, Y) để đạt tổng hữu dụng cực đại là gì?",
+      "options": {
+        "A": "X = 40, Y = 20.",
+        "B": "X = 20, Y = 60.",
+        "C": "X = 25, Y = 50.",
+        "D": "X = 50, Y = 25."
+      },
+      "correct_answer": "C",
+      "explanation": "Phương trình ngân sách:\n$$4x + 2y = 200$$\n\nTừ câu 25:\n$$y = 2x$$\n\nThay vào ngân sách:\n$$4x + 2(2x) = 200 \\Leftrightarrow 8x = 200 \\Leftrightarrow x = 25$$\n\nSuy ra:\n$$y = 2x = 2 \\times 25 = 50$$\n\nVậy phối hợp tối ưu là X = 25, Y = 50."
+    },
+    {
+      "id": "dc3-027",
+      "topic": "Tính các hàm hữu dụng biên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Một người tiêu dùng có hàm tổng hữu dụng $TU = (4X - 8)Y$. Các hàm hữu dụng biên đối với X và Y tương ứng là gì?",
+      "options": {
+        "A": "MUx = 4X; MUy = Y - 8.",
+        "B": "MUx = 4Y; MUy = 4X - 8.",
+        "C": "MUx = 4Y - 8; MUy = 4X.",
+        "D": "MUx = 4; MUy = 4X."
+      },
+      "correct_answer": "B",
+      "explanation": "Ta có:\n$$TU = (4X - 8)Y = 4XY - 8Y$$\n\nHữu dụng biên theo X:\n$$MU_x = \\frac{\\partial TU}{\\partial X} = 4Y$$\n\nHữu dụng biên theo Y:\n$$MU_y = \\frac{\\partial TU}{\\partial Y} = 4X - 8$$\n\nVậy đáp án đúng là B."
+    },
+    {
+      "id": "dc3-028",
+      "topic": "Biến đổi phương trình cân bằng tiêu dùng",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Dựa vào thông tin Câu 27, giả sử người này có thu nhập $I = 30$, giá hàng $P_x = 3, P_y = 6$. Từ phương trình điều kiện cân bằng tiêu dùng $\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y}$, ta có thể biến đổi thành phương trình tương đương nào?",
+      "options": {
+        "A": "2Y = X - 2.",
+        "B": "3X + 6Y = 30.",
+        "C": "4Y = 4X - 8.",
+        "D": "X = Y + 2."
+      },
+      "correct_answer": "A",
+      "explanation": "Từ câu 27:\n$$MU_x = 4Y$$\n$$MU_y = 4X - 8$$\n\nĐiều kiện cân bằng:\n$$\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y} \\Leftrightarrow \\frac{4Y}{3} = \\frac{4X - 8}{6}$$\n$$\\Leftrightarrow 8Y = 4X - 8 \\Leftrightarrow 2Y = X - 2$$\n\nVậy đáp án đúng là A."
+    },
+    {
+      "id": "dc3-029",
+      "topic": "Xác định phối hợp tối ưu",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Kết hợp phương trình đường ngân sách và điều kiện cân bằng đã tìm được ở Câu 28, hãy xác định số lượng hàng hóa X và Y người này cần mua để chi tiêu hết ngân sách mà vẫn đạt tối đa tổng hữu dụng.",
+      "options": {
+        "A": "X = 8, Y = 1.",
+        "B": "X = 4, Y = 3.",
+        "C": "X = 2, Y = 4.",
+        "D": "X = 6, Y = 2."
+      },
+      "correct_answer": "D",
+      "explanation": "Phương trình ngân sách:\n$$P_x \\cdot X + P_y \\cdot Y = I$$\n\nThay số:\n$$3X + 6Y = 30 \\Leftrightarrow X + 2Y = 10$$\n\nTừ câu 28:\n$$2Y = X - 2 \\Leftrightarrow X = 2Y + 2$$\n\nThay vào ngân sách:\n$$(2Y + 2) + 2Y = 10 \\Leftrightarrow 4Y = 8 \\Leftrightarrow Y = 2$$\n\nSuy ra:\n$$X = 2Y + 2 = 2 \\times 2 + 2 = 6$$\n\nVậy phối hợp tối ưu là X = 6, Y = 2."
+    },
+    {
+      "id": "dc3-030",
+      "topic": "Điều chỉnh hành vi tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Giả sử tại rổ hàng hóa hiện hành, người tiêu dùng nhận thấy $\\frac{MU_x}{P_x} > \\frac{MU_y}{P_y}$. Để đạt được mức thỏa dụng tối đa theo nguyên tắc cân bằng biên, người tiêu dùng hợp lý này sẽ phải điều chỉnh hành vi tiêu dùng như thế nào?",
+      "options": {
+        "A": "Tăng lượng mua mặt hàng Y và giảm lượng mua mặt hàng X.",
+        "B": "Giảm lượng mua cả hai mặt hàng X và Y.",
+        "C": "Tăng lượng mua mặt hàng X và giảm lượng mua mặt hàng Y.",
+        "D": "Giữ nguyên lượng tiêu dùng vì hữu dụng biên luôn biến động."
+      },
+      "correct_answer": "C",
+      "explanation": "Nếu:\n$$\\frac{MU_x}{P_x} > \\frac{MU_y}{P_y}$$\n\nĐiều này có nghĩa là mỗi đồng chi cho hàng hóa X đem lại nhiều hữu dụng biên hơn mỗi đồng chi cho hàng hóa Y. Vì vậy người tiêu dùng nên tăng mua X và giảm mua Y cho đến khi đạt điều kiện cân bằng:\n$$\\frac{MU_x}{P_x} = \\frac{MU_y}{P_y}$$"
+    }
+  ]
+}
