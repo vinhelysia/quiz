@@ -1,0 +1,405 @@
+{
+  "chapter_id": "de-chuong-2c-thay-gui",
+  "title": "Đề Chương 2C (Thầy gửi) - Kinh Tế Vi Mô",
+  "source_file": "De chuong 2c - thay gui",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "dc2c-001",
+      "topic": "Thặng dư tiêu dùng",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Thặng dư tiêu dùng (Consumer Surplus) được định nghĩa là gì?",
+      "options": {
+        "A": "Khoản tiền mà người tiêu dùng tiết kiệm được khi mua hàng hóa.",
+        "B": "Tổng phần chênh lệch giữa mức giá mà những người tiêu dùng sẵn lòng trả và mức giá thực tế họ phải trả.",
+        "C": "Lợi nhuận mà người bán nhận được khi bán hàng hóa cho người tiêu dùng.",
+        "D": "Mức giá thấp nhất mà người mua chấp nhận trả cho một hàng hóa."
+      },
+      "correct_answer": "B",
+      "explanation": "Thặng dư tiêu dùng ($CS$) là phần chênh lệch giữa mức giá sẵn lòng trả ($WTP$) và mức giá thực tế phải trả ($P$): $CS = WTP - P$."
+    },
+    {
+      "id": "dc2c-002",
+      "topic": "Thặng dư sản xuất",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Thặng dư sản xuất (Producer Surplus) là gì?",
+      "options": {
+        "A": "Tổng phần chênh lệch giữa mức giá mà người sản xuất bán được và mức giá họ sẵn lòng bán.",
+        "B": "Tổng doanh thu trừ đi thuế phải nộp cho chính phủ.",
+        "C": "Chi phí sản xuất ra một đơn vị hàng hóa.",
+        "D": "Số lượng hàng hóa dư thừa mà người bán không thể bán được trên thị trường."
+      },
+      "correct_answer": "A",
+      "explanation": "Thặng dư sản xuất ($PS$) là phần chênh lệch giữa mức giá bán thực tế ($P$) và chi phí cận biên ($MC$ hoặc mức giá sẵn lòng bán tối thiểu)."
+    },
+    {
+      "id": "dc2c-003",
+      "topic": "Giá trần",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Mục đích chính của chính phủ khi áp dụng chính sách giá tối đa (giá trần) là gì?",
+      "options": {
+        "A": "Bảo vệ lợi ích của người sản xuất.",
+        "B": "Tăng nguồn thu ngân sách nhà nước.",
+        "C": "Bảo vệ lợi ích của người tiêu dùng (người mua).",
+        "D": "Xóa bỏ thị trường chợ đen."
+      },
+      "correct_answer": "C",
+      "explanation": "Chính phủ quy định giá trần ($P_{max}$) thấp hơn giá cân bằng nhằm bảo vệ người tiêu dùng khỏi mức giá quá cao."
+    },
+    {
+      "id": "dc2c-004",
+      "topic": "Giá sàn",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Mục đích của chính phủ khi ban hành chính sách giá tối thiểu (giá sàn) là gì?",
+      "options": {
+        "A": "Khuyến khích người tiêu dùng mua nhiều hàng hóa hơn.",
+        "B": "Bảo vệ lợi ích của nhà sản xuất, người lao động.",
+        "C": "Tạo ra sự thiếu hụt hàng hóa trên thị trường.",
+        "D": "Giảm tỷ lệ thất nghiệp trong nền kinh tế."
+      },
+      "correct_answer": "B",
+      "explanation": "Chính phủ áp dụng giá sàn ($P_{min}$) nhằm bảo vệ người bán hoặc người lao động (ví dụ: mức lương tối thiểu) bằng cách ngăn không cho giá giảm quá thấp."
+    },
+    {
+      "id": "dc2c-005",
+      "topic": "Giá trần",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Khi chính phủ quy định một mức giá trần thấp hơn mức giá cân bằng trên thị trường tự do, hiện tượng nào sẽ xảy ra?",
+      "options": {
+        "A": "Dư thừa hàng hóa.",
+        "B": "Thị trường đạt trạng thái tối ưu mới.",
+        "C": "Thiếu hụt hàng hóa hoặc dịch vụ.",
+        "D": "Đường cung dịch chuyển sang phải."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi giá trần thấp hơn giá cân bằng ($P_{max} < P_0$), lượng cầu sẽ vượt lượng cung ($Q_D > Q_S$), tạo ra sự thiếu hụt hàng hóa."
+    },
+    {
+      "id": "dc2c-006",
+      "topic": "Đồ thị thặng dư",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Trên đồ thị, thặng dư tiêu dùng (CS) được biểu diễn bằng phần diện tích nào?",
+      "options": {
+        "A": "Dưới đường cung và trên đường giá.",
+        "B": "Giữa đường cung và đường cầu.",
+        "C": "Nằm dưới đường cầu (D) và trên đường giá (P).",
+        "D": "Trên đường cầu và dưới đường giá."
+      },
+      "correct_answer": "C",
+      "explanation": "Trên đồ thị cung - cầu, thặng dư tiêu dùng ($CS$) nằm dưới đường cầu và trên đường giá giao dịch."
+    },
+    {
+      "id": "dc2c-007",
+      "topic": "Giá sàn",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Hệ quả của việc chính phủ áp dụng mức giá sàn cao hơn giá cân bằng là gì?",
+      "options": {
+        "A": "Gây ra sự dư thừa hàng hóa trên thị trường.",
+        "B": "Dẫn đến thiếu hụt hàng hóa nghiêm trọng.",
+        "C": "Tổng phúc lợi xã hội tăng lên.",
+        "D": "Người tiêu dùng mua được nhiều hàng hóa hơn."
+      },
+      "correct_answer": "A",
+      "explanation": "Khi giá sàn cao hơn giá cân bằng ($P_{min} > P_0$), lượng cung sẽ lớn hơn lượng cầu ($Q_S > Q_D$), dẫn đến dư thừa hàng hóa."
+    },
+    {
+      "id": "dc2c-008",
+      "topic": "Thuế",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Thuế (Tax) được hiểu là:",
+      "options": {
+        "A": "Khoản tiền chính phủ tài trợ cho các doanh nghiệp gặp khó khăn.",
+        "B": "Khoản trích nộp mang tính chất bắt buộc mà các tổ chức hoặc cá nhân phải nộp cho nhà nước.",
+        "C": "Phần lợi nhuận dư ra của các doanh nghiệp độc quyền.",
+        "D": "Khoản đóng góp tự nguyện của người dân để xây dựng đất nước."
+      },
+      "correct_answer": "B",
+      "explanation": "Thuế là khoản đóng góp bắt buộc từ tổ chức và cá nhân cho chính phủ để phục vụ chi tiêu công."
+    },
+    {
+      "id": "dc2c-009",
+      "topic": "Lương tối thiểu",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Đối với thị trường lao động, việc chính phủ quy định mức lương tối thiểu (một dạng giá sàn) sẽ dẫn đến hệ quả gì?",
+      "options": {
+        "A": "Làm giảm chi phí cho doanh nghiệp.",
+        "B": "Làm giảm tỷ lệ thất nghiệp.",
+        "C": "Xóa bỏ hoàn toàn tổn thất vô ích.",
+        "D": "Làm tăng tỷ lệ thất nghiệp."
+      },
+      "correct_answer": "D",
+      "explanation": "Lương tối thiểu đóng vai trò như một giá sàn. Nếu đặt cao hơn mức lương cân bằng, nó sẽ làm lượng cung lao động tăng lên trong khi lượng cầu giảm xuống, gây ra tình trạng thất nghiệp (dư thừa lao động)."
+    },
+    {
+      "id": "dc2c-010",
+      "topic": "Thuế",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Khi chính phủ đánh thuế vào người bán, đường cung sẽ thay đổi như thế nào trên đồ thị?",
+      "options": {
+        "A": "Dịch chuyển sang phải.",
+        "B": "Dịch chuyển lên trên một đoạn đúng bằng khoảng thuế.",
+        "C": "Dịch chuyển xuống dưới một đoạn đúng bằng khoảng thuế.",
+        "D": "Không dịch chuyển nhưng thay đổi độ dốc."
+      },
+      "correct_answer": "B",
+      "explanation": "Đánh thuế vào người bán làm tăng chi phí cận biên thêm một lượng đúng bằng thuế $t$ ở mọi mức sản lượng, do đó đường cung dịch chuyển song song lên trên (hoặc sang trái) một đoạn bằng $t$."
+    },
+    {
+      "id": "dc2c-011",
+      "topic": "Giá sẵn lòng trả",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Khái niệm \"Giá sẵn lòng trả\" (Willingness to Pay - WTP) dùng để chỉ:",
+      "options": {
+        "A": "Số tiền trung bình mà người mua chi trả trên thị trường.",
+        "B": "Số tiền tối đa mà người mua sẵn lòng trả để mua một hàng hóa.",
+        "C": "Số tiền tối thiểu mà người mua bắt buộc phải trả.",
+        "D": "Mức giá cân bằng được xác định bởi cung và cầu."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá sẵn lòng trả ($WTP$) đo lường giá trị tối đa mà người tiêu dùng gán cho một hàng hóa."
+    },
+    {
+      "id": "dc2c-012",
+      "topic": "Giá sẵn lòng trả",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Giả sử có 4 người tiêu dùng với mức WTP cho 1 vé xem ca nhạc như sau: Mai (400 ngàn đồng), Lan (350 ngàn đồng), Cúc (150 ngàn đồng), Trúc (50 ngàn đồng). Nếu giá 1 vé trên thị trường là 200 ngàn đồng, những ai sẽ quyết định mua vé?",
+      "options": {
+        "A": "Mai, Lan, Cúc và Trúc.",
+        "B": "Cúc và Trúc.",
+        "C": "Mai và Lan.",
+        "D": "Chỉ duy nhất Mai mua."
+      },
+      "correct_answer": "C",
+      "explanation": "Người tiêu dùng mua hàng khi $WTP \\ge P$. Với $P = 200$ ngàn đồng, Mai ($400 \\ge 200$) và Lan ($350 \\ge 200$) sẽ mua vé. Cúc và Trúc có $WTP < 200$ nên không mua."
+    },
+    {
+      "id": "dc2c-013",
+      "topic": "Thặng dư tiêu dùng",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Giả định các yếu tố khác không đổi, nếu giá thị trường của một hàng hóa giảm xuống, thặng dư tiêu dùng sẽ:",
+      "options": {
+        "A": "Tăng lên do người mua mới gia nhập thị trường và người mua hiện tại trả giá thấp hơn.",
+        "B": "Giảm đi vì người sản xuất cung cấp ít hàng hóa hơn.",
+        "C": "Không thay đổi vì WTP của người tiêu dùng là cố định.",
+        "D": "Trở thành tổn thất vô ích."
+      },
+      "correct_answer": "A",
+      "explanation": "Khi giá giảm, thặng dư tiêu dùng ($CS$) tăng do hai phần: (1) những người mua cũ trả giá thấp hơn, và (2) xuất hiện thêm những người mua mới sẵn lòng mua ở giá thấp hơn."
+    },
+    {
+      "id": "dc2c-014",
+      "topic": "Giá sàn",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Điều kiện để một mức giá tối thiểu (giá sàn) có ý nghĩa và thực sự tác động đến thị trường là:",
+      "options": {
+        "A": "Bằng chính xác mức giá cân bằng.",
+        "B": "Cao hơn giá cân bằng trên thị trường tự do.",
+        "C": "Thấp hơn giá cân bằng trên thị trường tự do.",
+        "D": "Bằng chi phí sản xuất cận biên."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá sàn chỉ có tính ràng buộc và tác động đến lượng giao dịch khi được thiết lập cao hơn mức giá cân bằng ban đầu ($P_{min} > P_0$)."
+    },
+    {
+      "id": "dc2c-015",
+      "topic": "Giá sàn",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Trong trường hợp chính phủ áp dụng mức giá sàn nhưng không cam kết mua hết lượng hàng hóa thừa, điều gì sẽ xảy ra?",
+      "options": {
+        "A": "Giá trần sẽ tự động xuất hiện để cân bằng.",
+        "B": "Thị trường lập tức quay về điểm cân bằng ban đầu.",
+        "C": "Tổng phúc lợi xã hội tăng lên do người bán có lợi.",
+        "D": "Ở mức giá sàn, một số người mua không mua hàng, hàng hóa không tiêu thụ hết gây lãng phí nguồn lực."
+      },
+      "correct_answer": "D",
+      "explanation": "Tại mức giá sàn ràng buộc, lượng cung lớn hơn lượng cầu. Nếu chính phủ không can thiệp mua hết lượng dư thừa đó, hàng hóa sẽ ứ đọng, không tiêu thụ hết gây lãng phí nguồn lực xã hội."
+    },
+    {
+      "id": "dc2c-016",
+      "topic": "Thuế",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Khi chính phủ đánh thuế gián tiếp, nguyên tắc phân bổ gánh nặng thuế giữa người mua và người bán phụ thuộc vào yếu tố nào?",
+      "options": {
+        "A": "Quy mô của loại thuế đó.",
+        "B": "Độ co giãn của cung và cầu: bên nào co giãn ít hơn thì chịu thuế nhiều hơn.",
+        "C": "Ý muốn chủ quan của cơ quan thu thuế.",
+        "D": "Độ co giãn của cung và cầu: bên nào co giãn ít hơn thì chịu thuế ít hơn."
+      },
+      "correct_answer": "B",
+      "explanation": "Sự phân chia gánh nặng thuế phụ thuộc hoàn toàn vào độ co giãn tương đối của cung và cầu. Bên nào ít co giãn hơn (ít nhạy cảm với sự thay đổi của giá hơn) sẽ phải chịu gánh nặng thuế nhiều hơn."
+    },
+    {
+      "id": "dc2c-017",
+      "topic": "Thuế",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Gánh nặng thuế sẽ do người mua (người tiêu dùng) chịu hoàn toàn khi nào?",
+      "options": {
+        "A": "Cầu co giãn hoàn toàn (ED = ∞).",
+        "B": "Cầu hoàn toàn không co giãn (ED = 0) hoặc cung co giãn hoàn toàn (ES = ∞).",
+        "C": "Cung hoàn toàn không co giãn (ES = 0).",
+        "D": "Cả cung và cầu đều co giãn hoàn toàn."
+      },
+      "correct_answer": "B",
+      "explanation": "Người tiêu dùng chịu toàn bộ thuế khi: (1) Cầu hoàn toàn không co giãn ($E_D = 0$), họ mua lượng cố định bất chấp giá tăng; hoặc (2) Cung co giãn hoàn toàn ($E_S = \\infty$), người bán chuyển toàn bộ tiền thuế vào giá bán."
+    },
+    {
+      "id": "dc2c-018",
+      "topic": "Giá trần",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Khi chính phủ can thiệp bằng cách áp dụng giá trần gây ra thiếu hụt, một trong những hệ quả tiêu cực kéo theo là gì?",
+      "options": {
+        "A": "Sự xuất hiện của thị trường chợ đen.",
+        "B": "Tăng mạnh chất lượng hàng hóa để cạnh tranh.",
+        "C": "Chính phủ thu được lượng lớn tiền thuế.",
+        "D": "Dư thừa một lượng lớn hàng hóa tồn kho."
+      },
+      "correct_answer": "A",
+      "explanation": "Sự thiếu hụt hàng hóa do giá trần ràng buộc dẫn tới cơ chế phân phối phi giá cả và kích thích hình thành thị trường chợ đen (nơi hàng hóa được bán chui với giá cao hơn giá trần)."
+    },
+    {
+      "id": "dc2c-019",
+      "topic": "Phúc lợi xã hội",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Tổng phúc lợi xã hội (Tổng thặng dư xã hội - TS) được tính bằng:",
+      "options": {
+        "A": "Thặng dư tiêu dùng trừ đi thặng dư sản xuất.",
+        "B": "Thặng dư sản xuất cộng với chi phí thuế.",
+        "C": "Thặng dư tiêu dùng (CS) cộng với thặng dư sản xuất (PS).",
+        "D": "Doanh thu của người bán trừ đi chi phí cơ hội."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong mô hình thị trường tự do cơ bản, tổng phúc lợi xã hội ($TS$) bằng tổng thặng dư tiêu dùng ($CS$) và thặng dư sản xuất ($PS$): $TS = CS + PS$."
+    },
+    {
+      "id": "dc2c-020",
+      "topic": "Trợ cấp",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Nếu chính phủ trợ cấp cho một mặt hàng, tác động trực tiếp lên giá cầu và giá cung trên đồ thị là gì?",
+      "options": {
+        "A": "Giá cầu tăng, giá cung giảm.",
+        "B": "Giá cầu giảm, giá cung giảm.",
+        "C": "Giá cầu giảm, giá cung tăng.",
+        "D": "Giá cầu tăng, giá cung tăng."
+      },
+      "correct_answer": "C",
+      "explanation": "Trợ cấp làm cho giá người tiêu dùng thực tế trả ($P_D$) giảm đi, đồng thời nâng giá người bán thực tế nhận được ($P_S$) lên: $P_S - P_D = s$ (với $s$ là khoản trợ cấp)."
+    },
+    {
+      "id": "dc2c-021",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Cho hàm số cung cầu của thị trường hàng hóa A:\nCầu: $Q = -0,2P + 100$\nCung: $Q = 1,8P - 20$\nHãy xác định mức giá ($P$) và sản lượng ($Q$) tại điểm cân bằng thị trường.",
+      "options": {
+        "A": "P = 50, Q = 90",
+        "B": "P = 60, Q = 88",
+        "C": "P = 40, Q = 92",
+        "D": "P = 70, Q = 106"
+      },
+      "correct_answer": "B",
+      "explanation": "Cân bằng: $-0,2P + 100 = 1,8P - 20 \\Leftrightarrow 2P = 120 \\Rightarrow P = 60$. Thay $P = 60$ vào phương trình cầu: $Q = -0,2(60) + 100 = 88$."
+    },
+    {
+      "id": "dc2c-022",
+      "topic": "Giá trần",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Nếu chính phủ quy định giá trần $P_{max} = 40$ cho hàng hóa A, điều gì sẽ xảy ra trên thị trường?",
+      "options": {
+        "A": "Dư thừa 40 đơn vị hàng hóa.",
+        "B": "Thiếu hụt 40 đơn vị hàng hóa.",
+        "C": "Thiếu hụt 92 đơn vị hàng hóa.",
+        "D": "Dư thừa 52 đơn vị hàng hóa."
+      },
+      "correct_answer": "B",
+      "explanation": "Tại $P_{max} = 40$: Lượng cầu $Q_D = -0,2(40) + 100 = 92$. Lượng cung $Q_S = 1,8(40) - 20 = 52$. Vì $Q_D > Q_S$, thị trường thiếu hụt: $92 - 52 = 40$ đơn vị hàng hóa."
+    },
+    {
+      "id": "dc2c-023",
+      "topic": "Giá cả thị trường",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Cho hàm số cung cầu thị trường B:\nCầu: $Q = -1,4P + 300$\nCung: $Q = 0,6P - 60$\nTại mức giá $P = 200$, thị trường rơi vào tình trạng gì?",
+      "options": {
+        "A": "Thiếu hụt 20 hàng hóa.",
+        "B": "Dư thừa 40 hàng hóa.",
+        "C": "Thiếu hụt 180 hàng hóa.",
+        "D": "Dư thừa 160 hàng hóa."
+      },
+      "correct_answer": "B",
+      "explanation": "Tại $P = 200$: Lượng cầu $Q_D = -1,4(200) + 300 = 20$. Lượng cung $Q_S = 0,6(200) - 60 = 60$. Vì $Q_S > Q_D$, thị trường dư thừa: $60 - 20 = 40$ hàng hóa."
+    },
+    {
+      "id": "dc2c-028",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Cho hàm số cung cầu:\nCầu: $P = -1,5Q + 160$\nCung: $P = 0,5Q + 20$\nXác định mức giá và sản lượng cân bằng ban đầu của thị trường.",
+      "options": {
+        "A": "P = 62.5, Q = 65",
+        "B": "P = 52.5, Q = 70",
+        "C": "P = 55, Q = 70",
+        "D": "P = 60, Q = 65"
+      },
+      "correct_answer": "C",
+      "explanation": "Cân bằng ban đầu: $-1,5Q + 160 = 0,5Q + 20 \\Leftrightarrow 2Q = 140 \\Rightarrow Q = 70$. Giá cân bằng: $P = 0,5(70) + 20 = 55$."
+    },
+    {
+      "id": "dc2c-029",
+      "topic": "Thuế",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "(Tiếp tục) Nếu chính phủ đánh thuế $t = 10\\$/sản phẩm$ vào người bán, sản lượng cân bằng mới của thị trường sẽ là bao nhiêu?",
+      "options": {
+        "A": "Q = 70",
+        "B": "Q = 65",
+        "C": "Q = 60",
+        "D": "Q = 75"
+      },
+      "correct_answer": "B",
+      "explanation": "Đường cung mới sau khi đánh thuế vào người bán là: $P = 0,5Q + 20 + 10 = 0,5Q + 30$. Cân bằng mới: $-1,5Q + 160 = 0,5Q + 30 \\Leftrightarrow 2Q = 130 \\Rightarrow Q = 65$."
+    },
+    {
+      "id": "dc2c-030",
+      "topic": "Thuế",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "(Tiếp tục) Từ quyết định đánh thuế $t = 10\\$/sản phẩm$, hãy cho biết đối tượng nào phải chịu gánh nặng thuế nhiều hơn và tổng số tiền thuế chính phủ thu được là bao nhiêu?",
+      "options": {
+        "A": "Người bán chịu nhiều hơn; Tổng thuế thu được là 700.",
+        "B": "Gánh nặng chia đều; Tổng thuế thu được là 650.",
+        "C": "Người tiêu dùng chịu nhiều hơn; Tổng thuế thu được là 650.",
+        "D": "Người tiêu dùng chịu nhiều hơn; Tổng thuế thu được là 700."
+      },
+      "correct_answer": "C",
+      "explanation": "Tại $Q_T = 65$, giá người mua phải trả là $P_D = -1,5(65) + 160 = 62,5$. Người bán nhận về $P_S = 62,5 - 10 = 52,5$. So với giá trước thuế $P_0 = 55$, người mua gánh thêm $62,5 - 55 = 7,5$ còn người bán chịu giảm $55 - 52,5 = 2,5$. Vậy người tiêu dùng chịu nhiều hơn. Tổng thuế thu được: $T = t \\times Q_T = 10 \\times 65 = 650$."
+    }
+  ]
+}

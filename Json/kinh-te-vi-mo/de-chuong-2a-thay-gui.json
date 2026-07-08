@@ -1,0 +1,464 @@
+{
+  "chapter_id": "de-chuong-2a-thay-gui",
+  "title": "Đề Chương 2A (Thầy gửi) - Kinh Tế Vi Mô",
+  "source_file": "De chuong 2a - thay gui",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "dc2a-001",
+      "topic": "Khái niệm thị trường",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Thị trường là gì?",
+      "options": {
+        "A": "Nơi tập trung của những người bán lẻ hàng hoá.",
+        "B": "Tập hợp những người mua và người bán tác động qua lại lẫn nhau dẫn đến khả năng trao đổi hàng hóa và dịch vụ.",
+        "C": "Quá trình người tiêu dùng tìm kiếm sản phẩm rẻ nhất.",
+        "D": "Cơ chế do Chính phủ lập ra để điều tiết giá cả hàng hoá."
+      },
+      "correct_answer": "B",
+      "explanation": "Thị trường không nhất thiết phải là một địa điểm cụ thể. Trong kinh tế học, thị trường là nơi hoặc cơ chế mà người mua và người bán tương tác để trao đổi hàng hóa, dịch vụ."
+    },
+    {
+      "id": "dc2a-002",
+      "topic": "Loại hình thị trường",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Loại thị trường nào sau đây KHÔNG được liệt kê trong các loại hình thị trường cơ bản?",
+      "options": {
+        "A": "Thị trường cạnh tranh hoàn hảo",
+        "B": "Thị trường độc quyền nhóm",
+        "C": "Thị trường cạnh tranh độc quyền",
+        "D": "Thị trường tự do phi chính phủ"
+      },
+      "correct_answer": "D",
+      "explanation": "Các loại hình thị trường cơ bản thường gồm cạnh tranh hoàn hảo, độc quyền, cạnh tranh độc quyền và độc quyền nhóm. \"Thị trường tự do phi chính phủ\" không phải là một loại hình thị trường cơ bản trong phân loại kinh tế học."
+    },
+    {
+      "id": "dc2a-003",
+      "topic": "Khái niệm cầu",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Để một cá nhân thực sự có \"Cầu\" đối với một sản phẩm, họ cần phải có đủ hai yếu tố nào sau đây?",
+      "options": {
+        "A": "Mong muốn sở hữu và sẵn lòng trả (vừa muốn mua, vừa có khả năng mua).",
+        "B": "Ước muốn tiềm năng và sự cho phép của gia đình.",
+        "C": "Có tiền trong túi và được người bán giới thiệu sản phẩm.",
+        "D": "Nhu cầu thiết yếu và giá cả rẻ."
+      },
+      "correct_answer": "A",
+      "explanation": "Trong kinh tế học, cầu không chỉ là mong muốn. Một người chỉ có cầu khi vừa muốn mua hàng hóa, vừa có khả năng chi trả cho hàng hóa đó."
+    },
+    {
+      "id": "dc2a-004",
+      "topic": "Quy luật cầu",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Phát biểu nào sau đây thể hiện đúng \"Quy luật Cầu\"?",
+      "options": {
+        "A": "Khi giá của hàng hóa tăng lên, lượng cầu hàng hóa đó sẽ tăng lên.",
+        "B": "Khi thu nhập tăng, lượng cầu của hàng hoá sẽ giảm xuống.",
+        "C": "Khi giá của hàng hóa tăng lên (trong điều kiện các yếu tố khác không đổi), lượng cầu hàng hóa đó sẽ giảm xuống.",
+        "D": "Giá và lượng cầu luôn biến động cùng chiều với nhau."
+      },
+      "correct_answer": "C",
+      "explanation": "Quy luật cầu cho biết giá và lượng cầu có quan hệ nghịch chiều. Khi giá tăng, lượng cầu giảm (trong điều kiện các yếu tố khác không đổi)."
+    },
+    {
+      "id": "dc2a-005",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Trạng thái cân bằng của thị trường đạt được khi nào?",
+      "options": {
+        "A": "Khi người bán bán được số lượng lớn nhất.",
+        "B": "Khi lượng cung bằng với lượng cầu, không có dư thừa hay thiếu hụt.",
+        "C": "Khi giá cả ở mức thấp nhất mà người mua có thể trả.",
+        "D": "Khi Chính phủ ấn định mức giá trần."
+      },
+      "correct_answer": "B",
+      "explanation": "Cân bằng thị trường xảy ra tại mức giá mà lượng cung bằng lượng cầu. Khi đó thị trường không có tình trạng dư thừa hay thiếu hụt hàng hóa."
+    },
+    {
+      "id": "dc2a-006",
+      "topic": "Di chuyển đường cầu",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Yếu tố nào sau đây sẽ làm \"thay đổi lượng cầu\" (di chuyển dọc theo đường cầu) thay vì \"thay đổi cầu\" (dịch chuyển cả đường cầu)?",
+      "options": {
+        "A": "Thu nhập của người tiêu dùng thay đổi.",
+        "B": "Thị hiếu của người tiêu dùng thay đổi.",
+        "C": "Giá của chính hàng hoá đó thay đổi.",
+        "D": "Giá của hàng hoá thay thế thay đổi."
+      },
+      "correct_answer": "C",
+      "explanation": "Giá của chính hàng hóa thay đổi làm lượng cầu thay đổi, tương ứng với việc di chuyển dọc theo đường cầu. Các yếu tố khác như thu nhập, thị hiếu, giá hàng hóa liên quan mới làm dịch chuyển đường cầu."
+    },
+    {
+      "id": "dc2a-007",
+      "topic": "Hàng hóa bổ sung",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Hàng hóa bổ sung là loại hàng hoá có mối quan hệ như thế nào?",
+      "options": {
+        "A": "Khi giá hàng hóa A tăng, cầu hàng hóa B cũng tăng.",
+        "B": "Khi giá hàng hóa A tăng, cầu hàng hóa B giảm.",
+        "C": "Khi thu nhập tăng, cầu hàng hóa A giảm.",
+        "D": "Khi thu nhập giảm, cầu hàng hóa B không đổi."
+      },
+      "correct_answer": "B",
+      "explanation": "Hàng hóa bổ sung là những hàng hóa thường được sử dụng đồng thời. Khi giá hàng hóa A tăng, lượng mua hàng hóa A giảm, kéo theo nhu cầu tiêu dùng hàng hóa B cũng giảm."
+    },
+    {
+      "id": "dc2a-008",
+      "topic": "Quy luật cung",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Theo quy luật cung, mối quan hệ giữa giá cả (P) và lượng cung (Qs) là:",
+      "options": {
+        "A": "Nghịch biến (P tăng thì Qs giảm).",
+        "B": "Đồng biến (P tăng thì Qs tăng).",
+        "C": "Không có mối liên hệ.",
+        "D": "Luôn luôn bằng nhau."
+      },
+      "correct_answer": "B",
+      "explanation": "Theo quy luật cung, khi giá của hàng hóa tăng lên, các nhà sản xuất có động lực tăng sản lượng bán ra để kiếm thêm lợi nhuận, do đó lượng cung tăng (mối quan hệ đồng biến)."
+    },
+    {
+      "id": "dc2a-009",
+      "topic": "Cân bằng thị trường",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Khi giá thị trường đang ở mức cao hơn giá cân bằng, hiện tượng gì sẽ xảy ra?",
+      "options": {
+        "A": "Thị trường dư thừa hàng hoá (lượng cung > lượng cầu).",
+        "B": "Thị trường thiếu hụt hàng hoá (lượng cầu > lượng cung).",
+        "C": "Giá hàng hoá sẽ có xu hướng tăng lên.",
+        "D": "Cả đường cung và đường cầu đều dịch chuyển sang phải."
+      },
+      "correct_answer": "A",
+      "explanation": "Khi giá thị trường cao hơn giá cân bằng, người bán muốn cung ứng nhiều hơn nhưng người tiêu dùng lại giảm mua, gây ra dư thừa hàng hóa (lượng cung lớn hơn lượng cầu)."
+    },
+    {
+      "id": "dc2a-010",
+      "topic": "Hàng hóa thông thường",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Quần áo là một ví dụ về hàng hóa thông thường. Điều kiện nào sau đây thể hiện đúng tính chất của hàng hóa thông thường?",
+      "options": {
+        "A": "Khi thu nhập tăng, cầu hàng hóa tăng.",
+        "B": "Khi thu nhập tăng, cầu hàng hóa giảm.",
+        "C": "Khi giá tăng, cầu hàng hóa tăng.",
+        "D": "Khi giá hàng hóa thay thế giảm, cầu hàng hoá không đổi."
+      },
+      "correct_answer": "A",
+      "explanation": "Hàng hóa thông thường (Normal Goods) có đặc điểm là cầu của nó tỷ lệ thuận với thu nhập của người tiêu dùng: khi thu nhập tăng, cầu tăng và ngược lại."
+    },
+    {
+      "id": "dc2a-011",
+      "topic": "Khái niệm cầu",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Sinh viên A rất thích chiếc iPhone 15 Pro Max trị giá 30 triệu đồng và ngày nào cũng xem review. Tuy nhiên, trong túi A chỉ có 5 triệu đồng. Trong kinh tế học, tình huống này được gọi là gì?",
+      "options": {
+        "A": "Cầu của sinh viên A đối với iPhone.",
+        "B": "Nhu cầu thực tế của thị trường.",
+        "C": "Chỉ là ước muốn hay nhu cầu tiềm năng, không tạo thành Cầu.",
+        "D": "Cầu thứ cấp của cá nhân."
+      },
+      "correct_answer": "C",
+      "explanation": "A có mong muốn sở hữu nhưng không có khả năng chi trả (chỉ có 5 triệu so với giá 30 triệu). Do đó, đây chỉ là ước muốn hoặc nhu cầu tiềm năng chứ chưa tạo thành \"Cầu\" thực tế trên thị trường."
+    },
+    {
+      "id": "dc2a-012",
+      "topic": "Hàm số cung",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Hàm số cung tuyến tính có dạng QS = c.P + d. Dấu của hệ số “ c “ sẽ như thế nào?",
+      "options": {
+        "A": "c < 0",
+        "B": "c = 0",
+        "C": "c > 0",
+        "D": "Tuỳ thuộc vào thu nhập của người tiêu dùng."
+      },
+      "correct_answer": "C",
+      "explanation": "Do quy luật cung phát biểu rằng giá cả và lượng cung có mối quan hệ đồng biến, hệ số góc $c$ biểu thị độ dốc của đường cung so với trục giá phải mang giá trị dương ($c > 0$)."
+    },
+    {
+      "id": "dc2a-013",
+      "topic": "Dịch chuyển đường cung",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Yếu tố nào sau đây sẽ làm dịch chuyển đường cung của xe hơi sang phải (cung tăng)?",
+      "options": {
+        "A": "Giá xăng tăng mạnh.",
+        "B": "Thu nhập của người tiêu dùng tăng.",
+        "C": "Việc sử dụng công nghệ mới sản xuất xe hơi làm chi phí giảm.",
+        "D": "Mức lương trả cho công nhân lắp ráp xe hơi tăng."
+      },
+      "correct_answer": "C",
+      "explanation": "Công nghệ mới giúp giảm chi phí sản xuất xe hơi, từ đó khuyến khích nhà sản xuất cung ứng nhiều xe hơn ở mỗi mức giá, làm đường cung dịch chuyển sang phải (cung tăng)."
+    },
+    {
+      "id": "dc2a-014",
+      "topic": "Phân loại hàng hóa",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Sự khác biệt giữa hàng hoá thay thế và hàng hoá bổ sung được thể hiện qua ví dụ nào dưới đây?",
+      "options": {
+        "A": "Táo và cam là hàng hoá bổ sung; Xe máy và xăng là hàng hoá thay thế.",
+        "B": "Táo và cam là hàng hoá thay thế; Xe máy và xăng là hàng hoá bổ sung.",
+        "C": "Táo và xăng là hàng hoá thay thế; Cam và xe máy là hàng hoá bổ sung.",
+        "D": "Xe máy và cam là hàng hóa thay thế; Táo và xăng là hàng hóa bổ sung."
+      },
+      "correct_answer": "B",
+      "explanation": "Hàng thay thế là những hàng hóa có thể dùng thay cho nhau (táo và cam). Hàng bổ sung là những hàng hóa phải đi kèm với nhau để thỏa mãn nhu cầu (xe máy và xăng)."
+    },
+    {
+      "id": "dc2a-015",
+      "topic": "Dịch chuyển đường cầu",
+      "difficulty": "easy",
+      "source_pages": [1],
+      "question": "Yếu tố nào sau đây KHÔNG làm dịch chuyển đường cầu đối với sản phẩm xe máy Honda?",
+      "options": {
+        "A": "Thu nhập của người dân thay đổi.",
+        "B": "Giá xe máy Yamaha (hàng thay thế) thay đổi.",
+        "C": "Người tiêu dùng ngày càng thích đi xe máy Honda hơn.",
+        "D": "Giá của chính chiếc xe máy Honda đó thay đổi."
+      },
+      "correct_answer": "D",
+      "explanation": "Giá của chính xe Honda thay đổi chỉ gây ra sự trượt dọc (di chuyển) trên đường cầu để làm thay đổi lượng cầu, không làm dịch chuyển toàn bộ đường cầu."
+    },
+    {
+      "id": "dc2a-016",
+      "topic": "Hàng hóa thứ cấp",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Xe đạp và mì gói thường được xếp vào nhóm hàng hóa thứ cấp. Khi thu nhập của người tiêu dùng giảm xuống, đường cầu của mì gói sẽ biến động như thế nào?",
+      "options": {
+        "A": "Dịch chuyển sang trái (cầu giảm).",
+        "B": "Dịch chuyển sang phải (cầu tăng).",
+        "C": "Trượt dọc lên trên (lượng cầu tăng).",
+        "D": "Đứng yên không đổi."
+      },
+      "correct_answer": "B",
+      "explanation": "Hàng thứ cấp (Inferior Goods) là loại hàng hóa có nhu cầu tăng khi thu nhập giảm. Do đó, khi thu nhập giảm, cầu mì gói tăng, làm đường cầu dịch chuyển sang phải."
+    },
+    {
+      "id": "dc2a-017",
+      "topic": "Tính cân bằng thị trường",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Cho phương trình hàm số cầu QD = -1,5P + 100 và hàm số cung QS = 0,5P - 20. Mức giá (P) và sản lượng (Q) tại điểm cân bằng là bao nhiêu?",
+      "options": {
+        "A": "P = 40, Q = 0",
+        "B": "P = 50, Q = 5",
+        "C": "P = 60, Q = 10",
+        "D": "P = 80, Q = -20"
+      },
+      "correct_answer": "C",
+      "explanation": "Cân bằng thị trường: $Q_D = Q_S \\Leftrightarrow -1,5P + 100 = 0,5P - 20 \\Leftrightarrow 2P = 120 \\Rightarrow P = 60$. Thay $P = 60$ vào hàm cầu: $Q = -1,5(60) + 100 = 10$."
+    },
+    {
+      "id": "dc2a-018",
+      "topic": "Hàng hóa bổ sung",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Tại sao giá vé xem phim giảm lại làm cầu của bắp rang bơ tại rạp tăng lên?",
+      "options": {
+        "A": "Vì bắp rang bơ là hàng hóa thứ cấp.",
+        "B": "Vì vé xem phim và bắp rang bơ là hai hàng hóa bổ sung cho nhau.",
+        "C": "Vì vé xem phim và bắp rang bơ là hai hàng hóa thay thế cho nhau.",
+        "D": "Vì các nhà sản xuất bắp rang bơ đang áp dụng công nghệ mới."
+      },
+      "correct_answer": "B",
+      "explanation": "Vé xem phim và bắp rang bơ là hàng bổ sung. Khi giá vé xem phim giảm, lượng cầu xem phim tăng, dẫn đến nhu cầu mua bắp rang bơ ăn kèm tại rạp cũng tăng."
+    },
+    {
+      "id": "dc2a-019",
+      "topic": "Thuế doanh nghiệp",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Khi chính phủ áp dụng chính sách giảm thuế cho các doanh nghiệp, điều gì sẽ xảy ra trên đồ thị cung cầu?",
+      "options": {
+        "A": "Đường cầu dịch chuyển sang trái.",
+        "B": "Đường cung dịch chuyển sang phải (cung tăng).",
+        "C": "Đường cung dịch chuyển sang trái (cung giảm).",
+        "D": "Điểm cân bằng trượt dọc trên đường cung ban đầu."
+      },
+      "correct_answer": "B",
+      "explanation": "Giảm thuế làm giảm chi phí kinh doanh của doanh nghiệp, giúp tăng khả năng sinh lời và tăng cung sản phẩm ở mọi mức giá, khiến đường cung dịch chuyển sang phải."
+    },
+    {
+      "id": "dc2a-020",
+      "topic": "Thiếu hụt hàng hóa",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Nếu thị trường đang trong tình trạng thiếu hụt hàng hoá (dư cầu), cơ chế thị trường sẽ tự điều chỉnh bằng cách:",
+      "options": {
+        "A": "Giảm giá hàng hoá để khuyến khích mua.",
+        "B": "Yêu cầu chính phủ cấm bán hàng.",
+        "C": "Tăng giá hàng hoá cho đến khi lượng cung bằng lượng cầu.",
+        "D": "Giảm lượng sản xuất để tiết kiệm chi phí."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi thiếu hụt ($Q_D > Q_S$), người mua cạnh tranh nhau để sở hữu hàng hóa khan hiếm, đẩy giá lên. Giá tăng làm lượng cầu giảm và lượng cung tăng dần cho đến khi đạt trạng thái cân bằng mới."
+    },
+    {
+      "id": "dc2a-021",
+      "topic": "Cung cầu dịch chuyển",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Một phân tích ba bước đối với thị trường xe hơi cho thấy: khi giá xăng giảm, đồng thời các hãng xe áp dụng công nghệ mới trong sản xuất. Trạng thái cân bằng mới của thị trường xe hơi sẽ như thế nào?",
+      "options": {
+        "A": "Giá chắc chắn giảm, lượng cân bằng chưa biết.",
+        "B": "Lượng cân bằng chắc chắn tăng, giá cân bằng có thể tăng, giảm hoặc không đổi (chưa biết).",
+        "C": "Giá và lượng cân bằng đều chắc chắn tăng.",
+        "D": "Giá chắc chắn tăng, lượng cân bằng chưa biết."
+      },
+      "correct_answer": "B",
+      "explanation": "Giá xăng giảm làm tăng cầu xe hơi (đường cầu dịch phải). Công nghệ mới làm tăng cung xe hơi (đường cung dịch phải). Khi cả cung và cầu cùng tăng, lượng cân bằng chắc chắn tăng, còn tác động lên giá cân bằng là chưa xác định."
+    },
+    {
+      "id": "dc2a-022",
+      "topic": "Tính thiếu hụt/dư thừa",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Cho hàm số cung cầu của một thị trường: Phương trình cung: P = 2QS + 20 và Phương trình cầu: P = -QD + 110. Nếu chính phủ ấn định mức giá thị trường là P = 50, thị trường sẽ xảy ra tình trạng gì?",
+      "options": {
+        "A": "Cân bằng tại mức sản lượng 30.",
+        "B": "Dư thừa 45 đơn vị hàng hoá.",
+        "C": "Thiếu hụt 45 đơn vị hàng hoá.",
+        "D": "Thiếu hụt 15 đơn vị hàng hoá."
+      },
+      "correct_answer": "C",
+      "explanation": "Tại $P = 50$: Lượng cung $Q_S = (50 - 20) / 2 = 15$. Lượng cầu $Q_D = 110 - 50 = 60$. Vì $Q_D > Q_S$, thị trường thiếu hụt: $60 - 15 = 45$ đơn vị."
+    },
+    {
+      "id": "dc2a-023",
+      "topic": "Hàng hóa thông thường",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Giả sử thu nhập của người tiêu dùng giảm xuống. Phở là một hàng hoá thông thường. Thị trường phở sẽ chịu tác động như thế nào?",
+      "options": {
+        "A": "Cầu phở giảm, đường cầu dịch sang trái làm giá phở giảm và lượng tiêu dùng giảm.",
+        "B": "Lượng cầu phở tăng do giá phở rẻ hơn.",
+        "C": "Cầu phở tăng, đường cầu dịch sang phải làm giá phở tăng và lượng tiêu dùng tăng.",
+        "D": "Giá phở giảm và làm lượng tiêu dùng tăng."
+      },
+      "correct_answer": "A",
+      "explanation": "Phở là hàng hóa thông thường. Thu nhập giảm làm giảm cầu đối với phở (đường cầu dịch sang trái). Trạng thái cân bằng mới sẽ có mức giá thấp hơn và lượng giao dịch nhỏ hơn."
+    },
+    {
+      "id": "dc2a-024",
+      "topic": "Giá cả cân bằng",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Yếu tố nào sau đây là nguyên nhân trực tiếp làm giá xe hơi Toyota TĂNG?",
+      "options": {
+        "A": "Thu nhập của người tiêu dùng giảm (Toyota là hàng hóa thông thường).",
+        "B": "Giá xe hơi BMW giảm.",
+        "C": "Chính phủ giảm thuế đánh vào xe hơi.",
+        "D": "Tiền lương trả cho lao động lắp ráp sản xuất xe hơi tăng."
+      },
+      "correct_answer": "D",
+      "explanation": "Tiền lương công nhân tăng làm chi phí sản xuất (chi phí đầu vào) tăng, dẫn đến cung xe hơi giảm (đường cung dịch chuyển sang trái), đẩy giá cân bằng tăng lên."
+    },
+    {
+      "id": "dc2a-025",
+      "topic": "Cung dịch chuyển",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Điều gì sẽ xảy ra đối với giá cả và số lượng xe máy tiêu thụ trên thị trường, nếu một nhà cung cấp lớn quyết định rời khỏi thị trường (các yếu tố khác không đổi)?",
+      "options": {
+        "A": "Đường cung dịch chuyển sang phải, giá giảm, lượng tiêu thụ tăng.",
+        "B": "Đường cung dịch chuyển sang trái, giá tăng, lượng tiêu thụ giảm.",
+        "C": "Đường cầu dịch chuyển sang trái, giá giảm, lượng tiêu thụ giảm.",
+        "D": "Đường cung dịch chuyển dọc lên trên, giá không đổi."
+      },
+      "correct_answer": "B",
+      "explanation": "Khi một nhà cung cấp lớn rời đi, năng lực sản xuất của thị trường giảm, đường cung dịch chuyển sang trái (cung giảm). Kết quả là giá cân bằng tăng và lượng giao dịch giảm."
+    },
+    {
+      "id": "dc2a-026",
+      "topic": "Cầu dịch chuyển",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Trong một phân tích thị trường, nếu các nghiên cứu y tế công bố rằng việc ăn mì tôm nhiều có hại cho sức khỏe, điều này sẽ tác động thế nào đến cân bằng thị trường mì tôm?",
+      "options": {
+        "A": "Đường cung dịch chuyển sang trái làm giá tăng.",
+        "B": "Thị hiếu người tiêu dùng thay đổi làm đường cầu dịch sang trái, giá giảm, lượng giảm.",
+        "C": "Đường cầu dịch chuyển sang phải làm giá tăng.",
+        "D": "Không làm thay đổi cầu vì mì tôm là hàng thứ cấp."
+      },
+      "correct_answer": "B",
+      "explanation": "Tin tức tiêu cực về sức khỏe làm giảm thị hiếu (sự ưa thích) của người tiêu dùng đối với mì tôm, làm đường cầu dịch chuyển sang trái. Kết quả là cả giá và lượng cân bằng đều giảm."
+    },
+    {
+      "id": "dc2a-027",
+      "topic": "Cung dịch chuyển",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Trường hợp nào sau đây là nguyên nhân làm đường cung của lúa dịch chuyển sang trái (cung giảm)?",
+      "options": {
+        "A": "Giá lúa trên thị trường tăng cao.",
+        "B": "Điều kiện thời tiết bất lợi (hạn hán, lũ lụt).",
+        "C": "Giá giống lúa và giá nhân công lao động giảm.",
+        "D": "Nông dân áp dụng công nghệ thu hoạch mới."
+      },
+      "correct_answer": "B",
+      "explanation": "Hạn hán, lũ lụt phá hủy mùa màng, làm giảm sản lượng lúa có thể cung ứng ở mỗi mức giá, khiến đường cung dịch chuyển sang trái (cung giảm)."
+    },
+    {
+      "id": "dc2a-028",
+      "topic": "Cung cầu dịch chuyển",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Trong đồ thị thị trường, khi lượng cung tăng nhiều hơn lượng cầu tăng (cả đường cung và đường cầu đều dịch sang phải, nhưng đường cung dịch khoảng cách xa hơn), điểm cân bằng mới sẽ có đặc điểm gì so với cân bằng cũ?",
+      "options": {
+        "A": "Lượng cân bằng tăng, giá cân bằng giảm.",
+        "B": "Lượng cân bằng giảm, giá cân bằng tăng.",
+        "C": "Lượng cân bằng tăng, giá cân bằng tăng.",
+        "D": "Lượng cân bằng và giá cân bằng đều không đổi."
+      },
+      "correct_answer": "A",
+      "explanation": "Cung tăng và cầu tăng đều làm lượng cân bằng tăng. Tuy nhiên, vì cung tăng nhiều hơn cầu (đường cung dịch chuyển nhiều hơn), sức ép giảm giá từ cung mạnh hơn sức ép tăng giá từ cầu, làm giá cân bằng giảm."
+    },
+    {
+      "id": "dc2a-029",
+      "topic": "Thiếu hụt/dư thừa",
+      "difficulty": "hard",
+      "source_pages": [1],
+      "question": "Nếu biểu cầu và biểu cung thị trường cho thấy: Tại mức giá P = 10 (ngàn đồng), QD = 200, QS = 40. Tại mức giá P = 20, Q_D = 180, QS = 80. Khi thị trường ở mức giá P = 20, nhận định nào sau đây là đúng?",
+      "options": {
+        "A": "Thị trường đang cân bằng.",
+        "B": "Thị trường đang dư thừa 100 đơn vị.",
+        "C": "Thị trường đang thiếu hụt 100 đơn vị.",
+        "D": "Thị trường đang dư thừa 180 đơn vị."
+      },
+      "correct_answer": "C",
+      "explanation": "Tại $P = 20$, ta có: Lượng cầu $Q_D = 180$, lượng cung $Q_S = 80$. Vì $Q_D > Q_S$, thị trường đang bị thiếu hụt: $180 - 80 = 100$ đơn vị."
+    },
+    {
+      "id": "dc2a-030",
+      "topic": "Thị trường lao động",
+      "difficulty": "medium",
+      "source_pages": [1],
+      "question": "Xét thị trường lao động (người bán là người lao động cung cấp sức lao động, người mua là doanh nghiệp tuyển dụng). Việc tiền thuê lao động sản xuất (tiền lương) tăng lên sẽ gây ra hệ quả gì cho thị trường sản phẩm nước giải khát mà doanh nghiệp đó sản xuất?",
+      "options": {
+        "A": "Chi phí đầu vào tăng, cung nước giải khát dịch chuyển sang trái (giảm), đẩy giá sản phẩm lên cao.",
+        "B": "Chi phí đầu vào tăng, cầu nước giải khát tăng lên.",
+        "C": "Chi phí đầu vào tăng, cung nước giải khát dịch chuyển sang phải (tăng), kéo giá sản phẩm xuống.",
+        "D": "Thị trường sản phẩm không bị tác động bởi chi phí sản xuất."
+      },
+      "correct_answer": "A",
+      "explanation": "Tiền lương lao động sản xuất tăng làm tăng chi phí đầu vào của doanh nghiệp. Điều này làm giảm cung sản phẩm nước giải khát (đường cung dịch chuyển sang trái), đẩy giá sản phẩm tăng lên."
+    }
+  ]
+}

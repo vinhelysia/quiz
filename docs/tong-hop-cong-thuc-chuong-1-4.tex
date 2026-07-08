@@ -1,356 +1,928 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[vietnamese]{babel}
-\usepackage{amsmath}
-\usepackage{amssymb}
+\usepackage{amsmath,amssymb}
 \usepackage{geometry}
-\usepackage{booktabs}
-\usepackage{xcolor}
-\usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
 
-\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
 
-\title{\textbf{HƯỚNG DẪN ÔN TẬP BÀI GIẢNG VÀ PHƯƠNG PHÁP GIẢI BÀI TẬP\\KINH TẾ HỌC VI MÔ (CHƯƠNG 1 - 4)}}
-\author{Hệ Thống Trắc Nghiệm Kinh Tế Học Vi Mô}
-\date{Tháng 6, Năm 2026}
+\tcbuselibrary{breakable,skins}
+
+\definecolor{formulabox}{RGB}{230,240,255}
+\definecolor{examplebox}{RGB}{255,245,230}
+\definecolor{tipbox}{RGB}{230,255,230}
+\definecolor{warnbox}{RGB}{255,230,230}
+
+\newtcolorbox{formula}[1][]{
+  colback=formulabox, colframe=blue!60!black,
+  fonttitle=\bfseries, title={#1},
+  breakable, sharp corners=south
+}
+
+\newtcolorbox{example}[1][]{
+  colback=examplebox, colframe=orange!70!black,
+  fonttitle=\bfseries, title={#1},
+  breakable, sharp corners=south
+}
+
+\newtcolorbox{tip}[1][]{
+  colback=tipbox, colframe=green!60!black,
+  fonttitle=\bfseries, title={#1},
+  breakable, sharp corners=south
+}
+
+\newtcolorbox{warning}[1][]{
+  colback=warnbox, colframe=red!60!black,
+  fonttitle=\bfseries, title={#1},
+  breakable, sharp corners=south
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textit{Tổng hợp công thức Kinh tế Vi mô}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\title{\textbf{TỔNG HỢP CÔNG THỨC VÀ BÀI TẬP\\KINH TẾ VI MÔ}\\[0.5em]
+\large Chương 1 -- 4 (theo bài giảng)}
+\author{}
+\date{}
 
 \begin{document}
-
 \maketitle
 \tableofcontents
 \newpage
 
-% =========================================================================
-\section{CHƯƠNG 1: GIỚI THIỆU VỀ KINH TẾ HỌC}
-% =========================================================================
+%=============================================================
+\section{CHƯƠNG 1 -- GIỚI THIỆU VỀ KINH TẾ HỌC}
+%=============================================================
 
-\subsection{Hệ thống lý thuyết từ Slide}
-\begin{itemize}
-    \item \textbf{Sự khan hiếm:} Mong muốn vô hạn của con người luôn vượt quá nguồn lực hữu hạn của xã hội.
-    \item \textbf{Chi phí cơ hội (Opportunity Cost):} Phần chi phí cao nhất bị mất đi do quyết định chọn một hoạt động thay thế khác. 
-    \\ \textit{Phép thành ngữ dân gian}: ``Ăn đám giỗ, lỗ buổi cày''.
-    \item \textbf{Phát biểu Thực chứng (Positive) và Chuẩn tắc (Normative):}
-    \begin{itemize}
-        \item \textbf{Thực chứng}: Mô tả và phân tích thế giới khách quan khách quan dựa trên số liệu. 
-        \\ \textit{Ví dụ}: ``Lạm phát tăng khi chính phủ in quá nhiều tiền.''
-        \item \textbf{Chuẩn tắc}: Khuyến nghị hoặc đưa ra lời khuyên mang tính chủ quan. 
-        \\ \textit{Ví dụ}: ``Chính phủ cần giảm tốc độ lạm phát.''
-    \end{itemize}
+\subsection{Các khái niệm cốt lõi}
+
+\begin{formula}[Sự khan hiếm và Chi phí cơ hội]
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Sự khan hiếm (Scarcity):} Nguồn lực xã hội là có hạn, không thể sản xuất tất cả hàng hóa mà mọi người mong muốn.
+  \item \textbf{Kinh tế học:} Nghiên cứu cách xã hội quản lý các nguồn lực khan hiếm.
+  \item \textbf{Chi phí cơ hội (Opportunity Cost):} Giá trị của phương án tốt nhất bị bỏ qua khi đưa ra một lựa chọn.
 \end{itemize}
+\end{formula}
 
-\subsection{Bài tập mẫu từ Slide}
+\subsection{10 Nguyên lý Kinh tế học}
 
-\paragraph{Ví dụ (Độ dốc PPF và Chi phí cơ hội tăng dần):}
-Cho bảng phối hợp sản lượng tối đa giữa 2 sản phẩm $X$ và $Y$ của một nền kinh tế:
+\begin{formula}[Nhóm 1: Con người ra quyết định như thế nào (NL 1--4)]
+\begin{enumerate}
+  \item \textbf{Sự đánh đổi:} Để có một thứ, phải từ bỏ thứ khác.
+  \item \textbf{Chi phí cơ hội:} Chi phí thực sự = cái bạn phải từ bỏ để có được nó.
+  \item \textbf{Tư duy cận biên:} Ra quyết định tại biên -- so sánh lợi ích biên (MB) và chi phí biên (MC).
+  \begin{itemize}
+    \item Nếu $MB > MC$: nên thực hiện thêm.
+    \item Nếu $MB < MC$: nên dừng lại.
+    \item Tối ưu khi $MB = MC$.
+  \end{itemize}
+  \item \textbf{Con người phản ứng với các kích thích (incentives).}
+\end{enumerate}
+\end{formula}
+
+\begin{formula}[Nhóm 2: Con người tương tác như thế nào (NL 5--7)]
+\begin{enumerate}[start=5]
+  \item \textbf{Thương mại làm lợi cho tất cả các bên} (chuyên môn hóa, lợi thế so sánh).
+  \item \textbf{Thị trường là cơ chế tốt để tổ chức hoạt động kinh tế} (bàn tay vô hình).
+  \item \textbf{Chính phủ đôi khi cải thiện được kết cục thị trường} (thất bại thị trường, ngoại tác, sức mạnh thị trường).
+\end{enumerate}
+\end{formula}
+
+\begin{formula}[Nhóm 3: Nền kinh tế vận hành như thế nào (NL 8--10)]
+\begin{enumerate}[start=8]
+  \item \textbf{Mức sống phụ thuộc vào năng suất.}
+  \item \textbf{Giá cả tăng khi chính phủ in quá nhiều tiền} (lạm phát).
+  \item \textbf{Đánh đổi ngắn hạn giữa lạm phát và thất nghiệp} (đường Phillips).
+\end{enumerate}
+\end{formula}
+
+\subsection{Mô hình dòng luân chuyển}
+
+\begin{formula}[Sơ đồ dòng luân chuyển]
+Hai chủ thể: \textbf{Hộ gia đình} và \textbf{Doanh nghiệp}.\\
+Hai thị trường: \textbf{Thị trường hàng hóa -- dịch vụ} và \textbf{Thị trường yếu tố sản xuất}.
+\begin{itemize}
+  \item Hộ gia đình $\xrightarrow{\text{lao động, vốn, đất đai}}$ Thị trường YTSX $\xrightarrow{\text{yếu tố SX}}$ Doanh nghiệp
+  \item Doanh nghiệp $\xrightarrow{\text{tiền lương, lợi nhuận, tiền thuê}}$ Thị trường YTSX $\xrightarrow{\text{thu nhập}}$ Hộ gia đình
+  \item Doanh nghiệp $\xrightarrow{\text{hàng hóa, dịch vụ}}$ Thị trường HHDV $\xrightarrow{\text{hàng hóa}}$ Hộ gia đình
+  \item Hộ gia đình $\xrightarrow{\text{chi tiêu}}$ Thị trường HHDV $\xrightarrow{\text{doanh thu}}$ Doanh nghiệp
+\end{itemize}
+\end{formula}
+
+\begin{tip}[Cách nhận biết dạng bài Chương 1]
+\begin{itemize}
+  \item Bài về \textbf{chi phí cơ hội}: Cho các lựa chọn, hỏi chi phí cơ hội $\Rightarrow$ tìm giá trị cao nhất của phương án bị bỏ qua.
+  \item Bài về \textbf{tư duy cận biên}: So sánh MB và MC để quyết định có nên làm thêm hay không.
+  \item Bài về \textbf{xác định hệ thống kinh tế}: Kinh tế thị trường / kế hoạch / hỗn hợp.
+\end{itemize}
+\end{tip}
+
+\newpage
+%=============================================================
+\section{CHƯƠNG 2A -- CẦU, CUNG VÀ CÂN BẰNG THỊ TRƯỜNG}
+%=============================================================
+
+\subsection{Hàm cầu (Demand)}
+
+\begin{formula}[Hàm cầu và hàm cầu ngược]
+\textbf{Hàm cầu:}
+\[
+  Q^D = aP + b \quad (a < 0)
+\]
+\textbf{Hàm cầu ngược} (giải P theo Q):
+\[
+  P = \frac{Q^D - b}{a} = \frac{1}{a}Q^D - \frac{b}{a}
+\]
+\textbf{Quy luật cầu:} Khi giá tăng $\Rightarrow$ lượng cầu giảm (nghịch biến).
+\end{formula}
+
+\begin{warning}[Phân biệt: Di chuyển vs. Dịch chuyển đường cầu]
+\begin{itemize}
+  \item \textbf{Di chuyển DỌC đường cầu:} Do giá của chính hàng hóa đó thay đổi.
+  \item \textbf{Dịch chuyển đường cầu:} Do các yếu tố KHÁC giá thay đổi:
+  \begin{itemize}
+    \item Thu nhập (hàng thông thường: I$\uparrow$ $\Rightarrow$ D$\uparrow$; hàng thứ cấp: I$\uparrow$ $\Rightarrow$ D$\downarrow$)
+    \item Giá hàng liên quan (hàng thay thế: $P_Y\uparrow$ $\Rightarrow$ $D_X\uparrow$; hàng bổ sung: $P_Y\uparrow$ $\Rightarrow$ $D_X\downarrow$)
+    \item Thị hiếu, kỳ vọng, số lượng người mua
+  \end{itemize}
+\end{itemize}
+\end{warning}
+
+\subsection{Hàm cung (Supply)}
+
+\begin{formula}[Hàm cung và hàm cung ngược]
+\textbf{Hàm cung:}
+\[
+  Q^S = cP + d \quad (c > 0)
+\]
+\textbf{Hàm cung ngược:}
+\[
+  P = \frac{Q^S - d}{c}
+\]
+\textbf{Quy luật cung:} Khi giá tăng $\Rightarrow$ lượng cung tăng (đồng biến).
+\end{formula}
+
+\subsection{Cân bằng thị trường}
+
+\begin{formula}[Điều kiện cân bằng]
+\[
+  Q^D = Q^S \quad \Longrightarrow \quad \text{Giải ra } P_0, Q_0
+\]
+\begin{itemize}
+  \item Nếu $P > P_0$: Dư cung (surplus), giá có xu hướng giảm.
+  \item Nếu $P < P_0$: Dư cầu (shortage), giá có xu hướng tăng.
+\end{itemize}
+\end{formula}
+
+\begin{example}[Ví dụ: Tìm cân bằng thị trường]
+Cho: $Q^D = -2P + 20$ và $Q^S = 3P - 5$.
+
+\textbf{Giải:}
+
+Cân bằng: $Q^D = Q^S$
+\[
+  -2P + 20 = 3P - 5 \implies 5P = 25 \implies P_0 = 5
+\]
+\[
+  Q_0 = -2(5) + 20 = 10
+\]
+$\Rightarrow$ Điểm cân bằng: $(P_0, Q_0) = (5, 10)$.
+\end{example}
+
+\begin{tip}[Phương pháp 3 bước phân tích thay đổi cân bằng]
+\begin{enumerate}
+  \item Xác định sự kiện tác động đến đường cung hay cầu (hay cả hai)?
+  \item Xác định đường đó dịch chuyển sang trái hay phải?
+  \item Dùng đồ thị cung--cầu xác định $P_0$ và $Q_0$ mới thay đổi thế nào.
+\end{enumerate}
+\end{tip}
+
+\begin{tip}[Cách nhận biết dạng bài Chương 2A]
+\begin{itemize}
+  \item \textbf{Dạng 1 -- Tìm cân bằng:} Cho $Q^D$, $Q^S$ $\Rightarrow$ giải hệ $Q^D = Q^S$.
+  \item \textbf{Dạng 2 -- Dư cung/dư cầu:} Cho P cụ thể $\Rightarrow$ tính $Q^D$, $Q^S$, so sánh.
+  \item \textbf{Dạng 3 -- Phân tích dịch chuyển:} Cho sự kiện $\Rightarrow$ áp dụng 3 bước trên.
+  \item \textbf{Dạng 4 -- Hàm cầu ngược/cung ngược:} Đổi biến $Q \leftrightarrow P$.
+\end{itemize}
+\end{tip}
+
+\newpage
+%=============================================================
+\section{CHƯƠNG 2B -- ĐỘ CO GIÃN CỦA CẦU, CUNG}
+%=============================================================
+
+\subsection{Độ co giãn của cầu theo giá ($E_D$)}
+
+\begin{formula}[Công thức tính $E_D$]
+\textbf{Công thức tổng quát:}
+\[
+  E_D = \frac{\%\Delta Q^D}{\%\Delta P} = \frac{\Delta Q^D}{\Delta P} \times \frac{P}{Q^D}
+\]
+\textbf{Co giãn điểm} (khi biết hàm cầu $Q^D = aP + b$):
+\[
+  E_D = a \times \frac{P}{Q^D}
+\]
+\textbf{Co giãn khoảng (trung bình)} -- dùng khi $\Delta P$, $\Delta Q$ lớn:
+\[
+  E_D = \frac{Q_1 - Q_0}{P_1 - P_0} \times \frac{P_1 + P_0}{Q_1 + Q_0}
+\]
+\textbf{Lưu ý:} $E_D < 0$ (vì P và $Q^D$ nghịch biến). Khi so sánh dùng $|E_D|$.
+\end{formula}
+
+\begin{formula}[5 cấp độ co giãn của cầu]
 \begin{center}
-\begin{tabular}{cccccc}
+\begin{tabular}{lll}
 \toprule
-\textbf{Phối hợp} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{E} \\ \midrule
-\textbf{X} & 0 & 50 & 100 & 150 & 200 \\
-\textbf{Y} & 100 & 90 & 75 & 50 & 0 \\
+\textbf{Giá trị} & \textbf{Tên gọi} & \textbf{Đặc điểm đường cầu}\\
+\midrule
+$|E_D| > 1$ & Cầu co giãn nhiều & Đường cầu thoải, KH nhạy cảm giá\\
+$|E_D| < 1$ & Cầu co giãn ít & Đường cầu dốc, KH ít nhạy cảm\\
+$|E_D| = 1$ & Co giãn đơn vị & Đường cầu dốc $45^\circ$\\
+$|E_D| = 0$ & Hoàn toàn không CG & Đường cầu thẳng đứng\\
+$|E_D| = \infty$ & Hoàn toàn co giãn & Đường cầu nằm ngang\\
 \bottomrule
 \end{tabular}
 \end{center}
-Hãy tính chi phí cơ hội biên để sản xuất thêm sản phẩm $X$ qua từng giai đoạn và nhận xét về hình dạng của đường PPF.
+\end{formula}
 
-\paragraph{Lời giải:}
-Chi phí cơ hội để sản xuất thêm $1$ đơn vị sản phẩm $X$ ($OC_X$) được tính theo công thức:
-$$OC_X = \left| \frac{\Delta Y}{\Delta X} \right|$$
+\begin{formula}[Mối quan hệ $E_D$ và Doanh thu (TR = P $\times$ Q)]
 \begin{itemize}
-    \item \textbf{Giai đoạn A $\rightarrow$ B:} $OC_X = \frac{100 - 90}{50 - 0} = \frac{10}{50} = 0.2$ đơn vị Y.
-    \item \textbf{Giai đoạn B $\rightarrow$ C:} $OC_X = \frac{90 - 75}{100 - 50} = \frac{15}{50} = 0.3$ đơn vị Y.
-    \item \textbf{Giai đoạn C $\rightarrow$ D:} $OC_X = \frac{75 - 50}{150 - 100} = \frac{25}{50} = 0.5$ đơn vị Y.
-    \item \textbf{Giai đoạn D $\rightarrow$ E:} $OC_X = \frac{50 - 0}{200 - 150} = \frac{50}{50} = 1.0$ đơn vị Y.
+  \item $|E_D| > 1$: TR \textbf{nghịch biến} với P $\Rightarrow$ muốn tăng TR thì \textbf{giảm giá}.
+  \item $|E_D| < 1$: TR \textbf{đồng biến} với P $\Rightarrow$ muốn tăng TR thì \textbf{tăng giá}.
+  \item $|E_D| = 1$: TR \textbf{không đổi} khi thay đổi P $\Rightarrow$ TR đạt cực đại.
 \end{itemize}
-\textbf{Nhận xét:} Chi phí cơ hội tăng dần ($0.2 \rightarrow 0.3 \rightarrow 0.5 \rightarrow 1.0$) cho thấy đường PPF cong \textbf{lồi hướng ra ngoài} gốc tọa độ.
+\end{formula}
+
+\begin{example}[Ví dụ: Tính $E_D$ và kết luận doanh thu]
+Cửa hàng bánh mì bán 200 cái/ngày ở giá 10.000đ. Tăng giá lên 12.000đ, bán được 150 cái.
+
+\textbf{Giải:}
+\[
+  E_D = \frac{\Delta Q}{\Delta P} \times \frac{P}{Q} = \frac{150-200}{12000-10000} \times \frac{10000}{200} = \frac{-50}{2000} \times 50 = -1{,}25
+\]
+$|E_D| = 1{,}25 > 1$ $\Rightarrow$ cầu co giãn nhiều $\Rightarrow$ tăng giá làm \textbf{giảm doanh thu}.
+
+Kiểm tra: $TR_0 = 200 \times 10000 = 2.000.000$; $TR_1 = 150 \times 12000 = 1.800.000$ (giảm).
+\end{example}
+
+\subsection{Độ co giãn của cầu theo thu nhập ($E_I$)}
+
+\begin{formula}[Công thức $E_I$]
+\[
+  E_I = \frac{\%\Delta Q^D}{\%\Delta I} = \frac{\Delta Q}{\Delta I} \times \frac{I}{Q}
+\]
+\textbf{Phân loại hàng hóa:}
+\begin{itemize}
+  \item $E_I < 0$: Hàng thứ cấp (hàng cấp thấp).
+  \item $0 < E_I < 1$: Hàng thiết yếu.
+  \item $E_I > 1$: Hàng cao cấp (xa xỉ).
+\end{itemize}
+\end{formula}
+
+\subsection{Độ co giãn chéo của cầu ($E_{XY}$)}
+
+\begin{formula}[Công thức $E_{XY}$]
+\[
+  E_{XY} = \frac{\%\Delta Q_X}{\%\Delta P_Y} = \frac{\Delta Q_X}{\Delta P_Y} \times \frac{P_Y}{Q_X}
+\]
+\textbf{Phân loại quan hệ giữa X và Y:}
+\begin{itemize}
+  \item $E_{XY} > 0$: X và Y là hàng \textbf{thay thế}.
+  \item $E_{XY} < 0$: X và Y là hàng \textbf{bổ sung}.
+  \item $E_{XY} = 0$: X và Y \textbf{không liên quan}.
+\end{itemize}
+\end{formula}
+
+\subsection{Độ co giãn của cung ($E_S$)}
+
+\begin{formula}[Công thức $E_S$]
+\[
+  E_S = \frac{\%\Delta Q^S}{\%\Delta P} = \frac{\Delta Q^S}{\Delta P} \times \frac{P}{Q^S}
+\]
+$E_S > 0$ (vì P và $Q^S$ đồng biến).
+
+5 cấp độ: $E_S > 1$ (co giãn nhiều), $E_S < 1$ (co giãn ít), $E_S = 1$ (đơn vị), $E_S = 0$ (hoàn toàn không CG), $E_S = \infty$ (hoàn toàn CG).
+\end{formula}
+
+\begin{tip}[Cách nhận biết dạng bài Chương 2B]
+\begin{itemize}
+  \item \textbf{Dạng 1 -- Tính $E_D$:} Cho bảng số liệu (P, Q) $\Rightarrow$ dùng công thức điểm hoặc trung bình.
+  \item \textbf{Dạng 2 -- $E_D$ và doanh thu:} Tính $|E_D|$ rồi kết luận nên tăng hay giảm giá.
+  \item \textbf{Dạng 3 -- $E_I$ phân loại hàng hóa:} Cho \%$\Delta I$ và \%$\Delta Q$ $\Rightarrow$ tính $E_I$ $\Rightarrow$ xác định loại hàng.
+  \item \textbf{Dạng 4 -- $E_{XY}$ xác định quan hệ:} Cho thay đổi $P_Y$ và $Q_X$ $\Rightarrow$ tính $E_{XY}$ $\Rightarrow$ thay thế/bổ sung.
+  \item \textbf{Dạng 5 -- Tính $E_D$, $E_S$ tại cân bằng:} Tìm $(P_0, Q_0)$ trước, rồi áp dụng co giãn điểm.
+\end{itemize}
+\end{tip}
+
+\begin{example}[Ví dụ: Tính $E_D$, $E_S$ tại cân bằng]
+Cho: $Q^D = -0{,}5P + 200$ và $Q^S = 1{,}5P - 10$.
+
+\textbf{Bước 1:} Tìm cân bằng: $-0{,}5P + 200 = 1{,}5P - 10 \Rightarrow 2P = 210 \Rightarrow P_0 = 105$, $Q_0 = 147{,}5$.
+
+\textbf{Bước 2:} Tính co giãn điểm tại cân bằng:
+\[
+  E_D = a \times \frac{P_0}{Q_0} = (-0{,}5) \times \frac{105}{147{,}5} \approx -0{,}36 \quad \Rightarrow |E_D| < 1 \text{ (cầu co giãn ít)}
+\]
+\[
+  E_S = c \times \frac{P_0}{Q_0} = 1{,}5 \times \frac{105}{147{,}5} \approx 1{,}07 \quad \Rightarrow E_S > 1 \text{ (cung co giãn nhiều)}
+\]
+$|E_D| < 1$ $\Rightarrow$ muốn tăng doanh thu, nhà SX nên \textbf{tăng giá}.
+\end{example}
 
 \newpage
+%=============================================================
+\section{CHƯƠNG 2C -- THẶNG DƯ VÀ CHÍNH SÁCH CHÍNH PHỦ}
+%=============================================================
 
-% =========================================================================
-\section{CHƯƠNG 2A: CẦU, CUNG VÀ CÂN BẰNG THỊ TRƯỜNG}
-% =========================================================================
+\subsection{Thặng dư tiêu dùng và thặng dư sản xuất}
 
-\subsection{Hệ thống công thức cốt lõi}
+\begin{formula}[Thặng dư tiêu dùng (CS) và Thặng dư sản xuất (PS)]
+\[
+  CS = WTP - P = \text{(Giá sẵn lòng trả)} - \text{(Giá thực trả)}
+\]
+\[
+  PS = P - WTS = \text{(Giá thực nhận)} - \text{(Giá sẵn lòng bán)}
+\]
+Với hàm tuyến tính (tam giác):
+\[
+  CS = \frac{1}{2} \times Q_0 \times (P_{\max} - P_0) \qquad PS = \frac{1}{2} \times Q_0 \times (P_0 - P_{\min})
+\]
+\textbf{Tổng phúc lợi xã hội:} $NW = CS + PS$
+\end{formula}
+
+\subsection{Giá trần (Price Ceiling)}
+
+\begin{formula}[Giá trần: $P_{\max} < P_0$]
+Chính phủ quy định giá tối đa $\Rightarrow$ gây ra \textbf{thiếu hụt} ($Q^D > Q^S$).
+\begin{itemize}
+  \item $\Delta CS = C - B$ (có thể tăng hoặc giảm)
+  \item $\Delta PS = -C - D$ (luôn giảm)
+  \item $DWL = -(B + D)$ (tổn thất vô ích)
+\end{itemize}
+Trong đó B, C, D là các diện tích trên đồ thị cung cầu.
+\end{formula}
+
+\subsection{Giá sàn (Price Floor)}
+
+\begin{formula}[Giá sàn: $P_{\min} > P_0$]
+Chính phủ quy định giá tối thiểu $\Rightarrow$ gây ra \textbf{dư thừa} ($Q^S > Q^D$).
+\begin{itemize}
+  \item CS giảm, PS có thể tăng hoặc giảm.
+  \item Luôn có DWL (tổn thất phúc lợi).
+\end{itemize}
+\end{formula}
+
+\subsection{Thuế (Tax)}
+
+\begin{formula}[Phân tích tác động của thuế]
+Thuế $T$ đánh vào mỗi đơn vị hàng hóa $\Rightarrow$ đường cung dịch lên $T$ đơn vị.
+
+\textbf{Cân bằng mới:} $Q^D(P_D) = Q^S(P_S)$ với $P_D = P_S + T$
+
+\textbf{Thay đổi phúc lợi:}
+\begin{itemize}
+  \item $\Delta CS = -(A + B)$
+  \item $\Delta PS = -(C + D)$
+  \item $\Delta G = +(A + C)$ (thu ngân sách = $T \times Q_T$)
+  \item $DWL = -(B + D)$
+\end{itemize}
+
+\textbf{Quy tắc phân chia gánh nặng thuế:}
+\begin{itemize}
+  \item Bên nào có $|E|$ \textbf{nhỏ hơn} (ít co giãn hơn) chịu gánh nặng thuế \textbf{nhiều hơn}.
+  \item Nếu $|E_D| = 0$ hoặc $E_S = \infty$: Người tiêu dùng chịu \textbf{toàn bộ} thuế.
+  \item Nếu $|E_D| = \infty$ hoặc $E_S = 0$: Nhà sản xuất chịu \textbf{toàn bộ} thuế.
+\end{itemize}
+\end{formula}
+
+\begin{example}[Ví dụ: Phân tích thuế]
+Cho: $Q^D = -P + 100$, $Q^S = P - 20$. Thuế $T = 10$/đơn vị đánh vào nhà SX.
+
+\textbf{Bước 1:} Cân bằng ban đầu: $-P + 100 = P - 20 \Rightarrow P_0 = 60, Q_0 = 40$.
+
+\textbf{Bước 2:} Cung mới: $Q^S = (P - T) - 20 = P - 30$.
+
+Cân bằng mới: $-P + 100 = P - 30 \Rightarrow P_D = 65$, $Q_T = 35$, $P_S = 65 - 10 = 55$.
+
+\textbf{Bước 3:} Phân tích:
+\begin{itemize}
+  \item NTD trả thêm: $65 - 60 = 5$ (chịu nửa thuế)
+  \item NSX nhận ít hơn: $60 - 55 = 5$ (chịu nửa thuế)
+  \item Thu ngân sách: $G = 10 \times 35 = 350$
+  \item $DWL = \frac{1}{2} \times 10 \times (40 - 35) = 25$
+\end{itemize}
+\end{example}
+
+\subsection{Trợ cấp (Subsidy)}
+
+\begin{formula}[Phân tích tác động của trợ cấp]
+Trợ cấp $s$ mỗi đơn vị $\Rightarrow$ đường cung dịch xuống $s$ đơn vị.
+\begin{itemize}
+  \item $\Delta CS = +(C + D)$ (tăng)
+  \item $\Delta PS = +(A + B)$ (tăng)
+  \item $\Delta G = -(A + B + C + D + E)$ (chi ngân sách)
+  \item $DWL = -E$ (luôn có tổn thất)
+\end{itemize}
+\end{formula}
+
+\begin{tip}[Cách nhận biết dạng bài Chương 2C]
+\begin{itemize}
+  \item \textbf{Tính CS, PS:} Tìm cân bằng, tính diện tích tam giác trên/dưới giá cân bằng.
+  \item \textbf{Giá trần/sàn:} So sánh giá quy định với $P_0$: nếu $P_{QĐ} < P_0$ $\Rightarrow$ giá trần; nếu $P_{QĐ} > P_0$ $\Rightarrow$ giá sàn. Tính thiếu hụt/dư thừa, $\Delta CS$, $\Delta PS$, DWL.
+  \item \textbf{Thuế:} Dịch cung lên T, tìm $P_D$, $P_S$, $Q_T$. Tính $\Delta CS$, $\Delta PS$, $\Delta G$, DWL.
+  \item \textbf{Trợ cấp:} Dịch cung xuống s, tương tự thuế nhưng ngược chiều.
+\end{itemize}
+\end{tip}
+
+\newpage
+%=============================================================
+\section{CHƯƠNG 3 -- LÝ THUYẾT HÀNH VI NGƯỜI TIÊU DÙNG}
+%=============================================================
+
+\subsection{Tổng hữu dụng (TU) và Hữu dụng biên (MU)}
+
+\begin{formula}[Công thức TU và MU]
+\textbf{Tổng hữu dụng (TU):} Tổng lợi ích NTD nhận được khi tiêu dùng.
+
+\textbf{Hữu dụng biên (MU):} Lợi ích tăng thêm khi tiêu dùng thêm 1 đơn vị.
+\[
+  MU_x = \frac{\Delta U_x}{\Delta x} \quad \text{(hàm rời rạc)} \qquad MU_x = \frac{\partial U}{\partial x} \quad \text{(hàm liên tục)}
+\]
+
+\textbf{Quy luật hữu dụng biên giảm dần:} $MU$ giảm khi tiêu dùng tăng.
+
+\textbf{Quan hệ MU và TU:}
+\begin{itemize}
+  \item $MU > 0 \Rightarrow TU$ tăng
+  \item $MU = 0 \Rightarrow TU$ đạt cực đại (điểm bão hòa)
+  \item $MU < 0 \Rightarrow TU$ giảm
+\end{itemize}
+\end{formula}
+
+\begin{example}[Ví dụ: Tính MU từ hàm TU]
+Cho $U(x) = -\frac{2}{3}x^2 + 95x$. Tính $MU_x$?
+
+\textbf{Giải:} $MU_x = U'(x) = -\frac{4}{3}x + 95$
+
+Cho $U(x,y) = 1{,}25 \cdot x^{1/3} \cdot y^{2/3}$. Tính $MU_x$, $MU_y$?
+
+$MU_x = \frac{\partial U}{\partial x} = 1{,}25 \cdot \frac{1}{3} \cdot x^{-2/3} \cdot y^{2/3}$
+
+$MU_y = \frac{\partial U}{\partial y} = 1{,}25 \cdot \frac{2}{3} \cdot x^{1/3} \cdot y^{-1/3}$
+\end{example}
+
+\subsection{Đường đẳng ích (Indifference Curve)}
+
+\begin{formula}[Đường đẳng ích và tính chất]
+\textbf{Đường đẳng ích:} Tập hợp các rổ hàng cho cùng mức thỏa mãn.
+
+\textbf{Tính chất:}
 \begin{enumerate}
-    \item \textbf{Phương trình cung cầu tuyến tính:}
-    \begin{itemize}
-        \item Hàm cầu: $Q_D = aP + b$ (với $a < 0$) hoặc dạng nghịch đảo $P = a'Q_D + b'$ (với $a' < 0$)
-        \item Hàm cung: $Q_S = cP + d$ (với $c > 0$) hoặc dạng nghịch đảo $P = c'Q_S + d'$ (với $c' > 0$)
-    \end{itemize}
-    \item \textbf{Điểm cân bằng thị trường:}
-    \begin{equation}
-        Q_D = Q_S \quad \text{hoặc} \quad P_D(Q) = P_S(Q) \implies P_0, Q_0
-    \end{equation}
-    \item \textbf{Ba bước phân tích sự thay đổi trạng thái cân bằng:}
-    \begin{itemize}
-        \item \textbf{Bước 1}: Xác định sự kiện làm dịch chuyển đường cung, đường cầu hay cả hai.
-        \item \textbf{Bước 2}: Xác định đường dịch chuyển sang trái hay sang phải.
-        \item \textbf{Bước 3}: Sử dụng đồ thị cung cầu để so sánh giá và lượng cân bằng mới với ban đầu.
-    \end{itemize}
+  \item Dốc xuống từ trái sang phải (nghịch biến).
+  \item Các đường đẳng ích không cắt nhau.
+  \item Mặt lồi hướng về gốc tọa độ (MRS giảm dần).
+  \item Đường đẳng ích xa gốc hơn $\Rightarrow$ mức thỏa dụng cao hơn ($U_3 > U_2 > U_1$).
 \end{enumerate}
+\end{formula}
 
-\subsection{Bài tập mẫu từ Slide}
+\subsection{Tỷ lệ thay thế biên (MRS)}
 
-\paragraph{Ví dụ 1 (Xác định cân bằng và tình trạng thị trường):}
-Cho hàm số cung và cầu: $P = 2Q_S + 20$ và $P = -Q_D + 110$.
-\begin{enumerate}
-    \item Xác định giá và sản lượng cân bằng.
-    \item Nếu giá thị trường hiện tại là $P = 50$, hãy xác định tình trạng thị trường (dư thừa hay thiếu hụt bao nhiêu)?
-\end{enumerate}
+\begin{formula}[Công thức MRS]
+$MRS_{xy}$ = số lượng Y sẵn sàng từ bỏ để có thêm 1 đơn vị X mà lợi ích không đổi.
+\[
+  MRS_{xy} = -\frac{\Delta y}{\Delta x} = \frac{MU_x}{MU_y}
+\]
+\textbf{Quy luật:} $MRS_{xy}$ \textbf{giảm dần} dọc theo đường đẳng ích.
 
-\paragraph{Lời giải:}
-\begin{enumerate}
-    \item \textbf{Cân bằng thị trường:}
-    Tại điểm cân bằng, ta có $P_D = P_S$:
-    $$2Q + 20 = -Q + 110 \implies 3Q = 90 \implies Q_0 = 30$$
-    Giá cân bằng: $P_0 = 2(30) + 20 = 80$.
-    
-    \item \textbf{Tại mức giá $P = 50$:}
-    Thế giá $P = 50$ vào hàm cung và cầu nghịch đảo:
-    \begin{itemize}
-        \item Cung: $50 = 2Q_S + 20 \implies 2Q_S = 30 \implies Q_S = 15$.
-        \item Cầu: $50 = -Q_D + 110 \implies Q_D = 60$.
-    \end{itemize}
-    So sánh: Vì $Q_D = 60 > Q_S = 15 \implies$ Thị trường đang xảy ra tình trạng \textbf{thiếu hụt} (lượng cầu vượt lượng cung) với lượng thiếu hụt là:
-    $$\Delta Q = Q_D - Q_S = 60 - 15 = 45 \text{ đơn vị sản phẩm.}$$
-\end{enumerate}
+\textbf{Trường hợp đặc biệt:}
+\begin{itemize}
+  \item Hàng thay thế hoàn hảo: $MRS = \text{hằng số}$ (đường đẳng ích là đường thẳng).
+  \item Hàng bổ sung hoàn hảo: $MRS = 0$ (đường đẳng ích hình chữ L).
+\end{itemize}
+\end{formula}
 
-\paragraph{Ví dụ 2 (Viết hàm cung cầu từ số liệu):}
-Cho bảng số liệu thị trường:
+\subsection{Đường ngân sách (Budget Line)}
+
+\begin{formula}[Phương trình đường ngân sách]
+\[
+  \boxed{x \cdot P_X + y \cdot P_Y = I}
+\]
+Dạng khác:
+\[
+  y = \frac{I}{P_Y} - \frac{P_X}{P_Y} \cdot x \qquad \text{hoặc} \qquad x = \frac{I}{P_X} - \frac{P_Y}{P_X} \cdot y
+\]
+
+\textbf{Độ dốc} = $-P_X / P_Y$ (phản ánh giá tương đối).
+
+\textbf{Giao trục:} $x_{\max} = I/P_X$, $y_{\max} = I/P_Y$.
+
+\textbf{Dịch chuyển:}
+\begin{itemize}
+  \item Thu nhập $I$ thay đổi $\Rightarrow$ dịch chuyển \textbf{song song}.
+  \item Giá $P_X$ hoặc $P_Y$ thay đổi $\Rightarrow$ đường NS \textbf{xoay} quanh điểm chặn trên trục kia.
+\end{itemize}
+\end{formula}
+
+\begin{example}[Ví dụ: Viết phương trình đường ngân sách]
+NTD có $I = 200$, $P_X = 5$, $P_Y = 4$.
+
+Phương trình: $5x + 4y = 200 \Rightarrow y = 50 - 1{,}25x$
+
+Giao trục: $x_{\max} = 40$, $y_{\max} = 50$.
+\end{example}
+
+\subsection{Sự lựa chọn tối ưu của NTD}
+
+\begin{formula}[Phối hợp tối ưu -- Hệ phương trình]
+Để tối đa hóa hữu dụng, NTD chọn rổ hàng thỏa mãn:
+\[
+  \begin{cases}
+    x \cdot P_X + y \cdot P_Y = I & \text{(1) Ràng buộc ngân sách}\\[6pt]
+    \dfrac{MU_X}{P_X} = \dfrac{MU_Y}{P_Y} & \text{(2) Điều kiện tối ưu (cân bằng biên)}
+  \end{cases}
+\]
+Điều kiện (2) tương đương: $MRS_{xy} = \dfrac{P_X}{P_Y}$ hoặc $\dfrac{MU_X}{MU_Y} = \dfrac{P_X}{P_Y}$
+
+\textbf{Ý nghĩa:} Hữu dụng biên trên mỗi đồng chi tiêu phải bằng nhau cho mọi hàng hóa.
+\end{formula}
+
+\begin{example}[Ví dụ: Bài toán tối ưu NTD]
+Cho $U(x,y) = xy$, $I = 200$, $P_X = 4$, $P_Y = 2$.
+
+\textbf{Giải:}
+
+$MU_x = y$, $MU_y = x$.
+
+Điều kiện tối ưu: $\dfrac{MU_x}{P_X} = \dfrac{MU_y}{P_Y} \Rightarrow \dfrac{y}{4} = \dfrac{x}{2} \Rightarrow 2y = 4x \Rightarrow y = 2x$ \quad (2)
+
+Thay (2) vào (1): $4x + 2(2x) = 200 \Rightarrow 8x = 200 \Rightarrow x = 25$
+
+$y = 2 \times 25 = 50$
+
+$\Rightarrow$ Rổ hàng tối ưu: $(x, y) = (25, 50)$, $U_{\max} = 25 \times 50 = 1250$.
+\end{example}
+
+\begin{example}[Ví dụ: Bài tập vận dụng]
+NTD có sở thích: $TU = (4X - 8) \cdot Y$. Thu nhập $I = 30$ triệu, $P_X = 3$ triệu, $P_Y = 6$ triệu.
+
+a. $MU_X = \frac{\partial TU}{\partial X} = 4Y$, \quad $MU_Y = \frac{\partial TU}{\partial Y} = 4X - 8$.
+
+b. Điều kiện tối ưu: $\dfrac{4Y}{3} = \dfrac{4X - 8}{6} \Rightarrow 24Y = 12X - 24 \Rightarrow 2Y = X - 2 \Rightarrow X = 2Y + 2$
+
+Ràng buộc: $3(2Y + 2) + 6Y = 30 \Rightarrow 6Y + 6 + 6Y = 30 \Rightarrow 12Y = 24 \Rightarrow Y = 2$
+
+$X = 2(2) + 2 = 6$.
+
+$\Rightarrow$ Mua $X = 6$, $Y = 2$.
+\end{example}
+
+\begin{tip}[Cách nhận biết dạng bài Chương 3]
+\begin{itemize}
+  \item \textbf{Dạng 1 -- Tính MU từ bảng số liệu:} Dùng $MU = \Delta U / \Delta x$.
+  \item \textbf{Dạng 2 -- Tính MU từ hàm:} Đạo hàm riêng $MU_x = \partial U / \partial x$.
+  \item \textbf{Dạng 3 -- Tìm MRS:} $MRS_{xy} = MU_x / MU_y$ hoặc $= -\Delta y / \Delta x$.
+  \item \textbf{Dạng 4 -- Viết PT đường ngân sách:} $x \cdot P_X + y \cdot P_Y = I$.
+  \item \textbf{Dạng 5 -- Bài toán tối ưu NTD:} Giải hệ 2 phương trình: ràng buộc NS + điều kiện cân bằng biên. \textbf{Đây là dạng bài quan trọng nhất!}
+\end{itemize}
+\end{tip}
+
+\newpage
+%=============================================================
+\section{CHƯƠNG 4 -- LÝ THUYẾT SẢN XUẤT VÀ CHI PHÍ}
+%=============================================================
+
+\subsection{PHẦN A: LÝ THUYẾT SẢN XUẤT}
+
+\subsubsection{Hàm sản xuất}
+
+\begin{formula}[Hàm sản xuất]
+\textbf{Tổng quát:} $Q = f(X_1, X_2, \ldots, X_n)$
+
+\textbf{Đơn giản (2 yếu tố):} $Q = f(L, K)$
+\begin{itemize}
+  \item $Q$: sản lượng đầu ra
+  \item $L$: lao động, $K$: vốn
+\end{itemize}
+
+\textbf{Ngắn hạn:} $Q = f(L, \bar{K})$ -- ít nhất 1 yếu tố cố định.
+
+\textbf{Dài hạn:} $Q = f(L, K)$ -- tất cả yếu tố biến đổi.
+\end{formula}
+
+\subsubsection{Năng suất trung bình và năng suất biên}
+
+\begin{formula}[AP và MP]
+\textbf{Năng suất trung bình (AP):}
+\[
+  AP_L = \frac{Q}{L} = \frac{TP}{L}
+\]
+\textbf{Năng suất biên (MP):}
+\[
+  MP_L = \frac{\Delta Q}{\Delta L} = \frac{Q_2 - Q_1}{L_2 - L_1}
+\]
+Nếu Q là hàm liên tục: $MP_L = \frac{\partial Q}{\partial L}$
+
+\textbf{Quy luật năng suất biên giảm dần:}
+\begin{itemize}
+  \item $MP > 0 \Rightarrow Q$ tăng
+  \item $MP = 0 \Rightarrow Q$ đạt cực đại
+  \item $MP < 0 \Rightarrow Q$ giảm
+\end{itemize}
+
+\textbf{Quan hệ MP và AP:}
+\begin{itemize}
+  \item $MP > AP \Rightarrow AP$ tăng
+  \item $MP = AP \Rightarrow AP$ đạt cực đại
+  \item $MP < AP \Rightarrow AP$ giảm
+\end{itemize}
+\end{formula}
+
+\begin{example}[Ví dụ: Tính AP và MP]
+Hàm SX: $Q = 2X^2 + 5X + 10$.
+
+$AP_X = \frac{Q}{X} = 2X + 5 + \frac{10}{X}$
+
+$MP_X = Q'_X = 4X + 5$
+\end{example}
+
+\begin{example}[Ví dụ: Tính MP từ bảng]
+Tăng 1 lao động (từ 2 lên 3), sản lượng tăng từ 10 đến 18 áo len.
+
+$MP_3 = \frac{18 - 10}{3 - 2} = \frac{8}{1} = 8$
+
+Đáp án: D. 8
+\end{example}
+
+\subsubsection{Hiệu suất theo quy mô}
+
+\begin{formula}[Hàm Cobb--Douglas và hiệu suất theo quy mô]
+\[
+  \boxed{Q = A \cdot K^\alpha \cdot L^\beta} \qquad (0 < \alpha, \beta < 1)
+\]
+Tăng tất cả đầu vào $\alpha$ lần $\Rightarrow$ sản lượng tăng $\delta$ lần: $\delta Q = f(\alpha K, \alpha L)$
+\begin{itemize}
+  \item $\alpha + \beta > 1$: Năng suất \textbf{tăng dần} theo quy mô (CPSX giảm dần).
+  \item $\alpha + \beta = 1$: Năng suất \textbf{không đổi} theo quy mô.
+  \item $\alpha + \beta < 1$: Năng suất \textbf{giảm dần} theo quy mô (CPSX tăng dần).
+\end{itemize}
+\end{formula}
+
+\subsubsection{Đường đẳng lượng và đẳng phí}
+
+\begin{formula}[Đường đẳng lượng (Isoquant)]
+Tập hợp các kết hợp (K, L) cho cùng mức sản lượng.
+
+\textbf{Tỷ lệ thay thế kỹ thuật biên:}
+\[
+  MRTS = -\frac{\Delta K}{\Delta L} = \frac{MP_L}{MP_K}
+\]
+
+\textbf{Tính chất:} Dốc xuống bên phải, không cắt nhau, lồi về gốc tọa độ.
+
+\textbf{Đặc biệt:}
+\begin{itemize}
+  \item Thay thế hoàn toàn: $Q = aL + bK$, $MRTS = \text{const}$ (đường thẳng).
+  \item Bổ sung hoàn toàn: $Q = \min(L, K)$, $MRTS = 0$ (hình chữ L).
+\end{itemize}
+\end{formula}
+
+\begin{formula}[Đường đẳng phí (Isocost)]
+\[
+  TC = w \cdot L + r \cdot K \quad \Longleftrightarrow \quad K = \frac{TC}{r} - \frac{w}{r} \cdot L
+\]
+$w = P_L$ (giá lao động), $r = P_K$ (giá vốn).
+
+\textbf{Độ dốc} = $-w/r$
+\end{formula}
+
+\begin{formula}[Phối hợp tối ưu yếu tố SX]
+\[
+  \begin{cases}
+    \dfrac{MP_L}{P_L} = \dfrac{MP_K}{P_K} & \text{(Cân bằng biên)}\\[8pt]
+    TC = P_L \cdot L + P_K \cdot K & \text{(Ràng buộc chi phí)}
+  \end{cases}
+\]
+Tương đương: $MRTS = \dfrac{w}{r}$ (đường đẳng lượng tiếp xúc đường đẳng phí).
+\end{formula}
+
+\subsection{PHẦN B: LÝ THUYẾT CHI PHÍ}
+
+\subsubsection{Các loại chi phí và lợi nhuận}
+
+\begin{formula}[Chi phí kế toán vs. Chi phí kinh tế]
+\[
+  \text{Chi phí kinh tế} = \text{Chi phí kế toán (hiện)} + \text{Chi phí ẩn}
+\]
+\[
+  \text{Lợi nhuận kế toán} = \text{Doanh thu} - \text{Chi phí kế toán}
+\]
+\[
+  \text{Lợi nhuận kinh tế} = \text{Doanh thu} - \text{Chi phí kinh tế} = \text{LN kế toán} - \text{Chi phí ẩn}
+\]
+
+\textbf{Chi phí chìm (Sunk cost):} Chi phí đã chi trong quá khứ, không thể thu hồi $\Rightarrow$ không nên quan tâm khi ra quyết định.
+\end{formula}
+
+\subsubsection{Chi phí sản xuất ngắn hạn}
+
+\begin{formula}[Các loại tổng chi phí]
+\begin{align*}
+  TFC &= \text{Tổng chi phí cố định (không đổi theo Q)}\\
+  TVC &= \text{Tổng chi phí biến đổi (đồng biến với Q)}\\
+  TC &= TFC + TVC
+\end{align*}
+\end{formula}
+
+\begin{formula}[Các loại chi phí trung bình]
+\[
+  AFC = \frac{TFC}{Q} \qquad AVC = \frac{TVC}{Q} \qquad AC = \frac{TC}{Q} = AFC + AVC
+\]
+\end{formula}
+
+\begin{formula}[Chi phí biên (MC)]
+\[
+  MC = \frac{\Delta TC}{\Delta Q} = \frac{\Delta TVC}{\Delta Q}
+\]
+Nếu TC là hàm liên tục: $MC = \frac{\partial TC}{\partial Q} = \frac{\partial TVC}{\partial Q} = (TC)' = (TVC)'$
+
+\textbf{Quan hệ MC với MP:}
+\[
+  MC = \frac{P_L}{MP_L} \qquad AVC = \frac{P_L}{AP_L}
+\]
+\begin{itemize}
+  \item $MP_L$ tăng $\Rightarrow MC$ giảm; $MP_L$ giảm $\Rightarrow MC$ tăng.
+  \item $MP_L$ cực đại $\Rightarrow MC$ cực tiểu.
+  \item $AP_L$ cực đại $\Rightarrow AVC$ cực tiểu.
+\end{itemize}
+\end{formula}
+
+\begin{formula}[Mối quan hệ MC, AC, AVC]
+\begin{itemize}
+  \item $MC < AC \Rightarrow AC$ giảm \quad;\quad $MC = AC \Rightarrow AC$ đạt cực tiểu \quad;\quad $MC > AC \Rightarrow AC$ tăng
+  \item $MC < AVC \Rightarrow AVC$ giảm \quad;\quad $MC = AVC \Rightarrow AVC$ đạt cực tiểu \quad;\quad $MC > AVC \Rightarrow AVC$ tăng
+\end{itemize}
+\end{formula}
+
+\begin{example}[Ví dụ: Xác định các hàm chi phí từ TC]
+Cho $TC = 2Q^3 - 20Q^2 + 100Q + 2500$.
+
+$TFC = 2500$ (hạng tử không chứa Q)
+
+$TVC = 2Q^3 - 20Q^2 + 100Q$
+
+$AFC = \dfrac{2500}{Q}$
+
+$AVC = \dfrac{TVC}{Q} = 2Q^2 - 20Q + 100$
+
+$AC = \dfrac{TC}{Q} = 2Q^2 - 20Q + 100 + \dfrac{2500}{Q}$
+
+$MC = (TC)' = 6Q^2 - 40Q + 100$
+\end{example}
+
+\begin{example}[Ví dụ: Xác định TC từ MC]
+Cho $MC = 3Q^2 + 5Q + 80$ và $TFC = 2000$.
+
+$TVC = \int MC \, dQ = Q^3 + \frac{5}{2}Q^2 + 80Q$ (tích phân MC, hằng số = 0 vì $TVC(0) = 0$)
+
+$TC = TVC + TFC = Q^3 + \frac{5}{2}Q^2 + 80Q + 2000$
+
+$AVC = Q^2 + \frac{5}{2}Q + 80$
+
+$AFC = \dfrac{2000}{Q}$
+
+$AC = Q^2 + \frac{5}{2}Q + 80 + \dfrac{2000}{Q}$
+\end{example}
+
+\begin{example}[Ví dụ: Điền bảng chi phí]
+Cho bảng: $Q = 0, 10, 20, 30, 40, 50$ và $TC = 200, 340, 490, 580, 790, 1000$.
+
 \begin{center}
-\begin{tabular}{ccc}
+\begin{tabular}{ccccccc}
 \toprule
-\textbf{P} & \textbf{$Q_D$} & \textbf{$Q_S$} \\ \midrule
-10 & 200 & 40 \\
-20 & 180 & 80 \\
-30 & 160 & 120 \\
+$Q$ & $TC$ & $TFC$ & $TVC$ & $AC$ & $AVC$ & $MC$\\
+\midrule
+0 & 200 & 200 & 0 & -- & -- & --\\
+10 & 340 & 200 & 140 & 34 & 14 & 14\\
+20 & 490 & 200 & 290 & 24,5 & 14,5 & 15\\
+30 & 580 & 200 & 380 & 19,3 & 12,7 & 9\\
+40 & 790 & 200 & 590 & 19,75 & 14,75 & 21\\
+50 & 1000 & 200 & 800 & 20 & 16 & 21\\
 \bottomrule
 \end{tabular}
 \end{center}
-Hãy viết phương trình cung cầu và tìm điểm cân bằng.
 
-\paragraph{Lời giải:}
+\textbf{Cách tính:} $TFC = TC(Q=0) = 200$. $TVC = TC - TFC$. $MC = \Delta TC / \Delta Q$.
+\end{example}
+
+\subsubsection{Chi phí sản xuất dài hạn}
+
+\begin{formula}[Chi phí dài hạn]
+Trong dài hạn, \textbf{không có chi phí cố định} (tất cả đầu vào biến đổi).
+\[
+  LAC = \frac{LTC}{Q} \qquad LMC = \frac{\Delta LTC}{\Delta Q}
+\]
+\textbf{Đường LAC} là đường bao (envelope) của các đường SAC.
+
+\textbf{Mối quan hệ LMC và LAC:}
 \begin{itemize}
-    \item \textbf{Tìm hàm cầu:} Có dạng $Q_D = aP + b$. Thế số liệu vào hệ phương trình:
-    \begin{equation*}
-        \begin{cases}
-            10a + b = 200 \\
-            20a + b = 180
-        \end{cases}
-        \implies a = -2, b = 220 \implies Q_D = -2P + 220
-    \end{equation*}
-    \item \textbf{Tìm hàm cung:} Có dạng $Q_S = cP + d$. Thế số liệu vào hệ phương trình:
-    \begin{equation*}
-        \begin{cases}
-            10c + d = 40 \\
-            20c + d = 80
-        \end{cases}
-        \implies c = 4, d = 0 \implies Q_S = 4P
-    \end{equation*}
-    \item \textbf{Điểm cân bằng}: $Q_D = Q_S \implies -2P + 220 = 4P \implies 6P = 220 \implies P_0 \approx 36.67$, $Q_0 \approx 146.67$.
+  \item $LMC < LAC \Rightarrow LAC$ giảm (tính kinh tế theo quy mô)
+  \item $LMC = LAC \Rightarrow LAC$ cực tiểu
+  \item $LMC > LAC \Rightarrow LAC$ tăng (phi kinh tế theo quy mô)
 \end{itemize}
 
-\newpage
+\textbf{Quy mô SX tối ưu:} Tại $Q^*$ có $SAC_{\min} = SMC = LAC_{\min} = LMC$.
+\end{formula}
 
-% =========================================================================
-\section{CHƯƠNG 2B: ĐỘ CO GIÃN CỦA CẦU, CUNG VÀ ỨNG DỤNG}
-% =========================================================================
-
-\subsection{Hệ thống công thức cốt lõi}
-\begin{enumerate}
-    \item \textbf{Co giãn cầu theo giá ($E_D$):}
-    \begin{itemize}
-        \item \textit{Điểm}: $E_D = Q'_D(P) \times \frac{P}{Q}$
-        \item \textit{Khoảng}: $E_D = \frac{Q_2 - Q_1}{P_2 - P_1} \times \frac{P_1 + P_2}{Q_1 + Q_2}$
-    \end{itemize}
-    \item \textbf{Quan hệ giữa co giãn và doanh thu ($TR = P \times Q$):}
-    \begin{itemize}
-        \item $|E_D| > 1$ (Co giãn nhiều): $P$ và $TR$ biến thiên ngược chiều $\implies$ Nên \textbf{giảm giá} để tăng doanh thu.
-        \item $|E_D| < 1$ (Co giãn ít): $P$ và $TR$ biến thiên đồng chiều $\implies$ Nên \textbf{tăng giá} để tăng doanh thu.
-    \end{itemize}
-    \item \textbf{Co giãn chéo ($E_{XY}$):} $E_{XY} > 0$ (Thay thế), $E_{XY} < 0$ (Bổ sung).
-    \item \textbf{Co giãn thu nhập ($E_I$):} $E_I < 0$ (Thứ cấp), $0 < E_I < 1$ (Thiết yếu), $E_I > 1$ (Xa xỉ).
-\end{enumerate}
-
-\subsection{Bài tập mẫu từ Slide}
-
-\paragraph{Ví dụ 1 (Đánh giá co giãn chéo):}
+\begin{tip}[Cách nhận biết dạng bài Chương 4]
 \begin{itemize}
-    \item \textbf{Tình huống 1}: Khi giá hàng hóa $X$ giảm $10\%$, lượng cầu hàng hóa $Y$ tăng $20\%$.
-    \\ $\Rightarrow E_{XY} = \frac{20\%}{-10\%} = -2 < 0 \implies X$ và $Y$ là hai hàng hóa \textbf{bổ sung}.
-    \item \textbf{Tình huống 2}: Giá bột giặt Omo tăng $15\%$ làm lượng cầu bột giặt Tide tăng $10\%$.
-    \\ $\Rightarrow E_{XY} = \frac{10\%}{15\%} = 0.67 > 0 \implies$ Omo và Tide là hai hàng hóa \textbf{thay thế}.
+  \item \textbf{Dạng 1 -- Điền bảng số liệu SX:} Cho L, Q $\Rightarrow$ tính $AP_L = Q/L$, $MP_L = \Delta Q / \Delta L$.
+  \item \textbf{Dạng 2 -- Tính AP, MP từ hàm SX:} $AP = Q/L$, $MP = Q'_L$.
+  \item \textbf{Dạng 3 -- Hiệu suất theo quy mô:} Hàm Cobb-Douglas: kiểm tra $\alpha + \beta$ so với 1.
+  \item \textbf{Dạng 4 -- Điền bảng chi phí:} Từ TC hoặc 1 cột đã biết $\Rightarrow$ tính TFC, TVC, AC, AVC, AFC, MC.
+  \item \textbf{Dạng 5 -- Tìm các hàm chi phí từ TC:} Phân tích TC thành TFC + TVC, đạo hàm để tìm MC.
+  \item \textbf{Dạng 6 -- Tìm TC từ MC:} Tích phân MC để được TVC, cộng TFC.
+  \item \textbf{Dạng 7 -- Quan hệ MC-AC:} MC $\lessgtr$ AC để kết luận AC đang tăng/giảm/cực tiểu.
+  \item \textbf{Dạng 8 -- Chi phí cơ hội / LN kinh tế:} CP kinh tế = CP hiện + CP ẩn. LN kinh tế = DT $-$ CP kinh tế.
 \end{itemize}
-
-\paragraph{Ví dụ 2 (Tính toán co giãn và tác động doanh thu):}
-Cho hàm số: $Q_D = -0.5P + 200$ và $Q_S = 1.5P - 10$. Tính độ co giãn của cung và cầu tại điểm cân bằng ($P_0=105, Q_0=147.5$). Hãy cho biết để tăng doanh thu, nhà sản xuất nên tăng hay giảm giá?
-
-\paragraph{Lời giải:}
-\begin{itemize}
-    \item Độ co giãn cầu theo giá tại cân bằng:
-    $$E_D = Q'_D(P) \times \frac{P_0}{Q_0} = -0.5 \times \frac{105}{147.5} \approx -0.356$$
-    \item Độ co giãn cung theo giá tại cân bằng:
-    $$E_S = Q'_S(P) \times \frac{P_0}{Q_0} = 1.5 \times \frac{105}{147.5} \approx 1.068$$
-    \item \textbf{Tăng doanh thu}: Vì $|E_D| \approx 0.356 < 1$ (cầu kém co giãn), doanh nghiệp muốn tăng doanh thu thì nên \textbf{tăng giá}.
-\end{itemize}
+\end{tip}
 
 \newpage
+%=============================================================
+\section{BẢNG TỔNG HỢP CÔNG THỨC NHANH}
+%=============================================================
 
-% =========================================================================
-\section{CHƯƠNG 2C: THẶNG DƯ VÀ CHÍNH SÁCH CỦA CHÍNH PHỦ}
-% =========================================================================
-
-\subsection{Hệ thống lý thuyết và công thức cốt lõi}
-\begin{enumerate}
-    \item \textbf{Thặng dư tiêu dùng (CS) và sản xuất (PS):}
-    \begin{itemize}
-        \item $CS$: phần diện tích dưới đường cầu, trên đường giá giao dịch.
-        \item $PS$: phần diện tích trên đường cung, dưới đường giá giao dịch.
-    \end{itemize}
-    \item \textbf{Giá trần ($P_{\text{max}} < P_0$):} Gây ra thiếu hụt hàng hóa: $\Delta Q = Q_D - Q_S$.
-    \item \textbf{Giá sàn ($P_{\text{min}} > P_0$):} Gây ra dư thừa hàng hóa: $\Delta Q = Q_S - Q_D$.
-    \item \textbf{Chính sách Thuế ($t$):}
-    \begin{equation}
-        P_D - P_S = t \quad \text{và} \quad DWL = \frac{1}{2} \times t \times (Q_0 - Q_T)
-    \end{equation}
-    \item \textbf{Nguyên lý gánh nặng thuế:} Bên nào co giãn ít hơn sẽ chịu thuế nhiều hơn:
-    $$\frac{t_{\text{tiêu dùng}}}{t_{\text{sản xuất}}} = \frac{E_S}{|E_D|}$$
-\end{enumerate}
-
-\subsection{Bài tập mẫu từ Slide}
-
-\paragraph{Ví dụ 1 (Tổn thất vô ích do đánh thuế):}
-Cho thị trường có hàm cung cầu: $P = -1.5Q_D + 160$ và $P = 0.5Q_S + 20$.
-Chính phủ đánh thuế $t = 10$/sản phẩm lên người bán.
-\begin{enumerate}
-    \item Xác định giá và lượng cân bằng ban đầu.
-    \item Xác định giá người mua trả ($P_D$), người bán nhận ($P_S$) và sản lượng mới ($Q_T$).
-    \item Tính tổn thất vô ích ($DWL$).
-\end{enumerate}
-
-\paragraph{Lời giải:}
-\begin{enumerate}
-    \item \textbf{Cân bằng ban đầu:}
-    $$-1.5Q + 160 = 0.5Q + 20 \implies 2Q = 140 \implies Q_0 = 70 \implies P_0 = 55$$
-    \item \textbf{Khi có thuế $t = 10$:}
-    $$P_D = P_S + 10 \implies -1.5Q_T + 160 = (0.5Q_T + 20) + 10$$
-    $$\implies 2Q_T = 130 \implies Q_T = 65$$
-    \begin{itemize}
-        \item Giá người mua trả: $P_D = -1.5(65) + 160 = 62.5$.
-        \item Giá người bán nhận: $P_S = 62.5 - 10 = 52.5$.
-    \end{itemize}
-    \item \textbf{Tổn thất vô ích (DWL):}
-    $$DWL = \frac{1}{2} \times t \times (Q_0 - Q_T) = \frac{1}{2} \times 10 \times (70 - 65) = 25.$$
-\end{enumerate}
-
-\newpage
-
-% =========================================================================
-\section{CHƯƠNG 3: LÝ THUYẾT HÀNH VI NGƯỜI TIÊU DÙNG}
-% =========================================================================
-
-\subsection{Hệ thống lý thuyết và công thức cốt lõi}
-\begin{enumerate}
-    \item \textbf{Đạo hàm tính hữu dụng biên:} $MU_X = \frac{\partial U}{\partial X}$, $MU_Y = \frac{\partial U}{\partial Y}$.
-    \item \textbf{Hữu dụng biên rời rạc:} $MU = \frac{\Delta U}{\Delta X}$.
-    \item \textbf{Tối ưu rổ hàng tiêu dùng:}
-    \begin{equation}
-        \begin{cases}
-            \frac{MU_X}{P_X} = \frac{MU_Y}{P_Y} \quad \text{hay} \quad MRS_{XY} = \frac{P_X}{P_Y} \\
-            X \cdot P_X + Y \cdot P_Y = I
-        \end{cases}
-    \end{equation}
-\end{enumerate}
-
-\subsection{Bài tập mẫu từ Slide}
-
-\paragraph{Ví dụ 1 (Xác định MU từ U rời rạc):}
-Cho tổng hữu dụng của $y$ như sau. Hãy tính hữu dụng biên của $y$ ($MU_y$):
 \begin{center}
-\begin{tabular}{cccccc}
-\toprule
-\textbf{$y$} & 0 & 2 & 5 & 8 & 10 \\ \midrule
-\textbf{$U_y$} & 0 & 20 & 44 & 62 & 70 \\ \bottomrule
+\renewcommand{\arraystretch}{1.6}
+\begin{tabular}{|p{4cm}|p{5.5cm}|p{5.5cm}|}
+\hline
+\textbf{Chủ đề} & \textbf{Công thức} & \textbf{Ghi chú}\\
+\hline
+\multicolumn{3}{|c|}{\textbf{CHƯƠNG 2A: CẦU -- CUNG -- CÂN BẰNG}}\\
+\hline
+Cân bằng thị trường & $Q^D = Q^S$ & Giải tìm $P_0, Q_0$\\
+\hline
+\multicolumn{3}{|c|}{\textbf{CHƯƠNG 2B: ĐỘ CO GIÃN}}\\
+\hline
+$E_D$ (điểm) & $E_D = a \times P/Q^D$ & $a$ = hệ số P trong hàm cầu\\
+\hline
+$E_D$ (khoảng) & $\frac{Q_1 - Q_0}{P_1 - P_0} \times \frac{P_1 + P_0}{Q_1 + Q_0}$ & Dùng khi $\Delta$ lớn\\
+\hline
+$E_I$ & $\frac{\Delta Q}{\Delta I} \times \frac{I}{Q}$ & $<0$: thứ cấp; $0\!-\!1$: thiết yếu; $>1$: xa xỉ\\
+\hline
+$E_{XY}$ & $\frac{\Delta Q_X}{\Delta P_Y} \times \frac{P_Y}{Q_X}$ & $>0$: thay thế; $<0$: bổ sung\\
+\hline
+$E_S$ & $\frac{\Delta Q^S}{\Delta P} \times \frac{P}{Q^S}$ & Luôn dương\\
+\hline
+\multicolumn{3}{|c|}{\textbf{CHƯƠNG 2C: THẶNG DƯ \& CHÍNH SÁCH}}\\
+\hline
+CS, PS & Diện tích tam giác & $CS = \frac{1}{2} Q_0 (P_{\max} - P_0)$\\
+\hline
+DWL (thuế/trợ cấp) & $\frac{1}{2} \times T \times \Delta Q$ & $\Delta Q = Q_0 - Q_T$\\
+\hline
+Thu NS (thuế) & $G = T \times Q_T$ & \\
+\hline
+\multicolumn{3}{|c|}{\textbf{CHƯƠNG 3: HÀNH VI NTD}}\\
+\hline
+$MU_x$ & $\partial U / \partial x$ & Hữu dụng biên\\
+\hline
+$MRS_{xy}$ & $MU_x / MU_y = -\Delta y / \Delta x$ & \\
+\hline
+Đường ngân sách & $xP_X + yP_Y = I$ & Độ dốc $= -P_X/P_Y$\\
+\hline
+Tối ưu NTD & $MU_X/P_X = MU_Y/P_Y$ & Kết hợp với ràng buộc NS\\
+\hline
+\multicolumn{3}{|c|}{\textbf{CHƯƠNG 4: SẢN XUẤT \& CHI PHÍ}}\\
+\hline
+$AP_L, MP_L$ & $Q/L$; \quad $\Delta Q / \Delta L$ & \\
+\hline
+Cobb-Douglas & $Q = AK^\alpha L^\beta$ & $\alpha+\beta \gtrless 1$\\
+\hline
+$MRTS$ & $MP_L / MP_K$ & Độ dốc đường đẳng lượng\\
+\hline
+Tối ưu SX & $MP_L/P_L = MP_K/P_K$ & Kết hợp ràng buộc TC\\
+\hline
+$TC, TFC, TVC$ & $TC = TFC + TVC$ & $TFC = TC(Q=0)$\\
+\hline
+$AC, AFC, AVC$ & $TC/Q$; $TFC/Q$; $TVC/Q$ & $AC = AFC + AVC$\\
+\hline
+$MC$ & $\Delta TC / \Delta Q = (TC)'$ & $MC = P_L / MP_L$\\
+\hline
+LN kế toán & DT $-$ CP kế toán & \\
+\hline
+LN kinh tế & DT $-$ CP kinh tế & $= $ LN kế toán $-$ CP ẩn\\
+\hline
 \end{tabular}
 \end{center}
-\paragraph{Lời giải:}
-Áp dụng công thức hữu dụng biên rời rạc: $MU_y = \frac{U_{y2} - U_{y1}}{y_2 - y_1}$
-\begin{itemize}
-    \item Từ $y = 0 \to 2$: $MU_y = \frac{20 - 0}{2 - 0} = 10$.
-    \item Từ $y = 2 \to 5$: $MU_y = \frac{44 - 20}{5 - 2} = 8$.
-    \item Từ $y = 5 \to 8$: $MU_y = \frac{62 - 44}{8 - 5} = 6$.
-    \item Từ $y = 8 \to 10$: $MU_y = \frac{70 - 62}{10 - 8} = 4$.
-\end{itemize}
-
-\paragraph{Ví dụ 2 (Bài tập rổ hàng tối ưu hệ số):}
-Một người tiêu dùng có tổng hữu dụng $TU = (4X-8)Y$. Thu nhập $I = 30$, giá $P_X = 3, P_Y = 6$. Tìm lượng $X$ và $Y$ tối ưu.
-\paragraph{Lời giải:}
-\begin{enumerate}
-    \item Đạo hàm riêng tính hữu dụng biên:
-    $$MU_X = \frac{\partial TU}{\partial X} = 4Y, \quad MU_Y = \frac{\partial TU}{\partial Y} = 4X - 8$$
-    \item Điều kiện tối ưu:
-    $$\frac{MU_X}{P_X} = \frac{MU_Y}{P_Y} \implies \frac{4Y}{3} = \frac{4X-8}{6} \implies 8Y = 4X - 8 \implies X = 2Y + 2$$
-    \item Điều kiện ngân sách:
-    $$3X + 6Y = 30 \implies X + 2Y = 10$$
-    \item Thế (1) vào (2):
-    $$(2Y + 2) + 2Y = 10 \implies 4Y = 8 \implies Y^* = 2 \implies X^* = 6.$$
-\end{enumerate}
-
-\newpage
-
-% =========================================================================
-\section{CHƯƠNG 4: LÝ THUYẾT SẢN XUẤT VÀ CHI PHÍ}
-% =========================================================================
-
-\subsection{Hệ thống công thức và Đạo hàm}
-\begin{enumerate}
-    \item \textbf{Năng suất biên và trung bình ngắn hạn:}
-    $$AP_L = \frac{Q}{L}, \quad MP_L = \frac{dQ}{dL} = Q'(L)$$
-    \item \textbf{Chi phí ngắn hạn ngắn liên tục:}
-    \begin{equation}
-        MC = \frac{dTC}{dQ} = (TC)' \quad \text{và} \quad MC = AVC \implies AVC_{\text{min}}
-    \end{equation}
-    \item \textbf{Quan hệ biên - trung bình qua Phép ẩn dụ tuổi trung bình của lớp học:}
-    Thêm phần tử mới có giá trị cận biên lớn hơn trung bình hiện tại sẽ làm trung bình tăng lên, và ngược lại.
-\end{enumerate}
-
-\subsection{Bài tập mẫu từ Slide}
-
-\paragraph{Ví dụ 1 (Tính toán bảng chi phí ngắn hạn):}
-Cho số liệu chi phí ngắn hạn điền vào ô trống (Ví dụ 6 bài giảng):
-\begin{center}
-\begin{tabular}{cccccccc}
-\toprule
-\textbf{Q} & \textbf{TC} & \textbf{TFC} & \textbf{TVC} & \textbf{AC (ATC)} & \textbf{AVC} & \textbf{AFC} & \textbf{MC} \\ \midrule
-\textbf{0} & 100 & 100 & 0 & - & - & - & - \\
-\textbf{10} & 200 & 100 & 100 & 20 & 10 & 10 & 10 \\
-\textbf{20} & 280 & 100 & 180 & 14 & 9 & 5 & 8 \\
-\textbf{30} & 450 & 100 & 350 & 15 & 11.6 & 3.4 & 17 \\
-\textbf{40} & 660 & 100 & 560 & 16.5 & 14 & 2.5 & 21 \\
-\textbf{50} & ? & 100 & ? & ? & ? & ? & 25 \\
-\bottomrule
-\end{tabular}
-\end{center}
-Hãy điền đầy đủ dòng cuối cùng tại $Q = 50$.
-
-\paragraph{Lời giải:}
-\begin{itemize}
-    \item Tính $TC_{50}$: $\Delta TC = MC \times \Delta Q \implies TC_{50} = TC_{40} + 25 \times (50 - 40) = 660 + 250 = 910$.
-    \item $TVC_{50} = TC_{50} - TFC = 910 - 100 = 810$.
-    \item $AC_{50} = 910 / 50 = 18.2$.
-    \item $AVC_{50} = 810 / 50 = 16.2$.
-    \item $AFC_{50} = 100 / 50 = 2.0$.
-\end{itemize}
-
-\paragraph{Ví dụ 2 (Hàm số chi phí liên tục):}
-Cho hàm tổng chi phí: $TC = 2Q^3 - 20Q^2 + 100Q + 2500$. Xác định các hàm chi phí còn lại.
-\paragraph{Lời giải:}
-\begin{itemize}
-    \item $TFC = 2500$, $TVC = 2Q^3 - 20Q^2 + 100Q$.
-    \item $AVC = \frac{TVC}{Q} = 2Q^2 - 20Q + 100$.
-    \item $ATC = \frac{TC}{Q} = 2Q^2 - 20Q + 100 + \frac{2500}{Q}$.
-    \item $MC = (TC)' = 6Q^2 - 40Q + 100$.
-\end{itemize}
 
 \end{document}
