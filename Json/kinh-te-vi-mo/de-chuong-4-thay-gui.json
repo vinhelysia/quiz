@@ -1,0 +1,524 @@
+{
+  "chapter_id": "de-chuong-4-thay-gui",
+  "title": "Đề Chương 4 (Thầy gửi) - Kinh Tế Vi Mô",
+  "source_file": "De chuong 4 - thay gui",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "dc4-001",
+      "topic": "Khái niệm ngắn hạn",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Trong lý thuyết sản xuất, \"Ngắn hạn\" (Short run) được định nghĩa là khoảng thời gian:",
+      "options": {
+        "A": "Dưới 1 năm.",
+        "B": "Có ít nhất một yếu tố sản xuất (đầu vào) không thay đổi.",
+        "C": "Đủ dài để tất cả các yếu tố sản xuất thay đổi.",
+        "D": "Doanh nghiệp có thể thay đổi quy mô sản xuất dễ dàng."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong kinh tế học, ngắn hạn không nhất thiết là dưới 1 năm. Ngắn hạn là khoảng thời gian mà doanh nghiệp có ít nhất một yếu tố đầu vào cố định, ví dụ nhà xưởng, máy móc hoặc quy mô sản xuất."
+    },
+    {
+      "id": "dc4-002",
+      "topic": "Năng suất biên lao động",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Công thức nào sau đây dùng để tính năng suất biên của lao động ($MP_L$)?",
+      "options": {
+        "A": "$MP_L = Q / L$",
+        "B": "$MP_L = TC / Q$",
+        "C": "$MP_L = \\Delta Q / \\Delta L$",
+        "D": "$MP_L = \\Delta TC / \\Delta Q$"
+      },
+      "correct_answer": "C",
+      "explanation": "Năng suất biên của lao động cho biết sản lượng thay đổi thêm bao nhiêu khi sử dụng thêm một đơn vị lao động.\n\nCông thức:\n\n$$MP_L = \\frac{\\Delta Q}{\\Delta L}$$"
+    },
+    {
+      "id": "dc4-003",
+      "topic": "Quan hệ năng suất biên và tổng sản lượng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Theo quy luật năng suất biên giảm dần, khi năng suất biên ($MP$) mang giá trị dương ($MP > 0$) thì tổng sản lượng ($TP$) sẽ:",
+      "options": {
+        "A": "Giảm dần.",
+        "B": "Đạt cực đại.",
+        "C": "Không đổi.",
+        "D": "Tăng dần."
+      },
+      "correct_answer": "D",
+      "explanation": "Khi $MP > 0$, mỗi đơn vị đầu vào tăng thêm vẫn làm tổng sản lượng tăng thêm. Vì vậy $TP$ tăng dần. $TP$ chỉ đạt cực đại khi $MP = 0$."
+    },
+    {
+      "id": "dc4-004",
+      "topic": "Đường đẳng lượng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đường đẳng lượng là tập hợp những kết hợp khác nhau của các yếu tố đầu vào ($K$ và $L$) để tạo ra:",
+      "options": {
+        "A": "Cùng một mức chi phí.",
+        "B": "Cùng một mức lợi nhuận.",
+        "C": "Cùng một mức sản lượng.",
+        "D": "Các mức sản lượng khác nhau."
+      },
+      "correct_answer": "C",
+      "explanation": "Đường đẳng lượng biểu diễn các phối hợp khác nhau giữa vốn $K$ và lao động $L$ nhưng cùng tạo ra một mức sản lượng nhất định."
+    },
+    {
+      "id": "dc4-005",
+      "topic": "Chi phí cơ hội",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Chi phí cơ hội bao gồm:",
+      "options": {
+        "A": "Chỉ chi phí hiện, chi phí biểu hiện.",
+        "B": "Chỉ chi phí kế toán.",
+        "C": "Chi phí hiện và chi phí ẩn.",
+        "D": "Chỉ chi phí chìm."
+      },
+      "correct_answer": "C",
+      "explanation": "Chi phí cơ hội bao gồm cả chi phí hiện và chi phí ẩn. Chi phí hiện là khoản chi trả thực tế bằng tiền. Chi phí ẩn là giá trị cơ hội bị bỏ lỡ nhưng không thể hiện trực tiếp bằng khoản chi tiền."
+    },
+    {
+      "id": "dc4-006",
+      "topic": "Chi phí cố định",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Chi phí cố định (Fixed Cost - $FC$) là loại chi phí:",
+      "options": {
+        "A": "Tăng khi sản lượng tăng.",
+        "B": "Không thay đổi khi sản lượng thay đổi.",
+        "C": "Luôn bằng 0 trong ngắn hạn.",
+        "D": "Chỉ xuất hiện trong dài hạn."
+      },
+      "correct_answer": "B",
+      "explanation": "Chi phí cố định là chi phí không thay đổi theo sản lượng trong ngắn hạn. Ví dụ: tiền thuê mặt bằng, khấu hao máy móc, chi phí quản lý cố định."
+    },
+    {
+      "id": "dc4-007",
+      "topic": "Lợi nhuận kinh tế",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Lợi nhuận kinh tế được tính bằng công thức nào?",
+      "options": {
+        "A": "Doanh thu - Chi phí kế toán.",
+        "B": "Doanh thu - Chi phí hiện.",
+        "C": "Doanh thu - Chi phí kinh tế.",
+        "D": "Lợi nhuận kế toán + Chi phí ẩn."
+      },
+      "correct_answer": "C",
+      "explanation": "Lợi nhuận kinh tế được tính bằng doanh thu trừ toàn bộ chi phí kinh tế, gồm cả chi phí hiện và chi phí ẩn.\n\nCông thức:\n\n$$\\text{Lợi nhuận kinh tế} = \\text{Doanh thu} - \\text{Chi phí kinh tế}$$"
+    },
+    {
+      "id": "dc4-008",
+      "topic": "Chi phí chìm",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Các chi phí đã chi ra trong quá khứ, không thể thu hồi và không nên quan tâm tới khi ra quyết định được gọi là:",
+      "options": {
+        "A": "Chi phí cơ hội.",
+        "B": "Chi phí chìm (sunk cost).",
+        "C": "Chi phí biến đổi.",
+        "D": "Chi phí biên."
+      },
+      "correct_answer": "B",
+      "explanation": "Chi phí chìm là chi phí đã phát sinh trong quá khứ và không thể thu hồi. Khi ra quyết định kinh tế, chi phí chìm không nên ảnh hưởng đến lựa chọn hiện tại."
+    },
+    {
+      "id": "dc4-009",
+      "topic": "Độ dốc đường đẳng phí",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Độ dốc của đường đẳng phí phản ánh:",
+      "options": {
+        "A": "Số âm của tỷ giá hai yếu tố sản xuất ($-w/r$).",
+        "B": "Năng suất biên của lao động.",
+        "C": "Tỷ lệ thay thế kỹ thuật biên (MRTS).",
+        "D": "Năng suất trung bình của vốn."
+      },
+      "correct_answer": "A",
+      "explanation": "Đường đẳng phí biểu diễn các kết hợp đầu vào có cùng mức chi phí. Nếu $w$ là giá lao động và $r$ là giá vốn, độ dốc của đường đẳng phí là:\n\n$$\\text{Độ dốc} = -\\frac{w}{r}$$"
+    },
+    {
+      "id": "dc4-010",
+      "topic": "Khái niệm dài hạn",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Trong dài hạn, đặc điểm nào sau đây về chi phí là đúng?",
+      "options": {
+        "A": "Có chi phí cố định.",
+        "B": "Tất cả các đầu vào đều biến đổi, không có chi phí cố định.",
+        "C": "Chi phí biến đổi luôn bằng 0.",
+        "D": "Đường tổng chi phí luôn là một đường thẳng."
+      },
+      "correct_answer": "B",
+      "explanation": "Trong dài hạn, doanh nghiệp có đủ thời gian để thay đổi tất cả các yếu tố đầu vào. Vì vậy không còn chi phí cố định theo nghĩa ngắn hạn; mọi chi phí đều có thể thay đổi."
+    },
+    {
+      "id": "dc4-011",
+      "topic": "Quan hệ giữa năng suất biên và năng suất trung bình",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Nhìn vào mối quan hệ giữa năng suất biên ($MP$) và năng suất trung bình ($AP$), khi $MP = AP$ thì:",
+      "options": {
+        "A": "AP đang tăng dần.",
+        "B": "AP đang giảm dần.",
+        "C": "AP đạt cực tiểu.",
+        "D": "AP đạt cực đại."
+      },
+      "correct_answer": "D",
+      "explanation": "Khi $MP > AP$, $AP$ tăng. Khi $MP < AP$, $AP$ giảm. Do đó tại điểm $MP = AP$, $AP$ đạt cực đại."
+    },
+    {
+      "id": "dc4-012",
+      "topic": "Tính chất đường đẳng lượng",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đặc điểm nào sau đây KHÔNG PHẢI là đặc điểm của các đường đẳng lượng?",
+      "options": {
+        "A": "Dốc xuống về bên phải.",
+        "B": "Các đường đẳng lượng có thể cắt nhau.",
+        "C": "Lồi về phía gốc tọa độ.",
+        "D": "Thể hiện các mức sản lượng khác nhau."
+      },
+      "correct_answer": "B",
+      "explanation": "Các đường đẳng lượng không thể cắt nhau. Nếu hai đường đẳng lượng cắt nhau, một phối hợp đầu vào sẽ tạo ra hai mức sản lượng khác nhau, điều này là vô lý."
+    },
+    {
+      "id": "dc4-013",
+      "topic": "Tỷ lệ thay thế kỹ thuật biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Đối với hàm sản xuất $Q = f(x_1, x_2) = \\min(x_1, x_2)$ thể hiện hai yếu tố đầu vào bổ sung hoàn toàn, tỷ lệ thay thế kỹ thuật biên ($MRTS$) bằng:",
+      "options": {
+        "A": "Một hằng số dương.",
+        "B": "0.",
+        "C": "Vô cực.",
+        "D": "1."
+      },
+      "correct_answer": "B",
+      "explanation": "Hàm $Q = \\min(x_1, x_2)$ thể hiện hai đầu vào bổ sung hoàn toàn, tức là phải được sử dụng theo tỷ lệ cố định. Một đầu vào không thể thay thế hiệu quả cho đầu vào còn lại. Vì vậy theo cách hiểu trong đề, $MRTS$ được xem là bằng 0. (Lưu ý: Với đường đẳng lượng dạng chữ L, $MRTS = 0$ ở nhánh nằm ngang, $\\infty$ ở nhánh thẳng đứng và không xác định tại điểm góc)."
+    },
+    {
+      "id": "dc4-014",
+      "topic": "Nguyên tắc cân bằng biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Nguyên tắc cân bằng biên để tối đa hóa sản lượng với chi phí cho trước, hoặc tối thiểu hóa chi phí với mức sản lượng cho trước là:",
+      "options": {
+        "A": "$MP_L / P_L = MP_K / P_K$",
+        "B": "$AP_L / P_L = AP_K / P_K$",
+        "C": "$MP_L = MP_K$",
+        "D": "$P_L = P_K$"
+      },
+      "correct_answer": "A",
+      "explanation": "Doanh nghiệp phân bổ chi phí tối ưu khi năng suất biên trên mỗi đồng chi cho các yếu tố đầu vào bằng nhau:\n\n$$\\frac{MP_L}{P_L} = \\frac{MP_K}{P_K}$$"
+    },
+    {
+      "id": "dc4-015",
+      "topic": "Tính chi phí biến đổi",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Nếu tổng chi phí là $TC = 200$, trong đó tổng chi phí cố định $TFC = 200$ ở mức sản lượng $Q = 0$. Khi sản lượng $Q = 10$, $TC = 350$. Tổng chi phí biến đổi ($TVC$) tại $Q = 10$ là:",
+      "options": {
+        "A": "150",
+        "B": "200",
+        "C": "350",
+        "D": "550"
+      },
+      "correct_answer": "A",
+      "explanation": "Công thức:\n$$TC = TFC + TVC$$\n\nSuy ra:\n$$TVC = TC - TFC$$\n\nThay số tại $Q = 10$:\n$$TVC = 350 - 200 = 150$$\n\nVậy đáp án đúng là A."
+    },
+    {
+      "id": "dc4-016",
+      "topic": "Mối quan hệ chi phí biên và chi phí trung bình",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Mối quan hệ giữa chi phí biên ($MC$) và chi phí trung bình ($AC$) là:",
+      "options": {
+        "A": "Khi $MC < AC$, $AC$ sẽ tăng.",
+        "B": "Khi $MC > AC$, $AC$ sẽ giảm.",
+        "C": "Khi $MC = AC$, $AC$ đạt cực tiểu.",
+        "D": "Khi $MC = AC$, $AC$ đạt cực đại."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi $MC < AC$, $AC$ giảm. Khi $MC > AC$, $AC$ tăng. Khi $MC = AC$, đường $MC$ cắt đường $AC$ tại điểm cực tiểu của $AC$."
+    },
+    {
+      "id": "dc4-017",
+      "topic": "Mối quan hệ chi phí biên và năng suất biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Công thức thể hiện mối quan hệ giữa chi phí biên ($MC$) và năng suất biên của lao động ($MP_L$) là:",
+      "options": {
+        "A": "$MC = MP_L / P_L$",
+        "B": "$MC = P_L / MP_L$",
+        "C": "$MC = P_L \\times MP_L$",
+        "D": "$MC = P_L / AP_L$"
+      },
+      "correct_answer": "B",
+      "explanation": "Khi lao động là đầu vào biến đổi duy nhất và $P_L$ là đơn giá lao động (tiền lương), chi phí biên được tính bằng:\n\n$$MC = \\frac{P_L}{MP_L}$$\n\nNăng suất biên của lao động ($MP_L$) càng cao thì chi phí biên ($MC$) càng thấp."
+    },
+    {
+      "id": "dc4-018",
+      "topic": "Lợi nhuận kinh tế và lợi nhuận kế toán",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Lợi nhuận kinh tế luôn:",
+      "options": {
+        "A": "Lớn hơn lợi nhuận kế toán.",
+        "B": "Bằng lợi nhuận kế toán.",
+        "C": "Nhỏ hơn hoặc bằng lợi nhuận kế toán, tùy thuộc vào chi phí ẩn.",
+        "D": "Không liên quan đến lợi nhuận kế toán."
+      },
+      "correct_answer": "C",
+      "explanation": "Lợi nhuận kế toán chỉ trừ chi phí hiện. Lợi nhuận kinh tế trừ cả chi phí hiện và chi phí ẩn. Vì vậy lợi nhuận kinh tế luôn nhỏ hơn hoặc bằng lợi nhuận kế toán."
+    },
+    {
+      "id": "dc4-019",
+      "topic": "Tính kinh tế theo quy mô",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Khi quy mô sản xuất mở rộng mà chi phí trung bình dài hạn ($LAC$) giảm, doanh nghiệp đang trải qua trạng thái:",
+      "options": {
+        "A": "Tính phi kinh tế theo quy mô.",
+        "B": "Năng suất không đổi theo quy mô.",
+        "C": "Tính kinh tế theo quy mô.",
+        "D": "Chi phí chìm tăng dần."
+      },
+      "correct_answer": "C",
+      "explanation": "Khi mở rộng quy mô sản xuất làm chi phí trung bình dài hạn ($LAC$) giảm, doanh nghiệp đang có tính kinh tế theo quy mô (sản xuất quy mô lớn giúp tiết kiệm chi phí bình quân)."
+    },
+    {
+      "id": "dc4-020",
+      "topic": "Giao điểm của LMC và LAC",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Điểm cực tiểu của đường chi phí trung bình dài hạn ($LAC$) cũng là điểm mà tại đó:",
+      "options": {
+        "A": "LMC đạt cực đại.",
+        "B": "Đường LMC cắt đường LAC.",
+        "C": "Doanh thu đạt cực đại.",
+        "D": "Năng suất biên của lao động đạt cực tiểu."
+      },
+      "correct_answer": "B",
+      "explanation": "Tương tự quan hệ ngắn hạn, đường chi phí biên dài hạn ($LMC$) cắt đường chi phí trung bình dài hạn ($LAC$) tại điểm cực tiểu của đường $LAC$."
+    },
+    {
+      "id": "dc4-021",
+      "topic": "Tính năng suất biên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Hàm sản xuất của doanh nghiệp X có dạng $Q = 2X^2 + 5X + 10$. Hàm năng suất biên $MP_X$ là:",
+      "options": {
+        "A": "2X + 5 + 10/X",
+        "B": "4X + 5",
+        "C": "4X + 10",
+        "D": "2X^2 + 5"
+      },
+      "correct_answer": "B",
+      "explanation": "Năng suất biên là đạo hàm bậc nhất của hàm sản xuất theo biến đầu vào $X$:\n\n$$Q = 2X^2 + 5X + 10$$\n$$MP_X = \\frac{dQ}{dX} = 4X + 5$$\n\nVậy đáp án đúng là B."
+    },
+    {
+      "id": "dc4-022",
+      "topic": "Hàm sản xuất Cobb-Douglas",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Hàm sản xuất Cobb-Douglas có dạng $Q = A \\cdot K^{\\alpha} \\cdot L^{\\beta}$. Nếu $\\alpha + \\beta > 1$ thì:",
+      "options": {
+        "A": "Năng suất giảm dần theo quy mô, LAC tăng.",
+        "B": "Năng suất không đổi theo quy mô, LAC không đổi.",
+        "C": "Năng suất tăng dần theo quy mô, chi phí trung bình dài hạn (LAC) giảm dần.",
+        "D": "Doanh nghiệp đạt cực đại lợi nhuận ngay lập tức."
+      },
+      "correct_answer": "C",
+      "explanation": "Trong hàm Cobb-Douglas, tổng hệ số co giãn $\\alpha + \\beta > 1$ cho biết sản xuất có năng suất tăng dần theo quy mô. Khi đầu vào tăng $t$ lần, đầu ra tăng nhiều hơn $t$ lần, dẫn tới chi phí trung bình dài hạn ($LAC$) giảm dần."
+    },
+    {
+      "id": "dc4-023",
+      "topic": "Hàm chi phí biến đổi trung bình",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Một công ty có hàm tổng chi phí $TC = Q^3 + 2.5Q^2 + 80Q + 2000$. Hàm chi phí biến đổi trung bình ($AVC$) của công ty là:",
+      "options": {
+        "A": "3Q^2 + 5Q + 80",
+        "B": "Q^2 + 2.5Q + 80",
+        "C": "Q^2 + 2.5Q + 80 + 2000/Q",
+        "D": "2000/Q"
+      },
+      "correct_answer": "B",
+      "explanation": "Hàm tổng chi phí: $TC = Q^3 + 2.5Q^2 + 80Q + 2000$\nTrong đó chi phí cố định $TFC = 2000$, chi phí biến đổi $TVC = Q^3 + 2.5Q^2 + 80Q$.\n\nChi phí biến đổi trung bình:\n$$AVC = \\frac{TVC}{Q} = \\frac{Q^3 + 2.5Q^2 + 80Q}{Q} = Q^2 + 2.5Q + 80$$\n\nVậy đáp án đúng là B."
+    },
+    {
+      "id": "dc4-024",
+      "topic": "Tính lợi nhuận kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Một kỹ sư từ bỏ mức lương $175.000\\text{ USD}/\\text{năm}$ để mở công ty riêng. Anh ta dùng $100.000\\text{ USD}$ tiền tiết kiệm, lẽ ra có thể đầu tư lấy lãi $15\\%/\\text{năm}$. Công ty đạt doanh thu $970.000\\text{ USD}$, tổng chi phí hoạt động $555.000\\text{ USD}$ và chi phí lãi vay $45.000\\text{ USD}$. Lợi nhuận kinh tế của kỹ sư này là:",
+      "options": {
+        "A": "370.000 USD",
+        "B": "195.000 USD",
+        "C": "180.000 USD",
+        "D": "-190.000 USD"
+      },
+      "correct_answer": "C",
+      "explanation": "Doanh thu = $970.000\\text{ USD}$\n\nChi phí hiện gồm:\n- Chi phí hoạt động: $555.000\\text{ USD}$\n- Chi phí lãi vay: $45.000\\text{ USD}$\nTổng chi phí hiện = $555.000 + 45.000 = 600.000\\text{ USD}$\n\nLợi nhuận kế toán = $970.000 - 600.000 = 370.000\\text{ USD}$\n\nChi phí ẩn gồm:\n- Lương bỏ lỡ: $175.000\\text{ USD}$\n- Lãi tiết kiệm bỏ lỡ: $100.000 \\times 15\\% = 15.000\\text{ USD}$\nTổng chi phí ẩn = $175.000 + 15.000 = 190.000\\text{ USD}$\n\nLợi nhuận kinh tế = Lợi nhuận kế toán - Chi phí ẩn = $370.000 - 190.000 = 180.000\\text{ USD}$.\n\nVậy đáp án đúng là C."
+    },
+    {
+      "id": "dc4-025",
+      "topic": "Tính chi phí cơ hội",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Một bạn sinh viên đi học 4 năm và bỏ lỡ 3 cơ hội việc làm với mức thu nhập cho cả 4 năm tương ứng là: (1) Quán cafe: 240 triệu; (2) Bảo vệ: 288 triệu; (3) Thu ngân: 312 triệu. Chi phí cơ hội của việc đi học của sinh viên này là:",
+      "options": {
+        "A": "240 triệu",
+        "B": "288 triệu",
+        "C": "312 triệu",
+        "D": "840 triệu, tổng cả 3 cơ hội"
+      },
+      "correct_answer": "C",
+      "explanation": "Chi phí cơ hội là giá trị của cơ hội tốt nhất bị bỏ lỡ khi đưa ra lựa chọn. Trong 3 phương án công việc bị bỏ lỡ, làm thu ngân có giá trị cao nhất ($312\\text{ triệu}$). Do đó chi phí cơ hội của việc đi học là $312\\text{ triệu}$."
+    },
+    {
+      "id": "dc4-026",
+      "topic": "Quan hệ giữa năng suất biên và chi phí biên",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Mối quan hệ giữa năng suất và chi phí trong ngắn hạn cho thấy: Khi năng suất biên ($MP_L$) đạt cực đại thì:",
+      "options": {
+        "A": "Chi phí biên ($MC$) đạt cực tiểu.",
+        "B": "Chi phí biên ($MC$) đạt cực đại.",
+        "C": "Chi phí biến đổi trung bình ($AVC$) đạt cực tiểu.",
+        "D": "Chi phí trung bình ($AC$) bằng 0."
+      },
+      "correct_answer": "A",
+      "explanation": "Từ mối quan hệ tỷ lệ nghịch: $MC = \\frac{P_L}{MP_L}$. Khi năng suất biên lao động $MP_L$ đạt cực đại (cực đại năng suất), chi phí biên để sản xuất thêm một đơn vị sản phẩm $MC$ sẽ đạt cực tiểu (cực tiểu chi phí)."
+    },
+    {
+      "id": "dc4-027",
+      "topic": "Tính chi phí biên",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Giả sử tiền lương của 1 lao động là $P_L = 40$. Khi số lao động tăng từ 50 lên 55, tổng sản lượng Q tăng từ 2000 lên 2475. Chi phí biên ($MC$) trong khoảng sản lượng này là:",
+      "options": {
+        "A": "0.42",
+        "B": "0.80",
+        "C": "1.18",
+        "D": "2.38"
+      },
+      "correct_answer": "A",
+      "explanation": "Số lao động tăng thêm: $\\Delta L = 55 - 50 = 5$.\nChi phí biến đổi tăng thêm: $\\Delta TC = P_L \\times \\Delta L = 40 \\times 5 = 200$.\nSản lượng tăng thêm: $\\Delta Q = 2475 - 2000 = 475$.\n\nChi phí biên:\n$$MC = \\frac{\\Delta TC}{\\Delta Q} = \\frac{200}{475} \\approx 0.42$$\n\nVậy đáp án đúng là A."
+    },
+    {
+      "id": "dc4-028",
+      "topic": "Quy mô sản xuất tối ưu dài hạn",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Trong dài hạn, quy mô sản xuất tối ưu, hiệu quả nhất, của doanh nghiệp đạt được tại mức sản lượng mà:",
+      "options": {
+        "A": "$SAC_{\\text{min}} > LAC_{\\text{min}}$",
+        "B": "$SAC_{\\text{min}} = SMC = LAC_{\\text{min}} = LMC$",
+        "C": "Đường SMC cắt đường SAC từ trên xuống.",
+        "D": "Năng suất biên của các yếu tố đầu vào bằng 0."
+      },
+      "correct_answer": "B",
+      "explanation": "Quy mô sản xuất tối ưu dài hạn đạt được tại điểm cực tiểu của đường chi phí trung bình dài hạn ($LAC_{\\text{min}}$). Tại điểm này, các đường chi phí ngắn hạn và dài hạn gặp nhau: $SAC_{\\text{min}} = SMC = LAC_{\\text{min}} = LMC$."
+    },
+    {
+      "id": "dc4-029",
+      "topic": "Mối quan hệ MC và AVC",
+      "difficulty": "easy",
+      "source_pages": [
+        1
+      ],
+      "question": "Nếu đường MC nằm phía trên đường AVC ($MC > AVC$), thì khi sản lượng tăng lên điều nào dưới đây chắc chắn đúng?",
+      "options": {
+        "A": "AC không đổi.",
+        "B": "AFC tăng lên.",
+        "C": "AVC giảm xuống.",
+        "D": "AVC tăng lên."
+      },
+      "correct_answer": "D",
+      "explanation": "Theo mối quan hệ giữa đại lượng biên và đại lượng trung bình: Khi giá trị biên lớn hơn giá trị trung bình ($MC > AVC$), nó sẽ kéo giá trị trung bình ($AVC$) tăng lên khi sản lượng tăng."
+    },
+    {
+      "id": "dc4-030",
+      "topic": "Tăng quy mô sản xuất",
+      "difficulty": "medium",
+      "source_pages": [
+        1
+      ],
+      "question": "Nếu tốc độ tăng của các yếu tố đầu vào ($a$) nhỏ hơn tốc độ tăng của sản lượng đầu ra ($b$), tức $a < b$, thì doanh nghiệp đang có:",
+      "options": {
+        "A": "Năng suất giảm dần theo quy mô, kéo theo chi phí sản xuất trung bình (LAC) tăng.",
+        "B": "Năng suất tăng dần theo quy mô, kéo theo chi phí sản xuất trung bình (LAC) giảm dần.",
+        "C": "Năng suất không đổi theo quy mô, LAC là một đường nằm ngang.",
+        "D": "Tính phi kinh tế theo quy mô."
+      },
+      "correct_answer": "B",
+      "explanation": "Tốc độ tăng của sản lượng lớn hơn tốc độ tăng của các yếu tố đầu vào ($b > a$) thể hiện hiệu quả tăng quy mô mang lại sản lượng vượt trội (năng suất tăng dần theo quy mô). Điều này kéo theo chi phí sản xuất trung bình dài hạn ($LAC$) giảm dần."
+    }
+  ]
+}
