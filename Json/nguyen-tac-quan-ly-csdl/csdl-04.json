@@ -1,0 +1,560 @@
+{
+  "chapter_id": "csdl-04",
+  "title": "L04 - Đại số quan hệ",
+  "source_file": "L04-Đại số quan hệ.pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-04-001",
+      "topic": "Giới thiệu",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Đại số quan hệ là gì?",
+      "options": {
+        "A": "Tập hợp các phép toán cơ sở của mô hình dữ liệu quan hệ",
+        "B": "Một ngôn ngữ lập trình hướng đối tượng",
+        "C": "Chỉ là giao diện GUI",
+        "D": "Một hệ thống tệp"
+      },
+      "correct_answer": "A",
+      "explanation": "Đại số quan hệ: tập phép toán cơ sở; biểu thức là chuỗi phép toán; kết quả là thể hiện quan hệ."
+    },
+    {
+      "id": "csdl-04-002",
+      "topic": "Giới thiệu",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Ý nghĩa của đại số quan hệ gồm?",
+      "options": {
+        "A": "Cơ sở hình thức cho phép toán mô hình quan hệ; cơ sở cài đặt và tối ưu truy vấn; áp dụng trong SQL",
+        "B": "Chỉ dùng để vẽ ER",
+        "C": "Thay thế hoàn toàn hệ điều hành",
+        "D": "Chỉ định nghĩa trigger"
+      },
+      "correct_answer": "A",
+      "explanation": "Cơ sở hình thức, cài đặt/tối ưu truy vấn, áp dụng trong SQL."
+    },
+    {
+      "id": "csdl-04-003",
+      "topic": "Phép chọn",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Phép chọn σ_ĐK(R) dùng để làm gì?",
+      "options": {
+        "A": "Rút trích các bộ thỏa điều kiện chọn từ một quan hệ",
+        "B": "Rút trích các cột theo danh sách thuộc tính",
+        "C": "Gộp hai quan hệ theo khóa",
+        "D": "Đổi tên quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Phép chọn rút các bộ thỏa ĐK."
+    },
+    {
+      "id": "csdl-04-004",
+      "topic": "Phép chọn",
+      "difficulty": "medium",
+      "source_pages": [
+        7
+      ],
+      "question": "Đặc trưng nào đúng với phép chọn?",
+      "options": {
+        "A": "Có tính giao hoán; kết quả cùng bậc với R; số bộ ≤ số bộ R",
+        "B": "Không giao hoán; bậc luôn giảm",
+        "C": "Luôn tăng số bộ",
+        "D": "Đổi tên thuộc tính bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "σ có giao hoán; cùng bậc; số bộ ≤ R."
+    },
+    {
+      "id": "csdl-04-005",
+      "topic": "Phép chiếu",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Phép chiếu π_DSTT(R) dùng để làm gì?",
+      "options": {
+        "A": "Rút trích các cột ứng với các thuộc tính được chỉ định",
+        "B": "Lọc dòng theo điều kiện logic",
+        "C": "Tính Cartesian",
+        "D": "Chia quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Chiếu rút các cột theo danh sách thuộc tính."
+    },
+    {
+      "id": "csdl-04-006",
+      "topic": "Phép chiếu",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Đặc trưng nào đúng với phép chiếu?",
+      "options": {
+        "A": "Không giao hoán; loại bỏ bộ trùng; bậc bằng số thuộc tính trong danh sách",
+        "B": "Luôn giao hoán tuyệt đối",
+        "C": "Không bao giờ loại trùng",
+        "D": "Bậc luôn bằng bậc R"
+      },
+      "correct_answer": "A",
+      "explanation": "π không giao hoán, loại trùng, bậc = |DSTT|."
+    },
+    {
+      "id": "csdl-04-007",
+      "topic": "Phép đổi tên",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Phép đổi tên ρ dùng để?",
+      "options": {
+        "A": "Đổi tên quan hệ và/hoặc các thuộc tính",
+        "B": "Xóa bộ",
+        "C": "Tạo khóa chính",
+        "D": "Tính tổng"
+      },
+      "correct_answer": "A",
+      "explanation": "ρS(R), ρS(B1..Bn)(R), ρ(B1..Bn)(R)..."
+    },
+    {
+      "id": "csdl-04-008",
+      "topic": "Phép gán",
+      "difficulty": "easy",
+      "source_pages": [
+        10
+      ],
+      "question": "Phép gán R' ← E dùng để?",
+      "options": {
+        "A": "Lưu kết quả biểu thức đại số quan hệ vào tên quan hệ tạm, đơn giản hóa chuỗi phép toán",
+        "B": "Xóa quan hệ R",
+        "C": "Tạo RBTV",
+        "D": "Chỉ đổi font"
+      },
+      "correct_answer": "A",
+      "explanation": "Gán lưu kết quả E vào R' để đơn giản hóa biểu thức phức tạp."
+    },
+    {
+      "id": "csdl-04-009",
+      "topic": "Khả hợp",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Hai quan hệ R và S khả hợp khi nào?",
+      "options": {
+        "A": "Cùng bậc và miền giá trị tương ứng từng thuộc tính tương thích",
+        "B": "Chỉ cùng tên quan hệ",
+        "C": "Chỉ cùng số bộ",
+        "D": "Không cần điều kiện"
+      },
+      "correct_answer": "A",
+      "explanation": "Bậc R = bậc S và domain Ai ≡ Bi."
+    },
+    {
+      "id": "csdl-04-010",
+      "topic": "Phép hội",
+      "difficulty": "easy",
+      "source_pages": [
+        15
+      ],
+      "question": "R ∪ S gồm các bộ nào?",
+      "options": {
+        "A": "Các bộ thuộc R hoặc thuộc S (loại trùng)",
+        "B": "Chỉ các bộ thuộc cả R và S",
+        "C": "Chỉ các bộ thuộc R không thuộc S",
+        "D": "Tích mọi cặp bộ"
+      },
+      "correct_answer": "A",
+      "explanation": "Hội: t ∈ R ∨ t ∈ S; trùng bị loại."
+    },
+    {
+      "id": "csdl-04-011",
+      "topic": "Phép giao",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "R ∩ S gồm các bộ nào?",
+      "options": {
+        "A": "Các bộ thuộc R đồng thời thuộc S",
+        "B": "Mọi bộ của R",
+        "C": "Mọi bộ của S không thuộc R",
+        "D": "Cartesian"
+      },
+      "correct_answer": "A",
+      "explanation": "Giao: t ∈ R ∧ t ∈ S."
+    },
+    {
+      "id": "csdl-04-012",
+      "topic": "Phép hiệu",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "R − S gồm các bộ nào?",
+      "options": {
+        "A": "Các bộ thuộc R nhưng không thuộc S",
+        "B": "Các bộ thuộc S nhưng không thuộc R",
+        "C": "Hội R và S",
+        "D": "Giao R và S"
+      },
+      "correct_answer": "A",
+      "explanation": "Hiệu: t ∈ R ∧ t ∉ S."
+    },
+    {
+      "id": "csdl-04-013",
+      "topic": "Phép tập hợp",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Phép nào có tính giao hoán?",
+      "options": {
+        "A": "Hội và giao",
+        "B": "Chỉ hiệu",
+        "C": "Chỉ chia",
+        "D": "Không phép nào"
+      },
+      "correct_answer": "A",
+      "explanation": "∪ và ∩ giao hoán và kết hợp; hiệu không giao hoán."
+    },
+    {
+      "id": "csdl-04-014",
+      "topic": "Tích Cartesian",
+      "difficulty": "medium",
+      "source_pages": [
+        19
+      ],
+      "question": "Đặc điểm của R × S là gì?",
+      "options": {
+        "A": "Mỗi bộ là tổ hợp một bộ R và một bộ S; bậc = bậc R + bậc S; số bộ = |R|×|S|",
+        "B": "Cùng bậc với R",
+        "C": "Số bộ = |R| + |S|",
+        "D": "Bắt buộc R và S khả hợp"
+      },
+      "correct_answer": "A",
+      "explanation": "Cartesian: tổ hợp mọi cặp; bậc cộng; số bộ nhân; không yêu cầu khả hợp."
+    },
+    {
+      "id": "csdl-04-015",
+      "topic": "Phép kết",
+      "difficulty": "easy",
+      "source_pages": [
+        21
+      ],
+      "question": "Phép kết dùng để?",
+      "options": {
+        "A": "Kết hợp các bộ có liên quan từ hai quan hệ",
+        "B": "Chỉ chiếu một cột",
+        "C": "Chỉ đổi tên",
+        "D": "Chỉ đếm bộ"
+      },
+      "correct_answer": "A",
+      "explanation": "Join kết hợp bộ liên quan; có theta, equi, natural."
+    },
+    {
+      "id": "csdl-04-016",
+      "topic": "Kết bằng",
+      "difficulty": "medium",
+      "source_pages": [
+        23
+      ],
+      "question": "Kết bằng (Equi Join) là gì?",
+      "options": {
+        "A": "Kết theta trong đó mọi toán tử so sánh trong điều kiện đều là =",
+        "B": "Kết chỉ dùng <",
+        "C": "Không phải phép kết",
+        "D": "Chỉ outer join"
+      },
+      "correct_answer": "A",
+      "explanation": "Equi join: điều kiện toàn dấu =."
+    },
+    {
+      "id": "csdl-04-017",
+      "topic": "Kết tự nhiên",
+      "difficulty": "medium",
+      "source_pages": [
+        24
+      ],
+      "question": "Kết tự nhiên (Natural Join) yêu cầu gì?",
+      "options": {
+        "A": "Kết bằng trên các cặp thuộc tính cùng tên (và cùng miền); gộp các cột trùng tên",
+        "B": "Luôn giữ mọi cặp cột trùng giá trị khác tên mà không đổi tên",
+        "C": "Không cần điều kiện",
+        "D": "Chỉ dùng trên một quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Natural join: equi trên thuộc tính cùng tên/cùng miền; nếu khác tên cần rename trước."
+    },
+    {
+      "id": "csdl-04-018",
+      "topic": "Phép chia",
+      "difficulty": "hard",
+      "source_pages": [
+        25
+      ],
+      "question": "Phép chia R ÷ S dùng khi nào?",
+      "options": {
+        "A": "Rút các bộ của R liên quan với tất cả các bộ của S",
+        "B": "Tính tổng số học",
+        "C": "Chỉ lọc null",
+        "D": "Đổi tên thuộc tính"
+      },
+      "correct_answer": "A",
+      "explanation": "Division: T(Y) = {t | t ∈ π_Y(R) ∧ ∀u∈S (t,u)∈R}, Y = Z−X."
+    },
+    {
+      "id": "csdl-04-019",
+      "topic": "Ví dụ truy vấn",
+      "difficulty": "medium",
+      "source_pages": [
+        27
+      ],
+      "question": "Tìm nhân viên tham gia tất cả dự án do phòng 5 điều phối thường dùng phép nào?",
+      "options": {
+        "A": "Phép chia (sau khi chiếu MaNV, MaDA và tập MaDA phòng 5)",
+        "B": "Chỉ phép chọn đơn giản một điều kiện",
+        "C": "Chỉ đổi tên",
+        "D": "Chỉ hiệu không chiếu"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng: Q2 ÷ Q1 với Q1 = dự án phòng 5, Q2 = tham gia."
+    },
+    {
+      "id": "csdl-04-020",
+      "topic": "Hàm tập hợp",
+      "difficulty": "easy",
+      "source_pages": [
+        29
+      ],
+      "question": "Các hàm tập hợp cơ bản trong đại số mở rộng gồm?",
+      "options": {
+        "A": "SUM, AVG, MAX, MIN, COUNT",
+        "B": "Chỉ UNION",
+        "C": "Chỉ RENAME",
+        "D": "Chỉ DIVIDE"
+      },
+      "correct_answer": "A",
+      "explanation": "SUM, AVG, MAX, MIN, COUNT; gom nhóm bằng ℱ."
+    },
+    {
+      "id": "csdl-04-021",
+      "topic": "Kết mở rộng",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Phép kết mở rộng (outer join) nhằm mục đích gì?",
+      "options": {
+        "A": "Giữ lại các bộ không khớp để tránh mất thông tin / phục vụ báo cáo",
+        "B": "Luôn xóa bộ không khớp",
+        "C": "Chỉ tăng tốc index",
+        "D": "Thay thế phép chiếu"
+      },
+      "correct_answer": "A",
+      "explanation": "Outer join giữ bộ không liên kết được (trái/phải/hai phía)."
+    },
+    {
+      "id": "csdl-04-022",
+      "topic": "Kết mở rộng trái",
+      "difficulty": "medium",
+      "source_pages": [
+        32
+      ],
+      "question": "Left outer join giữ lại?",
+      "options": {
+        "A": "Tất cả bộ của quan hệ bên trái, kể cả không khớp bên phải (phần thiếu = null)",
+        "B": "Chỉ bộ khớp",
+        "C": "Chỉ bộ bên phải",
+        "D": "Không giữ bộ nào"
+      },
+      "correct_answer": "A",
+      "explanation": "Left outer join giữ mọi bộ bên trái."
+    },
+    {
+      "id": "csdl-04-023",
+      "topic": "Phép toán 1 ngôi",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Các phép toán một ngôi gồm?",
+      "options": {
+        "A": "Chọn, chiếu, đổi tên",
+        "B": "Hội, giao, hiệu",
+        "C": "Kết, chia",
+        "D": "Chỉ Cartesian"
+      },
+      "correct_answer": "A",
+      "explanation": "1 ngôi: select, project, rename."
+    },
+    {
+      "id": "csdl-04-024",
+      "topic": "Phép toán 2 ngôi",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Phép toán tập hợp hai ngôi gồm?",
+      "options": {
+        "A": "Hội, giao, hiệu, tích Cartesian",
+        "B": "Chỉ chọn và chiếu",
+        "C": "Chỉ đổi tên",
+        "D": "Chỉ gom nhóm"
+      },
+      "correct_answer": "A",
+      "explanation": "Tập hợp: ∪, ∩, −, ×; phi tập hợp: join, division."
+    },
+    {
+      "id": "csdl-04-025",
+      "topic": "Chuỗi phép toán",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        12
+      ],
+      "question": "Biểu thức π_Ho,Ten,Gtinh,Luong(σ_MaPB=5(NHANVIEN)) nghĩa là?",
+      "options": {
+        "A": "Chọn nhân viên phòng 5 rồi chiếu các thuộc tính họ, tên, giới tính, lương",
+        "B": "Chỉ hội hai quan hệ",
+        "C": "Chia NHANVIEN cho phòng 5",
+        "D": "Đổi tên phòng 5"
+      },
+      "correct_answer": "A",
+      "explanation": "Chọn trước (hoặc lồng), rồi chiếu các cột cần lấy."
+    },
+    {
+      "id": "csdl-04-026",
+      "topic": "Theta join",
+      "difficulty": "medium",
+      "source_pages": [
+        22
+      ],
+      "question": "Trong kết theta, điều kiện so sánh nối thuộc tính hai quan hệ dùng toán tử?",
+      "options": {
+        "A": "=, <, ≤, >, ≥, ≠ (và kết hợp bằng ∧)",
+        "B": "Chỉ OR giữa quan hệ",
+        "C": "Chỉ LIKE",
+        "D": "Không có điều kiện"
+      },
+      "correct_answer": "A",
+      "explanation": "Theta join: Ai θ Bj với θ là toán tử so sánh."
+    },
+    {
+      "id": "csdl-04-027",
+      "topic": "Mở rộng chiếu",
+      "difficulty": "hard",
+      "source_pages": [
+        9
+      ],
+      "question": "Mở rộng phép chiếu cho phép?",
+      "options": {
+        "A": "Dùng phép toán số học trong danh sách thuộc tính (ví dụ π_A,2*C(R))",
+        "B": "Chỉ đổi tên bắt buộc",
+        "C": "Chỉ Cartesian",
+        "D": "Xóa quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Extended projection cho phép biểu thức số học trên thuộc tính."
+    },
+    {
+      "id": "csdl-04-028",
+      "topic": "Toán hạng",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Toán hạng của đại số quan hệ là gì?",
+      "options": {
+        "A": "Các thể hiện quan hệ (và tập hợp)",
+        "B": "Chỉ số nguyên",
+        "C": "Chỉ chuỗi SQL thô không quan hệ",
+        "D": "Chỉ file hệ thống"
+      },
+      "correct_answer": "A",
+      "explanation": "Toán hạng: thể hiện quan hệ, tập hợp."
+    },
+    {
+      "id": "csdl-04-029",
+      "topic": "Full outer join",
+      "difficulty": "medium",
+      "source_pages": [
+        34
+      ],
+      "question": "Full outer join giữ lại?",
+      "options": {
+        "A": "Các bộ không khớp ở cả hai phía",
+        "B": "Chỉ bên trái",
+        "C": "Chỉ bộ trùng khóa chính",
+        "D": "Không giữ bộ không khớp"
+      },
+      "correct_answer": "A",
+      "explanation": "Full outer join giữ bộ không khớp hai phía."
+    },
+    {
+      "id": "csdl-04-030",
+      "topic": "Gom nhóm",
+      "difficulty": "medium",
+      "source_pages": [
+        29
+      ],
+      "question": "Cú pháp <DSTT> ℱ <DSH>(R) dùng để?",
+      "options": {
+        "A": "Gom nhóm theo thuộc tính rồi áp dụng hàm tập hợp trên từng nhóm",
+        "B": "Chỉ đổi tên",
+        "C": "Chỉ hiệu",
+        "D": "Chỉ chia"
+      },
+      "correct_answer": "A",
+      "explanation": "Grouping + aggregate functions."
+    },
+    {
+      "id": "csdl-04-031",
+      "topic": "Ví dụ hội",
+      "difficulty": "medium",
+      "source_pages": [
+        20
+      ],
+      "question": "Tìm mã NV phòng 5 hoặc giám sát NV phòng 5 thường dùng?",
+      "options": {
+        "A": "Chiếu MaNV và MaGS từ các NV phòng 5 rồi lấy hội",
+        "B": "Chỉ giao hai tập rỗng",
+        "C": "Chỉ natural join với chính nó không chọn",
+        "D": "Chỉ outer join phải"
+      },
+      "correct_answer": "A",
+      "explanation": "Q2 ∪ Q3 với Q2=π_MaNV, Q3=π_MaGS từ σ_MaPB=5."
+    },
+    {
+      "id": "csdl-04-032",
+      "topic": "Phép chọn điều kiện",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Điều kiện trong phép chọn được nối bởi toán tử logic nào?",
+      "options": {
+        "A": "∧, ∨, ¬",
+        "B": "Chỉ ×",
+        "C": "Chỉ ÷",
+        "D": "Chỉ ∪"
+      },
+      "correct_answer": "A",
+      "explanation": "Mệnh đề nối bởi AND/OR/NOT (∧,∨,¬)."
+    }
+  ]
+}

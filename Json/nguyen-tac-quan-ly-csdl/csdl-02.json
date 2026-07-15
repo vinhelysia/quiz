@@ -1,0 +1,564 @@
+{
+  "chapter_id": "csdl-02",
+  "title": "L02 - Mô hình thực thể liên kết (ER)",
+  "source_file": "L02-Mô hình thực thể liên kết (ER).pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-02-001",
+      "topic": "Thiết kế CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Quá trình thiết kế và cài đặt CSDL gồm bao nhiêu giai đoạn theo bài giảng?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "10"
+      },
+      "correct_answer": "C",
+      "explanation": "6 giai đoạn: thu thập/phân tích yêu cầu; thiết kế mức khái niệm; lựa chọn HQT CSDL; chuyển đổi mô hình (logic); thiết kế vật lý; cài đặt và tinh chỉnh."
+    },
+    {
+      "id": "csdl-02-002",
+      "topic": "Thiết kế CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Thiết kế lược đồ khái niệm có đặc điểm nào?",
+      "options": {
+        "A": "Độc lập với HQT CSDL",
+        "B": "Phụ thuộc hoàn toàn vào HQT CSDL đã chọn",
+        "C": "Chỉ viết câu lệnh DDL",
+        "D": "Chỉ thiết kế ứng dụng UI"
+      },
+      "correct_answer": "A",
+      "explanation": "Thiết kế lược đồ khái niệm độc lập HQT CSDL; thiết kế logic và trong phụ thuộc HQT CSDL."
+    },
+    {
+      "id": "csdl-02-003",
+      "topic": "Mô hình ER",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Mô hình ER dùng để làm gì?",
+      "options": {
+        "A": "Thiết kế CSDL mức khái niệm; trừu tượng hóa cấu trúc CSDL",
+        "B": "Tối ưu chỉ mục vật lý trên đĩa",
+        "C": "Chỉ viết trigger",
+        "D": "Sao lưu incremental"
+      },
+      "correct_answer": "A",
+      "explanation": "ER dùng thiết kế mức khái niệm, trừu tượng hóa cấu trúc CSDL."
+    },
+    {
+      "id": "csdl-02-004",
+      "topic": "Thực thể và thuộc tính",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Thực thể (Entity) là gì?",
+      "options": {
+        "A": "Đối tượng hoặc khái niệm trong thế giới thực",
+        "B": "Chỉ là kiểu dữ liệu integer",
+        "C": "Một câu lệnh SQL",
+        "D": "Chỉ là liên kết giữa hai bảng"
+      },
+      "correct_answer": "A",
+      "explanation": "Thực thể là đối tượng/khái niệm thế giới thực (ví dụ nhân viên Nguyễn Văn A, dự án X)."
+    },
+    {
+      "id": "csdl-02-005",
+      "topic": "Thực thể và thuộc tính",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Thuộc tính (Attribute) là gì?",
+      "options": {
+        "A": "Tính chất dùng để mô tả thực thể",
+        "B": "Một quan hệ M:N bắt buộc",
+        "C": "Chỉ khóa ngoại",
+        "D": "Một HQT CSDL"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuộc tính mô tả thực thể (tên phòng, giới tính nhân viên...); mỗi thuộc tính có kiểu dữ liệu xác định."
+    },
+    {
+      "id": "csdl-02-006",
+      "topic": "Loại thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Ví dụ thuộc tính dẫn xuất là gì?",
+      "options": {
+        "A": "Tuổi (tính từ ngày sinh)",
+        "B": "Mã số nhân viên",
+        "C": "Giới tính",
+        "D": "Số CMND"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuộc tính cơ sở ↔ dẫn xuất: ngày sinh là cơ sở, tuổi là dẫn xuất."
+    },
+    {
+      "id": "csdl-02-007",
+      "topic": "Loại thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Sở thích của nhân viên thường được mô hình hóa là thuộc tính loại nào?",
+      "options": {
+        "A": "Đa trị",
+        "B": "Đơn trị bắt buộc duy nhất",
+        "C": "Khóa chính",
+        "D": "Thực thể yếu"
+      },
+      "correct_answer": "A",
+      "explanation": "Mã số nhân viên là đơn trị; sở thích là đa trị."
+    },
+    {
+      "id": "csdl-02-008",
+      "topic": "Loại thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Họ tên (Họ, Đệm, Tên) là ví dụ của?",
+      "options": {
+        "A": "Thuộc tính gộp (composite)",
+        "B": "Thuộc tính đơn nguyên tử không tách được",
+        "C": "Thực thể yếu",
+        "D": "Liên kết tam phân"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuộc tính đơn (nguyên tử) ↔ thuộc tính gộp; Họ tên gồm Họ, Đệm, Tên."
+    },
+    {
+      "id": "csdl-02-009",
+      "topic": "Thuộc tính khóa",
+      "difficulty": "easy",
+      "source_pages": [
+        10
+      ],
+      "question": "Thuộc tính khóa dùng để làm gì?",
+      "options": {
+        "A": "Phân biệt các thực thể cùng kiểu",
+        "B": "Chỉ lưu địa chỉ nhà",
+        "C": "Chỉ tính tuổi",
+        "D": "Loại bỏ mọi liên kết"
+      },
+      "correct_answer": "A",
+      "explanation": "Khóa phân biệt các thực thể cùng kiểu; có thể gồm nhiều thuộc tính; một kiểu thực thể có thể có nhiều khóa."
+    },
+    {
+      "id": "csdl-02-010",
+      "topic": "Liên kết",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Liên kết (Relationship) là gì?",
+      "options": {
+        "A": "Sự kết hợp của 2 hoặc nhiều thực thể phân biệt theo một ý nghĩa nào đó",
+        "B": "Chỉ một thuộc tính đơn",
+        "C": "Một kiểu dữ liệu DATE",
+        "D": "Chỉ catalog"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ: nhân viên A tham gia dự án X; nhân viên A giám sát nhân viên B."
+    },
+    {
+      "id": "csdl-02-011",
+      "topic": "Liên kết",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Thuộc tính Giờ của kiểu liên kết THAMGIA giữa NHANVIEN và DUAN cho thấy điều gì?",
+      "options": {
+        "A": "Kiểu liên kết có thể có thuộc tính riêng",
+        "B": "Liên kết không bao giờ có thuộc tính",
+        "C": "Giờ phải là khóa chính của NHANVIEN",
+        "D": "DUAN không cần khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Kiểu liên kết có thể có nhiều thuộc tính (ví dụ Giờ của THAMGIA)."
+    },
+    {
+      "id": "csdl-02-012",
+      "topic": "Bậc liên kết",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Bậc của kiểu liên kết là gì?",
+      "options": {
+        "A": "Số lượng kiểu thực thể tham gia vào liên kết",
+        "B": "Số byte của thuộc tính",
+        "C": "Số khóa ngoại tối đa",
+        "D": "Số view trong CSDL"
+      },
+      "correct_answer": "A",
+      "explanation": "Bậc = số kiểu thực thể tham gia (nhị phân, tam phân...)."
+    },
+    {
+      "id": "csdl-02-013",
+      "topic": "Liên kết đệ quy",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Liên kết đệ quy là gì?",
+      "options": {
+        "A": "Cùng một kiểu thực thể tham gia liên kết với vai trò khác nhau",
+        "B": "Ba kiểu thực thể khác nhau bắt buộc",
+        "C": "Chỉ liên kết 1:1 giữa hai phòng ban khác nhau",
+        "D": "Không có thực thể tham gia"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ: nhân viên A giám sát nhân viên B — cùng kiểu NHANVIEN, vai trò khác nhau."
+    },
+    {
+      "id": "csdl-02-014",
+      "topic": "Bản số liên kết",
+      "difficulty": "medium",
+      "source_pages": [
+        16,
+        17
+      ],
+      "question": "Bản số (min, max) của liên kết mô tả gì?",
+      "options": {
+        "A": "Số lượng tối thiểu và tối đa các liên kết mà một thực thể có thể tham gia",
+        "B": "Chỉ độ dài chuỗi ký tự",
+        "C": "Số cột của bảng",
+        "D": "Tốc độ truy vấn"
+      },
+      "correct_answer": "A",
+      "explanation": "Lực lượng tối thiểu/tối đa: số liên kết min/max một thực thể có thể tham gia."
+    },
+    {
+      "id": "csdl-02-015",
+      "topic": "Tỉ lệ lực lượng",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "Đối với liên kết nhị phân, ba loại tỉ lệ lực lượng tối đa là?",
+      "options": {
+        "A": "1:1, 1:N, M:N",
+        "B": "Chỉ 1:1",
+        "C": "Chỉ M:N",
+        "D": "0:0, 2:2, 3:3"
+      },
+      "correct_answer": "A",
+      "explanation": "Ba loại: 1:1, 1:N, M:N."
+    },
+    {
+      "id": "csdl-02-016",
+      "topic": "Tham gia liên kết",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Ràng buộc tham gia gồm những loại nào?",
+      "options": {
+        "A": "Tham gia bắt buộc và tham gia không bắt buộc",
+        "B": "Chỉ tham gia bắt buộc",
+        "C": "Chỉ tham gia không bắt buộc",
+        "D": "Tham gia theo tốc độ mạng"
+      },
+      "correct_answer": "A",
+      "explanation": "Lực lượng tối thiểu: tham gia bắt buộc hoặc không bắt buộc."
+    },
+    {
+      "id": "csdl-02-017",
+      "topic": "Liên kết 1:N",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Liên kết LAMVIEC giữa NHANVIEN và PHONGBAN (một nhân viên một phòng, một phòng nhiều nhân viên) là?",
+      "options": {
+        "A": "1:N",
+        "B": "1:1",
+        "C": "M:N",
+        "D": "Tam phân"
+      },
+      "correct_answer": "A",
+      "explanation": "Một phòng — nhiều nhân viên; mỗi nhân viên một phòng → 1:N."
+    },
+    {
+      "id": "csdl-02-018",
+      "topic": "Liên kết M:N",
+      "difficulty": "easy",
+      "source_pages": [
+        20
+      ],
+      "question": "Liên kết THAMGIA giữa NHANVIEN và DUAN (nhân viên nhiều dự án, dự án nhiều nhân viên) là?",
+      "options": {
+        "A": "M:N",
+        "B": "1:1",
+        "C": "1:N bắt buộc một phía",
+        "D": "Không phải liên kết"
+      },
+      "correct_answer": "A",
+      "explanation": "THAMGIA là liên kết nhiều–nhiều M:N."
+    },
+    {
+      "id": "csdl-02-019",
+      "topic": "Thực thể yếu",
+      "difficulty": "easy",
+      "source_pages": [
+        21
+      ],
+      "question": "Kiểu thực thể yếu (Weak Entity) có đặc điểm nào?",
+      "options": {
+        "A": "Phụ thuộc vào một kiểu thực thể khác; có khóa bộ phận",
+        "B": "Luôn có khóa chính độc lập hoàn toàn không cần thực thể khác",
+        "C": "Không tham gia bất kỳ liên kết nào",
+        "D": "Chỉ dùng cho thuộc tính dẫn xuất"
+      },
+      "correct_answer": "A",
+      "explanation": "Thực thể yếu phụ thuộc thực thể định danh; khóa bộ phận + khóa thực thể mạnh tạo khóa đầy đủ."
+    },
+    {
+      "id": "csdl-02-020",
+      "topic": "Thực thể yếu",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "Trong ví dụ công ty, THANNHAN thường được mô hình hóa như thế nào?",
+      "options": {
+        "A": "Thực thể yếu; NHANVIEN là thực thể định danh; PHUTHUOC là liên kết định danh",
+        "B": "Thực thể mạnh độc lập hoàn toàn",
+        "C": "Thuộc tính đơn của DUAN",
+        "D": "Liên kết tam phân"
+      },
+      "correct_answer": "A",
+      "explanation": "THANNHAN yếu, NHANVIEN định danh, PHUTHUOC là identifying relationship."
+    },
+    {
+      "id": "csdl-02-021",
+      "topic": "ER mở rộng",
+      "difficulty": "medium",
+      "source_pages": [
+        26,
+        27
+      ],
+      "question": "Đặc trưng của liên kết cha–con (Is-A) là gì?",
+      "options": {
+        "A": "Thực thể lớp con cũng là thực thể lớp cha; kế thừa thuộc tính và liên kết của cha",
+        "B": "Lớp con không kế thừa gì từ lớp cha",
+        "C": "Lớp cha không thể có thuộc tính",
+        "D": "Is-A chỉ dùng cho liên kết M:N"
+      },
+      "correct_answer": "A",
+      "explanation": "Một thực thể lớp con cũng là thực thể lớp cha; kế thừa thuộc tính/liên kết; có thể có thuộc tính/liên kết riêng."
+    },
+    {
+      "id": "csdl-02-022",
+      "topic": "CBH và TQH",
+      "difficulty": "medium",
+      "source_pages": [
+        28,
+        29
+      ],
+      "question": "Chuyên biệt hóa (CBH) là quá trình gì?",
+      "options": {
+        "A": "Xây dựng các lớp con của một kiểu thực thể",
+        "B": "Gộp nhiều kiểu thực thể thành một không có lớp con",
+        "C": "Chỉ xóa thuộc tính khóa",
+        "D": "Chỉ tạo index"
+      },
+      "correct_answer": "A",
+      "explanation": "CBH: xây dựng lớp con; TQH: xây dựng kiểu thực thể tổng quát từ các kiểu đã có."
+    },
+    {
+      "id": "csdl-02-023",
+      "topic": "CBH và TQH",
+      "difficulty": "medium",
+      "source_pages": [
+        29
+      ],
+      "question": "Tổng quát hóa (TQH) là quá trình gì?",
+      "options": {
+        "A": "Xây dựng một kiểu thực thể tổng quát từ các kiểu thực thể đã có",
+        "B": "Chỉ tách thuộc tính đa trị",
+        "C": "Chỉ chuyển ER sang SQL",
+        "D": "Xóa liên kết đệ quy"
+      },
+      "correct_answer": "A",
+      "explanation": "TQH xây dựng kiểu thực thể tổng quát từ các kiểu đã có."
+    },
+    {
+      "id": "csdl-02-024",
+      "topic": "Ràng buộc CBH/TQH",
+      "difficulty": "hard",
+      "source_pages": [
+        30
+      ],
+      "question": "Hai loại ràng buộc chính đối với lớp cha–con trong CBH/TQH là?",
+      "options": {
+        "A": "Tính tách rời của các lớp con và tính đầy đủ của lớp cha",
+        "B": "Chỉ ràng buộc khóa ngoại",
+        "C": "Chỉ NOT NULL trên mọi thuộc tính",
+        "D": "Chỉ M:N"
+      },
+      "correct_answer": "A",
+      "explanation": "Tách rời (disjoint/overlap) và đầy đủ (total/partial); tổ hợp thành 4 trường hợp."
+    },
+    {
+      "id": "csdl-02-025",
+      "topic": "Kế thừa",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Hai hình thức kế thừa trong CBH/TQH là?",
+      "options": {
+        "A": "Kế thừa đơn (phân cấp) và kế thừa bội (dàn)",
+        "B": "Chỉ kế thừa đơn",
+        "C": "Chỉ kế thừa theo khóa ngoại",
+        "D": "Không có kế thừa"
+      },
+      "correct_answer": "A",
+      "explanation": "Kế thừa đơn — CBH phân cấp; kế thừa bội — CBH dàn."
+    },
+    {
+      "id": "csdl-02-026",
+      "topic": "Liên kết tam phân",
+      "difficulty": "medium",
+      "source_pages": [
+        32
+      ],
+      "question": "Liên kết CUNGCAP giữa NHACUNGCAP, DUAN, VATTU là ví dụ của?",
+      "options": {
+        "A": "Liên kết tam phân",
+        "B": "Liên kết đệ quy 1 ngôi",
+        "C": "Thuộc tính dẫn xuất",
+        "D": "Thực thể yếu không liên kết"
+      },
+      "correct_answer": "A",
+      "explanation": "Ba kiểu thực thể tham gia → liên kết tam phân; có thể có thuộc tính Soluong."
+    },
+    {
+      "id": "csdl-02-027",
+      "topic": "Nguyên tắc thiết kế",
+      "difficulty": "easy",
+      "source_pages": [
+        36
+      ],
+      "question": "Nguyên tắc thiết kế ER nào sau đây đúng?",
+      "options": {
+        "A": "Khảo sát quy trình nghiệp vụ; dùng thuật ngữ thế giới thực; chính xác, đơn giản, tránh trùng lắp",
+        "B": "Bỏ qua người dùng, chỉ thiết kế theo cảm tính",
+        "C": "Luôn gộp mọi thứ vào một thực thể",
+        "D": "Không bao giờ dùng khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Khảo sát nghiệp vụ, giao tiếp nhiều nhóm người dùng, thuật ngữ thực tế, chính xác–đơn giản–tránh trùng lắp."
+    },
+    {
+      "id": "csdl-02-028",
+      "topic": "Tinh chỉnh lược đồ",
+      "difficulty": "hard",
+      "source_pages": [
+        37
+      ],
+      "question": "Khi nhiều thực thể cùng có thuộc tính Khoa, cách tinh chỉnh hợp lý thường là?",
+      "options": {
+        "A": "Tách thành kiểu thực thể KHOA và liên kết tới các thực thể liên quan",
+        "B": "Nhân đôi thuộc tính Khoa trên mọi thực thể mà không xem xét ngữ nghĩa",
+        "C": "Xóa hết thuộc tính Khoa",
+        "D": "Chuyển Khoa thành liên kết tam phân bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "Bài giảng minh họa tinh chỉnh: kiểu thực thể hay thuộc tính — tách KHOA thành thực thể."
+    },
+    {
+      "id": "csdl-02-029",
+      "topic": "Thiết kế mức khái niệm",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Mục đích thiết kế cấu trúc logic và vật lý của CSDL gồm?",
+      "options": {
+        "A": "Thỏa mãn yêu cầu thông tin; cấu trúc tự nhiên dễ hiểu; hỗ trợ xử lý hiệu quả",
+        "B": "Chỉ giảm dung lượng RAM của máy cá nhân",
+        "C": "Chỉ thay thế mạng Internet",
+        "D": "Loại bỏ mọi ràng buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "Thỏa mãn yêu cầu thông tin người dùng/ứng dụng; cấu trúc tự nhiên dễ hiểu; hỗ trợ xử lý hiệu quả."
+    },
+    {
+      "id": "csdl-02-030",
+      "topic": "Liên kết mở rộng",
+      "difficulty": "hard",
+      "source_pages": [
+        24
+      ],
+      "question": "Liên kết mở rộng là gì?",
+      "options": {
+        "A": "Liên kết định nghĩa trên ít nhất một liên kết khác",
+        "B": "Chỉ liên kết 1:1 giữa hai thực thể mạnh",
+        "C": "Thuộc tính đa trị",
+        "D": "Khóa bộ phận"
+      },
+      "correct_answer": "A",
+      "explanation": "Liên kết mở rộng định nghĩa trên ít nhất một liên kết khác (cung định hướng)."
+    },
+    {
+      "id": "csdl-02-031",
+      "topic": "Bài toán công ty",
+      "difficulty": "medium",
+      "source_pages": [
+        6,
+        7
+      ],
+      "question": "Trong bài toán công ty, một nhân viên làm việc trong bao nhiêu phòng?",
+      "options": {
+        "A": "Chỉ một phòng",
+        "B": "Không giới hạn phòng bắt buộc",
+        "C": "Không thuộc phòng nào",
+        "D": "Chỉ thuộc dự án, không thuộc phòng"
+      },
+      "correct_answer": "A",
+      "explanation": "Một nhân viên chỉ được làm việc trong một phòng; có thể tham gia nhiều dự án."
+    },
+    {
+      "id": "csdl-02-032",
+      "topic": "Kiểu thực thể",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Kiểu thực thể (Entity Type) là gì?",
+      "options": {
+        "A": "Tập hợp các thực thể có các thuộc tính giống nhau",
+        "B": "Một bộ dữ liệu duy nhất",
+        "C": "Một câu lệnh DROP",
+        "D": "Một chỉ mục B-Tree"
+      },
+      "correct_answer": "A",
+      "explanation": "Kiểu thực thể = tập hợp thực thể cùng thuộc tính (tập hợp các nhân viên)."
+    }
+  ]
+}

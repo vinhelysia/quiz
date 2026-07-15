@@ -1,0 +1,594 @@
+{
+  "chapter_id": "csdl-05",
+  "title": "L05 - Ngôn ngữ truy vấn SQL",
+  "source_file": "L05-Ngôn ngữ truy vấn SQL.pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-05-001",
+      "topic": "Giới thiệu SQL",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "SQL là viết tắt của?",
+      "options": {
+        "A": "Structured Query Language",
+        "B": "Simple Queue Logic",
+        "C": "System Quick Loader",
+        "D": "Sequential Query List"
+      },
+      "correct_answer": "A",
+      "explanation": "SQL = Structured Query Language; ngôn ngữ cấp cao; chuẩn hóa ANSI/ISO."
+    },
+    {
+      "id": "csdl-05-002",
+      "topic": "Giới thiệu SQL",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "SQL được phát triển ban đầu bởi?",
+      "options": {
+        "A": "IBM (những năm 1970)",
+        "B": "Microsoft năm 2010",
+        "C": "Oracle năm 1999 duy nhất",
+        "D": "Google"
+      },
+      "correct_answer": "A",
+      "explanation": "Phát triển bởi IBM khoảng 1970; các chuẩn SQL-86, SQL-92, SQL-99..."
+    },
+    {
+      "id": "csdl-05-003",
+      "topic": "Định nghĩa dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Các lệnh định nghĩa dữ liệu gồm?",
+      "options": {
+        "A": "CREATE/DROP DATABASE, CREATE/DROP/ALTER TABLE, CREATE/DROP DOMAIN",
+        "B": "Chỉ SELECT",
+        "C": "Chỉ INSERT",
+        "D": "Chỉ GRANT"
+      },
+      "correct_answer": "A",
+      "explanation": "DDL: CREATE/DROP DATABASE, TABLE, DOMAIN; ALTER TABLE."
+    },
+    {
+      "id": "csdl-05-004",
+      "topic": "Kiểu dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "DECIMAL(p,n) thuộc nhóm kiểu nào?",
+      "options": {
+        "A": "Số thập phân",
+        "B": "Chuỗi unicode",
+        "C": "Bit",
+        "D": "Timestamp"
+      },
+      "correct_answer": "A",
+      "explanation": "Số thập phân: DECIMAL(p,n); số nguyên INT/SMALLINT; số thực FLOAT/REAL/DOUBLE."
+    },
+    {
+      "id": "csdl-05-005",
+      "topic": "Kiểu dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "VARCHAR(n) là gì?",
+      "options": {
+        "A": "Chuỗi ký tự độ dài thay đổi tối đa n",
+        "B": "Số nguyên n bit",
+        "C": "Ngày giờ",
+        "D": "Bit cố định"
+      },
+      "correct_answer": "A",
+      "explanation": "CHARACTER VARYING(n) / VARCHAR(n): chuỗi độ dài thay đổi."
+    },
+    {
+      "id": "csdl-05-006",
+      "topic": "Tạo bảng",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Trong CREATE TABLE, RBTV có thể gồm?",
+      "options": {
+        "A": "NOT NULL, UNIQUE, DEFAULT, PRIMARY KEY, FOREIGN KEY, CHECK",
+        "B": "Chỉ SELECT",
+        "C": "Chỉ ORDER BY",
+        "D": "Chỉ GROUP BY"
+      },
+      "correct_answer": "A",
+      "explanation": "Các ràng buộc cột/bảng: NOT NULL, NULL, UNIQUE, DEFAULT, PK, FK, CHECK."
+    },
+    {
+      "id": "csdl-05-007",
+      "topic": "Đặt tên RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        10
+      ],
+      "question": "Cú pháp đặt tên ràng buộc là?",
+      "options": {
+        "A": "CONSTRAINT <tên> <RBTV>",
+        "B": "NAME <tên> ONLY",
+        "C": "INDEX <tên>",
+        "D": "ALIAS <tên>"
+      },
+      "correct_answer": "A",
+      "explanation": "CONSTRAINT <tên RBTV> <RBTV>."
+    },
+    {
+      "id": "csdl-05-008",
+      "topic": "Sửa bảng",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Thêm cột vào bảng dùng lệnh nào?",
+      "options": {
+        "A": "ALTER TABLE ... ADD COLUMN ...",
+        "B": "INSERT COLUMN",
+        "C": "UPDATE COLUMN ADD",
+        "D": "CREATE COLUMN"
+      },
+      "correct_answer": "A",
+      "explanation": "ALTER TABLE <bảng> ADD COLUMN <tên> <kiểu>."
+    },
+    {
+      "id": "csdl-05-009",
+      "topic": "Cập nhật dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        15
+      ],
+      "question": "Chèn một dòng vào bảng dùng?",
+      "options": {
+        "A": "INSERT INTO ... VALUES (...)",
+        "B": "ADD ROW",
+        "C": "PUT INTO",
+        "D": "APPEND TABLE"
+      },
+      "correct_answer": "A",
+      "explanation": "INSERT INTO <bảng> [(ds tt)] VALUES (ds giá trị)."
+    },
+    {
+      "id": "csdl-05-010",
+      "topic": "Cập nhật dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Xóa các nhân viên phòng 5 dùng?",
+      "options": {
+        "A": "DELETE FROM NHANVIEN WHERE MaPhong = 5",
+        "B": "REMOVE NHANVIEN 5",
+        "C": "DROP ROW NHANVIEN",
+        "D": "ERASE FROM NHANVIEN"
+      },
+      "correct_answer": "A",
+      "explanation": "DELETE FROM <bảng> [WHERE <đk>]."
+    },
+    {
+      "id": "csdl-05-011",
+      "topic": "Cập nhật dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Tăng lương tất cả nhân viên 10% dùng?",
+      "options": {
+        "A": "UPDATE NHANVIEN SET Luong = 1.1 * Luong",
+        "B": "MODIFY Luong * 1.1",
+        "C": "ALTER Luong INCREASE 10%",
+        "D": "SET ALL Luong + 10%"
+      },
+      "correct_answer": "A",
+      "explanation": "UPDATE ... SET ... [WHERE ...]."
+    },
+    {
+      "id": "csdl-05-012",
+      "topic": "Truy vấn",
+      "difficulty": "easy",
+      "source_pages": [
+        19
+      ],
+      "question": "Thứ tự các mệnh đề trong SELECT đầy đủ theo bài giảng là?",
+      "options": {
+        "A": "SELECT ... FROM ... [WHERE] [GROUP BY] [HAVING] [ORDER BY]",
+        "B": "WHERE ... SELECT ... FROM",
+        "C": "GROUP BY ... SELECT ... HAVING ... FROM",
+        "D": "ORDER BY ... FROM ... SELECT"
+      },
+      "correct_answer": "A",
+      "explanation": "SELECT dstt FROM dsb [WHERE] [GROUP BY] [HAVING] [ORDER BY]."
+    },
+    {
+      "id": "csdl-05-013",
+      "topic": "Ánh xạ đại số–SQL",
+      "difficulty": "medium",
+      "source_pages": [
+        20
+      ],
+      "question": "π_dstt(R) tương ứng SQL nào?",
+      "options": {
+        "A": "SELECT dstt FROM R",
+        "B": "SELECT * FROM R WHERE dstt",
+        "C": "DELETE dstt FROM R",
+        "D": "UPDATE R SET dstt"
+      },
+      "correct_answer": "A",
+      "explanation": "Chiếu ↔ SELECT dstt FROM R; chọn ↔ WHERE; tích ↔ FROM R,S."
+    },
+    {
+      "id": "csdl-05-014",
+      "topic": "Phép tập hợp SQL",
+      "difficulty": "medium",
+      "source_pages": [
+        22
+      ],
+      "question": "UNION không có ALL có đặc điểm gì?",
+      "options": {
+        "A": "Loại các dòng giống nhau trong kết quả",
+        "B": "Giữ mọi dòng trùng",
+        "C": "Không yêu cầu khả hợp",
+        "D": "Chỉ dùng với ORDER BY bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "UNION/EXCEPT/INTERSECT loại trùng; thêm ALL để giữ trùng."
+    },
+    {
+      "id": "csdl-05-015",
+      "topic": "Đặt tên",
+      "difficulty": "easy",
+      "source_pages": [
+        23
+      ],
+      "question": "Đặt bí danh bảng trong FROM dùng?",
+      "options": {
+        "A": "FROM NHANVIEN AS NV (hoặc NHANVIEN NV)",
+        "B": "FROM NHANVIEN RENAME ONLY",
+        "C": "FROM ALIAS NHANVIEN",
+        "D": "FROM NHANVIEN :: NV bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "FROM NHANVIEN AS NV, PHONGBAN AS PB."
+    },
+    {
+      "id": "csdl-05-016",
+      "topic": "So sánh chuỗi",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Trong LIKE, ký tự % có nghĩa gì?",
+      "options": {
+        "A": "Thay cho một đoạn ký tự tùy ý",
+        "B": "Thay đúng một ký tự",
+        "C": "Thoát ký tự đặc biệt",
+        "D": "So sánh số"
+      },
+      "correct_answer": "A",
+      "explanation": "% = đoạn tùy ý; _ = một ký tự; ESCAPE để loại bỏ ý nghĩa đặc biệt."
+    },
+    {
+      "id": "csdl-05-017",
+      "topic": "DISTINCT",
+      "difficulty": "easy",
+      "source_pages": [
+        27
+      ],
+      "question": "Tại sao cần SELECT DISTINCT trong SQL?",
+      "options": {
+        "A": "SQL không tự động loại bộ trùng như phép chiếu đại số quan hệ",
+        "B": "SQL luôn loại trùng mặc định",
+        "C": "DISTINCT xóa bảng",
+        "D": "DISTINCT chỉ dùng với DELETE"
+      },
+      "correct_answer": "A",
+      "explanation": "SQL có thể chứa bộ trùng; DISTINCT để khử trùng."
+    },
+    {
+      "id": "csdl-05-018",
+      "topic": "Hàm tập hợp",
+      "difficulty": "easy",
+      "source_pages": [
+        28
+      ],
+      "question": "Hàm COUNT(*) dùng để?",
+      "options": {
+        "A": "Đếm số dòng của bảng/nhóm",
+        "B": "Tính trung bình",
+        "C": "Tìm max",
+        "D": "Tính tổng lương bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "COUNT(*) đếm dòng; COUNT(tt) đếm giá trị khác null."
+    },
+    {
+      "id": "csdl-05-019",
+      "topic": "GROUP BY",
+      "difficulty": "medium",
+      "source_pages": [
+        29
+      ],
+      "question": "Nhận xét nào đúng về WHERE và GROUP BY?",
+      "options": {
+        "A": "WHERE thực hiện trước GROUP BY; HAVING chỉ xuất hiện khi có GROUP BY",
+        "B": "HAVING luôn trước WHERE",
+        "C": "GROUP BY xóa WHERE",
+        "D": "HAVING không cần GROUP BY"
+      },
+      "correct_answer": "A",
+      "explanation": "WHERE trước GROUP BY; HAVING đi với GROUP BY."
+    },
+    {
+      "id": "csdl-05-020",
+      "topic": "HAVING",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Lọc các dự án có nhiều hơn 2 nhân viên tham gia sau khi gom nhóm dùng?",
+      "options": {
+        "A": "HAVING COUNT(*) > 2",
+        "B": "WHERE COUNT(*) > 2 (trước khi join, không gom nhóm)",
+        "C": "ORDER BY COUNT(*) > 2",
+        "D": "DISTINCT COUNT(*) > 2"
+      },
+      "correct_answer": "A",
+      "explanation": "Điều kiện trên nhóm → HAVING."
+    },
+    {
+      "id": "csdl-05-021",
+      "topic": "ORDER BY",
+      "difficulty": "easy",
+      "source_pages": [
+        33
+      ],
+      "question": "ORDER BY MaNV, MaDA DESC nghĩa là?",
+      "options": {
+        "A": "Sắp tăng dần MaNV (mặc định ASC), trong đó MaDA giảm dần",
+        "B": "Cả hai giảm dần bắt buộc",
+        "C": "Cả hai tăng dần",
+        "D": "Không sắp xếp"
+      },
+      "correct_answer": "A",
+      "explanation": "Mặc định ASC; có thể chỉ định ASC/DESC từng cột."
+    },
+    {
+      "id": "csdl-05-022",
+      "topic": "NULL",
+      "difficulty": "medium",
+      "source_pages": [
+        35
+      ],
+      "question": "Để tìm nhân viên không có người giám sát (MaNQL null) dùng?",
+      "options": {
+        "A": "WHERE MaNQL IS NULL",
+        "B": "WHERE MaNQL = NULL",
+        "C": "WHERE MaNQL == None",
+        "D": "WHERE MaNQL EMPTY"
+      },
+      "correct_answer": "A",
+      "explanation": "So sánh null bằng IS NULL / IS NOT NULL; = NULL không đúng ngữ nghĩa SQL."
+    },
+    {
+      "id": "csdl-05-023",
+      "topic": "Logic 3 chân trị",
+      "difficulty": "hard",
+      "source_pages": [
+        36
+      ],
+      "question": "Trong logic 3 chân trị SQL, TRUE AND UNKNOWN cho kết quả?",
+      "options": {
+        "A": "UNKNOWN",
+        "B": "TRUE",
+        "C": "FALSE",
+        "D": "NULL bị cấm"
+      },
+      "correct_answer": "A",
+      "explanation": "TRUE ∧ UNKNOWN = UNKNOWN; FALSE ∧ anything = FALSE; TRUE ∨ anything = TRUE..."
+    },
+    {
+      "id": "csdl-05-024",
+      "topic": "Truy vấn lồng",
+      "difficulty": "medium",
+      "source_pages": [
+        37
+      ],
+      "question": "Truy vấn lồng thường xuất hiện trong mệnh đề nào theo bài giảng?",
+      "options": {
+        "A": "WHERE (so sánh tập hợp với truy vấn con)",
+        "B": "Chỉ ORDER BY",
+        "C": "Chỉ CREATE TABLE",
+        "D": "Chỉ DROP"
+      },
+      "correct_answer": "A",
+      "explanation": "Truy vấn con trong WHERE với IN, ALL, ANY, EXISTS..."
+    },
+    {
+      "id": "csdl-05-025",
+      "topic": "IN / ALL / EXISTS",
+      "difficulty": "medium",
+      "source_pages": [
+        38
+      ],
+      "question": "EXISTS dùng để?",
+      "options": {
+        "A": "Kiểm tra sự tồn tại kết quả của truy vấn con",
+        "B": "Tính trung bình",
+        "C": "Đổi tên cột",
+        "D": "Tạo domain"
+      },
+      "correct_answer": "A",
+      "explanation": "EXISTS <truy vấn con>; IN kiểm tra thuộc tập; ALL/ANY so sánh với tập."
+    },
+    {
+      "id": "csdl-05-026",
+      "topic": "Truy vấn lồng phân cấp",
+      "difficulty": "medium",
+      "source_pages": [
+        41
+      ],
+      "question": "Truy vấn lồng phân cấp có đặc điểm?",
+      "options": {
+        "A": "Truy vấn con không tham chiếu thuộc tính của truy vấn cha; thực hiện con trước",
+        "B": "Con luôn tham chiếu cha và chạy theo từng bộ cha",
+        "C": "Không có truy vấn con",
+        "D": "Chỉ dùng JOIN"
+      },
+      "correct_answer": "A",
+      "explanation": "Phân cấp: con độc lập cha, chạy trước; tương quan: con tham chiếu cha, chạy nhiều lần."
+    },
+    {
+      "id": "csdl-05-027",
+      "topic": "Truy vấn lồng tương quan",
+      "difficulty": "hard",
+      "source_pages": [
+        43
+      ],
+      "question": "Tìm nhân viên không có thân nhân thường dùng mẫu nào?",
+      "options": {
+        "A": "NOT EXISTS (SELECT * FROM THANNHAN TN WHERE TN.MaNV = NV.MaNV)",
+        "B": "WHERE MaNV = ALL THANNHAN",
+        "C": "HAVING THANNHAN = 0 không join",
+        "D": "ORDER BY THANNHAN"
+      },
+      "correct_answer": "A",
+      "explanation": "Lồng tương quan với NOT EXISTS."
+    },
+    {
+      "id": "csdl-05-028",
+      "topic": "JOIN SQL",
+      "difficulty": "easy",
+      "source_pages": [
+        47
+      ],
+      "question": "INNER JOIN hai bảng dùng cú pháp?",
+      "options": {
+        "A": "FROM (bảng1 JOIN bảng2 ON điều kiện kết)",
+        "B": "FROM bảng1 OUTER ONLY bảng2",
+        "C": "FROM bảng1 DIVIDE bảng2",
+        "D": "FROM bảng1 UNION bảng2 ON"
+      },
+      "correct_answer": "A",
+      "explanation": "JOIN/INNER JOIN ... ON <đkk>; còn LEFT/RIGHT/FULL OUTER JOIN."
+    },
+    {
+      "id": "csdl-05-029",
+      "topic": "BETWEEN",
+      "difficulty": "easy",
+      "source_pages": [
+        25
+      ],
+      "question": "Luong BETWEEN 30000 AND 40000 tương đương?",
+      "options": {
+        "A": "Luong >= 30000 AND Luong <= 40000",
+        "B": "Luong > 30000 AND Luong < 40000 chỉ",
+        "C": "Luong = 30000 OR Luong = 40000",
+        "D": "Luong != 30000"
+      },
+      "correct_answer": "A",
+      "explanation": "BETWEEN a AND b ↔ >= a và <= b."
+    },
+    {
+      "id": "csdl-05-030",
+      "topic": "Hàm tập hợp vị trí",
+      "difficulty": "medium",
+      "source_pages": [
+        28
+      ],
+      "question": "Hàm tập hợp chỉ được xuất hiện trong mệnh đề nào?",
+      "options": {
+        "A": "SELECT hoặc HAVING",
+        "B": "FROM",
+        "C": "CREATE",
+        "D": "DROP"
+      },
+      "correct_answer": "A",
+      "explanation": "Aggregate chỉ trong SELECT hoặc HAVING."
+    },
+    {
+      "id": "csdl-05-031",
+      "topic": "ON DELETE/UPDATE",
+      "difficulty": "hard",
+      "source_pages": [
+        10
+      ],
+      "question": "Trong ví dụ FK TrPhong references NHANVIEN, mệnh đề ON DELETE SET NULL ON UPDATE CASCADE nghĩa là?",
+      "options": {
+        "A": "Xóa NV được tham chiếu → đặt FK null; cập nhật MaNV → cascade sang FK",
+        "B": "Xóa NV → xóa cả database",
+        "C": "Không làm gì khi xóa/cập nhật",
+        "D": "Chỉ chặn SELECT"
+      },
+      "correct_answer": "A",
+      "explanation": "ON DELETE SET NULL; ON UPDATE CASCADE như trong ví dụ PHONGBAN."
+    },
+    {
+      "id": "csdl-05-032",
+      "topic": "CREATE DOMAIN",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "CREATE DOMAIN Diachi AS VARCHAR(100) dùng để?",
+      "options": {
+        "A": "Tạo miền/kiểu người dùng mới dựa trên kiểu cơ bản",
+        "B": "Tạo bảng mới",
+        "C": "Xóa CSDL",
+        "D": "Chèn dữ liệu"
+      },
+      "correct_answer": "A",
+      "explanation": "CREATE DOMAIN ... AS <kiểu cơ bản>."
+    },
+    {
+      "id": "csdl-05-033",
+      "topic": "Kết quả SELECT",
+      "difficulty": "medium",
+      "source_pages": [
+        19,
+        27
+      ],
+      "question": "Khác biệt quan trọng giữa bảng kết quả SQL và quan hệ toán học là?",
+      "options": {
+        "A": "Bảng SQL có thể chứa các bộ trùng nhau",
+        "B": "SQL cấm tuyệt đối trùng",
+        "C": "SQL không có cột",
+        "D": "SQL không có dòng"
+      },
+      "correct_answer": "A",
+      "explanation": "Kết quả SELECT là bảng; có thể có bộ trùng (khác quan hệ toán học)."
+    },
+    {
+      "id": "csdl-05-034",
+      "topic": "ALL",
+      "difficulty": "hard",
+      "source_pages": [
+        40
+      ],
+      "question": "Luong > ALL (SELECT Luong FROM NHANVIEN WHERE MaPB = 5) nghĩa là?",
+      "options": {
+        "A": "Lương lớn hơn mọi mức lương của nhân viên phòng 5",
+        "B": "Lương lớn hơn ít nhất một NV phòng 5",
+        "C": "Lương bằng trung bình phòng 5",
+        "D": "Lương null"
+      },
+      "correct_answer": "A",
+      "explanation": "> ALL: lớn hơn tất cả giá trị trong tập con."
+    }
+  ]
+}

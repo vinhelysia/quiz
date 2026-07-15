@@ -1,0 +1,630 @@
+{
+  "chapter_id": "csdl-07",
+  "title": "L07 - Phụ thuộc hàm và chuẩn hóa",
+  "source_file": "L07-Phụ thuộc hàm và chuẩn hóa.pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-07-001",
+      "topic": "Nguyên tắc thiết kế",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Các tiêu chí đánh giá chất lượng thiết kế quan hệ gồm?",
+      "options": {
+        "A": "Ngữ nghĩa thuộc tính rõ; giảm thừa; giảm null; không phát sinh bộ không có thực",
+        "B": "Chỉ số lượng bảng càng nhiều càng tốt",
+        "C": "Chỉ dùng một bảng duy nhất luôn luôn",
+        "D": "Bỏ hết khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Ngữ nghĩa, giảm thừa, giảm null, tránh bộ giả khi join."
+    },
+    {
+      "id": "csdl-07-002",
+      "topic": "Ngữ nghĩa thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Vì sao nên tránh gộp thuộc tính nhiều kiểu thực thể vào một lược đồ?",
+      "options": {
+        "A": "Làm ngữ nghĩa khó hiểu và dễ gây trùng lặp/dị thường",
+        "B": "Vì SQL không cho phép nhiều cột",
+        "C": "Vì khóa ngoại bị cấm",
+        "D": "Vì không có JOIN"
+      },
+      "correct_answer": "A",
+      "explanation": "Ý nghĩa thuộc tính càng rõ càng tốt; tránh tổ hợp thuộc tính nhiều thực thể."
+    },
+    {
+      "id": "csdl-07-003",
+      "topic": "Dị thường cập nhật",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        8
+      ],
+      "question": "Thông tin thừa trong bộ có thể gây ra?",
+      "options": {
+        "A": "Dị thường thêm, xóa, sửa",
+        "B": "Chỉ tăng tốc query",
+        "C": "Loại bỏ null",
+        "D": "Tự động BCNF"
+      },
+      "correct_answer": "A",
+      "explanation": "Redundancy → insertion/deletion/update anomalies."
+    },
+    {
+      "id": "csdl-07-004",
+      "topic": "Null",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Nhiều giá trị null gây khó khăn gì?",
+      "options": {
+        "A": "Lãng phí không gian; khó phép kết; khó hàm tập hợp",
+        "B": "Tự động chuẩn hóa",
+        "C": "Tăng tính nhất quán",
+        "D": "Thay thế khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Tránh thuộc tính nhận nhiều null."
+    },
+    {
+      "id": "csdl-07-005",
+      "topic": "Bộ không có thực",
+      "difficulty": "hard",
+      "source_pages": [
+        10,
+        12
+      ],
+      "question": "Để tránh phát sinh bộ không có thực khi join, nên?",
+      "options": {
+        "A": "Thiết kế sao cho join bằng chủ yếu trên khóa chính/khóa ngoại",
+        "B": "Join tự do mọi cột văn bản",
+        "C": "Bỏ hết khóa",
+        "D": "Gộp mọi quan hệ thành một"
+      },
+      "correct_answer": "A",
+      "explanation": "Join trên PK/FK để tránh dangling/spurious tuples."
+    },
+    {
+      "id": "csdl-07-006",
+      "topic": "Phụ thuộc hàm",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "X → Y đúng khi nào?",
+      "options": {
+        "A": "Mọi cặp bộ trùng trên X thì phải trùng trên Y",
+        "B": "Mọi cặp bộ trùng trên Y thì trùng trên X",
+        "C": "X và Y rời nhau luôn",
+        "D": "X là null"
+      },
+      "correct_answer": "A",
+      "explanation": "∀ t1,t2: t1[X]=t2[X] ⇒ t1[Y]=t2[Y]."
+    },
+    {
+      "id": "csdl-07-007",
+      "topic": "Phụ thuộc hàm",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Cho quan hệ có (A,B) = (1,4) và (1,5). Kết luận nào đúng?",
+      "options": {
+        "A": "Không thỏa A → B; có thể thỏa B → A",
+        "B": "Thỏa A → B",
+        "C": "Không có PTH nào",
+        "D": "Bắt buộc A → B và B → A"
+      },
+      "correct_answer": "A",
+      "explanation": "Cùng A khác B ⇒ không A→B; các B khác nhau có thể xác định A."
+    },
+    {
+      "id": "csdl-07-008",
+      "topic": "PTH và khóa",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Nếu K là khóa của R thì?",
+      "options": {
+        "A": "K xác định hàm tất cả các tập thuộc tính của R",
+        "B": "K không xác định gì",
+        "C": "K chỉ xác định một thuộc tính",
+        "D": "K phải null"
+      },
+      "correct_answer": "A",
+      "explanation": "Khóa xác định hàm mọi thuộc tính; PTH phản ánh ràng buộc thế giới thực."
+    },
+    {
+      "id": "csdl-07-009",
+      "topic": "Bao đóng F+",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Bao đóng F+ của tập PTH F gồm?",
+      "options": {
+        "A": "F và mọi PTH suy diễn được từ F",
+        "B": "Chỉ F",
+        "C": "Chỉ PTH không thuộc F",
+        "D": "Tập rỗng"
+      },
+      "correct_answer": "A",
+      "explanation": "F+ = F ∪ các PTH suy diễn từ F; F đầy đủ nếu F=F+."
+    },
+    {
+      "id": "csdl-07-010",
+      "topic": "Luật Armstrong",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Ba luật Armstrong cơ bản là?",
+      "options": {
+        "A": "Phản xạ, tăng trưởng, bắc cầu",
+        "B": "Chỉ phân rã",
+        "C": "Chỉ hợp",
+        "D": "Chỉ hiệu"
+      },
+      "correct_answer": "A",
+      "explanation": "Reflexivity, Augmentation, Transitivity — hệ đầy đủ."
+    },
+    {
+      "id": "csdl-07-011",
+      "topic": "Luật suy diễn",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Từ X → YZ suy ra X → Y và X → Z nhờ luật nào?",
+      "options": {
+        "A": "Phân rã",
+        "B": "Tăng trưởng",
+        "C": "Phản xạ ngược",
+        "D": "Cartesian"
+      },
+      "correct_answer": "A",
+      "explanation": "Decomposition: X→YZ ⇒ X→Y, X→Z."
+    },
+    {
+      "id": "csdl-07-012",
+      "topic": "Bao đóng thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "X → Y ∈ F+ khi và chỉ khi?",
+      "options": {
+        "A": "Y ⊆ X+",
+        "B": "X ⊆ Y+",
+        "C": "X ∩ Y = ∅",
+        "D": "X = U"
+      },
+      "correct_answer": "A",
+      "explanation": "X→Y suy được ⇔ Y ⊆ X+; nếu K khóa thì K+=U."
+    },
+    {
+      "id": "csdl-07-013",
+      "topic": "Tính X+",
+      "difficulty": "medium",
+      "source_pages": [
+        19,
+        20
+      ],
+      "question": "Cho F={AB→C, BC→D, D→EG}, X=BD. X+ bằng?",
+      "options": {
+        "A": "BDEG",
+        "B": "BD",
+        "C": "ABCDEG",
+        "D": "EG"
+      },
+      "correct_answer": "A",
+      "explanation": "BD; D→EG ⇒ BDEG; không thêm được nữa."
+    },
+    {
+      "id": "csdl-07-014",
+      "topic": "Tập PTH tương đương",
+      "difficulty": "medium",
+      "source_pages": [
+        22
+      ],
+      "question": "F và G tương đương khi nào?",
+      "options": {
+        "A": "F phủ G và G phủ F (tức F+=G+)",
+        "B": "F ⊂ G nghiêm ngặt",
+        "C": "F ∩ G = ∅",
+        "D": "Chỉ cùng số PTH"
+      },
+      "correct_answer": "A",
+      "explanation": "Tương đương ⇔ F+=G+."
+    },
+    {
+      "id": "csdl-07-015",
+      "topic": "Phủ tối thiểu",
+      "difficulty": "hard",
+      "source_pages": [
+        24
+      ],
+      "question": "Tập PTH tối thiểu cần thỏa?",
+      "options": {
+        "A": "Vế phải 1 thuộc tính; không thừa thuộc tính vế trái; không thừa PTH",
+        "B": "Càng nhiều PTH càng tốt",
+        "C": "Mọi PTH có vế phải toàn U",
+        "D": "Không có phản xạ"
+      },
+      "correct_answer": "A",
+      "explanation": "3 điều kiện phủ tối thiểu."
+    },
+    {
+      "id": "csdl-07-016",
+      "topic": "Phủ tối thiểu ví dụ",
+      "difficulty": "hard",
+      "source_pages": [
+        26
+      ],
+      "question": "Phủ tối thiểu của E={A→BC, A→B, B→C, AB→C} theo ví dụ bài giảng là?",
+      "options": {
+        "A": "{A→B, B→C}",
+        "B": "{A→BC, AB→C}",
+        "C": "{AB→C}",
+        "D": "{A→C}"
+      },
+      "correct_answer": "A",
+      "explanation": "Sau tách, loại thừa trái, loại A→C thừa → {A→B,B→C}."
+    },
+    {
+      "id": "csdl-07-017",
+      "topic": "Siêu khóa/khóa qua PTH",
+      "difficulty": "medium",
+      "source_pages": [
+        27
+      ],
+      "question": "S là siêu khóa nếu?",
+      "options": {
+        "A": "S xác định hàm mọi thuộc tính (S+ = U) — các bộ khác nhau khác trên S",
+        "B": "S chỉ có một thuộc tính luôn",
+        "C": "S = ∅",
+        "D": "S chỉ ở vế phải"
+      },
+      "correct_answer": "A",
+      "explanation": "Siêu khóa: t1≠t2 ⇒ t1[S]≠t2[S]; khóa = siêu khóa nhỏ nhất."
+    },
+    {
+      "id": "csdl-07-018",
+      "topic": "Tìm khóa",
+      "difficulty": "hard",
+      "source_pages": [
+        29
+      ],
+      "question": "Cho U={A..G}, F={B→A, D→C, D→BE, DF→G}. Khóa theo ví dụ là?",
+      "options": {
+        "A": "DF",
+        "B": "D",
+        "C": "B",
+        "D": "ABCDEFG"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuật toán loại thuộc tính dần → K=DF."
+    },
+    {
+      "id": "csdl-07-019",
+      "topic": "1NF",
+      "difficulty": "easy",
+      "source_pages": [
+        35
+      ],
+      "question": "Dạng chuẩn 1 yêu cầu gì?",
+      "options": {
+        "A": "Mọi thuộc tính là thuộc tính đơn (nguyên tử)",
+        "B": "Mọi PTH đều có vế trái siêu khóa",
+        "C": "Không có khóa",
+        "D": "Chỉ có một bộ"
+      },
+      "correct_answer": "A",
+      "explanation": "1NF: thuộc tính đơn; ví dụ bung danh sách trụ sở."
+    },
+    {
+      "id": "csdl-07-020",
+      "topic": "1NF",
+      "difficulty": "medium",
+      "source_pages": [
+        36
+      ],
+      "question": "Nhận xét nào đúng về 1NF?",
+      "options": {
+        "A": "Mọi lược đồ quan hệ (theo định nghĩa quan hệ) thuộc 1NF; vẫn có thể trùng lặp/dị thường",
+        "B": "1NF loại bỏ mọi dị thường",
+        "C": "1NF = BCNF",
+        "D": "1NF cấm khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "1NF vẫn có thể dư thừa và dị thường cập nhật."
+    },
+    {
+      "id": "csdl-07-021",
+      "topic": "2NF",
+      "difficulty": "medium",
+      "source_pages": [
+        37
+      ],
+      "question": "2NF (theo khóa chính) yêu cầu?",
+      "options": {
+        "A": "Mọi thuộc tính không khóa phụ thuộc đầy đủ vào khóa chính",
+        "B": "Mọi thuộc tính đa trị",
+        "C": "Không có khóa chính",
+        "D": "Chỉ có PTH bắt cầu"
+      },
+      "correct_answer": "A",
+      "explanation": "Không còn PTH bộ phận từ khóa chính tới thuộc tính không khóa."
+    },
+    {
+      "id": "csdl-07-022",
+      "topic": "PTH đầy đủ/bộ phận",
+      "difficulty": "medium",
+      "source_pages": [
+        37
+      ],
+      "question": "PTH X→Y là đầy đủ khi?",
+      "options": {
+        "A": "Không có thuộc tính nào của X có thể bỏ mà vẫn suy ra Y",
+        "B": "X có đúng một thuộc tính luôn",
+        "C": "Y chứa X",
+        "D": "X = U"
+      },
+      "correct_answer": "A",
+      "explanation": "∀A∈X, (X−{A})→Y không đúng ⇒ đầy đủ; ngược lại là bộ phận."
+    },
+    {
+      "id": "csdl-07-023",
+      "topic": "2NF nhận xét",
+      "difficulty": "medium",
+      "source_pages": [
+        39
+      ],
+      "question": "Nếu R chỉ có một khóa và khóa có đúng 1 thuộc tính thì?",
+      "options": {
+        "A": "R thuộc 2NF",
+        "B": "R không thể 1NF",
+        "C": "R luôn BCNF",
+        "D": "R không có PTH"
+      },
+      "correct_answer": "A",
+      "explanation": "card(K)=1 ⇒ không PTH bộ phận từ khóa → 2NF."
+    },
+    {
+      "id": "csdl-07-024",
+      "topic": "3NF",
+      "difficulty": "medium",
+      "source_pages": [
+        40
+      ],
+      "question": "3NF (theo khóa chính) yêu cầu thêm so với 2NF?",
+      "options": {
+        "A": "Không còn phụ thuộc bắt cầu của thuộc tính không khóa vào khóa chính",
+        "B": "Cho phép mọi PTH bộ phận",
+        "C": "Cấm khóa ngoại",
+        "D": "Cấm 1NF"
+      },
+      "correct_answer": "A",
+      "explanation": "2NF + không PTH bắt cầu tới thuộc tính không khóa."
+    },
+    {
+      "id": "csdl-07-025",
+      "topic": "3NF",
+      "difficulty": "medium",
+      "source_pages": [
+        41
+      ],
+      "question": "Nhận xét nào đúng?",
+      "options": {
+        "A": "3NF ⇒ 2NF; PTH bắt cầu gây trùng lặp; 3NF là mức tối thiểu thường nhắm tới khi thiết kế",
+        "B": "2NF ⇒ 3NF luôn",
+        "C": "3NF cấm mọi khóa",
+        "D": "3NF = chỉ 1NF"
+      },
+      "correct_answer": "A",
+      "explanation": "3NF ⊂ 2NF về mặt chặt; mục tiêu tối thiểu thường là 3NF."
+    },
+    {
+      "id": "csdl-07-026",
+      "topic": "3NF tổng quát",
+      "difficulty": "hard",
+      "source_pages": [
+        43
+      ],
+      "question": "Định nghĩa 3NF tổng quát: với PTH không hiển nhiên X→A thì?",
+      "options": {
+        "A": "X là siêu khóa hoặc A là thuộc tính khóa",
+        "B": "X phải là khóa duy nhất và A không khóa",
+        "C": "A phải là siêu khóa",
+        "D": "X phải null"
+      },
+      "correct_answer": "A",
+      "explanation": "X superkey OR A prime attribute."
+    },
+    {
+      "id": "csdl-07-027",
+      "topic": "BCNF",
+      "difficulty": "hard",
+      "source_pages": [
+        44
+      ],
+      "question": "BCNF yêu cầu gì với mọi PTH không hiển nhiên X→Y?",
+      "options": {
+        "A": "X là siêu khóa",
+        "B": "Y là siêu khóa",
+        "C": "X là thuộc tính không khóa",
+        "D": "Y chứa X"
+      },
+      "correct_answer": "A",
+      "explanation": "BCNF: mọi PTH không tầm thường có vế trái là superkey; chặt hơn 3NF."
+    },
+    {
+      "id": "csdl-07-028",
+      "topic": "BCNF vs 3NF",
+      "difficulty": "medium",
+      "source_pages": [
+        46
+      ],
+      "question": "Nhận xét đúng về BCNF và 3NF?",
+      "options": {
+        "A": "BCNF ⇒ 3NF; BCNF đơn giản/chặt hơn; mục tiêu chuẩn hóa thường về 3NF hoặc BCNF",
+        "B": "3NF ⇒ BCNF luôn",
+        "C": "BCNF lỏng hơn 1NF",
+        "D": "BCNF cấm quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "BCNF mạnh hơn 3NF; có lược đồ 3NF nhưng không BCNF."
+    },
+    {
+      "id": "csdl-07-029",
+      "topic": "Thiết kế top-down",
+      "difficulty": "easy",
+      "source_pages": [
+        47
+      ],
+      "question": "Các bước thiết kế top-down gồm?",
+      "options": {
+        "A": "EER khái niệm → quan hệ → xác định PTH → chuẩn hóa loại PTH bộ phận/bắt cầu",
+        "B": "Chỉ viết SQL không thiết kế",
+        "C": "Chỉ tạo trigger",
+        "D": "Chỉ backup"
+      },
+      "correct_answer": "A",
+      "explanation": "Khái niệm EER → quan hệ → F → chuẩn hóa."
+    },
+    {
+      "id": "csdl-07-030",
+      "topic": "Phân rã",
+      "difficulty": "medium",
+      "source_pages": [
+        49
+      ],
+      "question": "Yêu cầu khi phân rã lược đồ gồm?",
+      "options": {
+        "A": "Bảo toàn thuộc tính; các Ri ở 3NF hoặc BCNF",
+        "B": "Mất hết thuộc tính",
+        "C": "Chỉ một Ri rỗng",
+        "D": "Bỏ F"
+      },
+      "correct_answer": "A",
+      "explanation": "Bảo toàn thuộc tính; chuẩn 3NF/BCNF."
+    },
+    {
+      "id": "csdl-07-031",
+      "topic": "Bảo toàn PTH",
+      "difficulty": "hard",
+      "source_pages": [
+        50
+      ],
+      "question": "Phân rã bảo toàn PTH nghĩa là?",
+      "options": {
+        "A": "(∪ π_Ri(F))+ = F+",
+        "B": "Chỉ |D|=1",
+        "C": "Mọi Ri rỗng",
+        "D": "F = ∅"
+      },
+      "correct_answer": "A",
+      "explanation": "Hợp các chiếu PTH lên các Ri bao đóng lại bằng F+."
+    },
+    {
+      "id": "csdl-07-032",
+      "topic": "Định lý 7.1",
+      "difficulty": "medium",
+      "source_pages": [
+        52
+      ],
+      "question": "Định lý 7.1 khẳng định?",
+      "options": {
+        "A": "Tồn tại phân rã bảo toàn PTH về các lược đồ 3NF",
+        "B": "Không tồn tại phân rã 3NF",
+        "C": "Mọi phân rã đều mất PTH",
+        "D": "Chỉ BCNF bảo toàn PTH luôn"
+      },
+      "correct_answer": "A",
+      "explanation": "Luôn có phân rã 3NF bảo toàn PTH (Thuật toán 7.4 từ phủ tối thiểu)."
+    },
+    {
+      "id": "csdl-07-033",
+      "topic": "Không mất thông tin",
+      "difficulty": "hard",
+      "source_pages": [
+        56
+      ],
+      "question": "Phân rã 2 thành phần {R1,R2} không mất thông tin đối với F khi?",
+      "options": {
+        "A": "(U1∩U2)→(U1−U2) ∈ F+ hoặc (U1∩U2)→(U2−U1) ∈ F+",
+        "B": "U1 ∩ U2 = ∅ luôn",
+        "C": "F rỗng",
+        "D": "Chỉ khi không có PTH"
+      },
+      "correct_answer": "A",
+      "explanation": "Định lý 7.2: giao xác định hiệu một phía."
+    },
+    {
+      "id": "csdl-07-034",
+      "topic": "Thuật toán BCNF",
+      "difficulty": "hard",
+      "source_pages": [
+        57
+      ],
+      "question": "Khi Q vi phạm BCNF vì X→Y, thuật toán tách Q thành?",
+      "options": {
+        "A": "Q1 = UQ − Y và Q2 = X ∪ Y",
+        "B": "Q1 = Y và Q2 = Y",
+        "C": "Q1 = UQ và Q2 = ∅",
+        "D": "Không tách"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuật toán 7.5: UQ1=UQ−Y, UQ2=X∪Y."
+    },
+    {
+      "id": "csdl-07-035",
+      "topic": "PTH bắt cầu",
+      "difficulty": "medium",
+      "source_pages": [
+        40
+      ],
+      "question": "X→Y là PTH bắt cầu nếu tồn tại Z sao cho?",
+      "options": {
+        "A": "X→Z, Z→Y và Z không phải khóa cũng không là tập con khóa",
+        "B": "Z = X",
+        "C": "Z = U luôn",
+        "D": "Z là khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Transitive FD qua Z không phải (tập con) khóa."
+    },
+    {
+      "id": "csdl-07-036",
+      "topic": "Ví dụ chuẩn hóa 2NF",
+      "difficulty": "medium",
+      "source_pages": [
+        38
+      ],
+      "question": "NVIEN_DUAN với khóa (MaNV,MaDA) và TenNV phụ thuộc chỉ MaNV thì?",
+      "options": {
+        "A": "Vi phạm 2NF do PTH bộ phận; cần tách quan hệ",
+        "B": "Đang BCNF chắc chắn",
+        "C": "Không có vấn đề",
+        "D": "Vi phạm chỉ vì null"
+      },
+      "correct_answer": "A",
+      "explanation": "TenNV phụ thuộc bộ phận khóa → tách NV_DA2(MaNV,TenNV)..."
+    }
+  ]
+}

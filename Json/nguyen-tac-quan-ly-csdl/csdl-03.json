@@ -1,0 +1,562 @@
+{
+  "chapter_id": "csdl-03",
+  "title": "L03 - Mô hình quan hệ",
+  "source_file": "L03-Mô hình Quan hệ.pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-03-001",
+      "topic": "Giới thiệu mô hình quan hệ",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Mô hình dữ liệu quan hệ dùng để thiết kế CSDL ở mức nào?",
+      "options": {
+        "A": "Mức logic",
+        "B": "Chỉ mức khái niệm ER",
+        "C": "Chỉ mức vật lý block",
+        "D": "Không dùng cho thiết kế"
+      },
+      "correct_answer": "A",
+      "explanation": "Mô hình quan hệ dùng thiết kế mức logic; có cơ sở lý thuyết tập hợp; dùng trong HQT CSDL thương mại."
+    },
+    {
+      "id": "csdl-03-002",
+      "topic": "Quan hệ",
+      "difficulty": "easy",
+      "source_pages": [
+        4,
+        5
+      ],
+      "question": "Trong mô hình quan hệ, dữ liệu được tổ chức như thế nào?",
+      "options": {
+        "A": "Thành các bảng hai chiều (table), mỗi bảng là một quan hệ",
+        "B": "Chỉ dạng cây phân cấp bắt buộc",
+        "C": "Chỉ dạng đồ thị mạng không bảng",
+        "D": "Chỉ dạng văn bản tự do"
+      },
+      "correct_answer": "A",
+      "explanation": "Dữ liệu tổ chức thành bảng 2 chiều; mỗi bảng là một quan hệ."
+    },
+    {
+      "id": "csdl-03-003",
+      "topic": "Quan hệ",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Trong quan hệ NHANVIEN, một dòng thường ứng với?",
+      "options": {
+        "A": "Một nhân viên (một bộ dữ liệu)",
+        "B": "Một thuộc tính của toàn quan hệ",
+        "C": "Toàn bộ CSDL",
+        "D": "Một khóa ngoại duy nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "Dòng ứng với một nhân viên; cột ứng với thuộc tính."
+    },
+    {
+      "id": "csdl-03-004",
+      "topic": "Thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Trong mô hình quan hệ cơ bản, kiểu dữ liệu phức nào không được áp dụng cho thuộc tính?",
+      "options": {
+        "A": "Tập hợp (set), danh sách (list), mảng (array)",
+        "B": "Chuỗi ký tự",
+        "C": "Số nguyên",
+        "D": "Số thực"
+      },
+      "correct_answer": "A",
+      "explanation": "Mỗi thuộc tính có kiểu cơ sở (string, integer, real...); set/list/array không được áp dụng."
+    },
+    {
+      "id": "csdl-03-005",
+      "topic": "Miền xác định",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Miền xác định (Domain) là gì?",
+      "options": {
+        "A": "Tập hợp các giá trị nguyên tử gắn với thuộc tính",
+        "B": "Tên của HQT CSDL",
+        "C": "Một trigger",
+        "D": "Một view vật lý"
+      },
+      "correct_answer": "A",
+      "explanation": "Domain: tập giá trị nguyên tử; có tên, kiểu, khuôn dạng, mô tả."
+    },
+    {
+      "id": "csdl-03-006",
+      "topic": "Bộ và lược đồ",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Bộ dữ liệu (tuple) là gì?",
+      "options": {
+        "A": "Các dòng của quan hệ (không kể dòng tên thuộc tính)",
+        "B": "Tên quan hệ",
+        "C": "Danh sách thuộc tính không có giá trị",
+        "D": "Catalog toàn cục"
+      },
+      "correct_answer": "A",
+      "explanation": "Bộ là các dòng chứa giá trị cụ thể của thuộc tính."
+    },
+    {
+      "id": "csdl-03-007",
+      "topic": "Bộ và lược đồ",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Lược đồ quan hệ NHANVIEN(MaNV, Ho, Ten, Ngaysinh, Gioitinh) gồm?",
+      "options": {
+        "A": "Tên quan hệ và danh sách các thuộc tính",
+        "B": "Chỉ các bộ dữ liệu hiện có",
+        "C": "Chỉ khóa ngoại",
+        "D": "Chỉ index"
+      },
+      "correct_answer": "A",
+      "explanation": "Lược đồ quan hệ = tên quan hệ + danh sách thuộc tính."
+    },
+    {
+      "id": "csdl-03-008",
+      "topic": "Định nghĩa hình thức",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Bậc của lược đồ quan hệ R là gì?",
+      "options": {
+        "A": "Số lượng thuộc tính của lược đồ",
+        "B": "Số bộ trong trạng thái hiện tại",
+        "C": "Số khóa ngoại",
+        "D": "Số view"
+      },
+      "correct_answer": "A",
+      "explanation": "Bậc của R = số thuộc tính của lược đồ."
+    },
+    {
+      "id": "csdl-03-009",
+      "topic": "Đặc trưng quan hệ",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Đặc trưng nào đúng với quan hệ?",
+      "options": {
+        "A": "Không có các bộ trùng nhau; về toán học không có thứ tự giữa các bộ",
+        "B": "Bắt buộc có bộ trùng; thứ tự bộ là một phần định nghĩa toán học",
+        "C": "Cho phép thuộc tính đa trị tự do trong 1NF cổ điển",
+        "D": "Null bị cấm tuyệt đối trong mọi trường hợp"
+      },
+      "correct_answer": "A",
+      "explanation": "Không bộ trùng; thứ tự bộ không quan trọng về mặt toán học; thứ tự giá trị trong bộ quan trọng; null biểu diễn chưa xác định/không áp dụng."
+    },
+    {
+      "id": "csdl-03-010",
+      "topic": "Ràng buộc toàn vẹn",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Ràng buộc toàn vẹn (RBTV) là gì?",
+      "options": {
+        "A": "Các điều kiện mà mọi trạng thái quan hệ phải tuân theo",
+        "B": "Chỉ tên bảng",
+        "C": "Chỉ kiểu font hiển thị",
+        "D": "Một giao thức mạng"
+      },
+      "correct_answer": "A",
+      "explanation": "RBTV: điều kiện mọi trạng thái phải tuân; xuất phát từ thế giới thu nhỏ CSDL biểu diễn."
+    },
+    {
+      "id": "csdl-03-011",
+      "topic": "Siêu khóa và khóa",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Siêu khóa (Super Key) đảm bảo điều gì?",
+      "options": {
+        "A": "Tính duy nhất: hai bộ khác nhau không trùng giá trị trên siêu khóa",
+        "B": "Mọi thuộc tính đều null",
+        "C": "Không có khóa chính",
+        "D": "Chỉ có một bộ trong quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "∀ t1 ≠ t2 ⇒ t1[SK] ≠ t2[SK]. Mọi lược đồ có ít nhất một siêu khóa."
+    },
+    {
+      "id": "csdl-03-012",
+      "topic": "Siêu khóa và khóa",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Khóa (Key) khác siêu khóa như thế nào?",
+      "options": {
+        "A": "Khóa là siêu khóa nhỏ nhất (không có tập con thực sự nào còn là siêu khóa)",
+        "B": "Khóa luôn lớn hơn siêu khóa",
+        "C": "Khóa không phải siêu khóa",
+        "D": "Khóa chỉ gồm toàn bộ thuộc tính bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "K là siêu khóa và mọi tập con thực sự của K không là siêu khóa → khóa là siêu khóa tối thiểu."
+    },
+    {
+      "id": "csdl-03-013",
+      "topic": "Khóa chính",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Khi một lược đồ có nhiều khóa chỉ định (candidate key), người ta thường?",
+      "options": {
+        "A": "Chọn một trong số đó làm khóa chính (primary key)",
+        "B": "Bỏ hết các khóa",
+        "C": "Dùng tất cả làm foreign key bắt buộc",
+        "D": "Chỉ giữ khóa dài nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "Có thể có nhiều candidate key; chọn một làm primary key; thuộc tính khóa được gạch dưới."
+    },
+    {
+      "id": "csdl-03-014",
+      "topic": "CSDL quan hệ",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Lược đồ CSDL quan hệ gồm?",
+      "options": {
+        "A": "Tập các lược đồ quan hệ S và tập RBTV IC",
+        "B": "Chỉ một bảng duy nhất không ràng buộc",
+        "C": "Chỉ dữ liệu instance",
+        "D": "Chỉ mật khẩu DBA"
+      },
+      "correct_answer": "A",
+      "explanation": "S = {R1,...,Rm} + IC; trạng thái hợp lệ nếu thỏa mọi RBTV."
+    },
+    {
+      "id": "csdl-03-015",
+      "topic": "RBTV thực thể",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "RBTV thực thể quy định gì?",
+      "options": {
+        "A": "Giá trị khóa chính không thể là giá trị rỗng (null)",
+        "B": "Khóa ngoại luôn null",
+        "C": "Mọi thuộc tính phải null",
+        "D": "Không có khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Entity integrity: khóa chính không null; xác định trên từng quan hệ."
+    },
+    {
+      "id": "csdl-03-016",
+      "topic": "RBTV tham chiếu",
+      "difficulty": "easy",
+      "source_pages": [
+        17,
+        18
+      ],
+      "question": "RBTV tham chiếu yêu cầu gì?",
+      "options": {
+        "A": "Bộ được tham chiếu trong quan hệ đích phải tồn tại trước",
+        "B": "Khóa ngoại luôn trỏ tới bộ không tồn tại",
+        "C": "Chỉ áp dụng trong một quan hệ duy nhất, không bao giờ giữa hai quan hệ",
+        "D": "Xóa catalog"
+      },
+      "correct_answer": "A",
+      "explanation": "Nếu bộ R tham chiếu bộ S thì bộ S phải tồn tại; xác định giữa hai quan hệ (hoặc tự tham chiếu)."
+    },
+    {
+      "id": "csdl-03-017",
+      "topic": "Khóa ngoại",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Khóa ngoại FK của R1 tham chiếu R2 cần thỏa điều nào?",
+      "options": {
+        "A": "FK cùng miền với PK của R2; mọi t1[FK] phải bằng t2[PK] của một bộ tồn tại trong R2",
+        "B": "FK khác miền hoàn toàn với PK",
+        "C": "FK không liên quan PK",
+        "D": "FK luôn là siêu khóa của R2"
+      },
+      "correct_answer": "A",
+      "explanation": "Hai điều kiện domain khớp và mọi giá trị FK phải khớp một PK tồn tại."
+    },
+    {
+      "id": "csdl-03-018",
+      "topic": "Khóa ngoại",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "Nhận xét nào đúng về khóa ngoại?",
+      "options": {
+        "A": "Khóa ngoại có thể tham chiếu khóa chính trong cùng lược đồ (tự tham chiếu)",
+        "B": "Một thuộc tính không thể vừa thuộc PK vừa thuộc FK",
+        "C": "Chỉ được có đúng một RBTV tham chiếu trong cả CSDL",
+        "D": "Không thể có nhiều FK trỏ cùng một PK"
+      },
+      "correct_answer": "A",
+      "explanation": "FK có thể tự tham chiếu; một thuộc tính có thể vừa PK vừa FK; có thể nhiều FK tới cùng PK."
+    },
+    {
+      "id": "csdl-03-019",
+      "topic": "Chuyển ER→quan hệ",
+      "difficulty": "easy",
+      "source_pages": [
+        21
+      ],
+      "question": "Chuyển kiểu thực thể mạnh sang quan hệ thường tạo ra?",
+      "options": {
+        "A": "Một quan hệ với các thuộc tính đơn (sau khi bung thuộc tính gộp) và khóa của thực thể",
+        "B": "Không tạo quan hệ nào",
+        "C": "Chỉ tạo view",
+        "D": "Chỉ tạo domain"
+      },
+      "correct_answer": "A",
+      "explanation": "Thực thể mạnh → quan hệ với thuộc tính và khóa tương ứng."
+    },
+    {
+      "id": "csdl-03-020",
+      "topic": "Chuyển ER→quan hệ",
+      "difficulty": "medium",
+      "source_pages": [
+        22
+      ],
+      "question": "Khi chuyển thực thể yếu THANNHAN, khóa của quan hệ thường gồm?",
+      "options": {
+        "A": "Khóa của thực thể mạnh (MaNV) kết hợp khóa bộ phận (Ten)",
+        "B": "Chỉ Ten, không cần MaNV",
+        "C": "Chỉ Gioitinh",
+        "D": "Không có khóa"
+      },
+      "correct_answer": "A",
+      "explanation": "Thực thể yếu: đưa khóa thực thể định danh vào quan hệ yếu + khóa bộ phận."
+    },
+    {
+      "id": "csdl-03-021",
+      "topic": "Chuyển liên kết 1:N",
+      "difficulty": "medium",
+      "source_pages": [
+        28
+      ],
+      "question": "Chuyển liên kết 1:N LAMVIEC (N phía NHANVIEN) thường làm gì?",
+      "options": {
+        "A": "Thêm khóa của PHONGBAN (MaPB) vào quan hệ NHANVIEN như khóa ngoại",
+        "B": "Tạo bảng riêng chỉ chứa MaNV",
+        "C": "Xóa NHANVIEN",
+        "D": "Thêm mọi thuộc tính NHANVIEN vào PHONGBAN bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "1:N: đưa khóa phía 1 sang phía N làm FK."
+    },
+    {
+      "id": "csdl-03-022",
+      "topic": "Chuyển liên kết M:N",
+      "difficulty": "medium",
+      "source_pages": [
+        29
+      ],
+      "question": "Chuyển liên kết M:N THAMGIA thường tạo ra?",
+      "options": {
+        "A": "Quan hệ mới có khóa gồm khóa hai phía (MaNV, MaDA) và thuộc tính của liên kết (SoGio)",
+        "B": "Chỉ thêm MaDA vào NHANVIEN",
+        "C": "Chỉ thêm MaNV vào DUAN",
+        "D": "Không cần quan hệ mới"
+      },
+      "correct_answer": "A",
+      "explanation": "M:N → quan hệ riêng chứa hai khóa + thuộc tính liên kết."
+    },
+    {
+      "id": "csdl-03-023",
+      "topic": "Chuyển thuộc tính đa trị",
+      "difficulty": "medium",
+      "source_pages": [
+        30
+      ],
+      "question": "Thuộc tính đa trị Truso của PHONGBAN được chuyển bằng cách?",
+      "options": {
+        "A": "Tạo quan hệ riêng TRUSO_PHONG(Truso, MaPB)",
+        "B": "Giữ nguyên một cột chứa danh sách trong PHONGBAN (theo mô hình quan hệ chuẩn)",
+        "C": "Xóa thuộc tính đa trị",
+        "D": "Chuyển thành khóa chính duy nhất của PHONGBAN"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuộc tính đa trị → quan hệ riêng gồm thuộc tính đa trị + khóa thực thể sở hữu."
+    },
+    {
+      "id": "csdl-03-024",
+      "topic": "Chuyển liên kết 1:1",
+      "difficulty": "hard",
+      "source_pages": [
+        24,
+        25
+      ],
+      "question": "Một cách chuyển liên kết 1:1 QUANLY giữa NHANVIEN và PHONGBAN là?",
+      "options": {
+        "A": "Đưa khóa MaNV vào PHONGBAN làm TrPhong (FK) cùng thuộc tính NgayNhChuc",
+        "B": "Luôn tạo 3 quan hệ trung gian bắt buộc",
+        "C": "Không thể biểu diễn 1:1 trong mô hình quan hệ",
+        "D": "Chỉ dùng thuộc tính đa trị"
+      },
+      "correct_answer": "A",
+      "explanation": "1:1: có thể đưa khóa một phía sang phía kia; ví dụ TrPhong trong PHONGBAN."
+    },
+    {
+      "id": "csdl-03-025",
+      "topic": "Chuyển liên kết bậc cao",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Chuyển liên kết tam phân CUNGCAP thường tạo?",
+      "options": {
+        "A": "Quan hệ CUNGCAP với khóa gồm các khóa của ba thực thể (+ thuộc tính Soluong)",
+        "B": "Chỉ một cột trong NHACUNGCAP",
+        "C": "Không cần quan hệ",
+        "D": "Chỉ domain"
+      },
+      "correct_answer": "A",
+      "explanation": "Liên kết bậc cao → quan hệ chứa khóa các phía tham gia + thuộc tính liên kết."
+    },
+    {
+      "id": "csdl-03-026",
+      "topic": "Chuyển EER",
+      "difficulty": "medium",
+      "source_pages": [
+        32
+      ],
+      "question": "Một cách chuyển chuyên biệt hóa NHANVIEN với các lớp con là?",
+      "options": {
+        "A": "Giữ quan hệ NHANVIEN và tạo quan hệ lớp con có MaNV làm PK/FK",
+        "B": "Xóa lớp cha hoàn toàn luôn luôn",
+        "C": "Gộp mọi lớp con thành một thuộc tính đa trị duy nhất bắt buộc",
+        "D": "Không chuyển được CBH sang quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ: NHANVIEN + BANHANG/KYTHUAT/KYSUPHANMEM với MaNV liên kết."
+    },
+    {
+      "id": "csdl-03-027",
+      "topic": "Ký hiệu",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Ký hiệu t[Ai] hoặc t.Ai nghĩa là gì?",
+      "options": {
+        "A": "Giá trị của thuộc tính Ai trong bộ t",
+        "B": "Tên lược đồ",
+        "C": "Số bộ của quan hệ",
+        "D": "Miền xác định của Ai"
+      },
+      "correct_answer": "A",
+      "explanation": "t[Ai], t.Ai là giá trị thuộc tính Ai trong bộ t."
+    },
+    {
+      "id": "csdl-03-028",
+      "topic": "Đặc trưng quan hệ",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Giá trị null trong bộ dùng để biểu diễn?",
+      "options": {
+        "A": "Giá trị chưa xác định hoặc không thể áp dụng",
+        "B": "Luôn bằng 0",
+        "C": "Luôn bằng chuỗi rỗng bắt buộc",
+        "D": "Khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Null: chưa xác định hoặc không áp dụng cho thuộc tính."
+    },
+    {
+      "id": "csdl-03-029",
+      "topic": "Ràng buộc mô hình",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Ba loại RBTV chính theo bài giảng mô hình quan hệ là?",
+      "options": {
+        "A": "Dựa trên bản chất mô hình; dựa trên lược đồ; dựa trên ứng dụng",
+        "B": "Chỉ dựa trên ứng dụng",
+        "C": "Chỉ dựa trên phần cứng",
+        "D": "Chỉ dựa trên giao diện"
+      },
+      "correct_answer": "A",
+      "explanation": "Ba loại: bản chất mô hình, lược đồ, ứng dụng."
+    },
+    {
+      "id": "csdl-03-030",
+      "topic": "Trạng thái hợp lệ",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Trạng thái CSDL được gọi là hợp lệ khi nào?",
+      "options": {
+        "A": "Khi thỏa mọi RBTV trong IC",
+        "B": "Khi có ít nhất một null",
+        "C": "Khi không có khóa chính",
+        "D": "Khi chỉ có một bảng"
+      },
+      "correct_answer": "A",
+      "explanation": "Trạng thái hợp lệ nếu thỏa mọi RBTV."
+    },
+    {
+      "id": "csdl-03-031",
+      "topic": "Chuyển 1:1 trường hợp đặc biệt",
+      "difficulty": "hard",
+      "source_pages": [
+        26
+      ],
+      "question": "Khi liên kết 1:1 và cả hai phía tham gia bắt buộc, một phương án là?",
+      "options": {
+        "A": "Gộp hai thực thể vào một quan hệ (ví dụ CLB_SVD)",
+        "B": "Luôn dùng thuộc tính đa trị",
+        "C": "Không biểu diễn được",
+        "D": "Chỉ dùng chia quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ CLB–SVD sở hữu 1:1 có thể gộp thành CLB_SVD."
+    },
+    {
+      "id": "csdl-03-032",
+      "topic": "Quan hệ",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Quan hệ có thể chứa dữ liệu của?",
+      "options": {
+        "A": "Một tập thực thể hoặc một tập liên kết",
+        "B": "Chỉ tập thực thể, không bao giờ liên kết",
+        "C": "Chỉ meta-data catalog",
+        "D": "Chỉ log hệ thống"
+      },
+      "correct_answer": "A",
+      "explanation": "Quan hệ chứa dữ liệu tập thực thể hoặc tập liên kết."
+    }
+  ]
+}

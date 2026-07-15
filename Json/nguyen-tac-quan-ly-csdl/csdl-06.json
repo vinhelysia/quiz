@@ -1,0 +1,526 @@
+{
+  "chapter_id": "csdl-06",
+  "title": "L06 - Ràng buộc toàn vẹn",
+  "source_file": "L06-Ràng buộc toàn vẹn.pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-06-001",
+      "topic": "Giới thiệu RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Ràng buộc toàn vẹn là gì?",
+      "options": {
+        "A": "Các điều kiện mọi trạng thái quan hệ phải thỏa ở bất kỳ thời điểm nào",
+        "B": "Chỉ tên cột",
+        "C": "Chỉ giao diện người dùng",
+        "D": "Một loại index"
+      },
+      "correct_answer": "A",
+      "explanation": "RBTV: điều kiện trạng thái phải thỏa; xuất phát từ quy tắc quản lý thế giới thực."
+    },
+    {
+      "id": "csdl-06-002",
+      "topic": "Mục đích RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Mục đích của RBTV gồm?",
+      "options": {
+        "A": "Đảm bảo tính nhất quán dữ liệu và ngữ nghĩa thực tế của CSDL",
+        "B": "Chỉ tăng tốc SELECT",
+        "C": "Chỉ định dạng in ấn",
+        "D": "Loại bỏ khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhất quán (ví dụ giám sát phải là NV) và ngữ nghĩa (ngày nhận chức > ngày sinh...)."
+    },
+    {
+      "id": "csdl-06-003",
+      "topic": "Ba yếu tố RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "RBTV có 3 yếu tố nào?",
+      "options": {
+        "A": "Nội dung, bối cảnh, bảng tầm ảnh hưởng",
+        "B": "Chỉ nội dung",
+        "C": "Chỉ SQL và index",
+        "D": "Chỉ trigger và view"
+      },
+      "correct_answer": "A",
+      "explanation": "Nội dung – bối cảnh – bảng tầm ảnh hưởng."
+    },
+    {
+      "id": "csdl-06-004",
+      "topic": "Nội dung RBTV",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Nội dung RBTV có thể phát biểu bằng?",
+      "options": {
+        "A": "Ngôn ngữ tự nhiên hoặc ngôn ngữ hình thức (đại số/phép tính quan hệ, mã giả)",
+        "B": "Chỉ hình ảnh",
+        "C": "Chỉ màu sắc UI",
+        "D": "Chỉ tên server"
+      },
+      "correct_answer": "A",
+      "explanation": "Tự nhiên (dễ hiểu) hoặc hình thức (toán học)."
+    },
+    {
+      "id": "csdl-06-005",
+      "topic": "Bối cảnh",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Bối cảnh của RBTV là gì?",
+      "options": {
+        "A": "Những quan hệ mà RBTV có hiệu lực (một hoặc nhiều quan hệ)",
+        "B": "Chỉ thời gian chạy query",
+        "C": "Chỉ quyền DBA",
+        "D": "Tên miền mạng"
+      },
+      "correct_answer": "A",
+      "explanation": "Bối cảnh = quan hệ chịu hiệu lực RBTV."
+    },
+    {
+      "id": "csdl-06-006",
+      "topic": "Bảng tầm ảnh hưởng",
+      "difficulty": "medium",
+      "source_pages": [
+        7
+      ],
+      "question": "Bảng tầm ảnh hưởng dùng để?",
+      "options": {
+        "A": "Xác định thời điểm cần kiểm tra RBTV khi thêm/xóa/sửa trên bối cảnh",
+        "B": "Vẽ ER",
+        "C": "Tính lương",
+        "D": "Sao lưu"
+      },
+      "correct_answer": "A",
+      "explanation": "Xác định thao tác nào (+/−) cần kiểm tra RBTV."
+    },
+    {
+      "id": "csdl-06-007",
+      "topic": "Bảng tầm ảnh hưởng",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Với RBTV “mỗi NV có mã riêng” (khóa), thao tác nào trên NHANVIEN cần kiểm tra?",
+      "options": {
+        "A": "Thêm (và thường khi sửa mã); xóa không ảnh hưởng tính duy nhất còn lại theo bảng ví dụ",
+        "B": "Chỉ xóa",
+        "C": "Không bao giờ",
+        "D": "Chỉ SELECT"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ RB-1: Thêm +, Xóa −, Sửa − (trên MaNV theo bảng bài giảng)."
+    },
+    {
+      "id": "csdl-06-008",
+      "topic": "Phân loại RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "RBTV có bối cảnh một quan hệ gồm các loại?",
+      "options": {
+        "A": "Miền giá trị, liên thuộc tính, liên bộ",
+        "B": "Chỉ tham chiếu",
+        "C": "Chỉ thuộc tính tổng hợp",
+        "D": "Chỉ liên quan hệ"
+      },
+      "correct_answer": "A",
+      "explanation": "Một quan hệ: miền giá trị, liên thuộc tính, liên bộ."
+    },
+    {
+      "id": "csdl-06-009",
+      "topic": "Phân loại RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "RBTV có bối cảnh nhiều quan hệ gồm?",
+      "options": {
+        "A": "Tham chiếu; liên thuộc tính–liên quan hệ; liên bộ–liên quan hệ; thuộc tính tổng hợp",
+        "B": "Chỉ miền giá trị",
+        "C": "Chỉ liên bộ trong một bảng",
+        "D": "Chỉ DEFAULT"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhiều quan hệ: tham chiếu, liên tt-liên QH, liên bộ-liên QH, thuộc tính tổng hợp."
+    },
+    {
+      "id": "csdl-06-010",
+      "topic": "RBTV miền giá trị",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "“Lương nhân viên không thấp hơn 10.000” là RBTV loại nào?",
+      "options": {
+        "A": "RBTV miền giá trị",
+        "B": "RBTV tham chiếu",
+        "C": "RBTV thuộc tính tổng hợp",
+        "D": "Liên kết M:N"
+      },
+      "correct_answer": "A",
+      "explanation": "Ràng buộc trên miền/giá trị thuộc tính (CHECK domain)."
+    },
+    {
+      "id": "csdl-06-011",
+      "topic": "RBTV liên thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "“Ngày xếp lương > ngày sinh” trên cùng bộ NHANVIEN là?",
+      "options": {
+        "A": "RBTV liên thuộc tính",
+        "B": "RBTV tham chiếu liên quan hệ",
+        "C": "RBTV thuộc tính tổng hợp",
+        "D": "Outer join"
+      },
+      "correct_answer": "A",
+      "explanation": "Liên thuộc tính: quan hệ giữa các thuộc tính trong cùng bộ/quan hệ."
+    },
+    {
+      "id": "csdl-06-012",
+      "topic": "RBTV liên thuộc tính",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "“Nhân viên không được giám sát chính mình” (MaGSat ≠ MaNV) là?",
+      "options": {
+        "A": "RBTV liên thuộc tính",
+        "B": "RBTV miền giá trị thuần túy không liên thuộc tính",
+        "C": "Phép chia",
+        "D": "Natural join"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-8: liên thuộc tính trên cùng bộ."
+    },
+    {
+      "id": "csdl-06-013",
+      "topic": "RBTV liên bộ",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "RBTV liên bộ nói về?",
+      "options": {
+        "A": "Sự tồn tại/phụ thuộc giữa các bộ; trường hợp đặc biệt là ràng buộc khóa chính",
+        "B": "Chỉ kiểu dữ liệu cột",
+        "C": "Chỉ font chữ",
+        "D": "Chỉ tên schema"
+      },
+      "correct_answer": "A",
+      "explanation": "Liên bộ: bộ này phụ thuộc bộ khác; PK là trường hợp đặc biệt."
+    },
+    {
+      "id": "csdl-06-014",
+      "topic": "RBTV tham chiếu",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "“Chỉ NV công ty mới tham gia dự án công ty” (THAMGIA phụ thuộc NHANVIEN và DUAN) là?",
+      "options": {
+        "A": "RBTV tham chiếu",
+        "B": "RBTV miền giá trị đơn",
+        "C": "Phép hội",
+        "D": "View"
+      },
+      "correct_answer": "A",
+      "explanation": "Tồn tại bộ THAMGIA phụ thuộc tồn tại NV và DA tương ứng."
+    },
+    {
+      "id": "csdl-06-015",
+      "topic": "RBTV tham chiếu",
+      "difficulty": "hard",
+      "source_pages": [
+        18
+      ],
+      "question": "RBTV “người giám sát (nếu có) phải là một nhân viên” cho thấy?",
+      "options": {
+        "A": "RBTV tham chiếu có thể có bối cảnh là một quan hệ (tự tham chiếu)",
+        "B": "Tham chiếu luôn cần ≥ 3 quan hệ",
+        "C": "Không thể tự tham chiếu",
+        "D": "Chỉ dùng UNION"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-11: tham chiếu trong cùng NHANVIEN."
+    },
+    {
+      "id": "csdl-06-016",
+      "topic": "RBTV liên tt – liên QH",
+      "difficulty": "medium",
+      "source_pages": [
+        19
+      ],
+      "question": "“Ngày nhận chức trưởng phòng > ngày sinh NV trưởng phòng” là?",
+      "options": {
+        "A": "RBTV liên thuộc tính – liên quan hệ",
+        "B": "RBTV miền giá trị một cột đơn không liên quan hệ",
+        "C": "Chỉ PRIMARY KEY",
+        "D": "Chỉ INDEX"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-12: thuộc tính trên PHONGBAN và NHANVIEN."
+    },
+    {
+      "id": "csdl-06-017",
+      "topic": "RBTV liên bộ – liên QH",
+      "difficulty": "medium",
+      "source_pages": [
+        20
+      ],
+      "question": "“Lương NV không cao hơn lương trưởng phòng” là?",
+      "options": {
+        "A": "RBTV liên bộ – liên quan hệ",
+        "B": "RBTV miền giá trị tĩnh một hằng",
+        "C": "Chỉ UNIQUE",
+        "D": "Chỉ DOMAIN"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-13: so sánh bộ NV với bộ trưởng phòng qua PHONGBAN."
+    },
+    {
+      "id": "csdl-06-018",
+      "topic": "RBTV thuộc tính tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "“TongLuong phòng = tổng lương các NV phòng đó” là?",
+      "options": {
+        "A": "RBTV thuộc tính tổng hợp",
+        "B": "RBTV khóa chính",
+        "C": "Phép chiếu",
+        "D": "Đổi tên"
+      },
+      "correct_answer": "A",
+      "explanation": "Thuộc tính tính từ thuộc tính/bộ quan hệ khác."
+    },
+    {
+      "id": "csdl-06-019",
+      "topic": "Cài đặt RBTV",
+      "difficulty": "easy",
+      "source_pages": [
+        22
+      ],
+      "question": "Các cơ chế cài đặt RBTV theo bài giảng gồm?",
+      "options": {
+        "A": "Primary key, Foreign key, Check, Assertion, Trigger, Stored Procedure",
+        "B": "Chỉ SELECT và ORDER BY",
+        "C": "Chỉ GUI validation",
+        "D": "Chỉ file CSV"
+      },
+      "correct_answer": "A",
+      "explanation": "PK, FK, CHECK, ASSERTION, TRIGGER, STORED PROCEDURE."
+    },
+    {
+      "id": "csdl-06-020",
+      "topic": "Assertion",
+      "difficulty": "medium",
+      "source_pages": [
+        23
+      ],
+      "question": "Assertion trong SQL dùng để?",
+      "options": {
+        "A": "Phát biểu điều kiện toàn vẹn (thường liên quan nhiều bảng) bằng CREATE ASSERTION ... CHECK",
+        "B": "Tạo index",
+        "C": "Xóa database",
+        "D": "Chỉ đổi tên cột"
+      },
+      "correct_answer": "A",
+      "explanation": "create assertion <tên> check <điều kiện>."
+    },
+    {
+      "id": "csdl-06-021",
+      "topic": "Trigger",
+      "difficulty": "medium",
+      "source_pages": [
+        25
+      ],
+      "question": "Mô hình ECA của trigger gồm?",
+      "options": {
+        "A": "Sự kiện – Điều kiện – Hành động",
+        "B": "Chỉ sự kiện",
+        "C": "Entity – Column – Attribute",
+        "D": "Export – Copy – Archive"
+      },
+      "correct_answer": "A",
+      "explanation": "ECA: Event–Condition–Action."
+    },
+    {
+      "id": "csdl-06-022",
+      "topic": "Trigger",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Trigger có thể kích hoạt AFTER/BEFORE trên sự kiện nào?",
+      "options": {
+        "A": "INSERT, DELETE, UPDATE",
+        "B": "Chỉ SELECT",
+        "C": "Chỉ CREATE TABLE",
+        "D": "Chỉ GRANT"
+      },
+      "correct_answer": "A",
+      "explanation": "after|before insert|delete|update on <bảng>."
+    },
+    {
+      "id": "csdl-06-023",
+      "topic": "Stored Procedure",
+      "difficulty": "easy",
+      "source_pages": [
+        28
+      ],
+      "question": "Stored Procedure là gì?",
+      "options": {
+        "A": "Thủ tục/hàm lưu trong lược đồ CSDL, gọi được từ SQL",
+        "B": "Một loại khóa ngoại",
+        "C": "Một view chỉ đọc bắt buộc",
+        "D": "Một domain"
+      },
+      "correct_answer": "A",
+      "explanation": "Procedure lưu trong schema; exec <tên> <tham số>."
+    },
+    {
+      "id": "csdl-06-024",
+      "topic": "Ví dụ RB",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "“Mỗi nhân viên chỉ tham gia không quá 3 dự án” thuộc nhóm nào gần nhất?",
+      "options": {
+        "A": "RBTV liên bộ (trên THAMGIA)",
+        "B": "RBTV miền giá trị một hằng lương",
+        "C": "Chỉ PRIMARY KEY MaNV",
+        "D": "Natural join"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-3: card tham gia theo MaNV ≤ 3 — liên bộ."
+    },
+    {
+      "id": "csdl-06-025",
+      "topic": "Ví dụ RB",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "“Mỗi phòng ban phải có ít nhất một nhân viên” là?",
+      "options": {
+        "A": "RBTV liên bộ – liên quan hệ (tồn tại NV thuộc phòng)",
+        "B": "RBTV miền giá trị TenPB",
+        "C": "Chỉ UNIQUE TenPB",
+        "D": "Phép chia"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-4: ∀ phòng ∃ NV thuộc phòng."
+    },
+    {
+      "id": "csdl-06-026",
+      "topic": "Tầm ảnh hưởng tham chiếu",
+      "difficulty": "hard",
+      "source_pages": [
+        16
+      ],
+      "question": "Với RBTV tham chiếu THAMGIA → NHANVIEN/DUAN, khi nào cần kiểm tra trên NHANVIEN?",
+      "options": {
+        "A": "Khi xóa (và có thể sửa khóa) nhân viên được tham chiếu",
+        "B": "Chỉ khi SELECT",
+        "C": "Không bao giờ",
+        "D": "Chỉ khi tạo DOMAIN"
+      },
+      "correct_answer": "A",
+      "explanation": "Bảng RB-9: NHANVIEN Xóa +; THAMGIA Thêm +."
+    },
+    {
+      "id": "csdl-06-027",
+      "topic": "Assertion ví dụ",
+      "difficulty": "hard",
+      "source_pages": [
+        23,
+        24
+      ],
+      "question": "Assertion kiểm tra “không tồn tại phòng có ngày nhận chức < ngày sinh trưởng phòng” thường dùng kỹ thuật?",
+      "options": {
+        "A": "CHECK (NOT EXISTS (SELECT ... WHERE điều kiện vi phạm))",
+        "B": "ORDER BY NgSinh",
+        "C": "DISTINCT TrPhong",
+        "D": "UNION ALL"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ RB_12: not exists select ... NgSinh > NgNhanChuc."
+    },
+    {
+      "id": "csdl-06-028",
+      "topic": "Trigger ví dụ",
+      "difficulty": "hard",
+      "source_pages": [
+        27
+      ],
+      "question": "Trigger chặn lương NV cao hơn lương giám sát thường đặt?",
+      "options": {
+        "A": "BEFORE INSERT OR UPDATE OF Luong ... WHEN (new.Luong > ... ) báo lỗi",
+        "B": "AFTER SELECT",
+        "C": "BEFORE DROP DATABASE",
+        "D": "ONLY ON COMMIT DDL"
+      },
+      "correct_answer": "A",
+      "explanation": "Ví dụ RB_13: before insert/update of Luong, so sánh new.Luong với lương giám sát."
+    },
+    {
+      "id": "csdl-06-029",
+      "topic": "Phân loại mục đích",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Mục đích phân loại RBTV theo bối cảnh là?",
+      "options": {
+        "A": "Giúp người thiết kế phát hiện các RBTV của một CSDL",
+        "B": "Chỉ để trang trí tài liệu",
+        "C": "Thay thế ER",
+        "D": "Xóa dữ liệu định kỳ"
+      },
+      "correct_answer": "A",
+      "explanation": "Phân loại giúp phát hiện RBTV khi thiết kế."
+    },
+    {
+      "id": "csdl-06-030",
+      "topic": "Miền giá trị động",
+      "difficulty": "hard",
+      "source_pages": [
+        13
+      ],
+      "question": "RBTV “khi lương đổi thì ngày xếp lương phải tăng” mang tính?",
+      "options": {
+        "A": "Ràng buộc trên sự chuyển trạng thái (trước/sau cập nhật)",
+        "B": "Chỉ UNIQUE tĩnh",
+        "C": "Chỉ FOREIGN KEY tĩnh",
+        "D": "Không phải RBTV"
+      },
+      "correct_answer": "A",
+      "explanation": "RB-6: so sánh bộ trước và sau cập nhật (τ)."
+    }
+  ]
+}

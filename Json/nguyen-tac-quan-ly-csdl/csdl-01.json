@@ -1,0 +1,563 @@
+{
+  "chapter_id": "csdl-01",
+  "title": "L01 - Tổng quan về cơ sở dữ liệu",
+  "source_file": "L01-Tổng quan về cơ sở dữ liệu.pptx",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX hoặc MathJax"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "csdl-01-001",
+      "topic": "Khái niệm dữ liệu và thông tin",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo bài giảng, dữ liệu được hiểu là gì?",
+      "options": {
+        "A": "Những gì mang lại sự hiểu biết cho con người về hiện tượng, sự vật",
+        "B": "Những gì có thật, có thể lưu lại và có ý nghĩa ngầm định",
+        "C": "Chỉ là các con số thống kê trên máy tính",
+        "D": "Kết quả sau khi con người đã hiểu biết đầy đủ về sự vật"
+      },
+      "correct_answer": "B",
+      "explanation": "Dữ liệu là những gì có thật và có thể lưu lại, có ý nghĩa ngầm định. Thông tin mới là thứ mang lại sự hiểu biết cho con người."
+    },
+    {
+      "id": "csdl-01-002",
+      "topic": "Khái niệm dữ liệu và thông tin",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Thông tin được quản lý trên máy tính thông qua yếu tố nào?",
+      "options": {
+        "A": "Các chương trình ứng dụng",
+        "B": "Các dữ liệu",
+        "C": "Hệ điều hành",
+        "D": "Mạng máy tính"
+      },
+      "correct_answer": "B",
+      "explanation": "Thông tin được quản lý trên máy tính thông qua các dữ liệu."
+    },
+    {
+      "id": "csdl-01-003",
+      "topic": "Khái niệm CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "CSDL (Database) là gì?",
+      "options": {
+        "A": "Một chương trình phần mềm duy nhất để nhập liệu",
+        "B": "Tập hợp các dữ liệu có liên quan với nhau",
+        "C": "Chỉ là danh sách tên người dùng hệ thống",
+        "D": "Một tập tin Excel bất kỳ"
+      },
+      "correct_answer": "B",
+      "explanation": "CSDL là tập hợp các dữ liệu có liên quan với nhau, biểu diễn một phần thế giới thực, được thiết kế với mục đích xác định."
+    },
+    {
+      "id": "csdl-01-004",
+      "topic": "Khái niệm CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Tính chất nào sau đây đúng với CSDL theo bài giảng?",
+      "options": {
+        "A": "Biểu diễn toàn bộ thế giới thực không giới hạn",
+        "B": "Tập hợp dữ liệu lỏng lẻo về logic, không cần mục đích",
+        "C": "Biểu diễn một phần thế giới thực; tập hợp dữ liệu chặt chẽ về logic; có mục đích xác định",
+        "D": "Chỉ phục vụ một người dùng duy nhất, không chia sẻ"
+      },
+      "correct_answer": "C",
+      "explanation": "CSDL biểu diễn một phần thế giới thực, dữ liệu chặt chẽ về logic, được thiết kế với mục đích xác định phục vụ nhóm người và ứng dụng nhất định."
+    },
+    {
+      "id": "csdl-01-005",
+      "topic": "HQT CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "HQT CSDL (DBMS) là gì?",
+      "options": {
+        "A": "Tập hợp các chương trình cho phép tạo và duy trì CSDL trên máy tính",
+        "B": "Chỉ là phần cứng lưu trữ dữ liệu",
+        "C": "Một loại mạng máy tính",
+        "D": "Chỉ là ngôn ngữ lập trình"
+      },
+      "correct_answer": "A",
+      "explanation": "HQT CSDL là tập hợp các chương trình cho phép tạo và duy trì cơ sở dữ liệu trên máy tính."
+    },
+    {
+      "id": "csdl-01-006",
+      "topic": "HQT CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Chức năng nào không được bài giảng liệt kê trong vai trò của HQT CSDL?",
+      "options": {
+        "A": "Định nghĩa kiểu dữ liệu, cấu trúc, ràng buộc",
+        "B": "Xử lý: truy vấn, cập nhật, sinh báo cáo",
+        "C": "Bảo vệ an toàn hệ thống và bảo mật",
+        "D": "Thay thế hoàn toàn hệ điều hành"
+      },
+      "correct_answer": "D",
+      "explanation": "HQT CSDL giúp định nghĩa, xây dựng, xử lý, chia sẻ, bảo vệ và duy trì CSDL — không thay thế hệ điều hành."
+    },
+    {
+      "id": "csdl-01-007",
+      "topic": "Hệ thống xử lý tập tin",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Đặc trưng chính của hệ thống xử lý tập tin là gì?",
+      "options": {
+        "A": "Mọi ứng dụng dùng chung một CSDL duy nhất",
+        "B": "Tập trung xử lý riêng lẻ; mỗi ứng dụng thiết kế nhiều tập tin dữ liệu riêng",
+        "C": "Tự động đảm bảo nhất quán dữ liệu giữa các ứng dụng",
+        "D": "Không có dư thừa dữ liệu"
+      },
+      "correct_answer": "B",
+      "explanation": "Hệ thống xử lý tập tin tập trung xử lý riêng lẻ; mỗi ứng dụng có nhiều tập tin dữ liệu riêng."
+    },
+    {
+      "id": "csdl-01-008",
+      "topic": "Hệ thống xử lý tập tin",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Nhược điểm nào sau đây thuộc hệ thống xử lý tập tin?",
+      "options": {
+        "A": "Dư thừa và trùng lặp dữ liệu; không nhất quán khi cập nhật",
+        "B": "Quá nhiều ràng buộc toàn vẹn",
+        "C": "Chỉ hỗ trợ truy vấn SQL",
+        "D": "Bắt buộc dùng kiến trúc 3 lược đồ"
+      },
+      "correct_answer": "A",
+      "explanation": "Nhược điểm: dư thừa/trùng lặp, không nhất quán, khó truy xuất, cô lập dữ liệu, vấn đề tin cậy, đồng thời và an toàn."
+    },
+    {
+      "id": "csdl-01-009",
+      "topic": "Đặc điểm CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Tính tự mô tả của hệ CSDL nghĩa là gì?",
+      "options": {
+        "A": "CSDL chỉ chứa dữ liệu, không chứa định nghĩa cấu trúc",
+        "B": "Hệ CSDL chứa cả CSDL và định nghĩa đầy đủ về cấu trúc, ràng buộc (siêu dữ liệu trong catalog)",
+        "C": "Người dùng phải tự nhớ cấu trúc bảng",
+        "D": "Không cần catalog"
+      },
+      "correct_answer": "B",
+      "explanation": "Hệ CSDL không chỉ chứa dữ liệu mà còn chứa định nghĩa cấu trúc và ràng buộc, lưu trong catalog (meta-data)."
+    },
+    {
+      "id": "csdl-01-010",
+      "topic": "Đặc điểm CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Tính độc lập giữa chương trình và dữ liệu dựa trên điều gì?",
+      "options": {
+        "A": "Mọi ứng dụng hard-code cấu trúc tập tin",
+        "B": "Cấu trúc CSDL được lưu trong catalog, HQT CSDL che giấu chi tiết lưu trữ",
+        "C": "Không dùng mô hình dữ liệu",
+        "D": "Chỉ có một người dùng duy nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "Cấu trúc lưu trong catalog; trừu tượng hóa dữ liệu che giấu chi tiết lưu trữ → độc lập chương trình–dữ liệu."
+    },
+    {
+      "id": "csdl-01-011",
+      "topic": "Đặc điểm CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        15
+      ],
+      "question": "Cách nhìn (view) trong CSDL là gì?",
+      "options": {
+        "A": "Một phần của CSDL hoặc dữ liệu dẫn xuất từ CSDL mà người dùng quan tâm",
+        "B": "Toàn bộ bộ nhớ vật lý của máy chủ",
+        "C": "Chỉ là giao diện đồ họa của HQT CSDL",
+        "D": "Một bản sao offline không liên quan CSDL"
+      },
+      "correct_answer": "A",
+      "explanation": "Một cách nhìn là một phần CSDL hoặc dữ liệu được dẫn xuất từ CSDL."
+    },
+    {
+      "id": "csdl-01-012",
+      "topic": "Người sử dụng CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Người quản trị CSDL (DBA) có trách nhiệm nào sau đây?",
+      "options": {
+        "A": "Chỉ viết mã ứng dụng web",
+        "B": "Cấp quyền truy nhập, điều hành giám sát sử dụng, yêu cầu tài nguyên phần cứng/mềm khi cần",
+        "C": "Chỉ nhập dữ liệu hàng ngày",
+        "D": "Chỉ thiết kế logo hệ thống"
+      },
+      "correct_answer": "B",
+      "explanation": "DBA cấp quyền, giám sát sử dụng và yêu cầu tài nguyên khi cần."
+    },
+    {
+      "id": "csdl-01-013",
+      "topic": "Người sử dụng CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Người thiết kế CSDL (Database Designer) chịu trách nhiệm chính nào?",
+      "options": {
+        "A": "Xác định dữ liệu lưu trữ và chọn cấu trúc biểu diễn/lưu trữ phù hợp",
+        "B": "Chỉ vận hành máy chủ 24/7",
+        "C": "Chỉ bán phần mềm HQT CSDL",
+        "D": "Chỉ gỡ lỗi hệ điều hành"
+      },
+      "correct_answer": "A",
+      "explanation": "Database Designer xác định dữ liệu được lưu trữ, chọn cấu trúc thích hợp, liên hệ người dùng để nắm yêu cầu."
+    },
+    {
+      "id": "csdl-01-014",
+      "topic": "Người sử dụng CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Người sử dụng thường xuyên thường làm gì?",
+      "options": {
+        "A": "Chỉ truy cập CSDL một lần mỗi năm bằng ngôn ngữ truy vấn thô",
+        "B": "Truy vấn và cập nhật dữ liệu thường xuyên, dùng các giao tác được đóng gói",
+        "C": "Tự cài đặt HQT CSDL mới",
+        "D": "Chỉ quản trị quyền truy cập"
+      },
+      "correct_answer": "B",
+      "explanation": "Người dùng thường xuyên (ví dụ nhân viên) truy vấn/cập nhật thường xuyên qua giao tác đóng gói."
+    },
+    {
+      "id": "csdl-01-015",
+      "topic": "Ưu điểm CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        19
+      ],
+      "question": "Ưu điểm nào sau đây thuộc hệ CSDL?",
+      "options": {
+        "A": "Kiểm soát dư thừa, chia sẻ dữ liệu, sao lưu/phục hồi, ràng buộc toàn vẹn",
+        "B": "Buộc mọi ứng dụng tự quản lý tập tin riêng",
+        "C": "Loại bỏ hoàn toàn nhu cầu bảo mật",
+        "D": "Không cho phép nhiều người dùng"
+      },
+      "correct_answer": "A",
+      "explanation": "Ưu điểm gồm kiểm soát dư thừa, chia sẻ, hạn chế truy nhập trái phép, cấu trúc lưu trữ hiệu quả, sao lưu/phục hồi, giao diện, ràng buộc toàn vẹn, v.v."
+    },
+    {
+      "id": "csdl-01-016",
+      "topic": "Mô hình dữ liệu",
+      "difficulty": "easy",
+      "source_pages": [
+        20
+      ],
+      "question": "Mô hình dữ liệu là gì?",
+      "options": {
+        "A": "Tập hợp các khái niệm mô tả cấu trúc CSDL và các ràng buộc CSDL phải tuân theo",
+        "B": "Chỉ là danh sách mật khẩu người dùng",
+        "C": "Một thiết bị lưu trữ vật lý",
+        "D": "Chỉ là báo cáo Excel"
+      },
+      "correct_answer": "A",
+      "explanation": "Mô hình dữ liệu gồm các khái niệm mô tả cấu trúc CSDL và ràng buộc; là phương tiện trừu tượng hóa và giao tiếp."
+    },
+    {
+      "id": "csdl-01-017",
+      "topic": "Mô hình dữ liệu",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "Mô hình mức cao (mức khái niệm) có đặc điểm nào?",
+      "options": {
+        "A": "Cung cấp khái niệm gần gũi người dùng (ví dụ ER, đối tượng)",
+        "B": "Mô tả chi tiết cách lưu byte trên đĩa",
+        "C": "Chỉ dùng cho sao lưu",
+        "D": "Không liên quan người dùng"
+      },
+      "correct_answer": "A",
+      "explanation": "Mô hình mức cao cung cấp khái niệm gần gũi người dùng: ER, mô hình đối tượng."
+    },
+    {
+      "id": "csdl-01-018",
+      "topic": "Mô hình dữ liệu",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "Mô hình quan hệ và mô hình mạng thuộc nhóm nào?",
+      "options": {
+        "A": "Mô hình mức cao thuần túy",
+        "B": "Mô hình cài đặt (gần cách tổ chức trên máy tính nhưng người dùng vẫn hiểu được)",
+        "C": "Mô hình chỉ dùng cho mạng LAN",
+        "D": "Không phải mô hình dữ liệu"
+      },
+      "correct_answer": "B",
+      "explanation": "Mô hình cài đặt: quan hệ, mạng — gần cách tổ chức dữ liệu trên máy tính."
+    },
+    {
+      "id": "csdl-01-019",
+      "topic": "Lược đồ và thể hiện",
+      "difficulty": "easy",
+      "source_pages": [
+        27,
+        28
+      ],
+      "question": "Lược đồ CSDL (Database Schema) là gì?",
+      "options": {
+        "A": "Dữ liệu tại một thời điểm cụ thể",
+        "B": "Các mô tả của CSDL (cấu trúc), biểu diễn bằng sơ đồ lược đồ",
+        "C": "Chỉ là bản sao dự phòng",
+        "D": "Kết quả của một câu SELECT"
+      },
+      "correct_answer": "B",
+      "explanation": "Lược đồ là các mô tả của CSDL; thể hiện (instance) là dữ liệu tại một thời điểm."
+    },
+    {
+      "id": "csdl-01-020",
+      "topic": "Lược đồ và thể hiện",
+      "difficulty": "easy",
+      "source_pages": [
+        28
+      ],
+      "question": "Thể hiện CSDL (Database Instance) còn được gọi là gì?",
+      "options": {
+        "A": "Trạng thái của CSDL tại một thời điểm xác định",
+        "B": "Định nghĩa DDL vĩnh viễn",
+        "C": "Catalog rỗng",
+        "D": "Chỉ là khóa chính"
+      },
+      "correct_answer": "A",
+      "explanation": "Thể hiện là dữ liệu lưu trong CSDL tại một thời điểm — còn gọi là trạng thái CSDL."
+    },
+    {
+      "id": "csdl-01-021",
+      "topic": "Kiến trúc 3 lược đồ",
+      "difficulty": "easy",
+      "source_pages": [
+        29
+      ],
+      "question": "Kiến trúc 3 lược đồ gồm những mức nào?",
+      "options": {
+        "A": "Mức trong, mức khái niệm, mức ngoài",
+        "B": "Chỉ mức trong và mức ngoài",
+        "C": "Mức ứng dụng, mức mạng, mức đĩa",
+        "D": "Chỉ mức ngoài"
+      },
+      "correct_answer": "A",
+      "explanation": "Ba mức: trong (lưu trữ vật lý), khái niệm (cấu trúc cho cộng đồng người dùng), ngoài (phần quan tâm của nhóm người dùng)."
+    },
+    {
+      "id": "csdl-01-022",
+      "topic": "Kiến trúc 3 lược đồ",
+      "difficulty": "medium",
+      "source_pages": [
+        29
+      ],
+      "question": "Mục đích của kiến trúc 3 lược đồ gồm?",
+      "options": {
+        "A": "Độc lập chương trình–dữ liệu; hỗ trợ nhiều mức nhìn; dùng catalog lưu mô tả CSDL",
+        "B": "Loại bỏ hoàn toàn catalog",
+        "C": "Chỉ tăng tốc mạng",
+        "D": "Chỉ phục vụ một view duy nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "Mục đích: độc lập chương trình–dữ liệu, hỗ trợ nhiều mức nhìn, sử dụng catalog."
+    },
+    {
+      "id": "csdl-01-023",
+      "topic": "Độc lập dữ liệu",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Độc lập logic là gì?",
+      "options": {
+        "A": "Thay đổi lược đồ khái niệm mà không phải thay đổi lược đồ ngoài hoặc chương trình ứng dụng",
+        "B": "Thay đổi lược đồ trong mà không đổi lược đồ khái niệm",
+        "C": "Xóa toàn bộ view khi đổi cột",
+        "D": "Chỉ đổi phần cứng"
+      },
+      "correct_answer": "A",
+      "explanation": "Độc lập logic: đổi lược đồ khái niệm mà không buộc đổi lược đồ ngoài/chương trình. Độc lập vật lý: đổi lược đồ trong không buộc đổi lược đồ khái niệm."
+    },
+    {
+      "id": "csdl-01-024",
+      "topic": "Độc lập dữ liệu",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Độc lập vật lý là gì?",
+      "options": {
+        "A": "Thay đổi lược đồ trong mà không phải thay đổi lược đồ khái niệm",
+        "B": "Thay đổi mọi view khi đổi chỉ mục",
+        "C": "Bắt buộc viết lại toàn bộ ứng dụng khi đổi ổ đĩa",
+        "D": "Không liên quan lược đồ"
+      },
+      "correct_answer": "A",
+      "explanation": "Độc lập vật lý: đổi lược đồ trong (lưu trữ) mà không phải đổi lược đồ khái niệm."
+    },
+    {
+      "id": "csdl-01-025",
+      "topic": "Ngôn ngữ HQT CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        32
+      ],
+      "question": "DDL (Data Definition Language) dùng để làm gì?",
+      "options": {
+        "A": "Định nghĩa lược đồ khái niệm (và thường cả trong/ngoài trong thực tế)",
+        "B": "Chỉ truy vấn dữ liệu SELECT",
+        "C": "Chỉ cấp quyền người dùng",
+        "D": "Chỉ sao lưu"
+      },
+      "correct_answer": "A",
+      "explanation": "DDL định nghĩa lược đồ khái niệm; hầu hết HQT CSDL dùng DDL cho cả lược đồ trong và ngoài."
+    },
+    {
+      "id": "csdl-01-026",
+      "topic": "Ngôn ngữ HQT CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        32
+      ],
+      "question": "DML (Data Manipulation Language) dùng để làm gì?",
+      "options": {
+        "A": "Truy xuất và cập nhật dữ liệu",
+        "B": "Chỉ tạo bảng mới",
+        "C": "Chỉ định nghĩa view",
+        "D": "Chỉ cài đặt HQT CSDL"
+      },
+      "correct_answer": "A",
+      "explanation": "DML truy xuất và cập nhật dữ liệu; có DML cấp cao (phi thủ tục) và cấp thấp (thủ tục)."
+    },
+    {
+      "id": "csdl-01-027",
+      "topic": "Ngôn ngữ HQT CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        32
+      ],
+      "question": "VDL (View Definition Language) dùng để định nghĩa gì?",
+      "options": {
+        "A": "Các lược đồ ngoài (view)",
+        "B": "Chỉ khóa chính",
+        "C": "Chỉ phân vùng đĩa",
+        "D": "Chỉ trigger"
+      },
+      "correct_answer": "A",
+      "explanation": "VDL định nghĩa các lược đồ ngoài."
+    },
+    {
+      "id": "csdl-01-028",
+      "topic": "Chỉ mục thuật ngữ",
+      "difficulty": "easy",
+      "source_pages": [
+        33
+      ],
+      "question": "DBMS viết tắt của gì?",
+      "options": {
+        "A": "Database Management System — Hệ quản trị CSDL",
+        "B": "Data Binary Memory Storage",
+        "C": "Digital Backup Main Server",
+        "D": "Distributed Business Mail System"
+      },
+      "correct_answer": "A",
+      "explanation": "DBMS = Database Management System = Hệ quản trị CSDL."
+    },
+    {
+      "id": "csdl-01-029",
+      "topic": "Mô hình dữ liệu",
+      "difficulty": "medium",
+      "source_pages": [
+        21,
+        33
+      ],
+      "question": "Entity-Relationship (ER) thuộc nhóm mô hình nào?",
+      "options": {
+        "A": "Mô hình dữ liệu thực thể liên kết (mức khái niệm/cao)",
+        "B": "Mô hình phân cấp thuần vật lý",
+        "C": "Chỉ là ngôn ngữ DML",
+        "D": "Mô hình mạng bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "ER là mô hình thực thể liên kết, dùng ở mức khái niệm."
+    },
+    {
+      "id": "csdl-01-030",
+      "topic": "Hệ CSDL",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Hệ CSDL (Database System) gồm thành phần nào theo sơ đồ tổng quan?",
+      "options": {
+        "A": "CSDL, HQT CSDL, các ứng dụng và người dùng/chương trình truy xuất",
+        "B": "Chỉ một tập tin văn bản",
+        "C": "Chỉ bộ xử lý CPU",
+        "D": "Chỉ trình duyệt web"
+      },
+      "correct_answer": "A",
+      "explanation": "Hệ CSDL gồm CSDL, HQT CSDL, ứng dụng, định nghĩa CSDL và xử lý truy vấn/truy xuất dữ liệu."
+    },
+    {
+      "id": "csdl-01-031",
+      "topic": "Đặc điểm CSDL",
+      "difficulty": "hard",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Siêu dữ liệu (meta-data) trong hệ CSDL thường lưu ở đâu?",
+      "options": {
+        "A": "Trong catalog của HQT CSDL",
+        "B": "Chỉ trong bộ nhớ cache của người dùng",
+        "C": "Không được lưu trữ",
+        "D": "Chỉ in ra giấy"
+      },
+      "correct_answer": "A",
+      "explanation": "Thông tin lưu trong catalog gọi là siêu dữ liệu (meta-data): cấu trúc, kiểu, định dạng, ràng buộc."
+    },
+    {
+      "id": "csdl-01-032",
+      "topic": "Người sử dụng CSDL",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Người phân tích hệ thống trong nhóm kỹ sư phần mềm làm gì?",
+      "options": {
+        "A": "Xác định yêu cầu người dùng và phát triển đặc tả cho giao tác đóng gói",
+        "B": "Chỉ thay ổ cứng",
+        "C": "Chỉ thiết kế logo",
+        "D": "Chỉ viết driver máy in"
+      },
+      "correct_answer": "A",
+      "explanation": "Người phân tích hệ thống xác định yêu cầu người dùng (đặc biệt người dùng thường xuyên) và phát triển đặc tả giao tác đóng gói."
+    }
+  ]
+}

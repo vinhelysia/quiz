@@ -21,6 +21,13 @@ export const SUBJECTS: SubjectMeta[] = [
     description: 'Hàng hóa, giá trị thặng dư, tích lũy tư bản, kinh tế thị trường định hướng XHCN.',
     order: 2,
   },
+  {
+    id: 'nguyen-tac-quan-ly-csdl',
+    title: 'Nguyên tắc quản lý cơ sở dữ liệu',
+    short: 'CSDL',
+    description: 'Tổng quan CSDL, ER, mô hình quan hệ, đại số quan hệ, SQL, ràng buộc toàn vẹn, phụ thuộc hàm và chuẩn hóa.',
+    order: 3,
+  },
 ];
 
 export function getSubjectMeta(id: string): SubjectMeta {
