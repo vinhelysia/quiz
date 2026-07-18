@@ -625,6 +625,75 @@
       },
       "correct_answer": "A",
       "explanation": "TenNV phụ thuộc bộ phận khóa → tách NV_DA2(MaNV,TenNV)..."
+    },
+    {
+      "id": "csdl-07-037",
+      "topic": "Tìm tất cả khóa",
+      "difficulty": "medium",
+      "source_pages": [
+        30
+      ],
+      "question": "Bước B3 của thuật toán tìm tất cả khóa (Thuật toán 7.3.2) làm gì?",
+      "options": {
+        "A": "Xây dựng 2^n tập con của U",
+        "B": "Thêm mọi tập X có U ⊆ X+ vào S",
+        "C": "Loại khỏi S các tập Y chứa một tập con X cũng là siêu khóa (X ⊂ Y), chỉ giữ các siêu khóa nhỏ nhất",
+        "D": "Xuất toàn bộ tập siêu khóa làm khóa"
+      },
+      "correct_answer": "C",
+      "explanation": "B1 sinh 2^n tập con; B2 đưa các siêu khóa (U ⊆ X+) vào S; B3 loại các tập chứa tập con cũng là siêu khóa — phần còn lại chính là các khóa."
+    },
+    {
+      "id": "csdl-07-038",
+      "topic": "Tìm tất cả khóa",
+      "difficulty": "hard",
+      "source_pages": [
+        31
+      ],
+      "question": "Cho R(U), U={A,B,C,D,E,F}, F={AE→C, CF→A, BD→F, AF→E}. Tập tất cả các khóa của R theo ví dụ bài giảng là?",
+      "options": {
+        "A": "{ABD}",
+        "B": "{ABD, BCD}",
+        "C": "{BD}",
+        "D": "{ABCDEF}"
+      },
+      "correct_answer": "B",
+      "explanation": "Từ tập siêu khóa S (ABD, BCD, ABCD, ABDE, ...), loại các tập chứa siêu khóa nhỏ hơn → còn hai khóa ABD và BCD. BD chưa đủ vì (BD)+ = BDF ≠ U."
+    },
+    {
+      "id": "csdl-07-039",
+      "topic": "Tìm tất cả khóa",
+      "difficulty": "hard",
+      "source_pages": [
+        32
+      ],
+      "question": "Với N = U − VPF (các thuộc tính không xuất hiện ở vế phải PTH nào của F), nhận xét nào đúng?",
+      "options": {
+        "A": "N không bao giờ thuộc khóa",
+        "B": "N luôn là siêu khóa",
+        "C": "Mỗi khóa chứa nhiều nhất một thuộc tính của N",
+        "D": "N là tập con của mọi khóa: nếu K là khóa thì K = N ∪ Li với Li ⊆ L"
+      },
+      "correct_answer": "D",
+      "explanation": "Thuộc tính không nằm ở vế phải PTH nào thì không thể suy diễn từ thuộc tính khác, nên phải có mặt trong mọi khóa (K = N ∪ Li)."
+    },
+    {
+      "id": "csdl-07-040",
+      "topic": "Tìm tất cả khóa",
+      "difficulty": "medium",
+      "source_pages": [
+        31,
+        32
+      ],
+      "question": "Với U={A,B,C,D,E,F}, F={AE→C, CF→A, BD→F, AF→E}, những thuộc tính nào bắt buộc có mặt trong mọi khóa?",
+      "options": {
+        "A": "A và C",
+        "B": "B và D",
+        "C": "E và F",
+        "D": "Không có thuộc tính nào bắt buộc"
+      },
+      "correct_answer": "B",
+      "explanation": "VPF = {C, A, F, E} → N = U − VPF = {B, D}. Đúng như ví dụ: cả hai khóa ABD và BCD đều chứa B và D."
     }
   ]
 }

@@ -122,13 +122,13 @@
       ],
       "question": "Với RBTV “mỗi NV có mã riêng” (khóa), thao tác nào trên NHANVIEN cần kiểm tra?",
       "options": {
-        "A": "Thêm (và thường khi sửa mã); xóa không ảnh hưởng tính duy nhất còn lại theo bảng ví dụ",
+        "A": "Chỉ thao tác thêm (bảng RB-1: Thêm +, Xóa −, Sửa −)",
         "B": "Chỉ xóa",
         "C": "Không bao giờ",
         "D": "Chỉ SELECT"
       },
       "correct_answer": "A",
-      "explanation": "Ví dụ RB-1: Thêm +, Xóa −, Sửa − (trên MaNV theo bảng bài giảng)."
+      "explanation": "Bảng tầm ảnh hưởng RB-1 trên NHANVIEN: Thêm +, Xóa −, Sửa − — chỉ cần kiểm tra khi thêm bộ mới."
     },
     {
       "id": "csdl-06-008",
