@@ -1,0 +1,500 @@
+{
+  "chapter_id": "cnxh-05",
+  "title": "Chương 5 - Cơ cấu xã hội - giai cấp và liên minh giai cấp, tầng lớp",
+  "source_file": "C5-LIEN MINH CONG NONG TRI.ppt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-05-001",
+      "topic": "Khái niệm cơ cấu xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Theo chương 5, cơ cấu xã hội bao gồm những yếu tố cơ bản nào?",
+      "options": {
+        "A": "Chỉ tổng số dân, không xét quan hệ xã hội",
+        "B": "Chỉ sơ đồ bộ máy hành chính",
+        "C": "Chỉ các nhóm nghề, không có loại hình khác",
+        "D": "Các cộng đồng người và toàn bộ quan hệ giữa những cộng đồng đó"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ tổng số dân, không xét quan hệ xã hội» sai: Số lượng đơn thuần chưa đủ định nghĩa. «Chỉ sơ đồ bộ máy hành chính» sai: Đây không phải toàn bộ cơ cấu xã hội. «Chỉ các nhóm nghề, không có loại hình khác» sai: Slide 3 còn nêu nhiều loại cơ cấu khác. «Các cộng đồng người và toàn bộ quan hệ giữa những cộng đồng đó» đúng: Slide 2 kết hợp chủ thể cộng đồng với quan hệ tác động lẫn nhau. Nguồn: Chương 5, slide 2 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-002",
+      "topic": "Quan hệ trong cơ cấu xã hội",
+      "difficulty": "medium",
+      "source_pages": [
+        2
+      ],
+      "question": "Một bài làm chỉ liệt kê tên các cộng đồng mà không phân tích quan hệ giữa họ. Theo định nghĩa slide 2, bài làm còn thiếu gì?",
+      "options": {
+        "A": "Chỉ một tiêu đề trang trí",
+        "B": "Quan hệ và sự tác động lẫn nhau giữa các cộng đồng",
+        "C": "Chỉ tên một cá nhân nổi bật",
+        "D": "Việc xóa mọi nhóm khỏi danh sách"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ một tiêu đề trang trí» sai: Hạn chế thuộc nội dung định nghĩa, không phải trình bày. «Quan hệ và sự tác động lẫn nhau giữa các cộng đồng» đúng: Đây là thành phần đi cùng cộng đồng người trong định nghĩa. «Chỉ tên một cá nhân nổi bật» sai: Cơ cấu xã hội không được định nghĩa bằng cá nhân nổi bật. «Việc xóa mọi nhóm khỏi danh sách» sai: Danh sách cộng đồng vẫn là một phần cần thiết. Nguồn: Chương 5, slide 2 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-003",
+      "topic": "Các loại cơ cấu xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Nhóm nào gồm các loại cơ cấu xã hội được slide 3 liệt kê?",
+      "options": {
+        "A": "Chỉ công nhân và nông dân như hai loại cơ cấu duy nhất",
+        "B": "Chỉ địa hình và khí hậu",
+        "C": "Chỉ cơ cấu kinh tế và cơ cấu vốn",
+        "D": "Giai cấp, nghề nghiệp, dân tộc, giới tính, tôn giáo và cư trú"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ công nhân và nông dân như hai loại cơ cấu duy nhất» sai: Đã nhầm thành phần giai cấp với toàn bộ loại hình. «Chỉ địa hình và khí hậu» sai: Đây không phải phân loại cơ cấu xã hội được nêu. «Chỉ cơ cấu kinh tế và cơ cấu vốn» sai: Không phải danh sách các cơ cấu xã hội của slide. «Giai cấp, nghề nghiệp, dân tộc, giới tính, tôn giáo và cư trú» đúng: Đây là các loại hình trong sơ đồ. Nguồn: Chương 5, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-004",
+      "topic": "Cơ cấu xã hội - giai cấp",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Theo slide 4, cơ cấu xã hội - giai cấp được nhận diện qua những quan hệ nào?",
+      "options": {
+        "A": "Chỉ tên gọi của nghề nghiệp",
+        "B": "Chỉ màu trang phục và sở thích cá nhân",
+        "C": "Sở hữu TLSX, tổ chức quản lý sản xuất và địa vị chính trị - xã hội",
+        "D": "Chỉ nơi sinh, không xét sản xuất và địa vị"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ tên gọi của nghề nghiệp» sai: Nghề nghiệp chưa thay thế các quan hệ giai cấp trong định nghĩa. «Chỉ màu trang phục và sở thích cá nhân» sai: Không phải tiêu chí định nghĩa cơ cấu giai cấp. «Sở hữu TLSX, tổ chức quản lý sản xuất và địa vị chính trị - xã hội» đúng: Định nghĩa dùng các quan hệ này để xem xét hệ thống giai cấp, tầng lớp. «Chỉ nơi sinh, không xét sản xuất và địa vị» sai: Đó không đủ các quan hệ được nêu. Nguồn: Chương 5, slide 4 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-005",
+      "topic": "Vị trí cơ cấu giai cấp",
+      "difficulty": "medium",
+      "source_pages": [
+        5
+      ],
+      "question": "Theo chương 5, vì sao cơ cấu xã hội - giai cấp có vị trí quan trọng hàng đầu?",
+      "options": {
+        "A": "Vì làm mọi loại cơ cấu khác biến mất",
+        "B": "Vì không liên quan kinh tế hay nhà nước",
+        "C": "Gắn với sở hữu, quản lý, phân phối, quyền lực và chi phối các cơ cấu khác",
+        "D": "Vì chỉ phản ánh nơi cư trú của người dân"
+      },
+      "correct_answer": "C",
+      "explanation": "«Vì làm mọi loại cơ cấu khác biến mất» sai: Chi phối không đồng nghĩa xóa bỏ các loại cơ cấu khác. «Vì không liên quan kinh tế hay nhà nước» sai: Trái với các quan hệ mà slide nhấn mạnh. «Gắn với sở hữu, quản lý, phân phối, quyền lực và chi phối các cơ cấu khác» đúng: Slide 5 giải thích bằng các vấn đề cơ bản của đời sống xã hội. «Vì chỉ phản ánh nơi cư trú của người dân» sai: Đã nhầm với cơ cấu cư trú. Nguồn: Chương 5, slide 5 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-006",
+      "topic": "Biến đổi và cơ cấu kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo slide 6, yếu tố nào gắn liền và quy định biến đổi cơ cấu xã hội - giai cấp trong thời kỳ quá độ?",
+      "options": {
+        "A": "Một yếu tố hoàn toàn độc lập với sản xuất",
+        "B": "Chỉ sự thay đổi tên địa phương",
+        "C": "Cơ cấu kinh tế của thời kỳ quá độ",
+        "D": "Chỉ sở thích giải trí cá nhân"
+      },
+      "correct_answer": "C",
+      "explanation": "«Một yếu tố hoàn toàn độc lập với sản xuất» sai: Trái với liên hệ giữa kinh tế và cơ cấu giai cấp. «Chỉ sự thay đổi tên địa phương» sai: Không phải yếu tố cơ bản được xác định. «Cơ cấu kinh tế của thời kỳ quá độ» đúng: Đây là quan hệ được nêu trong ý thứ nhất. «Chỉ sở thích giải trí cá nhân» sai: Không giải thích biến đổi giai cấp theo bài giảng. Nguồn: Chương 5, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-007",
+      "topic": "Tính đa dạng của biến đổi",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Sự biến đổi cơ cấu xã hội - giai cấp được slide 6 mô tả thế nào?",
+      "options": {
+        "A": "Phức tạp, đa dạng, có thể xuất hiện giai cấp và tầng lớp mới",
+        "B": "Luôn giữ nguyên mọi thành phần qua mọi thời kỳ",
+        "C": "Không có liên hệ nào giữa các giai cấp, tầng lớp",
+        "D": "Chỉ giảm cơ học một nhóm rồi không có thay đổi khác"
+      },
+      "correct_answer": "A",
+      "explanation": "«Phức tạp, đa dạng, có thể xuất hiện giai cấp và tầng lớp mới» đúng: Slide không mô tả cơ cấu như bất biến. «Luôn giữ nguyên mọi thành phần qua mọi thời kỳ» sai: Trái với nội dung biến đổi. «Không có liên hệ nào giữa các giai cấp, tầng lớp» sai: Bài giảng còn phân tích đấu tranh và liên minh. «Chỉ giảm cơ học một nhóm rồi không có thay đổi khác» sai: Hẹp hơn tính đa dạng được nêu. Nguồn: Chương 5, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-008",
+      "topic": "Đấu tranh và liên minh",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo chương 5, quan hệ giữa các giai cấp, tầng lớp trong quá trình biến đổi có tính chất nào?",
+      "options": {
+        "A": "Mọi quan hệ đều chấm dứt trong thời kỳ quá độ",
+        "B": "Vừa đấu tranh vừa liên minh, hướng đến giảm bất bình đẳng và xích lại gần nhau",
+        "C": "Chỉ đồng nhất hoàn toàn, không có khác biệt lợi ích",
+        "D": "Chỉ đấu tranh, không có nhu cầu hợp tác"
+      },
+      "correct_answer": "B",
+      "explanation": "«Mọi quan hệ đều chấm dứt trong thời kỳ quá độ» sai: Không khớp đối tượng liên hệ của cả chương. «Vừa đấu tranh vừa liên minh, hướng đến giảm bất bình đẳng và xích lại gần nhau» đúng: Đây là nội dung ý thứ ba của slide 6. «Chỉ đồng nhất hoàn toàn, không có khác biệt lợi ích» sai: Bỏ mặt đấu tranh và tính đa dạng. «Chỉ đấu tranh, không có nhu cầu hợp tác» sai: Bỏ mặt liên minh. Nguồn: Chương 5, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-009",
+      "topic": "Vai trò liên minh theo Mác",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Theo slide 7, liên minh công nhân - nông dân có vai trò nào trong cách mạng vô sản?",
+      "options": {
+        "A": "Tạo động lực to lớn và góp phần bảo đảm vai trò lãnh đạo của công nhân",
+        "B": "Chỉ là một thỏa thuận mua bán ngắn hạn",
+        "C": "Chỉ có ý nghĩa sau khi mọi nhiệm vụ đã kết thúc",
+        "D": "Làm công nhân không còn liên hệ với tổ chức chính trị"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tạo động lực to lớn và góp phần bảo đảm vai trò lãnh đạo của công nhân» đúng: Hai vai trò này được bài giảng nêu. «Chỉ là một thỏa thuận mua bán ngắn hạn» sai: Hẹp hơn vai trò chính trị - xã hội được nêu. «Chỉ có ý nghĩa sau khi mọi nhiệm vụ đã kết thúc» sai: Slide gắn liên minh với cả giành chính quyền. «Làm công nhân không còn liên hệ với tổ chức chính trị» sai: Trái với nội dung lãnh đạo thông qua Đảng. Nguồn: Chương 5, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-010",
+      "topic": "Vai trò liên minh theo Lênin",
+      "difficulty": "medium",
+      "source_pages": [
+        8
+      ],
+      "question": "Theo slide 8, liên minh công - nông trong xây dựng CNXH còn có cơ sở kinh tế nào?",
+      "options": {
+        "A": "Hai ngành có thể phát triển hoàn toàn không cần nhau",
+        "B": "Chỉ cần công nghiệp, có thể bỏ sản xuất nông nghiệp",
+        "C": "Chỉ là hợp tác về nghệ thuật",
+        "D": "Yêu cầu phát triển công nghiệp và nông nghiệp"
+      },
+      "correct_answer": "D",
+      "explanation": "«Hai ngành có thể phát triển hoàn toàn không cần nhau» sai: Không phù hợp nội dung liên minh. «Chỉ cần công nghiệp, có thể bỏ sản xuất nông nghiệp» sai: Bỏ một ngành cơ bản được slide nhấn mạnh. «Chỉ là hợp tác về nghệ thuật» sai: Không phải cơ sở kinh tế được hỏi. «Yêu cầu phát triển công nghiệp và nông nghiệp» đúng: Slide gắn liên minh với hai ngành kinh tế cơ bản. Nguồn: Chương 5, slide 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-011",
+      "topic": "Cơ sở chính trị của liên minh",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo góc độ chính trị tại slide 9, điều gì là một cơ sở khách quan của liên minh các lực lượng lao động?",
+      "options": {
+        "A": "Mọi thành viên có cùng nghề nghiệp cụ thể",
+        "B": "Chỉ cùng sinh sống ở một con phố",
+        "C": "Sự thống nhất lợi ích trong đấu tranh chống áp bức và thực hiện mục tiêu cách mạng",
+        "D": "Không có bất kỳ lợi ích chung nào"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mọi thành viên có cùng nghề nghiệp cụ thể» sai: Liên minh diễn ra giữa các nghề và tầng lớp khác nhau. «Chỉ cùng sinh sống ở một con phố» sai: Cư trú không thay thế cơ sở lợi ích chính trị được nêu. «Sự thống nhất lợi ích trong đấu tranh chống áp bức và thực hiện mục tiêu cách mạng» đúng: Slide nói đến lợi ích đối lập với giai cấp tư sản trong khung lý luận này. «Không có bất kỳ lợi ích chung nào» sai: Không giải thích được liên minh. Nguồn: Chương 5, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-012",
+      "topic": "Cơ sở kinh tế của liên minh",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo slide 9, liên minh công - nông - trí thức xuất phát từ nhu cầu kinh tế nào?",
+      "options": {
+        "A": "Gắn kết lợi ích công nghiệp, nông nghiệp, dịch vụ và khoa học - công nghệ",
+        "B": "Tách rời hoàn toàn các ngành sản xuất",
+        "C": "Chỉ cạnh tranh biểu tượng, không có lợi ích vật chất",
+        "D": "Mỗi ngành tự đáp ứng mọi nhu cầu mà không trao đổi"
+      },
+      "correct_answer": "A",
+      "explanation": "«Gắn kết lợi ích công nghiệp, nông nghiệp, dịch vụ và khoa học - công nghệ» đúng: Các lĩnh vực cần hợp tác vì nhu cầu và lợi ích kinh tế. «Tách rời hoàn toàn các ngành sản xuất» sai: Trái với ý nghĩa liên minh kinh tế. «Chỉ cạnh tranh biểu tượng, không có lợi ích vật chất» sai: Bỏ nội dung kinh tế được slide phân tích. «Mỗi ngành tự đáp ứng mọi nhu cầu mà không trao đổi» sai: Không phản ánh nhu cầu liên kết. Nguồn: Chương 5, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-013",
+      "topic": "Đặc điểm biến đổi ở Việt Nam",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Theo slide 10, nghiên cứu cơ cấu giai cấp Việt Nam cần kết hợp cách nhìn nào?",
+      "options": {
+        "A": "Chỉ sao chép mô hình một nước bất kể hoàn cảnh",
+        "B": "Quy luật phổ biến với đặc thù của xã hội Việt Nam",
+        "C": "Không cần xem sự thay đổi vai trò các tầng lớp",
+        "D": "Chỉ nêu đặc điểm riêng và phủ nhận mọi quy luật"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ sao chép mô hình một nước bất kể hoàn cảnh» sai: Bỏ tính đặc thù. «Quy luật phổ biến với đặc thù của xã hội Việt Nam» đúng: Slide yêu cầu xét đồng thời hai phương diện. «Không cần xem sự thay đổi vai trò các tầng lớp» sai: Slide còn nhấn mạnh vị trí, vai trò của các lực lượng. «Chỉ nêu đặc điểm riêng và phủ nhận mọi quy luật» sai: Bỏ tính quy luật phổ biến. Nguồn: Chương 5, slide 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-014",
+      "topic": "Vai trò công nhân Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Theo chương 5, vai trò công nhân Việt Nam được nêu là gì?",
+      "options": {
+        "A": "Chỉ tồn tại trong sản xuất nông nghiệp tự cấp",
+        "B": "Không có thay đổi về chất lượng hay cơ cấu",
+        "C": "Chỉ đóng vai trò tiêu dùng, không tham gia sản xuất",
+        "D": "Lãnh đạo thông qua Đảng, đại diện phương thức sản xuất tiên tiến và đi đầu công nghiệp hóa"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ tồn tại trong sản xuất nông nghiệp tự cấp» sai: Không phù hợp đặc trưng công nghiệp. «Không có thay đổi về chất lượng hay cơ cấu» sai: Slide 11 nêu phát triển và thay đổi đa dạng. «Chỉ đóng vai trò tiêu dùng, không tham gia sản xuất» sai: Trái với vị trí lực lượng sản xuất. «Lãnh đạo thông qua Đảng, đại diện phương thức sản xuất tiên tiến và đi đầu công nghiệp hóa» đúng: Đây là mô tả ở slide 11. Nguồn: Chương 5, slide 11 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-015",
+      "topic": "Vai trò nông dân",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Theo slide 12, giai cấp nông dân có vị trí chiến lược trong nhiệm vụ nào?",
+      "options": {
+        "A": "Chỉ giữ nguyên phương thức sản xuất cũ",
+        "B": "Tách nông thôn khỏi toàn bộ phát triển quốc gia",
+        "C": "Chỉ phát triển công nghiệp phần mềm, không liên quan nông nghiệp",
+        "D": "Công nghiệp hóa, hiện đại hóa nông nghiệp gắn xây dựng nông thôn mới"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ giữ nguyên phương thức sản xuất cũ» sai: Không phù hợp yêu cầu hiện đại hóa. «Tách nông thôn khỏi toàn bộ phát triển quốc gia» sai: Trái với định hướng gắn kết. «Chỉ phát triển công nghiệp phần mềm, không liên quan nông nghiệp» sai: Không phải nội dung vai trò được nêu. «Công nghiệp hóa, hiện đại hóa nông nghiệp gắn xây dựng nông thôn mới» đúng: Slide gắn vai trò nông dân với nhiệm vụ này. Nguồn: Chương 5, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-016",
+      "topic": "Biến đổi trong nông dân",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Theo nhận định của slide 13, xu hướng biến đổi trong nội bộ nông dân là gì?",
+      "options": {
+        "A": "Nông dân biến mất ngay khi bắt đầu quá độ",
+        "B": "Mọi nông dân có địa vị và thu nhập hoàn toàn đồng nhất",
+        "C": "Không có bất kỳ phân hóa nào về điều kiện kinh tế",
+        "D": "Giảm dần tỷ trọng trong cơ cấu và có phân hóa giàu nghèo"
+      },
+      "correct_answer": "D",
+      "explanation": "«Nông dân biến mất ngay khi bắt đầu quá độ» sai: Slide nói đến quá trình biến đổi, không phải biến mất tức thì. «Mọi nông dân có địa vị và thu nhập hoàn toàn đồng nhất» sai: Trái với nội dung phân hóa. «Không có bất kỳ phân hóa nào về điều kiện kinh tế» sai: Không khớp nhận định của slide. «Giảm dần tỷ trọng trong cơ cấu và có phân hóa giàu nghèo» đúng: Đây là hai xu hướng được slide trình bày, không phải số liệu thống kê hiện hành. Nguồn: Chương 5, slide 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-017",
+      "topic": "Vai trò trí thức",
+      "difficulty": "easy",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Theo chương 5, trí thức có vai trò nổi bật nào?",
+      "options": {
+        "A": "Không cần tham gia hợp tác với công nhân, nông dân",
+        "B": "Lao động sáng tạo, góp phần phát triển khoa học, công nghệ và kinh tế tri thức",
+        "C": "Chỉ truyền đạt phong tục, không liên quan công nghệ",
+        "D": "Chỉ có ý nghĩa khi nền kinh tế không phát triển"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không cần tham gia hợp tác với công nhân, nông dân» sai: Trái với nội dung liên minh công - nông - trí thức. «Lao động sáng tạo, góp phần phát triển khoa học, công nghệ và kinh tế tri thức» đúng: Slides 14–15 nhấn mạnh đóng góp này. «Chỉ truyền đạt phong tục, không liên quan công nghệ» sai: Thu hẹp sai vai trò. «Chỉ có ý nghĩa khi nền kinh tế không phát triển» sai: Bài giảng nhấn mạnh vai trò trong hiện đại hóa và hội nhập. Nguồn: Chương 5, slide 14, 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-018",
+      "topic": "Vai trò doanh nhân",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Theo slide 16, đội ngũ doanh nhân đóng góp vào các mặt nào?",
+      "options": {
+        "A": "Không có quan hệ nào với người lao động",
+        "B": "Phát triển kinh tế, tạo việc làm và góp phần an sinh xã hội",
+        "C": "Chỉ thuộc lĩnh vực tín ngưỡng",
+        "D": "Chỉ có tác động ngoài kinh tế"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không có quan hệ nào với người lao động» sai: Tạo việc làm thể hiện một quan hệ trực tiếp. «Phát triển kinh tế, tạo việc làm và góp phần an sinh xã hội» đúng: Đây là các đóng góp được bài giảng nêu. «Chỉ thuộc lĩnh vực tín ngưỡng» sai: Không khớp nội dung đội ngũ doanh nhân. «Chỉ có tác động ngoài kinh tế» sai: Không phù hợp vai trò phát triển kinh tế. Nguồn: Chương 5, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-019",
+      "topic": "Phụ nữ và cơ cấu xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        17
+      ],
+      "question": "Theo slide 17, vai trò phụ nữ được nhìn nhận theo phạm vi nào?",
+      "options": {
+        "A": "Trong lao động xây dựng đất nước, đời sống xã hội và gia đình",
+        "B": "Chỉ trong một ngành nghề cố định",
+        "C": "Không có liên hệ với phát triển xã hội",
+        "D": "Chỉ trong gia đình, không thuộc đội ngũ lao động"
+      },
+      "correct_answer": "A",
+      "explanation": "«Trong lao động xây dựng đất nước, đời sống xã hội và gia đình» đúng: Slide không giới hạn phụ nữ vào công việc gia đình. «Chỉ trong một ngành nghề cố định» sai: Tài liệu không giới hạn như vậy. «Không có liên hệ với phát triển xã hội» sai: Trái với nội dung đóng góp xây dựng đất nước. «Chỉ trong gia đình, không thuộc đội ngũ lao động» sai: Bỏ vai trò lao động mà slide nêu. Nguồn: Chương 5, slide 17 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-020",
+      "topic": "Thanh niên",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Theo chương 5, thanh niên được mô tả là lực lượng nào?",
+      "options": {
+        "A": "Lực lượng chỉ quan sát, không tham gia phát triển",
+        "B": "Một nhóm không liên quan tương lai đất nước",
+        "C": "Một nhóm chỉ có chức năng kinh tế, không có vai trò xã hội",
+        "D": "Lực lượng xung kích trong xây dựng và bảo vệ Tổ quốc"
+      },
+      "correct_answer": "D",
+      "explanation": "«Lực lượng chỉ quan sát, không tham gia phát triển» sai: Không phù hợp mô tả xung kích. «Một nhóm không liên quan tương lai đất nước» sai: Trái với cách bài giảng xác định vai trò. «Một nhóm chỉ có chức năng kinh tế, không có vai trò xã hội» sai: Thu hẹp phạm vi đóng góp. «Lực lượng xung kích trong xây dựng và bảo vệ Tổ quốc» đúng: Đây là vai trò ở slide 18. Nguồn: Chương 5, slide 18 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-021",
+      "topic": "Nội dung kinh tế của liên minh",
+      "difficulty": "medium",
+      "source_pages": [
+        19,
+        20
+      ],
+      "question": "Theo slide 20, nội dung nào của liên minh được xem là cơ sở vật chất - kỹ thuật quan trọng, quyết định nhất?",
+      "options": {
+        "A": "Chỉ nội dung nghi lễ",
+        "B": "Nội dung kinh tế",
+        "C": "Chỉ giao lưu văn nghệ",
+        "D": "Chỉ thay đổi tên các tổ chức"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ nội dung nghi lễ» sai: Không phải nhóm nội dung mà bài giảng xác định. «Nội dung kinh tế» đúng: Slide ghi rõ vị trí của hợp tác về nhu cầu và lợi ích kinh tế. «Chỉ giao lưu văn nghệ» sai: Đây không thay thế cơ sở vật chất - kỹ thuật. «Chỉ thay đổi tên các tổ chức» sai: Không phải nội dung phát triển sản xuất và đời sống. Nguồn: Chương 5, slide 19, 20 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-022",
+      "topic": "Tình huống liên kết sản xuất",
+      "difficulty": "medium",
+      "source_pages": [
+        20
+      ],
+      "question": "Nông dân sản xuất nguyên liệu, công nhân chế biến, trí thức chuyển giao kỹ thuật và doanh nghiệp tổ chức tiêu thụ. Theo chương 5, tình huống minh họa rõ nhất nội dung nào?",
+      "options": {
+        "A": "Liên minh về kinh tế giữa các giai cấp, tầng lớp",
+        "B": "Sự tách biệt tuyệt đối giữa các ngành",
+        "C": "Chỉ là một hoạt động tín ngưỡng",
+        "D": "Chỉ là phân chia địa giới cư trú"
+      },
+      "correct_answer": "A",
+      "explanation": "«Liên minh về kinh tế giữa các giai cấp, tầng lớp» đúng: Các lực lượng liên kết sản xuất, kỹ thuật và thị trường vì lợi ích kinh tế. «Sự tách biệt tuyệt đối giữa các ngành» sai: Tình huống cho thấy liên kết, không phải tách biệt. «Chỉ là một hoạt động tín ngưỡng» sai: Không có nội dung tín ngưỡng trong tình huống. «Chỉ là phân chia địa giới cư trú» sai: Không mô tả hợp tác sản xuất đang diễn ra. Nguồn: Chương 5, slide 20 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-023",
+      "topic": "Nội dung chính trị của liên minh",
+      "difficulty": "medium",
+      "source_pages": [
+        21
+      ],
+      "question": "Theo slide 21, xây dựng dân chủ và nhà nước của dân, do dân, vì dân thuộc nội dung nào của liên minh?",
+      "options": {
+        "A": "Chỉ nội dung tâm - sinh lý gia đình",
+        "B": "Chỉ nội dung tự nhiên - địa lý",
+        "C": "Chính trị",
+        "D": "Chỉ nội dung kinh tế trực tiếp"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ nội dung tâm - sinh lý gia đình» sai: Đây là chủ đề khác. «Chỉ nội dung tự nhiên - địa lý» sai: Không thuộc phạm vi khái niệm liên minh đang nêu. «Chính trị» đúng: Slide gắn nội dung này với cơ sở chính trị - xã hội và quyền làm chủ. «Chỉ nội dung kinh tế trực tiếp» sai: Không phải hoạt động sản xuất, trao đổi đang được hỏi. Nguồn: Chương 5, slide 21 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-024",
+      "topic": "Nội dung văn hóa - xã hội",
+      "difficulty": "medium",
+      "source_pages": [
+        22
+      ],
+      "question": "Theo slide 22, nâng chất lượng nhân lực, giảm nghèo và xây dựng văn hóa thuộc nội dung nào của liên minh?",
+      "options": {
+        "A": "Chỉ thuần túy thay đổi quyền sở hữu",
+        "B": "Văn hóa - xã hội",
+        "C": "Chỉ là liên kết mua nguyên vật liệu",
+        "D": "Chỉ quy định thứ tự cơ quan hành chính"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ thuần túy thay đổi quyền sở hữu» sai: Không bao quát giáo dục, văn hóa và chính sách xã hội. «Văn hóa - xã hội» đúng: Các nhiệm vụ này được slide nhóm vào lĩnh vực văn hóa, xã hội. «Chỉ là liên kết mua nguyên vật liệu» sai: Đó là một dạng hợp tác kinh tế khác. «Chỉ quy định thứ tự cơ quan hành chính» sai: Không phải nội dung slide 22. Nguồn: Chương 5, slide 22 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-025",
+      "topic": "Tăng trưởng và công bằng",
+      "difficulty": "hard",
+      "source_pages": [
+        22,
+        23
+      ],
+      "question": "Nhận định I: liên minh chỉ cần tăng trưởng kinh tế, không cần công bằng. Nhận định II: tăng trưởng cần gắn với tiến bộ và công bằng xã hội. Theo chương 5, chọn đánh giá đúng.",
+      "options": {
+        "A": "I sai, II đúng",
+        "B": "I và II đều sai",
+        "C": "I đúng, II sai",
+        "D": "I và II đều đúng"
+      },
+      "correct_answer": "A",
+      "explanation": "«I sai, II đúng» đúng: Slides 22–23 nêu rõ yêu cầu gắn tăng trưởng với tiến bộ, công bằng. «I và II đều sai» sai: II là yêu cầu được nêu trực tiếp. «I đúng, II sai» sai: Đã đảo kết luận của bài giảng. «I và II đều đúng» sai: Hai nhận định đối lập về nội dung công bằng, I không phù hợp slide. Nguồn: Chương 5, slide 22, 23 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-026",
+      "topic": "Chính sách và biến đổi cơ cấu",
+      "difficulty": "medium",
+      "source_pages": [
+        23,
+        24
+      ],
+      "question": "Theo slides 23–24, cách tác động tích cực tới biến đổi cơ cấu xã hội - giai cấp là gì?",
+      "options": {
+        "A": "Kết hợp công nghiệp hóa với hệ thống chính sách xã hội tổng thể",
+        "B": "Chỉ hỗ trợ một nhóm và bỏ mọi quan hệ với nhóm khác",
+        "C": "Chỉ chờ biến đổi tự phát, không cần chính sách",
+        "D": "Chỉ giữ mọi quan hệ kinh tế bất biến"
+      },
+      "correct_answer": "A",
+      "explanation": "«Kết hợp công nghiệp hóa với hệ thống chính sách xã hội tổng thể» đúng: Bài giảng gắn phát triển kinh tế với chính sách cho các lực lượng xã hội. «Chỉ hỗ trợ một nhóm và bỏ mọi quan hệ với nhóm khác» sai: Không thể hiện tính tổng thể. «Chỉ chờ biến đổi tự phát, không cần chính sách» sai: Không phù hợp yêu cầu xây dựng chính sách. «Chỉ giữ mọi quan hệ kinh tế bất biến» sai: Không phù hợp nhiệm vụ công nghiệp hóa và chuyển đổi. Nguồn: Chương 5, slide 23, 24 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-027",
+      "topic": "Củng cố liên minh",
+      "difficulty": "medium",
+      "source_pages": [
+        25,
+        26,
+        27
+      ],
+      "question": "Theo các phương hướng cuối chương 5, nhóm biện pháp nào phù hợp củng cố liên minh?",
+      "options": {
+        "A": "Khuyến khích chia rẽ để mỗi nhóm hoạt động riêng",
+        "B": "Không cần cải thiện thể chế hay khoa học - công nghệ",
+        "C": "Tạo đồng thuận, hoàn thiện môi trường kinh tế và đổi mới hoạt động tổ chức",
+        "D": "Chỉ tăng một ngành, không xét nhu cầu các chủ thể"
+      },
+      "correct_answer": "C",
+      "explanation": "«Khuyến khích chia rẽ để mỗi nhóm hoạt động riêng» sai: Trái với mục tiêu đồng thuận và đoàn kết. «Không cần cải thiện thể chế hay khoa học - công nghệ» sai: Bỏ nội dung ở slide 26. «Tạo đồng thuận, hoàn thiện môi trường kinh tế và đổi mới hoạt động tổ chức» đúng: Slides 25–27 nêu lần lượt các hướng này. «Chỉ tăng một ngành, không xét nhu cầu các chủ thể» sai: Không đáp ứng yêu cầu phát huy vai trò các lực lượng. Nguồn: Chương 5, slide 25, 26, 27 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-05-028",
+      "topic": "Tình huống cơ cấu và liên minh",
+      "difficulty": "hard",
+      "source_pages": [
+        5,
+        6,
+        20,
+        22
+      ],
+      "question": "Một dự án liên minh chỉ có ký kết hình thức, không gắn lợi ích sản xuất và không xét điều kiện sống của các nhóm. Theo chương 5, hạn chế chủ yếu là gì?",
+      "options": {
+        "A": "Chỉ thiếu tăng số lượng chữ ký",
+        "B": "Sai vì mọi lợi ích kinh tế đều không liên quan liên minh",
+        "C": "Thiếu cơ sở lợi ích kinh tế và nội dung văn hóa - xã hội thực chất",
+        "D": "Đã đầy đủ vì liên minh chỉ là tên gọi chung"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ thiếu tăng số lượng chữ ký» sai: Chữ ký không tự tạo lợi ích và điều kiện hợp tác. «Sai vì mọi lợi ích kinh tế đều không liên quan liên minh» sai: Slide 20 coi kinh tế là nội dung đặc biệt quan trọng. «Thiếu cơ sở lợi ích kinh tế và nội dung văn hóa - xã hội thực chất» đúng: Bài giảng yêu cầu hợp tác nâng sản xuất, đời sống và bảo đảm chính sách xã hội. «Đã đầy đủ vì liên minh chỉ là tên gọi chung» sai: Không phù hợp các nội dung cụ thể của liên minh. Nguồn: Chương 5, slide 5, 6, 20, 22 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}

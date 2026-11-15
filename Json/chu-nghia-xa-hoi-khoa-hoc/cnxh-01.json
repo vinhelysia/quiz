@@ -1,0 +1,511 @@
+{
+  "chapter_id": "cnxh-01",
+  "title": "Chương 1 - Nhập môn Chủ nghĩa xã hội khoa học",
+  "source_file": "C1. NHẬP MÔN CNXHKH.PPT",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-01-001",
+      "topic": "Vị trí của CNXHKH",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo chương 1, chủ nghĩa xã hội khoa học có vị trí nào trong chủ nghĩa Mác - Lênin?",
+      "options": {
+        "A": "Một nhánh của khoa học tự nhiên",
+        "B": "Toàn bộ nội dung của triết học cổ điển Đức",
+        "C": "Một phong trào không có nội dung lý luận",
+        "D": "Một trong ba bộ phận hợp thành"
+      },
+      "correct_answer": "D",
+      "explanation": "«Một nhánh của khoa học tự nhiên» sai: Các thành tựu tự nhiên là tiền đề; đối tượng môn học là quy luật chính trị - xã hội. «Toàn bộ nội dung của triết học cổ điển Đức» sai: Triết học cổ điển Đức là một tiền đề lý luận, không đồng nhất với CNXHKH. «Một phong trào không có nội dung lý luận» sai: Bài giảng trình bày CNXHKH như một hệ thống lý luận. «Một trong ba bộ phận hợp thành» đúng: Slide 6 xác định trực tiếp vị trí này. Nguồn: Chương 1, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-002",
+      "topic": "Điều kiện kinh tế - xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Bối cảnh kinh tế - xã hội được chương 1 gắn với sự ra đời của CNXHKH là gì?",
+      "options": {
+        "A": "Việc không còn mâu thuẫn giữa công nhân và tư sản",
+        "B": "Sự phát triển của CNTB và phong trào công nhân giữa thế kỷ XIX",
+        "C": "Sự xuất hiện của Internet vào cuối thế kỷ XX",
+        "D": "Sự tan rã của công xã nguyên thủy là điều kiện trực tiếp duy nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "«Việc không còn mâu thuẫn giữa công nhân và tư sản» sai: Slide nhấn mạnh mâu thuẫn ngày càng sâu sắc. «Sự phát triển của CNTB và phong trào công nhân giữa thế kỷ XIX» đúng: Slide 7 liên hệ phát triển công nghiệp, công nhân và đấu tranh giai cấp. «Sự xuất hiện của Internet vào cuối thế kỷ XX» sai: Khác thời kỳ ra đời của học thuyết. «Sự tan rã của công xã nguyên thủy là điều kiện trực tiếp duy nhất» sai: Không phải bối cảnh trực tiếp được slide nêu. Nguồn: Chương 1, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-003",
+      "topic": "Nhu cầu lý luận",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        21
+      ],
+      "question": "Theo bài giảng, phong trào công nhân lớn mạnh đặt ra yêu cầu trực tiếp nào đối với sự hình thành CNXHKH?",
+      "options": {
+        "A": "Chỉ cải tiến máy móc mà không cần nhận thức chính trị",
+        "B": "Thay toàn bộ nghiên cứu xã hội bằng sinh học",
+        "C": "Từ bỏ mọi tổ chức đấu tranh",
+        "D": "Có lý luận khoa học soi đường cho phong trào"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ cải tiến máy móc mà không cần nhận thức chính trị» sai: Không giải đáp nhu cầu lý luận của phong trào. «Thay toàn bộ nghiên cứu xã hội bằng sinh học» sai: Tiền đề tự nhiên không thay thế đối tượng chính trị - xã hội. «Từ bỏ mọi tổ chức đấu tranh» sai: Không phù hợp sự phát triển của phong trào được nêu. «Có lý luận khoa học soi đường cho phong trào» đúng: Đây là mối liên hệ được giải thích ở slide 7. Nguồn: Chương 1, slide 7, 21 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-004",
+      "topic": "Tiền đề khoa học tự nhiên",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Nhóm nào gồm các tiền đề khoa học tự nhiên được chương 1 liệt kê?",
+      "options": {
+        "A": "Phong trào công nhân, công đoàn, tổ chức đảng",
+        "B": "Triết học Đức, kinh tế chính trị Anh, CNXH không tưởng",
+        "C": "Thuyết tế bào, thuyết tiến hóa, định luật bảo toàn và chuyển hóa năng lượng",
+        "D": "Chủ nghĩa duy vật lịch sử, giá trị thặng dư, sứ mệnh công nhân"
+      },
+      "correct_answer": "C",
+      "explanation": "«Phong trào công nhân, công đoàn, tổ chức đảng» sai: Đây không phải ba phát kiến khoa học tự nhiên. «Triết học Đức, kinh tế chính trị Anh, CNXH không tưởng» sai: Đây là nhóm tiền đề tư tưởng lý luận. «Thuyết tế bào, thuyết tiến hóa, định luật bảo toàn và chuyển hóa năng lượng» đúng: Ba thành tựu này được xếp vào nhóm tiền đề tự nhiên. «Chủ nghĩa duy vật lịch sử, giá trị thặng dư, sứ mệnh công nhân» sai: Đây là các phát kiến của Mác - Ăngghen được bài giảng nêu. Nguồn: Chương 1, slide 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-005",
+      "topic": "Tiền đề tư tưởng lý luận",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo chương 1, nhóm tiền đề tư tưởng lý luận gồm những nguồn nào?",
+      "options": {
+        "A": "Chỉ các chính sách sau khi Lênin qua đời",
+        "B": "Vật lý, hóa học và sinh học như ba bộ phận của CNXHKH",
+        "C": "Chỉ tư tưởng của một cá nhân, không có sự kế thừa",
+        "D": "Triết học cổ điển Đức, kinh tế chính trị học Anh, CNXH không tưởng - phê phán"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ các chính sách sau khi Lênin qua đời» sai: Những chính sách về sau không phải tiền đề ra đời giữa thế kỷ XIX. «Vật lý, hóa học và sinh học như ba bộ phận của CNXHKH» sai: Đã nhầm tiền đề tự nhiên với nguồn lý luận xã hội. «Chỉ tư tưởng của một cá nhân, không có sự kế thừa» sai: Bài giảng nêu nhiều nguồn tư tưởng. «Triết học cổ điển Đức, kinh tế chính trị học Anh, CNXH không tưởng - phê phán» đúng: Slide 9 liệt kê ba nguồn này. Nguồn: Chương 1, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-006",
+      "topic": "Triết học cổ điển Đức",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        35
+      ],
+      "question": "Theo slide 35, Mác và Ăngghen kế thừa những yếu tố nào từ triết học cổ điển Đức?",
+      "options": {
+        "A": "Học thuyết giá trị thặng dư của Hêghen",
+        "B": "Phép biện chứng của Hêghen và chủ nghĩa duy vật của Phoiơbắc",
+        "C": "Lý luận công đoàn của Darwin",
+        "D": "Chủ nghĩa duy vật của Hêghen và phép biện chứng của Phoiơbắc"
+      },
+      "correct_answer": "B",
+      "explanation": "«Học thuyết giá trị thặng dư của Hêghen» sai: Bài giảng gắn học thuyết này với Mác, không với Hêghen. «Phép biện chứng của Hêghen và chủ nghĩa duy vật của Phoiơbắc» đúng: Slide phân biệt rõ hai đóng góp được kế thừa. «Lý luận công đoàn của Darwin» sai: Darwin nằm trong nội dung tiền đề khoa học tự nhiên. «Chủ nghĩa duy vật của Hêghen và phép biện chứng của Phoiơbắc» sai: Đã đảo hai yếu tố so với slide. Nguồn: Chương 1, slide 9, 35 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-007",
+      "topic": "Kinh tế chính trị học Anh",
+      "difficulty": "easy",
+      "source_pages": [
+        9,
+        36
+      ],
+      "question": "Hai nhà tư tưởng nào được slide 36 giới thiệu trong nguồn kinh tế chính trị học Anh?",
+      "options": {
+        "A": "Adam Smith và David Ricardo",
+        "B": "Xanh Ximông và Phuriê",
+        "C": "Hêghen và Phoiơbắc",
+        "D": "Mác và Lênin"
+      },
+      "correct_answer": "A",
+      "explanation": "«Adam Smith và David Ricardo» đúng: Slide nêu A. Xmit và D. Ricácđô. «Xanh Ximông và Phuriê» sai: Đây là các nhà CNXH không tưởng được giới thiệu. «Hêghen và Phoiơbắc» sai: Đây là đại biểu nguồn triết học Đức. «Mác và Lênin» sai: Đây không phải cặp đại biểu được slide 36 nêu. Nguồn: Chương 1, slide 9, 36 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-008",
+      "topic": "Vai trò Mác - Ăngghen",
+      "difficulty": "easy",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Theo bài giảng, ai trực tiếp hình thành lý luận CNXHKH?",
+      "options": {
+        "A": "Smith và Ricardo",
+        "B": "Xanh Ximông và Phuriê",
+        "C": "Hêghen và Phoiơbắc",
+        "D": "C. Mác và Ph. Ăngghen"
+      },
+      "correct_answer": "D",
+      "explanation": "«Smith và Ricardo» sai: Họ thuộc nguồn kinh tế chính trị học Anh. «Xanh Ximông và Phuriê» sai: Họ thuộc CNXH không tưởng - phê phán. «Hêghen và Phoiơbắc» sai: Đóng góp của họ được trình bày như tiền đề triết học. «C. Mác và Ph. Ăngghen» đúng: Slide 10 nêu vai trò trực tiếp của hai ông. Nguồn: Chương 1, slide 10, 11 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-009",
+      "topic": "Ba phát kiến",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Nhóm nào khớp ba phát kiến được slide 10 dùng để giải thích vai trò của Mác - Ăngghen?",
+      "options": {
+        "A": "Tế bào, tiến hóa, bảo toàn năng lượng",
+        "B": "Dân chủ trực tiếp, dân chủ đại diện, pháp quyền",
+        "C": "Duy vật lịch sử, giá trị thặng dư, sứ mệnh lịch sử của giai cấp công nhân",
+        "D": "Dân tộc, tôn giáo, gia đình"
+      },
+      "correct_answer": "C",
+      "explanation": "«Tế bào, tiến hóa, bảo toàn năng lượng» sai: Đó là tiền đề tự nhiên, không phải ba phát kiến được gán cho Mác - Ăngghen. «Dân chủ trực tiếp, dân chủ đại diện, pháp quyền» sai: Không phải danh sách ba phát kiến ở slide 10. «Duy vật lịch sử, giá trị thặng dư, sứ mệnh lịch sử của giai cấp công nhân» đúng: Đây là ba nội dung liệt kê trên slide. «Dân tộc, tôn giáo, gia đình» sai: Đây là các chủ đề nghiên cứu trong học phần. Nguồn: Chương 1, slide 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-010",
+      "topic": "Từ không tưởng đến khoa học",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        22,
+        25
+      ],
+      "question": "Theo cách giải thích của chương 1, bước chuyển từ CNXH không tưởng sang CNXHKH gắn đặc biệt với việc nào?",
+      "options": {
+        "A": "Từ bỏ việc giải thích các quy luật xã hội",
+        "B": "Xác định giai cấp công nhân là lực lượng thực hiện sứ mệnh lịch sử",
+        "C": "Chỉ nêu mong muốn xã hội bình đẳng",
+        "D": "Chỉ chờ nhà tư bản tự nguyện thay đổi chế độ"
+      },
+      "correct_answer": "B",
+      "explanation": "«Từ bỏ việc giải thích các quy luật xã hội» sai: Bài giảng coi nghiên cứu quy luật là cơ sở khoa học. «Xác định giai cấp công nhân là lực lượng thực hiện sứ mệnh lịch sử» đúng: Bài giảng nhấn mạnh việc chỉ ra lực lượng và con đường hiện thực hóa mục tiêu. «Chỉ nêu mong muốn xã hội bình đẳng» sai: Mong muốn bình đẳng đã xuất hiện trong CNXH không tưởng. «Chỉ chờ nhà tư bản tự nguyện thay đổi chế độ» sai: Đây là hạn chế mà bảng so sánh gắn với CNXH không tưởng. Nguồn: Chương 1, slide 10, 22, 25 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-011",
+      "topic": "Mốc ra đời học thuyết",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Tác phẩm nào được chương 1 coi là dấu mốc ra đời của CNXHKH?",
+      "options": {
+        "A": "Một tác phẩm của Ricardo về kinh tế chính trị",
+        "B": "Tuyên ngôn của Đảng Cộng sản",
+        "C": "Một văn kiện đổi mới của Việt Nam",
+        "D": "Một công trình về thuyết tế bào"
+      },
+      "correct_answer": "B",
+      "explanation": "«Một tác phẩm của Ricardo về kinh tế chính trị» sai: Đây là nguồn lý luận kế thừa, không phải tác phẩm ở slide 12. «Tuyên ngôn của Đảng Cộng sản» đúng: Slide 12 gắn tác phẩm này với mốc năm 1848. «Một văn kiện đổi mới của Việt Nam» sai: Văn kiện về sau không phải mốc ra đời giữa thế kỷ XIX. «Một công trình về thuyết tế bào» sai: Đây là nhóm tiền đề tự nhiên, không phải tác phẩm đánh dấu được nêu. Nguồn: Chương 1, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-012",
+      "topic": "Niên đại",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Theo slide 12, Tuyên ngôn của Đảng Cộng sản xuất bản năm nào?",
+      "options": {
+        "A": "1917",
+        "B": "1848",
+        "C": "1930",
+        "D": "1871"
+      },
+      "correct_answer": "B",
+      "explanation": "«1917» sai: 1917 gắn với Cách mạng Tháng Mười Nga. «1848» đúng: Đây là năm được slide ghi rõ. «1930» sai: 1930 không phải mốc xuất bản nêu trong slide. «1871» sai: 1871 gắn với Công xã Paris, không phải năm tác phẩm này xuất bản. Nguồn: Chương 1, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-013",
+      "topic": "Giai đoạn Mác - Ăngghen",
+      "difficulty": "easy",
+      "source_pages": [
+        13,
+        27
+      ],
+      "question": "Nhiệm vụ nổi bật của giai đoạn Mác - Ăngghen theo chương 1 là gì?",
+      "options": {
+        "A": "Loại bỏ toàn bộ nghiên cứu về nhà nước và giai cấp",
+        "B": "Đặt nền móng và tiếp tục phát triển CNXHKH",
+        "C": "Chỉ vận dụng một học thuyết đã hoàn chỉnh từ trước mà không bổ sung",
+        "D": "Xây dựng lý luận sau khi Lênin qua đời"
+      },
+      "correct_answer": "B",
+      "explanation": "«Loại bỏ toàn bộ nghiên cứu về nhà nước và giai cấp» sai: Slide 27 còn trình bày các nội dung này. «Đặt nền móng và tiếp tục phát triển CNXHKH» đúng: Slide 13 mô tả vai trò này. «Chỉ vận dụng một học thuyết đã hoàn chỉnh từ trước mà không bổ sung» sai: Bài giảng xác định hai ông có vai trò sáng lập. «Xây dựng lý luận sau khi Lênin qua đời» sai: Đây là giai đoạn lịch sử khác. Nguồn: Chương 1, slide 13, 27 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-014",
+      "topic": "Vai trò Lênin",
+      "difficulty": "medium",
+      "source_pages": [
+        13,
+        28
+      ],
+      "question": "Sau Cách mạng Tháng Mười, nội dung nào được slide 28 nhấn mạnh trong đóng góp của Lênin?",
+      "options": {
+        "A": "Bổ sung và phát triển lý luận về thời kỳ quá độ lên CNXH",
+        "B": "Phát minh thuyết tế bào",
+        "C": "Chỉ nghiên cứu khoa học tự nhiên, không nghiên cứu xã hội",
+        "D": "Lần đầu xuất bản Tuyên ngôn năm 1848"
+      },
+      "correct_answer": "A",
+      "explanation": "«Bổ sung và phát triển lý luận về thời kỳ quá độ lên CNXH» đúng: Đây là nội dung được slide nêu trực tiếp. «Phát minh thuyết tế bào» sai: Đó không phải đóng góp được bài giảng gán cho Lênin. «Chỉ nghiên cứu khoa học tự nhiên, không nghiên cứu xã hội» sai: Trái với các nội dung CNXHKH ở slide. «Lần đầu xuất bản Tuyên ngôn năm 1848» sai: Tác phẩm thuộc giai đoạn Mác - Ăngghen. Nguồn: Chương 1, slide 13, 28 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-015",
+      "topic": "Phát triển lý luận",
+      "difficulty": "medium",
+      "source_pages": [
+        13,
+        29
+      ],
+      "question": "Theo chương 1, các Đảng Cộng sản cần làm gì để phát triển lý luận trong điều kiện lịch sử mới?",
+      "options": {
+        "A": "Tổng kết thực tiễn, rút kinh nghiệm và bổ sung nghiên cứu",
+        "B": "Tách hoàn toàn nghiên cứu khỏi công cuộc xây dựng xã hội",
+        "C": "Chỉ đổi tên khái niệm, không xét thực tiễn",
+        "D": "Giữ nguyên mọi kết luận cụ thể bất kể hoàn cảnh"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tổng kết thực tiễn, rút kinh nghiệm và bổ sung nghiên cứu» đúng: Slide 29 nhấn mạnh yêu cầu tổng kết để phát triển lý luận. «Tách hoàn toàn nghiên cứu khỏi công cuộc xây dựng xã hội» sai: Bài giảng yêu cầu lý luận phục vụ hoạt động thực tiễn. «Chỉ đổi tên khái niệm, không xét thực tiễn» sai: Không đáp ứng yêu cầu tổng kết kinh nghiệm. «Giữ nguyên mọi kết luận cụ thể bất kể hoàn cảnh» sai: Không thể hiện tinh thần bổ sung, phát triển của slide. Nguồn: Chương 1, slide 13, 29 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-016",
+      "topic": "Đối tượng nghiên cứu",
+      "difficulty": "easy",
+      "source_pages": [
+        14,
+        24
+      ],
+      "question": "Đối tượng nghiên cứu riêng của CNXHKH theo chương 1 là gì?",
+      "options": {
+        "A": "Chỉ các quy luật giá cả của thị trường",
+        "B": "Chỉ các phản ứng hóa học trong công nghiệp",
+        "C": "Chỉ các quy luật chung nhất của tự nhiên và tư duy",
+        "D": "Quy luật chính trị - xã hội của sự phát sinh, hình thành và phát triển hình thái kinh tế - xã hội cộng sản chủ nghĩa"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ các quy luật giá cả của thị trường» sai: Phạm vi này hẹp hơn và khác đối tượng được nêu. «Chỉ các phản ứng hóa học trong công nghiệp» sai: Không thuộc đối tượng chính trị - xã hội của môn học. «Chỉ các quy luật chung nhất của tự nhiên và tư duy» sai: Đây không phải đối tượng riêng mà slide xác định. «Quy luật chính trị - xã hội của sự phát sinh, hình thành và phát triển hình thái kinh tế - xã hội cộng sản chủ nghĩa» đúng: Slide 14 xác định đủ phạm vi chính trị - xã hội và quá trình phát triển. Nguồn: Chương 1, slide 14, 24 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-017",
+      "topic": "Phương pháp luận",
+      "difficulty": "easy",
+      "source_pages": [
+        15
+      ],
+      "question": "Nền tảng phương pháp luận của CNXHKH được slide 15 xác định là gì?",
+      "options": {
+        "A": "Chỉ trực giác cá nhân không cần dữ liệu",
+        "B": "Chỉ phép đo trong phòng thí nghiệm",
+        "C": "Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử",
+        "D": "Chỉ thuyết tiến hóa như một phương pháp quản lý"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ trực giác cá nhân không cần dữ liệu» sai: Không phù hợp phương pháp khảo sát và tổng kết thực tiễn. «Chỉ phép đo trong phòng thí nghiệm» sai: Slide còn nêu các phương pháp nghiên cứu xã hội. «Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử» đúng: Hai nền tảng được ghi trong khối phương pháp luận. «Chỉ thuyết tiến hóa như một phương pháp quản lý» sai: Đã nhầm tiền đề tự nhiên với phương pháp luận môn học. Nguồn: Chương 1, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-018",
+      "topic": "Phương pháp lịch sử và logic",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Nhóm học tập trình bày sự ra đời học thuyết theo bối cảnh thời gian rồi làm rõ quan hệ giữa các điều kiện. Cách làm này gần nhất với phương pháp nào được slide 15 nêu?",
+      "options": {
+        "A": "Tách sự kiện khỏi mọi điều kiện lịch sử",
+        "B": "Chỉ thống kê tên tác phẩm",
+        "C": "Kết hợp lịch sử và logic",
+        "D": "Chỉ mô tả cảm xúc cá nhân"
+      },
+      "correct_answer": "C",
+      "explanation": "«Tách sự kiện khỏi mọi điều kiện lịch sử» sai: Trái với phần đặt sự kiện vào bối cảnh của tình huống. «Chỉ thống kê tên tác phẩm» sai: Tình huống không dừng ở đếm hay liệt kê. «Kết hợp lịch sử và logic» đúng: Có cả tiến trình lịch sử và quan hệ bản chất giữa các yếu tố. «Chỉ mô tả cảm xúc cá nhân» sai: Nhóm đang phân tích bối cảnh và quan hệ có căn cứ. Nguồn: Chương 1, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-019",
+      "topic": "Tổng kết thực tiễn",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Sinh viên khảo sát thực tế, đối chiếu kết quả và rút ra nhận xét lý luận. Đây là ví dụ phù hợp với phương pháp nào trong chương 1?",
+      "options": {
+        "A": "Tổng kết lý luận từ thực tiễn",
+        "B": "Chỉ nghiên cứu cấu tạo tế bào",
+        "C": "Ghi nhớ máy móc một khẩu hiệu",
+        "D": "Suy đoán không cần kiểm chứng"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tổng kết lý luận từ thực tiễn» đúng: Kết luận được rút ra từ hoạt động và kết quả thực tế. «Chỉ nghiên cứu cấu tạo tế bào» sai: Không thuộc tình huống khảo sát xã hội đang nêu. «Ghi nhớ máy móc một khẩu hiệu» sai: Không mô tả quá trình hình thành nhận xét từ dữ liệu. «Suy đoán không cần kiểm chứng» sai: Đề đã có khảo sát và đối chiếu. Nguồn: Chương 1, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-020",
+      "topic": "Phương pháp liên ngành",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Khi dùng phân tích, tổng hợp và thống kê để xem xét một vấn đề chính trị - xã hội, nhóm đang vận dụng hướng nào của slide 15?",
+      "options": {
+        "A": "Chỉ phương pháp niên đại học",
+        "B": "Thay CNXHKH bằng khoa học tự nhiên",
+        "C": "Phương pháp có tính liên ngành",
+        "D": "Loại bỏ phương pháp nghiên cứu"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ phương pháp niên đại học» sai: Thống kê và tổng hợp không chỉ là xếp sự kiện theo năm. «Thay CNXHKH bằng khoa học tự nhiên» sai: Dùng nhiều công cụ không làm đổi đối tượng môn học. «Phương pháp có tính liên ngành» đúng: Các công cụ này được slide xếp trong hướng liên ngành. «Loại bỏ phương pháp nghiên cứu» sai: Nhóm đang sử dụng các công cụ nghiên cứu cụ thể. Nguồn: Chương 1, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-021",
+      "topic": "Ý nghĩa nghiên cứu",
+      "difficulty": "medium",
+      "source_pages": [
+        17,
+        18
+      ],
+      "question": "Cặp mô tả nào phân biệt phù hợp ý nghĩa lý luận và ý nghĩa thực tiễn của việc học CNXHKH theo tài liệu?",
+      "options": {
+        "A": "Chỉ nghiên cứu quá khứ; không liên quan định hướng hành động",
+        "B": "Chỉ rèn tính toán; chỉ rèn thể lực",
+        "C": "Học thuộc số liệu; bỏ qua mọi vấn đề đời sống",
+        "D": "Trang bị nhận thức, phương pháp luận; vận dụng vào học tập, lao động và sinh hoạt xã hội"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ nghiên cứu quá khứ; không liên quan định hướng hành động» sai: Bài giảng nhấn mạnh sự liên hệ với thực tiễn. «Chỉ rèn tính toán; chỉ rèn thể lực» sai: Không phải nội dung các slide 17–18. «Học thuộc số liệu; bỏ qua mọi vấn đề đời sống» sai: Không phản ánh hai ý nghĩa mà slide nêu. «Trang bị nhận thức, phương pháp luận; vận dụng vào học tập, lao động và sinh hoạt xã hội» đúng: Vế đầu gần ý nghĩa lý luận, vế sau gần ý nghĩa vận dụng thực tiễn. Nguồn: Chương 1, slide 17, 18 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-022",
+      "topic": "So sánh hai học thuyết",
+      "difficulty": "easy",
+      "source_pages": [
+        25
+      ],
+      "question": "Theo bảng so sánh ở slide 25, điểm chung của CNXH không tưởng và CNXHKH là gì?",
+      "options": {
+        "A": "Cùng phủ nhận mọi nhu cầu giải phóng con người",
+        "B": "Cùng hướng tới xã hội mới, xóa bỏ bóc lột và xây dựng bình đẳng",
+        "C": "Cùng xác định đầy đủ vai trò Đảng Cộng sản trong mọi giai đoạn",
+        "D": "Cùng chỉ chủ trương thuyết phục nhà tư bản tự nguyện chuyển đổi"
+      },
+      "correct_answer": "B",
+      "explanation": "«Cùng phủ nhận mọi nhu cầu giải phóng con người» sai: Trái với mục tiêu chung của bảng. «Cùng hướng tới xã hội mới, xóa bỏ bóc lột và xây dựng bình đẳng» đúng: Đây là mục tiêu chung được bảng liệt kê. «Cùng xác định đầy đủ vai trò Đảng Cộng sản trong mọi giai đoạn» sai: Bảng coi việc chỉ ra lực lượng lãnh đạo là điểm khác nhau. «Cùng chỉ chủ trương thuyết phục nhà tư bản tự nguyện chuyển đổi» sai: Đây là cách thức được gắn với CNXH không tưởng. Nguồn: Chương 1, slide 25 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-023",
+      "topic": "Hạn chế CNXH không tưởng",
+      "difficulty": "medium",
+      "source_pages": [
+        25,
+        37
+      ],
+      "question": "Theo chương 1, hạn chế nào được gắn với CNXH không tưởng - phê phán?",
+      "options": {
+        "A": "Chưa chỉ ra lực lượng xã hội và con đường cách mạng để hiện thực hóa mục tiêu",
+        "B": "Chỉ nghiên cứu hiện tượng tự nhiên, không quan tâm xã hội",
+        "C": "Không có bất kỳ tư tưởng nào về một xã hội tốt đẹp",
+        "D": "Đã có đầy đủ lý luận sứ mệnh công nhân như Mác"
+      },
+      "correct_answer": "A",
+      "explanation": "«Chưa chỉ ra lực lượng xã hội và con đường cách mạng để hiện thực hóa mục tiêu» đúng: Bảng so sánh nêu hạn chế về chủ thể lãnh đạo và phương pháp chuyển đổi. «Chỉ nghiên cứu hiện tượng tự nhiên, không quan tâm xã hội» sai: Bài giảng giới thiệu họ như những nhà tư tưởng xã hội. «Không có bất kỳ tư tưởng nào về một xã hội tốt đẹp» sai: Slide 37 vẫn ghi nhận các tư tưởng tốt đẹp được kế thừa. «Đã có đầy đủ lý luận sứ mệnh công nhân như Mác» sai: Đây là điểm khác biệt mà bài giảng không gán cho CNXH không tưởng. Nguồn: Chương 1, slide 25, 37 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-024",
+      "topic": "Tình huống nhận diện",
+      "difficulty": "medium",
+      "source_pages": [
+        25
+      ],
+      "question": "Một quan điểm mong có xã hội bình đẳng nhưng chỉ trông chờ các nhà tư bản tự nguyện chuyển sang chế độ mới. Theo bảng slide 25, quan điểm này gần cách tiếp cận nào?",
+      "options": {
+        "A": "CNXHKH theo mô tả của bảng",
+        "B": "Định luật bảo toàn năng lượng",
+        "C": "CNXH không tưởng",
+        "D": "Phương pháp thống kê xã hội"
+      },
+      "correct_answer": "C",
+      "explanation": "«CNXHKH theo mô tả của bảng» sai: Bảng nhấn mạnh vai trò giai cấp công nhân và đấu tranh cách mạng ở CNXHKH. «Định luật bảo toàn năng lượng» sai: Không giải thích cách chuyển đổi xã hội trong tình huống. «CNXH không tưởng» đúng: Cách chuyển đổi bằng tuyên truyền, thuyết phục tự nguyện được gắn với nhóm này. «Phương pháp thống kê xã hội» sai: Đây là một công cụ nghiên cứu, không phải học thuyết được mô tả. Nguồn: Chương 1, slide 25 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-025",
+      "topic": "Phân loại điều kiện",
+      "difficulty": "hard",
+      "source_pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "question": "Nhận định I: phong trào công nhân là điều kiện kinh tế - xã hội. Nhận định II: triết học Đức là tiền đề khoa học tự nhiên. Theo chương 1, chọn đánh giá đúng.",
+      "options": {
+        "A": "I đúng, II sai",
+        "B": "I và II đều sai",
+        "C": "I và II đều đúng",
+        "D": "I sai, II đúng"
+      },
+      "correct_answer": "A",
+      "explanation": "«I đúng, II sai» đúng: Phong trào thuộc điều kiện xã hội; triết học Đức thuộc tiền đề tư tưởng lý luận. «I và II đều sai» sai: I khớp phần điều kiện lịch sử của bài giảng. «I và II đều đúng» sai: II phân loại sai nguồn triết học. «I sai, II đúng» sai: Đã đảo cả hai kết quả phân loại. Nguồn: Chương 1, slide 7, 8, 9, 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-026",
+      "topic": "Quan hệ các tiền đề",
+      "difficulty": "hard",
+      "source_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "question": "Một bài làm giải thích sự ra đời CNXHKH chỉ bằng thuyết tiến hóa, bỏ điều kiện xã hội và vai trò Mác - Ăngghen. Nhận xét nào phù hợp nhất với sơ đồ slide 11?",
+      "options": {
+        "A": "Bài làm thiếu vì sơ đồ kết hợp điều kiện xã hội, tiền đề tự nhiên, lý luận và vai trò chủ thể",
+        "B": "Không cần xét lịch sử khi phân tích sự ra đời học thuyết",
+        "C": "Đầy đủ vì tiền đề tự nhiên là toàn bộ nguyên nhân",
+        "D": "Chỉ cần thay thuyết tiến hóa bằng tên một phong trào là đầy đủ"
+      },
+      "correct_answer": "A",
+      "explanation": "«Bài làm thiếu vì sơ đồ kết hợp điều kiện xã hội, tiền đề tự nhiên, lý luận và vai trò chủ thể» đúng: Không có một yếu tố duy nhất thay thế toàn bộ các yếu tố khác. «Không cần xét lịch sử khi phân tích sự ra đời học thuyết» sai: Bài giảng đặt sự ra đời trong hoàn cảnh lịch sử cụ thể. «Đầy đủ vì tiền đề tự nhiên là toàn bộ nguyên nhân» sai: Sơ đồ còn có nhiều thành phần khác. «Chỉ cần thay thuyết tiến hóa bằng tên một phong trào là đầy đủ» sai: Vẫn bỏ các nhóm điều kiện và vai trò chủ thể còn lại. Nguồn: Chương 1, slide 8, 9, 10, 11 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-027",
+      "topic": "Vận dụng ở Việt Nam",
+      "difficulty": "medium",
+      "source_pages": [
+        30
+      ],
+      "question": "Theo slide 30, quan hệ giữa phát triển kinh tế và tiến bộ, công bằng xã hội cần được xử lý thế nào?",
+      "options": {
+        "A": "Chỉ phân phối mà không cần phát triển kinh tế",
+        "B": "Coi kinh tế và xã hội không có liên hệ",
+        "C": "Chỉ tăng trưởng, không xét tác động xã hội",
+        "D": "Gắn tăng trưởng, phát triển kinh tế với bảo đảm tiến bộ và công bằng xã hội"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ phân phối mà không cần phát triển kinh tế» sai: Bỏ cơ sở tăng trưởng và phát triển. «Coi kinh tế và xã hội không có liên hệ» sai: Trái với yêu cầu kết hợp trong tài liệu. «Chỉ tăng trưởng, không xét tác động xã hội» sai: Bỏ vế tiến bộ và công bằng được nhấn mạnh. «Gắn tăng trưởng, phát triển kinh tế với bảo đảm tiến bộ và công bằng xã hội» đúng: Slide yêu cầu giải quyết đúng đắn mối quan hệ này. Nguồn: Chương 1, slide 30 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-01-028",
+      "topic": "Học thuyết và hoàn cảnh",
+      "difficulty": "hard",
+      "source_pages": [
+        13,
+        28,
+        29
+      ],
+      "question": "Theo phần phát triển CNXHKH, nguyên tắc học tập nào phù hợp nhất khi xem xét sự vận dụng học thuyết qua các giai đoạn?",
+      "options": {
+        "A": "Có thay đổi hoàn cảnh thì không thể nghiên cứu lý luận nữa",
+        "B": "Chỉ cần thuộc tên tác giả, không cần hiểu điều kiện",
+        "C": "Phân biệt nguyên lý với cách vận dụng trong hoàn cảnh lịch sử cụ thể",
+        "D": "Mọi chính sách cụ thể của một thời kỳ đều áp dụng nguyên vẹn cho mọi nơi"
+      },
+      "correct_answer": "C",
+      "explanation": "«Có thay đổi hoàn cảnh thì không thể nghiên cứu lý luận nữa» sai: Bài giảng yêu cầu tiếp tục nghiên cứu và tổng kết. «Chỉ cần thuộc tên tác giả, không cần hiểu điều kiện» sai: Bỏ mối liên hệ giữa lý luận và lịch sử. «Phân biệt nguyên lý với cách vận dụng trong hoàn cảnh lịch sử cụ thể» đúng: Các giai đoạn đều được trình bày gắn với bổ sung, phát triển và hoàn cảnh mới. «Mọi chính sách cụ thể của một thời kỳ đều áp dụng nguyên vẹn cho mọi nơi» sai: Không phù hợp tinh thần vận dụng sáng tạo được nêu. Nguồn: Chương 1, slide 13, 28, 29 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}

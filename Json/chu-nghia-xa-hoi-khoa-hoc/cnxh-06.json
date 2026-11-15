@@ -1,0 +1,584 @@
+{
+  "chapter_id": "cnxh-06",
+  "title": "Chương 6 - Dân tộc và tôn giáo trong thời kỳ quá độ",
+  "source_file": "C6--DAN TOC VÀ TÔN GIÁO.ppt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-06-001",
+      "topic": "Dân tộc theo nghĩa rộng",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo chương 6, 'dân tộc' theo nghĩa rộng (nation) chỉ cộng đồng nào?",
+      "options": {
+        "A": "Quốc gia - dân tộc",
+        "B": "Chỉ người có cùng tín ngưỡng",
+        "C": "Chỉ một tộc người trong một quốc gia",
+        "D": "Chỉ người có cùng nghề nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "«Quốc gia - dân tộc» đúng: Slide 3 dùng ví dụ dân tộc Việt Nam, Lào để giải thích nghĩa rộng. «Chỉ người có cùng tín ngưỡng» sai: Tôn giáo không thay thế khái niệm nation. «Chỉ một tộc người trong một quốc gia» sai: Đây gần nghĩa hẹp ethnie. «Chỉ người có cùng nghề nghiệp» sai: Không phải cộng đồng quốc gia - dân tộc. Nguồn: Chương 6, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-002",
+      "topic": "Dân tộc theo nghĩa hẹp",
+      "difficulty": "easy",
+      "source_pages": [
+        9,
+        10
+      ],
+      "question": "Các tên Kinh, Ê Đê, H'Mông khi dùng để chỉ tộc người phù hợp với nghĩa nào trong bài giảng?",
+      "options": {
+        "A": "Quốc gia - dân tộc theo nghĩa rộng trong mọi trường hợp",
+        "B": "Dân tộc theo nghĩa hẹp (ethnie)",
+        "C": "Một tổ chức tôn giáo",
+        "D": "Một nhóm chỉ cùng nghề nghiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Quốc gia - dân tộc theo nghĩa rộng trong mọi trường hợp» sai: Đã nhầm cộng đồng tộc người với toàn bộ quốc gia. «Dân tộc theo nghĩa hẹp (ethnie)» đúng: Slide 9 định nghĩa cộng đồng tộc người; slide 10 có ví dụ minh họa. «Một tổ chức tôn giáo» sai: Không đồng nhất tộc người với tổ chức tôn giáo. «Một nhóm chỉ cùng nghề nghiệp» sai: Tên tộc người không phải tên nghề. Nguồn: Chương 6, slide 9, 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-003",
+      "topic": "Đặc trưng quốc gia - dân tộc",
+      "difficulty": "medium",
+      "source_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "question": "Theo slides 4–8, nhóm nào phản ánh các đặc trưng của quốc gia - dân tộc được bài giảng trình bày?",
+      "options": {
+        "A": "Đời sống kinh tế, lãnh thổ, quản lý nhà nước, ngôn ngữ và văn hóa",
+        "B": "Chỉ cùng một tôn giáo và một dòng họ",
+        "C": "Chỉ nơi cư trú tạm thời trong một cuộc họp",
+        "D": "Chỉ cùng một nghề và cùng mức thu nhập"
+      },
+      "correct_answer": "A",
+      "explanation": "«Đời sống kinh tế, lãnh thổ, quản lý nhà nước, ngôn ngữ và văn hóa» đúng: Đây là các nhóm đặc trưng xuất hiện lần lượt trên các slide. «Chỉ cùng một tôn giáo và một dòng họ» sai: Không phải điều kiện chung được nhóm slide xác định. «Chỉ nơi cư trú tạm thời trong một cuộc họp» sai: Không đủ tính chất cộng đồng quốc gia - dân tộc. «Chỉ cùng một nghề và cùng mức thu nhập» sai: Không bao quát đặc trưng nation. Nguồn: Chương 6, slide 4, 5, 6, 7, 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-004",
+      "topic": "Lãnh thổ và quản lý",
+      "difficulty": "medium",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Theo chương 6, cặp nào thuộc đặc trưng quốc gia - dân tộc được nêu ở slides 5–6?",
+      "options": {
+        "A": "Chỉ cùng tuổi và cùng học vấn",
+        "B": "Chỉ cùng hoạt động tôn giáo",
+        "C": "Chỉ cùng nguồn thu nhập và sở thích",
+        "D": "Chung lãnh thổ và sự quản lý nhà nước, pháp luật thống nhất"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ cùng tuổi và cùng học vấn» sai: Không phải tiêu chí của quốc gia - dân tộc. «Chỉ cùng hoạt động tôn giáo» sai: Không thay thế lãnh thổ và quản lý chung. «Chỉ cùng nguồn thu nhập và sở thích» sai: Không phải hai đặc trưng được hỏi. «Chung lãnh thổ và sự quản lý nhà nước, pháp luật thống nhất» đúng: Hai slide lần lượt nêu không gian sinh tồn và quản lý chung. Nguồn: Chương 6, slide 5, 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-005",
+      "topic": "Vai trò ngôn ngữ",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Theo slide 7, vai trò được nhấn mạnh của ngôn ngữ trong cộng đồng dân tộc là gì?",
+      "options": {
+        "A": "Làm mọi thành viên có cùng một tôn giáo",
+        "B": "Chỉ dùng để phân chia nghề nghiệp",
+        "C": "Công cụ giao tiếp, kết nối thành viên cộng đồng",
+        "D": "Chỉ một dấu hiệu về mức sở hữu tư liệu sản xuất"
+      },
+      "correct_answer": "C",
+      "explanation": "«Làm mọi thành viên có cùng một tôn giáo» sai: Ngôn ngữ không tự tạo đồng nhất tôn giáo. «Chỉ dùng để phân chia nghề nghiệp» sai: Thu hẹp không đúng chức năng cộng đồng. «Công cụ giao tiếp, kết nối thành viên cộng đồng» đúng: Slide nêu rõ chức năng kết nối này. «Chỉ một dấu hiệu về mức sở hữu tư liệu sản xuất» sai: Không phải vai trò ngôn ngữ đang được trình bày. Nguồn: Chương 6, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-006",
+      "topic": "Đặc trưng cộng đồng tộc người",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo slide 9, ba mặt đặc trưng được nêu khi xét dân tộc theo nghĩa hẹp là gì?",
+      "options": {
+        "A": "Ngôn ngữ, văn hóa và ý thức cộng đồng về nguồn gốc, sự tồn tại",
+        "B": "Chỉ cùng địa vị sở hữu và chức vụ",
+        "C": "Chỉ cùng thu nhập, nơi làm việc và tuổi",
+        "D": "Chỉ có một niềm tin tôn giáo bắt buộc"
+      },
+      "correct_answer": "A",
+      "explanation": "«Ngôn ngữ, văn hóa và ý thức cộng đồng về nguồn gốc, sự tồn tại» đúng: Đây là ba nhóm trên slide. «Chỉ cùng địa vị sở hữu và chức vụ» sai: Đây không phải phân loại tộc người của slide. «Chỉ cùng thu nhập, nơi làm việc và tuổi» sai: Không phải ba tiêu chí được nêu. «Chỉ có một niềm tin tôn giáo bắt buộc» sai: Không phản ánh đủ và đúng ba đặc trưng. Nguồn: Chương 6, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-007",
+      "topic": "Hai xu hướng dân tộc",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Theo cách trình bày quan điểm Lênin ở slide 12, hai xu hướng khách quan là gì?",
+      "options": {
+        "A": "Chỉ tách ra, không có hợp tác",
+        "B": "Mọi cộng đồng lập tức mất bản sắc",
+        "C": "Chỉ hợp nhất, không có đấu tranh độc lập",
+        "D": "Hình thành quốc gia dân tộc độc lập và xích lại gần nhau, liên hiệp, hợp tác"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ tách ra, không có hợp tác» sai: Bỏ xu hướng thứ hai. «Mọi cộng đồng lập tức mất bản sắc» sai: Không phải hai xu hướng mà slide nêu. «Chỉ hợp nhất, không có đấu tranh độc lập» sai: Bỏ xu hướng thứ nhất. «Hình thành quốc gia dân tộc độc lập và xích lại gần nhau, liên hiệp, hợp tác» đúng: Slide đặt hai xu hướng cạnh nhau. Nguồn: Chương 6, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-008",
+      "topic": "Tình huống đấu tranh độc lập",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Theo slide 12, một dân tộc thuộc địa đấu tranh để hình thành quốc gia độc lập minh họa xu hướng nào?",
+      "options": {
+        "A": "Chỉ liên hiệp kinh tế giữa các quốc gia đã độc lập",
+        "B": "Chỉ chuyển đổi tôn giáo cá nhân",
+        "C": "Chỉ biến đổi cơ cấu nghề nghiệp",
+        "D": "Hình thành quốc gia dân tộc độc lập"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ liên hiệp kinh tế giữa các quốc gia đã độc lập» sai: Không mô tả mục tiêu giành độc lập đang nêu. «Chỉ chuyển đổi tôn giáo cá nhân» sai: Khác đối tượng của tình huống. «Chỉ biến đổi cơ cấu nghề nghiệp» sai: Không phải vấn đề quốc gia - dân tộc trong tình huống. «Hình thành quốc gia dân tộc độc lập» đúng: Đây là ví dụ trực tiếp cho xu hướng thứ nhất. Nguồn: Chương 6, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-009",
+      "topic": "Tình huống hợp tác dân tộc",
+      "difficulty": "medium",
+      "source_pages": [
+        12
+      ],
+      "question": "Các quốc gia tăng hợp tác kinh tế, văn hóa và khoa học trên cơ sở cùng phát triển. Theo slide 12, điều này minh họa xu hướng nào?",
+      "options": {
+        "A": "Các dân tộc xích lại gần nhau, liên hiệp và hợp tác",
+        "B": "Chỉ đấu tranh để tách khỏi chính quốc thuộc địa",
+        "C": "Chỉ chuyển từ nông nghiệp sang công nghiệp",
+        "D": "Mọi quốc gia phải từ bỏ toàn bộ quyền tự quyết"
+      },
+      "correct_answer": "A",
+      "explanation": "«Các dân tộc xích lại gần nhau, liên hiệp và hợp tác» đúng: Đây là các lĩnh vực được slide dùng để minh họa xu hướng thứ hai. «Chỉ đấu tranh để tách khỏi chính quốc thuộc địa» sai: Tình huống không mô tả giải phóng thuộc địa. «Chỉ chuyển từ nông nghiệp sang công nghiệp» sai: Đây là quá trình kinh tế khác, không đủ mô tả quan hệ dân tộc. «Mọi quốc gia phải từ bỏ toàn bộ quyền tự quyết» sai: Hợp tác không tự đồng nghĩa mất quyền tự quyết. Nguồn: Chương 6, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-010",
+      "topic": "Cương lĩnh dân tộc",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Theo slide 13, ba nội dung của cương lĩnh dân tộc Mác - Lênin là gì?",
+      "options": {
+        "A": "Đồng hóa, đặc quyền và cô lập",
+        "B": "Chỉ tự quyết, không bình đẳng hoặc liên hiệp",
+        "C": "Bình đẳng dân tộc, quyền tự quyết, liên hiệp công nhân các dân tộc",
+        "D": "Chỉ phát triển kinh tế, không có quyền dân tộc"
+      },
+      "correct_answer": "C",
+      "explanation": "«Đồng hóa, đặc quyền và cô lập» sai: Trái với các nguyên tắc slide nêu. «Chỉ tự quyết, không bình đẳng hoặc liên hiệp» sai: Không đủ cấu trúc ba nội dung. «Bình đẳng dân tộc, quyền tự quyết, liên hiệp công nhân các dân tộc» đúng: Đây là ba nội dung được trích trên slide. «Chỉ phát triển kinh tế, không có quyền dân tộc» sai: Bỏ nội dung quyền và liên hiệp. Nguồn: Chương 6, slide 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-011",
+      "topic": "Bình đẳng dân tộc",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Theo slide 14, bình đẳng dân tộc được thể hiện bằng yêu cầu nào?",
+      "options": {
+        "A": "Dân tộc nào phát triển hơn được quyết định thay mọi dân tộc khác",
+        "B": "Chỉ bình đẳng về tên gọi, không liên quan đời sống",
+        "C": "Dân tộc đông người đương nhiên có nhiều quyền hơn",
+        "D": "Quyền và nghĩa vụ ngang nhau, không dân tộc nào có đặc quyền, đặc lợi"
+      },
+      "correct_answer": "D",
+      "explanation": "«Dân tộc nào phát triển hơn được quyết định thay mọi dân tộc khác» sai: Không phù hợp quyền bình đẳng. «Chỉ bình đẳng về tên gọi, không liên quan đời sống» sai: Slide còn nêu giảm khoảng cách kinh tế, văn hóa. «Dân tộc đông người đương nhiên có nhiều quyền hơn» sai: Trái với nguyên tắc không đặc quyền. «Quyền và nghĩa vụ ngang nhau, không dân tộc nào có đặc quyền, đặc lợi» đúng: Đây là nội dung quyền bình đẳng được trình bày. Nguồn: Chương 6, slide 14 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-012",
+      "topic": "Quyền tự quyết",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Theo slide 15, quyền dân tộc tự quyết trước hết được hiểu là gì?",
+      "options": {
+        "A": "Một dân tộc được áp đặt mọi quyết định lên dân tộc khác",
+        "B": "Tự quyết định vận mệnh, lựa chọn chế độ chính trị và con đường phát triển",
+        "C": "Chỉ quyền tham gia một hoạt động tôn giáo",
+        "D": "Chỉ quyền đổi tên một địa phương"
+      },
+      "correct_answer": "B",
+      "explanation": "«Một dân tộc được áp đặt mọi quyết định lên dân tộc khác» sai: Trái ý nghĩa tự quyết của chủ thể. «Tự quyết định vận mệnh, lựa chọn chế độ chính trị và con đường phát triển» đúng: Slide định nghĩa quyền làm chủ vận mệnh theo các nội dung này. «Chỉ quyền tham gia một hoạt động tôn giáo» sai: Không phải nội dung quyền tự quyết đang nêu. «Chỉ quyền đổi tên một địa phương» sai: Quá hẹp so với vận mệnh và con đường phát triển. Nguồn: Chương 6, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-013",
+      "topic": "Tự nguyện liên hiệp",
+      "difficulty": "hard",
+      "source_pages": [
+        15
+      ],
+      "question": "Theo slide 15, cách hiểu nào đúng về quyền tự quyết và liên hiệp?",
+      "options": {
+        "A": "Tự quyết chỉ có nghĩa bắt buộc tách ra trong mọi hoàn cảnh",
+        "B": "Có thể tự lựa chọn độc lập hoặc liên hiệp tự nguyện trên cơ sở bình đẳng",
+        "C": "Một lực lượng bên ngoài quyết định thay là đủ thực hiện tự quyết",
+        "D": "Liên hiệp có thể dựa trên cưỡng ép mà vẫn là tự nguyện"
+      },
+      "correct_answer": "B",
+      "explanation": "«Tự quyết chỉ có nghĩa bắt buộc tách ra trong mọi hoàn cảnh» sai: Bỏ khả năng liên hiệp tự nguyện. «Có thể tự lựa chọn độc lập hoặc liên hiệp tự nguyện trên cơ sở bình đẳng» đúng: Slide không chỉ nêu một hướng tách ra mà còn nêu liên hiệp tự nguyện. «Một lực lượng bên ngoài quyết định thay là đủ thực hiện tự quyết» sai: Không phù hợp quyền làm chủ của dân tộc. «Liên hiệp có thể dựa trên cưỡng ép mà vẫn là tự nguyện» sai: Hai điều này mâu thuẫn với điều kiện của slide. Nguồn: Chương 6, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-014",
+      "topic": "Liên hiệp công nhân các dân tộc",
+      "difficulty": "medium",
+      "source_pages": [
+        17
+      ],
+      "question": "Theo slide 17, ý nghĩa của liên hiệp công nhân các dân tộc là gì?",
+      "options": {
+        "A": "Đặt đặc quyền một dân tộc lên trên mọi dân tộc khác",
+        "B": "Loại bỏ mọi liên hệ giữa các lực lượng lao động",
+        "C": "Gắn giải phóng dân tộc với giải phóng giai cấp, kết hợp yêu nước với quốc tế vô sản",
+        "D": "Chỉ là một giao dịch thương mại"
+      },
+      "correct_answer": "C",
+      "explanation": "«Đặt đặc quyền một dân tộc lên trên mọi dân tộc khác» sai: Không phù hợp nguyên tắc bình đẳng. «Loại bỏ mọi liên hệ giữa các lực lượng lao động» sai: Trái với mục tiêu liên hiệp. «Gắn giải phóng dân tộc với giải phóng giai cấp, kết hợp yêu nước với quốc tế vô sản» đúng: Slide dùng các mối liên hệ này để giải thích nội dung cương lĩnh. «Chỉ là một giao dịch thương mại» sai: Hẹp hơn nội dung đoàn kết và giải phóng trong bài. Nguồn: Chương 6, slide 17 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-015",
+      "topic": "Sự hình thành dân tộc Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        19,
+        20,
+        21
+      ],
+      "question": "Theo bài giảng, quá trình hình thành dân tộc Việt Nam gắn với hoạt động lịch sử nào?",
+      "options": {
+        "A": "Chỉ một hoạt động sản xuất đơn lẻ trong một năm",
+        "B": "Dựng nước, giữ nước, cải tạo thiên nhiên và bảo vệ văn hóa",
+        "C": "Chỉ sự ra đời của một tôn giáo",
+        "D": "Chỉ một thỏa thuận giữa doanh nghiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ một hoạt động sản xuất đơn lẻ trong một năm» sai: Quá hẹp so với quá trình lịch sử được mô tả. «Dựng nước, giữ nước, cải tạo thiên nhiên và bảo vệ văn hóa» đúng: Slide 19 liên hệ các quá trình này. «Chỉ sự ra đời của một tôn giáo» sai: Không phải cơ sở duy nhất mà slide xác định. «Chỉ một thỏa thuận giữa doanh nghiệp» sai: Không phản ánh quá trình hình thành cộng đồng dân tộc. Nguồn: Chương 6, slide 19, 20, 21 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-016",
+      "topic": "Cư trú và đoàn kết",
+      "difficulty": "medium",
+      "source_pages": [
+        23,
+        26
+      ],
+      "question": "Theo slides 23,26, nhận định nào phù hợp khi xem xét quan hệ dân tộc ở Việt Nam?",
+      "options": {
+        "A": "Các dân tộc sống xen kẽ và có truyền thống đoàn kết dựng nước, giữ nước",
+        "B": "Mọi dân tộc sống biệt lập tuyệt đối, không có giao lưu",
+        "C": "Sống xen kẽ tự động làm mọi bản sắc biến mất",
+        "D": "Chỉ có quan hệ nghề nghiệp, không có quan hệ lịch sử"
+      },
+      "correct_answer": "A",
+      "explanation": "«Các dân tộc sống xen kẽ và có truyền thống đoàn kết dựng nước, giữ nước» đúng: Hai slide nêu đặc điểm cư trú và truyền thống lịch sử. «Mọi dân tộc sống biệt lập tuyệt đối, không có giao lưu» sai: Trái với đặc điểm xen kẽ. «Sống xen kẽ tự động làm mọi bản sắc biến mất» sai: Không có kết luận này trong bài giảng. «Chỉ có quan hệ nghề nghiệp, không có quan hệ lịch sử» sai: Bỏ nội dung đoàn kết trong quá trình dựng nước, giữ nước. Nguồn: Chương 6, slide 23, 26 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-017",
+      "topic": "Chênh lệch phát triển",
+      "difficulty": "medium",
+      "source_pages": [
+        25,
+        28
+      ],
+      "question": "Theo bài giảng, vì sao cần chú ý phát triển kinh tế - xã hội ở vùng dân tộc thiểu số?",
+      "options": {
+        "A": "Vì mọi vùng có điều kiện hoàn toàn giống nhau",
+        "B": "Để xác lập đặc quyền vĩnh viễn cho một dân tộc",
+        "C": "Để thay mọi bản sắc bằng một khuôn mẫu duy nhất",
+        "D": "Để từng bước khắc phục chênh lệch và cải thiện đời sống phù hợp điều kiện từng vùng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Vì mọi vùng có điều kiện hoàn toàn giống nhau» sai: Bài giảng nêu phát triển không đồng đều. «Để xác lập đặc quyền vĩnh viễn cho một dân tộc» sai: Không phù hợp mục tiêu bình đẳng. «Để thay mọi bản sắc bằng một khuôn mẫu duy nhất» sai: Phát triển kinh tế không đồng nghĩa đồng hóa văn hóa. «Để từng bước khắc phục chênh lệch và cải thiện đời sống phù hợp điều kiện từng vùng» đúng: Slides 25,28 liên hệ chênh lệch với ưu tiên cơ sở hạ tầng, giảm nghèo. Nguồn: Chương 6, slide 25, 28 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-018",
+      "topic": "Bản sắc trong thống nhất",
+      "difficulty": "easy",
+      "source_pages": [
+        27,
+        31
+      ],
+      "question": "Theo slides 27,31, quan hệ giữa bản sắc các dân tộc và văn hóa Việt Nam được hiểu thế nào?",
+      "options": {
+        "A": "Ngôn ngữ dân tộc không liên quan bảo tồn văn hóa",
+        "B": "Thống nhất đòi hỏi xóa mọi khác biệt văn hóa",
+        "C": "Các bản sắc góp phần tạo nền văn hóa thống nhất trong đa dạng và cần được giữ gìn",
+        "D": "Bảo tồn nghĩa là ngừng mọi giao lưu và phát triển"
+      },
+      "correct_answer": "C",
+      "explanation": "«Ngôn ngữ dân tộc không liên quan bảo tồn văn hóa» sai: Slide 31 nêu cả ngôn ngữ và giá trị truyền thống. «Thống nhất đòi hỏi xóa mọi khác biệt văn hóa» sai: Không phù hợp nội dung giữ gìn bản sắc. «Các bản sắc góp phần tạo nền văn hóa thống nhất trong đa dạng và cần được giữ gìn» đúng: Bài giảng gắn phong phú, đa dạng với bảo tồn giá trị, ngôn ngữ. «Bảo tồn nghĩa là ngừng mọi giao lưu và phát triển» sai: Slide không đặt yêu cầu cô lập như vậy. Nguồn: Chương 6, slide 27, 31 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-019",
+      "topic": "Chính sách dân tộc theo bài giảng",
+      "difficulty": "medium",
+      "source_pages": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "question": "Theo chương 6, chính sách dân tộc cần được xem xét trên những mặt nào?",
+      "options": {
+        "A": "Chỉ một khoản hỗ trợ vật chất",
+        "B": "Chính trị, kinh tế, văn hóa, xã hội và an ninh - quốc phòng",
+        "C": "Chỉ quản lý cư trú, bỏ điều kiện kinh tế",
+        "D": "Chỉ tổ chức lễ hội"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ một khoản hỗ trợ vật chất» sai: Hẹp hơn phát triển toàn diện được bài giảng nêu. «Chính trị, kinh tế, văn hóa, xã hội và an ninh - quốc phòng» đúng: Các slide 29–33 triển khai lần lượt năm mặt. «Chỉ quản lý cư trú, bỏ điều kiện kinh tế» sai: Bỏ nhiều mặt trong hệ thống chính sách. «Chỉ tổ chức lễ hội» sai: Không bao quát đời sống, quyền và an sinh. Nguồn: Chương 6, slide 28, 29, 30, 31, 32, 33 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-020",
+      "topic": "Tình huống phát triển vùng",
+      "difficulty": "hard",
+      "source_pages": [
+        30,
+        31,
+        32
+      ],
+      "question": "Một chương trình vừa hỗ trợ sinh kế phù hợp địa phương, vừa giữ ngôn ngữ truyền thống và nâng an sinh. Theo slides 30–32, đánh giá nào đúng?",
+      "options": {
+        "A": "Kết hợp nội dung kinh tế, văn hóa và xã hội của chính sách dân tộc",
+        "B": "Mâu thuẫn với phát triển vì bảo tồn luôn cản trở mọi tiến bộ",
+        "C": "Chỉ có nội dung văn hóa vì có giữ ngôn ngữ",
+        "D": "Chỉ có nội dung kinh tế, an sinh không liên quan"
+      },
+      "correct_answer": "A",
+      "explanation": "«Kết hợp nội dung kinh tế, văn hóa và xã hội của chính sách dân tộc» đúng: Ba hoạt động tương ứng ba mặt được nêu. «Mâu thuẫn với phát triển vì bảo tồn luôn cản trở mọi tiến bộ» sai: Bài giảng yêu cầu vừa phát triển vừa giữ gìn giá trị văn hóa. «Chỉ có nội dung văn hóa vì có giữ ngôn ngữ» sai: Còn có sinh kế kinh tế và an sinh xã hội. «Chỉ có nội dung kinh tế, an sinh không liên quan» sai: An sinh được slide 32 xác định riêng. Nguồn: Chương 6, slide 30, 31, 32 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-021",
+      "topic": "Quan điểm về tôn giáo",
+      "difficulty": "medium",
+      "source_pages": [
+        34
+      ],
+      "question": "Theo cách tiếp cận Mác - Lênin được slide 34 trình bày, tôn giáo được xem xét như hiện tượng nào?",
+      "options": {
+        "A": "Chỉ một quan hệ huyết thống",
+        "B": "Hiện tượng xã hội - văn hóa và mang thế giới quan duy tâm",
+        "C": "Một hiện tượng hoàn toàn tách khỏi đời sống con người",
+        "D": "Chỉ một ngành sản xuất công nghiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ một quan hệ huyết thống» sai: Đây là khái niệm thuộc chủ đề gia đình. «Hiện tượng xã hội - văn hóa và mang thế giới quan duy tâm» đúng: Đây là mô tả trong khung lý luận của bài giảng. «Một hiện tượng hoàn toàn tách khỏi đời sống con người» sai: Slide đặt tôn giáo trong xã hội và văn hóa. «Chỉ một ngành sản xuất công nghiệp» sai: Không phải phạm vi mà slide xác định. Nguồn: Chương 6, slide 34 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-022",
+      "topic": "Nguồn gốc tôn giáo",
+      "difficulty": "easy",
+      "source_pages": [
+        35
+      ],
+      "question": "Theo slide 35, các nhóm nguồn gốc tôn giáo gồm những gì?",
+      "options": {
+        "A": "Chỉ một quyết định hành chính",
+        "B": "Chỉ cấu trúc gia đình và nghề nghiệp",
+        "C": "Kinh tế - xã hội, nhận thức và tâm lý",
+        "D": "Chỉ nguyên nhân tâm lý ở mọi hoàn cảnh"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ một quyết định hành chính» sai: Không phản ánh cách giải thích nguồn gốc của slide. «Chỉ cấu trúc gia đình và nghề nghiệp» sai: Không phải ba nhóm trong bài. «Kinh tế - xã hội, nhận thức và tâm lý» đúng: Ba nhóm được slide liệt kê trực tiếp. «Chỉ nguyên nhân tâm lý ở mọi hoàn cảnh» sai: Bỏ hai nhóm nguồn gốc còn lại. Nguồn: Chương 6, slide 35 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-023",
+      "topic": "Nguồn gốc nhận thức",
+      "difficulty": "medium",
+      "source_pages": [
+        35
+      ],
+      "question": "Trong ví dụ bài giảng, con người chưa giải thích được hiện tượng tự nhiên nên tìm cách lý giải bằng thần linh. Tình huống minh họa nguồn gốc nào?",
+      "options": {
+        "A": "Chỉ sự phân công quyền lực nhà nước",
+        "B": "Nhận thức",
+        "C": "Chỉ nguyên tắc liên hiệp công nhân",
+        "D": "Chỉ sự thay đổi cơ cấu sở hữu"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ sự phân công quyền lực nhà nước» sai: Không phải nội dung ví dụ đang mô tả. «Nhận thức» đúng: Ví dụ gắn với giới hạn hiểu biết và giải thích tự nhiên. «Chỉ nguyên tắc liên hiệp công nhân» sai: Không liên quan phân loại nguồn gốc tôn giáo. «Chỉ sự thay đổi cơ cấu sở hữu» sai: Đây là phạm vi kinh tế, không phải trọng tâm ví dụ. Nguồn: Chương 6, slide 35 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-024",
+      "topic": "Nguồn gốc tâm lý",
+      "difficulty": "medium",
+      "source_pages": [
+        35,
+        36
+      ],
+      "question": "Theo ví dụ slides 35–36, tìm chỗ dựa tinh thần khi gặp đau buồn, bất hạnh được xếp gần nguồn gốc nào của tôn giáo?",
+      "options": {
+        "A": "Tâm lý",
+        "B": "Chỉ sở hữu máy móc công nghiệp",
+        "C": "Chỉ một nguyên tắc bầu cử",
+        "D": "Chỉ cơ cấu ngôn ngữ dân tộc"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tâm lý» đúng: Ví dụ tập trung nhu cầu an ủi và che chở tinh thần. «Chỉ sở hữu máy móc công nghiệp» sai: Không phải trọng tâm trạng thái tâm lý của ví dụ. «Chỉ một nguyên tắc bầu cử» sai: Không thuộc nhóm nguồn gốc tôn giáo. «Chỉ cơ cấu ngôn ngữ dân tộc» sai: Không giải thích nhu cầu tinh thần đang nêu. Nguồn: Chương 6, slide 35, 36 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-025",
+      "topic": "Tính lịch sử của tôn giáo",
+      "difficulty": "medium",
+      "source_pages": [
+        37
+      ],
+      "question": "Theo slide 37, nhận định nào thể hiện tính lịch sử của tôn giáo?",
+      "options": {
+        "A": "Mọi hình thức tôn giáo bất biến qua mọi thời đại",
+        "B": "Tôn giáo chỉ là cùng nghề nghiệp",
+        "C": "Ra đời và phát triển gắn với những điều kiện kinh tế - xã hội nhất định",
+        "D": "Tôn giáo không có bất kỳ quá trình hình thành nào"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mọi hình thức tôn giáo bất biến qua mọi thời đại» sai: Trái với sự gắn bó điều kiện lịch sử. «Tôn giáo chỉ là cùng nghề nghiệp» sai: Không phải tiêu chí của tính lịch sử. «Ra đời và phát triển gắn với những điều kiện kinh tế - xã hội nhất định» đúng: Đây là cách slide giải thích tính lịch sử. «Tôn giáo không có bất kỳ quá trình hình thành nào» sai: Không phù hợp nội dung ra đời và phát triển. Nguồn: Chương 6, slide 37 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-026",
+      "topic": "Tính quần chúng của tôn giáo",
+      "difficulty": "easy",
+      "source_pages": [
+        37
+      ],
+      "question": "Theo bài giảng, tính quần chúng của tôn giáo được trình bày gắn với điều gì?",
+      "options": {
+        "A": "Mọi người đều bắt buộc phải theo cùng một tôn giáo",
+        "B": "Chỉ một hoạt động kỹ thuật của máy móc",
+        "C": "Đời sống tinh thần, khát vọng và nhu cầu của một bộ phận nhân dân",
+        "D": "Chỉ ý chí của một người mà không có cộng đồng"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mọi người đều bắt buộc phải theo cùng một tôn giáo» sai: Bài giảng không đồng nhất quần chúng với bắt buộc toàn dân theo đạo. «Chỉ một hoạt động kỹ thuật của máy móc» sai: Không liên quan đời sống tinh thần. «Đời sống tinh thần, khát vọng và nhu cầu của một bộ phận nhân dân» đúng: Slide 37 giải thích vì sao tôn giáo có người tin theo. «Chỉ ý chí của một người mà không có cộng đồng» sai: Không phản ánh tính quần chúng. Nguồn: Chương 6, slide 37 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-027",
+      "topic": "Tự do tín ngưỡng",
+      "difficulty": "medium",
+      "source_pages": [
+        38,
+        51
+      ],
+      "question": "Theo nguyên tắc ở slides 38,51, cách ứng xử nào phù hợp với người theo và không theo tôn giáo?",
+      "options": {
+        "A": "Coi người không theo đạo có địa vị thấp hơn",
+        "B": "Chỉ tôn trọng người có cùng niềm tin với mình",
+        "C": "Tôn trọng tự do tín ngưỡng, không tín ngưỡng và đối xử bình đẳng",
+        "D": "Buộc mọi người phải theo đạo để đoàn kết"
+      },
+      "correct_answer": "C",
+      "explanation": "«Coi người không theo đạo có địa vị thấp hơn» sai: Trái với nguyên tắc bình đẳng được slide nêu. «Chỉ tôn trọng người có cùng niềm tin với mình» sai: Không phù hợp quyền của cả người khác niềm tin. «Tôn trọng tự do tín ngưỡng, không tín ngưỡng và đối xử bình đẳng» đúng: Bài giảng nêu cả quyền lựa chọn và nguyên tắc bình đẳng. «Buộc mọi người phải theo đạo để đoàn kết» sai: Cưỡng ép trái với tự do tín ngưỡng. Nguồn: Chương 6, slide 38, 51 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-028",
+      "topic": "Phân biệt tư tưởng và chính trị",
+      "difficulty": "hard",
+      "source_pages": [
+        38
+      ],
+      "question": "Theo slide 38, vì sao cần phân biệt mặt tư tưởng và mặt chính trị khi giải quyết vấn đề tôn giáo?",
+      "options": {
+        "A": "Để không cần xem hoàn cảnh và hành vi cụ thể",
+        "B": "Để kết luận mọi người có đạo đều có cùng hành vi chính trị",
+        "C": "Để bỏ quyền tự do tín ngưỡng",
+        "D": "Để có cách xem xét và biện pháp thích hợp, không đồng nhất mọi niềm tin với hành vi chính trị"
+      },
+      "correct_answer": "D",
+      "explanation": "«Để không cần xem hoàn cảnh và hành vi cụ thể» sai: Không phù hợp yêu cầu lịch sử và biện pháp thích hợp. «Để kết luận mọi người có đạo đều có cùng hành vi chính trị» sai: Đây chính là sự đồng nhất mà nguyên tắc phân biệt tránh mắc phải. «Để bỏ quyền tự do tín ngưỡng» sai: Slide đồng thời yêu cầu tôn trọng quyền này. «Để có cách xem xét và biện pháp thích hợp, không đồng nhất mọi niềm tin với hành vi chính trị» đúng: Slide yêu cầu phân biệt hai mặt thay vì xử lý như một nội dung duy nhất. Nguồn: Chương 6, slide 38 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-029",
+      "topic": "Quan điểm lịch sử trong tôn giáo",
+      "difficulty": "medium",
+      "source_pages": [
+        38
+      ],
+      "question": "Theo chương 6, vận dụng quan điểm lịch sử khi xem xét tôn giáo đòi hỏi điều gì?",
+      "options": {
+        "A": "Dùng một cách xử lý cố định cho mọi hoàn cảnh",
+        "B": "Xem bối cảnh từng thời kỳ và tình hình cụ thể để có cách giải quyết phù hợp",
+        "C": "Chỉ dựa vào tên gọi mà bỏ hành vi thực tế",
+        "D": "Bỏ qua mọi nhu cầu tinh thần của người dân"
+      },
+      "correct_answer": "B",
+      "explanation": "«Dùng một cách xử lý cố định cho mọi hoàn cảnh» sai: Không phù hợp tính lịch sử cụ thể. «Xem bối cảnh từng thời kỳ và tình hình cụ thể để có cách giải quyết phù hợp» đúng: Đây là yêu cầu ở ý cuối slide 38. «Chỉ dựa vào tên gọi mà bỏ hành vi thực tế» sai: Không đáp ứng việc phân biệt, xem xét cụ thể. «Bỏ qua mọi nhu cầu tinh thần của người dân» sai: Bài giảng vẫn ghi nhận nhu cầu tín ngưỡng. Nguồn: Chương 6, slide 38 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-030",
+      "topic": "Cốt lõi công tác tôn giáo",
+      "difficulty": "easy",
+      "source_pages": [
+        51,
+        52
+      ],
+      "question": "Theo slide 52, nội dung cốt lõi của công tác tôn giáo là gì?",
+      "options": {
+        "A": "Chỉ quan tâm giáo lý mà bỏ đời sống người dân",
+        "B": "Chỉ tổ chức hoạt động thương mại",
+        "C": "Chỉ thống kê số cơ sở thờ tự",
+        "D": "Công tác vận động quần chúng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ quan tâm giáo lý mà bỏ đời sống người dân» sai: Bỏ đối tượng quần chúng được nhấn mạnh. «Chỉ tổ chức hoạt động thương mại» sai: Không phải nội dung cốt lõi trên slide. «Chỉ thống kê số cơ sở thờ tự» sai: Thống kê không thay thế nội dung cốt lõi được nêu. «Công tác vận động quần chúng» đúng: Slide nêu rõ nội dung này, gắn tham gia xây dựng đời sống xã hội. Nguồn: Chương 6, slide 51, 52 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-031",
+      "topic": "Trách nhiệm và tự nguyện",
+      "difficulty": "medium",
+      "source_pages": [
+        54,
+        55
+      ],
+      "question": "Theo slides 54–55, nhận định nào phù hợp về công tác tôn giáo?",
+      "options": {
+        "A": "Là trách nhiệm của cả hệ thống chính trị; không được ép buộc người dân theo đạo",
+        "B": "Mọi người có đạo đều phải bị đối xử khác quyền lợi",
+        "C": "Có thể ép theo đạo nếu muốn tăng số tín đồ",
+        "D": "Chỉ một tổ chức chịu trách nhiệm, các tổ chức khác đứng ngoài"
+      },
+      "correct_answer": "A",
+      "explanation": "«Là trách nhiệm của cả hệ thống chính trị; không được ép buộc người dân theo đạo» đúng: Hai slide lần lượt nêu chủ thể trách nhiệm và nguyên tắc không cưỡng ép. «Mọi người có đạo đều phải bị đối xử khác quyền lợi» sai: Không phù hợp nguyên tắc bình đẳng đã nêu. «Có thể ép theo đạo nếu muốn tăng số tín đồ» sai: Trái với nội dung không ép buộc. «Chỉ một tổ chức chịu trách nhiệm, các tổ chức khác đứng ngoài» sai: Không khớp phạm vi cả hệ thống chính trị. Nguồn: Chương 6, slide 54, 55 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-06-032",
+      "topic": "Quan hệ dân tộc và tôn giáo",
+      "difficulty": "hard",
+      "source_pages": [
+        51,
+        56,
+        57,
+        60
+      ],
+      "question": "Một địa phương muốn củng cố đoàn kết bằng cách hỗ trợ giao lưu và bảo đảm quyền của người có đạo, không có đạo cùng các dân tộc. Theo chương 6, đánh giá nào đúng?",
+      "options": {
+        "A": "Chỉ cần quan tâm nhóm đông nhất, có thể bỏ quyền nhóm khác",
+        "B": "Muốn thống nhất thì phải bỏ mọi tín ngưỡng truyền thống",
+        "C": "Chỉ có thể đoàn kết nếu mọi người cùng một niềm tin",
+        "D": "Phù hợp định hướng củng cố cộng đồng thống nhất và bảo đảm các quyền liên quan"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ cần quan tâm nhóm đông nhất, có thể bỏ quyền nhóm khác» sai: Không phù hợp bình đẳng và quyền của các dân tộc thiểu số. «Muốn thống nhất thì phải bỏ mọi tín ngưỡng truyền thống» sai: Slide 57 ghi nhận vai trò của tín ngưỡng truyền thống, không đưa yêu cầu này. «Chỉ có thể đoàn kết nếu mọi người cùng một niềm tin» sai: Bài giảng nói đến đoàn kết giữa các tôn giáo và người không theo đạo. «Phù hợp định hướng củng cố cộng đồng thống nhất và bảo đảm các quyền liên quan» đúng: Slides 51,56,60 kết hợp đoàn kết dân tộc với đoàn kết tôn giáo và bảo đảm quyền. Nguồn: Chương 6, slide 51, 56, 57, 60 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}

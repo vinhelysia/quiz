@@ -1,0 +1,506 @@
+{
+  "chapter_id": "cnxh-04",
+  "title": "Chương 4 - Dân chủ xã hội chủ nghĩa và Nhà nước xã hội chủ nghĩa",
+  "source_file": "C4. DAN CHU XHCN.ppt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-04-001",
+      "topic": "Khái niệm dân chủ",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Theo cách giải thích ở slide 2, ý nghĩa cơ bản của dân chủ là gì?",
+      "options": {
+        "A": "Chỉ quyền quản lý tài sản tư nhân",
+        "B": "Quyền lực của nhân dân",
+        "C": "Không có bất kỳ hình thức tổ chức xã hội nào",
+        "D": "Quyền lực chỉ của một gia đình"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ quyền quản lý tài sản tư nhân» sai: Hẹp hơn khái niệm quyền lực nhân dân. «Quyền lực của nhân dân» đúng: Slide liên hệ Demos với nhân dân và Kratos với quyền lực. «Không có bất kỳ hình thức tổ chức xã hội nào» sai: Không phải định nghĩa dân chủ trong bài. «Quyền lực chỉ của một gia đình» sai: Không phù hợp chủ thể nhân dân. Nguồn: Chương 4, slide 2 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-002",
+      "topic": "Ba phương diện dân chủ",
+      "difficulty": "medium",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo slide 3, dân chủ có thể được xem xét trên những phương diện nào?",
+      "options": {
+        "A": "Chỉ mức thu nhập và số tài sản",
+        "B": "Chỉ phong tục và tín ngưỡng",
+        "C": "Chỉ một kỹ thuật bầu cử, không liên quan quyền lực",
+        "D": "Quyền lực nhân dân, hình thức nhà nước và nguyên tắc tổ chức quản lý"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ mức thu nhập và số tài sản» sai: Không bao quát phương diện chính trị và tổ chức. «Chỉ phong tục và tín ngưỡng» sai: Không khớp các phương diện được nêu. «Chỉ một kỹ thuật bầu cử, không liên quan quyền lực» sai: Thu hẹp nội dung bài giảng. «Quyền lực nhân dân, hình thức nhà nước và nguyên tắc tổ chức quản lý» đúng: Slide phân biệt rõ ba phương diện này. Nguồn: Chương 4, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-003",
+      "topic": "Tập trung dân chủ",
+      "difficulty": "medium",
+      "source_pages": [
+        3,
+        34
+      ],
+      "question": "Theo bài giảng, nguyên tắc dân chủ kết hợp với nguyên tắc nào để hình thành nguyên tắc tập trung dân chủ?",
+      "options": {
+        "A": "Đặc quyền dòng họ",
+        "B": "Tùy tiện cá nhân",
+        "C": "Tập trung",
+        "D": "Cô lập giữa các cơ quan"
+      },
+      "correct_answer": "C",
+      "explanation": "«Đặc quyền dòng họ» sai: Không liên quan nguyên tắc tổ chức được bài giảng nêu. «Tùy tiện cá nhân» sai: Không phải nguyên tắc được xác định. «Tập trung» đúng: Slide 3 nêu trực tiếp sự kết hợp này. «Cô lập giữa các cơ quan» sai: Không phù hợp yêu cầu phối hợp và thống nhất. Nguồn: Chương 4, slide 3, 34 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-004",
+      "topic": "Quan điểm Hồ Chí Minh",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Theo slide 4, cách diễn đạt ngắn gọn về dân chủ trong tư tưởng Hồ Chí Minh là gì?",
+      "options": {
+        "A": "Chỉ có quyền mà không có hành động thực hiện quyền",
+        "B": "Dân là chủ và dân làm chủ",
+        "C": "Chỉ cơ quan nhà nước mới có lợi ích cần bảo vệ",
+        "D": "Cán bộ là chủ, nhân dân chỉ nhận mệnh lệnh"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ có quyền mà không có hành động thực hiện quyền» sai: Không thể hiện đầy đủ vế dân làm chủ. «Dân là chủ và dân làm chủ» đúng: Hai vế được slide nêu cùng nhau. «Chỉ cơ quan nhà nước mới có lợi ích cần bảo vệ» sai: Bỏ vai trò và lợi ích nhân dân. «Cán bộ là chủ, nhân dân chỉ nhận mệnh lệnh» sai: Trái với chủ thể làm chủ trên slide. Nguồn: Chương 4, slide 4 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-005",
+      "topic": "Phạm vi dân chủ",
+      "difficulty": "medium",
+      "source_pages": [
+        6,
+        26
+      ],
+      "question": "Theo chương 4, thực hiện dân chủ cần diễn ra trong phạm vi nào?",
+      "options": {
+        "A": "Chỉ trong quan hệ gia đình",
+        "B": "Các lĩnh vực chính trị, kinh tế, văn hóa và xã hội",
+        "C": "Chỉ trong một ngày bầu cử",
+        "D": "Chỉ trong tiêu dùng hàng hóa"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ trong quan hệ gia đình» sai: Không phù hợp phạm vi xã hội được nêu. «Các lĩnh vực chính trị, kinh tế, văn hóa và xã hội» đúng: Slides 6,26 không giới hạn dân chủ ở một lĩnh vực. «Chỉ trong một ngày bầu cử» sai: Hẹp hơn phạm vi bài giảng. «Chỉ trong tiêu dùng hàng hóa» sai: Không bao quát quyền làm chủ nhiều mặt. Nguồn: Chương 4, slide 6, 26 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-006",
+      "topic": "Dân chủ như phạm trù",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo kết luận slide 9, dân chủ được xem xét đồng thời như điều gì?",
+      "options": {
+        "A": "Chỉ một hiện tượng kinh tế thuần túy",
+        "B": "Một khái niệm không có quan hệ với lịch sử",
+        "C": "Chỉ một quy tắc kỹ thuật không gắn quyền con người",
+        "D": "Giá trị xã hội, phạm trù chính trị và phạm trù lịch sử"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ một hiện tượng kinh tế thuần túy» sai: Bỏ các phương diện chính trị và giá trị xã hội. «Một khái niệm không có quan hệ với lịch sử» sai: Trái với thành tố phạm trù lịch sử. «Chỉ một quy tắc kỹ thuật không gắn quyền con người» sai: Slide gắn dân chủ với những quyền cơ bản. «Giá trị xã hội, phạm trù chính trị và phạm trù lịch sử» đúng: Slide tổng hợp ba cách nhìn này. Nguồn: Chương 4, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-007",
+      "topic": "Sự ra đời dân chủ XHCN",
+      "difficulty": "easy",
+      "source_pages": [
+        10
+      ],
+      "question": "Theo slide 10, dân chủ XHCN chính thức ra đời sau sự kiện nào?",
+      "options": {
+        "A": "Sự ra đời của triết học cổ điển Đức",
+        "B": "Đại hội VI năm 1986",
+        "C": "Tuyên ngôn năm 1848, theo đúng mốc ra đời CNXHKH",
+        "D": "Cách mạng Tháng Mười Nga năm 1917"
+      },
+      "correct_answer": "D",
+      "explanation": "«Sự ra đời của triết học cổ điển Đức» sai: Không phải sự kiện xác định tại slide 10. «Đại hội VI năm 1986» sai: Đây là mốc đổi mới ở Việt Nam được đề cập sau. «Tuyên ngôn năm 1848, theo đúng mốc ra đời CNXHKH» sai: Đã nhầm mốc ra đời học thuyết với nền dân chủ XHCN. «Cách mạng Tháng Mười Nga năm 1917» đúng: Đây là mốc chính thức được slide nêu. Nguồn: Chương 4, slide 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-008",
+      "topic": "Phát triển nền dân chủ",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Theo chương 4, quá trình phát triển dân chủ XHCN được mô tả thế nào?",
+      "options": {
+        "A": "Từ thấp đến cao, từng bước hoàn thiện và kế thừa có chọn lọc giá trị trước đó",
+        "B": "Không có bất kỳ yếu tố kế thừa nào",
+        "C": "Chỉ đổi tên nền dân chủ trước đó, không có nội dung mới",
+        "D": "Hoàn thiện tuyệt đối ngay lúc hình thành"
+      },
+      "correct_answer": "A",
+      "explanation": "«Từ thấp đến cao, từng bước hoàn thiện và kế thừa có chọn lọc giá trị trước đó» đúng: Slide 10 nhấn mạnh tính quá trình và sự kế thừa. «Không có bất kỳ yếu tố kế thừa nào» sai: Slide nói đến kế thừa chọn lọc. «Chỉ đổi tên nền dân chủ trước đó, không có nội dung mới» sai: Bỏ phần bổ sung và làm sâu sắc giá trị mới. «Hoàn thiện tuyệt đối ngay lúc hình thành» sai: Trái với từ chưa hoàn thiện đến hoàn thiện. Nguồn: Chương 4, slide 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-009",
+      "topic": "Bản chất chính trị dân chủ XHCN",
+      "difficulty": "easy",
+      "source_pages": [
+        11
+      ],
+      "question": "Theo slide 11, bản chất chính trị của dân chủ XHCN được trình bày gắn với yếu tố nào?",
+      "options": {
+        "A": "Chỉ quyền lực của chủ sở hữu tư bản",
+        "B": "Sự lãnh đạo của giai cấp công nhân thông qua Đảng và quyền lực, lợi ích nhân dân",
+        "C": "Chỉ mức tăng trưởng sản lượng",
+        "D": "Chỉ quan hệ trong một dòng họ"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ quyền lực của chủ sở hữu tư bản» sai: Không phải bản chất slide xác định. «Sự lãnh đạo của giai cấp công nhân thông qua Đảng và quyền lực, lợi ích nhân dân» đúng: Slide liên hệ hai phương diện lãnh đạo và thực hiện quyền lực nhân dân. «Chỉ mức tăng trưởng sản lượng» sai: Đây không phải phương diện chính trị được hỏi. «Chỉ quan hệ trong một dòng họ» sai: Không phù hợp chủ thể và phạm vi của bài. Nguồn: Chương 4, slide 11 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-010",
+      "topic": "Bản chất kinh tế dân chủ XHCN",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Theo slide 12, cơ sở kinh tế của dân chủ XHCN là gì?",
+      "options": {
+        "A": "Chỉ cần hình thức bầu cử",
+        "B": "Không cần cơ sở kinh tế nào",
+        "C": "Công hữu về tư liệu sản xuất chủ yếu, phù hợp trình độ lực lượng sản xuất",
+        "D": "Chỉ sở hữu tư nhân của một nhóm thiểu số"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ cần hình thức bầu cử» sai: Bầu cử không thay cho nền tảng kinh tế đang được hỏi. «Không cần cơ sở kinh tế nào» sai: Trái với việc phân tích riêng bản chất kinh tế. «Công hữu về tư liệu sản xuất chủ yếu, phù hợp trình độ lực lượng sản xuất» đúng: Slide gắn cơ sở này với đáp ứng nhu cầu nhân dân lao động. «Chỉ sở hữu tư nhân của một nhóm thiểu số» sai: Không phải cơ sở nêu trong bài. Nguồn: Chương 4, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-011",
+      "topic": "Bản chất văn hóa dân chủ XHCN",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Theo slide 13, nội dung văn hóa - tư tưởng của dân chủ XHCN kết hợp những yếu tố nào?",
+      "options": {
+        "A": "Nền tảng Mác - Lênin, tinh hoa văn hóa dân tộc và giá trị tiến bộ nhân loại",
+        "B": "Không có nội dung tư tưởng hoặc văn hóa",
+        "C": "Chỉ giữ mọi tập quán cũ bất kể giá trị",
+        "D": "Chỉ tiếp thu bên ngoài, bỏ văn hóa dân tộc"
+      },
+      "correct_answer": "A",
+      "explanation": "«Nền tảng Mác - Lênin, tinh hoa văn hóa dân tộc và giá trị tiến bộ nhân loại» đúng: Slide trình bày cả nền tảng tư tưởng và sự tiếp thu văn hóa. «Không có nội dung tư tưởng hoặc văn hóa» sai: Trái với chủ đề của slide. «Chỉ giữ mọi tập quán cũ bất kể giá trị» sai: Không thể hiện yêu cầu tinh hoa và tiến bộ. «Chỉ tiếp thu bên ngoài, bỏ văn hóa dân tộc» sai: Bỏ thành tố kế thừa dân tộc. Nguồn: Chương 4, slide 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-012",
+      "topic": "Dân chủ và pháp luật",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        26
+      ],
+      "question": "Theo bài giảng, mối quan hệ giữa dân chủ với pháp luật, kỷ cương được hiểu thế nào?",
+      "options": {
+        "A": "Có dân chủ thì không cần tuân thủ pháp luật",
+        "B": "Có pháp luật thì nhân dân không còn quyền làm chủ",
+        "C": "Dân chủ gắn liền pháp luật, kỷ cương và kỷ luật",
+        "D": "Hai yếu tố không có bất kỳ liên hệ nào"
+      },
+      "correct_answer": "C",
+      "explanation": "«Có dân chủ thì không cần tuân thủ pháp luật» sai: Trái với nội dung gắn bó được nêu. «Có pháp luật thì nhân dân không còn quyền làm chủ» sai: Không phải cách hiểu của bài giảng. «Dân chủ gắn liền pháp luật, kỷ cương và kỷ luật» đúng: Slides 14,26 nêu sự thống nhất, không đối lập tuyệt đối. «Hai yếu tố không có bất kỳ liên hệ nào» sai: Bài giảng liên hệ chúng trực tiếp. Nguồn: Chương 4, slide 14, 26 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-013",
+      "topic": "Nguồn gốc nhà nước XHCN",
+      "difficulty": "easy",
+      "source_pages": [
+        15,
+        16
+      ],
+      "question": "Theo chương 4, nhà nước XHCN ra đời gắn với quá trình nào?",
+      "options": {
+        "A": "Thắng lợi cách mạng XHCN do công nhân và nhân dân lao động dưới sự lãnh đạo của Đảng",
+        "B": "Chỉ do xuất hiện một loại máy công nghiệp mới",
+        "C": "Chỉ do thay đổi ngôn ngữ giao tiếp",
+        "D": "Tự hình thành chỉ do một hợp đồng mua bán"
+      },
+      "correct_answer": "A",
+      "explanation": "«Thắng lợi cách mạng XHCN do công nhân và nhân dân lao động dưới sự lãnh đạo của Đảng» đúng: Sơ đồ slide 15 nối cách mạng thành công với nhà nước mới. «Chỉ do xuất hiện một loại máy công nghiệp mới» sai: Máy móc không trực tiếp thay toàn bộ quá trình chính trị. «Chỉ do thay đổi ngôn ngữ giao tiếp» sai: Không thuộc quá trình hình thành nhà nước được nêu. «Tự hình thành chỉ do một hợp đồng mua bán» sai: Không phải nguồn gốc trong sơ đồ. Nguồn: Chương 4, slide 15, 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-014",
+      "topic": "Bản chất nhà nước XHCN",
+      "difficulty": "medium",
+      "source_pages": [
+        16,
+        17
+      ],
+      "question": "Theo bài giảng, bản chất chính trị của nhà nước XHCN được mô tả thế nào?",
+      "options": {
+        "A": "Chỉ thực hiện hoạt động văn hóa, không có quyền lực chính trị",
+        "B": "Mang bản chất giai cấp công nhân và phục vụ lợi ích quần chúng lao động",
+        "C": "Không có liên hệ với bất kỳ giai cấp hay lực lượng xã hội nào",
+        "D": "Chỉ phục vụ một nhóm chủ sở hữu tư bản"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ thực hiện hoạt động văn hóa, không có quyền lực chính trị» sai: Nhà nước được bài giảng xác định trên nhiều phương diện. «Mang bản chất giai cấp công nhân và phục vụ lợi ích quần chúng lao động» đúng: Slide 17 nêu đồng thời hai yếu tố này. «Không có liên hệ với bất kỳ giai cấp hay lực lượng xã hội nào» sai: Không phù hợp khung phân tích của bài. «Chỉ phục vụ một nhóm chủ sở hữu tư bản» sai: Trái với nội dung phục vụ quần chúng lao động. Nguồn: Chương 4, slide 16, 17 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-015",
+      "topic": "Chức năng đối nội",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Hoạt động nào thuộc chức năng đối nội của nhà nước theo slide 18?",
+      "options": {
+        "A": "Tổ chức, quản lý phát triển kinh tế, văn hóa và xã hội",
+        "B": "Chỉ ký thỏa thuận hợp tác quốc tế",
+        "C": "Chỉ xử lý quan hệ ngoại giao giữa hai quốc gia",
+        "D": "Chỉ thiết lập quan hệ hữu nghị với một nước khác"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tổ chức, quản lý phát triển kinh tế, văn hóa và xã hội» đúng: Đây là chức năng bên trong lãnh thổ, đời sống xã hội. «Chỉ ký thỏa thuận hợp tác quốc tế» sai: Không phải ví dụ trọng tâm về đối nội. «Chỉ xử lý quan hệ ngoại giao giữa hai quốc gia» sai: Thuộc quan hệ đối ngoại. «Chỉ thiết lập quan hệ hữu nghị với một nước khác» sai: Đây gần nhóm chức năng đối ngoại. Nguồn: Chương 4, slide 18 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-016",
+      "topic": "Chức năng đối ngoại",
+      "difficulty": "easy",
+      "source_pages": [
+        19
+      ],
+      "question": "Theo slide 19, hoạt động nào minh họa chức năng đối ngoại?",
+      "options": {
+        "A": "Chỉ phân công công việc nội bộ một cơ quan",
+        "B": "Bảo vệ chủ quyền và mở rộng quan hệ hữu nghị, hợp tác bình đẳng, cùng có lợi",
+        "C": "Chỉ tổ chức một lớp học trong địa phương",
+        "D": "Chỉ quản lý một chợ trong nước"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ phân công công việc nội bộ một cơ quan» sai: Không đủ phạm vi chức năng đối ngoại. «Bảo vệ chủ quyền và mở rộng quan hệ hữu nghị, hợp tác bình đẳng, cùng có lợi» đúng: Slide trình bày cả bảo vệ quốc gia và hợp tác với bên ngoài. «Chỉ tổ chức một lớp học trong địa phương» sai: Đây là hoạt động quản lý xã hội đối nội. «Chỉ quản lý một chợ trong nước» sai: Không phải quan hệ đối ngoại được hỏi. Nguồn: Chương 4, slide 19 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-017",
+      "topic": "Dân chủ và nhà nước",
+      "difficulty": "hard",
+      "source_pages": [
+        20
+      ],
+      "question": "Theo slide 20, nhận định nào diễn đạt đúng mối quan hệ giữa dân chủ XHCN và nhà nước XHCN?",
+      "options": {
+        "A": "Nhà nước thay thế toàn bộ quyền làm chủ nên không cần dân chủ",
+        "B": "Hai yếu tố hoàn toàn không tác động lẫn nhau",
+        "C": "Dân chủ có thể thực hiện mà không cần bất kỳ công cụ tổ chức nào trong mô hình bài giảng",
+        "D": "Dân chủ là cơ sở xây dựng, hoạt động nhà nước; nhà nước là công cụ thực thi quyền dân chủ"
+      },
+      "correct_answer": "D",
+      "explanation": "«Nhà nước thay thế toàn bộ quyền làm chủ nên không cần dân chủ» sai: Không phù hợp vai trò nền tảng của dân chủ. «Hai yếu tố hoàn toàn không tác động lẫn nhau» sai: Trái với quan hệ cơ sở và công cụ. «Dân chủ có thể thực hiện mà không cần bất kỳ công cụ tổ chức nào trong mô hình bài giảng» sai: Bỏ vai trò nhà nước được slide xác định. «Dân chủ là cơ sở xây dựng, hoạt động nhà nước; nhà nước là công cụ thực thi quyền dân chủ» đúng: Hai vế tương tác được slide nêu theo hai chiều. Nguồn: Chương 4, slide 20 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-018",
+      "topic": "Mốc hình thành ở Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        21
+      ],
+      "question": "Theo slide 21, nền dân chủ XHCN Việt Nam hình thành gắn với sự kiện nào?",
+      "options": {
+        "A": "Chỉ sau khi xuất hiện mạng Internet",
+        "B": "Đại hội VI năm 1986 là thời điểm đầu tiên ra đời nhà nước Việt Nam",
+        "C": "Cách mạng Tháng Tám 1945 và sự ra đời Nhà nước Việt Nam Dân chủ Cộng hòa",
+        "D": "Cách mạng Tháng Mười 1917 tại Nga"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ sau khi xuất hiện mạng Internet» sai: Không phải mốc lịch sử của bài giảng. «Đại hội VI năm 1986 là thời điểm đầu tiên ra đời nhà nước Việt Nam» sai: Đã nhầm mốc đổi mới với mốc lập nhà nước. «Cách mạng Tháng Tám 1945 và sự ra đời Nhà nước Việt Nam Dân chủ Cộng hòa» đúng: Slide nêu cặp sự kiện này. «Cách mạng Tháng Mười 1917 tại Nga» sai: Đây là mốc của dân chủ XHCN trên thế giới ở slide 10. Nguồn: Chương 4, slide 21 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-019",
+      "topic": "Dân chủ và xây dựng CNXH",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Theo slide 26, dân chủ được gắn với xây dựng CNXH bằng những vai trò nào?",
+      "options": {
+        "A": "Chỉ là thủ tục có thể tách khỏi chế độ",
+        "B": "Chỉ là kết quả kinh tế, không là động lực",
+        "C": "Mục tiêu, bản chất và động lực",
+        "D": "Chỉ là khẩu hiệu không có nội dung thực hiện"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ là thủ tục có thể tách khỏi chế độ» sai: Không phản ánh vai trò nền tảng được nêu. «Chỉ là kết quả kinh tế, không là động lực» sai: Bỏ phần huy động sức mạnh nhân dân. «Mục tiêu, bản chất và động lực» đúng: Slide giải thích từng vai trò trong ba nội dung liên tiếp. «Chỉ là khẩu hiệu không có nội dung thực hiện» sai: Slide còn yêu cầu thực hiện ở các lĩnh vực. Nguồn: Chương 4, slide 26 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-020",
+      "topic": "Dân chủ gián tiếp",
+      "difficulty": "medium",
+      "source_pages": [
+        27
+      ],
+      "question": "Nhân dân bầu đại biểu để cơ quan đại diện thực hiện quyền lực được giao. Theo chương 4, đây là hình thức nào?",
+      "options": {
+        "A": "Dân chủ gián tiếp, còn gọi dân chủ đại diện",
+        "B": "Một quan hệ sở hữu tư liệu sản xuất",
+        "C": "Một hình thức không liên quan quyền làm chủ",
+        "D": "Dân chủ trực tiếp trong mọi quyết định cụ thể"
+      },
+      "correct_answer": "A",
+      "explanation": "«Dân chủ gián tiếp, còn gọi dân chủ đại diện» đúng: Slide 27 giải thích việc giao quyền qua tổ chức được bầu. «Một quan hệ sở hữu tư liệu sản xuất» sai: Tình huống thuộc thực hiện quyền chính trị. «Một hình thức không liên quan quyền làm chủ» sai: Bầu cơ quan đại diện là một cách thực hiện quyền làm chủ trong bài. «Dân chủ trực tiếp trong mọi quyết định cụ thể» sai: Nhân dân đang thực hiện qua đại biểu, không tự quyết từng việc. Nguồn: Chương 4, slide 27 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-021",
+      "topic": "Dân chủ trực tiếp",
+      "difficulty": "medium",
+      "source_pages": [
+        27
+      ],
+      "question": "Theo định nghĩa ở slide 27, trường hợp nào minh họa dân chủ trực tiếp rõ nhất?",
+      "options": {
+        "A": "Người dân trực tiếp tham gia quyết định một vấn đề thuộc quyền làm chủ của mình",
+        "B": "Một cơ quan tự coi mình là chủ sở hữu quyền lực riêng",
+        "C": "Đại biểu thay mặt người dân quyết định trong cơ quan đại diện",
+        "D": "Người dân chỉ nghe thông báo và không có quyền tham gia"
+      },
+      "correct_answer": "A",
+      "explanation": "«Người dân trực tiếp tham gia quyết định một vấn đề thuộc quyền làm chủ của mình» đúng: Đúng với việc bằng hành động của mình thực hiện quyền làm chủ. «Một cơ quan tự coi mình là chủ sở hữu quyền lực riêng» sai: Không phù hợp quyền làm chủ của nhân dân. «Đại biểu thay mặt người dân quyết định trong cơ quan đại diện» sai: Đây là cách thực hiện gián tiếp. «Người dân chỉ nghe thông báo và không có quyền tham gia» sai: Không thể hiện yếu tố trực tiếp thực hiện quyền. Nguồn: Chương 4, slide 27 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-022",
+      "topic": "Nhà nước pháp quyền",
+      "difficulty": "medium",
+      "source_pages": [
+        28,
+        30
+      ],
+      "question": "Theo bài giảng, cơ quan nhà nước cần tổ chức và hoạt động trên cơ sở nào?",
+      "options": {
+        "A": "Chỉ theo ý chí cá nhân bất kể quy định",
+        "B": "Chỉ theo quan hệ thân quen",
+        "C": "Hiến pháp và pháp luật, với yêu cầu tuân thủ và kiểm soát quyền lực",
+        "D": "Không cần cơ chế kiểm soát vì có quyền lực"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ theo ý chí cá nhân bất kể quy định» sai: Không phù hợp tinh thần pháp quyền. «Chỉ theo quan hệ thân quen» sai: Không phải nền tảng được xác định. «Hiến pháp và pháp luật, với yêu cầu tuân thủ và kiểm soát quyền lực» đúng: Slides 28,30 nhấn mạnh cơ sở pháp lý của hoạt động nhà nước. «Không cần cơ chế kiểm soát vì có quyền lực» sai: Slide 28 nêu kiểm soát lẫn nhau. Nguồn: Chương 4, slide 28, 30 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-023",
+      "topic": "Tổ chức quyền lực",
+      "difficulty": "hard",
+      "source_pages": [
+        31,
+        34
+      ],
+      "question": "Theo slides 31,34, quyền lực nhà nước được mô tả theo nguyên tắc nào?",
+      "options": {
+        "A": "Mỗi cơ quan có quyền lực hoàn toàn biệt lập, không phối hợp",
+        "B": "Chỉ phân công mà không có trách nhiệm liên hệ",
+        "C": "Thống nhất nên không cần phân công hay kiểm soát",
+        "D": "Thống nhất, có phân công, phối hợp và kiểm soát giữa các cơ quan"
+      },
+      "correct_answer": "D",
+      "explanation": "«Mỗi cơ quan có quyền lực hoàn toàn biệt lập, không phối hợp» sai: Không phù hợp nội dung thống nhất. «Chỉ phân công mà không có trách nhiệm liên hệ» sai: Không thể hiện yêu cầu phối hợp. «Thống nhất nên không cần phân công hay kiểm soát» sai: Bỏ các thành tố được nêu rõ. «Thống nhất, có phân công, phối hợp và kiểm soát giữa các cơ quan» đúng: Slide kết hợp tính thống nhất với phân công và kiểm soát. Nguồn: Chương 4, slide 31, 34 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-024",
+      "topic": "Con người và pháp quyền",
+      "difficulty": "easy",
+      "source_pages": [
+        33
+      ],
+      "question": "Theo đặc điểm ở slide 33, nhà nước pháp quyền XHCN cần đặt con người ở vị trí nào?",
+      "options": {
+        "A": "Không có quyền lợi cần được bảo vệ",
+        "B": "Đứng ngoài mọi chính sách công",
+        "C": "Chỉ là phương tiện tăng số liệu sản xuất",
+        "D": "Chủ thể và trung tâm của phát triển, được tôn trọng quyền con người"
+      },
+      "correct_answer": "D",
+      "explanation": "«Không có quyền lợi cần được bảo vệ» sai: Trái với nội dung tôn trọng quyền con người. «Đứng ngoài mọi chính sách công» sai: Bỏ mục tiêu phục vụ con người. «Chỉ là phương tiện tăng số liệu sản xuất» sai: Không phù hợp vị trí chủ thể, trung tâm. «Chủ thể và trung tâm của phát triển, được tôn trọng quyền con người» đúng: Đây là cách mô tả trực tiếp trên slide. Nguồn: Chương 4, slide 33 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-025",
+      "topic": "Điều kiện phát huy dân chủ",
+      "difficulty": "medium",
+      "source_pages": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "question": "Theo nhóm phương hướng ở slides 35–38, phát huy dân chủ cần kết hợp điều gì?",
+      "options": {
+        "A": "Cơ sở kinh tế, xây dựng Đảng, nhà nước pháp quyền và vai trò tổ chức chính trị - xã hội",
+        "B": "Chỉ lập thêm tổ chức, không cần cơ sở kinh tế",
+        "C": "Chỉ thay quy trình một cuộc họp",
+        "D": "Chỉ nâng thu nhập, bỏ thiết chế chính trị"
+      },
+      "correct_answer": "A",
+      "explanation": "«Cơ sở kinh tế, xây dựng Đảng, nhà nước pháp quyền và vai trò tổ chức chính trị - xã hội» đúng: Bài giảng phân bổ các điều kiện trên nhiều mặt. «Chỉ lập thêm tổ chức, không cần cơ sở kinh tế» sai: Slide 35 vẫn nhấn mạnh nền tảng kinh tế. «Chỉ thay quy trình một cuộc họp» sai: Quá hẹp so với các điều kiện bài giảng nêu. «Chỉ nâng thu nhập, bỏ thiết chế chính trị» sai: Bỏ xây dựng nhà nước và tổ chức. Nguồn: Chương 4, slide 35, 36, 37, 38 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-026",
+      "topic": "Giám sát và phản biện",
+      "difficulty": "medium",
+      "source_pages": [
+        39
+      ],
+      "question": "Theo slide 39, hoàn thiện giám sát và phản biện xã hội nhằm mục đích gì?",
+      "options": {
+        "A": "Chỉ tăng số lượng văn bản lưu trữ",
+        "B": "Loại bỏ quyền tham gia của người dân",
+        "C": "Phát huy quyền làm chủ của nhân dân",
+        "D": "Thay mọi hoạt động quản lý bằng ý kiến không cần kiểm chứng"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ tăng số lượng văn bản lưu trữ» sai: Không phải mục tiêu thực chất của nội dung này. «Loại bỏ quyền tham gia của người dân» sai: Trái với mục tiêu phát huy quyền làm chủ. «Phát huy quyền làm chủ của nhân dân» đúng: Đây là mục tiêu được slide xác định. «Thay mọi hoạt động quản lý bằng ý kiến không cần kiểm chứng» sai: Giám sát không đồng nghĩa bỏ toàn bộ quản lý. Nguồn: Chương 4, slide 39 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-027",
+      "topic": "Hoàn thiện nhà nước",
+      "difficulty": "medium",
+      "source_pages": [
+        41,
+        42,
+        43
+      ],
+      "question": "Theo slides 41–43, nhóm biện pháp nào thuộc hoàn thiện nhà nước pháp quyền?",
+      "options": {
+        "A": "Chấp nhận tham nhũng nếu bộ máy hoạt động nhanh",
+        "B": "Chỉ mở rộng trụ sở, không xét năng lực hay trách nhiệm",
+        "C": "Chỉ tăng thủ tục để người dân khó tham gia",
+        "D": "Cải cách hoạt động bộ máy, nâng năng lực cán bộ, chống tham nhũng và lãng phí"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chấp nhận tham nhũng nếu bộ máy hoạt động nhanh» sai: Trái với nội dung đấu tranh chống tham nhũng. «Chỉ mở rộng trụ sở, không xét năng lực hay trách nhiệm» sai: Không giải quyết các nội dung trọng tâm. «Chỉ tăng thủ tục để người dân khó tham gia» sai: Không phù hợp mục tiêu phục vụ nhân dân. «Cải cách hoạt động bộ máy, nâng năng lực cán bộ, chống tham nhũng và lãng phí» đúng: Ba slide lần lượt nêu các hướng này. Nguồn: Chương 4, slide 41, 42, 43 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-04-028",
+      "topic": "Tình huống dân chủ và kỷ cương",
+      "difficulty": "hard",
+      "source_pages": [
+        14,
+        26,
+        28,
+        31
+      ],
+      "question": "Một nhóm cho rằng 'phát huy dân chủ' đồng nghĩa ai cũng được bỏ qua quy định, còn cơ quan nhà nước không cần kiểm soát. Theo chương 4, nhận xét nào đúng?",
+      "options": {
+        "A": "Nhóm đúng vì dân chủ luôn loại bỏ pháp luật",
+        "B": "Nhóm hiểu sai cả quan hệ dân chủ - pháp luật lẫn yêu cầu kiểm soát quyền lực",
+        "C": "Nhóm chỉ sai ở vế đầu; quyền lực không cần kiểm soát",
+        "D": "Nhóm chỉ sai ở vế sau; người dân có thể bỏ mọi quy định"
+      },
+      "correct_answer": "B",
+      "explanation": "«Nhóm đúng vì dân chủ luôn loại bỏ pháp luật» sai: Trái với slides 14,26. «Nhóm hiểu sai cả quan hệ dân chủ - pháp luật lẫn yêu cầu kiểm soát quyền lực» đúng: Bài giảng gắn dân chủ với kỷ cương và cơ chế phân công, kiểm soát. «Nhóm chỉ sai ở vế đầu; quyền lực không cần kiểm soát» sai: Slides 28,31 vẫn yêu cầu kiểm soát. «Nhóm chỉ sai ở vế sau; người dân có thể bỏ mọi quy định» sai: Slide 26 gắn quyền làm chủ với pháp luật, kỷ luật. Nguồn: Chương 4, slide 14, 26, 28, 31 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}

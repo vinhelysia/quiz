@@ -1,0 +1,511 @@
+{
+  "chapter_id": "cnxh-03",
+  "title": "Chương 3 - Chủ nghĩa xã hội và thời kỳ quá độ",
+  "source_file": "C3-XHXHCN.ppt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-03-001",
+      "topic": "Phân kỳ hình thái xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        2,
+        3
+      ],
+      "question": "Theo chương 3, chủ nghĩa xã hội được xác định là giai đoạn nào của hình thái kinh tế - xã hội cộng sản chủ nghĩa?",
+      "options": {
+        "A": "Một giai đoạn của hình thái phong kiến",
+        "B": "Giai đoạn thấp",
+        "C": "Giai đoạn cao",
+        "D": "Một hình thái hoàn toàn không liên quan chủ nghĩa cộng sản"
+      },
+      "correct_answer": "B",
+      "explanation": "«Một giai đoạn của hình thái phong kiến» sai: Không đúng vị trí trong sơ đồ. «Giai đoạn thấp» đúng: Slide 3 phân biệt giai đoạn thấp là CNXH và giai đoạn cao là CNCS. «Giai đoạn cao» sai: Giai đoạn cao được gọi là chủ nghĩa cộng sản. «Một hình thái hoàn toàn không liên quan chủ nghĩa cộng sản» sai: Không khớp sơ đồ phân kỳ của bài giảng. Nguồn: Chương 3, slide 2, 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-002",
+      "topic": "Giai đoạn cao",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo cách phân kỳ Mác - Ăngghen ở slide 3, giai đoạn cao được gọi là gì?",
+      "options": {
+        "A": "Xã hội xã hội chủ nghĩa",
+        "B": "Xã hội tư bản chủ nghĩa",
+        "C": "Thời kỳ quá độ lên CNXH",
+        "D": "Chủ nghĩa cộng sản"
+      },
+      "correct_answer": "D",
+      "explanation": "«Xã hội xã hội chủ nghĩa» sai: Slide xếp CNXH là giai đoạn thấp. «Xã hội tư bản chủ nghĩa» sai: Đây là hình thái trước đó trong tiến trình bài giảng. «Thời kỳ quá độ lên CNXH» sai: Thời kỳ quá độ không phải giai đoạn cao được hỏi. «Chủ nghĩa cộng sản» đúng: Đây là tên giai đoạn cao trong sơ đồ. Nguồn: Chương 3, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-003",
+      "topic": "Phân kỳ và thời kỳ quá độ",
+      "difficulty": "medium",
+      "source_pages": [
+        3,
+        4
+      ],
+      "question": "Khi so với sơ đồ hai giai đoạn ở slide 3, cách trình bày tư tưởng Lênin tại slide 4 nêu thêm nội dung nào ở đầu tiến trình?",
+      "options": {
+        "A": "Thời kỳ quá độ lên chủ nghĩa xã hội",
+        "B": "Chỉ có một giai đoạn duy nhất",
+        "C": "Giai đoạn tư bản phát triển sau CNCS",
+        "D": "Thời kỳ công xã nguyên thủy sau chủ nghĩa cộng sản"
+      },
+      "correct_answer": "A",
+      "explanation": "«Thời kỳ quá độ lên chủ nghĩa xã hội» đúng: Slide 4 đặt thời kỳ quá độ trước giai đoạn thấp và giai đoạn cao. «Chỉ có một giai đoạn duy nhất» sai: Slide 4 phân biệt ba nấc của tiến trình được trình bày. «Giai đoạn tư bản phát triển sau CNCS» sai: Không phải nội dung slide 4. «Thời kỳ công xã nguyên thủy sau chủ nghĩa cộng sản» sai: Không có thứ tự này trong sơ đồ. Nguồn: Chương 3, slide 3, 4 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-004",
+      "topic": "Điều kiện kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo sơ đồ slide 6, mâu thuẫn kinh tế gắn với điều kiện ra đời CNXH là gì?",
+      "options": {
+        "A": "Tôn giáo với khoa học tự nhiên như mâu thuẫn duy nhất",
+        "B": "Ngôn ngữ dân tộc với phong tục địa phương",
+        "C": "Gia đình hạt nhân với gia đình nhiều thế hệ",
+        "D": "Lực lượng sản xuất xã hội hóa với quan hệ sản xuất dựa trên chiếm hữu tư nhân tư bản về TLSX"
+      },
+      "correct_answer": "D",
+      "explanation": "«Tôn giáo với khoa học tự nhiên như mâu thuẫn duy nhất» sai: Sơ đồ không đặt cặp này làm điều kiện kinh tế. «Ngôn ngữ dân tộc với phong tục địa phương» sai: Đây không phải cặp phạm trù kinh tế trong sơ đồ. «Gia đình hạt nhân với gia đình nhiều thế hệ» sai: Đây thuộc chủ đề gia đình. «Lực lượng sản xuất xã hội hóa với quan hệ sản xuất dựa trên chiếm hữu tư nhân tư bản về TLSX» đúng: Sơ đồ đặt hai yếu tố này trong điều kiện kinh tế. Nguồn: Chương 3, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-005",
+      "topic": "Điều kiện xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo slide 6, lực lượng xã hội nào gắn với đấu tranh chống giai cấp tư sản trong sơ đồ điều kiện ra đời CNXH?",
+      "options": {
+        "A": "Giai cấp công nhân",
+        "B": "Chỉ các cộng đồng cư trú không phân biệt địa vị giai cấp",
+        "C": "Chỉ tầng lớp thương nhân độc lập",
+        "D": "Chỉ các nhà tư bản tự cải tạo chế độ của mình"
+      },
+      "correct_answer": "A",
+      "explanation": "«Giai cấp công nhân» đúng: Sơ đồ nối đấu tranh công nhân với cách mạng vô sản. «Chỉ các cộng đồng cư trú không phân biệt địa vị giai cấp» sai: Bỏ yếu tố giai cấp được slide nhấn mạnh. «Chỉ tầng lớp thương nhân độc lập» sai: Không được đặt là lực lượng trong sơ đồ. «Chỉ các nhà tư bản tự cải tạo chế độ của mình» sai: Không phải chủ thể đấu tranh được sơ đồ nêu. Nguồn: Chương 3, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-006",
+      "topic": "Đặc trưng giải phóng",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Theo đặc trưng CNXH ở slide 7, mục tiêu giải phóng được trình bày theo phạm vi nào?",
+      "options": {
+        "A": "Chỉ thay đổi tên các cơ quan",
+        "B": "Chỉ nâng mức tiêu dùng của một nhóm sở hữu",
+        "C": "Chỉ giải phóng kỹ thuật khỏi lao động thủ công",
+        "D": "Giai cấp, dân tộc, xã hội và con người, tạo điều kiện phát triển toàn diện"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ thay đổi tên các cơ quan» sai: Không phải đặc trưng giải phóng trong tài liệu. «Chỉ nâng mức tiêu dùng của một nhóm sở hữu» sai: Không phù hợp phạm vi nhân dân và con người của slide. «Chỉ giải phóng kỹ thuật khỏi lao động thủ công» sai: Đây không đủ nội dung giải phóng được nêu. «Giai cấp, dân tộc, xã hội và con người, tạo điều kiện phát triển toàn diện» đúng: Slide không giới hạn giải phóng vào một mặt riêng lẻ. Nguồn: Chương 3, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-007",
+      "topic": "Đặc trưng kinh tế CNXH",
+      "difficulty": "medium",
+      "source_pages": [
+        7
+      ],
+      "question": "Nền kinh tế CNXH được slide 7 mô tả dựa trên cơ sở nào?",
+      "options": {
+        "A": "Chỉ đổi sở hữu mà không cần năng lực sản xuất",
+        "B": "Chỉ công cụ thủ công và sản xuất khép kín",
+        "C": "Lực lượng sản xuất hiện đại và công hữu về tư liệu sản xuất chủ yếu",
+        "D": "Chỉ tăng sản lượng, không xét quan hệ sản xuất"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ đổi sở hữu mà không cần năng lực sản xuất» sai: Bỏ một thành phần cơ bản của đặc trưng. «Chỉ công cụ thủ công và sản xuất khép kín» sai: Không phù hợp yêu cầu lực lượng sản xuất hiện đại. «Lực lượng sản xuất hiện đại và công hữu về tư liệu sản xuất chủ yếu» đúng: Slide kết hợp trình độ sản xuất với cơ sở sở hữu chủ yếu. «Chỉ tăng sản lượng, không xét quan hệ sản xuất» sai: Bỏ nền tảng sở hữu được nêu. Nguồn: Chương 3, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-008",
+      "topic": "Đặc trưng văn hóa",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Theo slide 7, xây dựng văn hóa XHCN cần có thái độ nào với các giá trị văn hóa?",
+      "options": {
+        "A": "Loại bỏ mọi truyền thống của dân tộc",
+        "B": "Kế thừa giá trị dân tộc và tiếp thu tinh hoa nhân loại",
+        "C": "Không quan tâm đời sống tinh thần",
+        "D": "Chỉ sao chép văn hóa bên ngoài"
+      },
+      "correct_answer": "B",
+      "explanation": "«Loại bỏ mọi truyền thống của dân tộc» sai: Trái với yêu cầu kế thừa và phát huy. «Kế thừa giá trị dân tộc và tiếp thu tinh hoa nhân loại» đúng: Đây là hai hướng được nêu cùng nhau. «Không quan tâm đời sống tinh thần» sai: Văn hóa là một đặc trưng được bài giảng nhấn mạnh. «Chỉ sao chép văn hóa bên ngoài» sai: Bỏ vai trò các giá trị văn hóa dân tộc. Nguồn: Chương 3, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-009",
+      "topic": "Quá độ trực tiếp",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Theo phân loại tại slide 8, quá độ trực tiếp được dùng cho trường hợp nào?",
+      "options": {
+        "A": "Từ một xã hội chưa trải qua CNTB phát triển, bỏ qua chế độ TBCN",
+        "B": "Từ CNTB phát triển lên CNXH",
+        "C": "Chỉ chuyển đổi nghề nghiệp của một cá nhân",
+        "D": "Mọi nước đều có cùng một lộ trình, không xét xuất phát điểm"
+      },
+      "correct_answer": "B",
+      "explanation": "«Từ một xã hội chưa trải qua CNTB phát triển, bỏ qua chế độ TBCN» sai: Slide xếp trường hợp này vào quá độ gián tiếp. «Từ CNTB phát triển lên CNXH» đúng: Đây là trường hợp được slide gọi là trực tiếp. «Chỉ chuyển đổi nghề nghiệp của một cá nhân» sai: Không phải sự chuyển đổi hình thái xã hội. «Mọi nước đều có cùng một lộ trình, không xét xuất phát điểm» sai: Phân loại trực tiếp/gián tiếp xét khác biệt điều kiện. Nguồn: Chương 3, slide 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-010",
+      "topic": "Quá độ gián tiếp",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Một nước chưa trải qua CNTB phát triển đi lên CNXH bỏ qua chế độ TBCN. Theo chương 3, đây là kiểu quá độ nào?",
+      "options": {
+        "A": "Không có thời kỳ quá độ",
+        "B": "Chỉ là thay đổi phong tục văn hóa",
+        "C": "Trực tiếp",
+        "D": "Gián tiếp"
+      },
+      "correct_answer": "D",
+      "explanation": "«Không có thời kỳ quá độ» sai: Bài giảng coi thời kỳ quá độ là tất yếu. «Chỉ là thay đổi phong tục văn hóa» sai: Tình huống nói về toàn bộ quá trình chuyển đổi xã hội. «Trực tiếp» sai: Slide gắn trực tiếp với CNTB phát triển. «Gián tiếp» đúng: Slide 8 định nghĩa kiểu này theo xuất phát điểm chưa qua CNTB phát triển. Nguồn: Chương 3, slide 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-011",
+      "topic": "Tính tất yếu thời kỳ quá độ",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        10
+      ],
+      "question": "Theo bài giảng, vì sao cần thời kỳ quá độ khi xây dựng CNXH?",
+      "options": {
+        "A": "Cần cải tạo tàn dư xã hội cũ và từng bước xây dựng cơ sở xã hội mới",
+        "B": "Vì xã hội mới tự hoàn thiện ngay sau một quyết định",
+        "C": "Chỉ để đổi tên chế độ mà không biến đổi đời sống",
+        "D": "Vì không còn nhiệm vụ nào về kinh tế và tinh thần"
+      },
+      "correct_answer": "A",
+      "explanation": "«Cần cải tạo tàn dư xã hội cũ và từng bước xây dựng cơ sở xã hội mới» đúng: Hai quá trình này cần thời gian, không chỉ một sự thay đổi tức thì. «Vì xã hội mới tự hoàn thiện ngay sau một quyết định» sai: Trái với yêu cầu từng bước xây dựng. «Chỉ để đổi tên chế độ mà không biến đổi đời sống» sai: Slide nói đến cải tạo trên nhiều lĩnh vực. «Vì không còn nhiệm vụ nào về kinh tế và tinh thần» sai: Đây lại là những cơ sở phải được xây dựng. Nguồn: Chương 3, slide 8, 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-012",
+      "topic": "Thực chất thời kỳ quá độ",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Thực chất thời kỳ quá độ theo slide 9 được biểu hiện thế nào?",
+      "options": {
+        "A": "Mọi yếu tố cũ biến mất hoàn toàn ngay lập tức",
+        "B": "Chỉ tồn tại thay đổi về trang phục",
+        "C": "Nhân tố mới và tàn dư cũ cùng tồn tại, đan xen và đấu tranh trên các lĩnh vực",
+        "D": "Xã hội cũ không có bất kỳ biến đổi nào"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mọi yếu tố cũ biến mất hoàn toàn ngay lập tức» sai: Không phản ánh sự đan xen được nêu. «Chỉ tồn tại thay đổi về trang phục» sai: Thu hẹp sự chuyển đổi toàn diện thành một biểu hiện bề ngoài. «Nhân tố mới và tàn dư cũ cùng tồn tại, đan xen và đấu tranh trên các lĩnh vực» đúng: Đây là mô tả trực tiếp của slide. «Xã hội cũ không có bất kỳ biến đổi nào» sai: Bài giảng đồng thời nói đến hình thành yếu tố mới. Nguồn: Chương 3, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-013",
+      "topic": "Kinh tế nhiều thành phần",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        10
+      ],
+      "question": "Sự tồn tại nhiều thành phần kinh tế trong sơ đồ thời kỳ quá độ giúp minh họa điều gì của bài giảng?",
+      "options": {
+        "A": "Không cần xây dựng lực lượng sản xuất",
+        "B": "Tính đan xen và đa dạng của các yếu tố kinh tế trong quá trình chuyển đổi",
+        "C": "Quan hệ kinh tế hoàn toàn đồng nhất ngay từ đầu",
+        "D": "Quá trình chuyển đổi chỉ diễn ra trong văn hóa"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không cần xây dựng lực lượng sản xuất» sai: Tồn tại nhiều thành phần không xóa yêu cầu phát triển cơ sở vật chất. «Tính đan xen và đa dạng của các yếu tố kinh tế trong quá trình chuyển đổi» đúng: Phù hợp thực chất thời kỳ quá độ nêu ở slide 9. «Quan hệ kinh tế hoàn toàn đồng nhất ngay từ đầu» sai: Sơ đồ thể hiện nhiều loại hình khác nhau. «Quá trình chuyển đổi chỉ diễn ra trong văn hóa» sai: Sơ đồ đang minh họa lĩnh vực kinh tế. Nguồn: Chương 3, slide 9, 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-014",
+      "topic": "Xây dựng và cải tạo",
+      "difficulty": "hard",
+      "source_pages": [
+        10
+      ],
+      "question": "Nhận định I: thời kỳ quá độ chỉ cải tạo cái cũ. Nhận định II: thời kỳ quá độ phải từng bước xây dựng cơ sở vật chất và đời sống tinh thần mới. Theo slide 10, đánh giá nào đúng?",
+      "options": {
+        "A": "I và II đều đúng",
+        "B": "I và II đều sai",
+        "C": "I sai, II đúng",
+        "D": "I đúng, II sai"
+      },
+      "correct_answer": "C",
+      "explanation": "«I và II đều đúng» sai: Từ 'chỉ' trong I làm mất nhiệm vụ xây dựng. «I và II đều sai» sai: II có căn cứ trực tiếp trong slide. «I sai, II đúng» đúng: Slide đặt cải tạo xã hội cũ và xây dựng xã hội mới song song. «I đúng, II sai» sai: II chính là nội dung slide nêu. Nguồn: Chương 3, slide 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-015",
+      "topic": "Xuất phát điểm Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Theo chương 3, xuất phát điểm được nêu cho Việt Nam khi đi lên CNXH là gì?",
+      "options": {
+        "A": "Một nước tư bản phát triển cao, không có hậu quả chiến tranh",
+        "B": "Một xã hội đã hoàn thành giai đoạn cao CNCS",
+        "C": "Chỉ có khó khăn về văn hóa, không có khó khăn kinh tế",
+        "D": "Xã hội thuộc địa, nửa phong kiến, lực lượng sản xuất lạc hậu và hậu quả chiến tranh"
+      },
+      "correct_answer": "D",
+      "explanation": "«Một nước tư bản phát triển cao, không có hậu quả chiến tranh» sai: Không phù hợp mô tả xuất phát điểm. «Một xã hội đã hoàn thành giai đoạn cao CNCS» sai: Đó không phải điểm xuất phát nêu trong bài. «Chỉ có khó khăn về văn hóa, không có khó khăn kinh tế» sai: Slide nhấn mạnh cả lực lượng sản xuất và chiến tranh. «Xã hội thuộc địa, nửa phong kiến, lực lượng sản xuất lạc hậu và hậu quả chiến tranh» đúng: Slide 12 mô tả các khó khăn lịch sử này. Nguồn: Chương 3, slide 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-016",
+      "topic": "Khoa học - công nghệ và quá độ",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Theo slide 13, phát triển khoa học - công nghệ thế giới tác động đến quá trình phát triển đất nước thế nào?",
+      "options": {
+        "A": "Chỉ có thách thức, không có thành tựu để tiếp thu",
+        "B": "Vừa tạo thời cơ, vừa đặt ra thách thức",
+        "C": "Chỉ có thời cơ, không cần thích ứng",
+        "D": "Không có liên hệ với phát triển đất nước"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ có thách thức, không có thành tựu để tiếp thu» sai: Bỏ cơ hội phát triển từ khoa học - công nghệ. «Vừa tạo thời cơ, vừa đặt ra thách thức» đúng: Slide trình bày đồng thời hai mặt. «Chỉ có thời cơ, không cần thích ứng» sai: Bỏ mặt thách thức được nêu. «Không có liên hệ với phát triển đất nước» sai: Trái với nhận định trên slide. Nguồn: Chương 3, slide 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-017",
+      "topic": "Bỏ qua chế độ TBCN",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Theo slide 16, 'bỏ qua chế độ TBCN' được hiểu trọng tâm là bỏ qua điều gì?",
+      "options": {
+        "A": "Mọi hoạt động trao đổi và phát triển sản xuất",
+        "B": "Việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN",
+        "C": "Mọi thành tựu khoa học và quản lý của nhân loại",
+        "D": "Toàn bộ nhiệm vụ xây dựng cơ sở vật chất"
+      },
+      "correct_answer": "B",
+      "explanation": "«Mọi hoạt động trao đổi và phát triển sản xuất» sai: Không phải nội dung mà slide định nghĩa là bỏ qua. «Việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng TBCN» đúng: Đây là cách giải thích cụ thể của bài giảng. «Mọi thành tựu khoa học và quản lý của nhân loại» sai: Slide yêu cầu tiếp thu những thành tựu này. «Toàn bộ nhiệm vụ xây dựng cơ sở vật chất» sai: Bài giảng vẫn yêu cầu phát triển lực lượng sản xuất. Nguồn: Chương 3, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-018",
+      "topic": "Kế thừa thành tựu",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Theo chương 3, tiếp thu khoa học, công nghệ và quản lý phát triển dưới CNTB có mâu thuẫn với cách hiểu 'bỏ qua chế độ TBCN' trong slide 16 không?",
+      "options": {
+        "A": "Có; phải từ chối mọi thành tựu bên ngoài",
+        "B": "Có; chỉ được dùng lại công cụ thủ công",
+        "C": "Không, vì từ đó phải xác lập quan hệ TBCN thống trị",
+        "D": "Không; bài giảng yêu cầu kế thừa thành tựu để phát triển lực lượng sản xuất"
+      },
+      "correct_answer": "D",
+      "explanation": "«Có; phải từ chối mọi thành tựu bên ngoài» sai: Trái với phần tiếp thu, kế thừa của slide. «Có; chỉ được dùng lại công cụ thủ công» sai: Slide không đặt điều kiện hạn chế công nghệ như vậy. «Không, vì từ đó phải xác lập quan hệ TBCN thống trị» sai: Vế sau trái với định nghĩa bỏ qua được slide nêu. «Không; bài giảng yêu cầu kế thừa thành tựu để phát triển lực lượng sản xuất» đúng: Bỏ qua vị trí thống trị không đồng nghĩa phủ nhận mọi thành tựu. Nguồn: Chương 3, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-019",
+      "topic": "Tính lâu dài của quá độ",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Theo slide 16, quá độ bỏ qua chế độ TBCN có đặc điểm nào?",
+      "options": {
+        "A": "Lâu dài, phức tạp, có nhiều chặng đường và biến đổi trên nhiều lĩnh vực",
+        "B": "Hoàn thành tức thì khi thay tên nhà nước",
+        "C": "Không cần phát triển lực lượng sản xuất",
+        "D": "Chỉ cần làm trong một lĩnh vực kinh tế"
+      },
+      "correct_answer": "A",
+      "explanation": "«Lâu dài, phức tạp, có nhiều chặng đường và biến đổi trên nhiều lĩnh vực» đúng: Slide nêu rõ đây là sự nghiệp đòi hỏi quyết tâm và thời gian. «Hoàn thành tức thì khi thay tên nhà nước» sai: Không khớp tính lâu dài và thay đổi về chất. «Không cần phát triển lực lượng sản xuất» sai: Trái với yêu cầu tiếp thu thành tựu để phát triển. «Chỉ cần làm trong một lĩnh vực kinh tế» sai: Slide nhấn mạnh toàn bộ các lĩnh vực xã hội. Nguồn: Chương 3, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-020",
+      "topic": "Đặc trưng xã hội Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "question": "Theo nhóm slide 17–24, bộ mô tả nào thuộc các đặc trưng xã hội mà bài giảng định hướng xây dựng ở Việt Nam?",
+      "options": {
+        "A": "Nhân dân làm chủ, kinh tế phát triển, văn hóa tiên tiến và con người phát triển toàn diện",
+        "B": "Chỉ bảo tồn truyền thống, không tiếp thu tiến bộ",
+        "C": "Chỉ tăng sản lượng, không xét con người và văn hóa",
+        "D": "Mọi dân tộc phát triển tách biệt, không hợp tác"
+      },
+      "correct_answer": "A",
+      "explanation": "«Nhân dân làm chủ, kinh tế phát triển, văn hóa tiên tiến và con người phát triển toàn diện» đúng: Các nội dung này xuất hiện trong nhóm tám đặc trưng. «Chỉ bảo tồn truyền thống, không tiếp thu tiến bộ» sai: Không phù hợp các yêu cầu phát triển của bài giảng. «Chỉ tăng sản lượng, không xét con người và văn hóa» sai: Bỏ các đặc trưng xã hội và con người. «Mọi dân tộc phát triển tách biệt, không hợp tác» sai: Nhóm slide còn nhấn mạnh bình đẳng và đoàn kết. Nguồn: Chương 3, slide 17, 18, 19, 20, 21, 22, 23, 24 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-021",
+      "topic": "Quan hệ LLSX và QHSX",
+      "difficulty": "medium",
+      "source_pages": [
+        19
+      ],
+      "question": "Theo slide 19, nền kinh tế phát triển cao cần gắn với quan hệ sản xuất như thế nào?",
+      "options": {
+        "A": "Chỉ cần danh nghĩa sở hữu, không cần trình độ sản xuất",
+        "B": "Bất biến dù lực lượng sản xuất thay đổi",
+        "C": "Hoàn toàn tách khỏi lực lượng sản xuất",
+        "D": "Tiến bộ và phù hợp với lực lượng sản xuất hiện đại"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ cần danh nghĩa sở hữu, không cần trình độ sản xuất» sai: Bỏ cơ sở lực lượng sản xuất hiện đại. «Bất biến dù lực lượng sản xuất thay đổi» sai: Không đáp ứng yêu cầu phù hợp. «Hoàn toàn tách khỏi lực lượng sản xuất» sai: Trái với mối quan hệ bài giảng xác định. «Tiến bộ và phù hợp với lực lượng sản xuất hiện đại» đúng: Slide kết hợp hai mặt của nền tảng kinh tế. Nguồn: Chương 3, slide 19 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-022",
+      "topic": "Văn hóa và con người",
+      "difficulty": "medium",
+      "source_pages": [
+        20,
+        21
+      ],
+      "question": "Một đề án phát triển chỉ tăng thu nhập nhưng không tạo điều kiện học tập, đời sống tinh thần hay phát triển cá nhân. Theo slides 20–21, đề án còn thiếu gì?",
+      "options": {
+        "A": "Sự kết hợp phát triển văn hóa và điều kiện phát triển toàn diện con người",
+        "B": "Việc loại bỏ mọi nhu cầu tinh thần",
+        "C": "Cấm mọi giao lưu văn hóa",
+        "D": "Chỉ một tên gọi mới cho đề án"
+      },
+      "correct_answer": "A",
+      "explanation": "«Sự kết hợp phát triển văn hóa và điều kiện phát triển toàn diện con người» đúng: Bài giảng không chỉ dùng thu nhập để mô tả mục tiêu con người. «Việc loại bỏ mọi nhu cầu tinh thần» sai: Điều này làm xa hơn mục tiêu của slide. «Cấm mọi giao lưu văn hóa» sai: Bài giảng không coi khép kín là điều kiện phát triển. «Chỉ một tên gọi mới cho đề án» sai: Thay tên không bổ sung các nội dung còn thiếu. Nguồn: Chương 3, slide 20, 21 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-023",
+      "topic": "Quan hệ dân tộc và quốc tế",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        24
+      ],
+      "question": "Cặp định hướng nào phù hợp slides 22 và 24?",
+      "options": {
+        "A": "Trong nước chia rẽ; đối ngoại khép kín",
+        "B": "Trong nước bình đẳng, đoàn kết giữa dân tộc; đối ngoại hữu nghị, hợp tác",
+        "C": "Trong nước không cần tôn trọng; đối ngoại không cần hợp tác",
+        "D": "Trong nước đồng hóa mọi bản sắc; đối ngoại chỉ cạnh tranh"
+      },
+      "correct_answer": "B",
+      "explanation": "«Trong nước chia rẽ; đối ngoại khép kín» sai: Trái cả hai định hướng. «Trong nước bình đẳng, đoàn kết giữa dân tộc; đối ngoại hữu nghị, hợp tác» đúng: Hai slide lần lượt nêu quan hệ trong nước và với nhân dân các nước. «Trong nước không cần tôn trọng; đối ngoại không cần hợp tác» sai: Bỏ các yêu cầu trung tâm được nêu. «Trong nước đồng hóa mọi bản sắc; đối ngoại chỉ cạnh tranh» sai: Không phù hợp nội dung bình đẳng, tôn trọng và hữu nghị. Nguồn: Chương 3, slide 22, 24 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-024",
+      "topic": "Công nghiệp hóa và công bằng",
+      "difficulty": "medium",
+      "source_pages": [
+        25,
+        27
+      ],
+      "question": "Theo phương hướng ở slides 25,27, cách kết hợp nào phù hợp?",
+      "options": {
+        "A": "Chỉ thay đổi quan hệ đối ngoại",
+        "B": "Ưu tiên tăng trưởng bằng mọi giá, bỏ môi trường",
+        "C": "Phát triển lực lượng sản xuất gắn bảo vệ môi trường và nâng đời sống, tiến bộ xã hội",
+        "D": "Chỉ phát triển văn hóa, không cần cơ sở kinh tế"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ thay đổi quan hệ đối ngoại» sai: Không bao quát nội dung hai slide được hỏi. «Ưu tiên tăng trưởng bằng mọi giá, bỏ môi trường» sai: Slide 25 nêu bảo vệ tài nguyên, môi trường. «Phát triển lực lượng sản xuất gắn bảo vệ môi trường và nâng đời sống, tiến bộ xã hội» đúng: Các phương hướng không giới hạn phát triển vào sản lượng. «Chỉ phát triển văn hóa, không cần cơ sở kinh tế» sai: Bỏ phương hướng phát triển lực lượng sản xuất. Nguồn: Chương 3, slide 25, 27 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-025",
+      "topic": "Kinh tế thị trường định hướng XHCN",
+      "difficulty": "easy",
+      "source_pages": [
+        26
+      ],
+      "question": "Mô hình kinh tế nào được slide 26 nêu trong phương hướng xây dựng CNXH ở Việt Nam?",
+      "options": {
+        "A": "Kinh tế tự cấp tự túc khép kín",
+        "B": "Chỉ một nền kinh tế không có định hướng xã hội",
+        "C": "Kinh tế thị trường định hướng XHCN",
+        "D": "Không sử dụng bất kỳ hình thức trao đổi nào"
+      },
+      "correct_answer": "C",
+      "explanation": "«Kinh tế tự cấp tự túc khép kín» sai: Không phải mô hình slide xác định. «Chỉ một nền kinh tế không có định hướng xã hội» sai: Bỏ thành tố định hướng XHCN trong tài liệu. «Kinh tế thị trường định hướng XHCN» đúng: Đây là tên mô hình được slide ghi rõ. «Không sử dụng bất kỳ hình thức trao đổi nào» sai: Không phù hợp khái niệm thị trường được nêu. Nguồn: Chương 3, slide 26 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-026",
+      "topic": "Các phương hướng xây dựng",
+      "difficulty": "medium",
+      "source_pages": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "question": "Phương án nào thể hiện đúng một nhóm phương hướng được chương 3 nêu?",
+      "options": {
+        "A": "Chỉ xây dựng Đảng, không cần quyền làm chủ của nhân dân",
+        "B": "Chỉ bảo vệ quốc phòng bằng cách từ bỏ mọi quan hệ hợp tác",
+        "C": "Bảo đảm quốc phòng, mở rộng hợp tác, phát huy dân chủ và xây dựng Nhà nước, Đảng",
+        "D": "Chỉ phát triển kinh tế và không cần tổ chức chính trị"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ xây dựng Đảng, không cần quyền làm chủ của nhân dân» sai: Slide 30 vẫn nhấn mạnh dân chủ và đại đoàn kết. «Chỉ bảo vệ quốc phòng bằng cách từ bỏ mọi quan hệ hợp tác» sai: Slide 29 nêu chính sách đối ngoại và hội nhập. «Bảo đảm quốc phòng, mở rộng hợp tác, phát huy dân chủ và xây dựng Nhà nước, Đảng» đúng: Các nội dung này được nêu lần lượt ở slides 28–32. «Chỉ phát triển kinh tế và không cần tổ chức chính trị» sai: Bỏ các phương hướng chính trị, đối ngoại, quốc phòng. Nguồn: Chương 3, slide 28, 29, 30, 31, 32 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-027",
+      "topic": "Tình huống vận dụng",
+      "difficulty": "hard",
+      "source_pages": [
+        16,
+        25
+      ],
+      "question": "Một nhóm cho rằng Việt Nam bỏ qua chế độ TBCN nên không cần công nghiệp hóa và không nên học thành tựu quản lý bên ngoài. Theo chương 3, nhận xét nào đúng?",
+      "options": {
+        "A": "Nhóm đúng vì khoa học - công nghệ không liên quan cơ sở vật chất",
+        "B": "Nhóm chỉ sai ở việc không chọn tên mô hình",
+        "C": "Nhóm hiểu sai; vẫn cần phát triển LLSX và tiếp thu thành tựu nhân loại có chọn lọc",
+        "D": "Nhóm đúng vì bỏ qua chế độ đồng nghĩa bỏ mọi thành tựu"
+      },
+      "correct_answer": "C",
+      "explanation": "«Nhóm đúng vì khoa học - công nghệ không liên quan cơ sở vật chất» sai: Bài giảng gắn công nghệ với phát triển lực lượng sản xuất. «Nhóm chỉ sai ở việc không chọn tên mô hình» sai: Sai ở nội dung về phát triển và kế thừa, không chỉ tên gọi. «Nhóm hiểu sai; vẫn cần phát triển LLSX và tiếp thu thành tựu nhân loại có chọn lọc» đúng: Slide 16 yêu cầu kế thừa; slide 25 yêu cầu công nghiệp hóa, hiện đại hóa. «Nhóm đúng vì bỏ qua chế độ đồng nghĩa bỏ mọi thành tựu» sai: Không phù hợp định nghĩa tại slide 16. Nguồn: Chương 3, slide 16, 25 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-03-028",
+      "topic": "Phát triển đồng bộ",
+      "difficulty": "hard",
+      "source_pages": [
+        34,
+        35
+      ],
+      "question": "Theo nhóm định hướng slides 34–35, một kế hoạch chỉ sửa thể chế kinh tế nhưng bỏ giáo dục, văn hóa, môi trường và quản lý xã hội được đánh giá thế nào?",
+      "options": {
+        "A": "Chưa đầy đủ vì bài giảng yêu cầu đổi mới và phát triển đồng bộ nhiều lĩnh vực",
+        "B": "Đầy đủ nếu thêm một khẩu hiệu về giáo dục mà không có nội dung",
+        "C": "Sai vì không nên cải thiện thể chế kinh tế",
+        "D": "Đầy đủ vì kinh tế là nội dung duy nhất được slide nói đến"
+      },
+      "correct_answer": "A",
+      "explanation": "«Chưa đầy đủ vì bài giảng yêu cầu đổi mới và phát triển đồng bộ nhiều lĩnh vực» đúng: Nhóm định hướng bao gồm kinh tế cùng con người, xã hội, môi trường và tổ chức. «Đầy đủ nếu thêm một khẩu hiệu về giáo dục mà không có nội dung» sai: Khẩu hiệu không thay cho nhiệm vụ còn thiếu. «Sai vì không nên cải thiện thể chế kinh tế» sai: Bài giảng vẫn coi hoàn thiện thể chế kinh tế là một nhiệm vụ. «Đầy đủ vì kinh tế là nội dung duy nhất được slide nói đến» sai: Nhóm slide có nhiều lĩnh vực ngoài kinh tế. Nguồn: Chương 3, slide 34, 35 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}

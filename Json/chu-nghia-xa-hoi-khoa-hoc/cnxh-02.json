@@ -1,0 +1,505 @@
+{
+  "chapter_id": "cnxh-02",
+  "title": "Chương 2 - Sứ mệnh lịch sử của giai cấp công nhân",
+  "source_file": "C2- SỨ MỆNH LỊCH SỬ GIAI CẤP CÔNG NHÂN.ppt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-02-001",
+      "topic": "Khái niệm giai cấp công nhân",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Theo chương 2, phương thức lao động tiêu biểu của giai cấp công nhân là gì?",
+      "options": {
+        "A": "Chỉ sở hữu vốn mà không tham gia lao động",
+        "B": "Trực tiếp hoặc gián tiếp vận hành máy móc công nghiệp có tính xã hội hóa cao",
+        "C": "Chỉ sản xuất thủ công độc lập, không liên hệ công nghiệp",
+        "D": "Chỉ hoạt động buôn bán cá thể"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ sở hữu vốn mà không tham gia lao động» sai: Không phải phương thức lao động được định nghĩa. «Trực tiếp hoặc gián tiếp vận hành máy móc công nghiệp có tính xã hội hóa cao» đúng: Đây là đặc trưng kinh tế - xã hội nêu ở slide 2. «Chỉ sản xuất thủ công độc lập, không liên hệ công nghiệp» sai: Không khớp đặc trưng công nghiệp và xã hội hóa. «Chỉ hoạt động buôn bán cá thể» sai: Không phải dấu hiệu cơ bản được slide sử dụng. Nguồn: Chương 2, slide 2 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-002",
+      "topic": "Quan hệ sản xuất trong CNTB",
+      "difficulty": "easy",
+      "source_pages": [
+        2,
+        5
+      ],
+      "question": "Trong mô tả của bài giảng về CNTB, giai cấp công nhân phải bán sức lao động chủ yếu vì điều kiện nào?",
+      "options": {
+        "A": "Không tham gia quá trình sản xuất",
+        "B": "Nắm toàn bộ tư liệu sản xuất chủ yếu",
+        "C": "Không có nhu cầu hưởng thu nhập",
+        "D": "Không nắm tư liệu sản xuất và phải làm thuê cho nhà tư bản"
+      },
+      "correct_answer": "D",
+      "explanation": "«Không tham gia quá trình sản xuất» sai: Họ được xác định là người lao động công nghiệp. «Nắm toàn bộ tư liệu sản xuất chủ yếu» sai: Trái với địa vị được slide mô tả. «Không có nhu cầu hưởng thu nhập» sai: Không phải lý do được nêu trong tài liệu. «Không nắm tư liệu sản xuất và phải làm thuê cho nhà tư bản» đúng: Slide liên hệ địa vị sở hữu với quan hệ làm thuê. Nguồn: Chương 2, slide 2, 5 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-003",
+      "topic": "Đặc điểm tổ chức",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo slide 3, môi trường sản xuất công nghiệp rèn luyện cho công nhân đặc điểm nào?",
+      "options": {
+        "A": "Tính tổ chức, kỷ luật, tác phong công nghiệp và hợp tác",
+        "B": "Không cần tuân thủ quy trình lao động",
+        "C": "Chỉ khả năng hoạt động tách biệt, không phối hợp",
+        "D": "Mất mọi liên hệ với lực lượng sản xuất"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tính tổ chức, kỷ luật, tác phong công nghiệp và hợp tác» đúng: Đây là các đặc điểm được liệt kê. «Không cần tuân thủ quy trình lao động» sai: Trái với tính kỷ luật và tác phong công nghiệp. «Chỉ khả năng hoạt động tách biệt, không phối hợp» sai: Không phù hợp quá trình lao động xã hội hóa. «Mất mọi liên hệ với lực lượng sản xuất» sai: Bài giảng gắn công nhân với nền sản xuất hiện đại. Nguồn: Chương 2, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-004",
+      "topic": "Công nhân trong CNXH",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Theo khái niệm ở slide 5, trong các nước XHCN, công nhân được mô tả có quan hệ nào với tư liệu sản xuất chủ yếu?",
+      "options": {
+        "A": "Mỗi người phải sở hữu riêng toàn bộ nhà máy mới là công nhân",
+        "B": "Tách khỏi mọi hoạt động sản xuất và quản lý",
+        "C": "Cùng nhân dân lao động làm chủ tư liệu sản xuất chủ yếu",
+        "D": "Chỉ là người tiêu dùng, không lao động"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mỗi người phải sở hữu riêng toàn bộ nhà máy mới là công nhân» sai: Làm chủ cùng nhân dân không có nghĩa sở hữu riêng toàn bộ nhà máy. «Tách khỏi mọi hoạt động sản xuất và quản lý» sai: Không phải nội dung slide. «Cùng nhân dân lao động làm chủ tư liệu sản xuất chủ yếu» đúng: Đây là phần phân biệt với quan hệ làm thuê trong CNTB. «Chỉ là người tiêu dùng, không lao động» sai: Bài giảng vẫn xác định vai trò lao động và sản xuất. Nguồn: Chương 2, slide 5 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-005",
+      "topic": "Sứ mệnh về kinh tế",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Nội dung nào thuộc phương diện kinh tế của sứ mệnh lịch sử công nhân theo chương 2?",
+      "options": {
+        "A": "Phát triển lực lượng sản xuất và xây dựng quan hệ sản xuất phù hợp",
+        "B": "Chỉ tổ chức bộ máy chính quyền",
+        "C": "Chỉ thống kê số đảng viên",
+        "D": "Chỉ thay đổi phong tục, đạo đức"
+      },
+      "correct_answer": "A",
+      "explanation": "«Phát triển lực lượng sản xuất và xây dựng quan hệ sản xuất phù hợp» đúng: Slide 7 nhấn mạnh năng lực sản xuất, của cải và quan hệ sở hữu. «Chỉ tổ chức bộ máy chính quyền» sai: Đây gần lĩnh vực chính trị - xã hội. «Chỉ thống kê số đảng viên» sai: Không thể hiện nội dung kinh tế được nêu. «Chỉ thay đổi phong tục, đạo đức» sai: Đây gần lĩnh vực văn hóa - tư tưởng. Nguồn: Chương 2, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-006",
+      "topic": "Sứ mệnh về chính trị - xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Nội dung nào được slide 8 xếp vào phương diện chính trị - xã hội?",
+      "options": {
+        "A": "Giành chính quyền, xây dựng nhà nước và tổ chức cải tạo, xây dựng xã hội",
+        "B": "Chỉ nâng mức hưởng thụ nghệ thuật",
+        "C": "Chỉ nâng công suất một dây chuyền",
+        "D": "Chỉ đổi loại nguyên liệu sản xuất"
+      },
+      "correct_answer": "A",
+      "explanation": "«Giành chính quyền, xây dựng nhà nước và tổ chức cải tạo, xây dựng xã hội» đúng: Slide mô tả quyền lực nhà nước và việc sử dụng nó trong quá trình chuyển đổi. «Chỉ nâng mức hưởng thụ nghệ thuật» sai: Không phải nội dung chính trị trọng tâm của slide. «Chỉ nâng công suất một dây chuyền» sai: Đây là hoạt động trực tiếp về sản xuất. «Chỉ đổi loại nguyên liệu sản xuất» sai: Không mô tả sự thay đổi về quyền lực và tổ chức xã hội. Nguồn: Chương 2, slide 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-007",
+      "topic": "Sứ mệnh về văn hóa - tư tưởng",
+      "difficulty": "easy",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo chương 2, xây dựng con người mới, đạo đức và lối sống mới thuộc nội dung nào?",
+      "options": {
+        "A": "Chỉ phân chia địa giới hành chính",
+        "B": "Chỉ đổi công nghệ máy móc",
+        "C": "Chỉ quan hệ sở hữu tư liệu sản xuất",
+        "D": "Văn hóa - tư tưởng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ phân chia địa giới hành chính» sai: Không phải chủ đề của slide 9. «Chỉ đổi công nghệ máy móc» sai: Đó không phải nội dung văn hóa được hỏi. «Chỉ quan hệ sở hữu tư liệu sản xuất» sai: Đó là một nội dung kinh tế khác. «Văn hóa - tư tưởng» đúng: Slide 9 đưa các nội dung này vào cùng nhóm. Nguồn: Chương 2, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-008",
+      "topic": "Điều kiện khách quan",
+      "difficulty": "medium",
+      "source_pages": [
+        10,
+        34
+      ],
+      "question": "Điều kiện khách quan quy định sứ mệnh lịch sử của công nhân theo bài giảng là gì?",
+      "options": {
+        "A": "Chỉ số lượng công nhân tăng",
+        "B": "Chỉ một quyết định tự phát của từng cá nhân",
+        "C": "Chỉ sự ra đời của Đảng Cộng sản",
+        "D": "Địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ số lượng công nhân tăng» sai: Sự phát triển bản thân giai cấp được trình bày trong điều kiện chủ quan. «Chỉ một quyết định tự phát của từng cá nhân» sai: Không thay thế được địa vị khách quan của giai cấp. «Chỉ sự ra đời của Đảng Cộng sản» sai: Bài giảng xếp vai trò Đảng vào điều kiện chủ quan. «Địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân» đúng: Slide 10 phân tích hai phương diện địa vị. Nguồn: Chương 2, slide 10, 34 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-009",
+      "topic": "Điều kiện chủ quan",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        35
+      ],
+      "question": "Nhân tố chủ quan quan trọng nhất được chương 2 nêu để thực hiện sứ mệnh lịch sử là gì?",
+      "options": {
+        "A": "Sự lãnh đạo của Đảng Cộng sản",
+        "B": "Tự động hóa hoàn toàn mọi xí nghiệp",
+        "C": "Chỉ có tác phong lao động công nghiệp",
+        "D": "Nguồn gốc từ nền đại công nghiệp"
+      },
+      "correct_answer": "A",
+      "explanation": "«Sự lãnh đạo của Đảng Cộng sản» đúng: Slide 11 xác định rõ mức độ quan trọng này. «Tự động hóa hoàn toàn mọi xí nghiệp» sai: Không phải điều kiện chủ quan trọng tâm của bài giảng. «Chỉ có tác phong lao động công nghiệp» sai: Không phải nhân tố chủ quan được gọi là quan trọng nhất. «Nguồn gốc từ nền đại công nghiệp» sai: Đây là cơ sở khách quan được phân tích ở slide 10. Nguồn: Chương 2, slide 11, 35 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-010",
+      "topic": "Liên minh giai cấp",
+      "difficulty": "medium",
+      "source_pages": [
+        11
+      ],
+      "question": "Theo slide 11, để hoàn thành sứ mệnh lịch sử, công nhân cần xây dựng quan hệ nào?",
+      "options": {
+        "A": "Liên minh với nông dân và các tầng lớp lao động khác dưới sự lãnh đạo của Đảng",
+        "B": "Chỉ quan hệ trong một nhà máy",
+        "C": "Tách khỏi mọi tầng lớp khác",
+        "D": "Chỉ dựa vào cạnh tranh giữa các cá nhân"
+      },
+      "correct_answer": "A",
+      "explanation": "«Liên minh với nông dân và các tầng lớp lao động khác dưới sự lãnh đạo của Đảng» đúng: Bài giảng gắn sứ mệnh với lực lượng xã hội rộng hơn. «Chỉ quan hệ trong một nhà máy» sai: Phạm vi liên minh không giới hạn ở một cơ sở sản xuất. «Tách khỏi mọi tầng lớp khác» sai: Trái với yêu cầu liên minh. «Chỉ dựa vào cạnh tranh giữa các cá nhân» sai: Không thay thế được liên minh giai cấp, tầng lớp. Nguồn: Chương 2, slide 11 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-011",
+      "topic": "Điểm tương đồng lịch sử",
+      "difficulty": "medium",
+      "source_pages": [
+        12,
+        13
+      ],
+      "question": "Theo so sánh của chương 2, đặc điểm nào tiếp tục được giữ khi xét công nhân thế kỷ XIX và công nhân hiện đại?",
+      "options": {
+        "A": "Mọi công nhân đều có cùng trình độ học vấn qua mọi thời kỳ",
+        "B": "Gắn với sản xuất công nghiệp và tính xã hội hóa của lao động",
+        "C": "Đời sống vật chất không bao giờ thay đổi",
+        "D": "Phạm vi sản xuất luôn chỉ ở một quốc gia"
+      },
+      "correct_answer": "B",
+      "explanation": "«Mọi công nhân đều có cùng trình độ học vấn qua mọi thời kỳ» sai: Slide 15 nêu sự biến đổi về tri thức. «Gắn với sản xuất công nghiệp và tính xã hội hóa của lao động» đúng: Slide 12 nêu đây là điểm tương đồng cơ bản. «Đời sống vật chất không bao giờ thay đổi» sai: Bài giảng còn phân tích xu hướng trung lưu hóa. «Phạm vi sản xuất luôn chỉ ở một quốc gia» sai: Slide 16 nêu quá trình quốc tế hóa. Nguồn: Chương 2, slide 12, 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-012",
+      "topic": "Trí tuệ hóa công nhân",
+      "difficulty": "easy",
+      "source_pages": [
+        15
+      ],
+      "question": "Theo slide 15, xu hướng 'trí tuệ hóa' biểu hiện rõ nhất ở điều gì?",
+      "options": {
+        "A": "Công nhân chỉ sử dụng cơ bắp như trước",
+        "B": "Trình độ nghề nghiệp không còn quan trọng",
+        "C": "Lao động ngày càng cần tri thức, kỹ năng khoa học - công nghệ",
+        "D": "Mọi công nhân rời hoàn toàn hoạt động sản xuất"
+      },
+      "correct_answer": "C",
+      "explanation": "«Công nhân chỉ sử dụng cơ bắp như trước» sai: Đây là cách hiểu đối lập với xu hướng được nêu. «Trình độ nghề nghiệp không còn quan trọng» sai: Xu hướng này làm yêu cầu trình độ cao hơn. «Lao động ngày càng cần tri thức, kỹ năng khoa học - công nghệ» đúng: Bài giảng nói đến công nhân trí thức và vai trò trí lực. «Mọi công nhân rời hoàn toàn hoạt động sản xuất» sai: Trí tuệ hóa diễn ra trong sự phát triển của sản xuất hiện đại. Nguồn: Chương 2, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-013",
+      "topic": "Trung lưu hóa",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Thuật ngữ 'trung lưu hóa' trong slide 16 được dùng để mô tả điều gì?",
+      "options": {
+        "A": "Sự chấm dứt tự động mọi mâu thuẫn lợi ích",
+        "B": "Sự cải thiện đời sống vật chất, văn hóa và tinh thần của một bộ phận công nhân",
+        "C": "Việc mọi công nhân trở thành chủ sở hữu toàn bộ tư bản",
+        "D": "Việc không còn lao động làm thuê trong mọi xã hội"
+      },
+      "correct_answer": "B",
+      "explanation": "«Sự chấm dứt tự động mọi mâu thuẫn lợi ích» sai: Slide 13 vẫn phân tích mâu thuẫn lợi ích trong CNTB. «Sự cải thiện đời sống vật chất, văn hóa và tinh thần của một bộ phận công nhân» đúng: Đây là cách slide giải thích xu hướng. «Việc mọi công nhân trở thành chủ sở hữu toàn bộ tư bản» sai: Không thể suy từ mức sống sang địa vị sở hữu toàn bộ tư bản. «Việc không còn lao động làm thuê trong mọi xã hội» sai: Bài giảng không đưa kết luận phổ quát này. Nguồn: Chương 2, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-014",
+      "topic": "Quốc tế hóa sản xuất",
+      "difficulty": "medium",
+      "source_pages": [
+        16
+      ],
+      "question": "Theo chương 2, tính xã hội hóa của lao động có biểu hiện mới nào trong công nghiệp hiện đại?",
+      "options": {
+        "A": "Mỗi quốc gia không còn bất kỳ liên hệ sản xuất nào",
+        "B": "Sản xuất chỉ còn dựa vào công cụ thủ công",
+        "C": "Lực lượng sản xuất vượt phạm vi quốc gia và mang tính quốc tế",
+        "D": "Mọi công nhân chỉ làm việc hoàn toàn một mình"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mỗi quốc gia không còn bất kỳ liên hệ sản xuất nào» sai: Trái với xu hướng quốc tế được trình bày. «Sản xuất chỉ còn dựa vào công cụ thủ công» sai: Không khớp bối cảnh công nghiệp hiện đại. «Lực lượng sản xuất vượt phạm vi quốc gia và mang tính quốc tế» đúng: Slide 16 nhấn mạnh sự mở rộng này. «Mọi công nhân chỉ làm việc hoàn toàn một mình» sai: Không phản ánh tính xã hội hóa. Nguồn: Chương 2, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-015",
+      "topic": "Thực hiện sứ mệnh theo bối cảnh",
+      "difficulty": "hard",
+      "source_pages": [
+        19
+      ],
+      "question": "Theo slide 19, nội dung chính trị của sứ mệnh ở nước TBCN và ở nước XHCN có khác biệt nào?",
+      "options": {
+        "A": "Ở nước TBCN chỉ quan tâm văn hóa, không có quyền lực nhà nước",
+        "B": "Ở nước TBCN hướng đến giành chính quyền; ở nước XHCN tập trung lãnh đạo đổi mới và xây dựng xã hội",
+        "C": "Ở nước XHCN không còn bất kỳ nhiệm vụ chính trị nào",
+        "D": "Hai bối cảnh đều chỉ có nhiệm vụ cải tiến máy móc"
+      },
+      "correct_answer": "B",
+      "explanation": "«Ở nước TBCN chỉ quan tâm văn hóa, không có quyền lực nhà nước» sai: Không phù hợp nội dung mục tiêu lâu dài ở slide. «Ở nước TBCN hướng đến giành chính quyền; ở nước XHCN tập trung lãnh đạo đổi mới và xây dựng xã hội» đúng: Slide phân biệt nhiệm vụ theo vị trí chính trị và hoàn cảnh. «Ở nước XHCN không còn bất kỳ nhiệm vụ chính trị nào» sai: Slide vẫn nêu xây dựng Đảng và giải quyết nhiệm vụ thời kỳ quá độ. «Hai bối cảnh đều chỉ có nhiệm vụ cải tiến máy móc» sai: Đây là thu hẹp nội dung chính trị thành kỹ thuật. Nguồn: Chương 2, slide 19 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-016",
+      "topic": "Sự ra đời công nhân Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        21,
+        40
+      ],
+      "question": "Theo chương 2, công nhân Việt Nam ra đời trong bối cảnh nào?",
+      "options": {
+        "A": "Giữa thế kỷ XX, sau giai cấp tư sản dân tộc",
+        "B": "Đầu thế kỷ XX, gắn với khai thác thuộc địa và trước giai cấp tư sản dân tộc",
+        "C": "Chỉ sau khi xuất hiện công nghệ 4.0",
+        "D": "Trong công xã nguyên thủy, trước mọi hình thức sản xuất"
+      },
+      "correct_answer": "B",
+      "explanation": "«Giữa thế kỷ XX, sau giai cấp tư sản dân tộc» sai: Không khớp mốc và thứ tự bài giảng. «Đầu thế kỷ XX, gắn với khai thác thuộc địa và trước giai cấp tư sản dân tộc» đúng: Slide 21 nêu thời kỳ, bối cảnh và quan hệ ra đời này. «Chỉ sau khi xuất hiện công nghệ 4.0» sai: Công nghệ 4.0 xuất hiện sau thời kỳ hình thành được trình bày. «Trong công xã nguyên thủy, trước mọi hình thức sản xuất» sai: Không phải bối cảnh công nghiệp được nêu. Nguồn: Chương 2, slide 21, 40 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-017",
+      "topic": "Truyền thống và giác ngộ",
+      "difficulty": "medium",
+      "source_pages": [
+        23
+      ],
+      "question": "Theo slide 23, yếu tố nào góp phần làm công nhân Việt Nam trưởng thành về ý thức chính trị?",
+      "options": {
+        "A": "Không tiếp xúc với bất kỳ tư tưởng chính trị nào",
+        "B": "Kế thừa truyền thống yêu nước và sớm có sự lãnh đạo của Đảng",
+        "C": "Tách khỏi truyền thống dân tộc",
+        "D": "Chỉ có số lượng đông hơn mọi giai cấp khác"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không tiếp xúc với bất kỳ tư tưởng chính trị nào» sai: Trái với nội dung về giác ngộ và lãnh đạo. «Kế thừa truyền thống yêu nước và sớm có sự lãnh đạo của Đảng» đúng: Slide kết hợp hai yếu tố này. «Tách khỏi truyền thống dân tộc» sai: Bài giảng nhấn mạnh sự kế thừa truyền thống yêu nước. «Chỉ có số lượng đông hơn mọi giai cấp khác» sai: Slide không lấy đông nhất làm giải thích. Nguồn: Chương 2, slide 23 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-018",
+      "topic": "Cơ sở liên minh ở Việt Nam",
+      "difficulty": "medium",
+      "source_pages": [
+        24,
+        38
+      ],
+      "question": "Theo chương 2, cơ sở được nhấn mạnh cho sự gắn bó giữa công nhân và các tầng lớp lao động Việt Nam là gì?",
+      "options": {
+        "A": "Mọi nhóm có nghề nghiệp hoàn toàn giống nhau",
+        "B": "Không có bất kỳ nhu cầu hợp tác kinh tế nào",
+        "C": "Chung lợi ích, nguyện vọng độc lập, tự do và phát triển đất nước",
+        "D": "Mọi nhóm sở hữu tư liệu sản xuất theo cùng một hình thức"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mọi nhóm có nghề nghiệp hoàn toàn giống nhau» sai: Liên minh không đòi hỏi đồng nhất nghề nghiệp. «Không có bất kỳ nhu cầu hợp tác kinh tế nào» sai: Đây không phải cơ sở của sự gắn bó được mô tả. «Chung lợi ích, nguyện vọng độc lập, tự do và phát triển đất nước» đúng: Slide 24 nêu sự thống nhất lợi ích và khát vọng. «Mọi nhóm sở hữu tư liệu sản xuất theo cùng một hình thức» sai: Tài liệu không lấy đồng nhất sở hữu làm điều kiện duy nhất. Nguồn: Chương 2, slide 24, 38 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-019",
+      "topic": "Cơ cấu công nhân Việt Nam",
+      "difficulty": "medium",
+      "source_pages": [
+        26,
+        27
+      ],
+      "question": "Nhận định nào phù hợp mô tả của chương 2 về cơ cấu công nhân Việt Nam?",
+      "options": {
+        "A": "Chỉ tăng số lượng, không cần phát triển kỹ năng",
+        "B": "Chỉ tồn tại trong doanh nghiệp nhà nước",
+        "C": "Không có sự thay đổi về cơ cấu nghề nghiệp",
+        "D": "Đa dạng nghề nghiệp, có mặt trong nhiều thành phần kinh tế và cần nâng cao trình độ"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ tăng số lượng, không cần phát triển kỹ năng» sai: Bài giảng nhấn mạnh cả chất lượng và trình độ. «Chỉ tồn tại trong doanh nghiệp nhà nước» sai: Slide 26 còn nêu doanh nghiệp ngoài nhà nước và có vốn nước ngoài. «Không có sự thay đổi về cơ cấu nghề nghiệp» sai: Trái với mô tả cơ cấu đa dạng. «Đa dạng nghề nghiệp, có mặt trong nhiều thành phần kinh tế và cần nâng cao trình độ» đúng: Slides 26–27 nêu cả tính đa dạng và yêu cầu phát triển chất lượng. Nguồn: Chương 2, slide 26, 27 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-020",
+      "topic": "Sứ mệnh kinh tế ở Việt Nam",
+      "difficulty": "easy",
+      "source_pages": [
+        29
+      ],
+      "question": "Nhiệm vụ nào thuộc nội dung kinh tế của công nhân Việt Nam theo slide 29?",
+      "options": {
+        "A": "Tách công nghiệp khỏi nông nghiệp và khoa học",
+        "B": "Chỉ xây dựng đạo đức và lối sống",
+        "C": "Đi đầu công nghiệp hóa, hiện đại hóa và thực hiện liên minh công - nông - trí thức",
+        "D": "Chỉ chỉnh đốn tổ chức Đảng"
+      },
+      "correct_answer": "C",
+      "explanation": "«Tách công nghiệp khỏi nông nghiệp và khoa học» sai: Trái với nội dung liên minh phát triển bền vững. «Chỉ xây dựng đạo đức và lối sống» sai: Đó là phương diện văn hóa - tư tưởng ở slide 30. «Đi đầu công nghiệp hóa, hiện đại hóa và thực hiện liên minh công - nông - trí thức» đúng: Đây là các nội dung kinh tế được liệt kê. «Chỉ chỉnh đốn tổ chức Đảng» sai: Đó là phương diện chính trị - xã hội. Nguồn: Chương 2, slide 29 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-021",
+      "topic": "Phân biệt các nội dung sứ mệnh",
+      "difficulty": "medium",
+      "source_pages": [
+        30
+      ],
+      "question": "Theo slide 30, hoạt động nào thuộc nội dung văn hóa - tư tưởng của công nhân Việt Nam?",
+      "options": {
+        "A": "Chỉ tăng tổng sản lượng hàng hóa",
+        "B": "Rèn luyện đạo đức, lối sống và tác phong công nghiệp",
+        "C": "Chỉ đổi cơ cấu vốn doanh nghiệp",
+        "D": "Chỉ mở rộng công suất máy móc"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ tăng tổng sản lượng hàng hóa» sai: Đây gần nội dung kinh tế. «Rèn luyện đạo đức, lối sống và tác phong công nghiệp» đúng: Đây là các biểu hiện được slide xếp vào văn hóa - tư tưởng. «Chỉ đổi cơ cấu vốn doanh nghiệp» sai: Đây không phải nội dung văn hóa được hỏi. «Chỉ mở rộng công suất máy móc» sai: Đây là hoạt động phát triển lực lượng sản xuất. Nguồn: Chương 2, slide 30 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-022",
+      "topic": "Xây dựng giai cấp công nhân",
+      "difficulty": "medium",
+      "source_pages": [
+        31,
+        32
+      ],
+      "question": "Phương án nào phù hợp hướng phát triển công nhân Việt Nam trong bài giảng?",
+      "options": {
+        "A": "Giao toàn bộ trách nhiệm cho từng công nhân riêng lẻ",
+        "B": "Chỉ mua máy móc, không cần chính sách với người lao động",
+        "C": "Tăng số lượng gắn với chất lượng, nâng trình độ và chăm lo việc làm, đời sống",
+        "D": "Chỉ tăng số người, bỏ đào tạo nghề"
+      },
+      "correct_answer": "C",
+      "explanation": "«Giao toàn bộ trách nhiệm cho từng công nhân riêng lẻ» sai: Slide 32 còn nêu trách nhiệm của hệ thống chính trị và xã hội. «Chỉ mua máy móc, không cần chính sách với người lao động» sai: Bỏ nội dung việc làm và chăm lo lao động. «Tăng số lượng gắn với chất lượng, nâng trình độ và chăm lo việc làm, đời sống» đúng: Slide 31 không tách phát triển lực lượng khỏi điều kiện con người. «Chỉ tăng số người, bỏ đào tạo nghề» sai: Bỏ yêu cầu chất lượng và trình độ. Nguồn: Chương 2, slide 31, 32 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-023",
+      "topic": "Trách nhiệm xây dựng",
+      "difficulty": "easy",
+      "source_pages": [
+        32
+      ],
+      "question": "Theo slide 32, xây dựng công nhân lớn mạnh là trách nhiệm của ai?",
+      "options": {
+        "A": "Chỉ riêng người công nhân",
+        "B": "Chỉ nhà trường, không có tổ chức xã hội",
+        "C": "Chỉ doanh nghiệp có vốn nước ngoài",
+        "D": "Cả hệ thống chính trị, toàn xã hội và bản thân giai cấp công nhân"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ riêng người công nhân» sai: Chưa đầy đủ các chủ thể slide nêu. «Chỉ nhà trường, không có tổ chức xã hội» sai: Bài giảng không giới hạn như vậy. «Chỉ doanh nghiệp có vốn nước ngoài» sai: Phạm vi trách nhiệm rộng hơn một loại doanh nghiệp. «Cả hệ thống chính trị, toàn xã hội và bản thân giai cấp công nhân» đúng: Slide kết hợp trách nhiệm chung với nỗ lực tự thân. Nguồn: Chương 2, slide 32 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-024",
+      "topic": "Tác động CMCN 4.0",
+      "difficulty": "medium",
+      "source_pages": [
+        43,
+        44
+      ],
+      "question": "Theo phần bài tập chương 2, đánh giá nào đầy đủ hơn về tác động của CMCN 4.0 đối với công nhân?",
+      "options": {
+        "A": "Không có liên hệ nào với trình độ nghề nghiệp",
+        "B": "Chỉ có lợi ích, mọi vị trí việc làm đều giữ nguyên",
+        "C": "Có cơ hội nâng kỹ năng, điều kiện làm việc nhưng cũng có rủi ro thay thế lao động và yêu cầu đào tạo lại",
+        "D": "Chỉ có thất nghiệp, không có cơ hội học kỹ thuật"
+      },
+      "correct_answer": "C",
+      "explanation": "«Không có liên hệ nào với trình độ nghề nghiệp» sai: Bài giảng nhấn mạnh yêu cầu nâng tay nghề. «Chỉ có lợi ích, mọi vị trí việc làm đều giữ nguyên» sai: Bỏ tác động thay thế lao động được nêu. «Có cơ hội nâng kỹ năng, điều kiện làm việc nhưng cũng có rủi ro thay thế lao động và yêu cầu đào tạo lại» đúng: Slide 44 trình bày đồng thời mặt tích cực và sức ép kỹ năng. «Chỉ có thất nghiệp, không có cơ hội học kỹ thuật» sai: Bỏ mặt tích cực của môi trường công nghiệp hiện đại. Nguồn: Chương 2, slide 43, 44 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-025",
+      "topic": "Tình huống đào tạo lại",
+      "difficulty": "medium",
+      "source_pages": [
+        32,
+        44
+      ],
+      "question": "Một xưởng tăng tự động hóa làm thay đổi nhiệm vụ công nhân. Theo giải pháp của bài giảng, lựa chọn nào phù hợp nhất?",
+      "options": {
+        "A": "Ngừng mọi hợp tác giữa người lao động",
+        "B": "Chỉ tăng số lượng tuyển mới, không đào tạo ai",
+        "C": "Giữ nguyên kỹ năng cũ vì công nghệ không ảnh hưởng việc làm",
+        "D": "Đào tạo lại, nâng kỹ năng và khả năng tiếp cận công nghệ"
+      },
+      "correct_answer": "D",
+      "explanation": "«Ngừng mọi hợp tác giữa người lao động» sai: Không phục vụ yêu cầu tổ chức và hợp tác của công nghiệp. «Chỉ tăng số lượng tuyển mới, không đào tạo ai» sai: Không giải quyết sức ép về chất lượng kỹ năng. «Giữ nguyên kỹ năng cũ vì công nghệ không ảnh hưởng việc làm» sai: Trái với tác động mà bài tập đã phân tích. «Đào tạo lại, nâng kỹ năng và khả năng tiếp cận công nghệ» đúng: Phù hợp yêu cầu trí thức hóa và nâng tay nghề ở slides 32,44. Nguồn: Chương 2, slide 32, 44 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-026",
+      "topic": "Trí thức và vai trò công nhân",
+      "difficulty": "hard",
+      "source_pages": [
+        45,
+        46
+      ],
+      "question": "Theo lời giải slide 46, lập luận 'vai trò trí thức tăng thì trí thức đương nhiên thay công nhân thực hiện sứ mệnh lịch sử' được đánh giá thế nào?",
+      "options": {
+        "A": "Không phù hợp khung lý luận của bài giảng; vai trò trí thức tăng không tự thay địa vị và vai trò công nhân",
+        "B": "Sai vì trí thức không đóng góp gì cho phát triển",
+        "C": "Đúng chỉ vì mọi lao động trí óc đều là một giai cấp sở hữu riêng",
+        "D": "Đúng vì công nghiệp không còn vai trò trong sản xuất"
+      },
+      "correct_answer": "A",
+      "explanation": "«Không phù hợp khung lý luận của bài giảng; vai trò trí thức tăng không tự thay địa vị và vai trò công nhân» đúng: Slide vẫn xác định công nhân gắn phương thức sản xuất tiên tiến và sự lãnh đạo của Đảng. «Sai vì trí thức không đóng góp gì cho phát triển» sai: Bài giảng không phủ nhận vai trò ngày càng lớn của trí thức. «Đúng chỉ vì mọi lao động trí óc đều là một giai cấp sở hữu riêng» sai: Slide phân biệt trí thức là tầng lớp, không lập luận như vậy. «Đúng vì công nghiệp không còn vai trò trong sản xuất» sai: Bài giảng vẫn đặt công nghiệp và công nhân ở vị trí quan trọng. Nguồn: Chương 2, slide 45, 46 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-027",
+      "topic": "Khách quan và chủ quan",
+      "difficulty": "hard",
+      "source_pages": [
+        10,
+        11
+      ],
+      "question": "Nhận định I: đại diện lực lượng sản xuất hiện đại là điều kiện khách quan. Nhận định II: sự lãnh đạo của Đảng là điều kiện chủ quan. Theo chương 2, chọn đánh giá đúng.",
+      "options": {
+        "A": "I và II đều đúng",
+        "B": "I sai, II đúng",
+        "C": "I đúng, II sai",
+        "D": "I và II đều sai"
+      },
+      "correct_answer": "A",
+      "explanation": "«I và II đều đúng» đúng: Hai slide 10–11 phân loại đúng như hai nhận định. «I sai, II đúng» sai: I khớp địa vị kinh tế khách quan. «I đúng, II sai» sai: II khớp phần nhân tố chủ quan quan trọng nhất. «I và II đều sai» sai: Cả hai cách phân loại đều có căn cứ trong bài giảng. Nguồn: Chương 2, slide 10, 11 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-02-028",
+      "topic": "Sứ mệnh và tính toàn diện",
+      "difficulty": "hard",
+      "source_pages": [
+        7,
+        8,
+        9
+      ],
+      "question": "Một bài làm cho rằng sứ mệnh lịch sử chỉ là tăng lương, không có mặt chính trị hay văn hóa. Theo chương 2, hạn chế chính của bài làm là gì?",
+      "options": {
+        "A": "Đúng vì thu nhập là nội dung duy nhất của mọi hoạt động xã hội",
+        "B": "Quá rộng vì bài giảng chỉ nói đến kỹ thuật máy móc",
+        "C": "Sai chỉ vì tăng lương không liên quan đời sống công nhân",
+        "D": "Thu hẹp sứ mệnh vốn được trình bày trên cả kinh tế, chính trị - xã hội và văn hóa - tư tưởng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Đúng vì thu nhập là nội dung duy nhất của mọi hoạt động xã hội» sai: Không có khẳng định này trong bài giảng. «Quá rộng vì bài giảng chỉ nói đến kỹ thuật máy móc» sai: Bài giảng còn trình bày quyền lực và văn hóa. «Sai chỉ vì tăng lương không liên quan đời sống công nhân» sai: Thu nhập có liên quan, nhưng không bao quát toàn bộ sứ mệnh. «Thu hẹp sứ mệnh vốn được trình bày trên cả kinh tế, chính trị - xã hội và văn hóa - tư tưởng» đúng: Slides 7–9 chia nội dung thành ba phương diện liên hệ nhau. Nguồn: Chương 2, slide 7, 8, 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}

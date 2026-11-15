@@ -35,6 +35,13 @@ export const SUBJECTS: SubjectMeta[] = [
     description: '200 câu theo 10 buổi: tác tử, tìm kiếm, CSP, logic, Bayes, MDP/RL, Machine Learning, Neural Networks và AI có trách nhiệm.',
     order: 4,
   },
+  {
+    id: 'chu-nghia-xa-hoi-khoa-hoc',
+    title: 'Chủ nghĩa xã hội khoa học',
+    short: 'CNXHKH',
+    description: '200 câu theo 7 chương: nhập môn, giai cấp công nhân, thời kỳ quá độ, dân chủ và nhà nước, liên minh giai cấp, dân tộc - tôn giáo và gia đình.',
+    order: 5,
+  },
 ];
 
 export function getSubjectMeta(id: string): SubjectMeta {

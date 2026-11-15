@@ -1,0 +1,506 @@
+{
+  "chapter_id": "cnxh-07",
+  "title": "Chương 7 - Gia đình trong thời kỳ quá độ",
+  "source_file": "C7-GIA DINH TRONG XHCN.ppt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "cnxh-07-001",
+      "topic": "Khái niệm gia đình",
+      "difficulty": "easy",
+      "source_pages": [
+        2
+      ],
+      "question": "Theo chương 7, gia đình là hình thức cộng đồng xã hội đặc biệt được hình thành trên cơ sở nào?",
+      "options": {
+        "A": "Chỉ quan hệ mua bán hàng hóa",
+        "B": "Quan hệ hôn nhân, huyết thống, nuôi dưỡng cùng quyền và nghĩa vụ thành viên",
+        "C": "Chỉ có cùng nghề nghiệp và thu nhập",
+        "D": "Chỉ cùng sinh sống tạm thời trong một căn nhà"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ quan hệ mua bán hàng hóa» sai: Đây không phải các quan hệ gia đình trong bài. «Quan hệ hôn nhân, huyết thống, nuôi dưỡng cùng quyền và nghĩa vụ thành viên» đúng: Slide 2 kết hợp các quan hệ với quy định về trách nhiệm giữa thành viên. «Chỉ có cùng nghề nghiệp và thu nhập» sai: Không phải cơ sở hình thành gia đình được slide nêu. «Chỉ cùng sinh sống tạm thời trong một căn nhà» sai: Ở chung chưa thể hiện đầy đủ các quan hệ trong định nghĩa. Nguồn: Chương 7, slide 2 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-002",
+      "topic": "Các quan hệ gia đình",
+      "difficulty": "easy",
+      "source_pages": [
+        2,
+        3
+      ],
+      "question": "Theo slides 2–3, nhóm nào gồm ba loại quan hệ cơ bản của gia đình?",
+      "options": {
+        "A": "Chỉ quan hệ kinh tế, chính trị và ngoại giao",
+        "B": "Hôn nhân, huyết thống và nuôi dưỡng",
+        "C": "Nghề nghiệp, cư trú và tôn giáo",
+        "D": "Chỉ quan hệ giữa các thế hệ, không có vợ chồng"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ quan hệ kinh tế, chính trị và ngoại giao» sai: Không phải cách phân loại quan hệ gia đình của slide. «Hôn nhân, huyết thống và nuôi dưỡng» đúng: Ba nhóm được sơ đồ nêu rõ. «Nghề nghiệp, cư trú và tôn giáo» sai: Đây là các loại cơ cấu xã hội, không phải ba quan hệ đang hỏi. «Chỉ quan hệ giữa các thế hệ, không có vợ chồng» sai: Bỏ quan hệ hôn nhân. Nguồn: Chương 7, slide 2, 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-003",
+      "topic": "Quan hệ hôn nhân",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Trong sơ đồ slide 3, quan hệ giữa vợ và chồng được xếp vào loại nào?",
+      "options": {
+        "A": "Chỉ quan hệ huyết thống",
+        "B": "Chỉ quan hệ nghề nghiệp",
+        "C": "Quan hệ hôn nhân",
+        "D": "Chỉ quan hệ cư trú"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ quan hệ huyết thống» sai: Vợ chồng không được sơ đồ xếp vào nhóm huyết thống. «Chỉ quan hệ nghề nghiệp» sai: Không phải phân loại trong sơ đồ gia đình. «Quan hệ hôn nhân» đúng: Đây là ví dụ trực tiếp dưới nhóm hôn nhân. «Chỉ quan hệ cư trú» sai: Không thể thay thế quan hệ hôn nhân được nêu. Nguồn: Chương 7, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-004",
+      "topic": "Quan hệ huyết thống",
+      "difficulty": "easy",
+      "source_pages": [
+        3
+      ],
+      "question": "Theo ví dụ ở slide 3, quan hệ ông bà và cháu ruột thuộc nhóm nào?",
+      "options": {
+        "A": "Chỉ trao đổi kinh tế",
+        "B": "Hôn nhân",
+        "C": "Chỉ quan hệ đồng nghiệp",
+        "D": "Huyết thống"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ trao đổi kinh tế» sai: Không phản ánh cơ sở quan hệ được hỏi. «Hôn nhân» sai: Không phải quan hệ vợ chồng. «Chỉ quan hệ đồng nghiệp» sai: Không liên quan loại quan hệ trong ví dụ. «Huyết thống» đúng: Sơ đồ nêu ông bà - cháu trong nhóm huyết thống. Nguồn: Chương 7, slide 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-005",
+      "topic": "Quan hệ nuôi dưỡng",
+      "difficulty": "medium",
+      "source_pages": [
+        2,
+        3
+      ],
+      "question": "Một bài làm cho rằng gia đình chỉ có thể có quan hệ huyết thống, nên bỏ mọi quan hệ nuôi dưỡng. Theo chương 7, đánh giá nào đúng?",
+      "options": {
+        "A": "Đầy đủ vì slide chỉ có một loại quan hệ",
+        "B": "Đúng nếu các thành viên cùng nơi cư trú",
+        "C": "Sai vì gia đình chỉ là quan hệ mua bán",
+        "D": "Chưa đầy đủ vì nuôi dưỡng là một cơ sở quan hệ được định nghĩa riêng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Đầy đủ vì slide chỉ có một loại quan hệ» sai: Sơ đồ nêu ba loại quan hệ. «Đúng nếu các thành viên cùng nơi cư trú» sai: Cư trú không làm biến mất quan hệ nuôi dưỡng trong định nghĩa. «Sai vì gia đình chỉ là quan hệ mua bán» sai: Đây cũng không phải định nghĩa trong bài. «Chưa đầy đủ vì nuôi dưỡng là một cơ sở quan hệ được định nghĩa riêng» đúng: Slides 2–3 không giới hạn gia đình vào huyết thống. Nguồn: Chương 7, slide 2, 3 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-006",
+      "topic": "Gia đình là tế bào xã hội",
+      "difficulty": "easy",
+      "source_pages": [
+        4
+      ],
+      "question": "Theo slide 4, cách nói 'gia đình là tế bào của xã hội' nhấn mạnh điều gì?",
+      "options": {
+        "A": "Gia đình chỉ có ý nghĩa sinh học như một tế bào cơ thể",
+        "B": "Gia đình hoàn toàn không liên quan xã hội bên ngoài",
+        "C": "Gia đình có vai trò đối với sự tồn tại và phát triển của xã hội",
+        "D": "Gia đình thay thế mọi tổ chức xã hội khác"
+      },
+      "correct_answer": "C",
+      "explanation": "«Gia đình chỉ có ý nghĩa sinh học như một tế bào cơ thể» sai: Đây là cách ví von về vị trí xã hội, không phải đồng nhất sinh học. «Gia đình hoàn toàn không liên quan xã hội bên ngoài» sai: Trái với mối liên hệ được nhấn mạnh. «Gia đình có vai trò đối với sự tồn tại và phát triển của xã hội» đúng: Slide trực tiếp giải thích vai trò xã hội của gia đình. «Gia đình thay thế mọi tổ chức xã hội khác» sai: Vai trò quan trọng không đồng nghĩa thay thế tất cả. Nguồn: Chương 7, slide 4 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-007",
+      "topic": "Gia đình là tổ ấm",
+      "difficulty": "medium",
+      "source_pages": [
+        4,
+        8
+      ],
+      "question": "Theo bài giảng, gia đình là tổ ấm được thể hiện rõ nhất qua hoạt động nào?",
+      "options": {
+        "A": "Quan tâm, chăm sóc và làm chỗ dựa tinh thần cho nhau",
+        "B": "Chỉ phân chia nghề nghiệp giữa các thành viên",
+        "C": "Chỉ thống kê lượng hàng hóa gia đình mua",
+        "D": "Chỉ xác định địa chỉ cư trú"
+      },
+      "correct_answer": "A",
+      "explanation": "«Quan tâm, chăm sóc và làm chỗ dựa tinh thần cho nhau» đúng: Slides 4,8 gắn tổ ấm với hạnh phúc, hài hòa và tình cảm. «Chỉ phân chia nghề nghiệp giữa các thành viên» sai: Không phải trọng tâm tổ ấm được hỏi. «Chỉ thống kê lượng hàng hóa gia đình mua» sai: Đây chỉ là một mặt tiêu dùng, không thể hiện trực tiếp chỗ dựa tinh thần. «Chỉ xác định địa chỉ cư trú» sai: Địa chỉ không đủ nói lên vai trò tình cảm. Nguồn: Chương 7, slide 4, 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-008",
+      "topic": "Cầu nối cá nhân - xã hội",
+      "difficulty": "medium",
+      "source_pages": [
+        4
+      ],
+      "question": "Theo vị trí gia đình ở slide 4, nhận định nào phù hợp?",
+      "options": {
+        "A": "Gia đình chỉ tồn tại khi tách hoàn toàn khỏi xã hội",
+        "B": "Cá nhân chỉ có quan hệ xã hội sau khi rời bỏ gia đình",
+        "C": "Gia đình vừa gắn đời sống cá nhân vừa là cầu nối với xã hội",
+        "D": "Gia đình chỉ liên quan nhà nước, không liên quan từng người"
+      },
+      "correct_answer": "C",
+      "explanation": "«Gia đình chỉ tồn tại khi tách hoàn toàn khỏi xã hội» sai: Không phù hợp vai trò cầu nối. «Cá nhân chỉ có quan hệ xã hội sau khi rời bỏ gia đình» sai: Bài giảng không đặt điều kiện này. «Gia đình vừa gắn đời sống cá nhân vừa là cầu nối với xã hội» đúng: Slide xác định gia đình là cầu nối giữa hai phía. «Gia đình chỉ liên quan nhà nước, không liên quan từng người» sai: Bỏ vai trò với hạnh phúc và đời sống thành viên. Nguồn: Chương 7, slide 4 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-009",
+      "topic": "Tái sản xuất con người",
+      "difficulty": "easy",
+      "source_pages": [
+        5
+      ],
+      "question": "Theo slide 5, chức năng tái sản xuất ra con người có ý nghĩa xã hội nào?",
+      "options": {
+        "A": "Duy trì các thế hệ và góp phần đáp ứng nhu cầu sức lao động, sự tồn tại xã hội",
+        "B": "Chỉ thỏa mãn nhu cầu giao tiếp của vợ chồng",
+        "C": "Chỉ tạo ra hàng hóa vật chất",
+        "D": "Chỉ truyền đạt kiến thức nhà trường"
+      },
+      "correct_answer": "A",
+      "explanation": "«Duy trì các thế hệ và góp phần đáp ứng nhu cầu sức lao động, sự tồn tại xã hội» đúng: Slide nối nhu cầu gia đình, dòng họ với nhu cầu xã hội. «Chỉ thỏa mãn nhu cầu giao tiếp của vợ chồng» sai: Hẹp hơn nội dung duy trì con người và xã hội. «Chỉ tạo ra hàng hóa vật chất» sai: Đây là chức năng kinh tế khác. «Chỉ truyền đạt kiến thức nhà trường» sai: Đây gần chức năng giáo dục. Nguồn: Chương 7, slide 5 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-010",
+      "topic": "Nuôi dưỡng và giáo dục",
+      "difficulty": "easy",
+      "source_pages": [
+        6
+      ],
+      "question": "Theo chương 7, gia đình giúp con hình thành nhân cách, đạo đức và tri thức qua chức năng nào?",
+      "options": {
+        "A": "Chỉ thay đổi quy mô hộ gia đình",
+        "B": "Chỉ xác định quan hệ huyết thống",
+        "C": "Nuôi dưỡng và giáo dục",
+        "D": "Chỉ tái sản xuất ra của cải"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ thay đổi quy mô hộ gia đình» sai: Không mô tả việc phát triển nhân cách. «Chỉ xác định quan hệ huyết thống» sai: Huyết thống là loại quan hệ, không phải quá trình giáo dục. «Nuôi dưỡng và giáo dục» đúng: Slide 6 nêu trực tiếp các kết quả này. «Chỉ tái sản xuất ra của cải» sai: Đây là chức năng kinh tế. Nguồn: Chương 7, slide 6 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-011",
+      "topic": "Chức năng kinh tế",
+      "difficulty": "easy",
+      "source_pages": [
+        7
+      ],
+      "question": "Gia đình trực tiếp sản xuất để đáp ứng nhu cầu thành viên và đóng góp cho xã hội. Theo slide 7, đây là chức năng nào?",
+      "options": {
+        "A": "Chỉ tái sản xuất bản thân con người",
+        "B": "Chỉ xác lập quan hệ huyết thống",
+        "C": "Tham gia sản xuất, bảo đảm đời sống gia đình",
+        "D": "Chỉ thực hiện quyền tự do hôn nhân"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ tái sản xuất bản thân con người» sai: Đối tượng trực tiếp ở tình huống là của cải vật chất. «Chỉ xác lập quan hệ huyết thống» sai: Không phải hoạt động kinh tế được nêu. «Tham gia sản xuất, bảo đảm đời sống gia đình» đúng: Slide diễn giải chức năng kinh tế theo hai phạm vi gia đình và xã hội. «Chỉ thực hiện quyền tự do hôn nhân» sai: Đây là nội dung chế độ hôn nhân, không phải sản xuất. Nguồn: Chương 7, slide 7 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-012",
+      "topic": "Nhu cầu tâm - sinh lý",
+      "difficulty": "easy",
+      "source_pages": [
+        8
+      ],
+      "question": "Chăm sóc, chia sẻ và duy trì tình cảm giữa thành viên thuộc chức năng nào theo slide 8?",
+      "options": {
+        "A": "Chỉ tái sản xuất hàng hóa",
+        "B": "Chỉ quản lý cư trú",
+        "C": "Chỉ phát triển quan hệ sản xuất xã hội",
+        "D": "Thỏa mãn nhu cầu tâm - sinh lý và duy trì tình cảm gia đình"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ tái sản xuất hàng hóa» sai: Không phản ánh trọng tâm nhu cầu tinh thần. «Chỉ quản lý cư trú» sai: Không phải chức năng được nêu. «Chỉ phát triển quan hệ sản xuất xã hội» sai: Không trực tiếp mô tả chức năng gia đình đang hỏi. «Thỏa mãn nhu cầu tâm - sinh lý và duy trì tình cảm gia đình» đúng: Đây là tiêu đề và nội dung của slide. Nguồn: Chương 7, slide 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-013",
+      "topic": "Phân biệt các chức năng",
+      "difficulty": "hard",
+      "source_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "question": "Nhận định I: sinh thành và duy trì thế hệ thuộc chức năng tái sản xuất con người. Nhận định II: dạy con ứng xử chủ yếu thuộc chức năng kinh tế. Theo bài giảng, chọn đánh giá đúng.",
+      "options": {
+        "A": "I và II đều đúng",
+        "B": "I sai, II đúng",
+        "C": "I đúng, II sai",
+        "D": "I và II đều sai"
+      },
+      "correct_answer": "C",
+      "explanation": "«I và II đều đúng» sai: II đã nhầm giáo dục với kinh tế. «I sai, II đúng» sai: Đã đảo kết quả phân loại hai hoạt động. «I đúng, II sai» đúng: Dạy con ứng xử gắn nuôi dưỡng, giáo dục; sinh thành gắn tái sản xuất con người. «I và II đều sai» sai: I khớp chức năng ở slide 5. Nguồn: Chương 7, slide 5, 6, 7, 8 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-014",
+      "topic": "Cơ sở kinh tế - xã hội",
+      "difficulty": "medium",
+      "source_pages": [
+        9
+      ],
+      "question": "Theo slide 9, cải thiện điều kiện kinh tế của gia đình có ý nghĩa gì?",
+      "options": {
+        "A": "Tự động thay thế mọi quan hệ tình cảm và trách nhiệm",
+        "B": "Làm giáo dục gia đình không còn cần thiết",
+        "C": "Chỉ phục vụ thị trường, không liên quan đời sống thành viên",
+        "D": "Tạo điều kiện phát huy tiềm năng và nâng đời sống vật chất gia đình"
+      },
+      "correct_answer": "D",
+      "explanation": "«Tự động thay thế mọi quan hệ tình cảm và trách nhiệm» sai: Kinh tế là một cơ sở, không thay toàn bộ chức năng gia đình. «Làm giáo dục gia đình không còn cần thiết» sai: Slide 6 vẫn xác định chức năng giáo dục. «Chỉ phục vụ thị trường, không liên quan đời sống thành viên» sai: Trái với nội dung đáp ứng nhu cầu gia đình. «Tạo điều kiện phát huy tiềm năng và nâng đời sống vật chất gia đình» đúng: Đây là vai trò kinh tế được slide trình bày. Nguồn: Chương 7, slide 9 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-015",
+      "topic": "Cơ sở chính trị - xã hội",
+      "difficulty": "medium",
+      "source_pages": [
+        10
+      ],
+      "question": "Theo chương 7, nhóm nội dung nào thuộc cơ sở chính trị - xã hội xây dựng gia đình?",
+      "options": {
+        "A": "Chỉ quan hệ huyết thống tự nhiên",
+        "B": "Bảo đảm bình đẳng nam nữ và xây dựng chính sách hôn nhân, gia đình, xã hội",
+        "C": "Chỉ quyết định mức thu nhập một hộ",
+        "D": "Chỉ giữ phong tục mà không xét bình đẳng"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ quan hệ huyết thống tự nhiên» sai: Quan hệ tự nhiên không thay thế vai trò chính sách. «Bảo đảm bình đẳng nam nữ và xây dựng chính sách hôn nhân, gia đình, xã hội» đúng: Slide 10 đặt vai trò nhà nước và chính sách trong cơ sở này. «Chỉ quyết định mức thu nhập một hộ» sai: Đây chủ yếu là điều kiện kinh tế, không đủ cơ sở chính trị được nêu. «Chỉ giữ phong tục mà không xét bình đẳng» sai: Trái với nội dung xóa bất bình đẳng, tập quán lạc hậu. Nguồn: Chương 7, slide 10 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-016",
+      "topic": "Cơ sở văn hóa",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        12
+      ],
+      "question": "Theo slides 11–12, xây dựng gia đình trên cơ sở văn hóa gắn với hoạt động nào?",
+      "options": {
+        "A": "Chỉ xác định quyền sở hữu máy móc",
+        "B": "Nâng dân trí, phát triển giáo dục, khoa học và lối sống tiến bộ",
+        "C": "Chỉ mở rộng diện tích nhà ở",
+        "D": "Chỉ tăng số người trong hộ"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ xác định quyền sở hữu máy móc» sai: Thuộc vấn đề kinh tế khác. «Nâng dân trí, phát triển giáo dục, khoa học và lối sống tiến bộ» đúng: Hai slide nói đến văn hóa, giáo dục và thay đổi tập quán lạc hậu. «Chỉ mở rộng diện tích nhà ở» sai: Không trực tiếp phản ánh cơ sở văn hóa. «Chỉ tăng số người trong hộ» sai: Quy mô không tự tạo nền tảng văn hóa. Nguồn: Chương 7, slide 11, 12 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-017",
+      "topic": "Hôn nhân tự nguyện",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Theo quan niệm hôn nhân tiến bộ ở slide 13, trường hợp nào phù hợp nhất?",
+      "options": {
+        "A": "Gia đình ép kết hôn bất kể nguyện vọng người trong cuộc",
+        "B": "Hai người tự nguyện lựa chọn hôn nhân dựa trên tình yêu",
+        "C": "Chỉ cần thỏa thuận giữa hai dòng họ, không hỏi người kết hôn",
+        "D": "Chỉ vì tài sản mà không có sự tự nguyện"
+      },
+      "correct_answer": "B",
+      "explanation": "«Gia đình ép kết hôn bất kể nguyện vọng người trong cuộc» sai: Trái với tiêu chí tự nguyện. «Hai người tự nguyện lựa chọn hôn nhân dựa trên tình yêu» đúng: Slide nhấn mạnh sự tự nguyện và tình yêu. «Chỉ cần thỏa thuận giữa hai dòng họ, không hỏi người kết hôn» sai: Không thể hiện quyền lựa chọn của người trong cuộc. «Chỉ vì tài sản mà không có sự tự nguyện» sai: Không đáp ứng điều kiện được nêu. Nguồn: Chương 7, slide 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-018",
+      "topic": "Tự do kết hôn và ly hôn",
+      "difficulty": "medium",
+      "source_pages": [
+        13
+      ],
+      "question": "Theo slide 13, hôn nhân tiến bộ bao gồm cách nhìn nào về quyền lựa chọn?",
+      "options": {
+        "A": "Có cả quyền tự do kết hôn và quyền tự do ly hôn",
+        "B": "Chỉ cha mẹ mới có quyền quyết định thay",
+        "C": "Chỉ được kết hôn nhưng tuyệt đối không được ly hôn",
+        "D": "Không cần quan tâm nguyện vọng của vợ chồng"
+      },
+      "correct_answer": "A",
+      "explanation": "«Có cả quyền tự do kết hôn và quyền tự do ly hôn» đúng: Hai quyền được bài giảng đặt cùng trong khái niệm. «Chỉ cha mẹ mới có quyền quyết định thay» sai: Không phù hợp hôn nhân tự nguyện. «Chỉ được kết hôn nhưng tuyệt đối không được ly hôn» sai: Bỏ một quyền được nêu. «Không cần quan tâm nguyện vọng của vợ chồng» sai: Trái với cơ sở tự nguyện và tình yêu. Nguồn: Chương 7, slide 13 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-019",
+      "topic": "Một vợ một chồng và bình đẳng",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Theo slide 14, nội dung nào thuộc hôn nhân tiến bộ?",
+      "options": {
+        "A": "Coi đa thê là điều kiện bắt buộc của gia đình mới",
+        "B": "Một người có toàn bộ quyền, người kia không có tiếng nói",
+        "C": "Chỉ đề cao số người phụ thuộc trong gia đình",
+        "D": "Một vợ một chồng và vợ chồng bình đẳng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Coi đa thê là điều kiện bắt buộc của gia đình mới» sai: Trái với nội dung một vợ một chồng trên slide. «Một người có toàn bộ quyền, người kia không có tiếng nói» sai: Trái với bình đẳng. «Chỉ đề cao số người phụ thuộc trong gia đình» sai: Không phải tiêu chí hôn nhân tiến bộ. «Một vợ một chồng và vợ chồng bình đẳng» đúng: Đây là hai nội dung được slide nêu rõ. Nguồn: Chương 7, slide 14 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-020",
+      "topic": "Tình huống bình đẳng vợ chồng",
+      "difficulty": "medium",
+      "source_pages": [
+        14
+      ],
+      "question": "Vợ chồng cùng trao đổi và tôn trọng ý kiến nhau khi quyết định việc gia đình. Theo chương 7, điều này minh họa rõ nội dung nào?",
+      "options": {
+        "A": "Bình đẳng trong quan hệ vợ chồng",
+        "B": "Chỉ quyền quyết định riêng của người có thu nhập cao hơn",
+        "C": "Chỉ sự phụ thuộc tuyệt đối của vợ",
+        "D": "Chỉ quan hệ huyết thống"
+      },
+      "correct_answer": "A",
+      "explanation": "«Bình đẳng trong quan hệ vợ chồng» đúng: Tình huống thể hiện tiếng nói và sự tôn trọng giữa hai người. «Chỉ quyền quyết định riêng của người có thu nhập cao hơn» sai: Tình huống không phân quyền theo thu nhập. «Chỉ sự phụ thuộc tuyệt đối của vợ» sai: Không phù hợp trao đổi bình đẳng. «Chỉ quan hệ huyết thống» sai: Vợ chồng thuộc quan hệ hôn nhân, không phải ví dụ huyết thống. Nguồn: Chương 7, slide 14 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-021",
+      "topic": "Bảo đảm pháp lý của hôn nhân",
+      "difficulty": "medium",
+      "source_pages": [
+        15
+      ],
+      "question": "Theo slide 15, ngoài nội dung tự nguyện và bình đẳng, bài giảng còn nhấn mạnh yếu tố nào của hôn nhân tiến bộ?",
+      "options": {
+        "A": "Chỉ cần lời hứa cá nhân, không có khía cạnh pháp lý",
+        "B": "Có sự bảo đảm bằng pháp lý",
+        "C": "Chỉ do mức của cải của gia đình",
+        "D": "Chỉ do phong tục quyết định trong mọi trường hợp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ cần lời hứa cá nhân, không có khía cạnh pháp lý» sai: Bỏ yếu tố được slide nhấn mạnh. «Có sự bảo đảm bằng pháp lý» đúng: Đây là nội dung trực tiếp của slide 15, không phải hướng dẫn thủ tục pháp luật hiện hành. «Chỉ do mức của cải của gia đình» sai: Không phải yếu tố của slide 15. «Chỉ do phong tục quyết định trong mọi trường hợp» sai: Phong tục không thay toàn bộ sự bảo đảm pháp lý được nêu. Nguồn: Chương 7, slide 15 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-022",
+      "topic": "Biến đổi quy mô gia đình",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Theo xu hướng được slide 16 mô tả, quy mô gia đình Việt Nam có biến đổi nào?",
+      "options": {
+        "A": "Quy mô không bao giờ có thay đổi",
+        "B": "Chỉ có gia đình nhiều thế hệ mới tồn tại",
+        "C": "Mọi gia đình bắt buộc có cùng một số thành viên",
+        "D": "Nhỏ hơn trước, số thành viên ít đi và đời sống riêng tư được coi trọng hơn"
+      },
+      "correct_answer": "D",
+      "explanation": "«Quy mô không bao giờ có thay đổi» sai: Trái với chủ đề biến đổi tại slide. «Chỉ có gia đình nhiều thế hệ mới tồn tại» sai: Không phù hợp xu hướng quy mô nhỏ hơn. «Mọi gia đình bắt buộc có cùng một số thành viên» sai: Xu hướng không đồng nghĩa một quy mô bắt buộc cho mọi hộ. «Nhỏ hơn trước, số thành viên ít đi và đời sống riêng tư được coi trọng hơn» đúng: Đây là mô tả xu hướng trong bài giảng, không phải thống kê cập nhật. Nguồn: Chương 7, slide 16 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-023",
+      "topic": "Biến đổi chức năng kinh tế",
+      "difficulty": "medium",
+      "source_pages": [
+        7,
+        17
+      ],
+      "question": "Theo slide 17, gia đình trong kinh tế thị trường còn được nhìn như đơn vị nào bên cạnh vai trò tạo của cải?",
+      "options": {
+        "A": "Một cộng đồng không có nhu cầu vật chất",
+        "B": "Đơn vị tiêu dùng quan trọng của xã hội",
+        "C": "Chỉ là tổ chức quyền lực nhà nước",
+        "D": "Một đơn vị hoàn toàn không liên hệ thị trường"
+      },
+      "correct_answer": "B",
+      "explanation": "«Một cộng đồng không có nhu cầu vật chất» sai: Không phù hợp vai trò tiêu dùng. «Đơn vị tiêu dùng quan trọng của xã hội» đúng: Slide nêu sự phát triển điều kiện làm giàu, chăm sóc và tiêu dùng. «Chỉ là tổ chức quyền lực nhà nước» sai: Không phải vị trí kinh tế gia đình được hỏi. «Một đơn vị hoàn toàn không liên hệ thị trường» sai: Trái với nội dung biến đổi chức năng kinh tế. Nguồn: Chương 7, slide 7, 17 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-024",
+      "topic": "Giáo dục gia đình và nhà trường",
+      "difficulty": "hard",
+      "source_pages": [
+        6,
+        17
+      ],
+      "question": "Bài giảng nêu vai trò nhà trường, xã hội tăng trong giáo dục. Có thể từ đó kết luận gia đình không còn trách nhiệm giáo dục không?",
+      "options": {
+        "A": "Không; biến đổi phân công giáo dục không xóa chức năng nuôi dưỡng, giáo dục của gia đình",
+        "B": "Có; tăng vai trò nhà trường là xóa hoàn toàn vai trò gia đình",
+        "C": "Có; chỉ quan hệ huyết thống mới còn tồn tại",
+        "D": "Không, vì nhà trường không có bất kỳ vai trò giáo dục nào"
+      },
+      "correct_answer": "A",
+      "explanation": "«Không; biến đổi phân công giáo dục không xóa chức năng nuôi dưỡng, giáo dục của gia đình» đúng: Cần đọc slide 17 cùng chức năng nền tảng ở slide 6. «Có; tăng vai trò nhà trường là xóa hoàn toàn vai trò gia đình» sai: Đã biến một xu hướng chuyển giao thành phủ định tuyệt đối. «Có; chỉ quan hệ huyết thống mới còn tồn tại» sai: Không liên quan việc phân công giáo dục. «Không, vì nhà trường không có bất kỳ vai trò giáo dục nào» sai: Trái với chính nội dung nhà trường và xã hội được slide nêu. Nguồn: Chương 7, slide 6, 17 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-025",
+      "topic": "Biến đổi nhu cầu tình cảm",
+      "difficulty": "medium",
+      "source_pages": [
+        8,
+        17
+      ],
+      "question": "Theo nhận định ở slide 17, nhu cầu tâm lý, tình cảm trong gia đình có xu hướng nào?",
+      "options": {
+        "A": "Tăng lên",
+        "B": "Không còn liên quan sự quan tâm, chăm sóc",
+        "C": "Biến mất hoàn toàn vì đã có thị trường",
+        "D": "Chỉ còn nhu cầu sản xuất vật chất"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tăng lên» đúng: Slide mô tả xu hướng tăng của nhu cầu này. «Không còn liên quan sự quan tâm, chăm sóc» sai: Slide 8 gắn nhu cầu tình cảm với chăm sóc lẫn nhau. «Biến mất hoàn toàn vì đã có thị trường» sai: Bài giảng không đưa kết luận đó. «Chỉ còn nhu cầu sản xuất vật chất» sai: Bỏ chức năng và nhu cầu tinh thần. Nguồn: Chương 7, slide 8, 17 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-026",
+      "topic": "Quan hệ giữa các thế hệ",
+      "difficulty": "medium",
+      "source_pages": [
+        18
+      ],
+      "question": "Theo slide 18, nội dung nào thuộc biến đổi quan hệ gia đình được nêu?",
+      "options": {
+        "A": "Chỉ thay đổi số lượng trường học",
+        "B": "Mọi gia đình không còn bất kỳ mâu thuẫn nào",
+        "C": "Vợ chồng chỉ còn quan hệ sản xuất, không có tình cảm",
+        "D": "Có thể gia tăng khác biệt giữa thế hệ và thay đổi mức phụ thuộc kinh tế vợ chồng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ thay đổi số lượng trường học» sai: Không phải quan hệ gia đình đang hỏi. «Mọi gia đình không còn bất kỳ mâu thuẫn nào» sai: Không phù hợp nhận định về khác biệt thế hệ. «Vợ chồng chỉ còn quan hệ sản xuất, không có tình cảm» sai: Bài giảng không kết luận như vậy. «Có thể gia tăng khác biệt giữa thế hệ và thay đổi mức phụ thuộc kinh tế vợ chồng» đúng: Slide đề cập cả quan hệ vợ chồng lẫn quan hệ thế hệ. Nguồn: Chương 7, slide 18 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-027",
+      "topic": "Giá trị truyền thống và tiến bộ",
+      "difficulty": "medium",
+      "source_pages": [
+        19,
+        20,
+        21
+      ],
+      "question": "Theo các phương hướng xây dựng gia đình, thái độ nào phù hợp với giá trị truyền thống và giá trị mới?",
+      "options": {
+        "A": "Kế thừa giá trị truyền thống phù hợp và tiếp thu tiến bộ của nhân loại",
+        "B": "Chỉ thay tên phong trào, không nâng chất lượng đời sống",
+        "C": "Giữ nguyên mọi tập quán dù gây bất bình đẳng",
+        "D": "Phủ nhận toàn bộ truyền thống để chỉ sao chép bên ngoài"
+      },
+      "correct_answer": "A",
+      "explanation": "«Kế thừa giá trị truyền thống phù hợp và tiếp thu tiến bộ của nhân loại» đúng: Slide 20 nêu đồng thời hai yêu cầu, cùng định hướng nâng chất lượng gia đình văn hóa. «Chỉ thay tên phong trào, không nâng chất lượng đời sống» sai: Không đáp ứng yêu cầu phát triển và nâng chất lượng. «Giữ nguyên mọi tập quán dù gây bất bình đẳng» sai: Không phù hợp việc loại bỏ tập quán lạc hậu trong bài. «Phủ nhận toàn bộ truyền thống để chỉ sao chép bên ngoài» sai: Bỏ vế kế thừa truyền thống. Nguồn: Chương 7, slide 19, 20, 21 (đánh số từ 1 theo thứ tự trong file PPT)."
+    },
+    {
+      "id": "cnxh-07-028",
+      "topic": "Xã hội hóa xây dựng gia đình",
+      "difficulty": "hard",
+      "source_pages": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "question": "Một bài làm cho rằng xây dựng gia đình chỉ là việc riêng của từng hộ, xã hội không cần nâng nhận thức hay hỗ trợ. Theo phần cuối chương 7, nhận xét nào đúng?",
+      "options": {
+        "A": "Chỉ cần tăng thu nhập là tự giải quyết mọi vấn đề gia đình",
+        "B": "Chỉ cần nhà nước làm thay mọi trách nhiệm thành viên",
+        "C": "Bài làm thiếu vì tài liệu kết hợp trách nhiệm gia đình với lãnh đạo, nhận thức xã hội và xã hội hóa hỗ trợ",
+        "D": "Đầy đủ vì gia đình không có liên hệ với xã hội"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ cần tăng thu nhập là tự giải quyết mọi vấn đề gia đình» sai: Không bao quát văn hóa, bình đẳng, giáo dục và tình cảm. «Chỉ cần nhà nước làm thay mọi trách nhiệm thành viên» sai: Xã hội hóa không đồng nghĩa xóa trách nhiệm từng gia đình. «Bài làm thiếu vì tài liệu kết hợp trách nhiệm gia đình với lãnh đạo, nhận thức xã hội và xã hội hóa hỗ trợ» đúng: Slides 19–22 còn nêu phong trào gia đình văn hóa và huy động xã hội. «Đầy đủ vì gia đình không có liên hệ với xã hội» sai: Trái cả vai trò cầu nối và các phương hướng cuối chương. Nguồn: Chương 7, slide 19, 20, 21, 22 (đánh số từ 1 theo thứ tự trong file PPT)."
+    }
+  ]
+}
