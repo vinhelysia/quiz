@@ -42,6 +42,13 @@ export const SUBJECTS: SubjectMeta[] = [
     description: '200 câu theo 7 chương: nhập môn, giai cấp công nhân, thời kỳ quá độ, dân chủ và nhà nước, liên minh giai cấp, dân tộc - tôn giáo và gia đình.',
     order: 5,
   },
+  {
+    id: 'quan-tri-hoc',
+    title: 'Quản trị học',
+    short: 'QTH',
+    description: '377 câu trong 8 bộ theo số gốc; có đáp án và giải thích từ file cung cấp, đã tạm loại 13 câu mơ hồ được chỉ định.',
+    order: 6,
+  },
 ];
 
 export function getSubjectMeta(id: string): SubjectMeta {

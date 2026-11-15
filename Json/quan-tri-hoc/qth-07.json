@@ -1,0 +1,615 @@
+{
+  "chapter_id": "qth-07",
+  "title": "Bộ 07 - Câu gốc 301–350",
+  "source_file": "Pasted text.txt",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "qth-0301",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 301] Khi lựa chọn phương án đầu tư, nhà quản trị phải so sánh nhiều phương án khác nhau để chọn giải pháp tối ưu. Điều này phản ánh yêu cầu nào trong ra quyết định quản trị?",
+      "options": {
+        "A": "Kinh nghiệm cá nhân",
+        "B": "Quyền lực lãnh đạo",
+        "C": "Phân tích dữ liệu và tình huống",
+        "D": "Tuân thủ quy trình cứng nhắc"
+      },
+      "correct_answer": "C",
+      "explanation": "So sánh nhiều phương án để chọn tối ưu đòi hỏi phân tích dữ liệu và tình huống. Nguồn: câu gốc 301, mục ID 301 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0302",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 302] Một doanh nghiệp chủ động xây dựng các kịch bản kinh doanh khác nhau tương ứng với biến động về nhu cầu thị trường, lãi suất và cạnh tranh. Cách tiếp cận này thể hiện nội dung nào trong hoạch định?",
+      "options": {
+        "A": "Hoạch định tác nghiệp",
+        "B": "Hoạch định chiến lược",
+        "C": "Dự báo và phòng ngừa rủi ro",
+        "D": "Phân quyền quản lý"
+      },
+      "correct_answer": "C",
+      "explanation": "Xây dựng nhiều kịch bản ứng với biến động thị trường là dự báo và phòng ngừa rủi ro. Nguồn: câu gốc 302, mục ID 302 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0303",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 303] Việc xác định mục tiêu cụ thể cho từng phòng ban giúp doanh nghiệp đạt được lợi ích nào sau đây?",
+      "options": {
+        "A": "Giảm chi phí quản lý",
+        "B": "Tăng quyền lực lãnh đạo",
+        "C": "Định hướng hành động và phối hợp hiệu quả",
+        "D": "Hạn chế sáng tạo cá nhân"
+      },
+      "correct_answer": "C",
+      "explanation": "Mục tiêu cụ thể cho từng phòng ban giúp định hướng hành động và phối hợp hiệu quả. Nguồn: câu gốc 303, mục ID 303 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0304",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 304] Doanh nghiệp mở rộng quy mô nhanh khiến nhà quản lý bị quá tải trong điều hành. Giải pháp quản trị phù hợp nhất là gì?",
+      "options": {
+        "A": "Giữ nguyên cơ cấu hiện tại",
+        "B": "Điều chỉnh tầm hạn quản trị và phân quyền hợp lý",
+        "C": "Giảm mục tiêu kinh doanh",
+        "D": "Tăng cường kiểm soát chi phí"
+      },
+      "correct_answer": "B",
+      "explanation": "Quá tải khi mở rộng nhanh thì cần điều chỉnh tầm hạn quản trị và phân quyền hợp lý. Nguồn: câu gốc 304, mục ID 304 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0305",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 305] Khi doanh nghiệp mở rộng quy mô hoạt động, ban lãnh đạo tiến hành sắp xếp lại các phòng ban, xác định rõ mối quan hệ báo cáo và phân công nhiệm vụ mới. Nhà quản trị đang thực hiện chức năng nào?",
+      "options": {
+        "A": "Tổ chức",
+        "B": "Hoạch định",
+        "C": "Điều khiển",
+        "D": "Kiểm soát"
+      },
+      "correct_answer": "A",
+      "explanation": "Sắp xếp lại phòng ban, quan hệ báo cáo, phân công nhiệm vụ là chức năng tổ chức. Nguồn: câu gốc 305, mục ID 305 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0306",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 306] Việc phân định rõ quyền hạn và trách nhiệm của từng vị trí giúp doanh nghiệp đạt được điều gì?",
+      "options": {
+        "A": "Tránh chồng chéo và nâng cao phối hợp",
+        "B": "Tăng quyền lực cho nhà quản trị",
+        "C": "Giảm chi phí đào tạo",
+        "D": "Hạn chế thay đổi trong tổ chức"
+      },
+      "correct_answer": "A",
+      "explanation": "Phân định rõ quyền hạn, trách nhiệm giúp tránh chồng chéo và nâng cao phối hợp. Nguồn: câu gốc 306, mục ID 306 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0307",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 307] Một nhà quản trị lựa chọn phong cách lãnh đạo khác nhau cho từng nhóm nhân viên tùy theo năng lực và mức độ sẵn sàng. Điều này thể hiện điều gì?",
+      "options": {
+        "A": "Lãnh đạo độc đoán",
+        "B": "Lãnh đạo theo tình huống",
+        "C": "Lãnh đạo cảm tính",
+        "D": "Lãnh đạo dựa trên quyền lực"
+      },
+      "correct_answer": "B",
+      "explanation": "Thay đổi phong cách theo năng lực, mức độ sẵn sàng của nhân viên là lãnh đạo theo tình huống. Nguồn: câu gốc 307, mục ID 307 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0308",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 308] Nếu chỉ đánh giá hiệu quả quản trị dựa trên lợi nhuận, doanh nghiệp có thể gặp rủi ro nào sau đây?",
+      "options": {
+        "A": "Tăng chi phí",
+        "B": "Bỏ qua yếu tố con người",
+        "C": "Giảm kiểm soát",
+        "D": "Giảm doanh thu"
+      },
+      "correct_answer": "B",
+      "explanation": "Chỉ dựa vào lợi nhuận dễ bỏ qua yếu tố con người. Nguồn: câu gốc 308, mục ID 308 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0309",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 309] Doanh nghiệp ghi nhận năng suất lao động tăng nhưng chất lượng dịch vụ lại suy giảm, làm khách hàng không hài lòng. Điều này cho thấy vấn đề quản trị nằm ở đâu?",
+      "options": {
+        "A": "Mục tiêu và kết quả chưa phù hợp với nhau",
+        "B": "Thiếu nguồn lực tài chính",
+        "C": "Quy mô tổ chức quá lớn",
+        "D": "Hệ thống kiểm soát yếu"
+      },
+      "correct_answer": "A",
+      "explanation": "Năng suất tăng nhưng chất lượng dịch vụ giảm cho thấy mục tiêu và kết quả chưa phù hợp với nhau. Nguồn: câu gốc 309, mục ID 309 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0310",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 310] Hệ thống đánh giá hiệu suất không cải thiện kết quả do tiêu chí không phản ánh đúng công việc. Vấn đề cốt lõi là gì?",
+      "options": {
+        "A": "Nhân viên thiếu năng lực",
+        "B": "Công cụ đánh giá chưa phù hợp",
+        "C": "Chiến lược kinh doanh sai",
+        "D": "Thiếu kiểm soát"
+      },
+      "correct_answer": "B",
+      "explanation": "Tiêu chí không phản ánh đúng công việc nghĩa là công cụ đánh giá chưa phù hợp. Nguồn: câu gốc 310, mục ID 310 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0311",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 311] Một doanh nghiệp đồng thời triển khai nhiều dự án nhưng không dự án nào đạt kết quả như mong đợi, dù đội ngũ nhân sự có năng lực. Nguyên nhân quản trị hợp lý nhất là gì?",
+      "options": {
+        "A": "Mục tiêu đặt ra chưa phù hợp",
+        "B": "Phân bổ nguồn lực bị dàn trải",
+        "C": "Kiểm soát quá chặt chẽ",
+        "D": "Nhân viên thiếu động lực"
+      },
+      "correct_answer": "B",
+      "explanation": "Đội ngũ có năng lực mà không dự án nào đạt kết quả thì nguyên nhân hợp lý là phân bổ nguồn lực bị dàn trải. Nguồn: câu gốc 311, mục ID 311 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0312",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 312] Đánh giá hiệu quả quản trị dựa trên nhiều tiêu chí khác nhau phản ánh cách tiếp cận nào?",
+      "options": {
+        "A": "Một chiều",
+        "B": "Ngắn hạn",
+        "C": "Toàn diện",
+        "D": "Cảm tính"
+      },
+      "correct_answer": "C",
+      "explanation": "Dùng nhiều tiêu chí đánh giá là cách tiếp cận toàn diện. Nguồn: câu gốc 312, mục ID 312 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0313",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 313] Trước khi ban hành kế hoạch hoạt động năm tới, ban giám đốc yêu cầu các phòng ban đánh giá tình hình hiện tại và đề xuất phương án hành động. Hoạt động này thuộc nội dung nào của quản trị?",
+      "options": {
+        "A": "Điều khiển",
+        "B": "Kiểm soát",
+        "C": "Hoạch định",
+        "D": "Phân quyền"
+      },
+      "correct_answer": "C",
+      "explanation": "Đánh giá tình hình và đề xuất phương án trước khi ban hành kế hoạch thuộc hoạch định. Nguồn: câu gốc 313, mục ID 313 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0314",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 314] Một nhà quản trị cho rằng quyết định quản lý hiệu quả cần dựa trên số liệu nhưng cũng phải linh hoạt theo tình huống thực tế. Quan điểm này phản ánh đặc điểm nào của quản trị?",
+      "options": {
+        "A": "Quản trị cảm tính",
+        "B": "Quản trị thuần túy khoa học",
+        "C": "Quản trị thuần túy nghệ thuật",
+        "D": "Quản trị kết hợp khoa học và nghệ thuật"
+      },
+      "correct_answer": "D",
+      "explanation": "Dựa trên số liệu nhưng linh hoạt theo tình huống là kết hợp khoa học và nghệ thuật. Nguồn: câu gốc 314, mục ID 314 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0315",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 315] Kết quả đạt mục tiêu nhưng phương pháp quản lý gây áp lực lớn cho nhân viên. Nhà quản trị cần điều chỉnh điều gì?",
+      "options": {
+        "A": "Mục tiêu",
+        "B": "Phương pháp quản lý",
+        "C": "Quy mô tổ chức",
+        "D": "Nguồn lực tài chính"
+      },
+      "correct_answer": "B",
+      "explanation": "Đạt mục tiêu nhưng gây áp lực lớn thì cần điều chỉnh phương pháp quản lý. Nguồn: câu gốc 315, mục ID 315 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0316",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 316] Không điều chỉnh quản trị khi môi trường thay đổi sẽ dẫn đến rủi ro lớn nhất nào?",
+      "options": {
+        "A": "Tăng chi phí",
+        "B": "Giảm lợi nhuận",
+        "C": "Mất khả năng thích nghi",
+        "D": "Giảm kiểm soát"
+      },
+      "correct_answer": "C",
+      "explanation": "Không điều chỉnh khi môi trường thay đổi dẫn đến mất khả năng thích nghi. Nguồn: câu gốc 316, mục ID 316 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0317",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 317] Đánh giá hiệu quả quản trị dựa trên mức độ hài lòng của khách hàng giúp doanh nghiệp đạt được điều gì?",
+      "options": {
+        "A": "Doanh thu ngắn hạn",
+        "B": "Giảm chi phí",
+        "C": "Lợi thế cạnh tranh bền vững",
+        "D": "Tăng quyền lực lãnh đạo"
+      },
+      "correct_answer": "C",
+      "explanation": "Đánh giá theo sự hài lòng của khách hàng giúp đạt lợi thế cạnh tranh bền vững. Nguồn: câu gốc 317, mục ID 317 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0318",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 318] Doanh nghiệp sử dụng đồng thời các chỉ tiêu tài chính và phi tài chính để đánh giá hiệu quả quản trị. Cách tiếp cận này giúp doanh nghiệp đạt được điều gì?",
+      "options": {
+        "A": "Kiểm soát chặt chẽ hơn",
+        "B": "Đánh giá chính xác và toàn diện hơn",
+        "C": "Giảm thời gian quản lý",
+        "D": "Giảm rủi ro tài chính"
+      },
+      "correct_answer": "B",
+      "explanation": "Kết hợp chỉ tiêu tài chính và phi tài chính giúp đánh giá chính xác và toàn diện hơn. Nguồn: câu gốc 318, mục ID 318 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0319",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 319] Doanh nghiệp đạt kết quả ngắn hạn tốt nhưng suy yếu về lâu dài cho thấy hạn chế nào trong quản trị?",
+      "options": {
+        "A": "Thiếu tư duy chiến lược dài hạn",
+        "B": "Thiếu kiểm soát chi phí",
+        "C": "Thiếu động viên nhân viên",
+        "D": "Thiếu thông tin thị trường"
+      },
+      "correct_answer": "A",
+      "explanation": "Kết quả ngắn hạn tốt nhưng suy yếu dài hạn là thiếu tư duy chiến lược dài hạn. Nguồn: câu gốc 319, mục ID 319 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0320",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 320] Khi đánh giá hiệu quả quản trị, việc chỉ tập trung vào kết quả tài chính mà bỏ qua yếu tố con người sẽ dẫn đến điều gì?",
+      "options": {
+        "A": "Hiệu quả cao hơn",
+        "B": "Rủi ro mất ổn định tổ chức",
+        "C": "Giảm chi phí",
+        "D": "Tăng năng suất"
+      },
+      "correct_answer": "B",
+      "explanation": "Chỉ nhìn kết quả tài chính, bỏ qua con người dẫn đến rủi ro mất ổn định tổ chức. Nguồn: câu gốc 320, mục ID 320 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0321",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 321] Trong bối cảnh cạnh tranh gay gắt, doanh nghiệp cân nhắc giữa việc cắt giảm nhân sự để giảm chi phí và đầu tư đào tạo nhằm nâng cao năng lực đội ngũ. Quyết định nào là tối ưu nhất về mặt quản trị?",
+      "options": {
+        "A": "Cắt giảm nhân sự trên diện rộng",
+        "B": "Đầu tư đào tạo có chọn lọc gắn với mục tiêu dài hạn",
+        "C": "Giữ nguyên hiện trạng",
+        "D": "Thuê ngoài toàn bộ"
+      },
+      "correct_answer": "B",
+      "explanation": "Đầu tư đào tạo có chọn lọc gắn với mục tiêu dài hạn là quyết định tối ưu nhất. Nguồn: câu gốc 321, mục ID 321 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0322",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 322] Trong bối cảnh thị trường biến động mạnh, quyết định nào thể hiện tư duy quản trị bền vững?",
+      "options": {
+        "A": "Giữ nguyên chiến lược cũ",
+        "B": "Cắt giảm toàn bộ chi phí",
+        "C": "Điều chỉnh linh hoạt dựa trên phân tích",
+        "D": "Trì hoãn quyết định"
+      },
+      "correct_answer": "C",
+      "explanation": "Điều chỉnh linh hoạt dựa trên phân tích thể hiện tư duy quản trị bền vững. Nguồn: câu gốc 322, mục ID 322 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0323",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 323] Doanh nghiệp áp dụng cơ cấu tổ chức ma trận và phát sinh xung đột giữa quản lý chức năng và quản lý dự án. Giải pháp quản trị phù hợp nhất là gì?",
+      "options": {
+        "A": "Quay lại cơ cấu truyền thống",
+        "B": "Giảm số lượng dự án",
+        "C": "Tăng cường kiểm soát tài chính",
+        "D": "Làm rõ trách nhiệm, quyền hạn và cơ chế phối hợp"
+      },
+      "correct_answer": "D",
+      "explanation": "Xung đột giữa quản lý chức năng và quản lý dự án cần làm rõ trách nhiệm, quyền hạn và cơ chế phối hợp. Nguồn: câu gốc 323, mục ID 323 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0324",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 324] Trong điều kiện thiếu thông tin và rủi ro cao, kỹ năng quan trọng nhất của nhà quản trị là gì?",
+      "options": {
+        "A": "Kỹ năng kỹ thuật",
+        "B": "Kỹ năng nhân sự",
+        "C": "Kỹ năng tư duy",
+        "D": "Kỹ năng kiểm soát"
+      },
+      "correct_answer": "C",
+      "explanation": "Thiếu thông tin và rủi ro cao đòi hỏi kỹ năng tư duy. Nguồn: câu gốc 324, mục ID 324 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0325",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 325] Nhà quản trị kết hợp dữ liệu phân tích và kinh nghiệm thực tiễn để ra quyết định phản ánh điều gì?",
+      "options": {
+        "A": "Quản trị cảm tính",
+        "B": "Quản trị khoa học",
+        "C": "Kết hợp khoa học và nghệ thuật",
+        "D": "Quản trị theo quyền lực"
+      },
+      "correct_answer": "C",
+      "explanation": "Kết hợp dữ liệu phân tích và kinh nghiệm thực tiễn là kết hợp khoa học và nghệ thuật. Nguồn: câu gốc 325, mục ID 325 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0326",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 326] Trong môi trường cạnh tranh ngày càng gay gắt, quyết định nào giúp doanh nghiệp vừa duy trì hiệu quả hiện tại vừa tạo nền tảng phát triển lâu dài?",
+      "options": {
+        "A": "Tối đa hóa lợi nhuận ngắn hạn",
+        "B": "Cắt giảm chi phí",
+        "C": "Trì hoãn đổi mới",
+        "D": "Đầu tư có chọn lọc vào năng lực cốt lõi của doanh nghiệp"
+      },
+      "correct_answer": "D",
+      "explanation": "Đầu tư có chọn lọc vào năng lực cốt lõi vừa giữ hiệu quả hiện tại vừa tạo nền tảng dài hạn. Nguồn: câu gốc 326, mục ID 326 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0327",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 327] Một doanh nghiệp gia đình mở rộng quy mô, chủ doanh nghiệp nhận thấy việc điều hành dựa hoàn toàn vào kinh nghiệm cá nhân không còn hiệu quả. Để tổ chức vận hành ổn định hơn, cách tiếp cận nào phản ánh đúng bản chất khoa học của quản trị?",
+      "options": {
+        "A": "Ra quyết định dựa trên trực giác người đứng đầu",
+        "B": "Áp dụng hệ thống nguyên tắc, quy trình và dữ liệu quản lý",
+        "C": "Trao toàn quyền cho các quản lý cấp dưới",
+        "D": "Duy trì phong cách quản lý truyền thống"
+      },
+      "correct_answer": "B",
+      "explanation": "Áp dụng hệ thống nguyên tắc, quy trình và dữ liệu quản lý phản ánh đúng bản chất khoa học của quản trị. Nguồn: câu gốc 327, mục ID 327 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0328",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 328] Một trưởng phòng dành phần lớn thời gian hướng dẫn nhân viên mới, xử lý xung đột và truyền đạt mục tiêu của lãnh đạo cấp cao. Vai trò quản trị mà người này đang thực hiện là chủ yếu?",
+      "options": {
+        "A": "Vai trò quyết định",
+        "B": "Vai trò đại diện",
+        "C": "Vai trò lãnh đạo",
+        "D": "Vai trò kiểm soát"
+      },
+      "correct_answer": "C",
+      "explanation": "Hướng dẫn nhân viên, xử lý xung đột, truyền đạt mục tiêu là vai trò lãnh đạo. Nguồn: câu gốc 328, mục ID 328 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0329",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 329] Ban giám đốc một công ty tập trung xây dựng tầm nhìn 5 năm, xác định ngành nghề cốt lõi và phân bổ nguồn lực dài hạn. Đây là biểu hiện đặc trưng của nhà quản trị ở cấp nào?",
+      "options": {
+        "A": "Cấp cơ sở",
+        "B": "Cấp trung gian",
+        "C": "Cấp tác nghiệp",
+        "D": "Cấp cao"
+      },
+      "correct_answer": "D",
+      "explanation": "Xây dựng tầm nhìn dài hạn, xác định ngành nghề cốt lõi và phân bổ nguồn lực dài hạn là đặc trưng của quản trị cấp cao. Nguồn: câu gốc 329, mục ID 329 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0330",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 340] Trong một cuộc họp, giám đốc nhấn mạnh rằng: “Mỗi nhân viên chỉ nhận mệnh lệnh từ một cấp quản lý trực tiếp để tránh rối loạn”. Phát biểu này phản ánh nguyên tắc quản trị nào?",
+      "options": {
+        "A": "Phân quyền",
+        "B": "Thống nhất chỉ huy",
+        "C": "Công bằng",
+        "D": "Tập trung quyền lực"
+      },
+      "correct_answer": "B",
+      "explanation": "Mỗi nhân viên chỉ nhận mệnh lệnh từ một cấp quản lý trực tiếp là nguyên tắc thống nhất chỉ huy. Nguồn: câu gốc 340, mục ID 330 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0331",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 341] Một nhà quản trị vừa phải tuân thủ quy trình quản lý chặt chẽ, vừa linh hoạt điều chỉnh cách giao việc theo từng nhân viên. Điều này thể hiện quản trị là sự kết hợp giữa yếu tố nào?",
+      "options": {
+        "A": "Quyền lực và trách nhiệm",
+        "B": "Khoa học và nghệ thuật",
+        "C": "Lý thuyết và thực tiễn",
+        "D": "Kinh nghiệm và cảm tính"
+      },
+      "correct_answer": "B",
+      "explanation": "Vừa tuân thủ quy trình chặt chẽ vừa linh hoạt theo từng nhân viên là sự kết hợp giữa khoa học và nghệ thuật. Nguồn: câu gốc 341, mục ID 331 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0332",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 342] Khi doanh nghiệp hoạt động kém hiệu quả, chủ doanh nghiệp cho rằng “nhân viên thiếu trách nhiệm” mà không xem xét hệ thống quản lý. Nhận định này thiếu sót vì bỏ qua yếu tố nào của quản trị học?",
+      "options": {
+        "A": "Vai trò của môi trường bên ngoài",
+        "B": "Tính hệ thống trong quản trị",
+        "C": "Nhu cầu cá nhân người lao động",
+        "D": "Văn hóa doanh nghiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "Đổ lỗi cho nhân viên mà không xem xét hệ thống quản lý là bỏ qua tính hệ thống trong quản trị. Nguồn: câu gốc 342, mục ID 332 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0333",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 343] Doanh nghiệp A có sản phẩm tốt nhưng doanh số liên tục giảm do đối thủ áp dụng công nghệ bán hàng trực tuyến hiệu quả hơn. Vấn đề quản trị cốt lõi của doanh nghiệp A là gì?",
+      "options": {
+        "A": "Chất lượng sản phẩm",
+        "B": "Năng lực nhân sự",
+        "C": "Thích ứng với môi trường cạnh tranh",
+        "D": "Thiếu vốn đầu tư"
+      },
+      "correct_answer": "C",
+      "explanation": "Sản phẩm tốt nhưng doanh số giảm vì đối thủ dùng công nghệ bán hàng tốt hơn: vấn đề cốt lõi là thích ứng với môi trường cạnh tranh. Nguồn: câu gốc 343, mục ID 333 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0334",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 344] Khi phân tích môi trường kinh doanh, việc Nhà nước thay đổi chính sách thuế ảnh hưởng trực tiếp đến chi phí sản xuất thuộc yếu tố nào?",
+      "options": {
+        "A": "Môi trường vi mô",
+        "B": "Môi trường nội bộ",
+        "C": "Môi trường vĩ mô",
+        "D": "Môi trường ngành"
+      },
+      "correct_answer": "C",
+      "explanation": "Chính sách thuế của Nhà nước thuộc môi trường vĩ mô (chính trị - pháp luật). Nguồn: câu gốc 344, mục ID 334 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0335",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 345] Một công ty thường xuyên ra quyết định chậm do phải chờ ý kiến giám đốc cho mọi vấn đề nhỏ. Giải pháp quản trị phù hợp nhất là:",
+      "options": {
+        "A": "Tăng cường kiểm soát",
+        "B": "Phân quyền hợp lý cho cấp dưới",
+        "C": "Giảm số lượng nhân viên",
+        "D": "Chuẩn hóa quy trình báo cáo"
+      },
+      "correct_answer": "B",
+      "explanation": "Quyết định chậm vì dồn mọi việc nhỏ lên giám đốc thì cần phân quyền hợp lý. Nguồn: câu gốc 345, mục ID 335 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0336",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 346] Kế hoạch kinh doanh được lập chi tiết nhưng nhanh chóng lỗi thời do thị trường biến động mạnh. Nguyên nhân chủ yếu xuất phát từ:",
+      "options": {
+        "A": "Thiếu nguồn lực tài chính",
+        "B": "Mục tiêu không rõ ràng",
+        "C": "Kế hoạch thiếu tính linh hoạt",
+        "D": "Dự báo sai hoàn toàn"
+      },
+      "correct_answer": "C",
+      "explanation": "Kế hoạch nhanh lỗi thời khi thị trường biến động mạnh là do thiếu tính linh hoạt. Nguồn: câu gốc 346, mục ID 336 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0337",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 347] Một doanh nghiệp phân tích SWOT và nhận thấy điểm yếu lớn nhất là đội ngũ nhân sự thiếu kỹ năng số. Giải pháp quản trị phù hợp nhất là:",
+      "options": {
+        "A": "Cắt giảm nhân sự",
+        "B": "Đầu tư đào tạo và phát triển",
+        "C": "Thuê ngoài toàn bộ hoạt động",
+        "D": "Giữ nguyên hiện trạng"
+      },
+      "correct_answer": "B",
+      "explanation": "Điểm yếu là thiếu kỹ năng số thì giải pháp phù hợp là đầu tư đào tạo và phát triển. Nguồn: câu gốc 347, mục ID 337 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0338",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 348] Khi lựa chọn phương án đầu tư trong điều kiện thiếu thông tin và rủi ro cao, nhà quản trị đang đối mặt với loại quyết định nào?",
+      "options": {
+        "A": "Quyết định có cấu trúc",
+        "B": "Quyết định thường nhật",
+        "C": "Quyết định trong điều kiện bất định",
+        "D": "Quyết định tác nghiệp"
+      },
+      "correct_answer": "C",
+      "explanation": "Thiếu thông tin và rủi ro cao là điều kiện ra quyết định bất định. Nguồn: câu gốc 348, mục ID 338 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0339",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 349] Một phòng ban làm việc kém hiệu quả do chức năng chồng chéo với phòng khác. Nguyên nhân quản trị chủ yếu là:",
+      "options": {
+        "A": "Thiếu động lực làm việc",
+        "B": "Cơ cấu tổ chức không rõ ràng",
+        "C": "Phong cách lãnh đạo chưa phù hợp",
+        "D": "Kiểm soát quá chặt chẽ"
+      },
+      "correct_answer": "B",
+      "explanation": "Chức năng chồng chéo giữa các phòng ban là do cơ cấu tổ chức không rõ ràng. Nguồn: câu gốc 349, mục ID 339 trong Pasted text.txt."
+    },
+    {
+      "id": "qth-0340",
+      "topic": "Ôn tập tổng hợp",
+      "difficulty": "medium",
+      "source_pages": [],
+      "question": "[Câu gốc 350] Khi nhà quản trị sử dụng dữ liệu doanh thu, chi phí, năng suất để điều chỉnh kế hoạch, họ đang thực hiện tốt vai trò nào của thông tin?",
+      "options": {
+        "A": "Truyền thông nội bộ",
+        "B": "Hỗ trợ ra quyết định",
+        "C": "Kiểm soát hành vi nhân viên",
+        "D": "Tạo quyền lực quản lý"
+      },
+      "correct_answer": "B",
+      "explanation": "Dùng dữ liệu doanh thu, chi phí, năng suất để điều chỉnh kế hoạch là dùng thông tin hỗ trợ ra quyết định. Nguồn: câu gốc 350, mục ID 340 trong Pasted text.txt."
+    }
+  ]
+}
