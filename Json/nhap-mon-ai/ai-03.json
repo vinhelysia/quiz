@@ -1,0 +1,373 @@
+{
+  "chapter_id": "ai-03",
+  "title": "Buổi 03 - Tìm kiếm heuristic và tìm kiếm đối kháng",
+  "source_file": "NhapMonAI_Buoi03_TimKiemHeuristic_TimKiemDoiKhang.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-03-001",
+      "topic": "Heuristic",
+      "difficulty": "easy",
+      "source_pages": [
+        12
+      ],
+      "question": "Trong tìm kiếm có thông tin, h(n) biểu diễn gì?",
+      "options": {
+        "A": "Chi phí thật đã đi từ đầu đến n",
+        "B": "Đáp án chắc chắn chính xác của bài toán",
+        "C": "Ước lượng chi phí còn lại từ n đến goal",
+        "D": "Tổng số node trong toàn bộ đồ thị"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chi phí thật đã đi từ đầu đến n» sai: Đó là g(n). «Đáp án chắc chắn chính xác của bài toán» sai: Heuristic là ước lượng, không phải lời giải chắc chắn. «Ước lượng chi phí còn lại từ n đến goal» đúng: Heuristic ước lượng phần đường còn lại. «Tổng số node trong toàn bộ đồ thị» sai: Không phải ý nghĩa của h(n). Nguồn: Buổi 03, trang PDF 12 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-002",
+      "topic": "Greedy Best-First",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Greedy Best-First Search chọn node tiếp theo theo tiêu chí nào?",
+      "options": {
+        "A": "h(n) nhỏ nhất trong frontier",
+        "B": "g(n)+h(n) nhỏ nhất",
+        "C": "g(n) nhỏ nhất",
+        "D": "Node được thêm vào đầu tiên"
+      },
+      "correct_answer": "A",
+      "explanation": "«h(n) nhỏ nhất trong frontier» đúng: Greedy chỉ ưu tiên ước lượng phần đường còn lại. «g(n)+h(n) nhỏ nhất» sai: Đây là A*. «g(n) nhỏ nhất» sai: Đây là UCS. «Node được thêm vào đầu tiên» sai: Đây là cơ chế FIFO của BFS. Nguồn: Buổi 03, trang PDF 18 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-003",
+      "topic": "So sánh Greedy và A*",
+      "difficulty": "medium",
+      "source_pages": [
+        18,
+        31
+      ],
+      "question": "Frontier có A:g=2,h=8 và B:g=7,h=1. Greedy và A* lần lượt chọn gì?",
+      "options": {
+        "A": "Cả hai chọn B",
+        "B": "Greedy chọn B, A* chọn A",
+        "C": "Greedy chọn A, A* chọn B",
+        "D": "Cả hai chọn A vì g(A) nhỏ nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "«Cả hai chọn B» đúng: Greedy: 1<8; A*: f(B)=8<f(A)=10. «Greedy chọn B, A* chọn A» sai: A* có f(B)=8 nhỏ hơn f(A)=10. «Greedy chọn A, A* chọn B» sai: Greedy nhìn h nên chọn B, không chọn A. «Cả hai chọn A vì g(A) nhỏ nhất» sai: Ưu tiên g đơn thuần là UCS. Nguồn: Buổi 03, trang PDF 18, 31 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-004",
+      "topic": "Bài tập Greedy",
+      "difficulty": "medium",
+      "source_pages": [
+        20,
+        23,
+        24
+      ],
+      "question": "Cho S-A:2, S-B:4, A-C:2, B-D:2, C-G:5, D-G:4; h(A)=6,h(B)=2,h(C)=4,h(D)=1,h(G)=0. Greedy từ S tìm đường nào?",
+      "options": {
+        "A": "S → A → D → G, cost 8",
+        "B": "S → B → D → G, cost 10",
+        "C": "S → A → C → G, cost 9",
+        "D": "S → B → D → G, cost 3"
+      },
+      "correct_answer": "B",
+      "explanation": "«S → A → D → G, cost 8» sai: Không có cạnh A-D trong dữ kiện. «S → B → D → G, cost 10» đúng: Greedy lần lượt ưu tiên h của B, D rồi G; cost=4+2+4. «S → A → C → G, cost 9» sai: Đây là đường rẻ hơn nhưng Greedy không ưu tiên A với h=6. «S → B → D → G, cost 3» sai: Đã cộng heuristic 2+1+0 thay vì chi phí cạnh thật. Nguồn: Buổi 03, trang PDF 20, 23, 24 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-005",
+      "topic": "Giới hạn Greedy",
+      "difficulty": "medium",
+      "source_pages": [
+        24
+      ],
+      "question": "Nếu heuristic admissible thì Greedy có chắc chắn tìm đường tối ưu không?",
+      "options": {
+        "A": "Có, vì Greedy cộng g và h",
+        "B": "Không, vì admissible luôn ước lượng quá cao",
+        "C": "Có, admissible bảo đảm tối ưu cho mọi thuật toán",
+        "D": "Không; Greedy vẫn có thể bỏ qua đường rẻ hơn vì không xét g"
+      },
+      "correct_answer": "D",
+      "explanation": "«Có, vì Greedy cộng g và h» sai: Greedy chỉ dùng h. «Không, vì admissible luôn ước lượng quá cao» sai: Admissible nghĩa là không ước lượng quá cao. «Có, admissible bảo đảm tối ưu cho mọi thuật toán» sai: Bảo đảm này không áp dụng chung cho Greedy. «Không; Greedy vẫn có thể bỏ qua đường rẻ hơn vì không xét g» đúng: Ví dụ của tài liệu có heuristic admissible nhưng Greedy cho cost 10 thay vì 9. Nguồn: Buổi 03, trang PDF 24 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-006",
+      "topic": "Tính f trong A*",
+      "difficulty": "medium",
+      "source_pages": [
+        31,
+        34
+      ],
+      "question": "A* có node N với g(N)=5 và h(N)=4. f(N) bằng bao nhiêu?",
+      "options": {
+        "A": "9",
+        "B": "4",
+        "C": "20",
+        "D": "1"
+      },
+      "correct_answer": "A",
+      "explanation": "«9» đúng: f=g+h=5+4=9. «4» sai: 4 chỉ là heuristic h. «20» sai: Đây là phép nhân, không phải phép cộng g+h. «1» sai: Đây là phép trừ 5-4, không phải công thức f. Nguồn: Buổi 03, trang PDF 31, 34 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-007",
+      "topic": "Chọn node A*",
+      "difficulty": "medium",
+      "source_pages": [
+        31,
+        34
+      ],
+      "question": "A có g=5,h=4; B có g=2,h=8. A* ưu tiên node nào?",
+      "options": {
+        "A": "A vì f(A)=9 nhỏ hơn f(B)=10",
+        "B": "Hai node bằng ưu tiên vì đều có g,h dương",
+        "C": "B vì g(B)=2 nhỏ hơn 5",
+        "D": "B vì h(B)=8 lớn hơn 4"
+      },
+      "correct_answer": "A",
+      "explanation": "«A vì f(A)=9 nhỏ hơn f(B)=10» đúng: A* so sánh tổng g+h. «Hai node bằng ưu tiên vì đều có g,h dương» sai: Các tổng 9 và 10 không bằng nhau. «B vì g(B)=2 nhỏ hơn 5» sai: Đây là cách nhìn UCS, bỏ qua h. «B vì h(B)=8 lớn hơn 4» sai: A* không ưu tiên heuristic lớn. Nguồn: Buổi 03, trang PDF 31, 34 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-008",
+      "topic": "A* và UCS",
+      "difficulty": "medium",
+      "source_pages": [
+        31
+      ],
+      "question": "Nếu h(n)=0 với mọi node thì tiêu chí ưu tiên của A* trở thành gì?",
+      "options": {
+        "A": "f(n)=0 với mọi node",
+        "B": "Chọn node có tên ngắn nhất",
+        "C": "Chọn node theo thứ tự FIFO bất kể trọng số",
+        "D": "f(n)=g(n), cùng tiêu chí với UCS"
+      },
+      "correct_answer": "D",
+      "explanation": "«f(n)=0 với mọi node» sai: g không nhất thiết bằng 0. «Chọn node có tên ngắn nhất» sai: Tên node không nằm trong công thức. «Chọn node theo thứ tự FIFO bất kể trọng số» sai: g vẫn quyết định thứ tự ưu tiên. «f(n)=g(n), cùng tiêu chí với UCS» đúng: Thay h=0 vào f=g+h. Nguồn: Buổi 03, trang PDF 31 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-009",
+      "topic": "Admissibility",
+      "difficulty": "medium",
+      "source_pages": [
+        44,
+        50,
+        51
+      ],
+      "question": "Chi phí tối ưu thật từ A đến G là 5. Giá trị h(A) nào chắc chắn vi phạm admissibility tại A?",
+      "options": {
+        "A": "0",
+        "B": "5",
+        "C": "7",
+        "D": "4"
+      },
+      "correct_answer": "C",
+      "explanation": "«0» sai: 0≤5 nên không vi phạm tại A. «5» sai: Bằng chi phí thật vẫn admissible tại A. «7» đúng: 7>5 nên ước lượng vượt chi phí tối ưu thật. «4» sai: 4≤5 nên không vi phạm tại A. Nguồn: Buổi 03, trang PDF 44, 50, 51 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-010",
+      "topic": "Consistency",
+      "difficulty": "medium",
+      "source_pages": [
+        45,
+        50,
+        51
+      ],
+      "question": "Với cạnh A→B cost 2, h(A)=5 và h(B)=3, kết luận nào chính xác?",
+      "options": {
+        "A": "Vi phạm vì 5 không nhỏ hơn 5",
+        "B": "Thỏa consistency trên cạnh đang xét vì 5≤2+3",
+        "C": "Vi phạm vì h(A) phải nhỏ hơn h(B)",
+        "D": "Chắc chắn mọi cạnh trong đồ thị đều consistent"
+      },
+      "correct_answer": "B",
+      "explanation": "«Vi phạm vì 5 không nhỏ hơn 5» sai: Consistency dùng ≤, có cho phép bằng. «Thỏa consistency trên cạnh đang xét vì 5≤2+3» đúng: Kiểm tra đúng bất đẳng thức của cạnh; chưa chứng minh toàn đồ thị. «Vi phạm vì h(A) phải nhỏ hơn h(B)» sai: h(A) có thể lớn hơn h(B) tối đa bằng cost cạnh. «Chắc chắn mọi cạnh trong đồ thị đều consistent» sai: Một cạnh không đủ chứng minh điều kiện cho toàn bộ đồ thị. Nguồn: Buổi 03, trang PDF 45, 50, 51 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-011",
+      "topic": "Điều kiện tối ưu A*",
+      "difficulty": "hard",
+      "source_pages": [
+        44,
+        45
+      ],
+      "question": "Với A* graph search không mở lại node, tài liệu nhấn mạnh điều kiện heuristic nào thường được dùng để bảo đảm tối ưu trong các điều kiện tìm kiếm tiêu chuẩn?",
+      "options": {
+        "A": "Heuristic bất kỳ miễn là tính nhanh",
+        "B": "Consistent heuristic, với h(goal)=0",
+        "C": "Heuristic luôn lớn hơn chi phí thật",
+        "D": "Chỉ cần h ở node đầu bằng 0"
+      },
+      "correct_answer": "B",
+      "explanation": "«Heuristic bất kỳ miễn là tính nhanh» sai: Tính nhanh không bảo đảm tính tối ưu. «Consistent heuristic, với h(goal)=0» đúng: Consistency là điều kiện thường dùng khi không reopen node. «Heuristic luôn lớn hơn chi phí thật» sai: Đánh giá quá cao có thể làm mất bảo đảm tối ưu. «Chỉ cần h ở node đầu bằng 0» sai: Một giá trị riêng lẻ không kiểm soát các cạnh còn lại. Nguồn: Buổi 03, trang PDF 44, 45 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-012",
+      "topic": "MAX và MIN",
+      "difficulty": "easy",
+      "source_pages": [
+        56,
+        60
+      ],
+      "question": "Trong Minimax cổ điển, MAX và MIN mong muốn điều gì với cùng giá trị utility của MAX?",
+      "options": {
+        "A": "Cả hai muốn lớn nhất",
+        "B": "MAX muốn nhỏ nhất, MIN muốn lớn nhất",
+        "C": "MIN luôn chọn ngẫu nhiên",
+        "D": "MAX muốn lớn nhất, MIN muốn nhỏ nhất"
+      },
+      "correct_answer": "D",
+      "explanation": "«Cả hai muốn lớn nhất» sai: MIN không tối đa hóa utility của MAX. «MAX muốn nhỏ nhất, MIN muốn lớn nhất» sai: Đã đảo vai trò. «MIN luôn chọn ngẫu nhiên» sai: Minimax giả định đối thủ đáp trả hợp lý. «MAX muốn lớn nhất, MIN muốn nhỏ nhất» đúng: Hai phía có lợi ích đối kháng trong mô hình này. Nguồn: Buổi 03, trang PDF 56, 60 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-013",
+      "topic": "Bài tập Minimax",
+      "difficulty": "medium",
+      "source_pages": [
+        60,
+        62,
+        66
+      ],
+      "question": "Gốc MAX có ba con MIN: A có lá (3,5), B có lá (2,9), C có lá (0,7). MAX chọn nhánh nào?",
+      "options": {
+        "A": "C vì có thể nhận 7",
+        "B": "A, với giá trị đảm bảo 3",
+        "C": "B, với giá trị đảm bảo 9",
+        "D": "B vì có lá 9 lớn nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "«C vì có thể nhận 7» sai: MIN ở C chọn 0. «A, với giá trị đảm bảo 3» đúng: Các MIN cho 3,2,0; MAX lấy max=3. «B, với giá trị đảm bảo 9» sai: 9 không được bảo đảm khi đối thủ chơi tối ưu. «B vì có lá 9 lớn nhất» sai: MIN ở B sẽ chọn 2 chứ không cho MAX nhận 9. Nguồn: Buổi 03, trang PDF 60, 62, 66 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-014",
+      "topic": "Lỗi chọn lá lớn nhất",
+      "difficulty": "medium",
+      "source_pages": [
+        60,
+        67
+      ],
+      "question": "Vì sao Minimax không chỉ chọn nhánh có lá lớn nhất trong cây?",
+      "options": {
+        "A": "Vì mọi lá luôn có cùng giá trị",
+        "B": "Vì MAX luôn được tự chọn mọi lượt",
+        "C": "Vì Minimax không sử dụng giá trị lá",
+        "D": "Đối thủ điều khiển các node MIN và có thể buộc MAX nhận giá trị thấp hơn"
+      },
+      "correct_answer": "D",
+      "explanation": "«Vì mọi lá luôn có cùng giá trị» sai: Dữ liệu lá có thể khác nhau. «Vì MAX luôn được tự chọn mọi lượt» sai: Mô hình có hai phía luân phiên quyết định. «Vì Minimax không sử dụng giá trị lá» sai: Giá trị được truyền từ lá lên gốc. «Đối thủ điều khiển các node MIN và có thể buộc MAX nhận giá trị thấp hơn» đúng: MAX phải xét phản ứng bất lợi nhất của MIN. Nguồn: Buổi 03, trang PDF 60, 67 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-015",
+      "topic": "Phạm vi Minimax",
+      "difficulty": "easy",
+      "source_pages": [
+        60,
+        68
+      ],
+      "question": "Tình huống nào phù hợp với Minimax cổ điển trong tài liệu?",
+      "options": {
+        "A": "Mọi hệ thống dự báo thời tiết",
+        "B": "Phân cụm dữ liệu không có người chơi",
+        "C": "Trò chơi bắt buộc có xúc xắc và thông tin ẩn",
+        "D": "Trò chơi hai người, lượt luân phiên, xác định, thông tin đầy đủ, lợi ích đối kháng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Mọi hệ thống dự báo thời tiết» sai: Dự báo không mặc nhiên là trò chơi đối kháng hai người. «Phân cụm dữ liệu không có người chơi» sai: Đây là bài toán khác. «Trò chơi bắt buộc có xúc xắc và thông tin ẩn» sai: Các yếu tố này cần mở rộng ngoài mô hình cổ điển đang học. «Trò chơi hai người, lượt luân phiên, xác định, thông tin đầy đủ, lợi ích đối kháng» đúng: Đây là các giả định nêu trong bài. Nguồn: Buổi 03, trang PDF 60, 68 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-016",
+      "topic": "Giới hạn độ sâu",
+      "difficulty": "medium",
+      "source_pages": [
+        57,
+        69
+      ],
+      "question": "Khi cây trò chơi quá lớn và tìm kiếm dừng ở độ sâu giới hạn trước khi kết thúc ván, AI thường làm gì?",
+      "options": {
+        "A": "Dùng hàm đánh giá để ước lượng trạng thái tại điểm cắt",
+        "B": "Bỏ qua hoàn toàn vai trò MIN",
+        "C": "Coi mọi trạng thái chưa kết thúc là thắng chắc",
+        "D": "Bảo đảm biết chính xác kết quả ván cờ bằng mọi ước lượng"
+      },
+      "correct_answer": "A",
+      "explanation": "«Dùng hàm đánh giá để ước lượng trạng thái tại điểm cắt» đúng: Không thể duyệt hết thì cần đánh giá trạng thái trung gian. «Bỏ qua hoàn toàn vai trò MIN» sai: Vai trò đối thủ vẫn cần được xét. «Coi mọi trạng thái chưa kết thúc là thắng chắc» sai: Chưa kết thúc không có nghĩa thắng. «Bảo đảm biết chính xác kết quả ván cờ bằng mọi ước lượng» sai: Hàm đánh giá không bảo đảm chính xác như trạng thái kết thúc. Nguồn: Buổi 03, trang PDF 57, 69 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-017",
+      "topic": "Alpha-Beta pruning",
+      "difficulty": "medium",
+      "source_pages": [
+        74,
+        75
+      ],
+      "question": "Gốc MAX đã có α=3. Tại nhánh B là MIN, lá đầu tiên cho giá trị 2. Có thể làm gì với các lá còn lại của B?",
+      "options": {
+        "A": "Phải chọn B vì 2 nhỏ hơn 3",
+        "B": "Cắt tỉa vì giá trị B≤2 nên không thể tốt hơn lựa chọn 3 của MAX",
+        "C": "Cắt vì h(B)=2",
+        "D": "Tăng α lên 5 vì 3+2=5"
+      },
+      "correct_answer": "B",
+      "explanation": "«Phải chọn B vì 2 nhỏ hơn 3» sai: MAX muốn lớn hơn, không muốn nhỏ hơn. «Cắt tỉa vì giá trị B≤2 nên không thể tốt hơn lựa chọn 3 của MAX» đúng: β=2≤α=3, phần còn lại không thay đổi lựa chọn tốt nhất. «Cắt vì h(B)=2» sai: 2 ở đây là utility lá, không phải heuristic tìm đường. «Tăng α lên 5 vì 3+2=5» sai: Alpha không được cập nhật bằng phép cộng hai utility này. Nguồn: Buổi 03, trang PDF 74, 75 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-018",
+      "topic": "Tính đúng Alpha-Beta",
+      "difficulty": "easy",
+      "source_pages": [
+        74,
+        78
+      ],
+      "question": "Alpha-Beta pruning áp dụng đúng có tác động nào đến giá trị Minimax?",
+      "options": {
+        "A": "Luôn đổi giá trị để tăng cơ hội thắng",
+        "B": "Chọn nhánh bằng phỏng đoán không có căn cứ",
+        "C": "Giữ nguyên giá trị Minimax và có thể giảm số node cần xét",
+        "D": "Là cùng một thuật toán với Greedy theo h"
+      },
+      "correct_answer": "C",
+      "explanation": "«Luôn đổi giá trị để tăng cơ hội thắng» sai: Cắt tỉa không sửa utility hay kết quả Minimax. «Chọn nhánh bằng phỏng đoán không có căn cứ» sai: Nó dựa trên các cận alpha, beta. «Giữ nguyên giá trị Minimax và có thể giảm số node cần xét» đúng: Chỉ bỏ những phần không ảnh hưởng quyết định cuối. «Là cùng một thuật toán với Greedy theo h» sai: Alpha-Beta là kỹ thuật cắt tỉa Minimax. Nguồn: Buổi 03, trang PDF 74, 78 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-019",
+      "topic": "Thứ tự xét Alpha-Beta",
+      "difficulty": "medium",
+      "source_pages": [
+        79
+      ],
+      "question": "Thứ tự xét nước đi ảnh hưởng gì đến Alpha-Beta?",
+      "options": {
+        "A": "Luôn làm sai kết quả khi xét nước xấu trước",
+        "B": "Không bao giờ ảnh hưởng số node được xét",
+        "C": "Ảnh hưởng số nhánh được cắt; giá trị Minimax vẫn giữ nguyên nếu thực hiện đúng",
+        "D": "Biến MIN thành MAX nếu đổi thứ tự"
+      },
+      "correct_answer": "C",
+      "explanation": "«Luôn làm sai kết quả khi xét nước xấu trước» sai: Thứ tự kém có thể chậm hơn nhưng không làm sai thuật toán đúng. «Không bao giờ ảnh hưởng số node được xét» sai: Hiệu quả cắt tỉa phụ thuộc thứ tự. «Ảnh hưởng số nhánh được cắt; giá trị Minimax vẫn giữ nguyên nếu thực hiện đúng» đúng: Xét nước tốt trước thường tạo cận hữu ích hơn. «Biến MIN thành MAX nếu đổi thứ tự» sai: Vai trò node do lượt chơi quy định. Nguồn: Buổi 03, trang PDF 79 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-03-020",
+      "topic": "Bài tập truyền giá trị Minimax",
+      "difficulty": "hard",
+      "source_pages": [
+        60
+      ],
+      "question": "Gốc MAX có hai con MIN. Con trái có hai con MAX với lá (1,6) và (4,5). Con phải có hai con MAX với lá (2,3) và (7,8). Giá trị gốc là bao nhiêu?",
+      "options": {
+        "A": "3",
+        "B": "8",
+        "C": "5",
+        "D": "1"
+      },
+      "correct_answer": "C",
+      "explanation": "«3» sai: 3 là giá trị nhánh phải; MAX còn chọn được nhánh trái giá trị 5. «8» sai: 8 là lá lớn nhất, nhưng MIN nhánh phải chọn 3. «5» đúng: Các MAX tầng dưới cho 6,5,3,8; hai MIN cho 5 và 3; gốc lấy 5. «1» sai: 1 là lá nhỏ nhất, không phải kết quả truyền giá trị đúng lượt. Nguồn: Buổi 03, trang PDF 60 (đếm từ trang đầu file)."
+    }
+  ]
+}

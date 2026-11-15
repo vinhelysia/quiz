@@ -28,6 +28,13 @@ export const SUBJECTS: SubjectMeta[] = [
     description: 'Tổng quan CSDL, ER, mô hình quan hệ, đại số quan hệ, SQL, ràng buộc toàn vẹn, phụ thuộc hàm và chuẩn hóa.',
     order: 3,
   },
+  {
+    id: 'nhap-mon-ai',
+    title: 'Nhập môn Trí tuệ nhân tạo',
+    short: 'AI',
+    description: '200 câu theo 10 buổi: tác tử, tìm kiếm, CSP, logic, Bayes, MDP/RL, Machine Learning, Neural Networks và AI có trách nhiệm.',
+    order: 4,
+  },
 ];
 
 export function getSubjectMeta(id: string): SubjectMeta {

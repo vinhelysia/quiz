@@ -1,0 +1,383 @@
+{
+  "chapter_id": "ai-06",
+  "title": "Buổi 06 - Bất định và suy luận xác suất",
+  "source_file": "NhapMonAI_Buoi06_BatDinh_SuyLuanXacSuat.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-06-001",
+      "topic": "Bất định, belief và evidence",
+      "difficulty": "easy",
+      "source_pages": [
+        13,
+        14,
+        15
+      ],
+      "question": "Một camera nhận ảnh mờ, sau đó nhận thêm phép đo khoảng cách để cập nhật belief. Phép đo mới đóng vai trò gì?",
+      "options": {
+        "A": "Evidence",
+        "B": "Một luật logic luôn đúng",
+        "C": "Posterior đã biết chắc đúng tuyệt đối",
+        "D": "Goal test của BFS"
+      },
+      "correct_answer": "A",
+      "explanation": "«Evidence» đúng: Đó là quan sát mới dùng để cập nhật mức tin tưởng. «Một luật logic luôn đúng» sai: Phép đo có thể có nhiễu, không mặc nhiên là luật chắc chắn. «Posterior đã biết chắc đúng tuyệt đối» sai: Posterior là belief sau cập nhật, không phải tên của dữ kiện mới. «Goal test của BFS» sai: Không có quá trình tìm đường BFS trong tình huống. Nguồn: Buổi 06, trang PDF 13, 14, 15 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-002",
+      "topic": "Xác suất bù",
+      "difficulty": "easy",
+      "source_pages": [
+        22
+      ],
+      "question": "Nếu P(Rain)=0,7 thì P(not Rain) bằng bao nhiêu?",
+      "options": {
+        "A": "−0,3",
+        "B": "0,3",
+        "C": "1,7",
+        "D": "0,7"
+      },
+      "correct_answer": "B",
+      "explanation": "«−0,3» sai: Xác suất không âm. «0,3» đúng: Xác suất bù bằng 1−0,7=0,3. «1,7» sai: Xác suất không thể vượt 1. «0,7» sai: Đây là xác suất Rain đã cho. Nguồn: Buổi 06, trang PDF 22 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-003",
+      "topic": "Joint và marginal",
+      "difficulty": "easy",
+      "source_pages": [
+        24,
+        25
+      ],
+      "question": "P(Rain và WetRoad) là loại xác suất nào?",
+      "options": {
+        "A": "Một xác suất có điều kiện P(Rain|WetRoad)",
+        "B": "Luôn bằng P(Rain)+P(WetRoad)",
+        "C": "Joint probability: mưa và đường ướt cùng xảy ra",
+        "D": "Chỉ marginal của Rain"
+      },
+      "correct_answer": "C",
+      "explanation": "«Một xác suất có điều kiện P(Rain|WetRoad)» sai: Joint và conditional là hai đại lượng khác nhau. «Luôn bằng P(Rain)+P(WetRoad)» sai: Tổng này không phải công thức xác suất đồng thời. «Joint probability: mưa và đường ướt cùng xảy ra» đúng: Có hai biến cố đồng thời. «Chỉ marginal của Rain» sai: Marginal không giữ điều kiện chi tiết về WetRoad. Nguồn: Buổi 06, trang PDF 24, 25 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-004",
+      "topic": "Bảng joint",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Bảng joint: P(R,W)=0,35; P(R,¬W)=0,05; P(¬R,W)=0,10; P(¬R,¬W)=0,50. P(R) bằng bao nhiêu?",
+      "options": {
+        "A": "0,60",
+        "B": "0,45",
+        "C": "0,35",
+        "D": "0,40"
+      },
+      "correct_answer": "D",
+      "explanation": "«0,60» sai: Đây là P(¬R)=0,10+0,50. «0,45» sai: Đây là P(W)=0,35+0,10. «0,35» sai: Chỉ tính R và W, bỏ R và không W. «0,40» đúng: Cộng hai trường hợp có R: 0,35+0,05. Nguồn: Buổi 06, trang PDF 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-005",
+      "topic": "Tính conditional",
+      "difficulty": "medium",
+      "source_pages": [
+        26,
+        30
+      ],
+      "question": "Với P(R,W)=0,35 và P(¬R,W)=0,10, P(R|W) xấp xỉ bao nhiêu?",
+      "options": {
+        "A": "0,45",
+        "B": "0,875",
+        "C": "0,35",
+        "D": "0,778"
+      },
+      "correct_answer": "D",
+      "explanation": "«0,45» sai: Đây là P(W), mẫu số. «0,875» sai: Kết quả này tương ứng 0,35/0,40 trong bảng đầy đủ, tức chiều điều kiện khác. «0,35» sai: Đây là joint, chưa chia cho xác suất điều kiện. «0,778» đúng: P(W)=0,45; 0,35/0,45≈0,778. Nguồn: Buổi 06, trang PDF 26, 30 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-006",
+      "topic": "Điều kiện có xác suất dương",
+      "difficulty": "easy",
+      "source_pages": [
+        29,
+        30
+      ],
+      "question": "Công thức P(A|B)=P(A và B)/P(B) yêu cầu điều kiện nào?",
+      "options": {
+        "A": "P(B)>0",
+        "B": "P(A)=P(B) trong mọi bài",
+        "C": "A và B phải độc lập",
+        "D": "P(B)=0"
+      },
+      "correct_answer": "A",
+      "explanation": "«P(B)>0» đúng: Không thể chia cho xác suất điều kiện bằng 0 trong công thức này. «P(A)=P(B) trong mọi bài» sai: Không cần hai xác suất bằng nhau. «A và B phải độc lập» sai: Xác suất có điều kiện vẫn tính được khi phụ thuộc. «P(B)=0» sai: Khi ấy phép chia không được xác định. Nguồn: Buổi 06, trang PDF 29, 30 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-007",
+      "topic": "Đảo chiều điều kiện",
+      "difficulty": "medium",
+      "source_pages": [
+        33,
+        40,
+        50
+      ],
+      "question": "Nhận định nào đúng về P(A|B) và P(B|A)?",
+      "options": {
+        "A": "Luôn có tích bằng 0",
+        "B": "Không thể coi là bằng nhau nếu không có thêm điều kiện",
+        "C": "Luôn bằng nhau do phép nhân giao hoán",
+        "D": "Luôn có tổng bằng 1"
+      },
+      "correct_answer": "B",
+      "explanation": "«Luôn có tích bằng 0» sai: Không có quy tắc chung như vậy. «Không thể coi là bằng nhau nếu không có thêm điều kiện» đúng: Hai chiều điều kiện thường khác nhau; Bayes liên hệ chúng. «Luôn bằng nhau do phép nhân giao hoán» sai: Mẫu số điều kiện khác nhau nên không suy ra bằng nhau. «Luôn có tổng bằng 1» sai: Chúng không phải hai biến cố bù. Nguồn: Buổi 06, trang PDF 33, 40, 50 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-008",
+      "topic": "Độc lập",
+      "difficulty": "medium",
+      "source_pages": [
+        35,
+        36,
+        75
+      ],
+      "question": "Biết P(A)=0,4 và P(A|B)=0,7 với P(B)>0. A và B có độc lập không?",
+      "options": {
+        "A": "Có vì cả hai xác suất đều nhỏ hơn 1",
+        "B": "Không thể kiểm tra dù đã có hai giá trị khác nhau",
+        "C": "Không, vì biết B làm thay đổi xác suất của A",
+        "D": "Có vì 0,4+0,7>1"
+      },
+      "correct_answer": "C",
+      "explanation": "«Có vì cả hai xác suất đều nhỏ hơn 1» sai: Điều này không phải tiêu chí độc lập. «Không thể kiểm tra dù đã có hai giá trị khác nhau» sai: Sự khác nhau đủ để bác bỏ độc lập. «Không, vì biết B làm thay đổi xác suất của A» đúng: Độc lập yêu cầu P(A|B)=P(A). «Có vì 0,4+0,7>1» sai: Tổng hai đại lượng này không quyết định độc lập. Nguồn: Buổi 06, trang PDF 35, 36, 75 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-009",
+      "topic": "Nhân xác suất",
+      "difficulty": "medium",
+      "source_pages": [
+        35,
+        36,
+        75
+      ],
+      "question": "Nếu A,B độc lập, P(A)=0,4 và P(B)=0,5 thì P(A và B) bằng bao nhiêu?",
+      "options": {
+        "A": "0,40",
+        "B": "0,20",
+        "C": "0,10",
+        "D": "0,90"
+      },
+      "correct_answer": "B",
+      "explanation": "«0,40» sai: Bỏ qua xác suất B. «0,20» đúng: Với giả thiết độc lập, nhân 0,4×0,5. «0,10» sai: Đây là hiệu 0,5−0,4, không phải joint. «0,90» sai: Đây là tổng, không phải joint. Nguồn: Buổi 06, trang PDF 35, 36, 75 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-010",
+      "topic": "Các thành phần Bayes",
+      "difficulty": "easy",
+      "source_pages": [
+        40,
+        41
+      ],
+      "question": "Trong P(A|B)=P(B|A)P(A)/P(B), cặp prior và posterior lần lượt là gì?",
+      "options": {
+        "A": "P(A|B) và P(A)",
+        "B": "P(B) và P(B|A)",
+        "C": "P(A) và P(A|B)",
+        "D": "P(B|A) và P(B)"
+      },
+      "correct_answer": "C",
+      "explanation": "«P(A|B) và P(A)» sai: Đã đảo thứ tự trước và sau cập nhật. «P(B) và P(B|A)» sai: Không phải cặp prior/posterior của giả thuyết A. «P(A) và P(A|B)» đúng: Prior trước evidence; posterior sau khi biết B. «P(B|A) và P(B)» sai: Đó là likelihood và xác suất evidence. Nguồn: Buổi 06, trang PDF 40, 41 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-011",
+      "topic": "Xác suất toàn phần",
+      "difficulty": "medium",
+      "source_pages": [
+        44,
+        47,
+        48
+      ],
+      "question": "Trong ví dụ giả định: P(D)=0,01, P(+|D)=0,95, P(+|¬D)=0,05. P(+) bằng bao nhiêu?",
+      "options": {
+        "A": "1,00",
+        "B": "0,0095",
+        "C": "0,95",
+        "D": "0,059"
+      },
+      "correct_answer": "D",
+      "explanation": "«1,00» sai: Đã cộng 0,95+0,05 mà không nhân các prior tương ứng. «0,0095» sai: Chỉ tính nhánh mắc D và dương tính, bỏ dương tính giả. «0,95» sai: Đây là P(+|D), không phải xác suất dương tính toàn nhóm. «0,059» đúng: 0,95×0,01+0,05×0,99=0,0095+0,0495. Nguồn: Buổi 06, trang PDF 44, 47, 48 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-012",
+      "topic": "Bayes và base rate",
+      "difficulty": "hard",
+      "source_pages": [
+        44,
+        49,
+        50
+      ],
+      "question": "Cùng ví dụ giả định P(D)=0,01; P(+|D)=0,95; P(+|¬D)=0,05. Một mẫu dương tính có P(D|+) xấp xỉ bao nhiêu?",
+      "options": {
+        "A": "95%",
+        "B": "1%",
+        "C": "100%",
+        "D": "16,1%"
+      },
+      "correct_answer": "D",
+      "explanation": "«95%» sai: Đây là nhầm P(+|D) với P(D|+). «1%» sai: Đây là prior, chưa cập nhật evidence dương tính. «100%» sai: Dương tính không bảo đảm mắc D trong mô hình. «16,1%» đúng: P(D|+)=0,0095/0,059≈0,161; cần tính cả dương tính giả. Nguồn: Buổi 06, trang PDF 44, 49, 50 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-013",
+      "topic": "Base rate",
+      "difficulty": "medium",
+      "source_pages": [
+        50,
+        51,
+        52
+      ],
+      "question": "Vì sao ở ví dụ bệnh hiếm, dương tính giả có thể nhiều hơn dương tính thật dù tỷ lệ dương tính giả chỉ 5%?",
+      "options": {
+        "A": "Nhóm không mắc bệnh lớn hơn rất nhiều nên 5% của nhóm này vẫn đông",
+        "B": "Vì prior không bao giờ ảnh hưởng posterior",
+        "C": "Vì xác suất dương tính giả là 100%",
+        "D": "Vì độ nhạy 95% thực chất là 5%"
+      },
+      "correct_answer": "A",
+      "explanation": "«Nhóm không mắc bệnh lớn hơn rất nhiều nên 5% của nhóm này vẫn đông» đúng: 10.000 người cho khoảng 495 dương giả so với 95 dương thật. «Vì prior không bao giờ ảnh hưởng posterior» sai: Prior là thành phần quan trọng của Bayes. «Vì xác suất dương tính giả là 100%» sai: Tỷ lệ đề cho là 5%. «Vì độ nhạy 95% thực chất là 5%» sai: Hai đại lượng không thể hoán đổi như vậy. Nguồn: Buổi 06, trang PDF 50, 51, 52 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-014",
+      "topic": "Bayes email spam",
+      "difficulty": "medium",
+      "source_pages": [
+        54,
+        55
+      ],
+      "question": "Cho P(S)=0,20; P(W|S)=0,60; P(W|¬S)=0,05. Xác suất email có từ W là bao nhiêu?",
+      "options": {
+        "A": "0,12",
+        "B": "0,16",
+        "C": "0,20",
+        "D": "0,65"
+      },
+      "correct_answer": "B",
+      "explanation": "«0,12» sai: Bỏ nhánh email không spam vẫn chứa W. «0,16» đúng: 0,60×0,20+0,05×0,80=0,12+0,04=0,16. «0,20» sai: Đây là P(S), không phải P(W). «0,65» sai: Cộng likelihood mà chưa nhân prior. Nguồn: Buổi 06, trang PDF 54, 55 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-015",
+      "topic": "Posterior spam",
+      "difficulty": "medium",
+      "source_pages": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "question": "Với P(S)=0,20; P(W|S)=0,60; P(W|¬S)=0,05, sau khi thấy W, P(S|W) bằng bao nhiêu?",
+      "options": {
+        "A": "0,60",
+        "B": "1,00",
+        "C": "0,75",
+        "D": "0,20"
+      },
+      "correct_answer": "C",
+      "explanation": "«0,60» sai: Đây là likelihood P(W|S). «1,00» sai: Có W không loại trừ email không spam. «0,75» đúng: Tử số 0,12; evidence 0,16; posterior=0,12/0,16. «0,20» sai: Đây là prior P(S). Nguồn: Buổi 06, trang PDF 54, 55, 56, 57 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-016",
+      "topic": "Bayesian Network",
+      "difficulty": "easy",
+      "source_pages": [
+        61
+      ],
+      "question": "Cấu trúc đồ thị của Bayesian Network trong tài liệu là gì?",
+      "options": {
+        "A": "Đồ thị vô hướng bất kỳ",
+        "B": "Đồ thị có hướng bắt buộc có chu trình",
+        "C": "Đồ thị có hướng không chu trình (DAG)",
+        "D": "Chỉ một danh sách không có node hay cạnh"
+      },
+      "correct_answer": "C",
+      "explanation": "«Đồ thị vô hướng bất kỳ» sai: Không phải cấu trúc BN đang học. «Đồ thị có hướng bắt buộc có chu trình» sai: Bayesian Network yêu cầu không chu trình. «Đồ thị có hướng không chu trình (DAG)» đúng: Node biểu diễn biến và cạnh biểu diễn cấu trúc phụ thuộc có điều kiện. «Chỉ một danh sách không có node hay cạnh» sai: BN dùng mô hình đồ thị. Nguồn: Buổi 06, trang PDF 61 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-017",
+      "topic": "Ý nghĩa cạnh trong BN",
+      "difficulty": "medium",
+      "source_pages": [
+        62,
+        64,
+        76
+      ],
+      "question": "Mũi tên Rain→WetRoad trong BN có nghĩa nào chính xác nhất?",
+      "options": {
+        "A": "Luôn chứng minh quan hệ nhân quả trong thế giới thật",
+        "B": "WetRoad không thể là evidence để cập nhật Rain",
+        "C": "Mưa luôn chắc chắn làm mọi con đường ướt",
+        "D": "Phân phối WetRoad được mô hình hóa có điều kiện trên Rain"
+      },
+      "correct_answer": "D",
+      "explanation": "«Luôn chứng minh quan hệ nhân quả trong thế giới thật» sai: Diễn giải nhân quả cần giả định phù hợp, không tự động có. «WetRoad không thể là evidence để cập nhật Rain» sai: Suy luận có thể đi ngược chiều mũi tên. «Mưa luôn chắc chắn làm mọi con đường ướt» sai: Cạnh không phải luật tuyệt đối. «Phân phối WetRoad được mô hình hóa có điều kiện trên Rain» đúng: Cạnh thể hiện phụ thuộc trong mô hình; cần đọc cùng CPT. Nguồn: Buổi 06, trang PDF 62, 64, 76 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-018",
+      "topic": "CPT và evidence",
+      "difficulty": "medium",
+      "source_pages": [
+        62,
+        65,
+        66
+      ],
+      "question": "CPT cho P(W=true|R=true)=0,90 và P(W=true|R=false)=0,10. Nếu biết R=false, xác suất W=true là bao nhiêu?",
+      "options": {
+        "A": "0,10",
+        "B": "0,90",
+        "C": "Không dùng được CPT khi R đã quan sát",
+        "D": "0 vì cạnh Rain→WetRoad là luật chắc chắn"
+      },
+      "correct_answer": "A",
+      "explanation": "«0,10» đúng: Đọc hàng điều kiện R=false của CPT. «0,90» sai: Đây là hàng R=true. «Không dùng được CPT khi R đã quan sát» sai: CPT chính là bảng để lấy phân phối theo điều kiện đã biết. «0 vì cạnh Rain→WetRoad là luật chắc chắn» sai: CPT cho phép W=true dù R=false. Nguồn: Buổi 06, trang PDF 62, 65, 66 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-019",
+      "topic": "Phép cộng xác suất",
+      "difficulty": "medium",
+      "source_pages": [
+        75
+      ],
+      "question": "Khi nào có thể dùng trực tiếp P(A hoặc B)=P(A)+P(B) mà không trừ phần giao?",
+      "options": {
+        "A": "Khi A và B có thể cùng xảy ra với xác suất dương",
+        "B": "Khi A và B loại trừ nhau",
+        "C": "Trong mọi trường hợp",
+        "D": "Chỉ cần cả hai có tên khác nhau"
+      },
+      "correct_answer": "B",
+      "explanation": "«Khi A và B có thể cùng xảy ra với xác suất dương» sai: Khi ấy cần xử lý phần giao. «Khi A và B loại trừ nhau» đúng: Khi ấy không có phần giao để bị đếm hai lần. «Trong mọi trường hợp» sai: Tổng trực tiếp có thể đếm trùng. «Chỉ cần cả hai có tên khác nhau» sai: Tên khác không bảo đảm loại trừ nhau. Nguồn: Buổi 06, trang PDF 75 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-06-020",
+      "topic": "Bài tập Bayes cảnh báo",
+      "difficulty": "hard",
+      "source_pages": [
+        92,
+        94,
+        95
+      ],
+      "question": "P(Fault)=0,04; P(Alert|Fault)=0,90; P(Alert|¬Fault)=0,10. P(Fault|Alert) xấp xỉ bao nhiêu?",
+      "options": {
+        "A": "27,3%",
+        "B": "13,2%",
+        "C": "90%",
+        "D": "4%"
+      },
+      "correct_answer": "A",
+      "explanation": "«27,3%» đúng: P(Alert)=0,036+0,096=0,132; posterior=0,036/0,132≈0,273. «13,2%» sai: Đây là P(Alert), chưa chia tử số cho evidence. «90%» sai: Nhầm likelihood với posterior. «4%» sai: Đây là prior trước cảnh báo. Nguồn: Buổi 06, trang PDF 92, 94, 95 (đếm từ trang đầu file)."
+    }
+  ]
+}

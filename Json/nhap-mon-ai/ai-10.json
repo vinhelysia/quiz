@@ -1,0 +1,376 @@
+{
+  "chapter_id": "ai-10",
+  "title": "Buổi 10 - AI hiện đại và AI có trách nhiệm",
+  "source_file": "NhapMonAI_Buoi10_AI_HienDai_AI_CoTrachNhiem.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-10-001",
+      "topic": "Các lớp khái niệm AI",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        6
+      ],
+      "question": "Phát biểu nào đúng về AI, ML, DL và GenAI trong Buổi 10?",
+      "options": {
+        "A": "Mọi mô hình DL đều chỉ dùng để tạo văn bản",
+        "B": "AI rộng nhất; ML học từ dữ liệu; DL dùng mạng nhiều lớp; GenAI tập trung sinh nội dung",
+        "C": "ML luôn tách rời AI",
+        "D": "GenAI bao trùm mọi phương pháp AI từ tìm kiếm đến logic"
+      },
+      "correct_answer": "B",
+      "explanation": "«Mọi mô hình DL đều chỉ dùng để tạo văn bản» sai: DL còn dùng phân loại ảnh, nhận dạng tiếng nói và tác vụ khác. «AI rộng nhất; ML học từ dữ liệu; DL dùng mạng nhiều lớp; GenAI tập trung sinh nội dung» đúng: Đây là các khái niệm có liên hệ, không phải bốn nhóm loại trừ nhau. «ML luôn tách rời AI» sai: ML là một cách tiếp cận trong AI. «GenAI bao trùm mọi phương pháp AI từ tìm kiếm đến logic» sai: GenAI không đồng nghĩa toàn bộ AI. Nguồn: Buổi 10, trang PDF 5, 6 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-002",
+      "topic": "Foundation Model",
+      "difficulty": "easy",
+      "source_pages": [
+        7,
+        8
+      ],
+      "question": "Đặc điểm nào mô tả Foundation Model theo tài liệu?",
+      "options": {
+        "A": "Luôn biết mọi sự thật mới nhất mà không cần nguồn ngoài",
+        "B": "Huấn luyện quy mô lớn trên dữ liệu rộng, có thể dùng lại hoặc điều chỉnh cho nhiều nhiệm vụ",
+        "C": "Chỉ được thiết kế để xử lý duy nhất một bản ghi",
+        "D": "Không cần dữ liệu để huấn luyện"
+      },
+      "correct_answer": "B",
+      "explanation": "«Luôn biết mọi sự thật mới nhất mà không cần nguồn ngoài» sai: Mô hình không bảo đảm cập nhật hay đúng tuyệt đối. «Huấn luyện quy mô lớn trên dữ liệu rộng, có thể dùng lại hoặc điều chỉnh cho nhiều nhiệm vụ» đúng: Nó học các biểu diễn, mẫu tổng quát phục vụ nhiều ứng dụng. «Chỉ được thiết kế để xử lý duy nhất một bản ghi» sai: Không phù hợp định nghĩa dùng lại cho nhiều nhiệm vụ. «Không cần dữ liệu để huấn luyện» sai: Dữ liệu rộng là một phần của mô tả. Nguồn: Buổi 10, trang PDF 7, 8 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-003",
+      "topic": "Generative và discriminative",
+      "difficulty": "medium",
+      "source_pages": [
+        9,
+        10
+      ],
+      "question": "Phân biệt nào phù hợp với nội dung bài?",
+      "options": {
+        "A": "Discriminative model không nhận input",
+        "B": "Generative model chỉ có thể tạo ảnh, không dùng phân loại",
+        "C": "Hai khái niệm có nghĩa là mọi đầu ra đều nguyên bản",
+        "D": "Discriminative học quan hệ mục tiêu theo input; generative học phân phối sinh dữ liệu"
+      },
+      "correct_answer": "D",
+      "explanation": "«Discriminative model không nhận input» sai: Nó học quan hệ từ input đến mục tiêu. «Generative model chỉ có thể tạo ảnh, không dùng phân loại» sai: Bài nêu Naive Bayes là generative classifier. «Hai khái niệm có nghĩa là mọi đầu ra đều nguyên bản» sai: Tính nguyên bản không phải định nghĩa của hai nhóm. «Discriminative học quan hệ mục tiêu theo input; generative học phân phối sinh dữ liệu» đúng: Bài nêu p(y|x) hoặc ranh giới, so với p(x) hay p(x,y). Nguồn: Buổi 10, trang PDF 9, 10 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-004",
+      "topic": "LLM và token",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        12
+      ],
+      "question": "Với LLM tạo sinh tự hồi quy, câu trả lời được tạo theo cách nào ở mức nhập môn?",
+      "options": {
+        "A": "Dự đoán lần lượt token tiếp theo dựa trên ngữ cảnh",
+        "B": "Chọn cả câu từ một danh sách cố định duy nhất",
+        "C": "Luôn đọc một cơ sở dữ liệu sự thật đã cập nhật trước mỗi token",
+        "D": "Mỗi token bắt buộc bằng đúng một từ hoàn chỉnh"
+      },
+      "correct_answer": "A",
+      "explanation": "«Dự đoán lần lượt token tiếp theo dựa trên ngữ cảnh» đúng: Token có thể là từ, phần từ hoặc ký hiệu. «Chọn cả câu từ một danh sách cố định duy nhất» sai: Không phải cơ chế sinh tuần tự được mô tả. «Luôn đọc một cơ sở dữ liệu sự thật đã cập nhật trước mỗi token» sai: LLM không mặc định bảo đảm tra cứu nguồn ngoài. «Mỗi token bắt buộc bằng đúng một từ hoàn chỉnh» sai: Token có thể chỉ là phần từ hoặc ký hiệu. Nguồn: Buổi 10, trang PDF 11, 12 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-005",
+      "topic": "Trôi chảy và đúng",
+      "difficulty": "easy",
+      "source_pages": [
+        13,
+        22,
+        23
+      ],
+      "question": "Vì sao không thể xem câu trả lời rất tự tin, trôi chảy của LLM là bằng chứng đủ về độ đúng?",
+      "options": {
+        "A": "Vì mọi câu trôi chảy đều chắc chắn sai",
+        "B": "Khả năng sinh ngôn ngữ phù hợp không đồng nghĩa kiểm chứng dữ kiện và suy luận",
+        "C": "Vì câu dài tự động đáng tin hơn câu ngắn",
+        "D": "Vì confidence luôn là xác suất cả câu đúng"
+      },
+      "correct_answer": "B",
+      "explanation": "«Vì mọi câu trôi chảy đều chắc chắn sai» sai: Không có kết luận cực đoan này. «Khả năng sinh ngôn ngữ phù hợp không đồng nghĩa kiểm chứng dữ kiện và suy luận» đúng: Nội dung vẫn có thể bịa nguồn, thiếu điều kiện hoặc sai. «Vì câu dài tự động đáng tin hơn câu ngắn» sai: Độ dài không thay thế kiểm chứng. «Vì confidence luôn là xác suất cả câu đúng» sai: Tài liệu nói confidence không có bảo đảm đó. Nguồn: Buổi 10, trang PDF 13, 22, 23 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-006",
+      "topic": "Multimodal AI",
+      "difficulty": "easy",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Hệ thống đọc ảnh hóa đơn và trả lời câu hỏi bằng văn bản minh họa khái niệm nào?",
+      "options": {
+        "A": "CSP không có domain",
+        "B": "Minimax hai người chơi",
+        "C": "Chỉ xử lý một loại dữ liệu vì đầu ra là chữ",
+        "D": "Multimodal AI"
+      },
+      "correct_answer": "D",
+      "explanation": "«CSP không có domain» sai: Đây không phải mô tả CSP. «Minimax hai người chơi» sai: Không có trò chơi đối kháng trong tình huống. «Chỉ xử lý một loại dữ liệu vì đầu ra là chữ» sai: Đề có nhiều loại dữ liệu đầu vào. «Multimodal AI» đúng: Cần xử lý ít nhất ảnh và ngôn ngữ văn bản. Nguồn: Buổi 10, trang PDF 14, 15 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-007",
+      "topic": "AI Agent hiện đại",
+      "difficulty": "easy",
+      "source_pages": [
+        16,
+        17
+      ],
+      "question": "Vòng lặp khái niệm nào phù hợp với AI Agent hiện đại trong tài liệu?",
+      "options": {
+        "A": "Sinh một câu rồi không bao giờ đọc kết quả hành động",
+        "B": "Observe → Reason/Plan → Act → Feedback → Adjust",
+        "C": "Chỉ có thể trả lời văn bản, không gọi công cụ",
+        "D": "Luôn hành động trước khi nhận bất kỳ thông tin nào"
+      },
+      "correct_answer": "B",
+      "explanation": "«Sinh một câu rồi không bao giờ đọc kết quả hành động» sai: Thiếu vòng phản hồi và điều chỉnh. «Observe → Reason/Plan → Act → Feedback → Adjust» đúng: Agent dùng quan sát, công cụ hoặc hành động và phản hồi để tiến tới goal. «Chỉ có thể trả lời văn bản, không gọi công cụ» sai: Tài liệu nêu agent có thể dùng API, tìm kiếm và phần mềm ngoài. «Luôn hành động trước khi nhận bất kỳ thông tin nào» sai: Không phù hợp vòng lặp quan sát trước. Nguồn: Buổi 10, trang PDF 16, 17 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-008",
+      "topic": "AI có trách nhiệm",
+      "difficulty": "easy",
+      "source_pages": [
+        19,
+        20,
+        21
+      ],
+      "question": "Một mô hình có accuracy cao trong thí nghiệm đã đủ điều kiện sử dụng mọi nơi chưa?",
+      "options": {
+        "A": "Đủ, một metric cao thay thế mọi đánh giá khác",
+        "B": "Đủ, vì người dùng tự chịu mọi trách nhiệm",
+        "C": "Chưa, vì mọi hệ thống AI luôn bị cấm triển khai",
+        "D": "Chưa; cần xét an toàn, công bằng, riêng tư, minh bạch và giám sát theo ngữ cảnh"
+      },
+      "correct_answer": "D",
+      "explanation": "«Đủ, một metric cao thay thế mọi đánh giá khác» sai: Không kiểm soát các rủi ro khác. «Đủ, vì người dùng tự chịu mọi trách nhiệm» sai: Human oversight và trách nhiệm hệ thống vẫn quan trọng. «Chưa, vì mọi hệ thống AI luôn bị cấm triển khai» sai: Tài liệu không đưa kết luận cấm toàn bộ này. «Chưa; cần xét an toàn, công bằng, riêng tư, minh bạch và giám sát theo ngữ cảnh» đúng: Chất lượng kỹ thuật phải đi cùng đánh giá tác động khi sử dụng. Nguồn: Buổi 10, trang PDF 19, 20, 21 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-009",
+      "topic": "Hallucination và kiểm chứng",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        46,
+        47
+      ],
+      "question": "Chatbot đưa ngày '32/13/2025' cho một quy định. Cách xử lý nào đúng?",
+      "options": {
+        "A": "Xem là dấu hiệu lỗi, kiểm tra nguồn gốc, văn bản chính thức và bước truy xuất/tổng hợp",
+        "B": "Chắc chắn chỉ do hallucination, không cần kiểm tra nguồn",
+        "C": "Kết luận chắc chắn quy định có thật, chỉ ngày tháng không quan trọng",
+        "D": "Chấp nhận vì chatbot trả lời tự tin"
+      },
+      "correct_answer": "A",
+      "explanation": "«Xem là dấu hiệu lỗi, kiểm tra nguồn gốc, văn bản chính thức và bước truy xuất/tổng hợp» đúng: Có thể do hallucination hoặc lỗi dữ liệu, truy xuất; chưa đủ để quy hết một nguyên nhân. «Chắc chắn chỉ do hallucination, không cần kiểm tra nguồn» sai: Tài liệu liệt kê nhiều nguyên nhân có thể. «Kết luận chắc chắn quy định có thật, chỉ ngày tháng không quan trọng» sai: Sai ngày có thể kéo theo sai căn cứ tư vấn. «Chấp nhận vì chatbot trả lời tự tin» sai: Ngày không hợp lệ là dấu hiệu cần kiểm chứng. Nguồn: Buổi 10, trang PDF 22, 46, 47 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-010",
+      "topic": "Confidence",
+      "difficulty": "medium",
+      "source_pages": [
+        23
+      ],
+      "question": "Mô hình phân loại cho confidence 0,90 về lớp A. Kết luận nào chính xác?",
+      "options": {
+        "A": "Mẫu này chắc chắn thuộc A",
+        "B": "Mọi câu giải thích đi kèm chắc chắn đúng 90%",
+        "C": "Không thể sai trên dữ liệu khác phân phối",
+        "D": "Đó là tín hiệu của mô hình, vẫn cần đánh giá và hiệu chuẩn phù hợp"
+      },
+      "correct_answer": "D",
+      "explanation": "«Mẫu này chắc chắn thuộc A» sai: 0,90 không phải chứng minh chắc chắn. «Mọi câu giải thích đi kèm chắc chắn đúng 90%» sai: Confidence phân loại không áp cho toàn bộ văn bản giải thích. «Không thể sai trên dữ liệu khác phân phối» sai: Thay đổi dữ liệu còn có thể làm độ tin cậy giảm. «Đó là tín hiệu của mô hình, vẫn cần đánh giá và hiệu chuẩn phù hợp» đúng: Confidence cao không chứng minh từng dự đoán là đúng. Nguồn: Buổi 10, trang PDF 23 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-011",
+      "topic": "Bias và fairness",
+      "difficulty": "medium",
+      "source_pages": [
+        24,
+        25
+      ],
+      "question": "Mô hình tuyển dụng học từ dữ liệu lịch sử thiếu đại diện cho một nhóm. Nhận định nào phù hợp?",
+      "options": {
+        "A": "Có nguy cơ tái tạo thiên lệch; cần đánh giá theo nhóm và bối cảnh tác động",
+        "B": "Dữ liệu lịch sử luôn bảo đảm công bằng",
+        "C": "Mọi chênh lệch kết quả đều tự động chứng minh bất công",
+        "D": "Chỉ thuật toán mới có thể gây bias, dữ liệu thì không"
+      },
+      "correct_answer": "A",
+      "explanation": "«Có nguy cơ tái tạo thiên lệch; cần đánh giá theo nhóm và bối cảnh tác động» đúng: Nguồn bias có thể từ dữ liệu, nhãn, feature, mục tiêu hoặc triển khai. «Dữ liệu lịch sử luôn bảo đảm công bằng» sai: Lịch sử có thể đã mang thiên lệch. «Mọi chênh lệch kết quả đều tự động chứng minh bất công» sai: Cần phân tích mục tiêu và bối cảnh trước khi kết luận. «Chỉ thuật toán mới có thể gây bias, dữ liệu thì không» sai: Tài liệu nêu nhiều nguồn bias gồm dữ liệu. Nguồn: Buổi 10, trang PDF 24, 25 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-012",
+      "topic": "Fairness theo ngữ cảnh",
+      "difficulty": "medium",
+      "source_pages": [
+        25
+      ],
+      "question": "Vì sao fairness không chỉ được quyết định bằng một con số chung?",
+      "options": {
+        "A": "Vì accuracy toàn bộ luôn xác nhận fairness tuyệt đối",
+        "B": "Vì chỉ cần giấu tên nhóm là mọi thiên lệch biến mất",
+        "C": "Có nhiều tiêu chí công bằng; cần xét mục tiêu, bối cảnh và tác động lên các nhóm",
+        "D": "Vì không thể kiểm tra bất kỳ bất lợi nào"
+      },
+      "correct_answer": "C",
+      "explanation": "«Vì accuracy toàn bộ luôn xác nhận fairness tuyệt đối» sai: Accuracy có thể che giấu sai khác giữa nhóm. «Vì chỉ cần giấu tên nhóm là mọi thiên lệch biến mất» sai: Tài liệu không đưa bảo đảm này. «Có nhiều tiêu chí công bằng; cần xét mục tiêu, bối cảnh và tác động lên các nhóm» đúng: Tốt theo một tiêu chí chưa chắc tốt theo tiêu chí khác. «Vì không thể kiểm tra bất kỳ bất lợi nào» sai: Vẫn có thể và cần đánh giá bất lợi. Nguồn: Buổi 10, trang PDF 25 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-013",
+      "topic": "Privacy",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Muốn dùng công cụ AI trực tuyến để phân tích bảng điểm có dữ liệu định danh. Cách nào phù hợp nhất với tài liệu?",
+      "options": {
+        "A": "Chỉ xóa cột họ tên là chắc chắn không thể tái định danh",
+        "B": "Công khai bảng điểm để mọi người kiểm tra giúp",
+        "C": "Kiểm tra quyền sử dụng, chính sách và yêu cầu tổ chức; giảm thông tin nhận dạng khi phù hợp",
+        "D": "Upload toàn bộ ngay vì AI mạnh thì không có rủi ro riêng tư"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ xóa cột họ tên là chắc chắn không thể tái định danh» sai: Các chi tiết còn lại có thể kết hợp để nhận diện. «Công khai bảng điểm để mọi người kiểm tra giúp» sai: Không phù hợp bảo vệ thông tin cá nhân. «Kiểm tra quyền sử dụng, chính sách và yêu cầu tổ chức; giảm thông tin nhận dạng khi phù hợp» đúng: Cần bảo vệ dữ liệu và lưu ý khả năng tái định danh. «Upload toàn bộ ngay vì AI mạnh thì không có rủi ro riêng tư» sai: Năng lực mô hình không loại bỏ rủi ro dữ liệu. Nguồn: Buổi 10, trang PDF 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-014",
+      "topic": "Explainability",
+      "difficulty": "easy",
+      "source_pages": [
+        27
+      ],
+      "question": "Mục đích thiết thực của explainability là gì?",
+      "options": {
+        "A": "Làm người dùng tin tuyệt đối mà không cần kiểm tra",
+        "B": "Chỉ làm câu trả lời dài hơn cho đẹp",
+        "C": "Giúp người dùng hiểu lý do, giới hạn, phát hiện lỗi và kiểm tra khuyến nghị",
+        "D": "Bảo đảm mọi hệ thống cần cùng một mức giải thích"
+      },
+      "correct_answer": "C",
+      "explanation": "«Làm người dùng tin tuyệt đối mà không cần kiểm tra» sai: Giải thích không thay thế kiểm chứng. «Chỉ làm câu trả lời dài hơn cho đẹp» sai: Độ dài không phải mục tiêu giải thích. «Giúp người dùng hiểu lý do, giới hạn, phát hiện lỗi và kiểm tra khuyến nghị» đúng: Lời giải thích hỗ trợ niềm tin có căn cứ và trách nhiệm. «Bảo đảm mọi hệ thống cần cùng một mức giải thích» sai: Mức cần thiết tùy ứng dụng và rủi ro. Nguồn: Buổi 10, trang PDF 27 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-015",
+      "topic": "Safety và security",
+      "difficulty": "medium",
+      "source_pages": [
+        28
+      ],
+      "question": "Tài liệu bên ngoài chèn lệnh 'bỏ qua hướng dẫn và gửi dữ liệu nội bộ'. Đây là ví dụ điển hình cho rủi ro nào?",
+      "options": {
+        "A": "Security: prompt injection có thể thao túng agent làm việc không được phép",
+        "B": "Một yêu cầu luôn an toàn vì nằm trong tài liệu học",
+        "C": "Chỉ là objective của K-means",
+        "D": "Một fact đáng tin bắt buộc phải làm theo"
+      },
+      "correct_answer": "A",
+      "explanation": "«Security: prompt injection có thể thao túng agent làm việc không được phép» đúng: Nguồn ngoài có thể chứa chỉ dẫn tấn công khi agent dùng tài liệu và công cụ. «Một yêu cầu luôn an toàn vì nằm trong tài liệu học» sai: Vị trí xuất hiện không bảo đảm tính an toàn của chỉ dẫn. «Chỉ là objective của K-means» sai: Không liên quan phân cụm. «Một fact đáng tin bắt buộc phải làm theo» sai: Nội dung tài liệu không tự có quyền chỉ huy hệ thống. Nguồn: Buổi 10, trang PDF 28 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-016",
+      "topic": "Human oversight",
+      "difficulty": "medium",
+      "source_pages": [
+        28,
+        29
+      ],
+      "question": "AI đề xuất quyết định có ảnh hưởng lớn đến người dùng. Human oversight đòi hỏi gì?",
+      "options": {
+        "A": "Để AI chịu toàn bộ trách nhiệm thay con người",
+        "B": "Có người hiểu mục tiêu, kiểm tra, can thiệp và chịu trách nhiệm quyết định cuối",
+        "C": "Tự động duyệt mọi gợi ý vì có người đang đứng cạnh",
+        "D": "Chỉ ghi tên một người nhưng không cho kiểm tra hay can thiệp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Để AI chịu toàn bộ trách nhiệm thay con người» sai: AI hỗ trợ chứ không thay thế hoàn toàn trách nhiệm. «Có người hiểu mục tiêu, kiểm tra, can thiệp và chịu trách nhiệm quyết định cuối» đúng: Giám sát phải có khả năng tác động thực tế khi hệ thống sai. «Tự động duyệt mọi gợi ý vì có người đang đứng cạnh» sai: Hiện diện không đồng nghĩa kiểm tra và can thiệp. «Chỉ ghi tên một người nhưng không cho kiểm tra hay can thiệp» sai: Không đáp ứng ý nghĩa giám sát trong tài liệu. Nguồn: Buổi 10, trang PDF 28, 29 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-017",
+      "topic": "Đánh giá GenAI",
+      "difficulty": "medium",
+      "source_pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "question": "Đánh giá một bản tóm tắt do GenAI tạo nên làm theo cách nào?",
+      "options": {
+        "A": "Chỉ chấm văn phong trôi chảy",
+        "B": "Không thể đánh giá vì có nhiều đáp án",
+        "C": "Chỉ đếm số token và chọn bản dài nhất",
+        "D": "Kiểm tra đúng dữ kiện, nguồn, điều kiện quan trọng, ngữ cảnh và tính an toàn"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ chấm văn phong trôi chảy» sai: Trôi chảy không đủ đánh giá nội dung. «Không thể đánh giá vì có nhiều đáp án» sai: Có nhiều đáp án không có nghĩa mọi đáp án đều đúng. «Chỉ đếm số token và chọn bản dài nhất» sai: Độ dài không xác định chất lượng. «Kiểm tra đúng dữ kiện, nguồn, điều kiện quan trọng, ngữ cảnh và tính an toàn» đúng: Đầu ra tạo sinh có thể có nhiều cách viết chấp nhận được nhưng vẫn phải đúng căn cứ. Nguồn: Buổi 10, trang PDF 32, 33, 34, 35 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-018",
+      "topic": "Tình huống học vụ",
+      "difficulty": "medium",
+      "source_pages": [
+        36,
+        37
+      ],
+      "question": "AI dự đoán một sinh viên có nguy cơ không đạt 80%. Theo ví dụ trong tài liệu, cách dùng phù hợp là gì?",
+      "options": {
+        "A": "Tự động tước quyền dự thi chỉ dựa vào điểm dự đoán",
+        "B": "Không cần kiểm tra dữ liệu đại diện hoặc positive class",
+        "C": "Dùng như tín hiệu hỗ trợ tư vấn, bổ sung học liệu và theo dõi, có kiểm tra mô hình",
+        "D": "Kết luận sinh viên chắc chắn trượt"
+      },
+      "correct_answer": "C",
+      "explanation": "«Tự động tước quyền dự thi chỉ dựa vào điểm dự đoán» sai: Không phù hợp cách dùng hỗ trợ có giám sát được nêu. «Không cần kiểm tra dữ liệu đại diện hoặc positive class» sai: Cả hai đều là điểm tài liệu yêu cầu xem xét. «Dùng như tín hiệu hỗ trợ tư vấn, bổ sung học liệu và theo dõi, có kiểm tra mô hình» đúng: Không biến dự đoán nguy cơ thành kết luận chắc chắn hay nhãn kỳ thị. «Kết luận sinh viên chắc chắn trượt» sai: Nguy cơ 80% không phải sự kiện đã xảy ra. Nguồn: Buổi 10, trang PDF 36, 37 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-019",
+      "topic": "Kiểm tra tài liệu học tập",
+      "difficulty": "medium",
+      "source_pages": [
+        38,
+        39
+      ],
+      "question": "AI tóm tắt đúng phần lớn tài liệu nhưng bỏ điều kiện quan trọng trong kết luận. Nên làm gì?",
+      "options": {
+        "A": "Xóa đoạn gốc để tránh mâu thuẫn với bản tóm tắt",
+        "B": "Chỉ đổi font chữ là nội dung sẽ đúng",
+        "C": "Đối chiếu đoạn gốc, khôi phục điều kiện và các ngoại lệ trước khi dùng để học",
+        "D": "Giữ nguyên vì ngắn hơn luôn tốt hơn"
+      },
+      "correct_answer": "C",
+      "explanation": "«Xóa đoạn gốc để tránh mâu thuẫn với bản tóm tắt» sai: Cần dùng nguồn để kiểm chứng, không xóa căn cứ. «Chỉ đổi font chữ là nội dung sẽ đúng» sai: Định dạng không sửa được thiếu sót nội dung. «Đối chiếu đoạn gốc, khôi phục điều kiện và các ngoại lệ trước khi dùng để học» đúng: Tóm tắt không thay thế văn bản nguồn. «Giữ nguyên vì ngắn hơn luôn tốt hơn» sai: Ngắn nhưng mất điều kiện có thể làm sai kiến thức. Nguồn: Buổi 10, trang PDF 38, 39 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-10-020",
+      "topic": "Rủi ro theo bối cảnh",
+      "difficulty": "medium",
+      "source_pages": [
+        40,
+        48,
+        49
+      ],
+      "question": "So với AI gợi ý màu nền slide, AI tự động từ chối hồ sơ vay vốn cần được đánh giá thế nào theo ví dụ nhập môn?",
+      "options": {
+        "A": "Thường có rủi ro cao hơn vì ảnh hưởng quyền lợi; cần minh bạch, kiểm tra và giám sát",
+        "B": "Luôn rủi ro thấp hơn vì quyết định nhanh hơn",
+        "C": "Luôn rủi ro bằng nhau vì cùng dùng AI",
+        "D": "Có nhãn rủi ro cố định tuyệt đối cho mọi bối cảnh"
+      },
+      "correct_answer": "A",
+      "explanation": "«Thường có rủi ro cao hơn vì ảnh hưởng quyền lợi; cần minh bạch, kiểm tra và giám sát» đúng: Mức rủi ro vẫn phụ thuộc dữ liệu, bối cảnh và cách triển khai. «Luôn rủi ro thấp hơn vì quyết định nhanh hơn» sai: Tốc độ không giảm hệ quả của quyết định sai. «Luôn rủi ro bằng nhau vì cùng dùng AI» sai: Tác động và quyền quyết định khác nhau. «Có nhãn rủi ro cố định tuyệt đối cho mọi bối cảnh» sai: Tài liệu nhấn mạnh phân loại chỉ là gợi ý theo bối cảnh. Nguồn: Buổi 10, trang PDF 40, 48, 49 (đếm từ trang đầu file)."
+    }
+  ]
+}

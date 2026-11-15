@@ -1,0 +1,391 @@
+{
+  "chapter_id": "ai-08",
+  "title": "Buổi 08 - Machine Learning cơ bản",
+  "source_file": "NhapMonAI_Buoi08_MachineLearning_CoBan.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-08-001",
+      "topic": "Feature và label",
+      "difficulty": "easy",
+      "source_pages": [
+        8,
+        15,
+        16
+      ],
+      "question": "Dự đoán giá nhà từ diện tích và số phòng, dùng các mẫu đã biết giá bán. Label là gì?",
+      "options": {
+        "A": "Diện tích",
+        "B": "Tên thuật toán huấn luyện",
+        "C": "Số phòng",
+        "D": "Giá bán thực tế của nhà trong mẫu huấn luyện"
+      },
+      "correct_answer": "D",
+      "explanation": "«Diện tích» sai: Đây là feature đầu vào. «Tên thuật toán huấn luyện» sai: Thuật toán không phải đáp án đúng của từng mẫu. «Số phòng» sai: Đây cũng là feature. «Giá bán thực tế của nhà trong mẫu huấn luyện» đúng: Label là kết quả đúng mà mô hình học cách dự đoán. Nguồn: Buổi 08, trang PDF 8, 15, 16 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-002",
+      "topic": "Classification và regression",
+      "difficulty": "easy",
+      "source_pages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "question": "Dự đoán email spam/không spam và dự đoán giá nhà lần lượt là tác vụ nào?",
+      "options": {
+        "A": "Regression và classification",
+        "B": "Cả hai là tìm kiếm đối kháng",
+        "C": "Cả hai là clustering không nhãn",
+        "D": "Classification và regression"
+      },
+      "correct_answer": "D",
+      "explanation": "«Regression và classification» sai: Đã đảo hai loại đầu ra. «Cả hai là tìm kiếm đối kháng» sai: Không có trò chơi MAX/MIN trong tình huống. «Cả hai là clustering không nhãn» sai: Đề đã có nhãn hoặc giá trị đích để học. «Classification và regression» đúng: Spam là nhãn rời rạc; giá nhà là giá trị số. Nguồn: Buổi 08, trang PDF 28, 29, 30, 31 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-003",
+      "topic": "Clustering",
+      "difficulty": "easy",
+      "source_pages": [
+        28,
+        33,
+        35
+      ],
+      "question": "Cửa hàng muốn khám phá nhóm khách hàng từ hành vi mua, chưa có nhãn nhóm. Cách tiếp cận phù hợp nhất là gì?",
+      "options": {
+        "A": "Unsupervised learning, cụ thể là clustering",
+        "B": "Chỉ dùng supervised learning mà không cần label",
+        "C": "Minimax vì khách hàng là đối thủ MIN",
+        "D": "Classification vì mọi nhóm đã gán nhãn sẵn"
+      },
+      "correct_answer": "A",
+      "explanation": "«Unsupervised learning, cụ thể là clustering» đúng: Tìm nhóm khi chưa có nhãn đúng ban đầu. «Chỉ dùng supervised learning mà không cần label» sai: Supervised learning cần kết quả đích để học. «Minimax vì khách hàng là đối thủ MIN» sai: Không có mô hình trò chơi như vậy. «Classification vì mọi nhóm đã gán nhãn sẵn» sai: Đề nói chưa có nhãn nhóm. Nguồn: Buổi 08, trang PDF 28, 33, 35 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-004",
+      "topic": "Mã hóa categorical feature",
+      "difficulty": "medium",
+      "source_pages": [
+        25,
+        26
+      ],
+      "question": "Vì sao gán ngành CNTT=1, Kế toán=2, Logistics=3 có thể gây hiểu sai cho một số mô hình?",
+      "options": {
+        "A": "Vì mã hóa luôn biến feature thành label",
+        "B": "Có thể tạo ra quan hệ thứ tự và khoảng cách không có ý nghĩa giữa các ngành",
+        "C": "Vì máy tính không xử lý được số nguyên",
+        "D": "Vì mọi biến phân loại luôn có thứ tự tăng dần"
+      },
+      "correct_answer": "B",
+      "explanation": "«Vì mã hóa luôn biến feature thành label» sai: Vai trò feature/label do bài toán quyết định. «Có thể tạo ra quan hệ thứ tự và khoảng cách không có ý nghĩa giữa các ngành» đúng: Biểu diễn số có thể khiến mô hình đọc sai quan hệ dữ liệu. «Vì máy tính không xử lý được số nguyên» sai: Máy tính xử lý được số; vấn đề là ngữ nghĩa. «Vì mọi biến phân loại luôn có thứ tự tăng dần» sai: Ngành học không mặc nhiên có thứ tự như vậy. Nguồn: Buổi 08, trang PDF 25, 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-005",
+      "topic": "Train, validation, test",
+      "difficulty": "easy",
+      "source_pages": [
+        40,
+        42,
+        43
+      ],
+      "question": "Muốn thử k=1,3,5 cho k-NN và chọn k phù hợp, nên dùng tập nào cho bước chọn tham số?",
+      "options": {
+        "A": "Không cần dữ liệu, cứ k lớn nhất luôn tối ưu",
+        "B": "Test set rồi chỉnh k liên tục theo kết quả test",
+        "C": "Validation set",
+        "D": "Chỉ tên file dữ liệu"
+      },
+      "correct_answer": "C",
+      "explanation": "«Không cần dữ liệu, cứ k lớn nhất luôn tối ưu» sai: Không có quy tắc k lớn nhất luôn tốt nhất. «Test set rồi chỉnh k liên tục theo kết quả test» sai: Làm vậy không còn giữ test độc lập cho đánh giá cuối. «Validation set» đúng: Validation phục vụ lựa chọn mô hình hoặc tham số; test giữ cho đánh giá cuối. «Chỉ tên file dữ liệu» sai: Tên file không đánh giá được chất lượng mô hình. Nguồn: Buổi 08, trang PDF 40, 42, 43 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-006",
+      "topic": "Generalization",
+      "difficulty": "easy",
+      "source_pages": [
+        40,
+        41,
+        44
+      ],
+      "question": "Mô hình nhận diện tốt email mới chưa dùng để train thể hiện khả năng nào?",
+      "options": {
+        "A": "Generalization",
+        "B": "Không thể đánh giá vì chỉ dữ liệu train mới có ý nghĩa",
+        "C": "Data leakage bắt buộc",
+        "D": "Chỉ ghi nhớ training set"
+      },
+      "correct_answer": "A",
+      "explanation": "«Generalization» đúng: Đó là khả năng hoạt động tốt trên dữ liệu mới. «Không thể đánh giá vì chỉ dữ liệu train mới có ý nghĩa» sai: Dữ liệu giữ riêng rất quan trọng để đánh giá. «Data leakage bắt buộc» sai: Tốt trên dữ liệu mới không tự chứng minh leakage. «Chỉ ghi nhớ training set» sai: Ghi nhớ dữ liệu cũ chưa bảo đảm tốt trên mẫu mới. Nguồn: Buổi 08, trang PDF 40, 41, 44 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-007",
+      "topic": "Overfitting và underfitting",
+      "difficulty": "medium",
+      "source_pages": [
+        45,
+        46,
+        47
+      ],
+      "question": "Mô hình đạt 99% trên train nhưng chỉ 60% trên dữ liệu kiểm tra cùng phân phối; đây là dấu hiệu điển hình của gì?",
+      "options": {
+        "A": "Chắc chắn generalization rất tốt",
+        "B": "Underfitting vì train quá kém",
+        "C": "Bảo đảm không cần kiểm tra thêm",
+        "D": "Overfitting"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chắc chắn generalization rất tốt» sai: Khoảng cách train/test lớn cho thấy vấn đề khái quát. «Underfitting vì train quá kém» sai: Train 99% không phải dấu hiệu train kém. «Bảo đảm không cần kiểm tra thêm» sai: Cần xem lại dữ liệu và quá trình học, không thể bỏ đánh giá. «Overfitting» đúng: Mô hình học rất sát train nhưng khái quát kém. Nguồn: Buổi 08, trang PDF 45, 46, 47 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-008",
+      "topic": "Underfitting",
+      "difficulty": "medium",
+      "source_pages": [
+        46
+      ],
+      "question": "Mô hình quá đơn giản, dự đoán kém cả trên train lẫn dữ liệu mới. Hiện tượng phù hợp nhất là gì?",
+      "options": {
+        "A": "Generalization hoàn hảo",
+        "B": "Overfitting vì ghi nhớ hoàn hảo train",
+        "C": "Underfitting",
+        "D": "Validation set"
+      },
+      "correct_answer": "C",
+      "explanation": "«Generalization hoàn hảo» sai: Kết quả mới kém trái với nhận định này. «Overfitting vì ghi nhớ hoàn hảo train» sai: Đề không có biểu hiện ghi nhớ tốt train. «Underfitting» đúng: Mô hình chưa nắm được quan hệ quan trọng. «Validation set» sai: Đây là loại tập dữ liệu, không phải hiện tượng học. Nguồn: Buổi 08, trang PDF 46 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-009",
+      "topic": "Data leakage",
+      "difficulty": "medium",
+      "source_pages": [
+        48,
+        49
+      ],
+      "question": "Dự báo đạt môn trước kỳ thi nhưng dùng điểm thi cuối kỳ làm feature là lỗi gì?",
+      "options": {
+        "A": "Một feature luôn hợp lệ vì tương quan cao",
+        "B": "Data leakage",
+        "C": "Chỉ là đổi tên label không ảnh hưởng gì",
+        "D": "Chắc chắn giảm overfitting và làm đánh giá công bằng"
+      },
+      "correct_answer": "B",
+      "explanation": "«Một feature luôn hợp lệ vì tương quan cao» sai: Tương quan cao không khắc phục việc thông tin chưa tồn tại lúc dự báo. «Data leakage» đúng: Dùng thông tin chỉ có sau thời điểm cần dự báo tạo đánh giá giả tạo. «Chỉ là đổi tên label không ảnh hưởng gì» sai: Đưa thông tin đích vào input làm thay đổi ý nghĩa dự báo. «Chắc chắn giảm overfitting và làm đánh giá công bằng» sai: Leakage làm kết quả không còn đáng tin cho mục tiêu này. Nguồn: Buổi 08, trang PDF 48, 49 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-010",
+      "topic": "k-NN",
+      "difficulty": "medium",
+      "source_pages": [
+        51,
+        53
+      ],
+      "question": "Ba hàng xóm gần nhất của mẫu mới có nhãn Đạt, Không đạt, Đạt. k-NN classification với k=3 và bỏ phiếu đều dự đoán gì?",
+      "options": {
+        "A": "Đạt",
+        "B": "Không đạt",
+        "C": "Không xác định vì bắt buộc cả ba nhãn giống nhau",
+        "D": "Luôn lấy nhãn của mẫu được lưu đầu tiên"
+      },
+      "correct_answer": "A",
+      "explanation": "«Đạt» đúng: Đạt có 2/3 phiếu, là đa số. «Không đạt» sai: Không đạt chỉ có 1 phiếu. «Không xác định vì bắt buộc cả ba nhãn giống nhau» sai: Quy tắc là đa số, không phải nhất trí. «Luôn lấy nhãn của mẫu được lưu đầu tiên» sai: Không phải quy tắc đã cho. Nguồn: Buổi 08, trang PDF 51, 53 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-011",
+      "topic": "Bài tập khoảng cách k-NN",
+      "difficulty": "medium",
+      "source_pages": [
+        54,
+        55,
+        56
+      ],
+      "question": "Mẫu mới (6,8); A=(8,9), B=(7,8), C=(2,4), D=(3,5), E=(6,7). Dùng khoảng cách Euclid, ba hàng xóm gần nhất là ai?",
+      "options": {
+        "A": "A, C, D",
+        "B": "B, C, E",
+        "C": "C, D, A",
+        "D": "B, E, A"
+      },
+      "correct_answer": "D",
+      "explanation": "«A, C, D» sai: C và D xa hơn B, E. «B, C, E» sai: C xa hơn A. «C, D, A» sai: Hai điểm xa nhất bị chọn trong khi bỏ B, E. «B, E, A» đúng: Khoảng cách tương ứng 1,1,√5; C=√32,D=√18 lớn hơn. Nguồn: Buổi 08, trang PDF 54, 55, 56 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-012",
+      "topic": "Thang đo trong k-NN",
+      "difficulty": "medium",
+      "source_pages": [
+        57,
+        59
+      ],
+      "question": "Một feature có thang triệu đồng, feature khác chỉ từ 1 đến 10. Vì sao cần chú ý chuẩn hóa khi dùng k-NN?",
+      "options": {
+        "A": "Feature thang lớn có thể chi phối khoảng cách",
+        "B": "Vì phải biến mọi label thành một số giống nhau",
+        "C": "Chuẩn hóa bảo đảm accuracy 100%",
+        "D": "k-NN chỉ đọc tên cột, không dùng giá trị"
+      },
+      "correct_answer": "A",
+      "explanation": "«Feature thang lớn có thể chi phối khoảng cách» đúng: k-NN dựa vào khoảng cách nên thang đo ảnh hưởng trực tiếp. «Vì phải biến mọi label thành một số giống nhau» sai: Chuẩn hóa feature không phải xóa phân biệt label. «Chuẩn hóa bảo đảm accuracy 100%» sai: Chuẩn hóa không bảo đảm phân loại hoàn hảo. «k-NN chỉ đọc tên cột, không dùng giá trị» sai: Thuật toán tính khoảng cách từ feature. Nguồn: Buổi 08, trang PDF 57, 59 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-013",
+      "topic": "Đọc Decision Tree",
+      "difficulty": "medium",
+      "source_pages": [
+        62,
+        66,
+        109,
+        110
+      ],
+      "question": "Cây cho rule: nếu giờ học≥5 thì Đạt, ngược lại Không đạt. Sinh viên học 4 giờ/tuần nhận dự đoán nào?",
+      "options": {
+        "A": "Đạt vì 4 gần 5",
+        "B": "Không thể dự đoán nếu thiếu label của sinh viên",
+        "C": "Không đạt theo cây này",
+        "D": "Đạt vì mọi cây đều dự đoán Đạt"
+      },
+      "correct_answer": "C",
+      "explanation": "«Đạt vì 4 gần 5» sai: Cây dùng ngưỡng đã cho, không dùng khái niệm gần. «Không thể dự đoán nếu thiếu label của sinh viên» sai: Prediction dùng feature và mô hình, không cần biết label thật trước. «Không đạt theo cây này» đúng: 4 không thỏa ≥5 nên đi nhánh Không. «Đạt vì mọi cây đều dự đoán Đạt» sai: Nhãn do đường đi đến lá quyết định. Nguồn: Buổi 08, trang PDF 62, 66, 109, 110 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-014",
+      "topic": "Giới hạn Decision Tree",
+      "difficulty": "easy",
+      "source_pages": [
+        68,
+        69
+      ],
+      "question": "Cây quyết định quá sâu có rủi ro điển hình nào?",
+      "options": {
+        "A": "Không thể biểu diễn bất kỳ rule if–then nào",
+        "B": "Ghi nhớ chi tiết, nhiễu của train và overfitting",
+        "C": "Không thể thay đổi khi dữ liệu thay đổi",
+        "D": "Luôn bảo đảm tốt hơn mọi mô hình khác"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không thể biểu diễn bất kỳ rule if–then nào» sai: Cây lại là mô hình dễ giải thích bằng if–then. «Ghi nhớ chi tiết, nhiễu của train và overfitting» đúng: Điểm train cao có thể đi kèm test kém. «Không thể thay đổi khi dữ liệu thay đổi» sai: Decision Tree có thể nhạy với thay đổi dữ liệu. «Luôn bảo đảm tốt hơn mọi mô hình khác» sai: Tài liệu không đưa bảo đảm này. Nguồn: Buổi 08, trang PDF 68, 69 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-015",
+      "topic": "Bài tập K-means",
+      "difficulty": "medium",
+      "source_pages": [
+        71,
+        73,
+        74
+      ],
+      "question": "Dữ liệu 1,2,8,9; k=2; tâm đầu 1 và 9. Sau gán về tâm gần nhất rồi cập nhật trung bình, hai tâm mới là gì?",
+      "options": {
+        "A": "1,5 và 8,5",
+        "B": "2 và 8",
+        "C": "5 và 5",
+        "D": "1 và 9"
+      },
+      "correct_answer": "A",
+      "explanation": "«1,5 và 8,5» đúng: Hai cụm {1,2} và {8,9}; trung bình lần lượt 1,5 và 8,5. «2 và 8» sai: Không phải trung bình hai cụm đã gán. «5 và 5» sai: Đó là trung bình toàn bộ dữ liệu áp cho cả hai cụm. «1 và 9» sai: Đây là tâm trước cập nhật. Nguồn: Buổi 08, trang PDF 71, 73, 74 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-016",
+      "topic": "Diễn giải clustering",
+      "difficulty": "easy",
+      "source_pages": [
+        71,
+        76
+      ],
+      "question": "Phát biểu nào đúng về K-means trong tài liệu?",
+      "options": {
+        "A": "Luôn tự suy ra k tối ưu mà không có lựa chọn ban đầu",
+        "B": "Mọi cụm tìm được đều là sự thật tuyệt đối về khách hàng",
+        "C": "Chọn trước k, kết quả có thể nhạy với tâm ban đầu và cần con người diễn giải",
+        "D": "Bắt buộc có label đúng của từng điểm để gán cụm"
+      },
+      "correct_answer": "C",
+      "explanation": "«Luôn tự suy ra k tối ưu mà không có lựa chọn ban đầu» sai: Phiên bản học trong bài yêu cầu chọn k trước. «Mọi cụm tìm được đều là sự thật tuyệt đối về khách hàng» sai: Cụm cần được kiểm tra ý nghĩa thực tế. «Chọn trước k, kết quả có thể nhạy với tâm ban đầu và cần con người diễn giải» đúng: Đây là các giới hạn được nêu. «Bắt buộc có label đúng của từng điểm để gán cụm» sai: K-means là clustering không giám sát. Nguồn: Buổi 08, trang PDF 71, 76 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-017",
+      "topic": "Accuracy và mất cân bằng",
+      "difficulty": "medium",
+      "source_pages": [
+        80,
+        81
+      ],
+      "question": "Trong 1.000 email có 10 spam. Mô hình luôn dự đoán không spam. Nhận định nào đúng?",
+      "options": {
+        "A": "Chắc chắn là bộ lọc spam hữu ích chỉ vì accuracy cao",
+        "B": "Accuracy 99% nhưng bỏ sót toàn bộ spam",
+        "C": "Accuracy 100% vì lớp không spam đông hơn",
+        "D": "Recall spam bằng 100%"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chắc chắn là bộ lọc spam hữu ích chỉ vì accuracy cao» sai: Accuracy cao ở dữ liệu lệch lớp có thể gây hiểu nhầm. «Accuracy 99% nhưng bỏ sót toàn bộ spam» đúng: Đúng 990 email thường; không phát hiện 10 spam. «Accuracy 100% vì lớp không spam đông hơn» sai: Vẫn sai ở 10 email spam. «Recall spam bằng 100%» sai: TP=0,FN=10 nên recall=0%. Nguồn: Buổi 08, trang PDF 80, 81 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-018",
+      "topic": "Confusion matrix và accuracy",
+      "difficulty": "medium",
+      "source_pages": [
+        83,
+        84,
+        88
+      ],
+      "question": "Chọn Đạt là positive; TP=8,FN=2,FP=1,TN=9. Accuracy bằng bao nhiêu?",
+      "options": {
+        "A": "50%",
+        "B": "85%",
+        "C": "80%",
+        "D": "88,9%"
+      },
+      "correct_answer": "B",
+      "explanation": "«50%» sai: Không khớp số 17 dự đoán đúng trên 20 mẫu. «85%» đúng: (TP+TN)/tổng=(8+9)/20=85%. «80%» sai: Đây là recall 8/(8+2). «88,9%» sai: Đây là precision 8/(8+1). Nguồn: Buổi 08, trang PDF 83, 84, 88 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-019",
+      "topic": "Precision",
+      "difficulty": "medium",
+      "source_pages": [
+        83,
+        84,
+        85,
+        89
+      ],
+      "question": "Chọn Đạt là positive; TP=8,FN=2,FP=1,TN=9. Precision của lớp Đạt xấp xỉ bao nhiêu?",
+      "options": {
+        "A": "80%",
+        "B": "90%",
+        "C": "85%",
+        "D": "88,9%"
+      },
+      "correct_answer": "D",
+      "explanation": "«80%» sai: Đây là recall, dùng FN trong mẫu số. «90%» sai: Đây là recall của lớp Không đạt nếu đổi positive class, không phải precision Đạt. «85%» sai: Đây là accuracy trên toàn bộ mẫu. «88,9%» đúng: TP/(TP+FP)=8/9≈88,9%. Nguồn: Buổi 08, trang PDF 83, 84, 85, 89 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-08-020",
+      "topic": "Recall và positive class",
+      "difficulty": "medium",
+      "source_pages": [
+        83,
+        84,
+        86,
+        89,
+        90
+      ],
+      "question": "Chọn Đạt là positive; TP=8,FN=2,FP=1,TN=9. Recall của lớp Đạt và ý nghĩa của nó là gì?",
+      "options": {
+        "A": "88,9%; trong dự đoán Đạt có 8/9 đúng",
+        "B": "85%; đúng 17/20 mẫu toàn bộ",
+        "C": "80%; phát hiện 8 trong 10 trường hợp thực tế Đạt",
+        "D": "90%; phát hiện 9 trong 10 trường hợp Không đạt"
+      },
+      "correct_answer": "C",
+      "explanation": "«88,9%; trong dự đoán Đạt có 8/9 đúng» sai: Đó là precision, trả lời câu hỏi khác. «85%; đúng 17/20 mẫu toàn bộ» sai: Đó là accuracy. «80%; phát hiện 8 trong 10 trường hợp thực tế Đạt» đúng: Recall=TP/(TP+FN)=8/10. «90%; phát hiện 9 trong 10 trường hợp Không đạt» sai: Đó là recall khi chọn Không đạt làm positive. Nguồn: Buổi 08, trang PDF 83, 84, 86, 89, 90 (đếm từ trang đầu file)."
+    }
+  ]
+}

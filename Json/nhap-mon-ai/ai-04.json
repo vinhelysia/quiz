@@ -1,0 +1,372 @@
+{
+  "chapter_id": "ai-04",
+  "title": "Buổi 04 - Tối ưu hóa và CSP",
+  "source_file": "NhapMonAI_Buoi04_ToiUu_Va_CSP.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-04-001",
+      "topic": "Hàm mục tiêu",
+      "difficulty": "easy",
+      "source_pages": [
+        9,
+        12
+      ],
+      "question": "Đặt hàm mục tiêu là số cặp môn thi trùng ca dù có sinh viên học chung. Cần tối ưu theo hướng nào?",
+      "options": {
+        "A": "Chỉ tối đa hóa số biến được đặt tên",
+        "B": "Maximize số xung đột",
+        "C": "Minimize số xung đột",
+        "D": "Không cần xác định hướng tối ưu"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ tối đa hóa số biến được đặt tên» sai: Tên biến không đo chất lượng lịch thi. «Maximize số xung đột» sai: Tăng xung đột làm lịch kém hơn. «Minimize số xung đột» đúng: Ít xung đột là chất lượng tốt hơn với định nghĩa này. «Không cần xác định hướng tối ưu» sai: Phải biết càng lớn hay càng nhỏ là tốt. Nguồn: Buổi 04, trang PDF 9, 12 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-002",
+      "topic": "Ràng buộc và mục tiêu",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        94
+      ],
+      "question": "Phương án có điểm mục tiêu tốt nhất nhưng vi phạm ràng buộc cứng 'phòng tối đa 60 người' cần được xử lý thế nào?",
+      "options": {
+        "A": "Xóa ràng buộc mà không thay đổi yêu cầu",
+        "B": "Loại khỏi tập phương án hợp lệ",
+        "C": "Xem là complete nên chắc chắn là lời giải",
+        "D": "Luôn chọn vì objective tốt nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "«Xóa ràng buộc mà không thay đổi yêu cầu» sai: Làm vậy đổi bài toán đã cho. «Loại khỏi tập phương án hợp lệ» đúng: Điểm tốt không bù được vi phạm điều kiện bắt buộc. «Xem là complete nên chắc chắn là lời giải» sai: Gán đủ biến không bảo đảm thỏa ràng buộc. «Luôn chọn vì objective tốt nhất» sai: Tối ưu có ràng buộc cần xét tính hợp lệ trước. Nguồn: Buổi 04, trang PDF 14, 94 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-003",
+      "topic": "Local và global optimum",
+      "difficulty": "easy",
+      "source_pages": [
+        15,
+        35
+      ],
+      "question": "Local optimum khác global optimum thế nào?",
+      "options": {
+        "A": "Mọi local optimum đều là global optimum",
+        "B": "Tốt hơn các lân cận nhưng có thể chưa tốt nhất toàn không gian",
+        "C": "Global chỉ cần tốt hơn đúng một lân cận",
+        "D": "Local luôn tốt hơn global"
+      },
+      "correct_answer": "B",
+      "explanation": "«Mọi local optimum đều là global optimum» sai: Có thể tồn tại đỉnh cục bộ thấp hơn đỉnh khác. «Tốt hơn các lân cận nhưng có thể chưa tốt nhất toàn không gian» đúng: Local xét vùng lân cận; global xét toàn bộ lời giải. «Global chỉ cần tốt hơn đúng một lân cận» sai: Định nghĩa global yêu cầu so với toàn không gian. «Local luôn tốt hơn global» sai: Global là tốt nhất toàn không gian. Nguồn: Buổi 04, trang PDF 15, 35 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-004",
+      "topic": "Local Search",
+      "difficulty": "easy",
+      "source_pages": [
+        18,
+        20
+      ],
+      "question": "Phương án nào minh họa neighbor của một lịch thi?",
+      "options": {
+        "A": "Giá trị utility của trò chơi cờ",
+        "B": "Danh sách toàn bộ cảm biến của robot",
+        "C": "Một quy tắc logic không liên quan lịch",
+        "D": "Đổi ca của một môn trong lịch hiện tại"
+      },
+      "correct_answer": "D",
+      "explanation": "«Giá trị utility của trò chơi cờ» sai: Không phải phép thay đổi lịch được xét. «Danh sách toàn bộ cảm biến của robot» sai: Không phải lịch thi hay thay đổi lịch. «Một quy tắc logic không liên quan lịch» sai: Không mô tả neighbor của bài toán này. «Đổi ca của một môn trong lịch hiện tại» đúng: Đây là thay đổi nhỏ tạo lời giải lân cận. Nguồn: Buổi 04, trang PDF 18, 20 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-005",
+      "topic": "Hill Climbing",
+      "difficulty": "easy",
+      "source_pages": [
+        25,
+        26
+      ],
+      "question": "Phiên bản steepest-ascent Hill Climbing trong buổi học chọn bước tiếp như thế nào?",
+      "options": {
+        "A": "Bắt buộc duyệt toàn bộ cây đến mọi goal",
+        "B": "Luôn chọn node có h nhỏ nhất trong frontier toàn cục",
+        "C": "Luôn chọn lân cận tệ nhất",
+        "D": "Chọn lân cận tốt nhất nếu nó cải thiện lời giải hiện tại"
+      },
+      "correct_answer": "D",
+      "explanation": "«Bắt buộc duyệt toàn bộ cây đến mọi goal» sai: Local search không cần lưu và duyệt toàn cây như vậy. «Luôn chọn node có h nhỏ nhất trong frontier toàn cục» sai: Đây là cách nhìn Greedy tìm đường, không phải local search này. «Luôn chọn lân cận tệ nhất» sai: Không phải quy tắc của phiên bản đang học. «Chọn lân cận tốt nhất nếu nó cải thiện lời giải hiện tại» đúng: Tài liệu nêu rõ phiên bản xét lân cận và yêu cầu cải thiện. Nguồn: Buổi 04, trang PDF 25, 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-006",
+      "topic": "Bài tập Hill Climbing",
+      "difficulty": "medium",
+      "source_pages": [
+        96,
+        98
+      ],
+      "question": "Các điểm trên hàng A-B-C-D-E-F-G có giá trị 1,3,6,4,5,8,7; chỉ đi sang điểm kề nếu tăng điểm. Bắt đầu A sẽ dừng ở đâu?",
+      "options": {
+        "A": "C với điểm 6",
+        "B": "A với điểm 1",
+        "C": "F với điểm 8",
+        "D": "G với điểm 7"
+      },
+      "correct_answer": "A",
+      "explanation": "«C với điểm 6» đúng: A→B→C; hai lân cận B=3,D=4 đều thấp hơn 6. «A với điểm 1» sai: B=3 tốt hơn A nên chưa dừng ở A. «F với điểm 8» sai: Không thể vượt đoạn giảm C→D trong phiên bản chỉ nhận cải thiện. «G với điểm 7» sai: Thuật toán không đi xuyên qua các điểm thấp hơn để đến G. Nguồn: Buổi 04, trang PDF 96, 98 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-007",
+      "topic": "Điểm khởi đầu",
+      "difficulty": "medium",
+      "source_pages": [
+        96,
+        99
+      ],
+      "question": "Với hàng A-B-C-D-E-F-G có điểm 1,3,6,4,5,8,7, chỉ nhận bước tăng điểm. Bắt đầu E cho kết quả nào?",
+      "options": {
+        "A": "Dừng E vì không được đi sang phải",
+        "B": "E→F rồi dừng, tìm được global optimum của bảng này",
+        "C": "E→D→C rồi dừng",
+        "D": "E→F→G vì G nằm cuối hàng"
+      },
+      "correct_answer": "B",
+      "explanation": "«Dừng E vì không được đi sang phải» sai: Đề cho phép sang cả hai điểm kề. «E→F rồi dừng, tìm được global optimum của bảng này» đúng: F=8 tốt hơn E=5; các lân cận E=5,G=7 thấp hơn 8. «E→D→C rồi dừng» sai: Bước E=5 sang D=4 là giảm điểm, không được nhận. «E→F→G vì G nằm cuối hàng» sai: F→G giảm từ 8 xuống 7 nên không được nhận. Nguồn: Buổi 04, trang PDF 96, 99 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-008",
+      "topic": "Plateau",
+      "difficulty": "medium",
+      "source_pages": [
+        36,
+        40
+      ],
+      "question": "Các điểm B,C,D liên tiếp đều có điểm 5. Điều gì có thể giúp vượt plateau này?",
+      "options": {
+        "A": "Kết luận mọi plateau là global optimum",
+        "B": "Cho phép sideways vô hạn và bảo đảm không lặp",
+        "C": "Cho phép một số sideways move có giới hạn",
+        "D": "Yêu cầu mọi bước phải tăng nghiêm ngặt và chắc chắn sẽ qua"
+      },
+      "correct_answer": "C",
+      "explanation": "«Kết luận mọi plateau là global optimum» sai: Còn có thể có điểm cao hơn ngoài vùng này. «Cho phép sideways vô hạn và bảo đảm không lặp» sai: Sideways không giới hạn có thể gây đi vòng. «Cho phép một số sideways move có giới hạn» đúng: Bước bằng điểm có thể đi qua vùng bằng phẳng; giới hạn giúp tránh vòng lặp. «Yêu cầu mọi bước phải tăng nghiêm ngặt và chắc chắn sẽ qua» sai: Trên vùng bằng điểm không có bước tăng ngay. Nguồn: Buổi 04, trang PDF 36, 40 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-009",
+      "topic": "Random restart",
+      "difficulty": "easy",
+      "source_pages": [
+        39
+      ],
+      "question": "Random restart giúp Hill Climbing bằng cách nào?",
+      "options": {
+        "A": "Chỉ đổi tên điểm đầu mà giữ nguyên vị trí",
+        "B": "Xóa objective function",
+        "C": "Chạy lại từ nhiều điểm đầu để tăng cơ hội tới vùng lời giải tốt hơn",
+        "D": "Bảo đảm mọi lần chạy đều đạt global optimum"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ đổi tên điểm đầu mà giữ nguyên vị trí» sai: Phải thay đổi lời giải ban đầu thực tế. «Xóa objective function» sai: Thuật toán vẫn cần tiêu chí đánh giá. «Chạy lại từ nhiều điểm đầu để tăng cơ hội tới vùng lời giải tốt hơn» đúng: Các lần chạy có thể rơi vào những vùng hút khác nhau. «Bảo đảm mọi lần chạy đều đạt global optimum» sai: Tài liệu không đưa bảo đảm này. Nguồn: Buổi 04, trang PDF 39 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-010",
+      "topic": "Các phương pháp tối ưu",
+      "difficulty": "easy",
+      "source_pages": [
+        41,
+        42
+      ],
+      "question": "Mô tả nào đúng về Simulated Annealing ở mức nhập môn?",
+      "options": {
+        "A": "Đôi khi nhận bước tệ hơn để thoát local optimum, rồi giảm dần xác suất nhận",
+        "B": "Không bao giờ nhận bước tệ hơn",
+        "C": "Luôn dùng population, crossover và mutation",
+        "D": "Chỉ là BFS đổi tên"
+      },
+      "correct_answer": "A",
+      "explanation": "«Đôi khi nhận bước tệ hơn để thoát local optimum, rồi giảm dần xác suất nhận» đúng: Đây là ý tưởng được nêu trong tài liệu. «Không bao giờ nhận bước tệ hơn» sai: Như vậy mất điểm khác biệt được mô tả. «Luôn dùng population, crossover và mutation» sai: Đó là các khái niệm của Genetic Algorithm. «Chỉ là BFS đổi tên» sai: Simulated Annealing thuộc hướng local search tối ưu. Nguồn: Buổi 04, trang PDF 41, 42 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-011",
+      "topic": "Genetic Algorithm",
+      "difficulty": "easy",
+      "source_pages": [
+        42
+      ],
+      "question": "Cặp khái niệm nào thuộc Genetic Algorithm?",
+      "options": {
+        "A": "Prior và posterior",
+        "B": "Modus Ponens và bảng chân trị",
+        "C": "Population và crossover",
+        "D": "Queue FIFO và duyệt từng mức"
+      },
+      "correct_answer": "C",
+      "explanation": "«Prior và posterior» sai: Đây là các khái niệm xác suất Bayes. «Modus Ponens và bảng chân trị» sai: Đây là suy luận logic. «Population và crossover» đúng: GA dùng quần thể và phép kết hợp lời giải. «Queue FIFO và duyệt từng mức» sai: Đây là cơ chế BFS. Nguồn: Buổi 04, trang PDF 42 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-012",
+      "topic": "Mô hình CSP",
+      "difficulty": "easy",
+      "source_pages": [
+        45,
+        46
+      ],
+      "question": "Ba thành phần chính của CSP là gì?",
+      "options": {
+        "A": "Train, validation, test",
+        "B": "Variables, domains, constraints",
+        "C": "Sensors, actuators, performance",
+        "D": "Prior, likelihood, posterior"
+      },
+      "correct_answer": "B",
+      "explanation": "«Train, validation, test» sai: Đây là các tập dữ liệu học máy. «Variables, domains, constraints» đúng: Cần biết gán cho biến nào, giá trị nào được chọn và điều kiện phải thỏa. «Sensors, actuators, performance» sai: Đây là một phần khung PEAS. «Prior, likelihood, posterior» sai: Đây là các đại lượng trong Bayes. Nguồn: Buổi 04, trang PDF 45, 46 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-013",
+      "topic": "Complete và consistent",
+      "difficulty": "medium",
+      "source_pages": [
+        50,
+        51,
+        52
+      ],
+      "question": "CSP có X,Y∈{1,2}, ràng buộc X≠Y. Phép gán X=1,Y=1 được phân loại thế nào?",
+      "options": {
+        "A": "Consistent nhưng chưa complete",
+        "B": "Vừa complete vừa consistent",
+        "C": "Chưa complete và chưa thể kiểm tra constraint",
+        "D": "Complete nhưng không consistent"
+      },
+      "correct_answer": "D",
+      "explanation": "«Consistent nhưng chưa complete» sai: Đã gán đủ và có vi phạm, trái với nhận định này. «Vừa complete vừa consistent» sai: Giá trị bằng nhau vi phạm ràng buộc. «Chưa complete và chưa thể kiểm tra constraint» sai: Đã có đủ giá trị để kiểm tra trực tiếp. «Complete nhưng không consistent» đúng: Cả hai biến đã gán, nhưng vi phạm X≠Y. Nguồn: Buổi 04, trang PDF 50, 51, 52 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-014",
+      "topic": "Phép gán một phần",
+      "difficulty": "medium",
+      "source_pages": [
+        51,
+        52
+      ],
+      "question": "CSP có X,Y,Z∈{1,2,3}, chỉ yêu cầu các biến đôi một khác nhau. Phép gán X=1,Y=2, chưa gán Z có tính chất gì?",
+      "options": {
+        "A": "Complete nhưng không consistent",
+        "B": "Không consistent vì biến chưa gán tự động vi phạm",
+        "C": "Complete và consistent",
+        "D": "Consistent nhưng chưa complete"
+      },
+      "correct_answer": "D",
+      "explanation": "«Complete nhưng không consistent» sai: Cả hai phần của nhận định đều sai. «Không consistent vì biến chưa gán tự động vi phạm» sai: Chưa gán không tự tạo vi phạm khác nhau. «Complete và consistent» sai: Chưa gán Z nên không complete. «Consistent nhưng chưa complete» đúng: Chưa vi phạm trên các biến đã gán; Z vẫn thiếu giá trị. Nguồn: Buổi 04, trang PDF 51, 52 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-015",
+      "topic": "Backtracking",
+      "difficulty": "medium",
+      "source_pages": [
+        65,
+        68
+      ],
+      "question": "Với X,Y∈{1,2}, constraint X<Y, đã thử X=2 và mọi giá trị Y đều sai. Bước đúng là gì?",
+      "options": {
+        "A": "Kết luận toàn bộ CSP vô nghiệm ngay",
+        "B": "Quay lui, thử X=1 rồi Y=2",
+        "C": "Giữ X=2,Y=2 vì đã gán đủ",
+        "D": "Tự thêm 3 vào domain của Y"
+      },
+      "correct_answer": "B",
+      "explanation": "«Kết luận toàn bộ CSP vô nghiệm ngay» sai: Còn giá trị X=1 chưa được thử. «Quay lui, thử X=1 rồi Y=2» đúng: X=2 không có Y hợp lệ; thay X mở ra nghiệm (1,2). «Giữ X=2,Y=2 vì đã gán đủ» sai: 2<2 sai, complete chưa đủ. «Tự thêm 3 vào domain của Y» sai: Không được sửa domain của bài toán. Nguồn: Buổi 04, trang PDF 65, 68 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-016",
+      "topic": "MRV",
+      "difficulty": "medium",
+      "source_pages": [
+        78
+      ],
+      "question": "Sau các phép gán trước, X còn 3 giá trị hợp lệ, Y còn 1, Z còn 2. MRV chọn biến nào tiếp?",
+      "options": {
+        "A": "Y",
+        "B": "Z",
+        "C": "Biến có tên dài nhất",
+        "D": "X"
+      },
+      "correct_answer": "A",
+      "explanation": "«Y» đúng: MRV chọn biến có ít giá trị hợp lệ còn lại nhất. «Z» sai: 2 vẫn lớn hơn 1 của Y. «Biến có tên dài nhất» sai: Tên không phải tiêu chí MRV. «X» sai: Đây là biến có nhiều lựa chọn nhất, trái MRV. Nguồn: Buổi 04, trang PDF 78 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-017",
+      "topic": "Forward checking",
+      "difficulty": "medium",
+      "source_pages": [
+        79
+      ],
+      "question": "Với X≠Y, domain(Y)={1}, vừa gán X=1. Forward checking phát hiện gì?",
+      "options": {
+        "A": "Domain khả thi của Y rỗng; có thể quay lui ngay",
+        "B": "Cần bỏ qua constraint cho tới cuối",
+        "C": "Y chắc chắn có thể nhận 1",
+        "D": "CSP đã được giải xong"
+      },
+      "correct_answer": "A",
+      "explanation": "«Domain khả thi của Y rỗng; có thể quay lui ngay» đúng: Loại 1 khỏi Y thì không còn giá trị nào. «Cần bỏ qua constraint cho tới cuối» sai: Forward checking kiểm tra ảnh hưởng ngay sau phép gán. «Y chắc chắn có thể nhận 1» sai: 1 vi phạm X≠Y sau khi X=1. «CSP đã được giải xong» sai: Y chưa thể nhận giá trị hợp lệ. Nguồn: Buổi 04, trang PDF 79 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-018",
+      "topic": "LCV",
+      "difficulty": "medium",
+      "source_pages": [
+        81
+      ],
+      "question": "Gán X=1 làm các biến khác mất tổng cộng 4 lựa chọn; gán X=2 chỉ làm mất 1 lựa chọn. Theo LCV, ưu tiên giá trị nào?",
+      "options": {
+        "A": "X=1",
+        "B": "Chọn biến có domain nhỏ nhất thay vì giá trị",
+        "C": "X=2",
+        "D": "Luôn chọn số nhỏ hơn, không xét ảnh hưởng"
+      },
+      "correct_answer": "C",
+      "explanation": "«X=1» sai: Mất 4 lựa chọn gây hạn chế nhiều hơn mất 1. «Chọn biến có domain nhỏ nhất thay vì giá trị» sai: Đây là MRV, không trả lời bước chọn giá trị LCV. «X=2» đúng: Giá trị này ít hạn chế lựa chọn của các biến khác hơn. «Luôn chọn số nhỏ hơn, không xét ảnh hưởng» sai: LCV không sắp theo giá trị số. Nguồn: Buổi 04, trang PDF 81 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-019",
+      "topic": "CSP vô nghiệm",
+      "difficulty": "medium",
+      "source_pages": [
+        45,
+        107,
+        108
+      ],
+      "question": "Cho X,Y∈{1}, constraint X≠Y. Kết luận nào đúng?",
+      "options": {
+        "A": "Không có lời giải",
+        "B": "Có nghiệm X=2,Y=1",
+        "C": "Có nghiệm X=1,Y=2",
+        "D": "Có nghiệm X=1,Y=1"
+      },
+      "correct_answer": "A",
+      "explanation": "«Không có lời giải» đúng: Tổ hợp duy nhất X=1,Y=1 vi phạm ràng buộc. «Có nghiệm X=2,Y=1» sai: 2 không thuộc domain X. «Có nghiệm X=1,Y=2» sai: 2 không thuộc domain Y. «Có nghiệm X=1,Y=1» sai: Hai biến bằng nhau không thỏa X≠Y. Nguồn: Buổi 04, trang PDF 45, 107, 108 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-04-020",
+      "topic": "CSP kết hợp optimization",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        94
+      ],
+      "question": "Thiết kế lịch thi vừa cấm trùng ca cho môn có sinh viên học chung, vừa muốn giảm số ngày thi. Cách mô hình hóa nào đúng?",
+      "options": {
+        "A": "Chỉ giảm số ngày, cho phép vi phạm mọi constraint",
+        "B": "Chỉ kiểm tra tên môn, không cần ca thi",
+        "C": "CSP không bao giờ kết hợp được optimization",
+        "D": "Constraint kiểm soát trùng ca; objective tối thiểu số ngày trong các lịch hợp lệ"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chỉ giảm số ngày, cho phép vi phạm mọi constraint» sai: Bỏ yêu cầu cấm trùng ca của đề. «Chỉ kiểm tra tên môn, không cần ca thi» sai: Không đủ thông tin để xét lịch. «CSP không bao giờ kết hợp được optimization» sai: Tài liệu có ví dụ kết hợp trực tiếp. «Constraint kiểm soát trùng ca; objective tối thiểu số ngày trong các lịch hợp lệ» đúng: Kết hợp thỏa ràng buộc cứng với xếp hạng chất lượng. Nguồn: Buổi 04, trang PDF 14, 94 (đếm từ trang đầu file)."
+    }
+  ]
+}

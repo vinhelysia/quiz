@@ -1,0 +1,371 @@
+{
+  "chapter_id": "ai-05",
+  "title": "Buổi 05 - Biểu diễn tri thức và suy luận logic",
+  "source_file": "NhapMonAI_Buoi05_BieuDienTriThuc_SuyLuanLogic.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-05-001",
+      "topic": "Knowledge base",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        18,
+        19
+      ],
+      "question": "Knowledge base (KB) có thể chứa những gì?",
+      "options": {
+        "A": "Fact, rule, quan hệ và định nghĩa để truy vấn, suy luận",
+        "B": "Chỉ danh sách action chưa mở rộng",
+        "C": "Chỉ ảnh chụp, không được có rule",
+        "D": "Chỉ kết quả dự đoán của neural network"
+      },
+      "correct_answer": "A",
+      "explanation": "«Fact, rule, quan hệ và định nghĩa để truy vấn, suy luận» đúng: KB tổ chức tri thức, không chỉ giữ dữ liệu thô. «Chỉ danh sách action chưa mở rộng» sai: Đó là mô tả gần với frontier tìm kiếm. «Chỉ ảnh chụp, không được có rule» sai: Tài liệu nêu rule là thành phần có thể có trong KB. «Chỉ kết quả dự đoán của neural network» sai: KB không bị giới hạn vào đầu ra mạng nơ-ron. Nguồn: Buổi 05, trang PDF 11, 18, 19 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-002",
+      "topic": "Fact và độ tin cậy",
+      "difficulty": "easy",
+      "source_pages": [
+        18
+      ],
+      "question": "Phát biểu nào đúng về fact trong KB?",
+      "options": {
+        "A": "Là phát biểu hệ thống xem là đúng trong phạm vi đang xét, nhưng có thể sai hoặc lỗi thời",
+        "B": "Luôn là chân lý không bao giờ cần cập nhật",
+        "C": "Không được dùng làm tiền đề suy luận",
+        "D": "Luôn có dạng câu hỏi"
+      },
+      "correct_answer": "A",
+      "explanation": "«Là phát biểu hệ thống xem là đúng trong phạm vi đang xét, nhưng có thể sai hoặc lỗi thời» đúng: Fact không đồng nghĩa chân lý tuyệt đối trong mọi bối cảnh. «Luôn là chân lý không bao giờ cần cập nhật» sai: Fact có thể lỗi thời hoặc sai nguồn. «Không được dùng làm tiền đề suy luận» sai: Fact là đầu vào quan trọng của suy luận. «Luôn có dạng câu hỏi» sai: Fact là phát biểu được xem là đúng. Nguồn: Buổi 05, trang PDF 18 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-003",
+      "topic": "Modus Ponens",
+      "difficulty": "easy",
+      "source_pages": [
+        19,
+        22
+      ],
+      "question": "Cho KB gồm P→Q và P. Kết luận hợp lệ theo Modus Ponens là gì?",
+      "options": {
+        "A": "Không thể suy ra Q dù có đủ hai tiền đề",
+        "B": "Q",
+        "C": "¬P",
+        "D": "¬Q"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không thể suy ra Q dù có đủ hai tiền đề» sai: Đây chính là mẫu Modus Ponens. «Q» đúng: Rule có tiền đề P đã đúng nên suy ra hậu quả Q. «¬P» sai: KB đã cho P đúng. «¬Q» sai: Trái với kết luận của P→Q khi P đúng. Nguồn: Buổi 05, trang PDF 19, 22 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-004",
+      "topic": "Suy luận nhiều bước",
+      "difficulty": "medium",
+      "source_pages": [
+        24
+      ],
+      "question": "KB có A, A→B, B→C. Bằng suy luận tiến, kết luận nào được chứng minh?",
+      "options": {
+        "A": "Chỉ A, không được thêm fact mới",
+        "B": "C, thông qua A suy ra B rồi B suy ra C",
+        "C": "¬B vì A và B có tên khác nhau",
+        "D": "¬C vì C chưa là fact ban đầu"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ A, không được thêm fact mới» sai: Suy luận tiến tạo thêm fact từ rule. «C, thông qua A suy ra B rồi B suy ra C» đúng: Áp dụng hai rule liên tiếp. «¬B vì A và B có tên khác nhau» sai: Tên khác nhau không tạo quan hệ phủ định. «¬C vì C chưa là fact ban đầu» sai: Một kết luận mới không cần được nhập sẵn. Nguồn: Buổi 05, trang PDF 24 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-005",
+      "topic": "Chaining",
+      "difficulty": "easy",
+      "source_pages": [
+        25,
+        26
+      ],
+      "question": "Phân biệt nào đúng giữa forward chaining và backward chaining?",
+      "options": {
+        "A": "Forward từ goal; backward từ fact",
+        "B": "Cả hai chỉ chọn node có g nhỏ nhất",
+        "C": "Backward luôn khẳng định mục tiêu đúng trước khi kiểm tra",
+        "D": "Forward bắt đầu từ fact; backward bắt đầu từ mục tiêu cần chứng minh"
+      },
+      "correct_answer": "D",
+      "explanation": "«Forward từ goal; backward từ fact» sai: Đã đảo định nghĩa. «Cả hai chỉ chọn node có g nhỏ nhất» sai: Đây không phải tiêu chí chaining. «Backward luôn khẳng định mục tiêu đúng trước khi kiểm tra» sai: Backward cần chứng minh các tiền đề của rule. «Forward bắt đầu từ fact; backward bắt đầu từ mục tiêu cần chứng minh» đúng: Hai cách khác nhau về hướng tổ chức suy luận. Nguồn: Buổi 05, trang PDF 25, 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-006",
+      "topic": "Bài tập backward chaining",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Cần chứng minh CanEnroll(An,AI). Rule duy nhất là Completed(An,DS)→CanEnroll(An,AI). Backward chaining đặt mục tiêu con nào?",
+      "options": {
+        "A": "¬Completed(An,DS)",
+        "B": "CanEnroll(An,AI) chắc chắn đúng ngay",
+        "C": "Tên của mọi môn trong trường",
+        "D": "Completed(An,DS)"
+      },
+      "correct_answer": "D",
+      "explanation": "«¬Completed(An,DS)» sai: Phủ định tiền đề không hỗ trợ rule này. «CanEnroll(An,AI) chắc chắn đúng ngay» sai: Chưa kiểm tra tiền đề nên chưa thể kết luận. «Tên của mọi môn trong trường» sai: Không phải điều kiện của rule đã cho. «Completed(An,DS)» đúng: Đó là điều kiện IF phải chứng minh để suy ra goal. Nguồn: Buổi 05, trang PDF 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-007",
+      "topic": "Mệnh đề",
+      "difficulty": "easy",
+      "source_pages": [
+        33
+      ],
+      "question": "Câu nào là mệnh đề trong logic theo định nghĩa của tài liệu?",
+      "options": {
+        "A": "2 + 3 = 5",
+        "B": "Hãy mở cửa!",
+        "C": "Môn này hay quá!",
+        "D": "Bạn có học AI không?"
+      },
+      "correct_answer": "A",
+      "explanation": "«2 + 3 = 5» đúng: Đây là câu khẳng định có giá trị đúng/sai. «Hãy mở cửa!» sai: Đây là mệnh lệnh. «Môn này hay quá!» sai: Nhận xét cảm tính không có giá trị đúng/sai rõ theo ví dụ của bài. «Bạn có học AI không?» sai: Đây là câu hỏi. Nguồn: Buổi 05, trang PDF 33 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-008",
+      "topic": "OR trong logic",
+      "difficulty": "easy",
+      "source_pages": [
+        39,
+        44
+      ],
+      "question": "Với P đúng và Q đúng, giá trị P∨Q là gì?",
+      "options": {
+        "A": "Sai vì OR bắt buộc chỉ đúng một vế",
+        "B": "Đúng vì OR bao hàm trường hợp cả hai đúng",
+        "C": "Chỉ đúng khi P khác Q",
+        "D": "Không xác định dù đã biết P và Q"
+      },
+      "correct_answer": "B",
+      "explanation": "«Sai vì OR bắt buộc chỉ đúng một vế» sai: Đây là nhầm OR với XOR. «Đúng vì OR bao hàm trường hợp cả hai đúng» đúng: OR trong bài là ít nhất một đúng. «Chỉ đúng khi P khác Q» sai: Điều kiện này không thuộc phép OR đang học. «Không xác định dù đã biết P và Q» sai: Bảng chân trị xác định hoàn toàn giá trị. Nguồn: Buổi 05, trang PDF 39, 44 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-009",
+      "topic": "Implication",
+      "difficulty": "medium",
+      "source_pages": [
+        40,
+        44
+      ],
+      "question": "P→Q chỉ sai trong trường hợp nào?",
+      "options": {
+        "A": "P đúng, Q đúng",
+        "B": "P sai, Q đúng",
+        "C": "P đúng, Q sai",
+        "D": "P sai, Q sai"
+      },
+      "correct_answer": "C",
+      "explanation": "«P đúng, Q đúng» sai: Kết luận phù hợp tiền đề nên implication đúng. «P sai, Q đúng» sai: Tiền đề sai làm implication đúng trong logic cổ điển. «P đúng, Q sai» đúng: Đây là hàng duy nhất làm phép kéo theo sai. «P sai, Q sai» sai: Hàng này cũng làm implication đúng. Nguồn: Buổi 05, trang PDF 40, 44 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-010",
+      "topic": "Bài tập logic",
+      "difficulty": "medium",
+      "source_pages": [
+        35,
+        44
+      ],
+      "question": "Cho P đúng, Q sai. Giá trị của (P∧¬Q)→Q là gì?",
+      "options": {
+        "A": "Đúng vì mọi implication đều đúng",
+        "B": "Sai",
+        "C": "Đúng vì P đúng",
+        "D": "Không có giá trị vì Q sai"
+      },
+      "correct_answer": "B",
+      "explanation": "«Đúng vì mọi implication đều đúng» sai: Implication sai khi tiền đề đúng và kết luận sai. «Sai» đúng: ¬Q đúng, P∧¬Q đúng; đúng kéo theo sai là sai. «Đúng vì P đúng» sai: P đúng không đủ làm toàn biểu thức đúng. «Không có giá trị vì Q sai» sai: Mệnh đề sai vẫn được dùng bình thường trong biểu thức. Nguồn: Buổi 05, trang PDF 35, 44 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-011",
+      "topic": "Model logic",
+      "difficulty": "medium",
+      "source_pages": [
+        48
+      ],
+      "question": "Với ba mệnh đề nguyên tử P,Q,R, có bao nhiêu phép gán đúng/sai khác nhau?",
+      "options": {
+        "A": "9",
+        "B": "3",
+        "C": "8",
+        "D": "6"
+      },
+      "correct_answer": "C",
+      "explanation": "«9» sai: Không phải 3²; mỗi biến logic có 2 giá trị. «3» sai: Đây chỉ là số mệnh đề. «8» đúng: Mỗi mệnh đề có 2 khả năng nên có 2×2×2=8 model. «6» sai: Không phải 3×2 vì các lựa chọn kết hợp độc lập. Nguồn: Buổi 05, trang PDF 48 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-012",
+      "topic": "Entailment",
+      "difficulty": "medium",
+      "source_pages": [
+        49
+      ],
+      "question": "KB ⊨ α nghĩa là gì?",
+      "options": {
+        "A": "Có một người tin α đúng",
+        "B": "α đúng nhiều lần trong dữ liệu là đủ chứng minh logic",
+        "C": "Mọi model làm KB đúng đều làm α đúng",
+        "D": "Chỉ cần một model làm cả KB và α đúng"
+      },
+      "correct_answer": "C",
+      "explanation": "«Có một người tin α đúng» sai: Niềm tin cá nhân không phải entailment. «α đúng nhiều lần trong dữ liệu là đủ chứng minh logic» sai: Tần suất quan sát không thay thế định nghĩa entailment. «Mọi model làm KB đúng đều làm α đúng» đúng: Đây là định nghĩa suy ra về mặt logic. «Chỉ cần một model làm cả KB và α đúng» sai: Entailment cần mọi model thỏa KB. Nguồn: Buổi 05, trang PDF 49 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-013",
+      "topic": "Modus Tollens",
+      "difficulty": "medium",
+      "source_pages": [
+        56
+      ],
+      "question": "Cho P→Q và ¬Q. Kết luận hợp lệ là gì?",
+      "options": {
+        "A": "P∧Q",
+        "B": "Q",
+        "C": "P",
+        "D": "¬P"
+      },
+      "correct_answer": "D",
+      "explanation": "«P∧Q» sai: Cả P và Q không theo từ các tiền đề này. «Q» sai: KB đã cho ¬Q. «P» sai: P cùng P→Q sẽ mâu thuẫn với ¬Q. «¬P» đúng: Nếu P đúng thì Q phải đúng; Q sai loại khả năng P đúng. Nguồn: Buổi 05, trang PDF 56 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-014",
+      "topic": "Khẳng định hậu quả",
+      "difficulty": "medium",
+      "source_pages": [
+        57
+      ],
+      "question": "Chỉ có P→Q và Q. Có được kết luận chắc chắn P không?",
+      "options": {
+        "A": "Không, vì Q bắt buộc sai",
+        "B": "Có, đây là Modus Ponens",
+        "C": "Có, vì P→Q luôn tương đương Q→P",
+        "D": "Không, vì Q có thể đúng trong khi P sai"
+      },
+      "correct_answer": "D",
+      "explanation": "«Không, vì Q bắt buộc sai» sai: Đề đã cho Q đúng; vấn đề là không suy ra được P. «Có, đây là Modus Ponens» sai: Modus Ponens cần P chứ không phải chỉ Q. «Có, vì P→Q luôn tương đương Q→P» sai: Đảo chiều implication không luôn hợp lệ. «Không, vì Q có thể đúng trong khi P sai» đúng: Đó là lỗi khẳng định hậu quả. Nguồn: Buổi 05, trang PDF 57 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-015",
+      "topic": "Phủ định tiền đề",
+      "difficulty": "medium",
+      "source_pages": [
+        58
+      ],
+      "question": "Từ 'Nếu mưa thì đường ướt' và 'Không mưa', kết luận nào chính xác?",
+      "options": {
+        "A": "Chắc chắn đường khô",
+        "B": "Chắc chắn trời đang mưa",
+        "C": "Rule kéo theo tự động trở thành tương đương",
+        "D": "Chưa thể kết luận đường không ướt; có thể có nguyên nhân khác"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chắc chắn đường khô» sai: Đây là lỗi phủ định tiền đề. «Chắc chắn trời đang mưa» sai: Trái với fact không mưa. «Rule kéo theo tự động trở thành tương đương» sai: Không có giả thiết đủ để đổi sang hai chiều. «Chưa thể kết luận đường không ướt; có thể có nguyên nhân khác» đúng: P→Q cùng ¬P không suy ra ¬Q. Nguồn: Buổi 05, trang PDF 58 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-016",
+      "topic": "Lượng từ phổ quát",
+      "difficulty": "medium",
+      "source_pages": [
+        68,
+        70
+      ],
+      "question": "Công thức nào biểu diễn 'Mọi sinh viên đều có mã số' trong miền đối tượng đang xét?",
+      "options": {
+        "A": "∃x [Student(x)∧HasID(x)]",
+        "B": "∀x [Student(x)→HasID(x)]",
+        "C": "∀x [HasID(x)→Student(x)]",
+        "D": "∀x [Student(x)∧HasID(x)]"
+      },
+      "correct_answer": "B",
+      "explanation": "«∃x [Student(x)∧HasID(x)]» sai: Chỉ nói có ít nhất một sinh viên có mã số. «∀x [Student(x)→HasID(x)]» đúng: Với mọi đối tượng, nếu là sinh viên thì có mã số. «∀x [HasID(x)→Student(x)]» sai: Đảo chiều quan hệ; nói ai có mã đều là sinh viên. «∀x [Student(x)∧HasID(x)]» sai: Mạnh hơn câu gốc: buộc mọi đối tượng trong miền đều là sinh viên. Nguồn: Buổi 05, trang PDF 68, 70 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-017",
+      "topic": "Lượng từ tồn tại",
+      "difficulty": "medium",
+      "source_pages": [
+        69
+      ],
+      "question": "∃x [Student(x)∧Enrolled(x,AI)] được đọc đúng thế nào?",
+      "options": {
+        "A": "Có ít nhất một sinh viên đăng ký AI",
+        "B": "Mọi sinh viên đều đăng ký AI",
+        "C": "Chỉ có duy nhất một sinh viên đăng ký AI",
+        "D": "Không có sinh viên nào đăng ký AI"
+      },
+      "correct_answer": "A",
+      "explanation": "«Có ít nhất một sinh viên đăng ký AI» đúng: ∃ yêu cầu một đối tượng thỏa cả hai thuộc tính. «Mọi sinh viên đều đăng ký AI» sai: Đây là khẳng định phổ quát, mạnh hơn biểu thức. «Chỉ có duy nhất một sinh viên đăng ký AI» sai: ∃ không giới hạn đúng một đối tượng. «Không có sinh viên nào đăng ký AI» sai: Trái với tồn tại. Nguồn: Buổi 05, trang PDF 69 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-018",
+      "topic": "Knowledge Graph",
+      "difficulty": "easy",
+      "source_pages": [
+        81,
+        82
+      ],
+      "question": "Trong bộ ba (AStar, isA, HeuristicSearch), relation là thành phần nào?",
+      "options": {
+        "A": "isA",
+        "B": "AStar",
+        "C": "Cả ba đều là relation",
+        "D": "HeuristicSearch"
+      },
+      "correct_answer": "A",
+      "explanation": "«isA» đúng: Relation đứng giữa subject và object. «AStar» sai: Đây là subject. «Cả ba đều là relation» sai: Ba thành phần có vai trò khác nhau. «HeuristicSearch» sai: Đây là object. Nguồn: Buổi 05, trang PDF 81, 82 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-019",
+      "topic": "Mô hình tri thức",
+      "difficulty": "easy",
+      "source_pages": [
+        77,
+        79,
+        84,
+        85
+      ],
+      "question": "Mô tả nào phù hợp với ontology ở mức nhập môn?",
+      "options": {
+        "A": "Chỉ là hàng đợi ưu tiên theo cost",
+        "B": "Chỉ là một con số xác suất nền",
+        "C": "Mô hình khái niệm của một lĩnh vực, cùng loại đối tượng, thuộc tính và quan hệ",
+        "D": "Bắt buộc tách biệt hoàn toàn và không bao giờ kết hợp với Knowledge Graph"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ là hàng đợi ưu tiên theo cost» sai: Đây là cấu trúc dữ liệu tìm kiếm. «Chỉ là một con số xác suất nền» sai: Prior không phải ontology. «Mô hình khái niệm của một lĩnh vực, cùng loại đối tượng, thuộc tính và quan hệ» đúng: Ontology tổ chức cấu trúc khái niệm của miền tri thức. «Bắt buộc tách biệt hoàn toàn và không bao giờ kết hợp với Knowledge Graph» sai: Tài liệu nói các khái niệm có thể chồng lấn và kết hợp. Nguồn: Buổi 05, trang PDF 77, 79, 84, 85 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-05-020",
+      "topic": "Giới hạn KB",
+      "difficulty": "medium",
+      "source_pages": [
+        61,
+        88,
+        89,
+        90,
+        91
+      ],
+      "question": "KB thiếu quy định môn tiên quyết hiện hành. Khi được hỏi An có thể đăng ký AI không, hệ thống nên làm gì?",
+      "options": {
+        "A": "Dùng quy định cũ như sự thật chắc chắn",
+        "B": "Luôn kết luận không vì không suy ra được có",
+        "C": "Nói chưa đủ thông tin, yêu cầu quy định có nguồn và thời điểm cập nhật",
+        "D": "Tự đoán có để người dùng hài lòng"
+      },
+      "correct_answer": "C",
+      "explanation": "«Dùng quy định cũ như sự thật chắc chắn» sai: Tri thức có thể lỗi thời và cần kiểm tra nguồn. «Luôn kết luận không vì không suy ra được có» sai: Không chứng minh được không đồng nghĩa đã chứng minh phủ định. «Nói chưa đủ thông tin, yêu cầu quy định có nguồn và thời điểm cập nhật» đúng: Thiếu rule quan trọng thì chưa đủ căn cứ suy luận. «Tự đoán có để người dùng hài lòng» sai: Không có căn cứ từ KB. Nguồn: Buổi 05, trang PDF 61, 88, 89, 90, 91 (đếm từ trang đầu file)."
+    }
+  ]
+}

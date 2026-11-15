@@ -1,0 +1,371 @@
+{
+  "chapter_id": "ai-01",
+  "title": "Buổi 01 - Tổng quan AI và tác tử thông minh",
+  "source_file": "NhapMonAI_Buoi01_TongQuan_AI_TacTuThongMinh.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-01-001",
+      "topic": "Khái niệm AI",
+      "difficulty": "easy",
+      "source_pages": [
+        5,
+        9
+      ],
+      "question": "Phát biểu nào mô tả AI phù hợp với tài liệu?",
+      "options": {
+        "A": "Mọi phần mềm tính hóa đơn đều là Machine Learning",
+        "B": "AI chỉ tồn tại dưới dạng robot vật lý",
+        "C": "AI luôn biết chính xác mọi kết quả tương lai",
+        "D": "Hệ thống thực hiện nhiệm vụ thường cần trí thông minh, bằng suy luận hoặc học từ dữ liệu"
+      },
+      "correct_answer": "D",
+      "explanation": "«Mọi phần mềm tính hóa đơn đều là Machine Learning» sai: Tính theo công thức cố định chưa thể hiện việc học từ dữ liệu. «AI chỉ tồn tại dưới dạng robot vật lý» sai: Tài liệu còn nêu các hệ thống phần mềm như gợi ý và phân loại. «AI luôn biết chính xác mọi kết quả tương lai» sai: AI có thể sai khi thông tin thiếu hoặc môi trường bất định. «Hệ thống thực hiện nhiệm vụ thường cần trí thông minh, bằng suy luận hoặc học từ dữ liệu» đúng: AI có thể nhận thông tin, suy luận, học rồi dự đoán hoặc hành động. Nguồn: Buổi 01, trang PDF 5, 9 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-002",
+      "topic": "AI, ML và DL",
+      "difficulty": "easy",
+      "source_pages": [
+        12,
+        17
+      ],
+      "question": "Quan hệ nào đúng giữa AI, Machine Learning và Deep Learning?",
+      "options": {
+        "A": "Machine Learning và AI hoàn toàn tách biệt",
+        "B": "AI là một nhánh của Deep Learning",
+        "C": "Mọi hệ thống AI đều là Generative AI",
+        "D": "Deep Learning là một nhánh của Machine Learning; Machine Learning là một cách tiếp cận trong AI"
+      },
+      "correct_answer": "D",
+      "explanation": "«Machine Learning và AI hoàn toàn tách biệt» sai: ML nằm trong các cách tiếp cận của AI. «AI là một nhánh của Deep Learning» sai: AI có phạm vi rộng hơn DL. «Mọi hệ thống AI đều là Generative AI» sai: Tìm kiếm và suy luận logic cũng thuộc AI. «Deep Learning là một nhánh của Machine Learning; Machine Learning là một cách tiếp cận trong AI» đúng: Quan hệ này được mô tả trong bản đồ các khái niệm. Nguồn: Buổi 01, trang PDF 12, 17 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-003",
+      "topic": "Học máy",
+      "difficulty": "easy",
+      "source_pages": [
+        12,
+        14
+      ],
+      "question": "Một bộ lọc spam học từ email đã gán nhãn thay vì được viết toàn bộ luật thủ công. Đây là cách tiếp cận nào?",
+      "options": {
+        "A": "Chỉ có thể là luật cố định viết tay",
+        "B": "Chắc chắn là tìm đường trên bản đồ",
+        "C": "Machine Learning",
+        "D": "Chỉ là lưu trữ email, không có học"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ có thể là luật cố định viết tay» sai: Đề bài đã nói hệ thống học thay vì viết toàn bộ luật. «Chắc chắn là tìm đường trên bản đồ» sai: Đầu ra là nhãn email, không phải lộ trình. «Machine Learning» đúng: Mô hình học quy luật từ dữ liệu mẫu có nhãn spam/không spam. «Chỉ là lưu trữ email, không có học» sai: Tình huống có bước học ra quy luật dự đoán. Nguồn: Buổi 01, trang PDF 12, 14 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-004",
+      "topic": "Generative AI",
+      "difficulty": "easy",
+      "source_pages": [
+        16
+      ],
+      "question": "Nhận định nào đúng về kết quả do Generative AI tạo ra?",
+      "options": {
+        "A": "Luôn đúng vì đã được mô hình sinh ra",
+        "B": "Chỉ tạo được văn bản, không thể tạo hình ảnh",
+        "C": "Luôn hoàn toàn nguyên bản",
+        "D": "Có thể tạo nội dung hữu ích nhưng vẫn có thể sai và cần kiểm chứng"
+      },
+      "correct_answer": "D",
+      "explanation": "«Luôn đúng vì đã được mô hình sinh ra» sai: Tài liệu nêu rõ kết quả không bảo đảm luôn đúng. «Chỉ tạo được văn bản, không thể tạo hình ảnh» sai: Tài liệu còn nêu hình ảnh, âm thanh, video và mã nguồn. «Luôn hoàn toàn nguyên bản» sai: Tạo sinh không bảo đảm nguyên bản tuyệt đối. «Có thể tạo nội dung hữu ích nhưng vẫn có thể sai và cần kiểm chứng» đúng: Khả năng sinh nội dung không bảo đảm tính đúng hay hoàn toàn nguyên bản. Nguồn: Buổi 01, trang PDF 16 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-005",
+      "topic": "Mô hình hóa trạng thái",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        34
+      ],
+      "question": "Robot tìm sách cần biết đang ở đâu và đã tìm thấy đúng sách chưa. State nào phù hợp nhất?",
+      "options": {
+        "A": "Đi sang kệ B",
+        "B": "Tìm sách thật nhanh",
+        "C": "(Vị trí hiện tại, tình trạng đã tìm thấy sách)",
+        "D": "Tất cả chi tiết trong toàn bộ thư viện"
+      },
+      "correct_answer": "C",
+      "explanation": "«Đi sang kệ B» sai: Đây là action. «Tìm sách thật nhanh» sai: Đây là mong muốn về hiệu quả, không mô tả tình huống hiện tại. «(Vị trí hiện tại, tình trạng đã tìm thấy sách)» đúng: Hai thành phần chứa thông tin cần để quyết định và kiểm tra hoàn thành. «Tất cả chi tiết trong toàn bộ thư viện» sai: State chỉ cần thông tin liên quan; ghi mọi chi tiết là không cần thiết. Nguồn: Buổi 01, trang PDF 22, 34 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-006",
+      "topic": "Action và goal",
+      "difficulty": "easy",
+      "source_pages": [
+        23,
+        24,
+        26
+      ],
+      "question": "Trong bài toán đi đến phòng B203, cặp action và goal test nào rõ ràng nhất?",
+      "options": {
+        "A": "Action: muốn đến lớp; goal test: bản đồ",
+        "B": "Action: đi đến vị trí kề hợp lệ; goal test: vị trí hiện tại là B203",
+        "C": "Action: đang ở cổng; goal test: đi bộ",
+        "D": "Action: 5 phút; goal test: nhanh nhất"
+      },
+      "correct_answer": "B",
+      "explanation": "«Action: muốn đến lớp; goal test: bản đồ» sai: Một mong muốn và một dữ liệu không thay thế được hai thành phần yêu cầu. «Action: đi đến vị trí kề hợp lệ; goal test: vị trí hiện tại là B203» đúng: Action mô tả thao tác, goal test là điều kiện có thể kiểm tra. «Action: đang ở cổng; goal test: đi bộ» sai: Đang ở cổng là state, đi bộ là hành động. «Action: 5 phút; goal test: nhanh nhất» sai: 5 phút là đại lượng chi phí, còn nhanh nhất chưa là điều kiện đến đích. Nguồn: Buổi 01, trang PDF 23, 24, 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-007",
+      "topic": "Chi phí đường đi",
+      "difficulty": "medium",
+      "source_pages": [
+        25
+      ],
+      "question": "Hai tuyến đều đến B203: tuyến X đi 2 chặng, mất 12 phút; tuyến Y đi 3 chặng, mất 5 phút. Nếu path cost là thời gian thì chọn tuyến nào?",
+      "options": {
+        "A": "Y, chi phí 5 phút",
+        "B": "X và Y có cost bằng nhau vì cùng đích",
+        "C": "Không thể định nghĩa cost bằng thời gian",
+        "D": "X vì luôn ít chặng hơn là rẻ hơn"
+      },
+      "correct_answer": "A",
+      "explanation": "«Y, chi phí 5 phút» đúng: Tiêu chí là tổng thời gian nên 5 nhỏ hơn 12. «X và Y có cost bằng nhau vì cùng đích» sai: Cùng goal không có nghĩa cùng chi phí. «Không thể định nghĩa cost bằng thời gian» sai: Tài liệu cho phép dùng thời gian làm path cost. «X vì luôn ít chặng hơn là rẻ hơn» sai: Ít chặng chỉ phù hợp khi cost được định nghĩa theo số chặng. Nguồn: Buổi 01, trang PDF 25 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-008",
+      "topic": "Tác tử",
+      "difficulty": "easy",
+      "source_pages": [
+        36
+      ],
+      "question": "Ứng dụng bản đồ nhận GPS và giao thông rồi đề xuất tuyến đường có được xem là agent không?",
+      "options": {
+        "A": "Không, vì GPS là dữ liệu số",
+        "B": "Có, vì cảm nhận môi trường và đưa ra hành động dưới dạng đề xuất",
+        "C": "Không, vì chỉ robot có bánh xe mới là agent",
+        "D": "Có, chỉ vì nó luôn dự đoán chính xác giao thông"
+      },
+      "correct_answer": "B",
+      "explanation": "«Không, vì GPS là dữ liệu số» sai: Thông tin cảm nhận có thể ở dạng số. «Có, vì cảm nhận môi trường và đưa ra hành động dưới dạng đề xuất» đúng: Agent có thể là phần mềm; không bắt buộc có thân robot. «Không, vì chỉ robot có bánh xe mới là agent» sai: Đây không phải điều kiện định nghĩa agent. «Có, chỉ vì nó luôn dự đoán chính xác giao thông» sai: Agent được xác định bởi cảm nhận và hành động, không bởi tính toàn tri. Nguồn: Buổi 01, trang PDF 36 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-009",
+      "topic": "Lịch sử cảm nhận",
+      "difficulty": "medium",
+      "source_pages": [
+        39,
+        63
+      ],
+      "question": "Vì sao robot trong môi trường quan sát không đầy đủ có thể cần lưu percept sequence?",
+      "options": {
+        "A": "Vì lịch sử luôn thay thế được mọi sensor",
+        "B": "Để không cần quan tâm môi trường nữa",
+        "C": "Để hỗ trợ xây dựng mô hình nội bộ và ước lượng phần trạng thái chưa quan sát",
+        "D": "Để bảo đảm biết trước mọi sự kiện tương lai"
+      },
+      "correct_answer": "C",
+      "explanation": "«Vì lịch sử luôn thay thế được mọi sensor» sai: Robot vẫn cần cảm nhận; lịch sử chỉ hỗ trợ. «Để không cần quan tâm môi trường nữa» sai: Mô hình nội bộ phải được dùng cùng thông tin môi trường. «Để hỗ trợ xây dựng mô hình nội bộ và ước lượng phần trạng thái chưa quan sát» đúng: Lịch sử bổ sung thông tin mà quan sát hiện tại thiếu. «Để bảo đảm biết trước mọi sự kiện tương lai» sai: Lưu lịch sử không tạo ra khả năng toàn tri. Nguồn: Buổi 01, trang PDF 39, 63 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-010",
+      "topic": "Performance measure",
+      "difficulty": "medium",
+      "source_pages": [
+        40
+      ],
+      "question": "Thiết kế chatbot học tập, bộ tiêu chí nào phù hợp với ví dụ trong tài liệu?",
+      "options": {
+        "A": "Chỉ số lượng từ sinh ra, bất kể nội dung",
+        "B": "Độ đúng, mức dễ hiểu, khả năng trích nguồn và độ an toàn",
+        "C": "Số lượng sensor vật lý gắn vào máy",
+        "D": "Chỉ tốc độ trả lời, chấp nhận mọi sai sót"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ số lượng từ sinh ra, bất kể nội dung» sai: Nhiều từ không bảo đảm đúng hay hữu ích. «Độ đúng, mức dễ hiểu, khả năng trích nguồn và độ an toàn» đúng: Đây là các tiêu chí đánh giá chất lượng chatbot được nêu. «Số lượng sensor vật lý gắn vào máy» sai: Đây không phải thước đo chất lượng câu trả lời. «Chỉ tốc độ trả lời, chấp nhận mọi sai sót» sai: Tốc độ đơn độc có thể khiến hệ thống tối ưu sai mục tiêu. Nguồn: Buổi 01, trang PDF 40 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-011",
+      "topic": "Rational agent",
+      "difficulty": "medium",
+      "source_pages": [
+        41,
+        42
+      ],
+      "question": "Bản đồ chọn tuyến nhanh nhất theo thông tin hiện có, sau đó tuyến ấy gặp tai nạn bất ngờ. Kết luận nào hợp lý?",
+      "options": {
+        "A": "Rational agent phải biết trước tai nạn",
+        "B": "Quyết định ban đầu vẫn có thể rational vì được đánh giá theo thông tin và kỳ vọng lúc chọn",
+        "C": "Mọi quyết định dẫn đến chậm đều chứng minh tác tử phi lý",
+        "D": "Không thể đánh giá tác tử theo tiêu chí nào"
+      },
+      "correct_answer": "B",
+      "explanation": "«Rational agent phải biết trước tai nạn» sai: Đây là yêu cầu toàn tri. «Quyết định ban đầu vẫn có thể rational vì được đánh giá theo thông tin và kỳ vọng lúc chọn» đúng: Rational không đồng nghĩa biết trước kết quả thực tế. «Mọi quyết định dẫn đến chậm đều chứng minh tác tử phi lý» sai: Kết quả xấu do sự kiện mới không tự phủ định tính hợp lý ban đầu. «Không thể đánh giá tác tử theo tiêu chí nào» sai: Có thể đánh giá bằng performance measure đã xác định. Nguồn: Buổi 01, trang PDF 41, 42 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-012",
+      "topic": "PEAS",
+      "difficulty": "easy",
+      "source_pages": [
+        44,
+        47
+      ],
+      "question": "Trong PEAS của robot hút bụi, cảm biến khoảng cách và bánh xe lần lượt thuộc nhóm nào?",
+      "options": {
+        "A": "Actuators và Sensors",
+        "B": "Environment và Performance",
+        "C": "Performance và Environment",
+        "D": "Sensors và Actuators"
+      },
+      "correct_answer": "D",
+      "explanation": "«Actuators và Sensors» sai: Đã đảo ngược vai trò cảm nhận và tác động. «Environment và Performance» sai: Không mô tả đúng vai trò của hai bộ phận. «Performance và Environment» sai: Hai bộ phận này không phải tiêu chí hay môi trường. «Sensors và Actuators» đúng: Sensor nhận thông tin; bánh xe thực hiện hành động di chuyển. Nguồn: Buổi 01, trang PDF 44, 47 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-013",
+      "topic": "PEAS ứng dụng",
+      "difficulty": "medium",
+      "source_pages": [
+        44,
+        48
+      ],
+      "question": "Trong PEAS của ứng dụng chỉ đường, yếu tố nào thuộc Performance?",
+      "options": {
+        "A": "Tuyến đường nhanh, an toàn và phù hợp phương tiện",
+        "B": "Mạng lưới đường",
+        "C": "Lệnh tính lại lộ trình",
+        "D": "GPS"
+      },
+      "correct_answer": "A",
+      "explanation": "«Tuyến đường nhanh, an toàn và phù hợp phương tiện» đúng: Đây là tiêu chí để đánh giá tuyến được đề xuất. «Mạng lưới đường» sai: Đây là Environment. «Lệnh tính lại lộ trình» sai: Đây là hành động đầu ra của ứng dụng. «GPS» sai: GPS là nguồn cảm nhận. Nguồn: Buổi 01, trang PDF 44, 48 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-014",
+      "topic": "Phân loại môi trường",
+      "difficulty": "medium",
+      "source_pages": [
+        52,
+        53
+      ],
+      "question": "Robot chỉ quan sát vùng ngay trước mặt; cùng lệnh đi thẳng có thể trượt sang bên. Môi trường có hai tính chất nào?",
+      "options": {
+        "A": "Partially observable và stochastic",
+        "B": "Partially observable và deterministic",
+        "C": "Fully observable và deterministic",
+        "D": "Fully observable và stochastic"
+      },
+      "correct_answer": "A",
+      "explanation": "«Partially observable và stochastic» đúng: Quan sát thiếu thông tin; kết quả hành động có bất định. «Partially observable và deterministic» sai: Quan sát thiếu đúng, nhưng hành động không có kết quả chắc chắn. «Fully observable và deterministic» sai: Cả hai trái với dữ kiện đề bài. «Fully observable và stochastic» sai: Kết quả bất định đúng, nhưng robot chưa quan sát đầy đủ. Nguồn: Buổi 01, trang PDF 52, 53 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-015",
+      "topic": "Episodic và sequential",
+      "difficulty": "easy",
+      "source_pages": [
+        54
+      ],
+      "question": "Theo ví dụ trong tài liệu, tình huống nào thể hiện môi trường sequential?",
+      "options": {
+        "A": "Chấm từng mẫu độc lập và không thay đổi mẫu kế tiếp",
+        "B": "Robot chọn từng bước di chuyển, mỗi bước ảnh hưởng vị trí về sau",
+        "C": "Phân loại ảnh không có bất kỳ liên hệ nào giữa các lượt",
+        "D": "Phân loại từng ảnh độc lập với các ảnh còn lại"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chấm từng mẫu độc lập và không thay đổi mẫu kế tiếp» sai: Mô tả nhấn mạnh tính độc lập của các tập. «Robot chọn từng bước di chuyển, mỗi bước ảnh hưởng vị trí về sau» đúng: Quyết định hiện tại làm thay đổi trạng thái và quyết định tương lai. «Phân loại ảnh không có bất kỳ liên hệ nào giữa các lượt» sai: Không có ảnh hưởng tuần tự như đề yêu cầu. «Phân loại từng ảnh độc lập với các ảnh còn lại» sai: Ví dụ này có tính episodic. Nguồn: Buổi 01, trang PDF 54 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-016",
+      "topic": "Đặc tính môi trường",
+      "difficulty": "medium",
+      "source_pages": [
+        55,
+        56,
+        57
+      ],
+      "question": "Mô phỏng giao thông có nhiều xe; xe khác tiếp tục chạy khi agent tính toán; góc lái nhận giá trị thực. Bộ tính chất nào phù hợp?",
+      "options": {
+        "A": "Multi-agent, dynamic, continuous",
+        "B": "Single-agent, dynamic, discrete",
+        "C": "Multi-agent, static, continuous",
+        "D": "Single-agent, static, discrete"
+      },
+      "correct_answer": "A",
+      "explanation": "«Multi-agent, dynamic, continuous» đúng: Có nhiều tác tử, môi trường đổi trong lúc suy nghĩ, góc lái liên tục. «Single-agent, dynamic, discrete» sai: Môi trường động đúng; hai thuộc tính còn lại sai. «Multi-agent, static, continuous» sai: Có nhiều tác tử và góc lái liên tục nhưng môi trường không tĩnh. «Single-agent, static, discrete» sai: Cả ba thuộc tính trái với giả thiết. Nguồn: Buổi 01, trang PDF 55, 56, 57 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-017",
+      "topic": "Simple reflex agent",
+      "difficulty": "easy",
+      "source_pages": [
+        62
+      ],
+      "question": "Đèn chỉ dùng luật 'nếu cảm biến hiện tại báo tối thì bật' và không lưu lịch sử. Kiểu tác tử nào được minh họa?",
+      "options": {
+        "A": "Utility-based agent vì so sánh nhiều phương án",
+        "B": "Model-based agent vì có ghi nhớ bản đồ",
+        "C": "Simple reflex agent",
+        "D": "Learning agent vì mọi luật đều tự học"
+      },
+      "correct_answer": "C",
+      "explanation": "«Utility-based agent vì so sánh nhiều phương án» sai: Đề không có bước so sánh utility. «Model-based agent vì có ghi nhớ bản đồ» sai: Đề không có ghi nhớ hay bản đồ nội bộ. «Simple reflex agent» đúng: Hành động dựa trực tiếp vào cảm nhận hiện tại qua luật điều kiện. «Learning agent vì mọi luật đều tự học» sai: Luật cố định không tự thể hiện việc học từ kinh nghiệm. Nguồn: Buổi 01, trang PDF 62 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-018",
+      "topic": "Model-based và goal-based",
+      "difficulty": "medium",
+      "source_pages": [
+        63,
+        64
+      ],
+      "question": "Robot ghi nhớ các vùng đã đi qua để ước lượng phần phòng chưa thấy. Đặc điểm nào được thể hiện trực tiếp?",
+      "options": {
+        "A": "Model-based: duy trì biểu diễn nội bộ của môi trường",
+        "B": "Omniscient: chắc chắn biết toàn bộ căn phòng",
+        "C": "Simple reflex: chỉ dùng cảm nhận hiện tại",
+        "D": "Không phải agent vì có bộ nhớ"
+      },
+      "correct_answer": "A",
+      "explanation": "«Model-based: duy trì biểu diễn nội bộ của môi trường» đúng: Ghi nhớ bản đồ hỗ trợ quyết định khi quan sát không đầy đủ. «Omniscient: chắc chắn biết toàn bộ căn phòng» sai: Ước lượng không đồng nghĩa biết hoàn hảo. «Simple reflex: chỉ dùng cảm nhận hiện tại» sai: Có sử dụng quá khứ nên mô tả này không phù hợp. «Không phải agent vì có bộ nhớ» sai: Agent hoàn toàn có thể có bộ nhớ. Nguồn: Buổi 01, trang PDF 63, 64 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-019",
+      "topic": "Goal và utility",
+      "difficulty": "medium",
+      "source_pages": [
+        64,
+        65
+      ],
+      "question": "Hai tuyến đều đến đích; agent so sánh thêm độ an toàn, thời gian và mức tiết kiệm để chọn. Khái niệm nào giải thích bước so sánh này rõ nhất?",
+      "options": {
+        "A": "Actuator",
+        "B": "Chỉ kiểm tra goal là đủ để xếp hạng mọi tuyến",
+        "C": "Simple reflex bắt buộc không cần so sánh",
+        "D": "Utility-based agent"
+      },
+      "correct_answer": "D",
+      "explanation": "«Actuator» sai: Actuator thực hiện hành động, không phải thước đo mức mong muốn. «Chỉ kiểm tra goal là đủ để xếp hạng mọi tuyến» sai: Goal chỉ cho biết đạt hay chưa, chưa cho mức độ mong muốn. «Simple reflex bắt buộc không cần so sánh» sai: Luật phản xạ hiện tại không mô tả bước đánh giá nhiều tiêu chí. «Utility-based agent» đúng: Utility xếp hạng các phương án đều có thể đạt goal. Nguồn: Buổi 01, trang PDF 64, 65 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-01-020",
+      "topic": "Learning agent và trách nhiệm",
+      "difficulty": "medium",
+      "source_pages": [
+        66,
+        73
+      ],
+      "question": "Hệ thống gợi ý cập nhật mô hình từ phản hồi người dùng. Cách sử dụng nào phù hợp với tài liệu?",
+      "options": {
+        "A": "Để tăng chất lượng, luôn công khai mọi lịch sử cá nhân",
+        "B": "Có phản hồi thì không cần đánh giá dữ liệu nữa",
+        "C": "Xem đây là learning agent, đồng thời kiểm tra thiên lệch dữ liệu và bảo vệ thông tin cá nhân",
+        "D": "Có học thì mọi đề xuất đều đúng"
+      },
+      "correct_answer": "C",
+      "explanation": "«Để tăng chất lượng, luôn công khai mọi lịch sử cá nhân» sai: Tài liệu yêu cầu chú ý quyền riêng tư. «Có phản hồi thì không cần đánh giá dữ liệu nữa» sai: Dữ liệu vẫn có thể thiên lệch hoặc thiếu nhóm quan trọng. «Xem đây là learning agent, đồng thời kiểm tra thiên lệch dữ liệu và bảo vệ thông tin cá nhân» đúng: Hệ thống cải thiện từ phản hồi nhưng vẫn cần đánh giá trách nhiệm. «Có học thì mọi đề xuất đều đúng» sai: Learning không bảo đảm đúng tuyệt đối. Nguồn: Buổi 01, trang PDF 66, 73 (đếm từ trang đầu file)."
+    }
+  ]
+}

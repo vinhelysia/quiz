@@ -1,0 +1,366 @@
+{
+  "chapter_id": "ai-02",
+  "title": "Buổi 02 - Giải quyết vấn đề bằng tìm kiếm",
+  "source_file": "NhapMonAI_Buoi02_GiaiQuyetVanDe_BangTimKiem.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-02-001",
+      "topic": "Mô hình tìm kiếm",
+      "difficulty": "easy",
+      "source_pages": [
+        13
+      ],
+      "question": "Thành phần nào cho biết trạng thái tiếp theo sau một action?",
+      "options": {
+        "A": "Initial state",
+        "B": "Transition model",
+        "C": "Goal test",
+        "D": "Path cost"
+      },
+      "correct_answer": "B",
+      "explanation": "«Initial state» sai: Initial state cho biết điểm xuất phát. «Transition model» đúng: Hàm chuyển mô tả kết quả của hành động từ state hiện tại. «Goal test» sai: Goal test chỉ kiểm tra đã đạt mục tiêu hay chưa. «Path cost» sai: Path cost đánh giá chi phí của đường đi. Nguồn: Buổi 02, trang PDF 13 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-002",
+      "topic": "State space và search tree",
+      "difficulty": "easy",
+      "source_pages": [
+        15
+      ],
+      "question": "Vì sao một state có thể xuất hiện nhiều lần trong search tree?",
+      "options": {
+        "A": "Vì mọi cạnh đều có chi phí âm",
+        "B": "Cùng trạng thái có thể được đạt tới qua nhiều đường khác nhau",
+        "C": "State space và search tree luôn là một cấu trúc giống hệt",
+        "D": "Mỗi state bắt buộc là một đối tượng khác trong thế giới thật"
+      },
+      "correct_answer": "B",
+      "explanation": "«Vì mọi cạnh đều có chi phí âm» sai: Lặp state không đòi hỏi cạnh âm. «Cùng trạng thái có thể được đạt tới qua nhiều đường khác nhau» đúng: Cây biểu diễn các quá trình thử đường nên có thể lặp state. «State space và search tree luôn là một cấu trúc giống hệt» sai: Tài liệu phân biệt tập trạng thái thực với cây do thuật toán sinh. «Mỗi state bắt buộc là một đối tượng khác trong thế giới thật» sai: Các node khác nhau của cây có thể biểu diễn cùng state. Nguồn: Buổi 02, trang PDF 15 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-003",
+      "topic": "Frontier và explored",
+      "difficulty": "easy",
+      "source_pages": [
+        16,
+        19
+      ],
+      "question": "Theo quy ước của tài liệu, frontier chứa các node nào?",
+      "options": {
+        "A": "Chỉ trạng thái đích",
+        "B": "Chỉ các node đã mở rộng xong",
+        "C": "Đã được phát hiện nhưng chưa mở rộng",
+        "D": "Tất cả state chưa từng được phát hiện"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chỉ trạng thái đích» sai: Frontier có thể gồm cả node chưa phải goal. «Chỉ các node đã mở rộng xong» sai: Đó là vai trò của explored theo quy ước nêu trong bài. «Đã được phát hiện nhưng chưa mở rộng» đúng: Frontier là danh sách chờ xử lý. «Tất cả state chưa từng được phát hiện» sai: State chưa phát hiện chưa được đưa vào frontier. Nguồn: Buổi 02, trang PDF 16, 19 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-004",
+      "topic": "BFS",
+      "difficulty": "easy",
+      "source_pages": [
+        23,
+        25
+      ],
+      "question": "BFS dùng cấu trúc dữ liệu nào để duyệt lần lượt từng mức?",
+      "options": {
+        "A": "Queue FIFO",
+        "B": "Priority queue theo heuristic",
+        "C": "Stack LIFO",
+        "D": "Chỉ một biến lưu goal cuối cùng"
+      },
+      "correct_answer": "A",
+      "explanation": "«Queue FIFO» đúng: Phần tử vào trước được xử lý trước, giữ thứ tự theo mức. «Priority queue theo heuristic» sai: Đây không phải tiêu chí lựa chọn của BFS. «Stack LIFO» sai: LIFO phục vụ cách đi sâu của DFS. «Chỉ một biến lưu goal cuối cùng» sai: Không đủ lưu danh sách node chờ mở rộng. Nguồn: Buổi 02, trang PDF 23, 25 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-005",
+      "topic": "Bài tập queue BFS",
+      "difficulty": "medium",
+      "source_pages": [
+        25
+      ],
+      "question": "Queue BFS hiện là [A, B]. Lấy A ra và thêm C rồi D ở cuối queue. Queue mới là gì?",
+      "options": {
+        "A": "[B, C, D]",
+        "B": "[D, C, B]",
+        "C": "[C, D, B]",
+        "D": "[A, B, C, D]"
+      },
+      "correct_answer": "A",
+      "explanation": "«[B, C, D]» đúng: FIFO bỏ A ở đầu, giữ B rồi thêm C, D vào cuối. «[D, C, B]» sai: Đây không phải thứ tự queue FIFO đã quy định. «[C, D, B]» sai: C, D mới sinh phải đứng sau B. «[A, B, C, D]» sai: A đã được lấy ra nên không còn trong queue. Nguồn: Buổi 02, trang PDF 25 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-006",
+      "topic": "BFS và tối ưu",
+      "difficulty": "medium",
+      "source_pages": [
+        23,
+        35
+      ],
+      "question": "Điều kiện nào giúp lời giải ít cạnh của BFS cũng có chi phí thấp nhất?",
+      "options": {
+        "A": "Heuristic luôn bằng số node đã duyệt",
+        "B": "Mỗi cạnh có chi phí tùy ý khác nhau",
+        "C": "Chỉ cần DFS không tìm được goal",
+        "D": "Mỗi cạnh có cùng chi phí dương"
+      },
+      "correct_answer": "D",
+      "explanation": "«Heuristic luôn bằng số node đã duyệt» sai: BFS không chọn node theo heuristic. «Mỗi cạnh có chi phí tùy ý khác nhau» sai: Khi trọng số khác nhau, ít cạnh có thể đắt hơn. «Chỉ cần DFS không tìm được goal» sai: Kết quả DFS không quyết định tính tối ưu của BFS. «Mỗi cạnh có cùng chi phí dương» đúng: Khi cost mỗi bước bằng nhau, ít bước đồng nghĩa tổng cost thấp. Nguồn: Buổi 02, trang PDF 23, 35 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-007",
+      "topic": "Bộ nhớ BFS",
+      "difficulty": "easy",
+      "source_pages": [
+        36
+      ],
+      "question": "Vì sao BFS có thể tốn nhiều bộ nhớ?",
+      "options": {
+        "A": "Vì bắt buộc lưu mọi số thực trong thế giới",
+        "B": "Vì chỉ lưu đúng một nhánh hiện tại",
+        "C": "Phải lưu nhiều node ở frontier khi số nhánh và độ sâu tăng",
+        "D": "Vì BFS không dùng cấu trúc dữ liệu"
+      },
+      "correct_answer": "C",
+      "explanation": "«Vì bắt buộc lưu mọi số thực trong thế giới» sai: Đây không phải yêu cầu của BFS. «Vì chỉ lưu đúng một nhánh hiện tại» sai: Lưu một nhánh không phải cơ chế frontier của BFS. «Phải lưu nhiều node ở frontier khi số nhánh và độ sâu tăng» đúng: Frontier theo mức có thể phình nhanh. «Vì BFS không dùng cấu trúc dữ liệu» sai: BFS có queue và có thể có visited, parent. Nguồn: Buổi 02, trang PDF 36 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-008",
+      "topic": "DFS",
+      "difficulty": "easy",
+      "source_pages": [
+        42,
+        43
+      ],
+      "question": "DFS ưu tiên xử lý node theo cơ chế nào?",
+      "options": {
+        "A": "Luôn mở rộng hết mức nông trước",
+        "B": "Luôn chọn h nhỏ nhất",
+        "C": "Luôn chọn node có tổng cost nhỏ nhất",
+        "D": "Đi sâu theo một nhánh, thường bằng stack LIFO hoặc đệ quy"
+      },
+      "correct_answer": "D",
+      "explanation": "«Luôn mở rộng hết mức nông trước» sai: Đây là đặc trưng BFS. «Luôn chọn h nhỏ nhất» sai: Đây là tiêu chí Greedy, không phải DFS. «Luôn chọn node có tổng cost nhỏ nhất» sai: Đây là UCS. «Đi sâu theo một nhánh, thường bằng stack LIFO hoặc đệ quy» đúng: Node mới nhất hoặc nhánh hiện tại được theo tiếp. Nguồn: Buổi 02, trang PDF 42, 43 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-009",
+      "topic": "Bài tập stack DFS",
+      "difficulty": "medium",
+      "source_pages": [
+        43,
+        45
+      ],
+      "question": "Stack DFS có đáy bên trái. Push A rồi B, không push gì thêm. Node nào được pop trước?",
+      "options": {
+        "A": "A và B đồng thời",
+        "B": "B",
+        "C": "A",
+        "D": "Không xác định dù đã biết thứ tự push"
+      },
+      "correct_answer": "B",
+      "explanation": "«A và B đồng thời» sai: Pop lấy một phần tử đỉnh mỗi lần. «B» đúng: B ở đỉnh vì được push sau cùng. «A» sai: A được push trước nên nằm dưới B. «Không xác định dù đã biết thứ tự push» sai: Quy tắc LIFO và hướng đỉnh đã được xác định. Nguồn: Buổi 02, trang PDF 43, 45 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-010",
+      "topic": "Thứ tự duyệt DFS",
+      "difficulty": "medium",
+      "source_pages": [
+        45,
+        48
+      ],
+      "question": "Đổi thứ tự láng giềng có thể ảnh hưởng gì đến DFS?",
+      "options": {
+        "A": "Luôn biến DFS thành BFS",
+        "B": "Bảo đảm lời giải có cost nhỏ nhất",
+        "C": "Có thể làm đổi đường lời giải được tìm thấy trước",
+        "D": "Không bao giờ làm thay đổi đường tìm được"
+      },
+      "correct_answer": "C",
+      "explanation": "«Luôn biến DFS thành BFS» sai: Thứ tự láng giềng không thay đổi cơ chế đi sâu. «Bảo đảm lời giải có cost nhỏ nhất» sai: DFS không có bảo đảm tối ưu này. «Có thể làm đổi đường lời giải được tìm thấy trước» đúng: DFS phụ thuộc mạnh vào nhánh được ưu tiên. «Không bao giờ làm thay đổi đường tìm được» sai: Các nhánh được thử trước có thể dẫn tới goal khác hoặc đường khác. Nguồn: Buổi 02, trang PDF 45, 48 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-011",
+      "topic": "Giới hạn DFS",
+      "difficulty": "medium",
+      "source_pages": [
+        50
+      ],
+      "question": "DFS có visited set nhưng đi vào nhánh vô hạn gồm toàn state mới. Kết luận nào đúng?",
+      "options": {
+        "A": "Chắc chắn tìm đường ngắn nhất",
+        "B": "Vẫn có thể không kết thúc; visited không giải quyết nhánh vô hạn toàn state mới",
+        "C": "Nhánh đó phải chứa chu trình",
+        "D": "Chắc chắn kết thúc vì visited luôn giới hạn độ sâu"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chắc chắn tìm đường ngắn nhất» sai: DFS không bảo đảm đường ngắn nhất. «Vẫn có thể không kết thúc; visited không giải quyết nhánh vô hạn toàn state mới» đúng: Visited chống lặp, còn nhánh vô hạn có thể cần depth limit hoặc iterative deepening. «Nhánh đó phải chứa chu trình» sai: Vô hạn state mới không đồng nghĩa có state lặp. «Chắc chắn kết thúc vì visited luôn giới hạn độ sâu» sai: Visited không tự đặt giới hạn độ sâu. Nguồn: Buổi 02, trang PDF 50 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-012",
+      "topic": "UCS",
+      "difficulty": "easy",
+      "source_pages": [
+        58
+      ],
+      "question": "UCS ưu tiên node theo đại lượng nào?",
+      "options": {
+        "A": "Chi phí của riêng cạnh cuối cùng",
+        "B": "Số ký tự của tên node",
+        "C": "g(n): tổng chi phí từ trạng thái đầu đến node",
+        "D": "h(n): ước lượng phần đường còn lại"
+      },
+      "correct_answer": "C",
+      "explanation": "«Chi phí của riêng cạnh cuối cùng» sai: Cần cộng cost toàn bộ đường từ đầu. «Số ký tự của tên node» sai: Tên node không phải path cost. «g(n): tổng chi phí từ trạng thái đầu đến node» đúng: UCS lấy node có g nhỏ nhất trong priority queue. «h(n): ước lượng phần đường còn lại» sai: UCS không dựa trên heuristic. Nguồn: Buổi 02, trang PDF 58 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-013",
+      "topic": "Bài tập chọn node UCS",
+      "difficulty": "medium",
+      "source_pages": [
+        58
+      ],
+      "question": "Frontier UCS có A:g=7, B:g=3, C:g=5. Node nào được lấy ra tiếp theo?",
+      "options": {
+        "A": "C",
+        "B": "A",
+        "C": "Node có tên đứng cuối bảng chữ cái",
+        "D": "B"
+      },
+      "correct_answer": "D",
+      "explanation": "«C» sai: 5 vẫn lớn hơn 3. «A» sai: 7 lớn hơn 3 và 5. «Node có tên đứng cuối bảng chữ cái» sai: UCS chỉ dùng tie-break khi mức ưu tiên bằng nhau. «B» đúng: 3 là tổng cost nhỏ nhất. Nguồn: Buổi 02, trang PDF 58 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-014",
+      "topic": "Điều kiện dừng UCS",
+      "difficulty": "medium",
+      "source_pages": [
+        20,
+        60
+      ],
+      "question": "UCS vừa sinh được G với cost 12, nhưng frontier còn A với cost 4. Phải làm gì?",
+      "options": {
+        "A": "Dừng ngay vì lần sinh G đầu luôn tối ưu",
+        "B": "Xóa A vì G đã xuất hiện",
+        "C": "Chuyển sang chọn node có h nhỏ nhất",
+        "D": "Tiếp tục và chỉ chốt goal khi G được lấy ra với cost nhỏ nhất"
+      },
+      "correct_answer": "D",
+      "explanation": "«Dừng ngay vì lần sinh G đầu luôn tối ưu» sai: Đây là lỗi điều kiện dừng của UCS. «Xóa A vì G đã xuất hiện» sai: Xóa A có thể loại bỏ lời giải tốt hơn. «Chuyển sang chọn node có h nhỏ nhất» sai: UCS không chuyển tiêu chí sang heuristic. «Tiếp tục và chỉ chốt goal khi G được lấy ra với cost nhỏ nhất» đúng: A còn có thể dẫn đến đường tới G rẻ hơn 12. Nguồn: Buổi 02, trang PDF 20, 60 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-015",
+      "topic": "Cập nhật cost và parent",
+      "difficulty": "medium",
+      "source_pages": [
+        60
+      ],
+      "question": "Node D đang có g=6 qua A. Sau đó tìm được đường qua B có g=5. UCS cần xử lý thế nào?",
+      "options": {
+        "A": "Chỉ đổi parent sang B nhưng giữ g=6",
+        "B": "Cập nhật g(D)=5 và parent(D)=B",
+        "C": "Xóa mọi đường tới D vì bị trùng",
+        "D": "Giữ g=6 vì D từng được phát hiện"
+      },
+      "correct_answer": "B",
+      "explanation": "«Chỉ đổi parent sang B nhưng giữ g=6» sai: Cost và parent sẽ không nhất quán. «Cập nhật g(D)=5 và parent(D)=B» đúng: Đường mới rẻ hơn nên phải cập nhật cả cost và cách khôi phục đường. «Xóa mọi đường tới D vì bị trùng» sai: Trùng state không phải lý do loại cả đường tốt hơn. «Giữ g=6 vì D từng được phát hiện» sai: Đánh dấu quá sớm có thể làm mất lời giải tối ưu. Nguồn: Buổi 02, trang PDF 60 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-016",
+      "topic": "Bài tập UCS",
+      "difficulty": "hard",
+      "source_pages": [
+        70,
+        71,
+        72
+      ],
+      "question": "Cho các cạnh có trọng số S-A:1, S-B:4, A-C:2, A-D:5, B-D:1, C-G:6, D-G:2. Đường tối ưu từ S đến G là gì?",
+      "options": {
+        "A": "S → B → D → G, cost 7",
+        "B": "S → A → D → G, cost 8",
+        "C": "S → A → C → G, cost 9",
+        "D": "S → B → D → G, cost 5"
+      },
+      "correct_answer": "A",
+      "explanation": "«S → B → D → G, cost 7» đúng: Các đường đơn đến G qua C, A-D, B-D có cost lần lượt 9, 8, 7. «S → A → D → G, cost 8» sai: 1+5+2=8, đắt hơn 7. «S → A → C → G, cost 9» sai: 1+2+6=9, đắt hơn 7. «S → B → D → G, cost 5» sai: 4+1=5 mới đến D; còn phải cộng D-G=2. Nguồn: Buổi 02, trang PDF 70, 71, 72 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-017",
+      "topic": "Khôi phục đường đi",
+      "difficulty": "medium",
+      "source_pages": [
+        33,
+        72
+      ],
+      "question": "Biết parent(G)=D, parent(D)=B, parent(B)=S. Đường từ S đến G là gì?",
+      "options": {
+        "A": "G → D → B → S",
+        "B": "S → G",
+        "C": "S → B → D → G",
+        "D": "S → D → B → G"
+      },
+      "correct_answer": "C",
+      "explanation": "«G → D → B → S» sai: Đây là thứ tự truy vết ngược, chưa đảo thành đường từ S. «S → G» sai: Quan hệ parent cho biết có hai node trung gian. «S → B → D → G» đúng: Lần parent từ G về S rồi đảo thứ tự. «S → D → B → G» sai: Thứ tự này không khớp các quan hệ parent. Nguồn: Buổi 02, trang PDF 33, 72 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-018",
+      "topic": "Chu trình và visited",
+      "difficulty": "easy",
+      "source_pages": [
+        79
+      ],
+      "question": "Trong đồ thị A → B → A, mục đích chính của visited set trong BFS/DFS cơ bản là gì?",
+      "options": {
+        "A": "Biến mọi đồ thị thành một đường duy nhất",
+        "B": "Tự tính heuristic chính xác",
+        "C": "Bảo đảm mọi đường có cùng trọng số",
+        "D": "Tránh duyệt lặp các state đã gặp và tránh chu trình"
+      },
+      "correct_answer": "D",
+      "explanation": "«Biến mọi đồ thị thành một đường duy nhất» sai: Nó kiểm soát duyệt lặp, không thay đổi bài toán gốc. «Tự tính heuristic chính xác» sai: Visited không phải hàm ước lượng. «Bảo đảm mọi đường có cùng trọng số» sai: Visited không thay đổi trọng số cạnh. «Tránh duyệt lặp các state đã gặp và tránh chu trình» đúng: Đánh dấu giúp không thêm lại vô hạn A, B. Nguồn: Buổi 02, trang PDF 79 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-019",
+      "topic": "Nhiều lời giải tối ưu",
+      "difficulty": "medium",
+      "source_pages": [
+        66
+      ],
+      "question": "UCS tìm được hai đường tới G cùng cost 9. Phát biểu nào đúng?",
+      "options": {
+        "A": "Cả hai có thể tối ưu; quy ước tie-break có thể quyết định đường được giữ",
+        "B": "Chỉ đường xuất hiện trước trong bảng chữ cái mới có thể tối ưu",
+        "C": "Phải tăng cost một đường để phân biệt",
+        "D": "Có hai đường cùng cost thì thuật toán chắc chắn sai"
+      },
+      "correct_answer": "A",
+      "explanation": "«Cả hai có thể tối ưu; quy ước tie-break có thể quyết định đường được giữ» đúng: Tài liệu cho ví dụ hai đường cùng tổng cost tối ưu. «Chỉ đường xuất hiện trước trong bảng chữ cái mới có thể tối ưu» sai: Tối ưu được xác định bằng cost, không bằng tên node. «Phải tăng cost một đường để phân biệt» sai: Không được thay đổi chi phí bài toán chỉ để phá hòa. «Có hai đường cùng cost thì thuật toán chắc chắn sai» sai: Nhiều lời giải tối ưu là hoàn toàn có thể. Nguồn: Buổi 02, trang PDF 66 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-02-020",
+      "topic": "Chọn thuật toán",
+      "difficulty": "medium",
+      "source_pages": [
+        74,
+        80
+      ],
+      "question": "Đường X có 2 cạnh mỗi cạnh cost 100; đường Y có 3 cạnh mỗi cạnh cost 10. Cần tối thiểu tổng cost thì chọn cách nào?",
+      "options": {
+        "A": "Dùng UCS; Y có tổng cost 30 thấp hơn 200",
+        "B": "Dùng DFS và kết luận X luôn tối ưu",
+        "C": "Hai đường có cùng cost vì cùng goal",
+        "D": "Dùng BFS và kết luận X luôn rẻ nhất"
+      },
+      "correct_answer": "A",
+      "explanation": "«Dùng UCS; Y có tổng cost 30 thấp hơn 200» đúng: UCS chọn theo tổng cost nên phù hợp mục tiêu. «Dùng DFS và kết luận X luôn tối ưu» sai: DFS không bảo đảm tối ưu cost. «Hai đường có cùng cost vì cùng goal» sai: 200 và 30 khác nhau dù cùng tới đích. «Dùng BFS và kết luận X luôn rẻ nhất» sai: BFS tối thiểu số bước, không tối thiểu cost tùy ý. Nguồn: Buổi 02, trang PDF 74, 80 (đếm từ trang đầu file)."
+    }
+  ]
+}

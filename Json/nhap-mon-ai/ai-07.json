@@ -1,0 +1,383 @@
+{
+  "chapter_id": "ai-07",
+  "title": "Buổi 07 - MDP và học tăng cường",
+  "source_file": "NhapMonAI_Buoi07_MDP_HocTangCuong.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-07-001",
+      "topic": "MDP và RL",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        13,
+        14,
+        27
+      ],
+      "question": "Phân biệt nào đúng giữa MDP và Reinforcement Learning?",
+      "options": {
+        "A": "MDP chính là thuật toán Q-learning",
+        "B": "RL luôn cần nhãn đúng cho mọi action",
+        "C": "MDP chỉ mô tả một quyết định duy nhất",
+        "D": "MDP là mô hình ra quyết định tuần tự; RL là cách học từ tương tác và reward"
+      },
+      "correct_answer": "D",
+      "explanation": "«MDP chính là thuật toán Q-learning» sai: Q-learning là một phương pháp học, không phải định nghĩa MDP. «RL luôn cần nhãn đúng cho mọi action» sai: RL nhận reward từ trải nghiệm thay vì bắt buộc nhãn đúng từng action. «MDP chỉ mô tả một quyết định duy nhất» sai: MDP mô tả quá trình qua nhiều bước. «MDP là mô hình ra quyết định tuần tự; RL là cách học từ tương tác và reward» đúng: Có mô hình bài toán chưa đồng nghĩa đã có thuật toán tìm policy. Nguồn: Buổi 07, trang PDF 11, 13, 14, 27 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-002",
+      "topic": "Thành phần MDP",
+      "difficulty": "easy",
+      "source_pages": [
+        14
+      ],
+      "question": "Bộ năm thành phần MDP thường dùng trong tài liệu là gì?",
+      "options": {
+        "A": "TP, FP, FN, TN, accuracy",
+        "B": "Input, hidden, output, loss, epoch",
+        "C": "Variables, domains, constraints, queue, stack",
+        "D": "S, A, P, R, γ"
+      },
+      "correct_answer": "D",
+      "explanation": "«TP, FP, FN, TN, accuracy» sai: Đây là các đại lượng đánh giá phân loại. «Input, hidden, output, loss, epoch» sai: Đây là các khái niệm mạng nơ-ron. «Variables, domains, constraints, queue, stack» sai: Ba thành phần đầu gợi CSP, không phải bộ MDP. «S, A, P, R, γ» đúng: Lần lượt là state, action, transition, reward, discount factor. Nguồn: Buổi 07, trang PDF 14 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-003",
+      "topic": "Stochastic transition",
+      "difficulty": "medium",
+      "source_pages": [
+        18,
+        19,
+        20
+      ],
+      "question": "Lệnh đi phải đưa robot sang phải với xác suất 0,8, trượt lên 0,1 và trượt xuống 0,1. Phát biểu nào đúng?",
+      "options": {
+        "A": "Tổng xác suất bằng 0,8 vì chỉ tính hướng mong muốn",
+        "B": "Đây là transition ngẫu nhiên với tổng xác suất các kết quả bằng 1",
+        "C": "Mô hình sai chỉ vì có hơn một kết quả",
+        "D": "Đi phải chắc chắn sang phải"
+      },
+      "correct_answer": "B",
+      "explanation": "«Tổng xác suất bằng 0,8 vì chỉ tính hướng mong muốn» sai: Phải tính cả các kết quả trượt. «Đây là transition ngẫu nhiên với tổng xác suất các kết quả bằng 1» đúng: Cùng action có nhiều kết quả; 0,8+0,1+0,1=1. «Mô hình sai chỉ vì có hơn một kết quả» sai: MDP cho phép stochastic transition. «Đi phải chắc chắn sang phải» sai: Xác suất chỉ là 0,8. Nguồn: Buổi 07, trang PDF 18, 19, 20 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-004",
+      "topic": "Markov property",
+      "difficulty": "medium",
+      "source_pages": [
+        25,
+        26
+      ],
+      "question": "State hiện tại cần thỏa điều gì để mô hình có tính Markov?",
+      "options": {
+        "A": "Chứa đủ thông tin để dự đoán phân phối state tiếp theo và reward sau action",
+        "B": "Chỉ cần tên tầng, dù pin quyết định khả năng di chuyển",
+        "C": "Bắt buộc lưu nguyên văn toàn bộ lịch sử",
+        "D": "Bảo đảm mọi transition đều xác định"
+      },
+      "correct_answer": "A",
+      "explanation": "«Chứa đủ thông tin để dự đoán phân phối state tiếp theo và reward sau action» đúng: Ảnh hưởng quá khứ đã được tóm tắt qua state hiện tại. «Chỉ cần tên tầng, dù pin quyết định khả năng di chuyển» sai: Bỏ thông tin liên quan như pin có thể làm state không đủ. «Bắt buộc lưu nguyên văn toàn bộ lịch sử» sai: Tính Markov không yêu cầu lưu toàn lịch sử nếu state đã đủ. «Bảo đảm mọi transition đều xác định» sai: Markov vẫn cho phép transition có xác suất. Nguồn: Buổi 07, trang PDF 25, 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-005",
+      "topic": "Policy",
+      "difficulty": "easy",
+      "source_pages": [
+        23,
+        34
+      ],
+      "question": "Policy khác một đường đi cụ thể ở điểm nào?",
+      "options": {
+        "A": "Policy chỉ là danh sách các state đã đi qua một lần",
+        "B": "Policy chỉ ra cách chọn action tại các state, còn đường đi mô tả một lần diễn tiến",
+        "C": "Policy không bao giờ có thể ngẫu nhiên",
+        "D": "Đường đi luôn hướng dẫn được mọi state chưa gặp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Policy chỉ là danh sách các state đã đi qua một lần» sai: Đây là mô tả trajectory hơn là quy tắc hành động. «Policy chỉ ra cách chọn action tại các state, còn đường đi mô tả một lần diễn tiến» đúng: Policy còn hướng dẫn được khi agent lệch sang state khác. «Policy không bao giờ có thể ngẫu nhiên» sai: Tài liệu cho phép deterministic và stochastic policy. «Đường đi luôn hướng dẫn được mọi state chưa gặp» sai: Một đường cụ thể không bao phủ mọi tình huống. Nguồn: Buổi 07, trang PDF 23, 34 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-006",
+      "topic": "Reward và return",
+      "difficulty": "medium",
+      "source_pages": [
+        21,
+        40
+      ],
+      "question": "Robot nhận reward theo chuỗi −1, −1, +10. Return không chiết khấu của chuỗi hữu hạn này là bao nhiêu?",
+      "options": {
+        "A": "12",
+        "B": "8",
+        "C": "10",
+        "D": "−2"
+      },
+      "correct_answer": "B",
+      "explanation": "«12» sai: Đã đổi hai reward âm thành dương. «8» đúng: Cộng −1−1+10=8. «10» sai: Chỉ lấy reward cuối, bỏ hai khoản phạt. «−2» sai: Chỉ cộng hai bước đầu. Nguồn: Buổi 07, trang PDF 21, 40 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-007",
+      "topic": "Discounted return",
+      "difficulty": "medium",
+      "source_pages": [
+        43,
+        44,
+        45
+      ],
+      "question": "Với R1=−1, R2=−1, R3=10 và γ=0,9, G=R1+γR2+γ²R3 bằng bao nhiêu?",
+      "options": {
+        "A": "8",
+        "B": "7,1",
+        "C": "8,1",
+        "D": "6,2"
+      },
+      "correct_answer": "D",
+      "explanation": "«8» sai: Đây là tổng không chiết khấu. «7,1» sai: Đã dùng γ thay vì γ² cho reward thứ ba. «8,1» sai: Đây chỉ là đóng góp của reward thứ ba. «6,2» đúng: −1−0,9+0,81×10=6,2. Nguồn: Buổi 07, trang PDF 43, 44, 45 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-008",
+      "topic": "Discount factor",
+      "difficulty": "medium",
+      "source_pages": [
+        42,
+        43
+      ],
+      "question": "Nếu γ=0 thì return G=R1+γR2+γ²R3+... còn phụ thuộc vào reward nào?",
+      "options": {
+        "A": "Chỉ R1",
+        "B": "Chỉ reward cuối cùng",
+        "C": "Tất cả reward có trọng số bằng nhau",
+        "D": "Không phụ thuộc cả R1"
+      },
+      "correct_answer": "A",
+      "explanation": "«Chỉ R1» đúng: Các reward xa hơn bị nhân 0. «Chỉ reward cuối cùng» sai: Không phải tác dụng của γ=0. «Tất cả reward có trọng số bằng nhau» sai: Điều này ứng với γ=1 trong chuỗi hữu hạn. «Không phụ thuộc cả R1» sai: Hệ số của R1 là 1. Nguồn: Buổi 07, trang PDF 42, 43 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-009",
+      "topic": "State value",
+      "difficulty": "easy",
+      "source_pages": [
+        46,
+        50
+      ],
+      "question": "Vπ(s) được hiểu thế nào?",
+      "options": {
+        "A": "Một hằng số không bao giờ đổi khi đổi policy",
+        "B": "Return kỳ vọng từ state s khi tiếp tục theo policy π",
+        "C": "Chỉ reward tức thời vừa nhận",
+        "D": "Số action có trong toàn bộ môi trường"
+      },
+      "correct_answer": "B",
+      "explanation": "«Một hằng số không bao giờ đổi khi đổi policy» sai: Đổi policy có thể làm value thay đổi. «Return kỳ vọng từ state s khi tiếp tục theo policy π» đúng: Value phụ thuộc cả state và policy đang xét. «Chỉ reward tức thời vừa nhận» sai: Value xét dài hạn, không chỉ reward ngay. «Số action có trong toàn bộ môi trường» sai: Đây không phải ý nghĩa value. Nguồn: Buổi 07, trang PDF 46, 50 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-010",
+      "topic": "Tính kỳ vọng",
+      "difficulty": "medium",
+      "source_pages": [
+        48,
+        49
+      ],
+      "question": "Một action cho giá trị 8 với xác suất 0,8; 2 với 0,1; −5 với 0,1. Giá trị kỳ vọng là bao nhiêu?",
+      "options": {
+        "A": "8",
+        "B": "5",
+        "C": "6,9",
+        "D": "6,1"
+      },
+      "correct_answer": "D",
+      "explanation": "«8» sai: Đây chỉ là kết quả có xác suất lớn nhất. «5» sai: Cộng giá trị không nhân xác suất không phải kỳ vọng. «6,9» sai: Đã đổi dấu khoản −0,5 thành dương. «6,1» đúng: 0,8×8+0,1×2+0,1×(−5)=6,1. Nguồn: Buổi 07, trang PDF 48, 49 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-011",
+      "topic": "Chọn action theo kỳ vọng",
+      "difficulty": "medium",
+      "source_pages": [
+        83,
+        84
+      ],
+      "question": "A1: 70% nhận 8 và 30% nhận −2. A2: chắc chắn nhận 4. Nếu chỉ tối đa hóa kỳ vọng một bước thì chọn gì?",
+      "options": {
+        "A": "Hai action có kỳ vọng bằng nhau",
+        "B": "A2 vì kỳ vọng A1 là 2",
+        "C": "A1 vì kỳ vọng 5 lớn hơn 4",
+        "D": "A1 vì chắc chắn luôn nhận 8"
+      },
+      "correct_answer": "C",
+      "explanation": "«Hai action có kỳ vọng bằng nhau» sai: Kỳ vọng lần lượt là 5 và 4. «A2 vì kỳ vọng A1 là 2» sai: Tính kỳ vọng 2 là sai. «A1 vì kỳ vọng 5 lớn hơn 4» đúng: 0,7×8+0,3×(−2)=5. «A1 vì chắc chắn luôn nhận 8» sai: A1 còn có 30% nhận −2; kỳ vọng không là bảo đảm. Nguồn: Buổi 07, trang PDF 83, 84 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-012",
+      "topic": "Value Iteration",
+      "difficulty": "easy",
+      "source_pages": [
+        51
+      ],
+      "question": "Value Iteration được mô tả theo ý tưởng nào?",
+      "options": {
+        "A": "Luôn chọn action ngẫu nhiên và không cập nhật value",
+        "B": "Bắt buộc bỏ qua xác suất transition",
+        "C": "Lặp cập nhật value từ reward và giá trị kỳ vọng của state kế tiếp, chọn action tốt nhất",
+        "D": "Chỉ đếm số từ trong tên action"
+      },
+      "correct_answer": "C",
+      "explanation": "«Luôn chọn action ngẫu nhiên và không cập nhật value» sai: Trái với bản chất lặp cập nhật tối ưu. «Bắt buộc bỏ qua xác suất transition» sai: Kỳ vọng cần xác suất chuyển trạng thái. «Lặp cập nhật value từ reward và giá trị kỳ vọng của state kế tiếp, chọn action tốt nhất» đúng: Đây là ý tưởng Bellman optimality backup khi biết mô hình MDP. «Chỉ đếm số từ trong tên action» sai: Không có liên quan đến value. Nguồn: Buổi 07, trang PDF 51 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-013",
+      "topic": "RL và supervised learning",
+      "difficulty": "easy",
+      "source_pages": [
+        57,
+        58,
+        59,
+        74
+      ],
+      "question": "Tín hiệu học tiêu biểu của RL so với supervised learning là gì?",
+      "options": {
+        "A": "Mọi action đều được giáo viên gán sẵn đáp án đúng",
+        "B": "Chỉ có các ảnh không nhãn và không hành động",
+        "C": "Trải nghiệm state–action–reward, thay vì bắt buộc cặp input–label cho từng quyết định",
+        "D": "Không có phản hồi nào từ môi trường"
+      },
+      "correct_answer": "C",
+      "explanation": "«Mọi action đều được giáo viên gán sẵn đáp án đúng» sai: Đó gần với học có giám sát hơn. «Chỉ có các ảnh không nhãn và không hành động» sai: Đây không mô tả vòng lặp RL. «Trải nghiệm state–action–reward, thay vì bắt buộc cặp input–label cho từng quyết định» đúng: RL học qua tương tác để cải thiện return dài hạn. «Không có phản hồi nào từ môi trường» sai: Reward là phản hồi quan trọng. Nguồn: Buổi 07, trang PDF 57, 58, 59, 74 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-014",
+      "topic": "Exploration và exploitation",
+      "difficulty": "easy",
+      "source_pages": [
+        61
+      ],
+      "question": "Agent thử action chưa biết rõ dù có thể được reward thấp ngắn hạn. Đây là gì?",
+      "options": {
+        "A": "Data leakage",
+        "B": "Goal test",
+        "C": "Exploration",
+        "D": "Exploitation"
+      },
+      "correct_answer": "C",
+      "explanation": "«Data leakage» sai: Không phải đưa thông tin tương lai vào feature. «Goal test» sai: Đây không phải phép kiểm tra đã đạt đích. «Exploration» đúng: Thử lựa chọn mới giúp phát hiện phương án tốt hơn. «Exploitation» sai: Exploitation tận dụng action hiện đang được biết là tốt. Nguồn: Buổi 07, trang PDF 61 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-015",
+      "topic": "Epsilon-greedy",
+      "difficulty": "medium",
+      "source_pages": [
+        63
+      ],
+      "question": "Theo epsilon-greedy ε=0,1 trong tài liệu, nhánh chọn ngẫu nhiên được dùng với xác suất nào?",
+      "options": {
+        "A": "0,1",
+        "B": "0,9",
+        "C": "1,0",
+        "D": "0 vì agent không bao giờ khám phá"
+      },
+      "correct_answer": "A",
+      "explanation": "«0,1» đúng: 10% lượt chọn đi vào nhánh khám phá ngẫu nhiên. «0,9» sai: 90% là nhánh chọn action đang tốt nhất. «1,0» sai: Không phải mọi lượt đều vào nhánh ngẫu nhiên. «0 vì agent không bao giờ khám phá» sai: ε dương cho phép khám phá. Nguồn: Buổi 07, trang PDF 63 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-016",
+      "topic": "Q-value và Q-table",
+      "difficulty": "medium",
+      "source_pages": [
+        64,
+        65
+      ],
+      "question": "Tại S có Q(trái)=0,5 và Q(phải)=0,3. Nếu đang exploitation và tối đa hóa Q, chọn action nào?",
+      "options": {
+        "A": "Phải",
+        "B": "Trái",
+        "C": "Bắt buộc chọn ngẫu nhiên",
+        "D": "Không thể so sánh Q của hai action cùng state"
+      },
+      "correct_answer": "B",
+      "explanation": "«Phải» sai: Giá trị 0,3 nhỏ hơn 0,5. «Trái» đúng: 0,5 lớn hơn 0,3 tại cùng state S. «Bắt buộc chọn ngẫu nhiên» sai: Exploitation theo Q chọn giá trị lớn nhất khi không hòa. «Không thể so sánh Q của hai action cùng state» sai: Q-table được dùng chính để so sánh các action. Nguồn: Buổi 07, trang PDF 64, 65 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-017",
+      "topic": "Bài tập Q-learning",
+      "difficulty": "hard",
+      "source_pages": [
+        66,
+        68,
+        70,
+        71,
+        72
+      ],
+      "question": "Q cũ=0,5; r=−1; max Q(s′,a′)=4; α=0,5; γ=0,9. Theo Q mới=Q cũ+α[r+γmaxQ−Q cũ], Q mới bằng bao nhiêu?",
+      "options": {
+        "A": "1,55",
+        "B": "0,5",
+        "C": "2,6",
+        "D": "1,05"
+      },
+      "correct_answer": "A",
+      "explanation": "«1,55» đúng: Target=−1+0,9×4=2,6; Q mới=0,5+0,5×(2,6−0,5)=1,55. «0,5» sai: Đã bỏ qua cập nhật dù error dương. «2,6» sai: Đây là target, chưa cập nhật với learning rate. «1,05» sai: Đây là độ tăng α×error, chưa cộng Q cũ. Nguồn: Buổi 07, trang PDF 66, 68, 70, 71, 72 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-018",
+      "topic": "Learning rate trong Q-learning",
+      "difficulty": "hard",
+      "source_pages": [
+        66,
+        87,
+        88,
+        89
+      ],
+      "question": "Q cũ=2; r=1; max Q(s′,a′)=5; α=0,4; γ=0,9. Kết quả cập nhật là gì?",
+      "options": {
+        "A": "1,4",
+        "B": "5,5",
+        "C": "4,2",
+        "D": "3,4"
+      },
+      "correct_answer": "D",
+      "explanation": "«1,4» sai: Đây là phần tăng, chưa cộng Q cũ=2. «5,5» sai: Đây là target, không phải Q mới với α=0,4. «4,2» sai: Không theo công thức với các hệ số đã cho. «3,4» đúng: Target=5,5; error=3,5; Q mới=2+0,4×3,5=3,4. Nguồn: Buổi 07, trang PDF 66, 87, 88, 89 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-019",
+      "topic": "Q-learning terminal",
+      "difficulty": "hard",
+      "source_pages": [
+        66,
+        90,
+        91
+      ],
+      "question": "Q cũ=2, r=5, α=0,5; state kế tiếp là terminal. Q mới bằng bao nhiêu khi phần giá trị tương lai ở terminal bằng 0?",
+      "options": {
+        "A": "3,5",
+        "B": "5",
+        "C": "2,5",
+        "D": "Không thể tính nếu không cho γ"
+      },
+      "correct_answer": "A",
+      "explanation": "«3,5» đúng: Target=5; Q mới=2+0,5×(5−2)=3,5. «5» sai: Bằng reward chỉ khi learning rate cập nhật hoàn toàn; ở đây α=0,5. «2,5» sai: Chỉ lấy α×r và bỏ Q cũ trong công thức. «Không thể tính nếu không cho γ» sai: Phần tương lai là γ×0 nên không cần giá trị cụ thể của γ. Nguồn: Buổi 07, trang PDF 66, 90, 91 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-07-020",
+      "topic": "Thiết kế reward",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        77
+      ],
+      "question": "Robot chỉ được thưởng vì hoàn thành nhanh nên học đường nguy hiểm. Nhận xét nào đúng?",
+      "options": {
+        "A": "Policy học được không bao giờ phụ thuộc reward",
+        "B": "Cứ tăng tốc độ thì hành vi tự an toàn hơn",
+        "C": "Reward có thể lệch mục tiêu; cần thiết kế lại tiêu chí và kiểm thử, giám sát",
+        "D": "Mô phỏng thành công là đủ bảo đảm triển khai thực tế"
+      },
+      "correct_answer": "C",
+      "explanation": "«Policy học được không bao giờ phụ thuộc reward» sai: Reward trực tiếp định hướng việc học. «Cứ tăng tốc độ thì hành vi tự an toàn hơn» sai: Tốc độ không bảo đảm an toàn. «Reward có thể lệch mục tiêu; cần thiết kế lại tiêu chí và kiểm thử, giám sát» đúng: Agent có thể tối ưu điều được thưởng nhưng gây hành vi không mong muốn. «Mô phỏng thành công là đủ bảo đảm triển khai thực tế» sai: Khác biệt môi trường có thể làm policy kém hoặc nguy hiểm. Nguồn: Buổi 07, trang PDF 22, 77 (đếm từ trang đầu file)."
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "chapter_id": "ai-09",
+  "title": "Buổi 09 - Neural Networks và Deep Learning",
+  "source_file": "NhapMonAI_Buoi09_NeuralNetworks_DeepLearning.pdf",
+  "language": "vi",
+  "math_format": {
+    "type": "latex",
+    "inline_delimiter": "$",
+    "block_delimiter": "$$",
+    "renderer_hint": "KaTeX"
+  },
+  "question_type": "single_choice",
+  "questions": [
+    {
+      "id": "ai-09-001",
+      "topic": "Neuron nhân tạo",
+      "difficulty": "easy",
+      "source_pages": [
+        11,
+        12,
+        16
+      ],
+      "question": "Thứ tự xử lý cơ bản của một neuron trong tài liệu là gì?",
+      "options": {
+        "A": "Luôn trả nguyên input, không cần weight hay bias",
+        "B": "Nhân input với weight, cộng bias, rồi áp dụng activation",
+        "C": "Cộng label vào tên mô hình rồi bỏ input",
+        "D": "Chỉ so sánh tên các feature theo bảng chữ cái"
+      },
+      "correct_answer": "B",
+      "explanation": "«Luôn trả nguyên input, không cần weight hay bias» sai: Neuron được định nghĩa với bước kết hợp có trọng số. «Nhân input với weight, cộng bias, rồi áp dụng activation» đúng: Đầu ra được tính từ tổng có trọng số qua hàm kích hoạt. «Cộng label vào tên mô hình rồi bỏ input» sai: Không phải quy trình neuron. «Chỉ so sánh tên các feature theo bảng chữ cái» sai: Neuron tính từ giá trị đầu vào và tham số. Nguồn: Buổi 09, trang PDF 11, 12, 16 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-002",
+      "topic": "Weight và bias",
+      "difficulty": "medium",
+      "source_pages": [
+        14,
+        15
+      ],
+      "question": "Phát biểu nào đúng về bias b trong z=Σwᵢxᵢ+b?",
+      "options": {
+        "A": "Luôn là lỗi thiên lệch xã hội trong dataset",
+        "B": "Bắt buộc luôn bằng 0",
+        "C": "Chính là số hidden layer",
+        "D": "Là số cộng thêm giúp dịch chuyển ngưỡng hoặc phép biến đổi của neuron"
+      },
+      "correct_answer": "D",
+      "explanation": "«Luôn là lỗi thiên lệch xã hội trong dataset» sai: Bias tham số neuron khác nghĩa với harmful bias trong dữ liệu. «Bắt buộc luôn bằng 0» sai: Bias có thể được học và không bắt buộc 0. «Chính là số hidden layer» sai: Bias là tham số, không phải độ sâu mạng. «Là số cộng thêm giúp dịch chuyển ngưỡng hoặc phép biến đổi của neuron» đúng: Bias tăng tính linh hoạt ngoài các tích weight–input. Nguồn: Buổi 09, trang PDF 14, 15 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-003",
+      "topic": "Tính tổng có trọng số",
+      "difficulty": "medium",
+      "source_pages": [
+        16,
+        19,
+        20
+      ],
+      "question": "Cho x1=3,x2=4,w1=0,2,w2=0,5,b=−0,1. z=w1x1+w2x2+b bằng bao nhiêu?",
+      "options": {
+        "A": "2,5",
+        "B": "2,6",
+        "C": "2,7",
+        "D": "3,6"
+      },
+      "correct_answer": "A",
+      "explanation": "«2,5» đúng: 0,2×3+0,5×4−0,1=0,6+2−0,1=2,5. «2,6» sai: Đã bỏ qua bias −0,1. «2,7» sai: Đã đổi dấu bias thành +0,1. «3,6» sai: Không khớp hai tích 0,6 và 2 cộng bias đã cho. Nguồn: Buổi 09, trang PDF 16, 19, 20 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-004",
+      "topic": "Phi tuyến",
+      "difficulty": "medium",
+      "source_pages": [
+        22,
+        23
+      ],
+      "question": "Vì sao mạng nhiều lớp cần activation phi tuyến để học các quan hệ phức tạp hơn một biến đổi affine?",
+      "options": {
+        "A": "Nhiều phép affine liên tiếp vẫn gộp thành một phép affine nếu không có phi tuyến",
+        "B": "Vì thêm lớp affine luôn tự tạo mọi quan hệ phi tuyến",
+        "C": "Vì activation luôn thay thế toàn bộ dữ liệu train",
+        "D": "Vì phép cộng không thực hiện được trên máy tính"
+      },
+      "correct_answer": "A",
+      "explanation": "«Nhiều phép affine liên tiếp vẫn gộp thành một phép affine nếu không có phi tuyến» đúng: Activation phi tuyến làm tăng khả năng biểu diễn. «Vì thêm lớp affine luôn tự tạo mọi quan hệ phi tuyến» sai: Hợp các phép affine vẫn affine. «Vì activation luôn thay thế toàn bộ dữ liệu train» sai: Activation chỉ là hàm biến đổi trong mạng. «Vì phép cộng không thực hiện được trên máy tính» sai: Máy tính thực hiện được cộng; vấn đề là khả năng biểu diễn. Nguồn: Buổi 09, trang PDF 22, 23 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-005",
+      "topic": "Các activation",
+      "difficulty": "easy",
+      "source_pages": [
+        25,
+        26,
+        27
+      ],
+      "question": "Với quy tắc Step(z)=1 khi z≥0, Sigmoid(z)∈(0,1), ReLU(z)=max(0,z), phát biểu nào đúng?",
+      "options": {
+        "A": "ReLU(−2)=−2",
+        "B": "Sigmoid luôn trả đúng 0 hoặc đúng 1 với z hữu hạn",
+        "C": "ReLU(−2)=0 và ReLU(3)=3",
+        "D": "Step(0)=0 theo quy tắc đã nêu"
+      },
+      "correct_answer": "C",
+      "explanation": "«ReLU(−2)=−2» sai: ReLU không giữ đầu vào âm. «Sigmoid luôn trả đúng 0 hoặc đúng 1 với z hữu hạn» sai: Sigmoid nằm trong khoảng mở (0,1). «ReLU(−2)=0 và ReLU(3)=3» đúng: ReLU chặn phần âm và giữ phần dương. «Step(0)=0 theo quy tắc đã nêu» sai: Đề đã quy định z≥0 cho output 1. Nguồn: Buổi 09, trang PDF 25, 26, 27 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-006",
+      "topic": "Confidence và hiệu chuẩn",
+      "difficulty": "medium",
+      "source_pages": [
+        26
+      ],
+      "question": "Sigmoid xuất 0,8. Nhận định nào đúng theo tài liệu?",
+      "options": {
+        "A": "Chứng minh mô hình không bao giờ sai",
+        "B": "Chắc chắn đúng 80% ở mọi miền dữ liệu",
+        "C": "Là giá trị không thể có vì sigmoid chỉ nhận 0 hoặc 1",
+        "D": "Không tự động bảo đảm mô hình đúng 80%; còn phụ thuộc hiệu chuẩn và đánh giá"
+      },
+      "correct_answer": "D",
+      "explanation": "«Chứng minh mô hình không bao giờ sai» sai: 0,8 không phải bằng chứng hoàn hảo. «Chắc chắn đúng 80% ở mọi miền dữ liệu» sai: Không có bảo đảm chung này. «Là giá trị không thể có vì sigmoid chỉ nhận 0 hoặc 1» sai: 0,8 nằm trong miền đầu ra sigmoid. «Không tự động bảo đảm mô hình đúng 80%; còn phụ thuộc hiệu chuẩn và đánh giá» đúng: Giá trị đầu ra cao chưa đủ xác nhận độ đúng thực tế. Nguồn: Buổi 09, trang PDF 26 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-007",
+      "topic": "Các layer",
+      "difficulty": "easy",
+      "source_pages": [
+        32,
+        34,
+        35,
+        36
+      ],
+      "question": "Vai trò input, hidden và output layer lần lượt là gì?",
+      "options": {
+        "A": "Tạo nhãn thật, lưu Git, chọn GPU",
+        "B": "Cả ba chỉ chứa label đúng của test set",
+        "C": "Nhận dữ liệu, tạo biểu diễn trung gian, tạo dự đoán cuối",
+        "D": "Tạo dự đoán cuối, nhận dữ liệu, bỏ dữ liệu"
+      },
+      "correct_answer": "C",
+      "explanation": "«Tạo nhãn thật, lưu Git, chọn GPU» sai: Không phải vai trò của các layer. «Cả ba chỉ chứa label đúng của test set» sai: Layer không được định nghĩa như kho label test. «Nhận dữ liệu, tạo biểu diễn trung gian, tạo dự đoán cuối» đúng: Đây là ba vai trò trong mô tả mạng cơ bản. «Tạo dự đoán cuối, nhận dữ liệu, bỏ dữ liệu» sai: Đã đảo và làm sai quy trình. Nguồn: Buổi 09, trang PDF 32, 34, 35, 36 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-008",
+      "topic": "Thiết kế output",
+      "difficulty": "easy",
+      "source_pages": [
+        36,
+        37
+      ],
+      "question": "Theo ví dụ nhận diện chữ số 0–9, output có thể được thiết kế thế nào?",
+      "options": {
+        "A": "Số output không bao giờ liên quan tác vụ",
+        "B": "10 điểm số, softmax chuyển thành xác suất có tổng bằng 1",
+        "C": "Luôn một số tiền liên tục như dự đoán giá nhà",
+        "D": "Chỉ 9 điểm vì chữ số 0 không là lớp"
+      },
+      "correct_answer": "B",
+      "explanation": "«Số output không bao giờ liên quan tác vụ» sai: Thiết kế output phụ thuộc loại bài toán. «10 điểm số, softmax chuyển thành xác suất có tổng bằng 1» đúng: Mỗi điểm tương ứng một trong 10 lớp chữ số. «Luôn một số tiền liên tục như dự đoán giá nhà» sai: Đó là ví dụ output cho regression, không phù hợp mô tả ở đây. «Chỉ 9 điểm vì chữ số 0 không là lớp» sai: Có đủ 10 chữ số từ 0 đến 9. Nguồn: Buổi 09, trang PDF 36, 37 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-009",
+      "topic": "Deep Learning và biểu diễn",
+      "difficulty": "easy",
+      "source_pages": [
+        38,
+        73,
+        75
+      ],
+      "question": "Từ 'deep' trong Deep Learning chủ yếu nói về điều gì?",
+      "options": {
+        "A": "Khả năng tự hiểu đúng mọi khái niệm như con người",
+        "B": "Chỉ việc lưu dữ liệu ở thư mục sâu",
+        "C": "Không cần học từ dữ liệu nữa",
+        "D": "Độ sâu kiến trúc với nhiều lớp biến đổi và biểu diễn trung gian"
+      },
+      "correct_answer": "D",
+      "explanation": "«Khả năng tự hiểu đúng mọi khái niệm như con người» sai: Tài liệu cảnh báo không đồng nhất hai ý nghĩa. «Chỉ việc lưu dữ liệu ở thư mục sâu» sai: Không liên quan cấu trúc thư mục. «Không cần học từ dữ liệu nữa» sai: Mạng vẫn cần huấn luyện từ dữ liệu phù hợp. «Độ sâu kiến trúc với nhiều lớp biến đổi và biểu diễn trung gian» đúng: Không đồng nghĩa hiểu sâu như con người. Nguồn: Buổi 09, trang PDF 38, 73, 75 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-010",
+      "topic": "Forward và backward",
+      "difficulty": "easy",
+      "source_pages": [
+        41,
+        65,
+        66
+      ],
+      "question": "Forward pass và backpropagation đảm nhiệm vai trò nào?",
+      "options": {
+        "A": "Forward tự cập nhật mọi weight; backward chỉ hiển thị kết quả",
+        "B": "Forward tính dự đoán; backpropagation tính gradient của loss theo tham số",
+        "C": "Backpropagation tự tạo label thật cho mọi input",
+        "D": "Cả hai đều chỉ là bước chia dataset"
+      },
+      "correct_answer": "B",
+      "explanation": "«Forward tự cập nhật mọi weight; backward chỉ hiển thị kết quả» sai: Đã nhầm các bước tính toán, tính gradient và cập nhật. «Forward tính dự đoán; backpropagation tính gradient của loss theo tham số» đúng: Optimizer sau đó dùng gradient để cập nhật. «Backpropagation tự tạo label thật cho mọi input» sai: Nó không thay thế dữ liệu nhãn trong supervised learning. «Cả hai đều chỉ là bước chia dataset» sai: Không phải vai trò hai quá trình. Nguồn: Buổi 09, trang PDF 41, 65, 66 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-011",
+      "topic": "Bài tập forward pass",
+      "difficulty": "medium",
+      "source_pages": [
+        43,
+        44,
+        45
+      ],
+      "question": "Neuron có x1=2,x2=1,w1=0,4,w2=−0,3,b=0,2 và activation ReLU. Output bằng bao nhiêu?",
+      "options": {
+        "A": "0",
+        "B": "0,5",
+        "C": "0,7",
+        "D": "1,3"
+      },
+      "correct_answer": "C",
+      "explanation": "«0» sai: z dương nên không bị chặn về 0. «0,5» sai: Đã bỏ bias +0,2. «0,7» đúng: z=0,4×2−0,3×1+0,2=0,7; ReLU giữ nguyên. «1,3» sai: Đã đổi weight −0,3 thành +0,3. Nguồn: Buổi 09, trang PDF 43, 44, 45 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-012",
+      "topic": "Bài tập ReLU âm",
+      "difficulty": "medium",
+      "source_pages": [
+        16,
+        27,
+        47,
+        48
+      ],
+      "question": "Neuron có x1=1,x2=2,w1=0,2,w2=−0,5,b=0,1. Với ReLU, output là gì?",
+      "options": {
+        "A": "−0,7",
+        "B": "0,7",
+        "C": "1,3",
+        "D": "0"
+      },
+      "correct_answer": "D",
+      "explanation": "«−0,7» sai: Đây là z trước activation, không phải output sau ReLU. «0,7» sai: ReLU không lấy trị tuyệt đối. «1,3» sai: Đã bỏ dấu âm của weight thứ hai. «0» đúng: z=0,2−1+0,1=−0,7; ReLU(−0,7)=0. Nguồn: Buổi 09, trang PDF 16, 27, 47, 48 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-013",
+      "topic": "Loss và accuracy",
+      "difficulty": "medium",
+      "source_pages": [
+        50,
+        51,
+        52
+      ],
+      "question": "Hai mô hình có cùng accuracy nhưng loss khác nhau có thể xảy ra không?",
+      "options": {
+        "A": "Có, mức độ tự tin của dự đoán có thể làm loss khác nhau",
+        "B": "Có, chỉ vì loss chính là số layer",
+        "C": "Không, accuracy quyết định duy nhất mọi hàm loss",
+        "D": "Không, loss luôn bằng 1−accuracy"
+      },
+      "correct_answer": "A",
+      "explanation": "«Có, mức độ tự tin của dự đoán có thể làm loss khác nhau» đúng: Accuracy đếm đúng/sai; loss đo sai lệch theo hàm cụ thể. «Có, chỉ vì loss chính là số layer» sai: Loss không phải độ sâu mạng. «Không, accuracy quyết định duy nhất mọi hàm loss» sai: Cùng số dự đoán đúng không quyết định xác suất dự đoán. «Không, loss luôn bằng 1−accuracy» sai: Tài liệu phân biệt rõ hai đại lượng. Nguồn: Buổi 09, trang PDF 50, 51, 52 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-014",
+      "topic": "Gradient Descent",
+      "difficulty": "medium",
+      "source_pages": [
+        57,
+        59,
+        60,
+        61
+      ],
+      "question": "Gradient Descent cập nhật w_new=w_old−α×gradient. Learning rate quá lớn có thể gây gì?",
+      "options": {
+        "A": "Không thay đổi gì vì α không nằm trong công thức",
+        "B": "Bảo đảm tìm global optimum ngay bước đầu",
+        "C": "Loss dao động hoặc tăng do bước cập nhật vượt vùng tốt",
+        "D": "Luôn giảm loss nhanh và ổn định hơn"
+      },
+      "correct_answer": "C",
+      "explanation": "«Không thay đổi gì vì α không nằm trong công thức» sai: α trực tiếp nhân gradient. «Bảo đảm tìm global optimum ngay bước đầu» sai: Không có bảo đảm này trong tài liệu. «Loss dao động hoặc tăng do bước cập nhật vượt vùng tốt» đúng: Hướng giảm cục bộ không bảo đảm mọi độ dài bước đều làm giảm loss. «Luôn giảm loss nhanh và ổn định hơn» sai: Quá lớn có thể làm huấn luyện không ổn định. Nguồn: Buổi 09, trang PDF 57, 59, 60, 61 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-015",
+      "topic": "Bài tập cập nhật weight",
+      "difficulty": "medium",
+      "source_pages": [
+        61,
+        62
+      ],
+      "question": "w_old=0,5; α=0,1; gradient=0,4. w_new theo Gradient Descent là bao nhiêu?",
+      "options": {
+        "A": "0,10",
+        "B": "0,04",
+        "C": "0,54",
+        "D": "0,46"
+      },
+      "correct_answer": "D",
+      "explanation": "«0,10» sai: Đã trừ gradient mà bỏ learning rate. «0,04» sai: Đây chỉ là độ lớn bước α×gradient. «0,54» sai: Đã đi cùng chiều gradient, dùng dấu cộng. «0,46» đúng: 0,5−0,1×0,4=0,46. Nguồn: Buổi 09, trang PDF 61, 62 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-016",
+      "topic": "Training loop",
+      "difficulty": "medium",
+      "source_pages": [
+        65,
+        66,
+        68
+      ],
+      "question": "Thứ tự nào đúng cho một bước huấn luyện supervised neural network cơ bản?",
+      "options": {
+        "A": "Cập nhật weight → tạo label tùy ý → bỏ loss",
+        "B": "Backpropagation → bỏ gradient → chỉ lưu tên lớp",
+        "C": "Forward → tính loss → backpropagation tính gradient → optimizer cập nhật",
+        "D": "Chỉ forward nhiều lần với tham số cố định là đủ để học weight"
+      },
+      "correct_answer": "C",
+      "explanation": "«Cập nhật weight → tạo label tùy ý → bỏ loss» sai: Không theo quy trình học đã nêu. «Backpropagation → bỏ gradient → chỉ lưu tên lớp» sai: Không dùng được gradient để học. «Forward → tính loss → backpropagation tính gradient → optimizer cập nhật» đúng: Cần dự đoán để tính loss, rồi đạo hàm để cập nhật tham số. «Chỉ forward nhiều lần với tham số cố định là đủ để học weight» sai: Forward đơn thuần không thực hiện cập nhật. Nguồn: Buổi 09, trang PDF 65, 66, 68 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-017",
+      "topic": "Epoch, batch, iteration",
+      "difficulty": "medium",
+      "source_pages": [
+        69
+      ],
+      "question": "Có 100 mẫu train, batch size 20, mỗi batch cập nhật một lần, không bỏ mẫu. Một epoch gồm bao nhiêu iteration?",
+      "options": {
+        "A": "5",
+        "B": "20",
+        "C": "1",
+        "D": "100"
+      },
+      "correct_answer": "A",
+      "explanation": "«5» đúng: 100/20=5 batch, mỗi batch một lần cập nhật. «20» sai: Đây là batch size, không phải số cập nhật. «1» sai: Một epoch đi qua toàn dataset, nhưng có thể gồm nhiều cập nhật. «100» sai: Chỉ đúng trong ví dụ batch size 1. Nguồn: Buổi 09, trang PDF 69 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-018",
+      "topic": "Giảm overfitting",
+      "difficulty": "medium",
+      "source_pages": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "question": "Train loss tiếp tục giảm nhưng validation loss tăng. Cách xử lý nào phù hợp?",
+      "options": {
+        "A": "Luôn train lâu hơn bất kể validation",
+        "B": "Xem xét early stopping, mô hình vừa đủ, regularization hoặc dropout phù hợp",
+        "C": "Chọn mô hình chỉ theo train loss thấp nhất",
+        "D": "Xóa validation để không nhìn thấy loss tăng"
+      },
+      "correct_answer": "B",
+      "explanation": "«Luôn train lâu hơn bất kể validation» sai: Có thể tiếp tục làm khái quát kém hơn. «Xem xét early stopping, mô hình vừa đủ, regularization hoặc dropout phù hợp» đúng: Đây là dấu hiệu overfitting và các biện pháp được nêu. «Chọn mô hình chỉ theo train loss thấp nhất» sai: Bỏ qua chất lượng trên dữ liệu giữ riêng. «Xóa validation để không nhìn thấy loss tăng» sai: Không giải quyết nguyên nhân và mất tín hiệu đánh giá. Nguồn: Buổi 09, trang PDF 79, 80, 81, 82, 83 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-019",
+      "topic": "Chuẩn hóa và leakage",
+      "difficulty": "medium",
+      "source_pages": [
+        84
+      ],
+      "question": "Khi chuẩn hóa feature cho neural network, cách nào tránh rò rỉ từ validation/test?",
+      "options": {
+        "A": "Học tham số chuẩn hóa từ train rồi áp dụng cùng tham số cho validation/test",
+        "B": "Mạng sâu tự miễn nhiễm nên cách nào cũng được",
+        "C": "Dùng label test để chọn hệ số chuẩn hóa tốt nhất",
+        "D": "Tính tham số trên toàn bộ dữ liệu rồi mới chia train/test"
+      },
+      "correct_answer": "A",
+      "explanation": "«Học tham số chuẩn hóa từ train rồi áp dụng cùng tham số cho validation/test» đúng: Giữ thông tin tập đánh giá khỏi bước học tiền xử lý. «Mạng sâu tự miễn nhiễm nên cách nào cũng được» sai: Neural network vẫn có thể khai thác tín hiệu rò rỉ. «Dùng label test để chọn hệ số chuẩn hóa tốt nhất» sai: Trực tiếp đưa thông tin đánh giá vào lựa chọn. «Tính tham số trên toàn bộ dữ liệu rồi mới chia train/test» sai: Thống kê test đã tham gia bước chuẩn bị mô hình. Nguồn: Buổi 09, trang PDF 84 (đếm từ trang đầu file)."
+    },
+    {
+      "id": "ai-09-020",
+      "topic": "Nhận diện kiến trúc",
+      "difficulty": "easy",
+      "source_pages": [
+        89,
+        90,
+        91,
+        101,
+        105
+      ],
+      "question": "Ghép kiến trúc với đặc điểm nào đúng ở mức nhận diện trong tài liệu?",
+      "options": {
+        "A": "Mọi bài toán đều bắt buộc dùng mạng lớn nhất",
+        "B": "CNN: mẫu không gian của ảnh; RNN: dữ liệu chuỗi; Transformer: attention",
+        "C": "Transformer luôn hiểu đúng thế giới và không thể học thiên lệch",
+        "D": "CNN: chỉ lưu rule logic; RNN: chỉ tính giá nhà; Transformer: không có attention"
+      },
+      "correct_answer": "B",
+      "explanation": "«Mọi bài toán đều bắt buộc dùng mạng lớn nhất» sai: Cần cân nhắc dữ liệu, chi phí và mô hình đơn giản hơn. «CNN: mẫu không gian của ảnh; RNN: dữ liệu chuỗi; Transformer: attention» đúng: Đây là các đặc điểm cơ bản được giới thiệu. «Transformer luôn hiểu đúng thế giới và không thể học thiên lệch» sai: Mạng vẫn có thể sai và học thiên lệch từ dữ liệu. «CNN: chỉ lưu rule logic; RNN: chỉ tính giá nhà; Transformer: không có attention» sai: Không đúng các đặc điểm kiến trúc trong bài. Nguồn: Buổi 09, trang PDF 89, 90, 91, 101, 105 (đếm từ trang đầu file)."
+    }
+  ]
+}
